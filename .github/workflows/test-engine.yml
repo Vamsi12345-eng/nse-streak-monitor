@@ -1,0 +1,69 @@
+name: Test engine
+
+on:
+  push:
+    paths:
+      - "engine/**"
+      - ".github/workflows/test-engine.yml"
+  pull_request:
+    paths:
+      - "engine/**"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ["3.11", "3.12"]
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+          cache: pip
+          cache-dependency-path: engine/requirements-dev.txt
+
+      - name: Install
+        working-directory: engine
+        run: pip install -r requirements-dev.txt
+
+      # Offline suite - synthetic bars only, no network. Keeps CI green when
+      # the upstream data sources are having a bad day.
+      - name: Run tests
+        working-directory: engine
+        run: python -m pytest tests/ -v
+
+      # Separate, non-blocking: tells us when a provider changes its API shape
+      # without failing every unrelated PR.
+      - name: Smoke-test live data sources
+        working-directory: engine
+        continue-on-error: true
+        run: |
+          python - <<'PY'
+          from nse_engine.http import YahooClient, NSEClient
+          from nse_engine.universe import load_universe
+          from nse_engine import prices, fundamentals
+
+          u = load_universe()
+          print(f"universe: {len(u)} symbols")
+          assert len(u) >= 400, "Nifty 500 list looks wrong"
+
+          yc = YahooClient()
+          s = prices.fetch_series(yc, "RELIANCE.NS", 60)
+          assert s and len(s) > 20, "chart endpoint returned nothing usable"
+          print(f"chart: {len(s)} bars, last {s.bars[-1].date}")
+
+          f = fundamentals.fetch_one(yc, "RELIANCE.NS")
+          assert f and f.market_cap_cr, "quoteSummary/crumb flow is broken"
+          print(f"fundamentals: mktcap {f.market_cap_cr:,.0f} cr, PE {f.trailing_pe}")
+
+          from nse_engine import attribution
+          fl = attribution.fetch_filings(NSEClient(), "RELIANCE", "2026-01-01", "2026-12-31")
+          print(f"NSE filings endpoint returned {len(fl)} rows")
+          print("all live sources OK")
+          PY

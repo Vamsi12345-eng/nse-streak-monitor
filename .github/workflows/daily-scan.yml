@@ -1,0 +1,120 @@
+name: Daily NSE scan
+
+on:
+  schedule:
+    # NSE closes 15:30 IST (10:00 UTC). Yahoo needs a while to settle, so the
+    # first run is 17:00 IST. The second catches the third of the universe that
+    # Yahoo routinely backfills a session late - the scan dedupes by
+    # symbol+streak-end-date, so a name found twice only ever alerts once.
+    - cron: "30 11 * * 1-5"   # 17:00 IST, Mon-Fri
+    - cron: "30 14 * * 1-5"   # 20:00 IST, Mon-Fri
+  workflow_dispatch:
+    inputs:
+      gain:
+        description: "Minimum daily gain %"
+        default: "3"
+      days:
+        description: "Consecutive sessions"
+        default: "3"
+
+concurrency:
+  group: nse-scan
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: engine/requirements.txt
+
+      - name: Install dependencies
+        working-directory: engine
+        run: pip install -r requirements.txt
+
+      - name: Restore alert state
+        uses: actions/cache/restore@v4
+        with:
+          path: engine/out/state.json
+          key: nse-alert-state-${{ github.run_id }}
+          restore-keys: nse-alert-state-
+
+      - name: Run scan
+        id: scan
+        working-directory: engine
+        run: |
+          python run_scan.py \
+            --gain "${{ github.event.inputs.gain || '3' }}" \
+            --days "${{ github.event.inputs.days || '3' }}" \
+            --json ../docs/scan.json \
+            --state out/state.json
+
+      - name: Save alert state
+        uses: actions/cache/save@v4
+        if: always()
+        with:
+          path: engine/out/state.json
+          key: nse-alert-state-${{ github.run_id }}
+
+      - name: Publish results
+        run: |
+          git config user.name  "nse-scan-bot"
+          git config user.email "actions@github.com"
+          git add docs/scan.json
+          if git diff --staged --quiet; then
+            echo "no change in scan output"
+          else
+            git commit -m "scan: ${{ steps.scan.outputs.session }} (${{ steps.scan.outputs.hit_count }} hits)"
+            git push
+          fi
+
+      # Optional instant push. Set the NTFY_TOPIC secret to a topic name of
+      # your choosing, install the ntfy Android app, and subscribe to it.
+      # Without the secret this step is skipped and the app's own polling
+      # remains the delivery path.
+      - name: Push notification
+        if: steps.scan.outputs.new_count != '0' && env.NTFY_TOPIC != ''
+        env:
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+        working-directory: engine
+        run: |
+          python - <<'PY'
+          import json, os, urllib.request
+          data = json.load(open("../docs/scan.json", encoding="utf-8"))
+          new = set(data.get("new_alerts", []))
+          hits = [h for h in data["hits"] if f"{h['symbol']}@{h['end_date']}" in new]
+          if not hits:
+              raise SystemExit(0)
+
+          lines = []
+          for h in hits[:8]:
+              a = h.get("attribution") or {}
+              lines.append(f"{h['symbol']}  {h['cumulative_pct']:+.1f}%  {a.get('headline','')}")
+          body = "\n".join(lines)
+          title = (
+              f"{len(hits)} stock{'s' if len(hits) > 1 else ''} on a "
+              f"{data['config']['streak_days']}-day streak"
+          )
+          req = urllib.request.Request(
+              f"https://ntfy.sh/{os.environ['NTFY_TOPIC']}",
+              data=body.encode("utf-8"),
+              headers={"Title": title, "Tags": "chart_with_upwards_trend", "Priority": "default"},
+          )
+          urllib.request.urlopen(req, timeout=20)
+          print(f"pushed {len(hits)} alert(s)")
+          PY
+
+      - name: Upload scan artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: scan-${{ steps.scan.outputs.session }}
+          path: docs/scan.json
+          retention-days: 30

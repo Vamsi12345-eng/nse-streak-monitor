@@ -1,0 +1,56 @@
+name: Build APK
+
+on:
+  push:
+    paths:
+      - "app/**"
+      - ".github/workflows/build-apk.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up JDK 17
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "17"
+
+      # Invoked as `gradle`, not `./gradlew`, because the wrapper JAR is a
+      # binary this repo does not carry. Running `gradle wrapper` once locally
+      # (or opening the project in Android Studio) generates it if you would
+      # rather pin the version in-repo.
+      - name: Set up Gradle
+        uses: gradle/actions/setup-gradle@v4
+        with:
+          gradle-version: "8.11.1"
+
+      - name: Resolve feed URL
+        id: feed
+        run: |
+          # Defaults to this repo's own published scan.json, so a fresh fork
+          # builds an app that already points at the right place.
+          URL="${{ vars.FEED_URL }}"
+          if [ -z "$URL" ]; then
+            URL="https://raw.githubusercontent.com/${{ github.repository }}/${{ github.ref_name }}/docs/scan.json"
+          fi
+          echo "url=$URL" >> "$GITHUB_OUTPUT"
+          echo "Building against $URL"
+
+      - name: Build debug APK
+        working-directory: app
+        run: gradle assembleDebug -PfeedUrl="${{ steps.feed.outputs.url }}" --no-daemon
+
+      - name: Upload APK
+        uses: actions/upload-artifact@v4
+        with:
+          name: streak-monitor-apk
+          path: app/app/build/outputs/apk/debug/*.apk
+          retention-days: 90
+          if-no-files-found: error

@@ -1,0 +1,22 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+engine/.cache/
+engine/out/
+.venv/
+venv/
+
+# Android
+*.apk
+*.aab
+.gradle/
+build/
+local.properties
+.idea/
+.cxx/
+captures/
+
+# Built artifacts for sideloading - 36 MB, rebuildable from source.
+dist/
+# Generated preview, regenerate with: python devtools/preview.py
+devtools/preview.html

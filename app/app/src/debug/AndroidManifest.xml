@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <application android:networkSecurityConfig="@xml/network_security_config">
+
+        <!--
+          Exported so `adb shell am broadcast` can reach it. Debug source set
+          only: release builds contain neither the receiver nor this manifest
+          entry, so nothing here widens the shipped app's attack surface.
+        -->
+        <receiver
+            android:name="com.nseanalysis.app.debug.TestTriggerReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.nseanalysis.app.RUN_SCAN_NOW" />
+            </intent-filter>
+        </receiver>
+    </application>
+</manifest>
