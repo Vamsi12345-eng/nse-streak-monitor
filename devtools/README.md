@@ -21,6 +21,30 @@ Current status: **`assembleDebug` succeeds.** `lintDebug` reports 34 warnings an
 errors, all of them "a newer version is available" — none about correctness, wakelocks,
 or battery.
 
+### Build release, not debug, for anything you actually install
+
+```bash
+bash devtools/build-apk.sh assembleRelease
+```
+
+R8 and resource shrinking make a large difference, and both were measured on the
+`s24ultra` emulator:
+
+| | debug | release |
+|---|---|---|
+| APK size | 18 MB | **1.62 MB** |
+| Cold start | 3032 ms | **832 ms** |
+| Cleartext network config | present (debug source set) | **absent** |
+
+The release build is signed with the debug key (see `app/build.gradle.kts`), so it
+sideloads onto your own device fine - swap in a real keystore before distributing it
+anywhere. `.github/workflows/build-apk.yml` builds this variant.
+
+Worth re-checking after any dependency bump: R8 can break `kotlinx.serialization` if the
+proguard rules fall out of date, and the failure is a runtime parse error rather than a
+build error. Install the release APK and confirm it loads the feed, don't just confirm it
+compiles.
+
 ## `preview.py` — see the app screens on a desktop
 
 ```bash
