@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-31T17:16:46+05:30",
+  "generated_at": "2026-08-31T17:51:45+05:30",
   "session": "2026-08-31",
   "config": {
     "daily_gain_pct": 3.0,
@@ -8,37 +8,54 @@
     "min_median_turnover_cr": 5.0,
     "min_market_cap_cr": 1000.0,
     "history_days": 260,
+    "top_movers": 3,
     "max_lag_days": 5
   },
   "market": {
-    "median_day_pct": -0.78,
-    "median_streak_pct": -0.88,
-    "breadth_pct": 36.0,
+    "median_day_pct": -0.82,
+    "median_streak_pct": -0.85,
+    "breadth_pct": 37.4,
     "names": 500
   },
   "sectors": [
     {
-      "industry": "Consumer Durables",
-      "median_day_pct": 0.27,
-      "median_streak_pct": -0.21,
-      "breadth_pct": 56.2,
-      "members": 16,
-      "reliable": true
-    },
-    {
       "industry": "Oil Gas & Consumable Fuels",
-      "median_day_pct": 0.19,
+      "median_day_pct": 0.48,
       "median_streak_pct": -0.43,
       "breadth_pct": 58.8,
       "members": 17,
       "reliable": true
     },
     {
-      "industry": "Consumer Services",
-      "median_day_pct": 0.03,
-      "median_streak_pct": -0.79,
-      "breadth_pct": 51.7,
-      "members": 29,
+      "industry": "Textiles",
+      "median_day_pct": 0.0,
+      "median_streak_pct": 0.85,
+      "breadth_pct": 40.0,
+      "members": 5,
+      "reliable": true
+    },
+    {
+      "industry": "Realty",
+      "median_day_pct": -0.26,
+      "median_streak_pct": -1.55,
+      "breadth_pct": 27.3,
+      "members": 11,
+      "reliable": true
+    },
+    {
+      "industry": "Healthcare",
+      "median_day_pct": -0.27,
+      "median_streak_pct": 0.31,
+      "breadth_pct": 47.9,
+      "members": 48,
+      "reliable": true
+    },
+    {
+      "industry": "Consumer Durables",
+      "median_day_pct": -0.31,
+      "median_streak_pct": -0.14,
+      "breadth_pct": 43.8,
+      "members": 16,
       "reliable": true
     },
     {
@@ -51,138 +68,1341 @@
     },
     {
       "industry": "Automobile and Auto Components",
-      "median_day_pct": -0.41,
-      "median_streak_pct": -0.88,
-      "breadth_pct": 39.5,
+      "median_day_pct": -0.39,
+      "median_streak_pct": -0.44,
+      "breadth_pct": 44.7,
       "members": 38,
       "reliable": true
     },
     {
-      "industry": "Textiles",
-      "median_day_pct": -0.51,
-      "median_streak_pct": 1.83,
-      "breadth_pct": 40.0,
-      "members": 5,
-      "reliable": true
-    },
-    {
-      "industry": "Healthcare",
-      "median_day_pct": -0.57,
-      "median_streak_pct": 0.06,
-      "breadth_pct": 41.7,
-      "members": 48,
-      "reliable": true
-    },
-    {
       "industry": "Financial Services",
-      "median_day_pct": -0.63,
-      "median_streak_pct": -1.12,
-      "breadth_pct": 42.6,
+      "median_day_pct": -0.44,
+      "median_streak_pct": -1.01,
+      "breadth_pct": 43.6,
       "members": 101,
       "reliable": true
     },
     {
-      "industry": "Capital Goods",
-      "median_day_pct": -0.68,
-      "median_streak_pct": -0.08,
-      "breadth_pct": 34.9,
-      "members": 63,
+      "industry": "Consumer Services",
+      "median_day_pct": -0.62,
+      "median_streak_pct": -0.93,
+      "breadth_pct": 44.8,
+      "members": 29,
       "reliable": true
     },
     {
-      "industry": "Realty",
-      "median_day_pct": -0.71,
-      "median_streak_pct": -0.48,
-      "breadth_pct": 27.3,
-      "members": 11,
+      "industry": "Information Technology",
+      "median_day_pct": -0.79,
+      "median_streak_pct": 0.86,
+      "breadth_pct": 37.0,
+      "members": 27,
       "reliable": true
     },
     {
       "industry": "Telecommunication",
       "median_day_pct": -0.81,
-      "median_streak_pct": 0.58,
+      "median_streak_pct": -0.18,
       "breadth_pct": 30.0,
       "members": 10,
       "reliable": true
     },
     {
+      "industry": "Capital Goods",
+      "median_day_pct": -0.91,
+      "median_streak_pct": -0.08,
+      "breadth_pct": 39.7,
+      "members": 63,
+      "reliable": true
+    },
+    {
       "industry": "Fast Moving Consumer Goods",
       "median_day_pct": -1.05,
-      "median_streak_pct": -1.09,
+      "median_streak_pct": -1.24,
       "breadth_pct": 35.7,
       "members": 28,
       "reliable": true
     },
     {
-      "industry": "Information Technology",
-      "median_day_pct": -1.12,
-      "median_streak_pct": 0.86,
-      "breadth_pct": 29.6,
-      "members": 27,
-      "reliable": true
-    },
-    {
-      "industry": "Construction Materials",
-      "median_day_pct": -1.2,
-      "median_streak_pct": -2.28,
-      "breadth_pct": 36.4,
-      "members": 11,
-      "reliable": true
-    },
-    {
       "industry": "Power",
       "median_day_pct": -1.32,
-      "median_streak_pct": -2.69,
+      "median_streak_pct": -2.32,
       "breadth_pct": 17.6,
       "members": 17,
       "reliable": true
     },
     {
-      "industry": "Services",
-      "median_day_pct": -1.49,
-      "median_streak_pct": -1.55,
-      "breadth_pct": 21.4,
-      "members": 14,
-      "reliable": true
+      "industry": "Diversified",
+      "median_day_pct": -1.39,
+      "median_streak_pct": -2.69,
+      "breadth_pct": 0.0,
+      "members": 3,
+      "reliable": false
     },
     {
-      "industry": "Chemicals",
-      "median_day_pct": -1.55,
-      "median_streak_pct": -2.24,
-      "breadth_pct": 15.4,
-      "members": 26,
-      "reliable": true
-    },
-    {
-      "industry": "Metals & Mining",
-      "median_day_pct": -1.94,
-      "median_streak_pct": -2.76,
-      "breadth_pct": 11.1,
-      "members": 18,
+      "industry": "Construction Materials",
+      "median_day_pct": -1.46,
+      "median_streak_pct": -2.2,
+      "breadth_pct": 27.3,
+      "members": 11,
       "reliable": true
     },
     {
       "industry": "Media Entertainment & Publication",
-      "median_day_pct": -2.41,
-      "median_streak_pct": -3.79,
-      "breadth_pct": 0.0,
+      "median_day_pct": -1.56,
+      "median_streak_pct": -4.91,
+      "breadth_pct": 20.0,
       "members": 5,
       "reliable": true
     },
     {
-      "industry": "Diversified",
-      "median_day_pct": -2.83,
-      "median_streak_pct": -0.74,
-      "breadth_pct": 0.0,
-      "members": 3,
-      "reliable": false
+      "industry": "Chemicals",
+      "median_day_pct": -1.67,
+      "median_streak_pct": -1.17,
+      "breadth_pct": 19.2,
+      "members": 26,
+      "reliable": true
+    },
+    {
+      "industry": "Services",
+      "median_day_pct": -1.75,
+      "median_streak_pct": -1.2,
+      "breadth_pct": 14.3,
+      "members": 14,
+      "reliable": true
+    },
+    {
+      "industry": "Metals & Mining",
+      "median_day_pct": -1.92,
+      "median_streak_pct": -2.73,
+      "breadth_pct": 11.1,
+      "members": 18,
+      "reliable": true
     }
   ],
   "hits": [],
+  "top_gainers": [
+    {
+      "symbol": "INDGN",
+      "name": "Indegene Ltd.",
+      "industry": "Healthcare",
+      "isin": "INE065X01017",
+      "last_close": 611.65,
+      "cumulative_pct": 7.81,
+      "start_date": "2026-08-31",
+      "end_date": "2026-08-31",
+      "is_current": true,
+      "median_turnover_cr": 25.6,
+      "volume_ratio": 8.79,
+      "pct_from_52w_high": 0.0,
+      "returns": {
+        "m1": 19.4,
+        "m3": 18.5,
+        "y1": null
+      },
+      "days": [
+        {
+          "date": "2026-08-31",
+          "close": 611.6500244140625,
+          "gain_pct": 7.81,
+          "volume": 3971815
+        }
+      ],
+      "attribution": {
+        "verdict": "unexplained",
+        "headline": "Company-specific, but nothing disclosed to explain it",
+        "explanation": [
+          "The stock gained +7.8% over the session 2026-08-31.",
+          "Its sector (Healthcare) moved -0.3% over the same window, with 48% of its 48 Nifty 500 members advancing on the last session.",
+          "The broad market (median of 500 Nifty 500 names) moved -0.8% over the window, with 37% advancing on the last session.",
+          "The stock outpaced its sector by 8.1 percentage points, yet filed no disclosure in the window that would account for it.",
+          "An unexplained move away from the sector is worth more caution, not less - it can reflect speculation, a leaked development, or an operator-driven move.",
+          "Volume ran 8.8x its 20-day median, so real institutional-scale money participated rather than thin-book drift."
+        ],
+        "stock_streak_pct": 7.81,
+        "sector_streak_pct": -0.27,
+        "market_streak_pct": -0.82,
+        "excess_vs_sector_pct": 8.08,
+        "sector_breadth_pct": 48.0,
+        "volume_ratio": 8.79,
+        "cautions": [],
+        "filings": [],
+        "headlines": [
+          {
+            "title": "INDGN Forecast — Price Target — Prediction for 2027 - TradingView",
+            "source": "TradingView",
+            "published": "Tue, 30 Jun 2026 15:15:32 GMT",
+            "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBlRF9fUE9RdU0zNnB2b1RKLVdKNWVWMzV0RHY0eERfMnozV20wSHJaUDJLaU1icXhRTmZrcXlNRUt1aW13UDRWSmR4bWhSTFJsMzE0YzFtWHh4R29TRjg5SS0tN292d0V2dV9xUktCenZscTQ4MWk0?oc=5"
+          },
+          {
+            "title": "Indegene Limited (NSE:INDGN) First-Quarter Results Just Came Out: Here's What Analysts Are Forecasting For This Year - simplywall.st",
+            "source": "simplywall.st",
+            "published": "Mon, 03 Aug 2026 07:00:00 GMT",
+            "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOVzJGLXFKbDFDZmI5MndtUWJjRVJXMGhJQ3dNXzBjNEZHb2RfbE1tOFJCbm9JYzZSVTEwcjBWMkZXRmt3anJJLWNEU1lkR2FMbVlPdEg0RFNxTFJWMVo3RDhWU3hWaUFacTlkS2VhWFBpVTJoQ1lKRmNDVU1DMU4yLU0zeXBSS3JjZkRQY0pqN0xPUmNNNHl0bVJMOEZFUW9SNXl6Q2VKYmR0emcxRG5GbUFsOGotRU16Vm9HT3N0ZXdrY0FJeFUyVmJfUW56ZW1BTVFRYVpOTHZiWkJNYUp5LdIB5gFBVV95cUxPTS1OZ3RDWXUwN2htQkNfUXVIM2xHcnBQV1B4NjF6ekFHYzdRYkRsNUkxR0dFSFlya0thUjFXSDFKS0NjNFF0MzVMcDRuVW92QXVXeGx6ZW1PQmFNdmlTVzRETkFwel9PRGRMa21FcjdKb2tOSmF3djhRYklfVTlKUkJTTUloUnFkdmQwS3c2TjhQYXU5ajNXdUk4RzNDemM4NE5qZ2ZvSVM3Q0c0akROX2p4bEhKMUZlMEtRcUJZVHJORXlYc19XazZTTnptZnBRZjZhVWtXSjlsZlhJWnJhaTYxcTI0UQ?oc=5"
+          },
+          {
+            "title": "Indegene Ltd. Share Price Today - Indegene Ltd. Stock Price Live NSE/BSE - CNBC TV18",
+            "source": "CNBC TV18",
+            "published": "Sat, 03 Jan 2026 08:02:20 GMT",
+            "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBHLWxNUG5VNDJKTGc3RWVmUk9aQmdHMU9FUjhObHg2bHRHWWprSE9IX0ZfQTVxbjlvVm15N3NHbWhxTWlFdjZRZmdmU0FSa1ZVSkdlQW0xQklkQThuakNRMFhVSnQtT1ZxOW9EQThZbkYyZUpIaF92SA?oc=5"
+          },
+          {
+            "title": "Should You Buy Indegene Limited (NSE:INDGN) For Its Upcoming Dividend? - simplywall.st",
+            "source": "simplywall.st",
+            "published": "Mon, 27 Jul 2026 07:00:00 GMT",
+            "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOeDNXQ3Bac0VGSEE2by0tdzhFQ1RWTmJBTk5ubk5QRmw2eTJmOVRGTG0wMkZ5WlotXzJoUEtmYkQ5bEhwRnd6ZmxadHpNdzVBVG0wTlRQZUNkTFl1bzlRT0VRUGI5QXczdzFRSzJKYWVlTlA3blpqbnhzTzNGeW10LWxHRFlvMDQ2R0NGZlA4NWc0UWJPc2dqQWg3N21yX2NqeDFLdk1MWjdlVWFsem1BNXphWkJKdnlZYlJwUmxkcmxlZVF2THhaTDN1VGxnQWtWM2xVMHI1cXVmSmJoaUh1S9IB5gFBVV95cUxObVIxVWlZa080ME13REJ4VmJNd3J6SUQxZDVhbmJtcWVnblRKS2RfNnQ4cnMzZXlUelQybjljR2dQWTZULUN5RUFxQmd5QXY0V2U1ME1DdmVRaDhPYmczb0c1ME1xWnA4QUFjSHdHVWlZeG9MZ0xSWUhHdWxfWjJKZktkaUkwamljQ09RdGJ3bGNzSTNTNmtHQmNQVEFJZU5vVHIwZE1TajJ6dnNPdE5xYkMzVmswVF9ReGMtZEV4akxjdlMwcEM2NWFoVkV4cGRiU25CaWhkNmFVd0lBejhHVzZKSmV0dw?oc=5"
+          },
+          {
+            "title": "INDEGENE LIMITED Share Price - Live NSE: INDGN Stock Price & Chart - Upstox",
+            "source": "Upstox",
+            "published": "Tue, 21 Oct 2025 17:44:00 GMT",
+            "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE91NFJOallWODNvcE1CYXUtdlFTdnVUQmdIYVpXckxMUjJtMW82X3NvT3A4dkZtQzJWT3ozMHg3S3pQMlR5bTBLX19XRGxWSEdMLTd5dXdkX2lLZGY1YXotV0t1UURkUQ?oc=5"
+          },
+          {
+            "title": "Could The Market Be Wrong About Indegene Limited (NSE:INDGN) Given Its Attractive Financial Prospects? - simplywall.st",
+            "source": "simplywall.st",
+            "published": "Tue, 20 Jan 2026 08:00:00 GMT",
+            "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQN29zUzE2ekJFODVqT0lHc2ZpSkNWX1dmVzRUeFFNRVJkN002a0RuNFA0eTZ1Y3YzNFFvWUV4T1M5a1RiRmx5LVRVem9jYm9QUEVJUS1RNWhSZG9jdWdrVzhKc0RzUEkxNGJ1MG50ajFjRGlSNlRrSXdiUGJWYkhGcVRPR2NqNjBfT2tzb3pGOS1SenJyd0JQLUhjRk9SVjhqcU83bTVYNHlXck5RaDJKaXh1U0Z4c1FqZGQ4MXVCNV8zWVExS2RPV09LUnI1eUF3UjhqQXl1YmFJSFNLZl9UM9IB5gFBVV95cUxQblhUNzdTVlJwQ0U2bS1wZnRpOGtzTldpTW9Tb0JGVkc2enZ3SnpKS19BM2doUVdFXzBmZGtONXBKZmdPUnJVU29XSHptY1dzTnhCZ1AyaVRxTjZ5cTV4azdVRGNCU1hpNEMtS0pTaFFuYXh1ejdydEx3MGY1cVh2eHRudk00aVRBRFJlSHc5WWhrWFRPd09KVEpURDFnLXI0cnJLUjlJTFZPSV9FRUVPQ0NleWZFWVBXQVdkZUFqXzZRZWMzc3dZOVhKNEc4TURyNUVEckF4QTNoWU55RFIxVkM3clFuUQ?oc=5"
+          }
+        ]
+      },
+      "fundamentals": {
+        "symbol": "INDGN",
+        "market_cap_cr": 14729.0,
+        "trailing_pe": 36.802044,
+        "forward_pe": 22.504591,
+        "price_to_book": 4.694528,
+        "roe_pct": null,
+        "debt_to_equity": 5.043,
+        "revenue_growth_pct": 39.7,
+        "earnings_growth_pct": -0.2,
+        "operating_margin_pct": 12.24,
+        "profit_margin_pct": 10.52,
+        "promoter_holding_pct": 55.67,
+        "institutional_holding_pct": 21.91,
+        "dividend_yield_pct": 0.39,
+        "current_ratio": null,
+        "beta": 0.716,
+        "target_mean": 620.625,
+        "target_low": 500.0,
+        "target_high": 735.0,
+        "analyst_count": 8,
+        "current_price": 611.65,
+        "business_summary": "Indegene Limited operates as a digital-first life sciences commercialization company in India, the United States, Europe, North America, and internationally. It operates through Enterprise Medical Solutions, Enterprise Commercial Solutions, and Other segments. The company provides AI-embedded commercialization services for biopharmaceutical, emerging biotech, and medical devices companies. It also offers enterprise commercial, medical, and clinical solutions; and omnichannel activation solutions. In addition, the company operates NEXT technology platforms, as well as provides analytics, technology, commercial, medical, regulatory, and safety services to life science and healthcare organizations. Further, it engages in the professional, and scientific and technical activities. Indegene Limited was incorporated in 1998 and is based in Bengaluru, India."
+      },
+      "benchmark": {
+        "industry": "Healthcare",
+        "peers": 47,
+        "trailing_pe": 49.04,
+        "price_to_book": 6.66,
+        "roe_pct": 8.84,
+        "debt_to_equity": 18.61,
+        "revenue_growth_pct": 19.6,
+        "profit_margin_pct": 14.31
+      },
+      "scorecard": {
+        "factors": [
+          {
+            "name": "Trailing P/E",
+            "value": "36.8",
+            "peer_value": "49.0",
+            "stance": "bull",
+            "note": "Cheaper than the typical peer on trailing earnings."
+          },
+          {
+            "name": "Price / Book",
+            "value": "4.7",
+            "peer_value": "6.7",
+            "stance": "bull",
+            "note": "Trades at a lower multiple of book value than peers."
+          },
+          {
+            "name": "Return on Equity",
+            "value": "n/a",
+            "peer_value": "8.8%",
+            "stance": "unknown",
+            "note": "Not reported by the data source."
+          },
+          {
+            "name": "Debt / Equity",
+            "value": "5.0",
+            "peer_value": "18.6",
+            "stance": "bull",
+            "note": "Carries less leverage than peers, so less earnings risk if rates rise."
+          },
+          {
+            "name": "Revenue growth (yoy)",
+            "value": "39.7%",
+            "peer_value": "19.6%",
+            "stance": "bull",
+            "note": "Growing the top line faster than the sector."
+          },
+          {
+            "name": "Net margin",
+            "value": "10.5%",
+            "peer_value": "14.3%",
+            "stance": "bear",
+            "note": "Thinner margins than peers."
+          }
+        ],
+        "bull_case": [
+          "Trailing P/E 36.8 vs sector 49.0. Cheaper than the typical peer on trailing earnings.",
+          "Price / Book 4.7 vs sector 6.7. Trades at a lower multiple of book value than peers.",
+          "Debt / Equity 5.0 vs sector 18.6. Carries less leverage than peers, so less earnings risk if rates rise.",
+          "Revenue growth (yoy) 39.7% vs sector 19.6%. Growing the top line faster than the sector.",
+          "Promoters hold 56%, so their interests stay tied to the share price.",
+          "8 analysts publish a mean target of 621, 2% above the current price."
+        ],
+        "bear_case": [
+          "Net margin 10.5% vs sector 14.3%. Thinner margins than peers.",
+          "Earnings fell 0% year on year, so the price move is running ahead of profits.",
+          "Sitting within 0% of its 52-week high, so you are buying after the move, not before it."
+        ],
+        "invalidators": [
+          "Two consecutive quarters of revenue or margin decline would remove the growth premise this rests on.",
+          "A promoter pledge increase or a fresh exchange surveillance action would change the risk profile regardless of the fundamentals."
+        ],
+        "data_gaps": [
+          "Return on Equity unavailable"
+        ],
+        "bull_count": 4,
+        "bear_count": 1
+      },
+      "research_prompt": "I'm a long-term retail investor in Indian equities (NSE). My screener flagged Indegene Ltd. (INDGN) because it gained at least 3% on each of 1 consecutive sessions. I want your independent read - please push back on my screener rather than agreeing with it.\n\n## What my screener measured\n\n- Streak: 2026-08-31 to 2026-08-31, +7.8% cumulative\n- Daily gains: 2026-08-31 +7.81%\n- Last close: Rs 611.65\n- Sector: Healthcare\n- Median 20-day turnover: Rs 25.6 crore\n- Volume vs 20-day median: 8.79x\n- Distance from 52-week high: 0.0%\n- Return 1M / 3M / 1Y: 19.4% / 18.5% / None%\n\n## Attribution my engine computed\n\n- Verdict: unexplained - Company-specific, but nothing disclosed to explain it\n- Stock over the window: +7.8%\n- Sector median over the same window: -0.3%\n- Excess vs sector: +8.1 pp\n- Broad market median: -0.8%\n\n- No NSE corporate filings in the window.\n\n### Recent headlines (unverified, from Google News)\n\n- INDGN Forecast — Price Target — Prediction for 2027 - TradingView\n- Indegene Limited (NSE:INDGN) First-Quarter Results Just Came Out: Here's What Analysts Are Forecasting For This Year - simplywall.st\n- Indegene Ltd. Share Price Today - Indegene Ltd. Stock Price Live NSE/BSE - CNBC TV18\n- Should You Buy Indegene Limited (NSE:INDGN) For Its Upcoming Dividend? - simplywall.st\n- INDEGENE LIMITED Share Price - Live NSE: INDGN Stock Price & Chart - Upstox\n- Could The Market Be Wrong About Indegene Limited (NSE:INDGN) Given Its Attractive Financial Prospects? - simplywall.st\n\n## Fundamentals\n\n- Market cap: Rs 14,729 crore\n- Trailing P/E: 36.802044\n- Forward P/E: 22.504591\n- Price/Book: 4.694528\n- Debt/Equity: 5.043\n- Revenue growth (yoy): 39.7%\n- Earnings growth (yoy): -0.2%\n- Operating margin: 12.24%\n- Net margin: 10.52%\n- Promoter holding: 55.67%\n- Institutional holding: 21.91%\n- Dividend yield: 0.39%\n- Analyst count: 8\n- Mean target price: 620.625\n\n### Sector medians (Healthcare, 47 Nifty 500 peers)\n\n- Trailing P/E: 49.04\n- Price/Book: 6.66\n- Return on equity: 8.84%\n- Debt/Equity: 18.61\n- Revenue growth: 19.6%\n- Net margin: 14.31%\n\n### Data my engine could not get\n\n- Return on Equity unavailable\n\n## What I want from you\n\n1. **Why did it actually move?** My engine only sees exchange filings and price action. Check whether there is a real catalyst it missed - sector news, a peer's results, a policy change, an index inclusion, a block deal.\n2. **Is my engine's attribution wrong?** Say so directly if the evidence points elsewhere.\n3. **The one-year view.** Build a bull case and a bear case from the business, not from the chart. What has to be true for this to work, and what would break it? Be concrete about which numbers to watch.\n4. **What would you check that I have not?** Name the specific filings, segments or metrics.\n\nPlease flag anything above that looks stale or wrong, and tell me plainly if this looks like a speculative move rather than an investable one. I am not asking you to tell me whether to buy - I want the reasoning so I can decide."
+    },
+    {
+      "symbol": "ATHERENERG",
+      "name": "Ather Energy Ltd.",
+      "industry": "Automobile and Auto Components",
+      "isin": "INE0LEZ01016",
+      "last_close": 1717.7,
+      "cumulative_pct": 6.27,
+      "start_date": "2026-08-31",
+      "end_date": "2026-08-31",
+      "is_current": true,
+      "median_turnover_cr": 597.6,
+      "volume_ratio": 5.0,
+      "pct_from_52w_high": 0.0,
+      "returns": {
+        "m1": 36.3,
+        "m3": 68.1,
+        "y1": 252.9
+      },
+      "days": [
+        {
+          "date": "2026-08-31",
+          "close": 1717.699951171875,
+          "gain_pct": 6.27,
+          "volume": 19711186
+        }
+      ],
+      "attribution": {
+        "verdict": "company_catalyst",
+        "headline": "Company-specific - investor communication disclosed to the exchange",
+        "explanation": [
+          "The stock gained +6.3% over the session 2026-08-31.",
+          "Its sector (Automobile and Auto Components) moved -0.4% over the same window, with 45% of its 38 Nifty 500 members advancing on the last session.",
+          "The broad market (median of 500 Nifty 500 names) moved -0.8% over the window, with 37% advancing on the last session.",
+          "The stock outpaced its sector by 6.7 percentage points, so the move is company-specific rather than sector-wide.",
+          "NSE filing 2026-08-31 16:38 - Investor communication: Analysts/Institutional Investor Meet/Con. Call Updates.",
+          "NSE filing 2026-08-27 15:33 - Investor communication: Analysts/Institutional Investor Meet/Con. Call Updates.",
+          "Volume ran 5.0x its 20-day median, so real institutional-scale money participated rather than thin-book drift."
+        ],
+        "stock_streak_pct": 6.27,
+        "sector_streak_pct": -0.39,
+        "market_streak_pct": -0.82,
+        "excess_vs_sector_pct": 6.66,
+        "sector_breadth_pct": 45.0,
+        "volume_ratio": 5.0,
+        "cautions": [],
+        "filings": [
+          {
+            "date": "2026-08-31",
+            "time": "16:38",
+            "category": "Analysts/Institutional Investor Meet/Con. Call Updates",
+            "summary": "Ather Energy Limited has informed the Exchange about Schedule of meet",
+            "pdf_url": "https://nsearchives.nseindia.com/corporate/ATHERENERGY_31082026163808_SEintimationConferences7Sep2026.pdf",
+            "bucket": "catalyst",
+            "label": "Investor communication"
+          },
+          {
+            "date": "2026-08-29",
+            "time": "13:04",
+            "category": "Updates",
+            "summary": "Ather Energy Limited has informed the Exchange regarding 'press release titled  Ather Energy marks 4th Ather Community Day by launching Konarc and innovations across vehicle health, batteries and charging. '.",
+            "pdf_url": "https://nsearchives.nseindia.com/corporate/ATHERENERGY_29082026130325_Pressrelease2signed.pdf",
+            "bucket": "neutral",
+            "label": "Routine or administrative disclosure"
+          },
+          {
+            "date": "2026-08-29",
+            "time": "13:02",
+            "category": "Updates",
+            "summary": "Ather Energy Limited has informed the Exchange regarding 'Press release titled  Ather Energy introduces Konarc, its new electric scooter to make EVs mainstream. '.",
+            "pdf_url": "https://nsearchives.nseindia.com/corporate/ATHERENERGY_29082026130130_Pressrelease1signed.pdf",
+            "bucket": "neutral",
+            "label": "Routine or administrative disclosure"
+          },
+          {
+            "date": "2026-08-27",
+            "time": "15:33",
+            "category": "Analysts/Institutional Investor Meet/Con. Call Updates",
+            "summary": "Ather Energy Limited has informed the Exchange about Schedule of meet",
+            "pdf_url": "https://nsearchives.nseindia.com/corporate/ATHERENERGY_27082026153259_SEIntimationAugust272026.pdf",
+            "bucket": "catalyst",
+            "label": "Investor communication"
+          }
+        ],
+        "headlines": [
+          {
+            "title": "ATHER ENERGY LIMITED Share Price - Live NSE: ATHERENERG Stock Price & Chart - Upstox",
+            "source": "Upstox",
+            "published": "Tue, 05 May 2026 11:34:19 GMT",
+            "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBBbmFLRldTRHpDM1JfX1ViYy15cGtDRHlKUnJCWmMyV2JRaU96UHIxYmh1Ui1DbmZaRVdsQWY3UHppNnZQNTl3em9zZk9aT0VSd0U1SHV6bTBIN1hMMlFlMUNIZlQxYTcyV2xB?oc=5"
+          },
+          {
+            "title": "Ather Energy Ltd. Option Chain - Live NSE Option Chain Data, and OI - HDFC Sky",
+            "source": "HDFC Sky",
+            "published": "Wed, 26 Aug 2026 19:40:18 GMT",
+            "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5qRDJqeDlzVW54bXRqbzNyZ2lWbEdwNEF6cnZnTGdwajNOLUlDVU9TUGsxenpEOF9rZ0k3aGFSZDVPbW0tTHpMenRkZUxJWkNpNGZoMjk2LU9aWGpVSmc?oc=5"
+          },
+          {
+            "title": "ATHERENERG Forecast — Price Target — Prediction for 2027 - TradingView",
+            "source": "TradingView",
+            "published": "Thu, 25 Jun 2026 18:21:58 GMT",
+            "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1QZnhRRGtTWHlPV0JPN0tCMHU4VXlTWkNCTnlCWExCeEhsUFVCNGVLbFNZWVdjYmtad29RcDVtR3JPU01oUGN3TEdRdVJZQS1BMEczM3lrakI0ZkhwSjZ2RVM1anp3VXZCZ3J1WjVsQUt4VXNMOXlXR1R6YzJzZw?oc=5"
+          },
+          {
+            "title": "When Will Ather Energy Limited (NSE:ATHERENERG) Turn A Profit? - simplywall.st",
+            "source": "simplywall.st",
+            "published": "Wed, 20 May 2026 07:00:00 GMT",
+            "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPRXVpd2VCUVMyaWZKeUF1MlVqcHIwODVfX25MUTYyaDdXWGV0T3cxc19MekZWSDhiV0VuVzJna1JzSkpUa3d6cFlHWjdpbnp3bjRMenk0OWVOVlYzTkJtSnpLUzZCRkpDemU0cDN1cTgtZG1Qa1VuMEx6VUlKQTVyWXdnc2hYR05FWk4xd0ltZUNnTnNZZExWMzMzTXFJakRycUwzNjFjNlNtZ2V6ZEEzS3JJYnRNb3V2WmIyNkdmXzFjNnVydVo0NXVDVjhnbkJoZGZlbGNFeDN2d9IB3wFBVV95cUxPYXA3Q0R2dnJ2d2E1ck1sZFFNUnVfOTNPTFlPRnhqdlRzNThVaWk1cDJ6ckhoSXd2WVFQWnZQWWZuRnJudWZPMFN6WW52bktvemtjTGplWm0tSHNFN2dMc01SeDlVSEdlSUxPNEowWTZwZmN5RENrU1N2Ti1keHVkampZSWtOSmZmZmdxdU0yUk5WRWxkXzJKVXFnSkNWdXl5WFlSbTRwRFV2cUpiRGVrT1IxTlY4dFVVb2tpY21rU0J4MlRzcUZ0LXkwaVZ6X3hDNFdiY3V6UVhINEYyclFJ?oc=5"
+          },
+          {
+            "title": "Ather Energy Share Price Target 2026: Rs 1,200 Analyst Forecast - Univest",
+            "source": "Univest",
+            "published": "Thu, 18 Jun 2026 07:00:00 GMT",
+            "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE91b0pfUkdCdVpsUlk4aWNfS25vQmQtNFluUW5ON1pEYjVLQzcxTVl3WWZwVFdZZWhBSkhsNkhnb294RTdnUnFST1Q2bHdGd0p2MVF1WUJNakMxdEFRaTdRNVNyRTBRYzk4SHExQWV3?oc=5"
+          },
+          {
+            "title": "Ather Energy Q1 earnings: Net loss narrows to ₹51 crore, revenue jumps 89% to ₹1,217 crore - Upstox",
+            "source": "Upstox",
+            "published": "Mon, 03 Aug 2026 07:00:00 GMT",
+            "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPbmF0d0tTTXJ4SnBjbW1ieWRSNEVndGhtUEpJVEU2SXBpODJIN1Vrb3BTRGZjTmFkOVBRWHNmM1Rtb1JLOUxtckpPcFRlSHRnZTZINjJTLU5kYXpyUFR2TUxRdXpnV2VpSUVzNzRLVnZyQXpObGppTUZKZGdjdFFPMmF1Q2ZSZk5XSXFHb1YyQjNJeHNmSzl0YjlrczhtcFN5ZnprQWdWbnU1ak9meVJNaW11WDNlbUJ5UUZGanF0eHJBSm1DbXVnNHlPY090LW9YanREbjJnOXhFdzFUeVpv?oc=5"
+          }
+        ]
+      },
+      "fundamentals": {
+        "symbol": "ATHERENERG",
+        "market_cap_cr": 68041.0,
+        "trailing_pe": null,
+        "forward_pe": 657.45,
+        "price_to_book": 25.550365,
+        "roe_pct": null,
+        "debt_to_equity": 25.819,
+        "revenue_growth_pct": 88.8,
+        "earnings_growth_pct": null,
+        "operating_margin_pct": -5.94,
+        "profit_margin_pct": -9.19,
+        "promoter_holding_pct": 54.29,
+        "institutional_holding_pct": 25.71,
+        "dividend_yield_pct": null,
+        "current_ratio": null,
+        "beta": null,
+        "target_mean": 1466.4,
+        "target_low": 1010.0,
+        "target_high": 1714.0,
+        "analyst_count": 10,
+        "current_price": 1717.7,
+        "business_summary": "Ather Energy Limited, an electric vehicle company, engages in the design, development, and sale of electric two-wheelers, and associated product ecosystem. The company also offers vehicle architecture and chassis; battery packs and battery management system; vehicle control unit; touchscreen dashboard; motor controller; transmission; signal harness; and fast charging system. In addition, it provides charging infrastructure, software, accessories and insurance policies in the capacity of corporate agent. The company was incorporated in 2013 and is headquartered in Bengaluru, India."
+      },
+      "benchmark": {
+        "industry": "Automobile and Auto Components",
+        "peers": 37,
+        "trailing_pe": 39.14,
+        "price_to_book": 6.17,
+        "roe_pct": 21.64,
+        "debt_to_equity": 29.1,
+        "revenue_growth_pct": 20.7,
+        "profit_margin_pct": 6.22
+      },
+      "scorecard": {
+        "factors": [
+          {
+            "name": "Trailing P/E",
+            "value": "n/a",
+            "peer_value": "39.1",
+            "stance": "unknown",
+            "note": "Not reported by the data source."
+          },
+          {
+            "name": "Price / Book",
+            "value": "25.6",
+            "peer_value": "6.2",
+            "stance": "bear",
+            "note": "Trades at a premium to peer book value."
+          },
+          {
+            "name": "Return on Equity",
+            "value": "n/a",
+            "peer_value": "21.6%",
+            "stance": "unknown",
+            "note": "Not reported by the data source."
+          },
+          {
+            "name": "Debt / Equity",
+            "value": "25.8",
+            "peer_value": "29.1",
+            "stance": "bull",
+            "note": "Carries less leverage than peers, so less earnings risk if rates rise."
+          },
+          {
+            "name": "Revenue growth (yoy)",
+            "value": "88.8%",
+            "peer_value": "20.7%",
+            "stance": "bull",
+            "note": "Growing the top line faster than the sector."
+          },
+          {
+            "name": "Net margin",
+            "value": "-9.2%",
+            "peer_value": "6.2%",
+            "stance": "bear",
+            "note": "Thinner margins than peers."
+          }
+        ],
+        "bull_case": [
+          "Debt / Equity 25.8 vs sector 29.1. Carries less leverage than peers, so less earnings risk if rates rise.",
+          "Revenue growth (yoy) 88.8% vs sector 20.7%. Growing the top line faster than the sector.",
+          "Promoters hold 54%, so their interests stay tied to the share price."
+        ],
+        "bear_case": [
+          "Price / Book 25.6 vs sector 6.2. Trades at a premium to peer book value.",
+          "Net margin -9.2% vs sector 6.2%. Thinner margins than peers.",
+          "10 analysts publish a mean target of 1466, 15% below the current price.",
+          "Sitting within 0% of its 52-week high, so you are buying after the move, not before it."
+        ],
+        "invalidators": [
+          "Two consecutive quarters of revenue or margin decline would remove the growth premise this rests on.",
+          "The stock is already up 253% over a year; that pace normally needs earnings to catch up, or the multiple contracts.",
+          "A promoter pledge increase or a fresh exchange surveillance action would change the risk profile regardless of the fundamentals."
+        ],
+        "data_gaps": [
+          "Trailing P/E unavailable",
+          "Return on Equity unavailable"
+        ],
+        "bull_count": 2,
+        "bear_count": 2
+      },
+      "research_prompt": "I'm a long-term retail investor in Indian equities (NSE). My screener flagged Ather Energy Ltd. (ATHERENERG) because it gained at least 3% on each of 1 consecutive sessions. I want your independent read - please push back on my screener rather than agreeing with it.\n\n## What my screener measured\n\n- Streak: 2026-08-31 to 2026-08-31, +6.3% cumulative\n- Daily gains: 2026-08-31 +6.27%\n- Last close: Rs 1,717.70\n- Sector: Automobile and Auto Components\n- Median 20-day turnover: Rs 597.6 crore\n- Volume vs 20-day median: 5.0x\n- Distance from 52-week high: 0.0%\n- Return 1M / 3M / 1Y: 36.3% / 68.1% / 252.9%\n\n## Attribution my engine computed\n\n- Verdict: company_catalyst - Company-specific - investor communication disclosed to the exchange\n- Stock over the window: +6.3%\n- Sector median over the same window: -0.4%\n- Excess vs sector: +6.7 pp\n- Broad market median: -0.8%\n\n### NSE filings in the window\n\n- 2026-08-31 [catalyst] Analysts/Institutional Investor Meet/Con. Call Updates - Investor communication\n  Ather Energy Limited has informed the Exchange about Schedule of meet\n- 2026-08-29 [neutral] Updates - Routine or administrative disclosure\n  Ather Energy Limited has informed the Exchange regarding 'press release titled  Ather Energy marks 4th Ather Community Day by launching Konarc and innovations across vehicle health\n- 2026-08-29 [neutral] Updates - Routine or administrative disclosure\n  Ather Energy Limited has informed the Exchange regarding 'Press release titled  Ather Energy introduces Konarc, its new electric scooter to make EVs mainstream. '.\n- 2026-08-27 [catalyst] Analysts/Institutional Investor Meet/Con. Call Updates - Investor communication\n  Ather Energy Limited has informed the Exchange about Schedule of meet\n\n### Recent headlines (unverified, from Google News)\n\n- ATHER ENERGY LIMITED Share Price - Live NSE: ATHERENERG Stock Price & Chart - Upstox\n- Ather Energy Ltd. Option Chain - Live NSE Option Chain Data, and OI - HDFC Sky\n- ATHERENERG Forecast — Price Target — Prediction for 2027 - TradingView\n- When Will Ather Energy Limited (NSE:ATHERENERG) Turn A Profit? - simplywall.st\n- Ather Energy Share Price Target 2026: Rs 1,200 Analyst Forecast - Univest\n- Ather Energy Q1 earnings: Net loss narrows to ₹51 crore, revenue jumps 89% to ₹1,217 crore - Upstox\n\n## Fundamentals\n\n- Market cap: Rs 68,041 crore\n- Forward P/E: 657.45\n- Price/Book: 25.550365\n- Debt/Equity: 25.819\n- Revenue growth (yoy): 88.8%\n- Operating margin: -5.94%\n- Net margin: -9.19%\n- Promoter holding: 54.29%\n- Institutional holding: 25.71%\n- Analyst count: 10\n- Mean target price: 1466.4\n\n### Sector medians (Automobile and Auto Components, 37 Nifty 500 peers)\n\n- Trailing P/E: 39.14\n- Price/Book: 6.17\n- Return on equity: 21.64%\n- Debt/Equity: 29.1\n- Revenue growth: 20.7%\n- Net margin: 6.22%\n\n### Data my engine could not get\n\n- Trailing P/E unavailable\n- Return on Equity unavailable\n\n## What I want from you\n\n1. **Why did it actually move?** My engine only sees exchange filings and price action. Check whether there is a real catalyst it missed - sector news, a peer's results, a policy change, an index inclusion, a block deal.\n2. **Is my engine's attribution wrong?** Say so directly if the evidence points elsewhere.\n3. **The one-year view.** Build a bull case and a bear case from the business, not from the chart. What has to be true for this to work, and what would break it? Be concrete about which numbers to watch.\n4. **What would you check that I have not?** Name the specific filings, segments or metrics.\n\nPlease flag anything above that looks stale or wrong, and tell me plainly if this looks like a speculative move rather than an investable one. I am not asking you to tell me whether to buy - I want the reasoning so I can decide."
+    },
+    {
+      "symbol": "CYIENT",
+      "name": "Cyient Ltd.",
+      "industry": "Information Technology",
+      "isin": "INE136B01020",
+      "last_close": 1174.8,
+      "cumulative_pct": 6.08,
+      "start_date": "2026-08-31",
+      "end_date": "2026-08-31",
+      "is_current": true,
+      "median_turnover_cr": 53.7,
+      "volume_ratio": 4.68,
+      "pct_from_52w_high": -6.4,
+      "returns": {
+        "m1": 38.6,
+        "m3": 29.6,
+        "y1": -0.1
+      },
+      "days": [
+        {
+          "date": "2026-08-31",
+          "close": 1174.800048828125,
+          "gain_pct": 6.08,
+          "volume": 2546288
+        }
+      ],
+      "attribution": {
+        "verdict": "company_catalyst",
+        "headline": "Company-specific - investor communication disclosed to the exchange",
+        "explanation": [
+          "The stock gained +6.1% over the session 2026-08-31.",
+          "Its sector (Information Technology) moved -0.8% over the same window, with 37% of its 27 Nifty 500 members advancing on the last session.",
+          "The broad market (median of 500 Nifty 500 names) moved -0.8% over the window, with 37% advancing on the last session.",
+          "The stock outpaced its sector by 6.9 percentage points, so the move is company-specific rather than sector-wide.",
+          "NSE filing 2026-08-28 22:06 - Investor communication: Analysts/Institutional Investor Meet/Con. Call Updates.",
+          "Volume ran 4.7x its 20-day median, so real institutional-scale money participated rather than thin-book drift."
+        ],
+        "stock_streak_pct": 6.08,
+        "sector_streak_pct": -0.79,
+        "market_streak_pct": -0.82,
+        "excess_vs_sector_pct": 6.87,
+        "sector_breadth_pct": 37.0,
+        "volume_ratio": 4.68,
+        "cautions": [],
+        "filings": [
+          {
+            "date": "2026-08-28",
+            "time": "22:06",
+            "category": "Analysts/Institutional Investor Meet/Con. Call Updates",
+            "summary": "Cyient Limited has informed the Exchange about Link of Recording",
+            "pdf_url": "https://nsearchives.nseindia.com/corporate/CYIENT_28082026220636_InvestorCallRecodingSigned.pdf",
+            "bucket": "catalyst",
+            "label": "Investor communication"
+          }
+        ],
+        "headlines": [
+          {
+            "title": "Cyient Share Price - Upstox",
+            "source": "Upstox",
+            "published": "Fri, 28 Aug 2026 07:00:00 GMT",
+            "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5VVWlEVEpweVVkajY5Yjc1OEVBcHBYYmR3Z0dGSmNndkI3bkZSYlcyUXVDNHF1a1cwZVUyaEo2S0hrSHVpSVU2cjBNSkF6T2RfSVl5RGNqLWRNU0dRZjZHYXhIYw?oc=5"
+          },
+          {
+            "title": "Cyient Limited Just Missed Earnings - But Analysts Have Updated Their Models - simplywall.st",
+            "source": "simplywall.st",
+            "published": "Sun, 26 Jul 2026 07:00:00 GMT",
+            "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQS25aT1MtTWtkemhiU2FlS0l0SkpXWXdWSlQ2Rm5TQUN5N3hock1yZ0ZNYV80eU5LX0htbmZOOU52OThsTG10Ui14Rm5kX0NQLWNyRzVWMlFKQWpjMjhvamFqSlFISVNIZVJIaF9fbTNJUTdTWVBHLUxqUjNfd2FfNlJFb2J4YXprX0kwbDFnNzE2azBUeXJJLVJKRTNYZ2dsRjNiYXNsWk5NVUVlWjkySW5SRV9SbVVMTUtyamlGNmIwMHFVejZSazkyaTJLQdIB0wFBVV95cUxOT0kzdFU4N1p6OVMweTk2cURZQjg3emFxa0hHajd5aFFBV0p3dE5aLUlJOTRweVBpRUw3Z1pHcHZpbkhqcjlSeHlvOXhKQXZhaW1JTVRvbjZQOHUtN1VESzFDeDAtOGVGTXFEOUdQcXFVeU1mRHJqbFYzSFNDYWc5QmVCZnVSaHFXNDR0YTU5S2ZQaThoT2k0bjRyX1hvdGFJZUh2Q2ZleUZSRlJibDhiaGpPQURrUkc0T1ctQnNnU3lnRnhneHprR29sdmozQldWVjQ4?oc=5"
+          },
+          {
+            "title": "Cyient Ltd. Share Price Up 5.04%: Price, Sector Analysis - Univest",
+            "source": "Univest",
+            "published": "Wed, 19 Aug 2026 06:58:00 GMT",
+            "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE10ajJZZmx6OEF5VTNVcmN6d25jem9aeTZCWFY3THJpVXVfdXBGenBqaUdGbnFmLVNMOUZPM2lUNzczMmUwdVdYMjFMODJUMkdUeTBUTXhIZ2IycldiQXpfYTZLNFBiNEIyX3drLVhkVjktU1FFamc?oc=5"
+          },
+          {
+            "title": "Cyient Ltd. Share Price Today - Cyient Ltd. Stock Price Live NSE/BSE - CNBC TV18",
+            "source": "CNBC TV18",
+            "published": "Sat, 03 Jan 2026 08:42:24 GMT",
+            "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBBRV8yTll2ekZ1czE2Q1lNUjktNm4yZTVQWEVYVjhGUFJwaWlWWFBrdEp1YVhXTFJDR1FsanlSbmtUQmgzdjMyQUJwMlBvS3R4M0o1Z0EzVGVfOVZHLTBlYmEyX3ZnUzZ4cDZXcU5JZ1hhWW5pQ3c?oc=5"
+          },
+          {
+            "title": "Cyient shares soar 8% as CCI approves acquisition of California-based Tao Digital Solutions - Upstox",
+            "source": "Upstox",
+            "published": "Tue, 25 Aug 2026 13:54:27 GMT",
+            "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQYWNDVF9aWjRraTRSdUVlaXVlVy12ZVpZSFg2UEFtald6OVA4MTNPSG16cUV2Ql9Bb2k5a1haOWdudnptaXJxTVNETHZVLVE0bGpkS0cyNWFuSExxSkxSOGhnZ2o4NEVDZWMxenNTcm1MdGw5Y2M1aWNCb0hpV0MtLTVyRUlZVnM2aVBMVUgyOW1FRjRZZGRVT1hzR043YTVTNFZ2c1A2VUhfZUR3YS0wRnA2eUxEaVpxQ2ZnVjUxNjc5QTJqRGdpY19NeThrSTlmUWZjZDc4MHhLYmxJVWpLdXl4Z0s3UEhoY3VR?oc=5"
+          },
+          {
+            "title": "Buzzing Stock: Bandhan Bank slides 10%, Cyient DLM jumps 11% after Q1 earnings - Moneycontrol.com",
+            "source": "Moneycontrol.com",
+            "published": "Wed, 22 Jul 2026 07:00:00 GMT",
+            "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOcjBpRUNRVmJHYmJBSWZpX0hydkkybERmVXc0RTFTdTk2VFQyd1cyWktiVlJyLU45T1Zfend0T051TmgyMlVkUFk3WHFpZFRvdHVUSEFwX1RHdERZdXpHTTY3cUZoejU0aUpXTGYza1ExbUpULW9VVzVDX3RZbTNGeXJtM2pta2Y1WDV6dDdmdGdwZWluUWxKaUhFc0ZKZG5uVkJTUG4xcDRBdGhISndqNUdRSTZ4b3I1SEo5NWNfQUIxT09WdHgzMmZWZVNsRXo2TDBTc9IB2gFBVV95cUxPZEM5SENFdjFreWNjQ0FSVG4xTV9MSVd6VUt6Um5IaExIbVJUeGhQeDZyMEZFZ1NxQXpVUFY1RzA3T21pWmdRcEFPQlFyMjFvTTVKcGlDdHR2VzI4eUNIYm9SSzZFbGhzTEJqcDM4Mlh5Zm1DcHNXTjNEcUoxR0R3cUhuWFQwNnNoeG9WWTVOY3ZrTlhrQjllWGNqdTFQZmlMal9IcTdfXzlTeklVdUFCT1lQX1pUWnJnaE45N3FyWWVOOE9KUVZaSGpEOG1HU282dFVSMmJ1enNDUQ?oc=5"
+          }
+        ]
+      },
+      "fundamentals": {
+        "symbol": "CYIENT",
+        "market_cap_cr": 12229.0,
+        "trailing_pe": 34.552944,
+        "forward_pe": 16.537643,
+        "price_to_book": 2.284199,
+        "roe_pct": null,
+        "debt_to_equity": 7.528,
+        "revenue_growth_pct": 21.3,
+        "earnings_growth_pct": -32.4,
+        "operating_margin_pct": 9.01,
+        "profit_margin_pct": 4.96,
+        "promoter_holding_pct": 25.33,
+        "institutional_holding_pct": 46.59,
+        "dividend_yield_pct": 3.04,
+        "current_ratio": null,
+        "beta": 0.6,
+        "target_mean": 1005.85,
+        "target_low": 740.0,
+        "target_high": 1300.0,
+        "analyst_count": 20,
+        "current_price": 1174.8,
+        "business_summary": "Cyient Limited provides geospatial, engineering design, manufacturing, networks and operations, data transformation, and analytic services in North America, Europe, Middle East, and the Asia Pacific. The company operates through three segments: Digital, Engineering & Technology; Design Led Manufacturing; and Others. The company offers digital thread; electrification and energy storage; autonomous systems; digital twin; product to platform engineering; data platforms and GenAI; Industry 4.0; industry AI advisor platform; Coddy, a legacy application migration; CYARC, a regulatory compliance watch for medical devices; CYFAST, for equipment testing and validation; CYIOPS, a power outage planning and scheduling platform; CYPRED forecast and prediction engine; CYTEXT that transforms PDFs and documents into searchable text; SmartHub, a field inspection and data capture; and CYXTRACT which extract, search, and analyze documents. It also provides manufacturing operations management solutions, including industrial automation, data engineering, operations management, asset operations, and manufacturing intelligence; FACTORYDTECT, Monitoring and predictive solutions; FACTORYPRO; DIGITAL DATA FOUNDATION data platform; ENERGYCARE, a platform to monitor, analyze, and balance energy usage; and ASSET TWIN that monito asset health and upcoming failure mode. In addition, the company offers Vismon, a suite of solutions that simplifies network management; and CyPlaNet which streamlines fiber optic networks. It serves aerospace and defense, rail transportation, automotive and mobility, mining, energy, utilities and spatial intelligence, communications, healthcare and life science, and semiconductor industries. Cyient Limited and Vodafone entered into an agreement and launched an AI-powered global network configuration management solution supported by data-driven, intelligent configuration analytics. Cyient Limited was incorporated in 1991 and is headquartered in Hyderabad, India."
+      },
+      "benchmark": {
+        "industry": "Information Technology",
+        "peers": 26,
+        "trailing_pe": 27.44,
+        "price_to_book": 5.02,
+        "roe_pct": 24.07,
+        "debt_to_equity": 8.21,
+        "revenue_growth_pct": 17.6,
+        "profit_margin_pct": 12.61
+      },
+      "scorecard": {
+        "factors": [
+          {
+            "name": "Trailing P/E",
+            "value": "34.6",
+            "peer_value": "27.4",
+            "stance": "bear",
+            "note": "More expensive than the typical peer, so more of the growth is already priced in."
+          },
+          {
+            "name": "Price / Book",
+            "value": "2.3",
+            "peer_value": "5.0",
+            "stance": "bull",
+            "note": "Trades at a lower multiple of book value than peers."
+          },
+          {
+            "name": "Return on Equity",
+            "value": "n/a",
+            "peer_value": "24.1%",
+            "stance": "unknown",
+            "note": "Not reported by the data source."
+          },
+          {
+            "name": "Debt / Equity",
+            "value": "7.5",
+            "peer_value": "8.2",
+            "stance": "neutral",
+            "note": "In line with the sector."
+          },
+          {
+            "name": "Revenue growth (yoy)",
+            "value": "21.3%",
+            "peer_value": "17.6%",
+            "stance": "bull",
+            "note": "Growing the top line faster than the sector."
+          },
+          {
+            "name": "Net margin",
+            "value": "5.0%",
+            "peer_value": "12.6%",
+            "stance": "bear",
+            "note": "Thinner margins than peers."
+          }
+        ],
+        "bull_case": [
+          "Price / Book 2.3 vs sector 5.0. Trades at a lower multiple of book value than peers.",
+          "Revenue growth (yoy) 21.3% vs sector 17.6%. Growing the top line faster than the sector."
+        ],
+        "bear_case": [
+          "Trailing P/E 34.6 vs sector 27.4. More expensive than the typical peer, so more of the growth is already priced in.",
+          "Net margin 5.0% vs sector 12.6%. Thinner margins than peers.",
+          "Earnings fell 32% year on year, so the price move is running ahead of profits.",
+          "Promoter holding is only 25%, which offers little downside alignment and leaves control contestable.",
+          "20 analysts publish a mean target of 1006, 14% below the current price."
+        ],
+        "invalidators": [
+          "Two consecutive quarters of revenue or margin decline would remove the growth premise this rests on.",
+          "A promoter pledge increase or a fresh exchange surveillance action would change the risk profile regardless of the fundamentals."
+        ],
+        "data_gaps": [
+          "Return on Equity unavailable"
+        ],
+        "bull_count": 2,
+        "bear_count": 2
+      },
+      "research_prompt": "I'm a long-term retail investor in Indian equities (NSE). My screener flagged Cyient Ltd. (CYIENT) because it gained at least 3% on each of 1 consecutive sessions. I want your independent read - please push back on my screener rather than agreeing with it.\n\n## What my screener measured\n\n- Streak: 2026-08-31 to 2026-08-31, +6.1% cumulative\n- Daily gains: 2026-08-31 +6.08%\n- Last close: Rs 1,174.80\n- Sector: Information Technology\n- Median 20-day turnover: Rs 53.7 crore\n- Volume vs 20-day median: 4.68x\n- Distance from 52-week high: -6.4%\n- Return 1M / 3M / 1Y: 38.6% / 29.6% / -0.1%\n\n## Attribution my engine computed\n\n- Verdict: company_catalyst - Company-specific - investor communication disclosed to the exchange\n- Stock over the window: +6.1%\n- Sector median over the same window: -0.8%\n- Excess vs sector: +6.9 pp\n- Broad market median: -0.8%\n\n### NSE filings in the window\n\n- 2026-08-28 [catalyst] Analysts/Institutional Investor Meet/Con. Call Updates - Investor communication\n  Cyient Limited has informed the Exchange about Link of Recording\n\n### Recent headlines (unverified, from Google News)\n\n- Cyient Share Price - Upstox\n- Cyient Limited Just Missed Earnings - But Analysts Have Updated Their Models - simplywall.st\n- Cyient Ltd. Share Price Up 5.04%: Price, Sector Analysis - Univest\n- Cyient Ltd. Share Price Today - Cyient Ltd. Stock Price Live NSE/BSE - CNBC TV18\n- Cyient shares soar 8% as CCI approves acquisition of California-based Tao Digital Solutions - Upstox\n- Buzzing Stock: Bandhan Bank slides 10%, Cyient DLM jumps 11% after Q1 earnings - Moneycontrol.com\n\n## Fundamentals\n\n- Market cap: Rs 12,229 crore\n- Trailing P/E: 34.552944\n- Forward P/E: 16.537643\n- Price/Book: 2.284199\n- Debt/Equity: 7.528\n- Revenue growth (yoy): 21.3%\n- Earnings growth (yoy): -32.4%\n- Operating margin: 9.01%\n- Net margin: 4.96%\n- Promoter holding: 25.33%\n- Institutional holding: 46.59%\n- Dividend yield: 3.04%\n- Analyst count: 20\n- Mean target price: 1005.85\n\n### Sector medians (Information Technology, 26 Nifty 500 peers)\n\n- Trailing P/E: 27.44\n- Price/Book: 5.02\n- Return on equity: 24.07%\n- Debt/Equity: 8.21\n- Revenue growth: 17.6%\n- Net margin: 12.61%\n\n### Data my engine could not get\n\n- Return on Equity unavailable\n\n## What I want from you\n\n1. **Why did it actually move?** My engine only sees exchange filings and price action. Check whether there is a real catalyst it missed - sector news, a peer's results, a policy change, an index inclusion, a block deal.\n2. **Is my engine's attribution wrong?** Say so directly if the evidence points elsewhere.\n3. **The one-year view.** Build a bull case and a bear case from the business, not from the chart. What has to be true for this to work, and what would break it? Be concrete about which numbers to watch.\n4. **What would you check that I have not?** Name the specific filings, segments or metrics.\n\nPlease flag anything above that looks stale or wrong, and tell me plainly if this looks like a speculative move rather than an investable one. I am not asking you to tell me whether to buy - I want the reasoning so I can decide."
+    }
+  ],
+  "top_losers": [
+    {
+      "symbol": "ADANIENSOL",
+      "name": "Adani Energy Solutions Ltd.",
+      "industry": "Power",
+      "isin": "INE931S01010",
+      "last_close": 1417.4,
+      "cumulative_pct": -10.37,
+      "start_date": "2026-08-31",
+      "end_date": "2026-08-31",
+      "is_current": true,
+      "median_turnover_cr": 332.0,
+      "volume_ratio": 17.24,
+      "pct_from_52w_high": -18.6,
+      "returns": {
+        "m1": -13.9,
+        "m3": -5.1,
+        "y1": 84.9
+      },
+      "days": [
+        {
+          "date": "2026-08-31",
+          "close": 1417.4000244140625,
+          "gain_pct": -10.37,
+          "volume": 34994154
+        }
+      ],
+      "attribution": {
+        "verdict": "unexplained",
+        "headline": "Company-specific, but nothing disclosed to explain it",
+        "explanation": [
+          "The stock fell -10.4% over the session 2026-08-31.",
+          "Its sector (Power) moved -1.3% over the same window, with 18% of its 17 Nifty 500 members advancing on the last session.",
+          "The broad market (median of 500 Nifty 500 names) moved -0.8% over the window, with 37% advancing on the last session.",
+          "The stock lagged its sector by 9.1 percentage points, yet filed no disclosure in the window that would account for it.",
+          "An unexplained move away from the sector is worth more caution, not less - it can reflect speculation, a leaked development, or an operator-driven move.",
+          "Volume ran 17.2x its 20-day median, so real institutional-scale money participated rather than thin-book drift."
+        ],
+        "stock_streak_pct": -10.37,
+        "sector_streak_pct": -1.32,
+        "market_streak_pct": -0.82,
+        "excess_vs_sector_pct": -9.05,
+        "sector_breadth_pct": 18.0,
+        "volume_ratio": 17.24,
+        "cautions": [],
+        "filings": [],
+        "headlines": [
+          {
+            "title": "Should You Think About Buying Adani Energy Solutions Limited (NSE:ADANIENSOL) Now? - simplywall.st",
+            "source": "simplywall.st",
+            "published": "Sun, 31 May 2026 07:00:00 GMT",
+            "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQQURRSzNETngwRTlSVVVvMEdmcnhCQzgzNGY4eDlOUzRLRHlMbE5oM0lHLWhFUTVFQzdBVDJWU1NnUFdPMjdvcGhfbjQwbng2empscFFScGlvTk1CX3F6dlpvRVlmaFVGWVE1SWxwRVRhVkJaVGh6X2VlTXlFY2g5MGJtQTI5eUg2ZmJxaTc1aDBjRG5nU056QkU1QktHWnkzUXFYTHpoS1pkMGxvMGR2NXluVGJYREtWRGQ2M3JOWHNsbEF5enZsMjRSSjFZbFYydWluMl9xUmJGSDBrN2ZGQXNfaENIQUnSAewBQVVfeXFMTm9YVDJkdzRyUHNld3BWa3pZTzM4bW1jN0JFY0xYbXZ1clFuNWIxTXAzS2FjZ01tOUc4bTZZZkRCVjNUVlBOSGlmUHcweE0tLTR3Uko4NXFiMmszWTd6ZUJjZUVuZmxPR3ZjdTlsYzFqaE5SUlN2M25tSkU3aEI2RW16akJ3Zy0xYnU0WW55TjRjQWRHdWItSDdKR25xYjAyNEp3T05WYUdRQUVnb0xoUWJrd0d3dXJGWGlJaHpCcFdrZEd0Z0M2Q3ZtczZGX1V3UkNGMVJHVXhmMWdjTUlEMnNXNmtiNGZxRV8tUlE?oc=5"
+          },
+          {
+            "title": "ADANIENSOL Forecast — Price Target — Prediction for 2027 - TradingView",
+            "source": "TradingView",
+            "published": "Thu, 25 Jun 2026 13:01:07 GMT",
+            "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9kcDVhU3o5SGlBTVIxZU5yQ3NreEFrQWlyM0Q5TjhzeDBNQlRIVXFUM1RnQUtMMEJXUE5KZFFJUUU1WHNYeXlkdl9CMHJZNEVDVWxYU0dwU3NkU1M3WFQxcVhUNFNacVc0akxncUU1VTBxeFhTZ2xhdHl0MW1GQQ?oc=5"
+          },
+          {
+            "title": "Adani Energy Solutions Ltd. (ADANIENSOL) Share Price Falls 3.21% Today; Large Cap Threshold Cleared - Univest",
+            "source": "Univest",
+            "published": "Wed, 19 Aug 2026 07:00:00 GMT",
+            "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNUS1ha1VrWHZEMXg0ajJ0VWRUQlRkQkt0NVBDSDBFVkdTSnVhc0RWT2VveVYyS2VYdXc5Z0lOelFrYTkwUkV3TUNtYlFzTkhKTDgzYW9QTkVvNkQ2WE5RVEJXbThnNk5nT0dPZmRsVHNhdTZ5WEotQzVpYWk0Q09EQlAwZE10WVBld3Br?oc=5"
+          },
+          {
+            "title": "Adani Energy Solutions Ltd soars 4.6%, Gains for third straight session - Business Standard",
+            "source": "Business Standard",
+            "published": "Fri, 10 Apr 2026 07:00:00 GMT",
+            "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPTjg5MDh1bm1XLVVNYjlWUE1kVVN3UXpKbG05UV8wRDJOaTM4MnFuWElvYUdPa0tHMzV0TzA4Mm44OGNFMnFwS08zYkVzbkE1RzduT0FFVlQ1UmJpaU44S09qTzNuT004YW14eVVqSWswSU9ZRFRJRHBxRm1hMDRMMUpUU0lwcHpUOWRrR2xuOWxSajhYNEhRQUI4YV90clZxYTVZZjdHRVdpR0gzUHJDVmtCOGc4V3dldDAwU0MzOXVTeHVYTl9nTUZQVU5vYWhtLWFzOE80MEZRR1MzWWNCNy02VTdfUdIB6wFBVV95cUxQcm1QMW1nVHVMMTc1RGtyS2VTWlo3SUJaNUxPcXAxWE4yS3hiaGJseTdzZWZqYkJoaG9oRXFSeVhlTERySU50TEdzTWdEcUZmdWlNVHpFdlhVU2dWejY5VmRQQ2pIaE1PMTVaQm1iTExBamRrMExERGxZWXVjMUVoX2NweXlZdlJ1Z01CTkRmSlJLMFpXN3M5ZmFrYmlUVGg1bW5sT20yM09ESDdTS0lDVUlCNDZYbXBMMmoyellPUzNiVGEzektmUGtkZ053N0FpSW1BbzQzX3N2NC1vREQ2R3NHVHVSYkZZZXo4?oc=5"
+          },
+          {
+            "title": "Adani Energy Solutions Ltd. Futures Price: Live NSE/BSE Futures Chart & Updates - HDFC Sky",
+            "source": "HDFC Sky",
+            "published": "Thu, 02 Apr 2026 04:07:02 GMT",
+            "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1nTlRVUE5Xd18zR3pTTS1TYUJMVGdGTzRwY1dpTGpLT2FqNXYtaENQRjM2LVpiYWdfYWI0OEFBRUZPeXk4Y1Uyekg1dGdnaHM3T29jU2o1LUVHNXJnUjZxVENYcmU?oc=5"
+          },
+          {
+            "title": "Adani Energy shares hit 52-week high as 1,000 MW power link goes live in Mumbai - Upstox",
+            "source": "Upstox",
+            "published": "Wed, 15 Apr 2026 07:00:00 GMT",
+            "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNalJXR19XUGdiRHpRN2s2YlBhb1dBU3MyTWZnSDBWbkwwQkJVV3NtSkYya3Y2WWhBODh1bG9DRDBsWlQxZlFRTUtBUzFvb19iVmk0TUNta1RVT0syY2dqMjVTSUc5TnR0QjN0bzBTdFRrTEp6Q2IzNDdRUW1PRUU5bzBiRkhTYXRHV2FLazhDaDRteV9oSEljNjBTcjhZWlcxM0RLU01zdVp3NGxMck1vQnM2dGR1UzlTMHBrT1VB?oc=5"
+          }
+        ]
+      },
+      "fundamentals": {
+        "symbol": "ADANIENSOL",
+        "market_cap_cr": 173342.0,
+        "trailing_pe": 58.209446,
+        "forward_pe": 39.20357,
+        "price_to_book": 6.696273,
+        "roe_pct": null,
+        "debt_to_equity": 194.5,
+        "revenue_growth_pct": 42.4,
+        "earnings_growth_pct": 124.1,
+        "operating_margin_pct": 24.95,
+        "profit_margin_pct": 9.58,
+        "promoter_holding_pct": 74.67,
+        "institutional_holding_pct": 18.25,
+        "dividend_yield_pct": null,
+        "current_ratio": null,
+        "beta": 0.679,
+        "target_mean": 1747.6666,
+        "target_low": 1434.0,
+        "target_high": 2060.0,
+        "analyst_count": 9,
+        "current_price": 1417.4,
+        "business_summary": "Adani Energy Solutions Limited, together with its subsidiaries, generates, transmits, and distributes power in India. It operates through the Transmission; Distribution; Smart Meter; Trading; and Others segments. The company is involved in the establishment, commission, setting up, operation, and maintenance of electric power transmission systems; development, ownership, and operation of transmission lines; trade of bullion and other commodities; and laying of optical ground wire fibers on transmission lines to telecom solutions to telecom companies, internet service providers, and long-distance communication operators. It also provides electricity meters to optimize real-time insights of electricity usage. The company was formerly known as Adani Transmission Limited and changed its name to Adani Energy Solutions Limited in July 2023. The company was incorporated in 2013 and is headquartered in Ahmedabad, India. Adani Energy Solutions Limited operates as a subsidiary of S.B. Adani Family Trust."
+      },
+      "benchmark": {
+        "industry": "Power",
+        "peers": 16,
+        "trailing_pe": 26.76,
+        "price_to_book": 2.15,
+        "roe_pct": null,
+        "debt_to_equity": 134.47,
+        "revenue_growth_pct": 6.8,
+        "profit_margin_pct": 13.81
+      },
+      "scorecard": {
+        "factors": [
+          {
+            "name": "Trailing P/E",
+            "value": "58.2",
+            "peer_value": "26.8",
+            "stance": "bear",
+            "note": "More expensive than the typical peer, so more of the growth is already priced in."
+          },
+          {
+            "name": "Price / Book",
+            "value": "6.7",
+            "peer_value": "2.1",
+            "stance": "bear",
+            "note": "Trades at a premium to peer book value."
+          },
+          {
+            "name": "Return on Equity",
+            "value": "n/a",
+            "peer_value": "n/a",
+            "stance": "unknown",
+            "note": "Not reported by the data source."
+          },
+          {
+            "name": "Debt / Equity",
+            "value": "194.5",
+            "peer_value": "134.5",
+            "stance": "bear",
+            "note": "More leveraged than peers, which amplifies any downturn."
+          },
+          {
+            "name": "Revenue growth (yoy)",
+            "value": "42.4%",
+            "peer_value": "6.8%",
+            "stance": "bull",
+            "note": "Growing the top line faster than the sector."
+          },
+          {
+            "name": "Net margin",
+            "value": "9.6%",
+            "peer_value": "13.8%",
+            "stance": "bear",
+            "note": "Thinner margins than peers."
+          }
+        ],
+        "bull_case": [
+          "Revenue growth (yoy) 42.4% vs sector 6.8%. Growing the top line faster than the sector.",
+          "Earnings grew 124% year on year, which is what has to keep happening for a re-rating to hold.",
+          "Promoters hold 75%, so their interests stay tied to the share price.",
+          "9 analysts publish a mean target of 1748, 23% above the current price."
+        ],
+        "bear_case": [
+          "Trailing P/E 58.2 vs sector 26.8. More expensive than the typical peer, so more of the growth is already priced in.",
+          "Price / Book 6.7 vs sector 2.1. Trades at a premium to peer book value.",
+          "Debt / Equity 194.5 vs sector 134.5. More leveraged than peers, which amplifies any downturn.",
+          "Net margin 9.6% vs sector 13.8%. Thinner margins than peers."
+        ],
+        "invalidators": [
+          "Two consecutive quarters of revenue or margin decline would remove the growth premise this rests on.",
+          "Debt/equity of 194 means a rate rise or a refinancing squeeze hits earnings before it hits peers.",
+          "The stock is already up 85% over a year; that pace normally needs earnings to catch up, or the multiple contracts.",
+          "Trading at a large premium to the sector - any earnings miss tends to be punished harder from a premium multiple.",
+          "A promoter pledge increase or a fresh exchange surveillance action would change the risk profile regardless of the fundamentals."
+        ],
+        "data_gaps": [
+          "Return on Equity unavailable"
+        ],
+        "bull_count": 1,
+        "bear_count": 4
+      },
+      "research_prompt": "I'm a long-term retail investor in Indian equities (NSE). My screener flagged Adani Energy Solutions Ltd. (ADANIENSOL) because it gained at least 3% on each of 1 consecutive sessions. I want your independent read - please push back on my screener rather than agreeing with it.\n\n## What my screener measured\n\n- Streak: 2026-08-31 to 2026-08-31, -10.4% cumulative\n- Daily gains: 2026-08-31 -10.37%\n- Last close: Rs 1,417.40\n- Sector: Power\n- Median 20-day turnover: Rs 332.0 crore\n- Volume vs 20-day median: 17.24x\n- Distance from 52-week high: -18.6%\n- Return 1M / 3M / 1Y: -13.9% / -5.1% / 84.9%\n\n## Attribution my engine computed\n\n- Verdict: unexplained - Company-specific, but nothing disclosed to explain it\n- Stock over the window: -10.4%\n- Sector median over the same window: -1.3%\n- Excess vs sector: -9.1 pp\n- Broad market median: -0.8%\n\n- No NSE corporate filings in the window.\n\n### Recent headlines (unverified, from Google News)\n\n- Should You Think About Buying Adani Energy Solutions Limited (NSE:ADANIENSOL) Now? - simplywall.st\n- ADANIENSOL Forecast — Price Target — Prediction for 2027 - TradingView\n- Adani Energy Solutions Ltd. (ADANIENSOL) Share Price Falls 3.21% Today; Large Cap Threshold Cleared - Univest\n- Adani Energy Solutions Ltd soars 4.6%, Gains for third straight session - Business Standard\n- Adani Energy Solutions Ltd. Futures Price: Live NSE/BSE Futures Chart & Updates - HDFC Sky\n- Adani Energy shares hit 52-week high as 1,000 MW power link goes live in Mumbai - Upstox\n\n## Fundamentals\n\n- Market cap: Rs 173,342 crore\n- Trailing P/E: 58.209446\n- Forward P/E: 39.20357\n- Price/Book: 6.696273\n- Debt/Equity: 194.5\n- Revenue growth (yoy): 42.4%\n- Earnings growth (yoy): 124.1%\n- Operating margin: 24.95%\n- Net margin: 9.58%\n- Promoter holding: 74.67%\n- Institutional holding: 18.25%\n- Analyst count: 9\n- Mean target price: 1747.6666\n\n### Sector medians (Power, 16 Nifty 500 peers)\n\n- Trailing P/E: 26.76\n- Price/Book: 2.15\n- Debt/Equity: 134.47\n- Revenue growth: 6.8%\n- Net margin: 13.81%\n\n### Data my engine could not get\n\n- Return on Equity unavailable\n\n## What I want from you\n\n1. **Why did it actually move?** My engine only sees exchange filings and price action. Check whether there is a real catalyst it missed - sector news, a peer's results, a policy change, an index inclusion, a block deal.\n2. **Is my engine's attribution wrong?** Say so directly if the evidence points elsewhere.\n3. **The one-year view.** Build a bull case and a bear case from the business, not from the chart. What has to be true for this to work, and what would break it? Be concrete about which numbers to watch.\n4. **What would you check that I have not?** Name the specific filings, segments or metrics.\n\nPlease flag anything above that looks stale or wrong, and tell me plainly if this looks like a speculative move rather than an investable one. I am not asking you to tell me whether to buy - I want the reasoning so I can decide."
+    },
+    {
+      "symbol": "ADANIENT",
+      "name": "Adani Enterprises Ltd.",
+      "industry": "Metals & Mining",
+      "isin": "INE423A01024",
+      "last_close": 2859.1,
+      "cumulative_pct": -9.76,
+      "start_date": "2026-08-31",
+      "end_date": "2026-08-31",
+      "is_current": true,
+      "median_turnover_cr": 273.2,
+      "volume_ratio": 14.4,
+      "pct_from_52w_high": -11.0,
+      "returns": {
+        "m1": -5.0,
+        "m3": -2.2,
+        "y1": 25.2
+      },
+      "days": [
+        {
+          "date": "2026-08-31",
+          "close": 2859.10009765625,
+          "gain_pct": -9.76,
+          "volume": 12690120
+        }
+      ],
+      "attribution": {
+        "verdict": "company_catalyst",
+        "headline": "Company-specific - m&a or stake transaction disclosed to the exchange",
+        "explanation": [
+          "The stock fell -9.8% over the session 2026-08-31.",
+          "Its sector (Metals & Mining) moved -1.9% over the same window, with 11% of its 18 Nifty 500 members advancing on the last session.",
+          "The broad market (median of 500 Nifty 500 names) moved -0.8% over the window, with 37% advancing on the last session.",
+          "The stock lagged its sector by 7.8 percentage points, so the move is company-specific rather than sector-wide.",
+          "NSE filing 2026-08-27 17:31 - M&A or stake transaction: Acquisition.",
+          "Volume ran 14.4x its 20-day median, so real institutional-scale money participated rather than thin-book drift."
+        ],
+        "stock_streak_pct": -9.76,
+        "sector_streak_pct": -1.92,
+        "market_streak_pct": -0.82,
+        "excess_vs_sector_pct": -7.84,
+        "sector_breadth_pct": 11.0,
+        "volume_ratio": 14.4,
+        "cautions": [],
+        "filings": [
+          {
+            "date": "2026-08-27",
+            "time": "17:31",
+            "category": "Acquisition",
+            "summary": "Adani Enterprises Limited has informed the Exchange about Acquisition of Chandenvalle Infra Park Limited by AdaniConneX Private Limited, a joint venture of the Company",
+            "pdf_url": "https://nsearchives.nseindia.com/corporate/nishant_joshi_adani_com_27082026173118_AELIntimationChandenvalleInfraPark27082026.pdf",
+            "bucket": "catalyst",
+            "label": "M&A or stake transaction"
+          }
+        ],
+        "headlines": [
+          {
+            "title": "Adani Enterprises Share Price - Upstox",
+            "source": "Upstox",
+            "published": "Sun, 30 Aug 2026 04:12:20 GMT",
+            "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1jS2F1a2NwVUNvUk92UHl6SzlrMUwyeWFaSWVlNmpxeS1TMFNrYXN3RGZFZXdzMUZ1WDZkWEFleU84VmE1RUJtZTE2dGdmdkZQbDBwNEJBOHpOM21ZOVp4WURVVE45V3VKa2ROUUU2TnJ3UQ?oc=5"
+          },
+          {
+            "title": "Adani Enterprises Limited's (NSE:ADANIENT) Business Is Trailing The Market But Its Shares Aren't - simplywall.st",
+            "source": "simplywall.st",
+            "published": "Thu, 22 Jan 2026 08:00:00 GMT",
+            "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPZDlhYXBLNHpBZjh4ZGZlZGl1ZlFQRjU1d2FKNnVmTTJfUFlIQVI2MDJscW1RTlc4RktpQlJSRWRvck85aGVmZ01UMVpTWmZHbnZzUEVmODZuczZuZGstckNueUgtQnA0Y2J1aHJvZURsalJXblR5R215OUVpZ3YtS1ZscmRTbk45cGpCT1Y4Ul9UZjlEb1lOY2c4MXg0YWJyT2FkSGtQN3drZ0puWXJWNmk4UDVDX25WWWE2dFB1ZVpEVWRvbmx3OHlVNDZEMW9lUmVvejBtTVNIdkFwR2JNb0V30gHnAUFVX3lxTE1Qc0gtNW9KdFZSVmtXanZpaDBNQTcxNlJ3YkFQYUp1NENFbWtvbFV2Q2lJX0xUbmpucnllUmx6NWtvWlZYdnRPbVIzaUJKTHZnTVh6aXUya2VkMjd6eFItSHRtUWRJRGpwR0tEczdMd3lfd1AyR3g2Q2paOWY3XzBSMnlCc1p6NnZJUmR5Nm9DbFp5MTc1a1N1OG5adWVFb050bF83S1ZtUnlDRjlwekdBWmsyMW8xQnRFZ19SMVZMc1lIanBIamNXdWF5UFR2T0NyQlZoRDNFNFh3NXNQWlNsV0JjWmM2WQ?oc=5"
+          },
+          {
+            "title": "ADANIENT Forecast — Price Target — Prediction for 2027 - TradingView",
+            "source": "TradingView",
+            "published": "Thu, 25 Jun 2026 16:23:20 GMT",
+            "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBXS1NXWldsdi1SdzZUSHNOdzg0bkxxeTVMS3R0SzRmMk1tYVZIaThuS2lSTUw2b1BVSFhQX3VMNklIM21TVEpJVVY5ZnQ1UGpXSnNPcFlkZU9wQUhrYXd6VnM4NG1HUUZIdGdnQ3lOdE1oeTczRHF2NTI2Zw?oc=5"
+          },
+          {
+            "title": "Adani Enterprises Ltd. Share Price Today - Adani Enterprises Ltd. Stock Price Live NSE/BSE - CNBC TV18",
+            "source": "CNBC TV18",
+            "published": "Tue, 14 Apr 2026 07:00:00 GMT",
+            "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQSWE2cF9HTXdrbjNjclFtandnYVZBcDFCU3V3TkR5ZDZYQ05uWnoyNE9xZFZSVW9KUGtuZ0JmMmhsX1pOOFB6dUc4OWxkbExUQ0ZsRC1PUktZTC1VZW1pV21LbmY1Tk8zaVFxN3J4Q0Zkd0oxeVlXSk1lOTAxWFViRGJDOFdyN3c?oc=5"
+          },
+          {
+            "title": "We Believe Adani Enterprises' (NSE:ADANIENT) Earnings Are A Poor Guide For Its Profitability - simplywall.st",
+            "source": "simplywall.st",
+            "published": "Thu, 14 May 2026 07:00:00 GMT",
+            "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPempRSnRfUXNaUm1YUjFtcVNRSzYzaWVyWi1ySUNzckd2RFE2enlwYlR6c05qWXRrMmZlVnhoSTlydGlOVmx5cjVKTl9WaEtPemxwTHZjNWJhSlphU3dkMFBkbklvTXg3NTV2cWZkQmV1akhsU3FCUjQ1UGlUVlpWSVB4Z0VYMU9LUmo3a09DMlBpU1VxenVtT1ZUVlNkTlF3dU51Rk16RkxiZDZlbmJtWnpQTmRnY3RzYnhBLUxZejdESEx6YXhZRC1YNzdZU0VnYlZoSkc3c2tvN1puLU1kNC1uc9IB6AFBVV95cUxOcFNMSnd5MV9HRHh0dmYwQmdpb0FleEdhbGpsTnM1eTQ5eWZRNTR1N2FYSnMydTF6RThlM3E5ZW1HTDdFaHlvRVBJYzM5U3U4MVVEZWtMVG9mU2djRXZ6ZHdHMHZ0LXFSLWNCWHZzcTFWalUxNVhVQmN1TjJKYkx0bmMxM2czcEJHNE45TDRfZlVJbnh1UUh2ZDhWa1c5dWotZVE0NzVuWUNjVmZFLTYwN21nRmNETDJ4RDhfRGhRWjBkN0NYcFBPSW1GZEpVYXBuVkQ0WmlrU1VnUzJ3WGxYbFREcDFBU3lU?oc=5"
+          },
+          {
+            "title": "Adani Enterprises Limited Actuals & Estimates (NSE:ADANIENT) - TradingView",
+            "source": "TradingView",
+            "published": "Fri, 24 Jul 2026 01:07:40 GMT",
+            "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOeFRDMFhyZ256QnhVYVl2Wm5zMzJ5bkhYZkRXX0J2OGZiRUsyeTViTEo0U1kyNFV3SXFEWGgxUW5Dd3BZUHNzUmk1WERrb1BoTExtaFRQZkZKQ2VuOVdMVFdITHAtZF9wRUxhckhPVkxHOWg2bkswNk9CYWxFbGlZTDk5VUFxeFk?oc=5"
+          }
+        ]
+      },
+      "fundamentals": {
+        "symbol": "ADANIENT",
+        "market_cap_cr": 406842.0,
+        "trailing_pe": 49.57691,
+        "forward_pe": 43.424973,
+        "price_to_book": 4.567026,
+        "roe_pct": null,
+        "debt_to_equity": 119.56,
+        "revenue_growth_pct": 49.9,
+        "earnings_growth_pct": null,
+        "operating_margin_pct": 9.4,
+        "profit_margin_pct": 6.55,
+        "promoter_holding_pct": 75.0,
+        "institutional_holding_pct": 18.27,
+        "dividend_yield_pct": 0.04,
+        "current_ratio": null,
+        "beta": 0.808,
+        "target_mean": 3773.0,
+        "target_low": 3638.0,
+        "target_high": 3880.0,
+        "analyst_count": 4,
+        "current_price": 2859.1,
+        "business_summary": "Adani Enterprises Limited, together with its subsidiaries, operates in the new energy ecosystem, data center, airports, roads, copper and PVC, and other sectors in India and internationally. It operates through the Integrated Resources Management (IRM), Mining Services, Commercial Mining, New Energy Ecosystem, Airport, Road, copper, and Others segments. The company engages in the integrated ecosystem for manufacturing green hydrogen, including solar cells, modules, and wind turbine generators; construction, operation, and maintenance of airports and road assets; commercial mining activities; supply of bunker fuels to shipping vessels; manufacture and supply of defense equipment; copper cathodes and cast rods; digital labs; and copper smelting and refinery, as well metals manufacturing. It also provides procurement and logistics services for minerals, as well as mining services. In addition, the company is involved in the sourcing, storage, and marketing of apples, grapes, pomegranates, stone fruits, digital mandi, and frozen peas; wastewater treatment, recycling, reuse projects; the operation of a news network; and Infrastructure Development and Water Resource Management. Further, it holds a portfolio of small arms, ammunition, unmanned aerial vehicles, counter-drone systems, missiles, and aircraft services. It also provides education, training and skill development. The company has strategic alliance with Jabil Inc. to build AI data center infrastructure platform in India. Adani Enterprises Limited was formerly known as Adani Exports Ltd. and changed its name to Adani Enterprises Limited in September 2006. The company was founded in 1988 and is headquartered in Ahmedabad, India."
+      },
+      "benchmark": {
+        "industry": "Metals & Mining",
+        "peers": 17,
+        "trailing_pe": 18.71,
+        "price_to_book": 2.53,
+        "roe_pct": null,
+        "debt_to_equity": 39.03,
+        "revenue_growth_pct": 23.8,
+        "profit_margin_pct": 13.06
+      },
+      "scorecard": {
+        "factors": [
+          {
+            "name": "Trailing P/E",
+            "value": "49.6",
+            "peer_value": "18.7",
+            "stance": "bear",
+            "note": "More expensive than the typical peer, so more of the growth is already priced in."
+          },
+          {
+            "name": "Price / Book",
+            "value": "4.6",
+            "peer_value": "2.5",
+            "stance": "bear",
+            "note": "Trades at a premium to peer book value."
+          },
+          {
+            "name": "Return on Equity",
+            "value": "n/a",
+            "peer_value": "n/a",
+            "stance": "unknown",
+            "note": "Not reported by the data source."
+          },
+          {
+            "name": "Debt / Equity",
+            "value": "119.6",
+            "peer_value": "39.0",
+            "stance": "bear",
+            "note": "More leveraged than peers, which amplifies any downturn."
+          },
+          {
+            "name": "Revenue growth (yoy)",
+            "value": "49.9%",
+            "peer_value": "23.8%",
+            "stance": "bull",
+            "note": "Growing the top line faster than the sector."
+          },
+          {
+            "name": "Net margin",
+            "value": "6.5%",
+            "peer_value": "13.1%",
+            "stance": "bear",
+            "note": "Thinner margins than peers."
+          }
+        ],
+        "bull_case": [
+          "Revenue growth (yoy) 49.9% vs sector 23.8%. Growing the top line faster than the sector.",
+          "Promoters hold 75%, so their interests stay tied to the share price.",
+          "4 analysts publish a mean target of 3773, 32% above the current price."
+        ],
+        "bear_case": [
+          "Trailing P/E 49.6 vs sector 18.7. More expensive than the typical peer, so more of the growth is already priced in.",
+          "Price / Book 4.6 vs sector 2.5. Trades at a premium to peer book value.",
+          "Debt / Equity 119.6 vs sector 39.0. More leveraged than peers, which amplifies any downturn.",
+          "Net margin 6.5% vs sector 13.1%. Thinner margins than peers."
+        ],
+        "invalidators": [
+          "Two consecutive quarters of revenue or margin decline would remove the growth premise this rests on.",
+          "Debt/equity of 120 means a rate rise or a refinancing squeeze hits earnings before it hits peers.",
+          "Trading at a large premium to the sector - any earnings miss tends to be punished harder from a premium multiple.",
+          "A promoter pledge increase or a fresh exchange surveillance action would change the risk profile regardless of the fundamentals."
+        ],
+        "data_gaps": [
+          "Return on Equity unavailable",
+          "Only 4 analysts cover this name, so the consensus target is thin and moves easily."
+        ],
+        "bull_count": 1,
+        "bear_count": 4
+      },
+      "research_prompt": "I'm a long-term retail investor in Indian equities (NSE). My screener flagged Adani Enterprises Ltd. (ADANIENT) because it gained at least 3% on each of 1 consecutive sessions. I want your independent read - please push back on my screener rather than agreeing with it.\n\n## What my screener measured\n\n- Streak: 2026-08-31 to 2026-08-31, -9.8% cumulative\n- Daily gains: 2026-08-31 -9.76%\n- Last close: Rs 2,859.10\n- Sector: Metals & Mining\n- Median 20-day turnover: Rs 273.2 crore\n- Volume vs 20-day median: 14.4x\n- Distance from 52-week high: -11.0%\n- Return 1M / 3M / 1Y: -5.0% / -2.2% / 25.2%\n\n## Attribution my engine computed\n\n- Verdict: company_catalyst - Company-specific - m&a or stake transaction disclosed to the exchange\n- Stock over the window: -9.8%\n- Sector median over the same window: -1.9%\n- Excess vs sector: -7.8 pp\n- Broad market median: -0.8%\n\n### NSE filings in the window\n\n- 2026-08-27 [catalyst] Acquisition - M&A or stake transaction\n  Adani Enterprises Limited has informed the Exchange about Acquisition of Chandenvalle Infra Park Limited by AdaniConneX Private Limited, a joint venture of the Company\n\n### Recent headlines (unverified, from Google News)\n\n- Adani Enterprises Share Price - Upstox\n- Adani Enterprises Limited's (NSE:ADANIENT) Business Is Trailing The Market But Its Shares Aren't - simplywall.st\n- ADANIENT Forecast — Price Target — Prediction for 2027 - TradingView\n- Adani Enterprises Ltd. Share Price Today - Adani Enterprises Ltd. Stock Price Live NSE/BSE - CNBC TV18\n- We Believe Adani Enterprises' (NSE:ADANIENT) Earnings Are A Poor Guide For Its Profitability - simplywall.st\n- Adani Enterprises Limited Actuals & Estimates (NSE:ADANIENT) - TradingView\n\n## Fundamentals\n\n- Market cap: Rs 406,842 crore\n- Trailing P/E: 49.57691\n- Forward P/E: 43.424973\n- Price/Book: 4.567026\n- Debt/Equity: 119.56\n- Revenue growth (yoy): 49.9%\n- Operating margin: 9.4%\n- Net margin: 6.55%\n- Promoter holding: 75.0%\n- Institutional holding: 18.27%\n- Dividend yield: 0.04%\n- Analyst count: 4\n- Mean target price: 3773.0\n\n### Sector medians (Metals & Mining, 17 Nifty 500 peers)\n\n- Trailing P/E: 18.71\n- Price/Book: 2.53\n- Debt/Equity: 39.03\n- Revenue growth: 23.8%\n- Net margin: 13.06%\n\n### Data my engine could not get\n\n- Return on Equity unavailable\n- Only 4 analysts cover this name, so the consensus target is thin and moves easily.\n\n## What I want from you\n\n1. **Why did it actually move?** My engine only sees exchange filings and price action. Check whether there is a real catalyst it missed - sector news, a peer's results, a policy change, an index inclusion, a block deal.\n2. **Is my engine's attribution wrong?** Say so directly if the evidence points elsewhere.\n3. **The one-year view.** Build a bull case and a bear case from the business, not from the chart. What has to be true for this to work, and what would break it? Be concrete about which numbers to watch.\n4. **What would you check that I have not?** Name the specific filings, segments or metrics.\n\nPlease flag anything above that looks stale or wrong, and tell me plainly if this looks like a speculative move rather than an investable one. I am not asking you to tell me whether to buy - I want the reasoning so I can decide."
+    },
+    {
+      "symbol": "ZEEL",
+      "name": "Zee Entertainment Enterprises Ltd.",
+      "industry": "Media Entertainment & Publication",
+      "isin": "INE256A01028",
+      "last_close": 93.58,
+      "cumulative_pct": -7.81,
+      "start_date": "2026-08-31",
+      "end_date": "2026-08-31",
+      "is_current": true,
+      "median_turnover_cr": 260.9,
+      "volume_ratio": 4.16,
+      "pct_from_52w_high": -22.0,
+      "returns": {
+        "m1": -18.3,
+        "m3": -1.0,
+        "y1": -17.9
+      },
+      "days": [
+        {
+          "date": "2026-08-31",
+          "close": 93.58000183105469,
+          "gain_pct": -7.81,
+          "volume": 109234592
+        }
+      ],
+      "attribution": {
+        "verdict": "company_catalyst",
+        "headline": "Company-specific - fundraising or allotment disclosed to the exchange",
+        "explanation": [
+          "The stock fell -7.8% over the session 2026-08-31.",
+          "Its sector (Media Entertainment & Publication) moved -1.6% over the same window, with 20% of its 5 Nifty 500 members advancing on the last session.",
+          "The broad market (median of 500 Nifty 500 names) moved -0.8% over the window, with 37% advancing on the last session.",
+          "The stock lagged its sector by 6.2 percentage points, so the move is company-specific rather than sector-wide.",
+          "NSE filing 2026-08-27 20:35 - Fundraising or allotment: Allotment of Securities.",
+          "Volume ran 4.2x its 20-day median, so real institutional-scale money participated rather than thin-book drift."
+        ],
+        "stock_streak_pct": -7.81,
+        "sector_streak_pct": -1.56,
+        "market_streak_pct": -0.82,
+        "excess_vs_sector_pct": -6.25,
+        "sector_breadth_pct": 20.0,
+        "volume_ratio": 4.16,
+        "cautions": [],
+        "filings": [
+          {
+            "date": "2026-08-31",
+            "time": "12:06",
+            "category": "General Updates",
+            "summary": "Zee Entertainment Enterprises Limited has informed the Exchange about Submission of Certificate obtained from Statutory Auditors in terms of Regulation 169(5) of the Securities and Exchange Board of India (Issue of Capital and Disclosure Requirements) Regulations, 2018 ( ICDR Regulations )",
+            "pdf_url": "https://nsearchives.nseindia.com/corporate/ZEEL_31082026120557_SEDisclosureauditorcertificateNSEsigned.pdf",
+            "bucket": "neutral",
+            "label": "Routine or administrative disclosure"
+          },
+          {
+            "date": "2026-08-27",
+            "time": "20:35",
+            "category": "Allotment of Securities",
+            "summary": "Zee Entertainment Enterprises Limited has informed the Exchange regarding Disclosure under Regulation 30 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015   Allotment of fully Convertible Warrants on a preferential basis",
+            "pdf_url": "https://nsearchives.nseindia.com/corporate/ZEEL_27082026203455_SEDisclosureoutcomefinals.pdf",
+            "bucket": "catalyst",
+            "label": "Fundraising or allotment"
+          },
+          {
+            "date": "2026-08-27",
+            "time": "20:08",
+            "category": "General Updates",
+            "summary": "Zee Entertainment Enterprises Limited has informed the Exchange about Disclosure under Regulation 30 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015, as amended",
+            "pdf_url": "https://nsearchives.nseindia.com/corporate/ZEEL_27082026200838_SEDisclosureSATorderfinals.pdf",
+            "bucket": "neutral",
+            "label": "Routine or administrative disclosure"
+          }
+        ],
+        "headlines": [
+          {
+            "title": "ZEEL tanks 15% as Chandra's insolvency resolution plan faces fresh hurdle - Business Standard",
+            "source": "Business Standard",
+            "published": "Mon, 31 Aug 2026 05:29:13 GMT",
+            "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQNGQwM0dSSnhrY1h3SnJHUUxQMFRaNk9fSTZqWGFEZFQtaFlQRGJza1poVzlvdVlHQ1RZZGswVk8tRFo4NWtURVJJRzZwaDlzcFlWdnZxUENHbWt4emFJUWZLbVhOWWtGOHdmR2E3VFdwaGh3bHlieDNvWkx6MnUtbHlUYW5PNWJDdzFNNzQ4b2lxWGJQOGV6Rm1WcnFzalZ1ZW1PQlRpendNRjVVdEZhbFdmZmFodnlTY21COVhCT0p0RTR5dWQwbmw3MjFaV1FFOXhMV3JDLTB2NDNDblhxb1BTSGN6akd4MktfMU9QWVHSAfYBQVVfeXFMT3ozREY5X0w0c3J3eEI4T2dlRlAxWnlyd2ZkRUtadmNQcVBzQjVLLTN3MlpIdS1OekhJZGtGNmVvbklSS25ocFdYcDRJN2pWdWtHVHV4dF9tU0pxRTRDMEFzOVRka0NTQ3RDQUNkT1JnNThjNE4yNUhyaFVuNDU2aFoyVkV4dS0tRTRkdFh4Qnc2a3ZxcFFmV1g0eld5SFhvZUhocGtDWFJXTVlSRzBXem9xVUV0MkZMaUFyUmNCMzVzZzJBXy00UUlUY3l0bzdBcDFRSGRKbTlYSTdxNFA5ajFJcDI2ZERrTmNyY2tYVXFEOHZoNjN3?oc=5"
+          },
+          {
+            "title": "Zee Entertainment Enterprises Share Price - Live NSE: ZEEL Stock Price & Chart - Upstox",
+            "source": "Upstox",
+            "published": "Fri, 28 Aug 2026 07:00:00 GMT",
+            "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1pWXR1VUhPSktKb3VUX0l6cWUxTFMzbnlKMjA4aVJTUlpRRjBSRFlnOTdTN1VjaHVROHJ1c2EyTEhrQURJSzBieGlfM2lSTnZDN3E3V290eGVsYXc5M21jQkhsY3ktOWt3VXdNUjdUMXpqQQ?oc=5"
+          },
+          {
+            "title": "Zee Entertainment Enterprises Ltd Share Price Today,, ZEEL Share Price NSE, BSE - Business Today",
+            "source": "Business Today",
+            "published": "Fri, 28 Aug 2026 07:00:00 GMT",
+            "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPSm5ydmdib3d4RVdkNlRqYllBeXNWb2RTTlVBNFRHMlpDb21jZGRzbWJUMHpxaUNzOXpBVVZQcmMxQVd0VnVaTjhESmh4aDJqNzhlX3FiS2tCYm9IbVpaa1ZSaTFDSzdWT3U5OUpiVmtqbnVoS0czcF9MSGM4WjJPLTh5SFNqU3I5VS1MajhOdHdvLWdTRVJCMA?oc=5"
+          },
+          {
+            "title": "Zee Share Price Crash 11% After SEBI Action; Company Says Fundraising Plan Remains Unaffected - India Infoline",
+            "source": "India Infoline",
+            "published": "Mon, 03 Aug 2026 07:00:00 GMT",
+            "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOcDQ2dE5MdkFvMnY3UFhNM2VoMmlQZTRwMmE2UmJOSnBjdGloZktwb0JHSkFvRC1wNDcyaWlGWWxiUDZSUnlISkRaUG5rSmFkNGRfQ1cwOVJlYWpzc3F1a2c3LUhyNlpKb0ZZZlV4a0x4bUh6dU00cGh0UmNhZV8yOFZVeHJqOWxsRGg2Q2hzU0ktcjBJY09mSHYxcEdsaFNLTmptZ2U3SXRLMTdGNzBXME5vWHRNNmU3TlVsYzRYQ0FBb3VBVnZoNjJQV1UyOEtSU1E?oc=5"
+          },
+          {
+            "title": "Investors three-year losses continue as Zee Entertainment Enterprises (NSE:ZEEL) dips a further 6.4% this week, earnings continue to decline - simplywall.st",
+            "source": "simplywall.st",
+            "published": "Tue, 09 Dec 2025 08:00:00 GMT",
+            "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPdGg4d1hfVmlSTmNLRHJrSmFGRTJCMms4RlAwVUN3S2VOX1FOdDFPbjRTN1BaT2gtakd6MUlQM25ISC13TlhoUWlCSk5FSFlQNXBSZVU0NUlHVERMRG9rOG54MVVsWGdEN0N6bkNNZE9DeEZvaHNnU3VfeHBnVHYxZzc0RjFfN1l5MUFaOTZzVXNkUFp0NVFXTlJBV0d5NGpBeTltTlVzb2NDOEJuLXpYOVMyZTlrbE1LV05xbkQtQlROdHVxY1JzQTBCMW9BQkdaQ0RDLU1rUTNzMm15T1d2VVFoZ9IB6AFBVV95cUxPbGZtMUY5WkRNNGl0MFNnN2E4Z29tSzl1TmNPZFpWZ1d6WVpUSGlDT3VjR2YzSF9HRk1SQ2ZOaV9tQ0NKU1VKelpvUWItM0xUSHpKMkhZX2M2YXA5WnZVQ29JbE1EYk16ZW53Y2ZISFhNcXhUTm8tQkpSRE5PLUttanlsRW54encyNjNwNEtjZmxsTk5WZmZ4eGNTd2NLNGxVVkx0Y1haQ0o0NzRiblNWenUxN2RON2hCUkVxLWZTQVVaQy03SkdkTW9UOS1Sc3VxMms5X1BqRjN6dW5zTkFhTzNUOENlcjJa?oc=5"
+          },
+          {
+            "title": "ZEEL Forecast — Price Target — Prediction for 2027 - TradingView",
+            "source": "TradingView",
+            "published": "Thu, 25 Jun 2026 15:22:35 GMT",
+            "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1iY3A1MEVqcXhMT2hiaG51dHFSRzdCaXNFYzAyZHFHMmNaMTYxUnFqa3hNa0QzQ1FybmM2SVBYVWxjR19iWnRDYWNuQWFMSjFWTVVHM0R1Y25NcXZ1a0ltNl82WEZCQmVsck9aMUZXR254SHoxQ2c?oc=5"
+          }
+        ]
+      },
+      "fundamentals": {
+        "symbol": "ZEEL",
+        "market_cap_cr": 8989.0,
+        "trailing_pe": 44.350716,
+        "forward_pe": 11.742975,
+        "price_to_book": 0.7564221,
+        "roe_pct": null,
+        "debt_to_equity": 2.26,
+        "revenue_growth_pct": 4.5,
+        "earnings_growth_pct": -47.3,
+        "operating_margin_pct": 1.86,
+        "profit_margin_pct": 2.51,
+        "promoter_holding_pct": 5.04,
+        "institutional_holding_pct": 26.86,
+        "dividend_yield_pct": 1.97,
+        "current_ratio": null,
+        "beta": 0.447,
+        "target_mean": 102.66667,
+        "target_low": 80.0,
+        "target_high": 125.0,
+        "analyst_count": 12,
+        "current_price": 93.58,
+        "business_summary": "Zee Entertainment Enterprises Limited, together with its subsidiaries, engages in broadcasting satellite television channels and digital media in India and internationally. The company broadcasts Hindi general entertainment channels, such as Zee TV, Zee TV HD, &tv, &tv HD, and BIG Magic; Hindi movie channels comprising Zee Anmol Cinema, Zee Cinema, Zee Action, Zee Classic, &pictures, and Zee Bollywood, as well as Zee Cinema HD, &xplor HD, and &pictures HD; and regional entertainment channels, including Zee Marathi, Zee Yuva, Zee Bangla, Zee Tamil, Zee Telegu, Zee Kannada, Zee Sarthak, Zee Ganga, Zee Talkies, Zee Bangla Cinema, Zee Bioskop, Zee Marathi HD, Zee Talkies HD, Zee Telugu HD, and Zee Bangla HD. It also broadcasts Zee Café, Zee Café HD, &privé HD, Zee Studio, &flix, &flix HD, Zeezest, Zeezest HD, Zee TV Canada, Zee TV Caribbean, Zee Magic, Zee World, Zee One, and Zee Bollymovies. In addition, it produces and distributes movies through Zee Studios and Zee Plex; publishes music through Zee Music CO; operates Zee5 OTT platform; act as a space selling agent for other satellite television channels; and sells media content, which include programs/film rights/feeds/music rights. The company was formerly known as Zee Telefilms Limited and changed its name to Zee Entertainment Enterprises Limited in January 2007. Zee Entertainment Enterprises Limited was incorporated in 1982 and is based in Mumbai, India."
+      },
+      "benchmark": {
+        "industry": "Media Entertainment & Publication",
+        "peers": 4,
+        "trailing_pe": 42.04,
+        "price_to_book": 3.57,
+        "roe_pct": null,
+        "debt_to_equity": 48.08,
+        "revenue_growth_pct": 18.4,
+        "profit_margin_pct": 13.91
+      },
+      "scorecard": {
+        "factors": [
+          {
+            "name": "Trailing P/E",
+            "value": "44.4",
+            "peer_value": "42.0",
+            "stance": "neutral",
+            "note": "In line with the sector."
+          },
+          {
+            "name": "Price / Book",
+            "value": "0.8",
+            "peer_value": "3.6",
+            "stance": "bull",
+            "note": "Trades at a lower multiple of book value than peers."
+          },
+          {
+            "name": "Return on Equity",
+            "value": "n/a",
+            "peer_value": "n/a",
+            "stance": "unknown",
+            "note": "Not reported by the data source."
+          },
+          {
+            "name": "Debt / Equity",
+            "value": "2.3",
+            "peer_value": "48.1",
+            "stance": "bull",
+            "note": "Carries less leverage than peers, so less earnings risk if rates rise."
+          },
+          {
+            "name": "Revenue growth (yoy)",
+            "value": "4.5%",
+            "peer_value": "18.4%",
+            "stance": "bear",
+            "note": "Growing more slowly than the sector."
+          },
+          {
+            "name": "Net margin",
+            "value": "2.5%",
+            "peer_value": "13.9%",
+            "stance": "bear",
+            "note": "Thinner margins than peers."
+          }
+        ],
+        "bull_case": [
+          "Price / Book 0.8 vs sector 3.6. Trades at a lower multiple of book value than peers.",
+          "Debt / Equity 2.3 vs sector 48.1. Carries less leverage than peers, so less earnings risk if rates rise.",
+          "12 analysts publish a mean target of 103, 10% above the current price."
+        ],
+        "bear_case": [
+          "Revenue growth (yoy) 4.5% vs sector 18.4%. Growing more slowly than the sector.",
+          "Net margin 2.5% vs sector 13.9%. Thinner margins than peers.",
+          "Earnings fell 47% year on year, so the price move is running ahead of profits.",
+          "Promoter holding is only 5%, which offers little downside alignment and leaves control contestable."
+        ],
+        "invalidators": [
+          "Two consecutive quarters of revenue or margin decline would remove the growth premise this rests on.",
+          "A promoter pledge increase or a fresh exchange surveillance action would change the risk profile regardless of the fundamentals."
+        ],
+        "data_gaps": [
+          "Return on Equity unavailable"
+        ],
+        "bull_count": 2,
+        "bear_count": 2
+      },
+      "research_prompt": "I'm a long-term retail investor in Indian equities (NSE). My screener flagged Zee Entertainment Enterprises Ltd. (ZEEL) because it gained at least 3% on each of 1 consecutive sessions. I want your independent read - please push back on my screener rather than agreeing with it.\n\n## What my screener measured\n\n- Streak: 2026-08-31 to 2026-08-31, -7.8% cumulative\n- Daily gains: 2026-08-31 -7.81%\n- Last close: Rs 93.58\n- Sector: Media Entertainment & Publication\n- Median 20-day turnover: Rs 260.9 crore\n- Volume vs 20-day median: 4.16x\n- Distance from 52-week high: -22.0%\n- Return 1M / 3M / 1Y: -18.3% / -1.0% / -17.9%\n\n## Attribution my engine computed\n\n- Verdict: company_catalyst - Company-specific - fundraising or allotment disclosed to the exchange\n- Stock over the window: -7.8%\n- Sector median over the same window: -1.6%\n- Excess vs sector: -6.2 pp\n- Broad market median: -0.8%\n\n### NSE filings in the window\n\n- 2026-08-31 [neutral] General Updates - Routine or administrative disclosure\n  Zee Entertainment Enterprises Limited has informed the Exchange about Submission of Certificate obtained from Statutory Auditors in terms of Regulation 169(5) of the Securities and\n- 2026-08-27 [catalyst] Allotment of Securities - Fundraising or allotment\n  Zee Entertainment Enterprises Limited has informed the Exchange regarding Disclosure under Regulation 30 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, \n- 2026-08-27 [neutral] General Updates - Routine or administrative disclosure\n  Zee Entertainment Enterprises Limited has informed the Exchange about Disclosure under Regulation 30 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015\n\n### Recent headlines (unverified, from Google News)\n\n- ZEEL tanks 15% as Chandra's insolvency resolution plan faces fresh hurdle - Business Standard\n- Zee Entertainment Enterprises Share Price - Live NSE: ZEEL Stock Price & Chart - Upstox\n- Zee Entertainment Enterprises Ltd Share Price Today,, ZEEL Share Price NSE, BSE - Business Today\n- Zee Share Price Crash 11% After SEBI Action; Company Says Fundraising Plan Remains Unaffected - India Infoline\n- Investors three-year losses continue as Zee Entertainment Enterprises (NSE:ZEEL) dips a further 6.4% this week, earnings continue to decline - simplywall.st\n- ZEEL Forecast — Price Target — Prediction for 2027 - TradingView\n\n## Fundamentals\n\n- Market cap: Rs 8,989 crore\n- Trailing P/E: 44.350716\n- Forward P/E: 11.742975\n- Price/Book: 0.7564221\n- Debt/Equity: 2.26\n- Revenue growth (yoy): 4.5%\n- Earnings growth (yoy): -47.3%\n- Operating margin: 1.86%\n- Net margin: 2.51%\n- Promoter holding: 5.04%\n- Institutional holding: 26.86%\n- Dividend yield: 1.97%\n- Analyst count: 12\n- Mean target price: 102.66667\n\n### Sector medians (Media Entertainment & Publication, 4 Nifty 500 peers)\n\n- Trailing P/E: 42.04\n- Price/Book: 3.57\n- Debt/Equity: 48.08\n- Revenue growth: 18.4%\n- Net margin: 13.91%\n\n### Data my engine could not get\n\n- Return on Equity unavailable\n\n## What I want from you\n\n1. **Why did it actually move?** My engine only sees exchange filings and price action. Check whether there is a real catalyst it missed - sector news, a peer's results, a policy change, an index inclusion, a block deal.\n2. **Is my engine's attribution wrong?** Say so directly if the evidence points elsewhere.\n3. **The one-year view.** Build a bull case and a bear case from the business, not from the chart. What has to be true for this to work, and what would break it? Be concrete about which numbers to watch.\n4. **What would you check that I have not?** Name the specific filings, segments or metrics.\n\nPlease flag anything above that looks stale or wrong, and tell me plainly if this looks like a speculative move rather than an investable one. I am not asking you to tell me whether to buy - I want the reasoning so I can decide."
+    }
+  ],
   "stats": {
     "universe": 500,
     "with_prices": 500,
     "hits": 0,
+    "gainers": 3,
+    "losers": 3,
     "enriched": 0
   },
   "new_alerts": []
