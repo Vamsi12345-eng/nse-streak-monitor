@@ -91,9 +91,11 @@ fun DetailScreen(hit: Hit?, onBack: () -> Unit) {
                             a.headline,
                             style = MaterialTheme.typography.titleSmall,
                             fontWeight = FontWeight.SemiBold,
+                            // Explained vs unexplained, not good vs bad - a
+                            // disclosed cause for a large fall is still a fall.
                             color = when (a.verdict) {
-                                "company_catalyst" -> moveColor(1.0)
                                 "unexplained" -> cautionColor()
+                                "sector_wide" -> MaterialTheme.colorScheme.onSurfaceVariant
                                 else -> MaterialTheme.colorScheme.onSurface
                             },
                         )
@@ -422,20 +424,51 @@ private fun Bullet(text: String, color: androidx.compose.ui.graphics.Color? = nu
 // Intents
 // --------------------------------------------------------------------------
 
+/** Play Store package for the Claude Android app. */
+private const val CLAUDE_PACKAGE = "com.anthropic.claude"
+
+/**
+ * Hands the research prompt to Claude, opening the app directly.
+ *
+ * `Intent.createChooser` always shows the share sheet - that is its entire
+ * purpose - so targeting Claude means naming its package on the intent and
+ * skipping the chooser altogether. On Android 11+ the package must also be
+ * declared in `<queries>` in the manifest, or it is invisible to us and this
+ * silently falls back even when Claude is installed.
+ *
+ * The prompt goes on the clipboard first, so nothing is lost if the receiving
+ * app mishandles a payload this size.
+ */
 private fun shareToClaude(context: Context, hit: Hit) {
-    // Copy first: if the share target does not accept the text cleanly, the
-    // prompt is still on the clipboard and nothing is lost.
     copyPrompt(context, hit, toast = false)
+
     val send = Intent(Intent.ACTION_SEND).apply {
         type = "text/plain"
         putExtra(Intent.EXTRA_TEXT, hit.researchPrompt)
         putExtra(Intent.EXTRA_SUBJECT, "${hit.symbol} research")
     }
-    runCatching {
-        context.startActivity(Intent.createChooser(send, "Ask Claude about ${hit.symbol}"))
-    }.onFailure {
-        Toast.makeText(context, "Prompt copied to clipboard", Toast.LENGTH_SHORT).show()
+
+    // Straight into Claude, no chooser.
+    val direct = Intent(send).setPackage(CLAUDE_PACKAGE)
+    if (direct.resolveActivity(context.packageManager) != null) {
+        runCatching { context.startActivity(direct) }.onSuccess { return }
     }
+
+    // Claude is not installed (or cannot accept the share). Offer the web app,
+    // which the prompt is already on the clipboard for, rather than dropping
+    // the user into a generic share sheet they did not ask for.
+    val web = Intent(Intent.ACTION_VIEW, Uri.parse("https://claude.ai/new"))
+    runCatching { context.startActivity(web) }
+        .onSuccess {
+            Toast.makeText(
+                context,
+                "Claude app not found - opened claude.ai. Prompt is on your clipboard, paste it.",
+                Toast.LENGTH_LONG,
+            ).show()
+        }
+        .onFailure {
+            Toast.makeText(context, "Prompt copied to clipboard", Toast.LENGTH_SHORT).show()
+        }
 }
 
 private fun copyPrompt(context: Context, hit: Hit, toast: Boolean = true) {

@@ -7,6 +7,20 @@
     <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
 
+    <!--
+      Android 11+ hides other installed packages unless they are declared here.
+      Without this, resolveActivity() for the Claude app returns null even when
+      Claude is installed, and the "Open in Claude" button silently falls back
+      to the browser. The <intent> entry keeps the browser fallback resolvable.
+    -->
+    <queries>
+        <package android:name="com.anthropic.claude" />
+        <intent>
+            <action android:name="android.intent.action.VIEW" />
+            <data android:scheme="https" />
+        </intent>
+    </queries>
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"

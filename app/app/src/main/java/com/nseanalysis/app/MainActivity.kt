@@ -76,7 +76,17 @@ class ScanViewModel(app: android.app.Application) : AndroidViewModel(app) {
         }
     }
 
-    fun hit(symbol: String): Hit? = _state.value.result?.hits?.firstOrNull { it.symbol == symbol }
+    /**
+     * Finds a stock across every section.
+     *
+     * Streaks are searched first: a name can appear both as a streak and as
+     * today's top gainer, and the streak carries the richer multi-session
+     * window, so that is the one worth showing.
+     */
+    fun hit(symbol: String): Hit? {
+        val r = _state.value.result ?: return null
+        return (r.hits + r.topGainers + r.topLosers).firstOrNull { it.symbol == symbol }
+    }
 }
 
 class MainActivity : ComponentActivity() {

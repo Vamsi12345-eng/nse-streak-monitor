@@ -19,6 +19,8 @@ data class ScanResult(
     val market: MarketSummary = MarketSummary(),
     val sectors: List<SectorSummary> = emptyList(),
     val hits: List<Hit> = emptyList(),
+    @SerialName("top_gainers") val topGainers: List<Hit> = emptyList(),
+    @SerialName("top_losers") val topLosers: List<Hit> = emptyList(),
     val stats: Stats = Stats(),
     @SerialName("new_alerts") val newAlerts: List<String> = emptyList(),
 )
@@ -53,6 +55,8 @@ data class Stats(
     val universe: Int = 0,
     @SerialName("with_prices") val withPrices: Int = 0,
     val hits: Int = 0,
+    val gainers: Int = 0,
+    val losers: Int = 0,
     val enriched: Int = 0,
 )
 
@@ -80,6 +84,9 @@ data class Hit(
 ) {
     /** Stable identity for a streak: it changes when the streak extends. */
     val alertKey: String get() = "$symbol@$endDate"
+
+    /** True for a daily mover, which covers a single session. */
+    val isSingleSession: Boolean get() = days.size <= 1
 }
 
 @Serializable

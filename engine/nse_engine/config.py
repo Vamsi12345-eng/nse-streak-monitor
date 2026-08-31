@@ -29,6 +29,8 @@ class ScreenConfig:
     #: Trading days of history to pull. Needs to cover the 20d volume window
     #: plus the 52-week context used in the fundamentals scorecard.
     history_days: int = 260
+    #: How many top gainers and losers to surface per session.
+    top_movers: int = 3
     #: How far behind the market consensus a stock's last bar may be before we
     #: treat it as suspended rather than merely late. Yahoo routinely backfills
     #: a third of the NSE universe a session late, so demanding an exact match

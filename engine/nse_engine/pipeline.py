@@ -12,7 +12,7 @@ from . import prices, sector
 from .config import ScreenConfig
 from .http import NSEClient, YahooClient
 from .prompt import build_research_prompt
-from .screener import Hit, find_hits
+from .screener import Hit, find_hits, find_top_movers
 from .universe import Stock, load_universe
 
 log = logging.getLogger(__name__)
@@ -90,7 +90,17 @@ def run_scan(
     session = _consensus_session(series)
     context = sector.build_context(universe, series, session, cfg.streak_days)
 
-    log.info("scan found %d hit(s) for session %s", len(hits), session)
+    # Movers are single-session, so they need their own context: comparing a
+    # one-day move against a three-day sector median would overstate every
+    # gainer and understate every loser.
+    gainers, losers = find_top_movers(
+        universe, series, session, count=cfg.top_movers, 
+        min_turnover_cr=cfg.min_median_turnover_cr,
+    )
+    day_context = sector.build_context(universe, series, session, streak_days=1)
+
+    log.info("scan found %d hit(s), %d gainer(s), %d loser(s) for session %s",
+             len(hits), len(gainers), len(losers), session)
 
     stocks_by_industry: Dict[str, List[Stock]] = {}
     for s in universe:
@@ -106,6 +116,20 @@ def run_scan(
         if enrich and i < MAX_ENRICHED:
             doc.update(_enrich(hit, context, yahoo, nse, stocks_by_industry, peer_cache, cfg))
         hit_docs.append(doc)
+
+    def movers_to_docs(movers: List[Hit]) -> List[Dict[str, Any]]:
+        out = []
+        for m in movers:
+            doc = _hit_to_dict(m)
+            if enrich:
+                doc.update(
+                    _enrich(m, day_context, yahoo, nse, stocks_by_industry, peer_cache, cfg)
+                )
+            out.append(doc)
+        return out
+
+    gainer_docs = movers_to_docs(gainers)
+    loser_docs = movers_to_docs(losers)
 
     return ScanResult(
         {
@@ -135,10 +159,14 @@ def run_scan(
                 )
             ],
             "hits": hit_docs,
+            "top_gainers": gainer_docs,
+            "top_losers": loser_docs,
             "stats": {
                 "universe": len(universe),
                 "with_prices": len(series),
                 "hits": len(hits),
+                "gainers": len(gainer_docs),
+                "losers": len(loser_docs),
                 "enriched": min(len(hits), MAX_ENRICHED) if enrich else 0,
             },
         }

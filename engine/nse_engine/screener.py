@@ -5,7 +5,7 @@ import logging
 from collections import Counter
 from dataclasses import dataclass
 from datetime import date
-from typing import Dict, List, Optional
+from typing import Dict, List, Optional, Tuple
 
 from .config import ScreenConfig
 from .prices import Series
@@ -140,35 +140,10 @@ def find_hits(
             skipped_illiquid += 1
             continue
 
-        streak_bars = series.bars[-cfg.streak_days:]
-        days = [
-            StreakDay(date=b.date, close=b.close, gain_pct=round(r, 2), volume=b.volume)
-            for b, r in zip(streak_bars, window)
-        ]
-
-        # Compound the daily moves rather than summing them.
-        cumulative = 1.0
-        for r in window:
-            cumulative *= 1 + r / 100.0
-        cumulative_pct = (cumulative - 1) * 100.0
-
         hits.append(
-            Hit(
-                stock=stock,
-                days=days,
-                cumulative_pct=round(cumulative_pct, 2),
-                median_turnover_cr=round(turnover, 1),
-                volume_ratio=round(series.volume_ratio(), 2) if series.volume_ratio() else None,
-                pct_from_52w_high=(
-                    round(series.pct_from_52w_high(), 1)
-                    if series.pct_from_52w_high() is not None else None
-                ),
-                return_1m=_rounded(series.return_over(21)),
-                return_3m=_rounded(series.return_over(63)),
-                return_1y=_rounded(series.return_over(250)),
-                last_close=series.bars[-1].close,
-                is_current=(last_date == ref_date) if ref_date else True,
-            )
+            _build_hit(stock, series, window, turnover, is_current=(
+                (last_date == ref_date) if ref_date else True
+            ))
         )
 
     if skipped_stale:
@@ -178,6 +153,95 @@ def find_hits(
 
     hits.sort(key=lambda h: h.cumulative_pct, reverse=True)
     return hits
+
+
+def _build_hit(
+    stock: Stock,
+    series: Series,
+    window: List[float],
+    turnover: float,
+    is_current: bool,
+) -> Hit:
+    """Assemble a Hit from the trailing ``len(window)`` sessions.
+
+    Shared by the streak screen and the daily movers: a single-session mover is
+    just a window of length one, which lets both flow through the same
+    attribution, scorecard and research-prompt code untouched.
+    """
+    bars = series.bars[-len(window):]
+    days = [
+        StreakDay(date=b.date, close=b.close, gain_pct=round(r, 2), volume=b.volume)
+        for b, r in zip(bars, window)
+    ]
+
+    # Compound the daily moves rather than summing them.
+    cumulative = 1.0
+    for r in window:
+        cumulative *= 1 + r / 100.0
+
+    vr = series.volume_ratio()
+    high = series.pct_from_52w_high()
+    return Hit(
+        stock=stock,
+        days=days,
+        cumulative_pct=round((cumulative - 1) * 100.0, 2),
+        median_turnover_cr=round(turnover, 1),
+        volume_ratio=round(vr, 2) if vr else None,
+        pct_from_52w_high=round(high, 1) if high is not None else None,
+        return_1m=_rounded(series.return_over(21)),
+        return_3m=_rounded(series.return_over(63)),
+        return_1y=_rounded(series.return_over(250)),
+        last_close=series.bars[-1].close,
+        is_current=is_current,
+    )
+
+
+def find_top_movers(
+    universe: List[Stock],
+    series_by_symbol: Dict[str, Series],
+    session: str,
+    count: int = 3,
+    min_turnover_cr: float = 5.0,
+) -> Tuple[List[Hit], List[Hit]]:
+    """The largest single-session gains and losses, as (gainers, losers).
+
+    Only names that actually printed a bar for ``session`` are eligible, so a
+    stock whose feed is lagging cannot appear as today's top mover on the
+    strength of an older session.
+
+    The liquidity floor matters more here than in the streak screen: that screen
+    needs a rare three-day pattern, whereas "biggest mover" will happily surface
+    whatever thin counter gapped on a handful of trades.
+    """
+    by_symbol = {s.symbol: s for s in universe}
+    rows: List[Tuple[float, Stock, Series, float]] = []
+
+    for yahoo_sym, series in series_by_symbol.items():
+        if not series.bars or series.bars[-1].date != session:
+            continue
+        symbol = yahoo_sym[:-3] if yahoo_sym.endswith(".NS") else yahoo_sym
+        stock = by_symbol.get(symbol)
+        if stock is None:
+            continue
+        rets = series.returns_pct()
+        if not rets:
+            continue
+        turnover = series.median_turnover_cr()
+        if turnover < min_turnover_cr:
+            continue
+        rows.append((rets[-1], stock, series, turnover))
+
+    if not rows:
+        return [], []
+
+    rows.sort(key=lambda r: r[0], reverse=True)
+    gainers = [_build_hit(st, se, [d], to, True) for d, st, se, to in rows[:count] if d > 0]
+    # Reversed so the worst loser leads, mirroring the gainers ordering.
+    losers = [_build_hit(st, se, [d], to, True) for d, st, se, to in reversed(rows[-count:]) if d < 0]
+
+    log.info("top movers for %s: %d gainers, %d losers (from %d eligible)",
+             session, len(gainers), len(losers), len(rows))
+    return gainers, losers
 
 
 def _rounded(value: Optional[float]) -> Optional[float]:

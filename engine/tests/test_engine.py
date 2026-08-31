@@ -209,3 +209,113 @@ def test_thin_liquidity_raises_a_caution():
     hit.median_turnover_cr = 4.0
     a = explain(hit, _context(1.0, 50.0), [], [])
     assert any("liquidity" in c.lower() for c in a.cautions)
+
+
+# --------------------------------------------------------------------------
+# daily movers
+# --------------------------------------------------------------------------
+
+def _mover_universe():
+    """Six liquid names with distinct single-session returns."""
+    series, stocks = {}, []
+    for name, last in [("AAA", 9.0), ("BBB", 4.0), ("CCC", 1.0),
+                       ("DDD", -1.0), ("EEE", -5.0), ("FFF", -8.0)]:
+        series[f"{name}.NS"] = make_series(f"{name}.NS", [0.2, 0.1, last],
+                                           start_price=500.0, volume=2_000_000)
+        stocks.append(Stock(symbol=name, name=f"{name} Ltd",
+                            industry="Metals & Mining", isin=""))
+    return stocks, series
+
+
+def test_top_movers_picks_extremes_in_order():
+    from nse_engine.screener import find_top_movers
+    stocks, series = _mover_universe()
+    gainers, losers = find_top_movers(stocks, series, "2026-08-28", count=3,
+                                      min_turnover_cr=0.0)
+    assert [g.symbol for g in gainers] == ["AAA", "BBB", "CCC"]
+    # Worst first, mirroring the gainers ordering.
+    assert [l.symbol for l in losers] == ["FFF", "EEE", "DDD"]
+
+
+def test_movers_are_single_session():
+    """A mover is a one-day window, so it reuses the Hit shape unchanged."""
+    from nse_engine.screener import find_top_movers
+    stocks, series = _mover_universe()
+    gainers, _ = find_top_movers(stocks, series, "2026-08-28", min_turnover_cr=0.0)
+    assert len(gainers[0].days) == 1
+    assert gainers[0].start_date == gainers[0].end_date
+    assert gainers[0].cumulative_pct == pytest.approx(9.0, abs=0.01)
+
+
+def test_movers_exclude_stale_and_illiquid():
+    from nse_engine.screener import find_top_movers
+    stocks, series = _mover_universe()
+    # A huge mover that did not trade on the session must not appear.
+    stocks.append(Stock(symbol="STALE", name="Stale Ltd",
+                        industry="Metals & Mining", isin=""))
+    series["STALE.NS"] = make_series("STALE.NS", [0.0, 0.0, 30.0], gap_days=9)
+    # A huge mover with no liquidity must not appear either.
+    stocks.append(Stock(symbol="THIN", name="Thin Ltd",
+                        industry="Metals & Mining", isin=""))
+    series["THIN.NS"] = make_series("THIN.NS", [0.0, 0.0, 25.0],
+                                    start_price=8.0, volume=50)
+    gainers, _ = find_top_movers(stocks, series, "2026-08-28", count=3,
+                                 min_turnover_cr=5.0)
+    symbols = [g.symbol for g in gainers]
+    assert "STALE" not in symbols and "THIN" not in symbols
+    assert symbols[0] == "AAA"
+
+
+def test_no_losers_when_everything_rose():
+    from nse_engine.screener import find_top_movers
+    stocks, series = [], {}
+    for n in ("AAA", "BBB"):
+        stocks.append(Stock(symbol=n, name=n, industry="Metals & Mining", isin=""))
+        series[f"{n}.NS"] = make_series(f"{n}.NS", [0.1, 0.1, 2.0],
+                                        start_price=500.0, volume=2_000_000)
+    gainers, losers = find_top_movers(stocks, series, "2026-08-28", min_turnover_cr=0.0)
+    assert len(gainers) == 2
+    assert losers == []
+
+
+# --------------------------------------------------------------------------
+# attribution must work in both directions
+# --------------------------------------------------------------------------
+
+def test_sector_wide_selloff_is_not_called_unexplained():
+    """A stock down 8% whose sector fell 7% was carried by the sector. The
+    original logic only tested for rises and would have called this
+    'unexplained'."""
+    hit = _hit(-8.0)
+    ctx = _context(sector_streak=-7.0, breadth=15.0, market_streak=-5.0)
+    a = explain(hit, ctx, [], [])
+    assert a.verdict == "sector_wide"
+    assert "sold off" in a.headline
+
+
+def test_falling_stock_is_not_described_as_gaining():
+    a = explain(_hit(-8.0), _context(-1.0, 50.0), [], [])
+    assert "fell -8.0%" in a.explanation[0]
+    assert "gained" not in a.explanation[0]
+
+
+def test_lagging_the_sector_reads_as_lagged_not_outpaced():
+    a = explain(_hit(-9.0), _context(-1.0, 50.0), [], [])
+    joined = " ".join(a.explanation)
+    assert "lagged its sector by 8.0 percentage points" in joined
+
+
+def test_single_session_window_wording():
+    """A mover covers one session, so the text should not say 'the 1 sessions'."""
+    from nse_engine.screener import find_top_movers
+    stocks, series = _mover_universe()
+    gainers, _ = find_top_movers(stocks, series, "2026-08-28", min_turnover_cr=0.0)
+    a = explain(gainers[0], _context(1.0, 50.0), [], [])
+    assert "the session " in a.explanation[0]
+    assert "sessions" not in a.explanation[0]
+
+
+def test_rising_stock_in_falling_sector_is_company_specific():
+    """Direction must match for the sector to explain anything."""
+    a = explain(_hit(9.0), _context(sector_streak=-8.0, breadth=10.0), [], [])
+    assert a.verdict != "sector_wide"

@@ -12,6 +12,7 @@ import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
+import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
@@ -29,9 +30,15 @@ import androidx.compose.material3.IconButton
 import androidx.compose.material3.LinearProgressIndicator
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Scaffold
+import androidx.compose.material3.Tab
+import androidx.compose.material3.TabRow
 import androidx.compose.material3.Text
 import androidx.compose.material3.TopAppBar
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.saveable.rememberSaveable
+import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
@@ -41,6 +48,7 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import com.nseanalysis.app.UiState
 import com.nseanalysis.app.data.Hit
+import com.nseanalysis.app.data.ScanResult
 import com.nseanalysis.app.ui.theme.cautionColor
 import com.nseanalysis.app.ui.theme.moveColor
 
@@ -93,44 +101,114 @@ fun HomeScreen(
                 result == null -> CenteredMessage(
                     "No data yet.\n\nSet your feed URL in Settings, then tap refresh."
                 )
-                result.hits.isEmpty() -> {
-                    LazyColumn(
-                        contentPadding = androidx.compose.foundation.layout.PaddingValues(16.dp),
-                        verticalArrangement = Arrangement.spacedBy(12.dp),
-                    ) {
-                        item { MarketCard(state) }
-                        item {
-                            Card(Modifier.fillMaxWidth()) {
-                                Column(Modifier.padding(20.dp)) {
-                                    Text(
-                                        "No stock met the streak rule",
-                                        style = MaterialTheme.typography.titleMedium,
-                                    )
-                                    Spacer(Modifier.height(6.dp))
-                                    Text(
-                                        "Nothing gained ${result.config.dailyGainPct.trimZeros()}% " +
-                                            "on each of ${result.config.streakDays} consecutive sessions. " +
-                                            "On a quiet market that is the normal result, not a failure.",
-                                        style = MaterialTheme.typography.bodyMedium,
-                                        color = MaterialTheme.colorScheme.onSurfaceVariant,
-                                    )
-                                }
-                            }
-                        }
-                        item { SectorList(state) }
-                    }
+                else -> SectionedContent(state, result, onOpen)
+            }
+        }
+    }
+}
+
+private enum class Section(val label: String) {
+    STREAKS("Streaks"),
+    GAINERS("Gainers"),
+    LOSERS("Losers"),
+}
+
+@Composable
+private fun SectionedContent(state: UiState, result: ScanResult, onOpen: (Hit) -> Unit) {
+    // Streaks lead deliberately: they are the rare, deliberately-filtered signal
+    // this app exists for. Gainers and losers are always populated and would
+    // otherwise bury it under noise that is interesting but not actionable.
+    var section by rememberSaveable { mutableStateOf(Section.STREAKS) }
+
+    val rows = when (section) {
+        Section.STREAKS -> result.hits
+        Section.GAINERS -> result.topGainers
+        Section.LOSERS -> result.topLosers
+    }
+
+    Column {
+        TabRow(selectedTabIndex = section.ordinal) {
+            Section.entries.forEach { s ->
+                val count = when (s) {
+                    Section.STREAKS -> result.hits.size
+                    Section.GAINERS -> result.topGainers.size
+                    Section.LOSERS -> result.topLosers.size
                 }
-                else -> LazyColumn(
-                    contentPadding = androidx.compose.foundation.layout.PaddingValues(16.dp),
-                    verticalArrangement = Arrangement.spacedBy(12.dp),
-                ) {
-                    item { MarketCard(state) }
-                    items(result.hits, key = { it.alertKey }) { hit ->
-                        HitCard(hit) { onOpen(hit) }
-                    }
-                    item { Disclaimer() }
+                Tab(
+                    selected = section == s,
+                    onClick = { section = s },
+                    text = {
+                        Text(
+                            if (count > 0) "${s.label} ($count)" else s.label,
+                            style = MaterialTheme.typography.labelLarge,
+                        )
+                    },
+                )
+            }
+        }
+
+        LazyColumn(
+            contentPadding = PaddingValues(16.dp),
+            verticalArrangement = Arrangement.spacedBy(12.dp),
+        ) {
+            item { MarketCard(state) }
+            item { SectionCaption(section, result) }
+
+            if (rows.isEmpty()) {
+                item { EmptySection(section, result) }
+                if (section == Section.STREAKS) item { SectorList(state) }
+            } else {
+                items(rows, key = { it.symbol + "@" + it.endDate }) { hit ->
+                    HitCard(hit) { onOpen(hit) }
                 }
             }
+            item { Disclaimer() }
+        }
+    }
+}
+
+/** One line saying exactly what the visible list is, so no tab is ambiguous. */
+@Composable
+private fun SectionCaption(section: Section, result: ScanResult) {
+    val text = when (section) {
+        Section.STREAKS ->
+            "Gained ${result.config.dailyGainPct.trimZeros()}% or more on each of " +
+                "${result.config.streakDays} consecutive sessions."
+        Section.GAINERS ->
+            "Biggest single-session gains on ${result.session}, from the Nifty 500."
+        Section.LOSERS ->
+            "Biggest single-session falls on ${result.session}, from the Nifty 500."
+    }
+    Text(
+        text,
+        style = MaterialTheme.typography.bodySmall,
+        color = MaterialTheme.colorScheme.onSurfaceVariant,
+    )
+}
+
+@Composable
+private fun EmptySection(section: Section, result: ScanResult) {
+    val (title, body) = when (section) {
+        Section.STREAKS -> "No stock met the streak rule" to
+            ("Nothing gained ${result.config.dailyGainPct.trimZeros()}% on each of " +
+                "${result.config.streakDays} consecutive sessions. On a quiet market " +
+                "that is the normal result, not a failure.")
+        Section.GAINERS -> "No gainers recorded" to
+            "No Nifty 500 stock closed higher on ${result.session}, or the scan has " +
+                "not run for this session yet."
+        Section.LOSERS -> "No losers recorded" to
+            "No Nifty 500 stock closed lower on ${result.session}, or the scan has " +
+                "not run for this session yet."
+    }
+    Card(Modifier.fillMaxWidth()) {
+        Column(Modifier.padding(20.dp)) {
+            Text(title, style = MaterialTheme.typography.titleMedium)
+            Spacer(Modifier.height(6.dp))
+            Text(
+                body,
+                style = MaterialTheme.typography.bodyMedium,
+                color = MaterialTheme.colorScheme.onSurfaceVariant,
+            )
         }
     }
 }
@@ -287,12 +365,14 @@ private fun DayChip(text: String, muted: Boolean = false) {
 
 @Composable
 fun VerdictBadge(verdict: String, headline: String) {
-    // The verdict is the single most decision-relevant thing on the card, so
-    // it gets a colour of its own rather than blending into the body text.
+    // The verdict says how well the move is *explained*, not whether it was
+    // good news. Colouring "company_catalyst" green made a disclosed reason for
+    // a 9.8% fall read as a positive. Explained is plain, sector-wide is muted,
+    // and only "nobody has explained this" earns a warning colour.
     val color = when (verdict) {
-        "company_catalyst" -> moveColor(1.0)
         "unexplained" -> cautionColor()
-        else -> MaterialTheme.colorScheme.onSurfaceVariant
+        "sector_wide" -> MaterialTheme.colorScheme.onSurfaceVariant
+        else -> MaterialTheme.colorScheme.onSurface
     }
     Text(headline, style = MaterialTheme.typography.bodyMedium, color = color)
 }

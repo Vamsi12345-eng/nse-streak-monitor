@@ -282,9 +282,13 @@ def explain(
     bullets: List[str] = []
 
     # 1. Market and sector framing always comes first.
+    falling = stock_move < 0
+    window_desc = (
+        f"the session {hit.end_date}" if len(hit.days) == 1
+        else f"the {len(hit.days)} sessions {hit.start_date} to {hit.end_date}"
+    )
     bullets.append(
-        f"The stock gained {stock_move:+.1f}% over the {len(hit.days)} sessions "
-        f"{hit.start_date} to {hit.end_date}."
+        f"The stock {'fell' if falling else 'gained'} {stock_move:+.1f}% over {window_desc}."
     )
     if sector_move is not None and sector is not None:
         bullets.append(
@@ -304,30 +308,42 @@ def explain(
     )
 
     # 2. Decide what actually drove it.
+    # Symmetric in direction. A stock down 8% whose sector fell 7% has been
+    # carried by the sector just as surely as one up 8% in a sector up 7%, so
+    # every test below compares magnitudes and requires the sector to have moved
+    # the same way. Breadth flips too: a broad sell-off shows *few* advancers.
+    same_direction = sector_move is not None and (sector_move < 0) == falling
+    breadth_confirms = (
+        (breadth is not None) and
+        ((100.0 - breadth) >= BROAD_BREADTH if falling else breadth >= BROAD_BREADTH)
+    )
     sector_carried = (
         sector_move is not None
-        and sector_move >= SECTOR_MOVE_FLOOR
+        and same_direction
+        and abs(sector_move) >= SECTOR_MOVE_FLOOR
         and excess is not None
-        and excess <= SECTOR_EXPLAINS_BAND
-        and (breadth or 0) >= BROAD_BREADTH
+        and abs(excess) <= SECTOR_EXPLAINS_BAND
+        and breadth_confirms
     )
 
     if sector_carried:
         verdict = "sector_wide"
-        headline_txt = f"Sector-wide move - {hit.stock.industry} rallied as a group"
+        moved = "sold off" if falling else "rallied"
+        headline_txt = f"Sector-wide move - {hit.stock.industry} {moved} as a group"
         bullets.append(
-            f"Because the sector rose {sector_move:+.1f}% and this stock only added "
-            f"{excess:+.1f}pp beyond that, the move is best read as sector rotation "
-            f"rather than anything specific to the company."
+            f"Because the sector moved {sector_move:+.1f}% and this stock differed by only "
+            f"{excess:+.1f}pp, the move is best read as sector-wide rather than anything "
+            f"specific to the company."
         )
     elif catalysts:
         verdict = "company_catalyst"
         top = catalysts[0]
         headline_txt = f"Company-specific - {top.label.lower()} disclosed to the exchange"
         if excess is not None:
+            verb = "lagged" if excess < 0 else "outpaced"
             bullets.append(
-                f"The stock outpaced its sector by {excess:+.1f} percentage points, so "
-                f"the move is company-specific rather than sector rotation."
+                f"The stock {verb} its sector by {abs(excess):.1f} percentage points, so "
+                f"the move is company-specific rather than sector-wide."
             )
         for f in catalysts[:3]:
             bullets.append(
@@ -337,14 +353,16 @@ def explain(
     else:
         verdict = "unexplained"
         headline_txt = "Company-specific, but nothing disclosed to explain it"
+        # No wording change needed for direction: the bullets carry it.
         if excess is not None:
+            verb = "lagged" if excess < 0 else "outpaced"
             bullets.append(
-                f"The stock outpaced its sector by {excess:+.1f} percentage points, yet "
+                f"The stock {verb} its sector by {abs(excess):.1f} percentage points, yet "
                 f"filed no disclosure in the window that would account for it."
             )
         bullets.append(
-            "An unexplained outperformance is worth more caution, not less - it can "
-            "reflect speculation, a leaked development, or an operator-driven move."
+            "An unexplained move away from the sector is worth more caution, not less - "
+            "it can reflect speculation, a leaked development, or an operator-driven move."
         )
 
     # 3. Volume corroboration.
