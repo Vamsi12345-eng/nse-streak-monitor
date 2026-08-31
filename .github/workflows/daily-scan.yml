@@ -2,12 +2,21 @@ name: Daily NSE scan
 
 on:
   schedule:
-    # NSE closes 15:30 IST (10:00 UTC). Yahoo needs a while to settle, so the
-    # first run is 17:00 IST. The second catches the third of the universe that
-    # Yahoo routinely backfills a session late - the scan dedupes by
-    # symbol+streak-end-date, so a name found twice only ever alerts once.
-    - cron: "30 11 * * 1-5"   # 17:00 IST, Mon-Fri
-    - cron: "30 14 * * 1-5"   # 20:00 IST, Mon-Fri
+    # Runs every 20 minutes across the window in which the data can land.
+    #
+    # Two problems make a single well-chosen time unreliable, and polling
+    # solves both:
+    #
+    #  1. GitHub's scheduler is best-effort on free/public repos. A cron can
+    #     fire an hour late or be dropped entirely under load - the 17:00 IST
+    #     run on 2026-08-31 never fired at all.
+    #  2. Yahoo publishes NSE daily bars at no fixed time after the 15:30 IST
+    #     close, and backfills roughly a third of the universe a session late.
+    #
+    # 10:00-15:40 UTC is 15:30-21:10 IST. Scans that find nothing new cost ~20s
+    # and publish nothing, so the extra runs are close to free - and on a public
+    # repo Actions minutes are unmetered.
+    - cron: "*/20 10-15 * * 1-5"
   workflow_dispatch:
     inputs:
       gain:
@@ -47,6 +56,9 @@ jobs:
           key: nse-alert-state-${{ github.run_id }}
           restore-keys: nse-alert-state-
 
+      - name: Keep the previously published scan for comparison
+        run: cp docs/scan.json /tmp/previous.json 2>/dev/null || echo "{}" > /tmp/previous.json
+
       - name: Run scan
         id: scan
         working-directory: engine
@@ -57,6 +69,34 @@ jobs:
             --json ../docs/scan.json \
             --state out/state.json
 
+      # Every run rewrites generated_at, so a plain `git diff` is always dirty
+      # and would commit ~18 times a day for nothing. Compare the parts that
+      # actually matter instead.
+      - name: Did anything meaningful change?
+        id: diff
+        run: |
+          python - <<'PY' >> "$GITHUB_OUTPUT"
+          import json, pathlib
+
+          def meaningful(path):
+              try:
+                  d = json.loads(pathlib.Path(path).read_text(encoding="utf-8"))
+              except Exception:
+                  return None
+              # generated_at ticks every run; new_alerts is per-run bookkeeping.
+              # Everything else describes the market and is what readers care about.
+              return {k: v for k, v in d.items()
+                      if k not in ("generated_at", "new_alerts")}
+
+          before = meaningful("/tmp/previous.json")
+          after = meaningful("docs/scan.json")
+          changed = after is not None and before != after
+          print(f"changed={'true' if changed else 'false'}")
+          if changed and after:
+              print(f"session={after.get('session','')}")
+              print(f"hits={len(after.get('hits', []))}")
+          PY
+
       - name: Save alert state
         uses: actions/cache/save@v4
         if: always()
@@ -65,40 +105,41 @@ jobs:
           key: nse-alert-state-${{ github.run_id }}
 
       - name: Publish results
+        if: steps.diff.outputs.changed == 'true'
         run: |
           git config user.name  "nse-scan-bot"
           git config user.email "actions@github.com"
           git add docs/scan.json
-          if git diff --staged --quiet; then
-            echo "no change in scan output"
-          else
-            git commit -m "scan: ${{ steps.scan.outputs.session }} (${{ steps.scan.outputs.hit_count }} hits)"
-            git push
-          fi
+          git commit -m "scan: ${{ steps.diff.outputs.session }} (${{ steps.diff.outputs.hits }} hits)"
+          # Another run in this window may have pushed first; rebase rather than fail.
+          git pull --rebase --autostash origin main
+          git push
 
-      # Optional instant push. Set the NTFY_TOPIC secret to a topic name of
-      # your choosing, install the ntfy Android app, and subscribe to it.
-      # Without the secret this step is skipped and the app's own polling
-      # remains the delivery path.
+      - name: Nothing to publish
+        if: steps.diff.outputs.changed != 'true'
+        run: echo "Scan output is unchanged since the last publish - skipping commit."
+
+      # Instant push, bypassing both the raw.githubusercontent CDN cache and the
+      # app's polling interval. Set the NTFY_TOPIC secret to a private topic name
+      # and subscribe to it in the ntfy Android app. Skipped entirely when unset.
       - name: Push notification
         if: steps.scan.outputs.new_count != '0' && env.NTFY_TOPIC != ''
         env:
           NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
-        working-directory: engine
         run: |
           python - <<'PY'
           import json, os, urllib.request
-          data = json.load(open("../docs/scan.json", encoding="utf-8"))
+          data = json.load(open("docs/scan.json", encoding="utf-8"))
           new = set(data.get("new_alerts", []))
           hits = [h for h in data["hits"] if f"{h['symbol']}@{h['end_date']}" in new]
           if not hits:
               raise SystemExit(0)
 
-          lines = []
-          for h in hits[:8]:
-              a = h.get("attribution") or {}
-              lines.append(f"{h['symbol']}  {h['cumulative_pct']:+.1f}%  {a.get('headline','')}")
-          body = "\n".join(lines)
+          body = "\n".join(
+              f"{h['symbol']}  {h['cumulative_pct']:+.1f}%  "
+              f"{(h.get('attribution') or {}).get('headline','')}"
+              for h in hits[:8]
+          )
           title = (
               f"{len(hits)} stock{'s' if len(hits) > 1 else ''} on a "
               f"{data['config']['streak_days']}-day streak"
@@ -106,15 +147,8 @@ jobs:
           req = urllib.request.Request(
               f"https://ntfy.sh/{os.environ['NTFY_TOPIC']}",
               data=body.encode("utf-8"),
-              headers={"Title": title, "Tags": "chart_with_upwards_trend", "Priority": "default"},
+              headers={"Title": title, "Tags": "chart_with_upwards_trend"},
           )
           urllib.request.urlopen(req, timeout=20)
           print(f"pushed {len(hits)} alert(s)")
           PY
-
-      - name: Upload scan artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: scan-${{ steps.scan.outputs.session }}
-          path: docs/scan.json
-          retention-days: 30

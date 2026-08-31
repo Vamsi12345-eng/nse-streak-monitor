@@ -23,10 +23,14 @@ import com.nseanalysis.app.R
 import com.nseanalysis.app.data.Hit
 import com.nseanalysis.app.data.RefreshOutcome
 import com.nseanalysis.app.data.ScanRepository
+import java.time.DayOfWeek
+import java.time.ZoneId
+import java.time.ZonedDateTime
 import java.util.concurrent.TimeUnit
 
 const val CHANNEL_ID = "streak_alerts"
 private const val WORK_NAME = "nse_scan_refresh"
+private val IST: ZoneId = ZoneId.of("Asia/Kolkata")
 
 /**
  * Polls the published scan feed and raises a local notification for hits this
@@ -42,6 +46,13 @@ class ScanWorker(
 ) : CoroutineWorker(context, params) {
 
     override suspend fun doWork(): Result {
+        // Runs hourly, but the underlying data changes once a day, after the
+        // 15:30 IST close. Outside the window in which a new scan can plausibly
+        // have been published there is nothing to fetch, so return without
+        // touching the network - by far the most expensive part of a check.
+        if (!isPublishWindow()) {
+            return Result.success()
+        }
         val repo = ScanRepository(applicationContext)
         return when (val outcome = repo.refresh()) {
             is RefreshOutcome.Success -> {
@@ -119,17 +130,37 @@ class ScanWorker(
         }
 
         /**
+         * True when a freshly published scan could plausibly be waiting.
+         *
+         * NSE closes 15:30 IST; Yahoo publishes the daily bars at no fixed time
+         * afterwards and the workflow re-scans every 20 minutes until they land.
+         * Checking hourly from the close until late evening on weekdays covers
+         * that, and skips roughly two thirds of the day's wakeups outright.
+         *
+         * Deliberately generous at the end: the scan sometimes only completes
+         * once Yahoo has backfilled the slower third of the universe.
+         */
+        internal fun isPublishWindow(now: ZonedDateTime = ZonedDateTime.now(IST)): Boolean {
+            val day = now.dayOfWeek
+            if (day == DayOfWeek.SATURDAY || day == DayOfWeek.SUNDAY) return false
+            val minutes = now.hour * 60 + now.minute
+            return minutes in (15 * 60 + 30)..(23 * 60)
+        }
+
+        /**
          * Schedules the recurring refresh.
          *
-         * Six hours rather than something tighter because the underlying data
-         * only changes once a day, after the close. Asking more often would
-         * burn battery for nothing and give One UI a reason to throttle the
-         * app - and Samsung's "deep sleeping apps" list will defer this work
-         * indefinitely regardless unless the user exempts the app, which is
-         * why Settings surfaces that as a first-class instruction.
+         * Hourly, but [isPublishWindow] makes most of those wakeups a no-op
+         * that never opens a socket, so the cost lands close to the old
+         * six-hourly schedule while cutting worst-case alert latency from about
+         * six hours to about one.
+         *
+         * Samsung's "deep sleeping apps" list will defer this work indefinitely
+         * regardless unless the user exempts the app, which is why Settings
+         * surfaces that as a first-class instruction.
          */
         fun schedule(context: Context) {
-            val request = PeriodicWorkRequestBuilder<ScanWorker>(6, TimeUnit.HOURS)
+            val request = PeriodicWorkRequestBuilder<ScanWorker>(1, TimeUnit.HOURS)
                 .setConstraints(
                     Constraints.Builder()
                         .setRequiredNetworkType(NetworkType.CONNECTED)
@@ -143,7 +174,10 @@ class ScanWorker(
 
             WorkManager.getInstance(context).enqueueUniquePeriodicWork(
                 WORK_NAME,
-                ExistingPeriodicWorkPolicy.KEEP,
+                // UPDATE, not KEEP: KEEP leaves an already-scheduled worker on its
+                // original period, so an app that upgrades would silently stay on
+                // the old six-hour schedule forever.
+                ExistingPeriodicWorkPolicy.UPDATE,
                 request,
             )
         }
