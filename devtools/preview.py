@@ -69,7 +69,7 @@ def render_notification(scan: Dict) -> str:
       <div class="notif">
         <div class="notif-head">
           <span class="notif-icon">📈</span>
-          <span class="notif-app">Streak Monitor</span>
+          <span class="notif-app">Stocks Monitor</span>
           <span class="notif-time">now</span>
         </div>
         <div class="notif-title">{esc(title)}</div>
@@ -89,7 +89,7 @@ def render_home(scan: Dict) -> str:
     header = f"""
     <div class="appbar">
       <div>
-        <div class="appbar-title">Streak Monitor</div>
+        <div class="appbar-title">Stocks Monitor</div>
         <div class="appbar-sub">Session {esc(scan.get('session','—'))} &nbsp;·&nbsp;
           {stats.get('universe', 0)} stocks scanned</div>
       </div>
@@ -371,7 +371,7 @@ def build(scan: Dict) -> str:
     css = CSS
     data_json = json.dumps(scan, ensure_ascii=False)
 
-    return f"""<title>Streak Monitor Preview</title>
+    return f"""<title>Stocks Monitor Preview</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Roboto:wght@400;500;700&display=swap">
@@ -379,7 +379,7 @@ def build(scan: Dict) -> str:
 
 <header class="harness-head">
   <div>
-    <h1>Streak Monitor</h1>
+    <h1>Stocks Monitor</h1>
     <p class="sub">Android screens rendered from the live <code>scan.json</code> — every
       value below is the one the phone would parse.</p>
   </div>

@@ -1,8 +1,14 @@
-# Streak Monitor — NSE consecutive-gain screener
+# Stocks Monitor — NSE screener with evidence-based attribution
 
-Finds Nifty 500 stocks that gained **≥3% on each of 3 consecutive sessions**, works out
-*why* they moved, and builds a peer-relative one-year research brief. Android app for the
-notification and the reading; a scheduled job does the work.
+Three views of the Nifty 500, each with the same *why did it move* analysis:
+
+1. **Streaks** — stocks that gained **≥3% on each of 3 consecutive sessions**
+2. **Gainers** — the three biggest single-session rises
+3. **Losers** — the three biggest single-session falls
+
+Every stock gets attribution from exchange filings and sector data, plus a peer-relative
+one-year research brief. Android app for the notification and the reading; a scheduled
+job does the work.
 
 No paid APIs. No broker account. No LLM in the automated path.
 
@@ -47,7 +53,7 @@ That is the useful answer. A naive screener would have said "🚀 up 22.7%!"
 ## Architecture
 
 ```
-GitHub Actions (cron, 17:00 + 20:00 IST, Mon–Fri)
+GitHub Actions (every 20 min, 15:30–21:10 IST, Mon–Fri)
   └── engine/run_scan.py
         ├── Nifty 500 list ........... nsearchives.nseindia.com  (free)
         ├── Daily OHLCV .............. Yahoo chart API           (free, no key)
@@ -55,9 +61,9 @@ GitHub Actions (cron, 17:00 + 20:00 IST, Mon–Fri)
         ├── Corporate filings ........ nseindia.com/api          (free, cookie warmup)
         └── Headlines ................ Google News RSS           (free)
               ↓
-        docs/scan.json  (committed to the repo, ~25 KB)
+        docs/scan.json  (committed only when the market data changes, ~95 KB)
               ↓
-   Android app polls it → local notification → detail screen
+   Android app polls hourly in-window → local notification → detail screen
               ↓
         "Open in Claude" → your Claude subscription, interactively
 ```
@@ -99,7 +105,7 @@ The APK is baked with your repo's feed URL automatically. To override, set repo 
 One UI puts unused apps to sleep, which silently kills background refresh. You would
 simply never get an alert, with nothing indicating why.
 
-- **Settings → Apps → Streak Monitor → Battery → Unrestricted**
+- **Settings → Apps → Stocks Monitor → Battery → Unrestricted**
 - **Settings → Battery → Background usage limits** → confirm the app is **not** in
   *Sleeping apps* or *Deep sleeping apps*
 
@@ -107,7 +113,7 @@ The app's Settings screen has buttons that jump straight to these.
 
 ### 5. Optional — instant push
 
-The app polls every 6 hours. For an immediate push instead, install
+The app polls hourly inside the publish window. For an immediate push instead, install
 [ntfy](https://ntfy.sh) from the Play Store, subscribe to a topic name only you know, and
 add it as repo secret `NTFY_TOPIC`. The workflow will push there on every new hit.
 
@@ -142,7 +148,8 @@ python run_scan.py --gain 2 --days 4 --min-turnover 25 --json out/scan.json
 python -m pytest tests/ -v
 ```
 
-A full enriched scan of all 500 names takes about **13 seconds**.
+A full enriched scan of all 500 names takes about **26 seconds** — 13s for the screen
+itself, the rest enriching the six daily movers.
 
 ---
 
@@ -153,6 +160,13 @@ backfilled a day late. The screener tolerates a lag of up to 5 calendar days and
 those hits *"feed lagging"* rather than dropping them — an early version compared against
 an index instead and silently discarded 316 of 500 stocks. The second daily cron run
 catches the stragglers.
+
+**GitHub's cron is best-effort, not a schedule.** On a free or public repo a scheduled
+workflow can run an hour late or be dropped entirely under load — the first 17:00 IST run
+was simply never queued. That is why the scan polls every 20 minutes across a window
+instead of firing once at a chosen time, and why the publish step compares only the
+market-describing fields: `generated_at` changes every run, so a plain `git diff` would
+commit ~18 times a day for nothing.
 
 **Yahoo's NSE sector indices are unreliable** — most were six weeks stale when this was
 built. So sector moves are computed from the constituents instead, which is always as

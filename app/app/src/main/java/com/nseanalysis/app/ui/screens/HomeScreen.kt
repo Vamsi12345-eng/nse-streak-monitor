@@ -42,10 +42,12 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
+import com.nseanalysis.app.R
 import com.nseanalysis.app.UiState
 import com.nseanalysis.app.data.Hit
 import com.nseanalysis.app.data.ScanResult
@@ -65,7 +67,7 @@ fun HomeScreen(
             TopAppBar(
                 title = {
                     Column {
-                        Text("Streak Monitor", style = MaterialTheme.typography.titleLarge)
+                        Text(stringResource(R.string.app_name), style = MaterialTheme.typography.titleLarge)
                         state.result?.let {
                             Text(
                                 "Session ${it.session}  ·  ${it.stats.universe} stocks scanned",
