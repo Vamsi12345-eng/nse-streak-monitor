@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-30T23:56:20+05:30",
-  "session": "2026-08-28",
+  "generated_at": "2026-08-31T17:16:46+05:30",
+  "session": "2026-08-31",
   "config": {
     "daily_gain_pct": 3.0,
     "streak_days": 3,
@@ -11,424 +11,179 @@
     "max_lag_days": 5
   },
   "market": {
-    "median_day_pct": -0.16,
-    "median_streak_pct": -0.32,
-    "breadth_pct": 44.9,
-    "names": 316
+    "median_day_pct": -0.78,
+    "median_streak_pct": -0.88,
+    "breadth_pct": 36.0,
+    "names": 500
   },
   "sectors": [
     {
-      "industry": "Information Technology",
-      "median_day_pct": 3.53,
-      "median_streak_pct": 2.56,
-      "breadth_pct": 100.0,
-      "members": 19,
-      "reliable": true
-    },
-    {
-      "industry": "Services",
-      "median_day_pct": 1.48,
-      "median_streak_pct": -0.22,
-      "breadth_pct": 66.7,
-      "members": 9,
-      "reliable": true
-    },
-    {
-      "industry": "Metals & Mining",
-      "median_day_pct": 0.9,
-      "median_streak_pct": 1.18,
-      "breadth_pct": 71.4,
-      "members": 14,
-      "reliable": true
-    },
-    {
-      "industry": "Telecommunication",
-      "median_day_pct": 0.22,
-      "median_streak_pct": -0.95,
-      "breadth_pct": 85.7,
-      "members": 7,
-      "reliable": true
-    },
-    {
-      "industry": "Healthcare",
-      "median_day_pct": 0.2,
-      "median_streak_pct": 0.76,
-      "breadth_pct": 56.0,
-      "members": 25,
-      "reliable": true
-    },
-    {
-      "industry": "Construction",
-      "median_day_pct": 0.19,
-      "median_streak_pct": -0.22,
-      "breadth_pct": 50.0,
-      "members": 10,
-      "reliable": true
-    },
-    {
-      "industry": "Automobile and Auto Components",
-      "median_day_pct": 0.12,
-      "median_streak_pct": -0.11,
-      "breadth_pct": 57.1,
-      "members": 21,
+      "industry": "Consumer Durables",
+      "median_day_pct": 0.27,
+      "median_streak_pct": -0.21,
+      "breadth_pct": 56.2,
+      "members": 16,
       "reliable": true
     },
     {
       "industry": "Oil Gas & Consumable Fuels",
-      "median_day_pct": 0.05,
-      "median_streak_pct": -1.12,
-      "breadth_pct": 50.0,
-      "members": 12,
+      "median_day_pct": 0.19,
+      "median_streak_pct": -0.43,
+      "breadth_pct": 58.8,
+      "members": 17,
       "reliable": true
     },
     {
-      "industry": "Capital Goods",
-      "median_day_pct": -0.29,
-      "median_streak_pct": 0.18,
-      "breadth_pct": 41.0,
-      "members": 39,
+      "industry": "Consumer Services",
+      "median_day_pct": 0.03,
+      "median_streak_pct": -0.79,
+      "breadth_pct": 51.7,
+      "members": 29,
       "reliable": true
     },
     {
-      "industry": "Financial Services",
-      "median_day_pct": -0.32,
-      "median_streak_pct": -0.67,
-      "breadth_pct": 34.3,
-      "members": 67,
+      "industry": "Construction",
+      "median_day_pct": -0.35,
+      "median_streak_pct": -0.51,
+      "breadth_pct": 30.8,
+      "members": 13,
       "reliable": true
     },
     {
-      "industry": "Chemicals",
-      "median_day_pct": -0.48,
-      "median_streak_pct": 0.22,
-      "breadth_pct": 35.7,
-      "members": 14,
-      "reliable": true
-    },
-    {
-      "industry": "Power",
-      "median_day_pct": -0.59,
-      "median_streak_pct": -1.43,
-      "breadth_pct": 20.0,
-      "members": 15,
+      "industry": "Automobile and Auto Components",
+      "median_day_pct": -0.41,
+      "median_streak_pct": -0.88,
+      "breadth_pct": 39.5,
+      "members": 38,
       "reliable": true
     },
     {
       "industry": "Textiles",
-      "median_day_pct": -0.6,
-      "median_streak_pct": -0.16,
-      "breadth_pct": 0.0,
-      "members": 2,
-      "reliable": false
-    },
-    {
-      "industry": "Consumer Services",
-      "median_day_pct": -0.72,
-      "median_streak_pct": -1.6,
-      "breadth_pct": 30.0,
-      "members": 20,
-      "reliable": true
-    },
-    {
-      "industry": "Fast Moving Consumer Goods",
-      "median_day_pct": -0.76,
-      "median_streak_pct": -1.76,
-      "breadth_pct": 35.0,
-      "members": 20,
-      "reliable": true
-    },
-    {
-      "industry": "Realty",
-      "median_day_pct": -0.81,
-      "median_streak_pct": -1.36,
-      "breadth_pct": 50.0,
-      "members": 4,
-      "reliable": false
-    },
-    {
-      "industry": "Construction Materials",
-      "median_day_pct": -1.09,
-      "median_streak_pct": 0.04,
-      "breadth_pct": 20.0,
+      "median_day_pct": -0.51,
+      "median_streak_pct": 1.83,
+      "breadth_pct": 40.0,
       "members": 5,
       "reliable": true
     },
     {
-      "industry": "Media Entertainment & Publication",
-      "median_day_pct": -1.25,
+      "industry": "Healthcare",
+      "median_day_pct": -0.57,
+      "median_streak_pct": 0.06,
+      "breadth_pct": 41.7,
+      "members": 48,
+      "reliable": true
+    },
+    {
+      "industry": "Financial Services",
+      "median_day_pct": -0.63,
+      "median_streak_pct": -1.12,
+      "breadth_pct": 42.6,
+      "members": 101,
+      "reliable": true
+    },
+    {
+      "industry": "Capital Goods",
+      "median_day_pct": -0.68,
+      "median_streak_pct": -0.08,
+      "breadth_pct": 34.9,
+      "members": 63,
+      "reliable": true
+    },
+    {
+      "industry": "Realty",
+      "median_day_pct": -0.71,
+      "median_streak_pct": -0.48,
+      "breadth_pct": 27.3,
+      "members": 11,
+      "reliable": true
+    },
+    {
+      "industry": "Telecommunication",
+      "median_day_pct": -0.81,
+      "median_streak_pct": 0.58,
+      "breadth_pct": 30.0,
+      "members": 10,
+      "reliable": true
+    },
+    {
+      "industry": "Fast Moving Consumer Goods",
+      "median_day_pct": -1.05,
+      "median_streak_pct": -1.09,
+      "breadth_pct": 35.7,
+      "members": 28,
+      "reliable": true
+    },
+    {
+      "industry": "Information Technology",
+      "median_day_pct": -1.12,
+      "median_streak_pct": 0.86,
+      "breadth_pct": 29.6,
+      "members": 27,
+      "reliable": true
+    },
+    {
+      "industry": "Construction Materials",
+      "median_day_pct": -1.2,
+      "median_streak_pct": -2.28,
+      "breadth_pct": 36.4,
+      "members": 11,
+      "reliable": true
+    },
+    {
+      "industry": "Power",
+      "median_day_pct": -1.32,
+      "median_streak_pct": -2.69,
+      "breadth_pct": 17.6,
+      "members": 17,
+      "reliable": true
+    },
+    {
+      "industry": "Services",
+      "median_day_pct": -1.49,
+      "median_streak_pct": -1.55,
+      "breadth_pct": 21.4,
+      "members": 14,
+      "reliable": true
+    },
+    {
+      "industry": "Chemicals",
+      "median_day_pct": -1.55,
+      "median_streak_pct": -2.24,
+      "breadth_pct": 15.4,
+      "members": 26,
+      "reliable": true
+    },
+    {
+      "industry": "Metals & Mining",
+      "median_day_pct": -1.94,
       "median_streak_pct": -2.76,
+      "breadth_pct": 11.1,
+      "members": 18,
+      "reliable": true
+    },
+    {
+      "industry": "Media Entertainment & Publication",
+      "median_day_pct": -2.41,
+      "median_streak_pct": -3.79,
+      "breadth_pct": 0.0,
+      "members": 5,
+      "reliable": true
+    },
+    {
+      "industry": "Diversified",
+      "median_day_pct": -2.83,
+      "median_streak_pct": -0.74,
       "breadth_pct": 0.0,
       "members": 3,
       "reliable": false
-    },
-    {
-      "industry": "Consumer Durables",
-      "median_day_pct": -1.29,
-      "median_streak_pct": -1.85,
-      "breadth_pct": 10.0,
-      "members": 10,
-      "reliable": true
     }
   ],
-  "hits": [
-    {
-      "symbol": "NSLNISP",
-      "name": "NMDC Steel Ltd.",
-      "industry": "Metals & Mining",
-      "isin": "INE0NNS01018",
-      "last_close": 49.02,
-      "cumulative_pct": 22.7,
-      "start_date": "2026-08-26",
-      "end_date": "2026-08-28",
-      "is_current": true,
-      "median_turnover_cr": 17.7,
-      "volume_ratio": 14.84,
-      "pct_from_52w_high": -6.7,
-      "returns": {
-        "m1": 15.0,
-        "m3": -6.7,
-        "y1": 29.6
-      },
-      "days": [
-        {
-          "date": "2026-08-26",
-          "close": 41.439998626708984,
-          "gain_pct": 3.73,
-          "volume": 4971650
-        },
-        {
-          "date": "2026-08-27",
-          "close": 44.9900016784668,
-          "gain_pct": 8.57,
-          "volume": 86668492
-        },
-        {
-          "date": "2026-08-28",
-          "close": 49.02000045776367,
-          "gain_pct": 8.96,
-          "volume": 57456853
-        }
-      ],
-      "attribution": {
-        "verdict": "unexplained",
-        "headline": "Company-specific, but nothing disclosed to explain it",
-        "explanation": [
-          "The stock gained +22.7% over the 3 sessions 2026-08-26 to 2026-08-28.",
-          "Its sector (Metals & Mining) moved +1.2% over the same window, with 71% of its 14 Nifty 500 members advancing on the last session.",
-          "The broad market (median of 316 Nifty 500 names) moved -0.3% over the window, with 45% advancing on the last session.",
-          "The stock outpaced its sector by +21.5 percentage points, yet filed no disclosure in the window that would account for it.",
-          "An unexplained outperformance is worth more caution, not less - it can reflect speculation, a leaked development, or an operator-driven move.",
-          "Volume ran 14.8x its 20-day median, so real institutional-scale money participated rather than thin-book drift."
-        ],
-        "stock_streak_pct": 22.7,
-        "sector_streak_pct": 1.18,
-        "market_streak_pct": -0.32,
-        "excess_vs_sector_pct": 21.52,
-        "sector_breadth_pct": 71.0,
-        "volume_ratio": 14.84,
-        "cautions": [
-          "Exchange surveillance query on unusual price or volume (filed 2026-08-28)",
-          "Senior management or auditor departure (filed 2026-08-27)",
-          "Exchange surveillance query on unusual price or volume (filed 2026-08-27)",
-          "Thin liquidity - median daily turnover is only Rs 18 crore"
-        ],
-        "filings": [
-          {
-            "date": "2026-08-28",
-            "time": "08:47",
-            "category": "Spurt in Volume",
-            "summary": "Significant increase in volume has been observed in NMDC Steel Limited. The Exchange, in order to ensure that investors have latest relevant information about the company and to inform the market place so that the interest of the investors is safeguarded, had written to the company. NMDC Steel Limited has submitted their response.",
-            "pdf_url": "https://nsearchives.nseindia.com/corporate/NMDCSTEEL_28082026084742_NSL_Clarification_Spurt_in_Volume.pdf",
-            "bucket": "caution",
-            "label": "Exchange surveillance query on unusual price or volume"
-          },
-          {
-            "date": "2026-08-27",
-            "time": "18:41",
-            "category": "Cessation",
-            "summary": "NMDC Steel Limited has informed the Exchange regarding Cessation of Mr Ashish Chatterjee as Government Director of the company w.e.f. August 24, 2026.",
-            "pdf_url": "https://nsearchives.nseindia.com/corporate/NMDCSTEEL_27082026184114_NSL_Change_Directorate.pdf",
-            "bucket": "caution",
-            "label": "Senior management or auditor departure"
-          },
-          {
-            "date": "2026-08-27",
-            "time": "18:06",
-            "category": "Spurt in Volume",
-            "summary": "Significant increase in volume has been observed in NMDC Steel Limited. The Exchange, in order to ensure that investors have latest relevant information about the company and to inform the market place so that the interest of the investors is safeguarded, has written to the company. The response from the company is awaited.",
-            "pdf_url": "-",
-            "bucket": "caution",
-            "label": "Exchange surveillance query on unusual price or volume"
-          },
-          {
-            "date": "2026-08-25",
-            "time": "17:53",
-            "category": "Copy of Newspaper Publication",
-            "summary": "NMDC Steel Limited has informed the Exchange about Copy of Newspaper Publication",
-            "pdf_url": "https://nsearchives.nseindia.com/corporate/NMDCSTEEL_25082026175247_NewspaperNSL11thAGM25082026.pdf",
-            "bucket": "neutral",
-            "label": "Routine or administrative disclosure"
-          },
-          {
-            "date": "2026-08-24",
-            "time": "14:08",
-            "category": "General Updates",
-            "summary": "NMDC Steel Limited has informed the Exchange about General Updates",
-            "pdf_url": "https://nsearchives.nseindia.com/corporate/NSLNISP_24082026140709_SE11th_AGM__NSL.pdf",
-            "bucket": "neutral",
-            "label": "Routine or administrative disclosure"
-          }
-        ],
-        "headlines": [
-          {
-            "title": "NMDC Steel Limited's (NSE:NSLNISP) market cap dropped ₹8.8b last week; State or government bore the brunt - simplywall.st",
-            "source": "simplywall.st",
-            "published": "Thu, 15 Jan 2026 08:00:00 GMT",
-            "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNdVlFM3FhVmpXMmpVTE1Od3BaTWl3YXFieDdtUDNpbWFKZXF2QXJKdE40R1FjUE5KOFhxVkc3RkRHN1JqYWRyWU1tU04tTTY2OV9uOG9jaVFxTHhxTG5TUkRTYWdEcmgtUTA3TnJiOGtJalhnZDFtQWk1T1dqTDRiQmdVcmVGdjB0SXYwWkhDVlNJSjN1UDE5bTcxX0VkbFNyRkZzUU80YU9VX0cxLTExYzdMc01DdDcxdllTbm9vZUM0N3Y5ck5hSmp0c1h5ZDZDb0Iw0gHYAUFVX3lxTE9QeERtZlZNbTM2ZHVVYnZ3Nk0wM0NPM25XVjlsQ1k4cFptcUpiTGYwWjd2N3FtRlhxZEVHZ0dkZWx3QWlQdktlNnVjSGt6ajdMaC1tYzc4bkJuN1FJZGNGSFRBVDRCQ0tlNXU1ZkJyRFJwVVFOZ2NqOGZaX2xiZVJObWJ5TTdJellqT1U5VGRkaU5KbDVPdy1JdUlvQ0EtS202OS1VVFk1LUZidm9TT3dpenBfRlVQTzdkcmFjR3FhZE5kYjdwZEc4UnlLMk5oeWFDVFBwZE1LRQ?oc=5"
-          },
-          {
-            "title": "NMDC Share Price Declines 4% After Q1 Results Disappoint, Citi Cuts Target Price; NMDC Steel Plunges 8% - NDTV Profit",
-            "source": "NDTV Profit",
-            "published": "Mon, 17 Aug 2026 07:00:00 GMT",
-            "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQZ1BDMDRLX3ExNG53SG8wSGMxb0JxVjJzdTJYUjY0SWFnUFRPZy1CVkI3aGdjNXNfWHQ3bnk0WVJad3FEYXFEMzFtdnFEVUx4bjVvYVBFVS1MZGlCQlNRUzVTVEwwNWc4S09uNGVUZ3JFX0JOMmpJVXFsRXRyaTVNMnI3YVJ5ZjRwWWpqY0x0RFkyNlZUUkM1TUw0VVVOY2E1V1UxYlJFckYxV09qNzlPRUtpbkw2SkJrZHZ5S3JCZ0FMenJGcU1udEVzYS1qZ0pm0gHYAUFVX3lxTE9Wb3k5dnRJdzNiV25TNjBCRncxTXdqZXNVT1hDcWtJeUUwSnFKaHJXTE15UkxhUEdnLTlDT3J3MVJvOUxtbzd0d0oxcXlRNWhFYnBQOGxFQjQzTkd2cFI0MEhnUmwyQ0o1LTZJR3JYaXZJS25ub1RjNUFkU1NmY3lyRFBZQ3MwSktsT0s5eUR0V3dMRGo5ZDBkalFDbDNxa2NYbVJsLXZiT2ZpXy1yNjBsMTV5T1FfM1p4WjhaY1RVZl8yNDZHZm5uQnp6NENmdWI1VWFvVm13MQ?oc=5"
-          },
-          {
-            "title": "NMDC Steel Ltd. Share Price Decline: Price Action Update - Univest",
-            "source": "Univest",
-            "published": "Mon, 17 Aug 2026 04:04:00 GMT",
-            "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE10M0hHbk5oYUhpSy1kYU51aDVwQ2RFS1pxYkRlczNsUEx6dzdhLXZoNUotWkRFSVlaLVA3d0xxdmhiQndwa0djZW1XS3VWUmJOdzAyamNOX2VHRE5HazFzVUlYR3FVRzliTE5qTE9VM1VqVGRaUlpyNE5sUQ?oc=5"
-          },
-          {
-            "title": "NMDC Steel Ltd. Share Price Today - NMDC Steel Ltd. Stock Price Live NSE/BSE - CNBC TV18",
-            "source": "CNBC TV18",
-            "published": "Tue, 14 Apr 2026 07:00:00 GMT",
-            "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1HczBhcEZ4ZFhwWnlsd29MYXpfMlA1YlZ2ZFdpTmdQN1VOS2JYc2tMWndTaUVDOUJocHYzU1BjMWkxMjh4bGlRSnhGVEJNQVE2c3JDaFByci05eXhQTE9LUm55ZHAwTlQtLTJZRFNjaDRfOE5ONXFiS1lfdnV2dw?oc=5"
-          },
-          {
-            "title": "NMDC Steel shares skyrocket over 11%; here is what the company shared on Monday - Upstox",
-            "source": "Upstox",
-            "published": "Tue, 07 Apr 2026 07:00:00 GMT",
-            "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOMXZjQmZ0T0RHNEl3TzJnel9QTlRsLXZBQkoteFNNNjlOYktXQ1laRVdsaEhxSG8tbnh3c0hTLTQ0Nnh2bmJHcTlEakZkdkM4U1d3dU9YZU5rdmNuM2ZoZ0s5aXN1RWVrcXFzUDZOR0Vpb080XzVPb1Q0bGtaX3JhdzBRQVdzVjZYTEg2djc2ekp2OUdsZExkdjNLZTdWblZFVkdLZzR4Q1ZkU3pmbDRpN1pWM25sTTFkWHlIVXRXZFVjMGZvbV9vWUN1Z1kzN055cHA4?oc=5"
-          },
-          {
-            "title": "NMDC Steel Q2FY26 Loss Narrows to ₹114.78 Cr; Shares Fall 4% to ₹43.25 - HDFC Sky",
-            "source": "HDFC Sky",
-            "published": "Thu, 30 Oct 2025 07:00:00 GMT",
-            "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE43ZngtM3NqMm92QXFZdDJPNWp4QTc3d25fTmRod3lSRF8xMGV1VUpvV1JjUDdyNWg4ZmU1RzRfaGFIUG5LM2RJUWhqU3ZXOFN2YVZVYjhlWHJDaUtrU21WRy1VV20xMTc1cHhfWUREal8tQQ?oc=5"
-          }
-        ]
-      },
-      "fundamentals": {
-        "symbol": "NSLNISP",
-        "market_cap_cr": 14287.0,
-        "trailing_pe": 174.10715,
-        "forward_pe": null,
-        "price_to_book": 1.0823472,
-        "roe_pct": null,
-        "debt_to_equity": 35.019,
-        "revenue_growth_pct": 8.8,
-        "earnings_growth_pct": 111.1,
-        "operating_margin_pct": 4.3,
-        "profit_margin_pct": 0.6,
-        "promoter_holding_pct": 60.79,
-        "institutional_holding_pct": 17.06,
-        "dividend_yield_pct": null,
-        "current_ratio": null,
-        "beta": 0.682,
-        "target_mean": null,
-        "target_low": null,
-        "target_high": null,
-        "analyst_count": null,
-        "current_price": 48.75,
-        "business_summary": "NMDC Steel Limited manufactures and sells steel products in India. It offers hot rolled coils, sheets, and plates of welded steel pipe for pipeline transportation systems; structural and silicon steel; pig iron; and LPG grades of LPG cylinders manufacturing. The company also provides tube and pipe grade, boiler and pressure vessel grade, commercial forming grades, cold rolling grade, and HSLA Grade. It serves infrastructure and construction; automotive and mobility; energy, oil, and gas; and engineering and fabrication industries. NMDC Steel Limited was incorporated in 2015 and is based in Hyderabad, India."
-      },
-      "benchmark": {
-        "industry": "Metals & Mining",
-        "peers": 17,
-        "trailing_pe": 18.86,
-        "price_to_book": 3.26,
-        "roe_pct": null,
-        "debt_to_equity": 43.61,
-        "revenue_growth_pct": 25.9,
-        "profit_margin_pct": 13.06
-      },
-      "scorecard": {
-        "factors": [
-          {
-            "name": "Trailing P/E",
-            "value": "174.1",
-            "peer_value": "18.9",
-            "stance": "bear",
-            "note": "More expensive than the typical peer, so more of the growth is already priced in."
-          },
-          {
-            "name": "Price / Book",
-            "value": "1.1",
-            "peer_value": "3.3",
-            "stance": "bull",
-            "note": "Trades at a lower multiple of book value than peers."
-          },
-          {
-            "name": "Return on Equity",
-            "value": "n/a",
-            "peer_value": "n/a",
-            "stance": "unknown",
-            "note": "Not reported by the data source."
-          },
-          {
-            "name": "Debt / Equity",
-            "value": "35.0",
-            "peer_value": "43.6",
-            "stance": "bull",
-            "note": "Carries less leverage than peers, so less earnings risk if rates rise."
-          },
-          {
-            "name": "Revenue growth (yoy)",
-            "value": "8.8%",
-            "peer_value": "25.9%",
-            "stance": "bear",
-            "note": "Growing more slowly than the sector."
-          },
-          {
-            "name": "Net margin",
-            "value": "0.6%",
-            "peer_value": "13.1%",
-            "stance": "bear",
-            "note": "Thinner margins than peers."
-          }
-        ],
-        "bull_case": [
-          "Price / Book 1.1 vs sector 3.3. Trades at a lower multiple of book value than peers.",
-          "Debt / Equity 35.0 vs sector 43.6. Carries less leverage than peers, so less earnings risk if rates rise.",
-          "Earnings grew 111% year on year, which is what has to keep happening for a re-rating to hold.",
-          "Promoters hold 61%, so their interests stay tied to the share price."
-        ],
-        "bear_case": [
-          "Trailing P/E 174.1 vs sector 18.9. More expensive than the typical peer, so more of the growth is already priced in.",
-          "Revenue growth (yoy) 8.8% vs sector 25.9%. Growing more slowly than the sector.",
-          "Net margin 0.6% vs sector 13.1%. Thinner margins than peers."
-        ],
-        "invalidators": [
-          "Two consecutive quarters of revenue or margin decline would remove the growth premise this rests on.",
-          "Trading at a large premium to the sector - any earnings miss tends to be punished harder from a premium multiple.",
-          "A promoter pledge increase or a fresh exchange surveillance action would change the risk profile regardless of the fundamentals."
-        ],
-        "data_gaps": [
-          "Return on Equity unavailable"
-        ],
-        "bull_count": 2,
-        "bear_count": 3
-      },
-      "research_prompt": "I'm a long-term retail investor in Indian equities (NSE). My screener flagged NMDC Steel Ltd. (NSLNISP) because it gained at least 3% on each of 3 consecutive sessions. I want your independent read - please push back on my screener rather than agreeing with it.\n\n## What my screener measured\n\n- Streak: 2026-08-26 to 2026-08-28, +22.7% cumulative\n- Daily gains: 2026-08-26 +3.73%, 2026-08-27 +8.57%, 2026-08-28 +8.96%\n- Last close: Rs 49.02\n- Sector: Metals & Mining\n- Median 20-day turnover: Rs 17.7 crore\n- Volume vs 20-day median: 14.84x\n- Distance from 52-week high: -6.7%\n- Return 1M / 3M / 1Y: 15.0% / -6.7% / 29.6%\n\n## Attribution my engine computed\n\n- Verdict: unexplained - Company-specific, but nothing disclosed to explain it\n- Stock over the window: +22.7%\n- Sector median over the same window: +1.2%\n- Excess vs sector: +21.5 pp\n- Broad market median: -0.3%\n\n### NSE filings in the window\n\n- 2026-08-28 [caution] Spurt in Volume - Exchange surveillance query on unusual price or volume\n  Significant increase in volume has been observed in NMDC Steel Limited. The Exchange, in order to ensure that investors have latest relevant information about the company and to in\n- 2026-08-27 [caution] Cessation - Senior management or auditor departure\n  NMDC Steel Limited has informed the Exchange regarding Cessation of Mr Ashish Chatterjee as Government Director of the company w.e.f. August 24, 2026.\n- 2026-08-27 [caution] Spurt in Volume - Exchange surveillance query on unusual price or volume\n  Significant increase in volume has been observed in NMDC Steel Limited. The Exchange, in order to ensure that investors have latest relevant information about the company and to in\n- 2026-08-25 [neutral] Copy of Newspaper Publication - Routine or administrative disclosure\n  NMDC Steel Limited has informed the Exchange about Copy of Newspaper Publication\n- 2026-08-24 [neutral] General Updates - Routine or administrative disclosure\n  NMDC Steel Limited has informed the Exchange about General Updates\n\n### Caution flags my engine raised\n\n- Exchange surveillance query on unusual price or volume (filed 2026-08-28)\n- Senior management or auditor departure (filed 2026-08-27)\n- Exchange surveillance query on unusual price or volume (filed 2026-08-27)\n- Thin liquidity - median daily turnover is only Rs 18 crore\n\n### Recent headlines (unverified, from Google News)\n\n- NMDC Steel Limited's (NSE:NSLNISP) market cap dropped ₹8.8b last week; State or government bore the brunt - simplywall.st\n- NMDC Share Price Declines 4% After Q1 Results Disappoint, Citi Cuts Target Price; NMDC Steel Plunges 8% - NDTV Profit\n- NMDC Steel Ltd. Share Price Decline: Price Action Update - Univest\n- NMDC Steel Ltd. Share Price Today - NMDC Steel Ltd. Stock Price Live NSE/BSE - CNBC TV18\n- NMDC Steel shares skyrocket over 11%; here is what the company shared on Monday - Upstox\n- NMDC Steel Q2FY26 Loss Narrows to ₹114.78 Cr; Shares Fall 4% to ₹43.25 - HDFC Sky\n\n## Fundamentals\n\n- Market cap: Rs 14,287 crore\n- Trailing P/E: 174.10715\n- Price/Book: 1.0823472\n- Debt/Equity: 35.019\n- Revenue growth (yoy): 8.8%\n- Earnings growth (yoy): 111.1%\n- Operating margin: 4.3%\n- Net margin: 0.6%\n- Promoter holding: 60.79%\n- Institutional holding: 17.06%\n\n### Sector medians (Metals & Mining, 17 Nifty 500 peers)\n\n- Trailing P/E: 18.86\n- Price/Book: 3.26\n- Debt/Equity: 43.61\n- Revenue growth: 25.9%\n- Net margin: 13.06%\n\n### Data my engine could not get\n\n- Return on Equity unavailable\n\n## What I want from you\n\n1. **Why did it actually move?** My engine only sees exchange filings and price action. Check whether there is a real catalyst it missed - sector news, a peer's results, a policy change, an index inclusion, a block deal.\n2. **Is my engine's attribution wrong?** Say so directly if the evidence points elsewhere.\n3. **The one-year view.** Build a bull case and a bear case from the business, not from the chart. What has to be true for this to work, and what would break it? Be concrete about which numbers to watch.\n4. **What would you check that I have not?** Name the specific filings, segments or metrics.\n\nPlease flag anything above that looks stale or wrong, and tell me plainly if this looks like a speculative move rather than an investable one. I am not asking you to tell me whether to buy - I want the reasoning so I can decide."
-    }
-  ],
+  "hits": [],
   "stats": {
     "universe": 500,
     "with_prices": 500,
-    "hits": 1,
-    "enriched": 1
+    "hits": 0,
+    "enriched": 0
   },
-  "new_alerts": [
-    "NSLNISP@2026-08-28"
-  ]
+  "new_alerts": []
 }
