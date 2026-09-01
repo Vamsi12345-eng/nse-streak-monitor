@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-01T19:55:33+05:30",
+  "generated_at": "2026-09-01T23:26:17+05:30",
   "session": "2026-09-01",
   "config": {
     "daily_gain_pct": 3.0,
@@ -13,9 +13,9 @@
   },
   "market": {
     "median_day_pct": -0.39,
-    "median_streak_pct": -1.04,
-    "breadth_pct": 38.8,
-    "names": 498
+    "median_streak_pct": -1.03,
+    "breadth_pct": 38.6,
+    "names": 495
   },
   "sectors": [
     {
@@ -25,6 +25,22 @@
       "breadth_pct": 66.7,
       "members": 3,
       "reliable": false
+    },
+    {
+      "industry": "Media Entertainment & Publication",
+      "median_day_pct": 0.76,
+      "median_streak_pct": -0.52,
+      "breadth_pct": 50.0,
+      "members": 4,
+      "reliable": false
+    },
+    {
+      "industry": "Chemicals",
+      "median_day_pct": 0.42,
+      "median_streak_pct": -1.7,
+      "breadth_pct": 60.0,
+      "members": 25,
+      "reliable": true
     },
     {
       "industry": "Information Technology",
@@ -43,14 +59,6 @@
       "reliable": true
     },
     {
-      "industry": "Chemicals",
-      "median_day_pct": 0.28,
-      "median_streak_pct": -1.8,
-      "breadth_pct": 57.7,
-      "members": 26,
-      "reliable": true
-    },
-    {
       "industry": "Services",
       "median_day_pct": 0.18,
       "median_streak_pct": -1.11,
@@ -59,19 +67,19 @@
       "reliable": true
     },
     {
-      "industry": "Healthcare",
-      "median_day_pct": 0.07,
-      "median_streak_pct": -0.24,
-      "breadth_pct": 51.1,
-      "members": 47,
-      "reliable": true
-    },
-    {
       "industry": "Oil Gas & Consumable Fuels",
       "median_day_pct": -0.04,
       "median_streak_pct": 0.4,
       "breadth_pct": 47.1,
       "members": 17,
+      "reliable": true
+    },
+    {
+      "industry": "Healthcare",
+      "median_day_pct": -0.06,
+      "median_streak_pct": -0.31,
+      "breadth_pct": 50.0,
+      "members": 48,
       "reliable": true
     },
     {
@@ -91,14 +99,6 @@
       "reliable": true
     },
     {
-      "industry": "Media Entertainment & Publication",
-      "median_day_pct": -0.18,
-      "median_streak_pct": -0.66,
-      "breadth_pct": 40.0,
-      "members": 5,
-      "reliable": true
-    },
-    {
       "industry": "Metals & Mining",
       "median_day_pct": -0.2,
       "median_streak_pct": -1.49,
@@ -112,6 +112,14 @@
       "median_streak_pct": -1.04,
       "breadth_pct": 30.8,
       "members": 13,
+      "reliable": true
+    },
+    {
+      "industry": "Construction Materials",
+      "median_day_pct": -0.48,
+      "median_streak_pct": -2.49,
+      "breadth_pct": 27.3,
+      "members": 11,
       "reliable": true
     },
     {
@@ -131,14 +139,6 @@
       "reliable": true
     },
     {
-      "industry": "Construction Materials",
-      "median_day_pct": -0.74,
-      "median_streak_pct": -2.32,
-      "breadth_pct": 30.0,
-      "members": 10,
-      "reliable": true
-    },
-    {
       "industry": "Consumer Services",
       "median_day_pct": -0.86,
       "median_streak_pct": -1.27,
@@ -155,19 +155,19 @@
       "reliable": true
     },
     {
-      "industry": "Financial Services",
-      "median_day_pct": -1.02,
-      "median_streak_pct": -1.44,
-      "breadth_pct": 25.7,
-      "members": 101,
+      "industry": "Telecommunication",
+      "median_day_pct": -0.89,
+      "median_streak_pct": -1.3,
+      "breadth_pct": 44.4,
+      "members": 9,
       "reliable": true
     },
     {
-      "industry": "Telecommunication",
-      "median_day_pct": -1.38,
-      "median_streak_pct": -0.86,
-      "breadth_pct": 40.0,
-      "members": 10,
+      "industry": "Financial Services",
+      "median_day_pct": -1.03,
+      "median_streak_pct": -1.44,
+      "breadth_pct": 24.2,
+      "members": 99,
       "reliable": true
     },
     {
@@ -212,17 +212,17 @@
         "headline": "Company-specific, but nothing disclosed to explain it",
         "explanation": [
           "The stock gained +7.7% over the session 2026-09-01.",
-          "Its sector (Healthcare) moved +0.1% over the same window, with 51% of its 47 Nifty 500 members advancing on the last session.",
-          "The broad market (median of 498 Nifty 500 names) moved -0.4% over the window, with 39% advancing on the last session.",
-          "The stock outpaced its sector by 7.6 percentage points, yet filed no disclosure in the window that would account for it.",
+          "Its sector (Healthcare) moved -0.1% over the same window, with 50% of its 48 Nifty 500 members advancing on the last session.",
+          "The broad market (median of 495 Nifty 500 names) moved -0.4% over the window, with 39% advancing on the last session.",
+          "The stock outpaced its sector by 7.8 percentage points, yet filed no disclosure in the window that would account for it.",
           "An unexplained move away from the sector is worth more caution, not less - it can reflect speculation, a leaked development, or an operator-driven move.",
           "Volume ran 34.0x its 20-day median, so real institutional-scale money participated rather than thin-book drift."
         ],
         "stock_streak_pct": 7.7,
-        "sector_streak_pct": 0.07,
+        "sector_streak_pct": -0.06,
         "market_streak_pct": -0.39,
-        "excess_vs_sector_pct": 7.63,
-        "sector_breadth_pct": 51.0,
+        "excess_vs_sector_pct": 7.76,
+        "sector_breadth_pct": 50.0,
         "volume_ratio": 34.01,
         "cautions": [
           "Exchange surveillance query on unusual price or volume (filed 2026-09-01)",
@@ -250,14 +250,8 @@
         ],
         "headlines": [
           {
-            "title": "Volumes jump at Vardhman Textiles Ltd counter - Business Standard",
-            "source": "Business Standard",
-            "published": "Tue, 01 Sep 2026 10:01:01 GMT",
-            "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNQTVNa3JRdkcwdUpjQmRTckxTV2ZPNS1mX1g1Vnllb0huZkpsV20zTlNWU0N5ajNEcnl1MG9weW81RHVOazdDVllIVi1hMGVnQ1htV3BDMkpMUFAwc080WnBnMkFYODFKR3kxamtWQ0JwbHA4X28xVTJaN1VDanl5cjFhZWJ4YjZzeHIxemdlblFpTWJPQnlsVTcwRzZJRGRPMTA5MXJrdGNZaVdVRHFNSVF2TXpDZzJBeS1lelJhUXltTHNIYjlpZWZnQdIBywFBVV95cUxNQTVNa3JRdkcwdUpjQmRTckxTV2ZPNS1mX1g1Vnllb0huZkpsV20zTlNWU0N5ajNEcnl1MG9weW81RHVOazdDVllIVi1hMGVnQ1htV3BDMkpMUFAwc080WnBnMkFYODFKR3kxamtWQ0JwbHA4X28xVTJaN1VDanl5cjFhZWJ4YjZzeHIxemdlblFpTWJPQnlsVTcwRzZJRGRPMTA5MXJrdGNZaVdVRHFNSVF2TXpDZzJBeS1lelJhUXltTHNIYjlpZWZnQQ?oc=5"
-          },
-          {
-            "title": "CAPLIPOINT Forecast — Price Target — Prediction for 2027 - tradingview.com",
-            "source": "tradingview.com",
+            "title": "CAPLIPOINT Forecast — Price Target — Prediction for 2027 - TradingView",
+            "source": "TradingView",
             "published": "Thu, 25 Jun 2026 13:35:55 GMT",
             "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1VY0VjRFBYXzZCWGtrbWNRNXhfdzNqSktNT09GLWFiLV9ha1EyLTJpamx2bFRjM245S0JuN1I2RkNYNmtpa1VQTmsyVUxjbHFDS09nTVVZMTNnTGRaaVA0QlVhclN6SFF5ZVFqd1ZwVFR5S1l0Z19XSjFaSjFHdw?oc=5"
           },
@@ -266,6 +260,12 @@
             "source": "simplywall.st",
             "published": "Thu, 12 Feb 2026 08:00:00 GMT",
             "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxQVGoyeDZraTFwN3d6OHdVdWxUczBqeTg5Q0trdDRWU2ZDdkdwdWtIWDFkejh5dE1Gbjc0VUNDOWdOREkyZFAxbUhKUmNzYkp6bm5DRmE2cEZnNS1Yd2lRMEZOQWpKOWlKU3RZNS1XY3pSaVlSMnl6OGJHQ1pGVG9nYkFsWVVHblZseTNrNGNMYVdXVUZqeDhBWjRySExfR2x2Sm94cWlSd3BJSmRoUVB3ZEZzQVl4RUxnTjJXU1F1UXJGamFTTXhxUnAyb2NpUnJaYkxUb3NvNkFvNkx2S0NrN21DcnFlM2RlRDMxTGY2SUdMQWRrazRfc2VhQVVRQdIBgwJBVV95cUxNOW5KUm9HanVuMVdWY2NQY0Nra1FGa2trdWVXZTVvVGNnVDZZQ3pJZUtWVkM5X0NmdmFGLXB5V3lRX2ZhdUpldUpyXzhuMy0ySUxBVWt0NVNWemJaSjY4RDc5YVJhZEU5SkNHZHFQcENYVEZQMU9PUmV1aUx0Mk1ZeUhJTUs1SkxPVllCWkN1c2w2TzFPMFpQSlRMWGdiSkU3OUlsS0hjXy1HcGZlNGNCTmNKUVNrM3NHZDdBbEd4NmhHSkJpaGFrVDJMelVCTnNNNDd1aF9RNkdtTWpWQ2xjUVI5cmFOSFZOM21rWEw5WkwtcDQwM0ltcE13Yy1WRm1wMzlF?oc=5"
+          },
+          {
+            "title": "Volumes jump at Vardhman Textiles Ltd counter - Business Standard",
+            "source": "Business Standard",
+            "published": "Tue, 01 Sep 2026 10:01:01 GMT",
+            "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNQTVNa3JRdkcwdUpjQmRTckxTV2ZPNS1mX1g1Vnllb0huZkpsV20zTlNWU0N5ajNEcnl1MG9weW81RHVOazdDVllIVi1hMGVnQ1htV3BDMkpMUFAwc080WnBnMkFYODFKR3kxamtWQ0JwbHA4X28xVTJaN1VDanl5cjFhZWJ4YjZzeHIxemdlblFpTWJPQnlsVTcwRzZJRGRPMTA5MXJrdGNZaVdVRHFNSVF2TXpDZzJBeS1lelJhUXltTHNIYjlpZWZnQdIBywFBVV95cUxNQTVNa3JRdkcwdUpjQmRTckxTV2ZPNS1mX1g1Vnllb0huZkpsV20zTlNWU0N5ajNEcnl1MG9weW81RHVOazdDVllIVi1hMGVnQ1htV3BDMkpMUFAwc080WnBnMkFYODFKR3kxamtWQ0JwbHA4X28xVTJaN1VDanl5cjFhZWJ4YjZzeHIxemdlblFpTWJPQnlsVTcwRzZJRGRPMTA5MXJrdGNZaVdVRHFNSVF2TXpDZzJBeS1lelJhUXltTHNIYjlpZWZnQQ?oc=5"
           },
           {
             "title": "Caplin Point Laboratories Ltd. Share Price Live Today - CNBC TV18",
@@ -389,7 +389,7 @@
         "bull_count": 4,
         "bear_count": 0
       },
-      "research_prompt": "I'm a long-term retail investor in Indian equities (NSE). My screener flagged Caplin Point Laboratories Ltd. (CAPLIPOINT) because it gained at least 3% on each of 1 consecutive sessions. I want your independent read - please push back on my screener rather than agreeing with it.\n\n## What my screener measured\n\n- Streak: 2026-09-01 to 2026-09-01, +7.7% cumulative\n- Daily gains: 2026-09-01 +7.70%\n- Last close: Rs 2,711.20\n- Sector: Healthcare\n- Median 20-day turnover: Rs 16.5 crore\n- Volume vs 20-day median: 34.01x\n- Distance from 52-week high: 0.0%\n- Return 1M / 3M / 1Y: 5.7% / 34.2% / 28.9%\n\n## Attribution my engine computed\n\n- Verdict: unexplained - Company-specific, but nothing disclosed to explain it\n- Stock over the window: +7.7%\n- Sector median over the same window: +0.1%\n- Excess vs sector: +7.6 pp\n- Broad market median: -0.4%\n\n### NSE filings in the window\n\n- 2026-09-01 [neutral] Updates - Routine or administrative disclosure\n  Caplin Point Laboratories Limited has informed the Exchange regarding 'Receipt of Good Manufacturing Practices (GMP) Compliance Certification by Caplin One Labs Limited (COL), a su\n- 2026-09-01 [caution] Spurt in Volume - Exchange surveillance query on unusual price or volume\n  Significant increase in volume has been observed in Caplin Point Laboratories Limited. The Exchange, in order to ensure that investors have latest relevant information about the co\n\n### Caution flags my engine raised\n\n- Exchange surveillance query on unusual price or volume (filed 2026-09-01)\n- Thin liquidity - median daily turnover is only Rs 16 crore\n\n### Recent headlines (unverified, from Google News)\n\n- Volumes jump at Vardhman Textiles Ltd counter - Business Standard\n- CAPLIPOINT Forecast — Price Target — Prediction for 2027 - tradingview.com\n- Caplin Point Laboratories Limited's (NSE:CAPLIPOINT) Share Price Not Quite Adding Up - simplywall.st\n- Caplin Point Laboratories Ltd. Share Price Live Today - CNBC TV18\n- Caplin Point Laboratories Limited (NSE:CAPLIPOINT) Looks Like A Good Stock, And It's Going Ex-Dividend Soon - simplywall.st\n- Caplin Point Laboratories Limited's (NSE:CAPLIPOINT) Stock Has Been Sliding But Fundamentals Look Strong: Is The Market Wrong? - simplywall.st\n\n## Fundamentals\n\n- Market cap: Rs 20,608 crore\n- Trailing P/E: 31.038351\n- Forward P/E: 24.491419\n- Price/Book: 5.8680935\n- Debt/Equity: 0.127\n- Revenue growth (yoy): 19.6%\n- Earnings growth (yoy): 15.9%\n- Operating margin: 31.43%\n- Net margin: 29.09%\n- Promoter holding: 73.44%\n- Institutional holding: 5.68%\n- Dividend yield: 0.32%\n- Analyst count: 2\n- Mean target price: 2765.0\n\n### Sector medians (Healthcare, 47 Nifty 500 peers)\n\n- Trailing P/E: 47.95\n- Price/Book: 6.63\n- Return on equity: 8.84%\n- Debt/Equity: 18.61\n- Revenue growth: 20.6%\n- Net margin: 13.87%\n\n### Data my engine could not get\n\n- Return on Equity unavailable\n- Only 2 analysts cover this name, so the consensus target is thin and moves easily.\n\n## What I want from you\n\n1. **Why did it actually move?** My engine only sees exchange filings and price action. Check whether there is a real catalyst it missed - sector news, a peer's results, a policy change, an index inclusion, a block deal.\n2. **Is my engine's attribution wrong?** Say so directly if the evidence points elsewhere.\n3. **The one-year view.** Build a bull case and a bear case from the business, not from the chart. What has to be true for this to work, and what would break it? Be concrete about which numbers to watch.\n4. **What would you check that I have not?** Name the specific filings, segments or metrics.\n\nPlease flag anything above that looks stale or wrong, and tell me plainly if this looks like a speculative move rather than an investable one. I am not asking you to tell me whether to buy - I want the reasoning so I can decide."
+      "research_prompt": "I'm a long-term retail investor in Indian equities (NSE). My screener flagged Caplin Point Laboratories Ltd. (CAPLIPOINT) because it gained at least 3% on each of 1 consecutive sessions. I want your independent read - please push back on my screener rather than agreeing with it.\n\n## What my screener measured\n\n- Streak: 2026-09-01 to 2026-09-01, +7.7% cumulative\n- Daily gains: 2026-09-01 +7.70%\n- Last close: Rs 2,711.20\n- Sector: Healthcare\n- Median 20-day turnover: Rs 16.5 crore\n- Volume vs 20-day median: 34.01x\n- Distance from 52-week high: 0.0%\n- Return 1M / 3M / 1Y: 5.7% / 34.2% / 28.9%\n\n## Attribution my engine computed\n\n- Verdict: unexplained - Company-specific, but nothing disclosed to explain it\n- Stock over the window: +7.7%\n- Sector median over the same window: -0.1%\n- Excess vs sector: +7.8 pp\n- Broad market median: -0.4%\n\n### NSE filings in the window\n\n- 2026-09-01 [neutral] Updates - Routine or administrative disclosure\n  Caplin Point Laboratories Limited has informed the Exchange regarding 'Receipt of Good Manufacturing Practices (GMP) Compliance Certification by Caplin One Labs Limited (COL), a su\n- 2026-09-01 [caution] Spurt in Volume - Exchange surveillance query on unusual price or volume\n  Significant increase in volume has been observed in Caplin Point Laboratories Limited. The Exchange, in order to ensure that investors have latest relevant information about the co\n\n### Caution flags my engine raised\n\n- Exchange surveillance query on unusual price or volume (filed 2026-09-01)\n- Thin liquidity - median daily turnover is only Rs 16 crore\n\n### Recent headlines (unverified, from Google News)\n\n- CAPLIPOINT Forecast — Price Target — Prediction for 2027 - TradingView\n- Caplin Point Laboratories Limited's (NSE:CAPLIPOINT) Share Price Not Quite Adding Up - simplywall.st\n- Volumes jump at Vardhman Textiles Ltd counter - Business Standard\n- Caplin Point Laboratories Ltd. Share Price Live Today - CNBC TV18\n- Caplin Point Laboratories Limited (NSE:CAPLIPOINT) Looks Like A Good Stock, And It's Going Ex-Dividend Soon - simplywall.st\n- Caplin Point Laboratories Limited's (NSE:CAPLIPOINT) Stock Has Been Sliding But Fundamentals Look Strong: Is The Market Wrong? - simplywall.st\n\n## Fundamentals\n\n- Market cap: Rs 20,608 crore\n- Trailing P/E: 31.038351\n- Forward P/E: 24.491419\n- Price/Book: 5.8680935\n- Debt/Equity: 0.127\n- Revenue growth (yoy): 19.6%\n- Earnings growth (yoy): 15.9%\n- Operating margin: 31.43%\n- Net margin: 29.09%\n- Promoter holding: 73.44%\n- Institutional holding: 5.68%\n- Dividend yield: 0.32%\n- Analyst count: 2\n- Mean target price: 2765.0\n\n### Sector medians (Healthcare, 47 Nifty 500 peers)\n\n- Trailing P/E: 47.95\n- Price/Book: 6.63\n- Return on equity: 8.84%\n- Debt/Equity: 18.61\n- Revenue growth: 20.6%\n- Net margin: 13.87%\n\n### Data my engine could not get\n\n- Return on Equity unavailable\n- Only 2 analysts cover this name, so the consensus target is thin and moves easily.\n\n## What I want from you\n\n1. **Why did it actually move?** My engine only sees exchange filings and price action. Check whether there is a real catalyst it missed - sector news, a peer's results, a policy change, an index inclusion, a block deal.\n2. **Is my engine's attribution wrong?** Say so directly if the evidence points elsewhere.\n3. **The one-year view.** Build a bull case and a bear case from the business, not from the chart. What has to be true for this to work, and what would break it? Be concrete about which numbers to watch.\n4. **What would you check that I have not?** Name the specific filings, segments or metrics.\n\nPlease flag anything above that looks stale or wrong, and tell me plainly if this looks like a speculative move rather than an investable one. I am not asking you to tell me whether to buy - I want the reasoning so I can decide."
     },
     {
       "symbol": "ENGINERSIN",
@@ -423,7 +423,7 @@
         "explanation": [
           "The stock gained +6.9% over the session 2026-09-01.",
           "Its sector (Construction) moved -0.2% over the same window, with 31% of its 13 Nifty 500 members advancing on the last session.",
-          "The broad market (median of 498 Nifty 500 names) moved -0.4% over the window, with 39% advancing on the last session.",
+          "The broad market (median of 495 Nifty 500 names) moved -0.4% over the window, with 39% advancing on the last session.",
           "The stock outpaced its sector by 7.2 percentage points, yet filed no disclosure in the window that would account for it.",
           "An unexplained move away from the sector is worth more caution, not less - it can reflect speculation, a leaked development, or an operator-driven move.",
           "Volume ran 26.1x its 20-day median, so real institutional-scale money participated rather than thin-book drift."
@@ -454,8 +454,8 @@
             "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOeEtqWDRmWUR1OW9TOGlLdWp3Ty1LNk13Q2tYOXd0MHJVd08yRVNLMmMwTWM5SkRnNUU2MU9qUmlWRnlNN3V1emJHaFB1Wi1ZUDNSNXhHUUYzaGlxZmlCYnRYVGZzTlJJQlQ4bnAzYldudGxTS1FoWkVrTlpVb095M1lvcHNlcUlNaFVuaVVsX0o1d2d4WVBhZG5jN2laMlhuRzJBUmd6czdVZklma0laVTJSaWJhQWtIRlNpUVlFei1sczBPenNkLUdMTDQzTGx1cWhmZkl5VHV5emxMbjFPajhMZ9IB6AFBVV95cUxPZkJ1ZFdaY1R6TDhTVEtjeG03UXZXYzRqS1c3MDNMd1dyZW5fc1JmMVFPVmFTX1VsWWVzeVpLSk5CR2tnR1BoblNLMFBaaXZYdmdhVy1iaVdRZU0zLWlVNWpTclN5MEpueEpPQ0dMRUNMYWlGT1NXTDJyUUNtVzRKdHVFWUpBRUpzV2tCUkxJNU9OOE5JZUlia0x1RGtPaENBamxLSDBYZDJmRlZLdVhzeEh6TUxEX0FWRFJNVkRBUlEtd1g2VnF3WjJyTXo4VkFHMUVEZ1ZRbUdmRTdRSFZWRFdwTkp6V3Nj?oc=5"
           },
           {
-            "title": "ENGINERSIN Forecast — Price Target — Prediction for 2027 - tradingview.com",
-            "source": "tradingview.com",
+            "title": "ENGINERSIN Forecast — Price Target — Prediction for 2027 - TradingView",
+            "source": "TradingView",
             "published": "Thu, 25 Jun 2026 13:52:33 GMT",
             "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1HVEhHS1lJMElQQk5YeDFvajIyd2hpZ0l4WlEtQkpVeThaU2twYU01MzBtbXVBU2JNVnNDQTJRbFMxMVYzd2twT25WanhhR1hJNzB5LVdOUlRTMnk1eUZmZmhkREVQNXpsZFk1cVo2SU5yZGcxMG9RWU5vemw4Zw?oc=5"
           },
@@ -499,7 +499,7 @@
         "profit_margin_pct": 20.22,
         "promoter_holding_pct": 51.37,
         "institutional_holding_pct": 18.52,
-        "dividend_yield_pct": 1.97,
+        "dividend_yield_pct": 1.91,
         "current_ratio": null,
         "beta": 0.92,
         "target_mean": 287.33334,
@@ -587,7 +587,7 @@
         "bull_count": 3,
         "bear_count": 2
       },
-      "research_prompt": "I'm a long-term retail investor in Indian equities (NSE). My screener flagged Engineers India Ltd. (ENGINERSIN) because it gained at least 3% on each of 1 consecutive sessions. I want your independent read - please push back on my screener rather than agreeing with it.\n\n## What my screener measured\n\n- Streak: 2026-09-01 to 2026-09-01, +6.9% cumulative\n- Daily gains: 2026-09-01 +6.94%\n- Last close: Rs 280.05\n- Sector: Construction\n- Median 20-day turnover: Rs 60.9 crore\n- Volume vs 20-day median: 26.11x\n- Distance from 52-week high: 0.0%\n- Return 1M / 3M / 1Y: 23.5% / 17.8% / 39.4%\n\n## Attribution my engine computed\n\n- Verdict: unexplained - Company-specific, but nothing disclosed to explain it\n- Stock over the window: +6.9%\n- Sector median over the same window: -0.2%\n- Excess vs sector: +7.2 pp\n- Broad market median: -0.4%\n\n### NSE filings in the window\n\n- 2026-08-31 [neutral] Updates - Routine or administrative disclosure\n  Engineers India Limited has informed the Exchange regarding 'Updates: Letter to shareholders Pursuant to Regulation 36(1)(b) of the SEBI (Listing Obligations and Disclosure Require\n\n### Recent headlines (unverified, from Google News)\n\n- What Is Engineers India Limited's (NSE:ENGINERSIN) Share Price Doing? - simplywall.st\n- ENGINERSIN Forecast — Price Target — Prediction for 2027 - tradingview.com\n- Does Engineers India (NSE:ENGINERSIN) Deserve A Spot On Your Watchlist? - simplywall.st\n- Engineers India Ltd. Share Price Today - Engineers India Ltd. Stock Price Live NSE/BSE - CNBC TV18\n- Engineers India Share Price Target 2026 Forecast - Univest\n- Engineers India, NMDC among top stock picks for today; Check target here - Business Standard\n\n## Fundamentals\n\n- Market cap: Rs 15,740 crore\n- Trailing P/E: 20.060886\n- Forward P/E: 20.516483\n- Price/Book: 5.016569\n- Debt/Equity: 0.534\n- Revenue growth (yoy): -5.8%\n- Earnings growth (yoy): 142.2%\n- Operating margin: 14.23%\n- Net margin: 20.22%\n- Promoter holding: 51.37%\n- Institutional holding: 18.52%\n- Dividend yield: 1.97%\n- Analyst count: 6\n- Mean target price: 287.33334\n\n### Sector medians (Construction, 12 Nifty 500 peers)\n\n- Trailing P/E: 25.67\n- Price/Book: 2.91\n- Debt/Equity: 53.23\n- Revenue growth: 7.55%\n- Net margin: 5.63%\n\n### Data my engine could not get\n\n- Return on Equity unavailable\n\n## What I want from you\n\n1. **Why did it actually move?** My engine only sees exchange filings and price action. Check whether there is a real catalyst it missed - sector news, a peer's results, a policy change, an index inclusion, a block deal.\n2. **Is my engine's attribution wrong?** Say so directly if the evidence points elsewhere.\n3. **The one-year view.** Build a bull case and a bear case from the business, not from the chart. What has to be true for this to work, and what would break it? Be concrete about which numbers to watch.\n4. **What would you check that I have not?** Name the specific filings, segments or metrics.\n\nPlease flag anything above that looks stale or wrong, and tell me plainly if this looks like a speculative move rather than an investable one. I am not asking you to tell me whether to buy - I want the reasoning so I can decide."
+      "research_prompt": "I'm a long-term retail investor in Indian equities (NSE). My screener flagged Engineers India Ltd. (ENGINERSIN) because it gained at least 3% on each of 1 consecutive sessions. I want your independent read - please push back on my screener rather than agreeing with it.\n\n## What my screener measured\n\n- Streak: 2026-09-01 to 2026-09-01, +6.9% cumulative\n- Daily gains: 2026-09-01 +6.94%\n- Last close: Rs 280.05\n- Sector: Construction\n- Median 20-day turnover: Rs 60.9 crore\n- Volume vs 20-day median: 26.11x\n- Distance from 52-week high: 0.0%\n- Return 1M / 3M / 1Y: 23.5% / 17.8% / 39.4%\n\n## Attribution my engine computed\n\n- Verdict: unexplained - Company-specific, but nothing disclosed to explain it\n- Stock over the window: +6.9%\n- Sector median over the same window: -0.2%\n- Excess vs sector: +7.2 pp\n- Broad market median: -0.4%\n\n### NSE filings in the window\n\n- 2026-08-31 [neutral] Updates - Routine or administrative disclosure\n  Engineers India Limited has informed the Exchange regarding 'Updates: Letter to shareholders Pursuant to Regulation 36(1)(b) of the SEBI (Listing Obligations and Disclosure Require\n\n### Recent headlines (unverified, from Google News)\n\n- What Is Engineers India Limited's (NSE:ENGINERSIN) Share Price Doing? - simplywall.st\n- ENGINERSIN Forecast — Price Target — Prediction for 2027 - TradingView\n- Does Engineers India (NSE:ENGINERSIN) Deserve A Spot On Your Watchlist? - simplywall.st\n- Engineers India Ltd. Share Price Today - Engineers India Ltd. Stock Price Live NSE/BSE - CNBC TV18\n- Engineers India Share Price Target 2026 Forecast - Univest\n- Engineers India, NMDC among top stock picks for today; Check target here - Business Standard\n\n## Fundamentals\n\n- Market cap: Rs 15,740 crore\n- Trailing P/E: 20.060886\n- Forward P/E: 20.516483\n- Price/Book: 5.016569\n- Debt/Equity: 0.534\n- Revenue growth (yoy): -5.8%\n- Earnings growth (yoy): 142.2%\n- Operating margin: 14.23%\n- Net margin: 20.22%\n- Promoter holding: 51.37%\n- Institutional holding: 18.52%\n- Dividend yield: 1.91%\n- Analyst count: 6\n- Mean target price: 287.33334\n\n### Sector medians (Construction, 12 Nifty 500 peers)\n\n- Trailing P/E: 25.67\n- Price/Book: 2.91\n- Debt/Equity: 53.23\n- Revenue growth: 7.55%\n- Net margin: 5.63%\n\n### Data my engine could not get\n\n- Return on Equity unavailable\n\n## What I want from you\n\n1. **Why did it actually move?** My engine only sees exchange filings and price action. Check whether there is a real catalyst it missed - sector news, a peer's results, a policy change, an index inclusion, a block deal.\n2. **Is my engine's attribution wrong?** Say so directly if the evidence points elsewhere.\n3. **The one-year view.** Build a bull case and a bear case from the business, not from the chart. What has to be true for this to work, and what would break it? Be concrete about which numbers to watch.\n4. **What would you check that I have not?** Name the specific filings, segments or metrics.\n\nPlease flag anything above that looks stale or wrong, and tell me plainly if this looks like a speculative move rather than an investable one. I am not asking you to tell me whether to buy - I want the reasoning so I can decide."
     },
     {
       "symbol": "WELCORP",
@@ -621,7 +621,7 @@
         "explanation": [
           "The stock gained +6.8% over the session 2026-09-01.",
           "Its sector (Capital Goods) moved -0.6% over the same window, with 41% of its 63 Nifty 500 members advancing on the last session.",
-          "The broad market (median of 498 Nifty 500 names) moved -0.4% over the window, with 39% advancing on the last session.",
+          "The broad market (median of 495 Nifty 500 names) moved -0.4% over the window, with 39% advancing on the last session.",
           "The stock outpaced its sector by 7.3 percentage points, yet filed no disclosure in the window that would account for it.",
           "An unexplained move away from the sector is worth more caution, not less - it can reflect speculation, a leaked development, or an operator-driven move.",
           "Volume ran 3.6x its 20-day median, so real institutional-scale money participated rather than thin-book drift."
@@ -670,8 +670,8 @@
             "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOQllLdldKOGIwaUp0SUhybWtKMVFKaVc0SkphN0F0LTlGVmFoeTFERnVFUHZDdWt3YjhhRkY0YVhqMmpQN21VV0pkLWwwU2JhNzNOMFR4c1BEWjRnQlhrbnhjc0FJZENwYW9hMWNsNFlLd3Uwa1doNXJkTzNSVV96dQ?oc=5"
           },
           {
-            "title": "WELCORP Forecast — Price Target — Prediction for 2027 - tradingview.com",
-            "source": "tradingview.com",
+            "title": "WELCORP Forecast — Price Target — Prediction for 2027 - TradingView",
+            "source": "TradingView",
             "published": "Thu, 25 Jun 2026 11:48:08 GMT",
             "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9TMlpSRTNOMjAxdzNWSk5sNVpNZWNpWFpmTm12OG5CdFA4M1ZSVUcxN2ZXNVk4SW5yQ0dDczlOVzhsTndiR1pwY2dRbkJHR3BQNHh6UThLbGpIYWwyRnZSUVF4TGxRZE9IX2huenIyZFJWZFdZWDlPUGdn?oc=5"
           },
@@ -688,10 +688,10 @@
             "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNWnRpbjF2NlRIU2xXV1BtWkIyVTk0VW5LRDA1S3FTN19CRVVORFdyN3FzdU5PS2hsSTZZVFBVN0sxdHF4cTBWQm95eUtxMnFhTkxZRkc1Yi1kMllEbVFIZ1Z5QVZOOC1HTTl5cTZGMU4tS1hOcy0tMi00Q3Byc3Blc1BlRmhZUlEtd2lWbVRlQWJJUEtVYUR4UTItR3VicHI3cVpDRXpTV1dpRjVZRmRmMHk1ZU1IOXRjUF9SVVpGUl8tTVp1NTBTMGlJUm5mYmZIZm5OTUJWMXA2WGROb1N6MWRQaEFLMmFaWHRvZmp0V2s?oc=5"
           },
           {
-            "title": "Welspun Corp Ltd spurts 1.67%, gains for five straight sessions - Business Standard",
+            "title": "Welspun Corp Ltd soars 3.13%, rises for third straight session - Business Standard",
             "source": "Business Standard",
-            "published": "Fri, 07 Aug 2026 07:00:00 GMT",
-            "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNcm1kRGNpSmF5WnN1eGZvZWZjTDVDbnMwM2Q1eVBOdmJ0UUpPSzdsem5jbVFCZEkxNHcxWk1CSHhSN3VWN0puWk5KZFZVNUl3am1rVWlIclZ5MjRuRmVkbkFKYVBOYlpGUG91eUltS295QlowZUM1OGl4SFJ4RFhEMllkR0l1N2V1WnJYclZBX0xWeWRjU0JEWnl5dTRXMmdFUG5VWHNTV1k4NHRUeW9NcXl2RXdVOGFucUFnbGd2SjdkN3k2RFhSbEw5SmJjUlFlSDdRbnFSREF6TE3SAeABQVVfeXFMTl9PZXJHbWZPYVhiczJtQW1OV0FTMFY4U19kemNLRGZIVm5QbEk3aW5DaEdMQ2NWeVlRcXA4emxKRmxFT1dZRjJTeUVnaUw4OWRDQUtVTlJrQ3FtdG5kekwwa0NKMl9QYXctR1pEZnBxSGFLb3FCdDhTTHlFZ1pPVi1KYldBdjVvaXRESzVDdksxOTlhbmM2UWR2QThCX05tanhLX1VjMUdDQmZNQS1MbG56WU5Sdjd3MjlaVjhOWHlUTlYzRXp1Q0ZVZ0xQZzFTNjdwVE56ZUpSWGlsUDRfSEg?oc=5"
+            "published": "Wed, 29 Jul 2026 07:00:00 GMT",
+            "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNeFhUNFI4eGlYd2xlVVNsdm5lTHNqZjZPX2RfQlBqZ1lfYkRyNnctenhCZzd4TDZaY0E3b3BDQnhXR0dKVXJ4Uk5NX0pTM1Y0YllTWXhqMFh2bU1qWFI2QkJsajByTjJYRzNENVBQNXBQdlNHc3dMRXlOUDNWSlRxMzJpNVV6TGkteWZzNE8ySklQTGlqM1p4YWktR0xwamtHOWFTMDNaazh6RjBLTDJaOWtUZEw2TF8zdVhGbDZQYjAzeWZfMkxLYXBnWGZFaXpwQTNZNm5VNHRSQdIB3wFBVV95cUxQSWlqeFFxTHB4dGdNTXVLWmkybGNvRVd4cks4UnJjRU0ySDFZLTRlTVctYzlObEZqcld3RjF3NUx2VVFWdUdxSnY0MkRoNGxPTU5JS25DWEJaNXJaWmdtakNqNG5PWWFnVVZQZFVRb004b3Bnd2M3Sl9DSXFGcktST0l0MFNIU2U2OURDWURpb0E3Vk8yX1c5UXhYb1BzUnlxQXVXX2pfZlFza1REVjlScFMzYndJUHYxcDJnWGNrdzgxaWpMWDUtM1VaaGZQNFdFdmkyc2NFU3ZkTGZsTV93?oc=5"
           },
           {
             "title": "Welspun Corp Shares Rise 4% After Q2FY26 Profit Jumps 53% YoY - HDFC Sky",
@@ -714,7 +714,7 @@
         "operating_margin_pct": 13.91,
         "profit_margin_pct": 13.35,
         "promoter_holding_pct": 49.84,
-        "institutional_holding_pct": 28.0,
+        "institutional_holding_pct": 27.96,
         "dividend_yield_pct": 0.21,
         "current_ratio": null,
         "beta": 0.473,
@@ -802,7 +802,7 @@
         "bull_count": 2,
         "bear_count": 2
       },
-      "research_prompt": "I'm a long-term retail investor in Indian equities (NSE). My screener flagged Welspun Corp Ltd. (WELCORP) because it gained at least 3% on each of 1 consecutive sessions. I want your independent read - please push back on my screener rather than agreeing with it.\n\n## What my screener measured\n\n- Streak: 2026-09-01 to 2026-09-01, +6.8% cumulative\n- Daily gains: 2026-09-01 +6.80%\n- Last close: Rs 2,553.60\n- Sector: Capital Goods\n- Median 20-day turnover: Rs 240.8 crore\n- Volume vs 20-day median: 3.64x\n- Distance from 52-week high: 0.0%\n- Return 1M / 3M / 1Y: 48.9% / 82.7% / 210.8%\n\n## Attribution my engine computed\n\n- Verdict: unexplained - Company-specific, but nothing disclosed to explain it\n- Stock over the window: +6.8%\n- Sector median over the same window: -0.6%\n- Excess vs sector: +7.3 pp\n- Broad market median: -0.4%\n\n### NSE filings in the window\n\n- 2026-09-01 [neutral] General Updates - Routine or administrative disclosure\n  Welspun Corp Limited has informed the Exchange about General Updates\n- 2026-08-31 [neutral] General Updates - Routine or administrative disclosure\n  Welspun Corp Limited has informed the Exchange about General Updates\n- 2026-08-31 [neutral] General Updates - Routine or administrative disclosure\n  Welspun Corp Limited has informed the Exchange regarding Update on incorporation of an Associate Company\n\n### Recent headlines (unverified, from Google News)\n\n- Welspun Corp Ltd. Share Price Today - Welspun Corp Ltd. Stock Price Live NSE/BSE - CNBC TV18\n- WELCORP Forecast — Price Target — Prediction for 2027 - tradingview.com\n- Welspun Corp Latest News: Welspun Corp Ltd Hits 52-Week High - Univest\n- Welspun Corp shares hit 52-week high after ₹1,400 crore supply order for oil & gas export projects - Upstox\n- Welspun Corp Ltd spurts 1.67%, gains for five straight sessions - Business Standard\n- Welspun Corp Shares Rise 4% After Q2FY26 Profit Jumps 53% YoY - HDFC Sky\n\n## Fundamentals\n\n- Market cap: Rs 67,339 crore\n- Trailing P/E: 29.180666\n- Forward P/E: 24.10952\n- Price/Book: 7.3574457\n- Debt/Equity: 25.042\n- Revenue growth (yoy): 14.9%\n- Earnings growth (yoy): 198.3%\n- Operating margin: 13.91%\n- Net margin: 13.35%\n- Promoter holding: 49.84%\n- Institutional holding: 28.0%\n- Dividend yield: 0.21%\n- Analyst count: 6\n- Mean target price: 2396.5\n\n### Sector medians (Capital Goods, 62 Nifty 500 peers)\n\n- Trailing P/E: 54.68\n- Price/Book: 7.89\n- Return on equity: 25.55%\n- Debt/Equity: 8.13\n- Revenue growth: 19.4%\n- Net margin: 10.98%\n\n### Data my engine could not get\n\n- Return on Equity unavailable\n\n## What I want from you\n\n1. **Why did it actually move?** My engine only sees exchange filings and price action. Check whether there is a real catalyst it missed - sector news, a peer's results, a policy change, an index inclusion, a block deal.\n2. **Is my engine's attribution wrong?** Say so directly if the evidence points elsewhere.\n3. **The one-year view.** Build a bull case and a bear case from the business, not from the chart. What has to be true for this to work, and what would break it? Be concrete about which numbers to watch.\n4. **What would you check that I have not?** Name the specific filings, segments or metrics.\n\nPlease flag anything above that looks stale or wrong, and tell me plainly if this looks like a speculative move rather than an investable one. I am not asking you to tell me whether to buy - I want the reasoning so I can decide."
+      "research_prompt": "I'm a long-term retail investor in Indian equities (NSE). My screener flagged Welspun Corp Ltd. (WELCORP) because it gained at least 3% on each of 1 consecutive sessions. I want your independent read - please push back on my screener rather than agreeing with it.\n\n## What my screener measured\n\n- Streak: 2026-09-01 to 2026-09-01, +6.8% cumulative\n- Daily gains: 2026-09-01 +6.80%\n- Last close: Rs 2,553.60\n- Sector: Capital Goods\n- Median 20-day turnover: Rs 240.8 crore\n- Volume vs 20-day median: 3.64x\n- Distance from 52-week high: 0.0%\n- Return 1M / 3M / 1Y: 48.9% / 82.7% / 210.8%\n\n## Attribution my engine computed\n\n- Verdict: unexplained - Company-specific, but nothing disclosed to explain it\n- Stock over the window: +6.8%\n- Sector median over the same window: -0.6%\n- Excess vs sector: +7.3 pp\n- Broad market median: -0.4%\n\n### NSE filings in the window\n\n- 2026-09-01 [neutral] General Updates - Routine or administrative disclosure\n  Welspun Corp Limited has informed the Exchange about General Updates\n- 2026-08-31 [neutral] General Updates - Routine or administrative disclosure\n  Welspun Corp Limited has informed the Exchange about General Updates\n- 2026-08-31 [neutral] General Updates - Routine or administrative disclosure\n  Welspun Corp Limited has informed the Exchange regarding Update on incorporation of an Associate Company\n\n### Recent headlines (unverified, from Google News)\n\n- Welspun Corp Ltd. Share Price Today - Welspun Corp Ltd. Stock Price Live NSE/BSE - CNBC TV18\n- WELCORP Forecast — Price Target — Prediction for 2027 - TradingView\n- Welspun Corp Latest News: Welspun Corp Ltd Hits 52-Week High - Univest\n- Welspun Corp shares hit 52-week high after ₹1,400 crore supply order for oil & gas export projects - Upstox\n- Welspun Corp Ltd soars 3.13%, rises for third straight session - Business Standard\n- Welspun Corp Shares Rise 4% After Q2FY26 Profit Jumps 53% YoY - HDFC Sky\n\n## Fundamentals\n\n- Market cap: Rs 67,339 crore\n- Trailing P/E: 29.180666\n- Forward P/E: 24.10952\n- Price/Book: 7.3574457\n- Debt/Equity: 25.042\n- Revenue growth (yoy): 14.9%\n- Earnings growth (yoy): 198.3%\n- Operating margin: 13.91%\n- Net margin: 13.35%\n- Promoter holding: 49.84%\n- Institutional holding: 27.96%\n- Dividend yield: 0.21%\n- Analyst count: 6\n- Mean target price: 2396.5\n\n### Sector medians (Capital Goods, 62 Nifty 500 peers)\n\n- Trailing P/E: 54.68\n- Price/Book: 7.89\n- Return on equity: 25.55%\n- Debt/Equity: 8.13\n- Revenue growth: 19.4%\n- Net margin: 10.98%\n\n### Data my engine could not get\n\n- Return on Equity unavailable\n\n## What I want from you\n\n1. **Why did it actually move?** My engine only sees exchange filings and price action. Check whether there is a real catalyst it missed - sector news, a peer's results, a policy change, an index inclusion, a block deal.\n2. **Is my engine's attribution wrong?** Say so directly if the evidence points elsewhere.\n3. **The one-year view.** Build a bull case and a bear case from the business, not from the chart. What has to be true for this to work, and what would break it? Be concrete about which numbers to watch.\n4. **What would you check that I have not?** Name the specific filings, segments or metrics.\n\nPlease flag anything above that looks stale or wrong, and tell me plainly if this looks like a speculative move rather than an investable one. I am not asking you to tell me whether to buy - I want the reasoning so I can decide."
     }
   ],
   "top_losers": [
@@ -838,7 +838,7 @@
         "explanation": [
           "The stock fell -6.8% over the session 2026-09-01.",
           "Its sector (Capital Goods) moved -0.6% over the same window, with 41% of its 63 Nifty 500 members advancing on the last session.",
-          "The broad market (median of 498 Nifty 500 names) moved -0.4% over the window, with 39% advancing on the last session.",
+          "The broad market (median of 495 Nifty 500 names) moved -0.4% over the window, with 39% advancing on the last session.",
           "The stock lagged its sector by 6.3 percentage points, so the move is company-specific rather than sector-wide.",
           "NSE filing 2026-09-01 11:24 - Results announcement: Reply to Clarification- Financial results.",
           "NSE filing 2026-08-28 12:09 - Results announcement: Clarification - Financial Results."
@@ -893,28 +893,28 @@
             "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNeUFuY3B3dGNOS05KVnpvYlhycHA3cjVEVC1YZWM4VndmX2VLT1lmcWw2bXBGWXp0TnAyVFBac18zeVBCRTg3MUJ5bjBWMDJNcjk0RnI1MGRBZWR5ZzFCU1piVnR5R0Q1akNud3BTRndYTmdaVXBQSnp5bWtVWWZkM3FLdXZEblMyd0RyVmRDZ1NTR1M2UTAtLXAtSE1RdXg0RUF2aHVWZ0VRME5KRU1wSWhwUy1xbzVh0gG-AUFVX3lxTE44OVFESUNDS2I2cmdxZVppTGxwUDlYOWtpcFZXYjBsZ2JpVVBJSm9Yd3hkM25MdVMzYWZ6OWYxYTVXYUk5R2tuWlR6eGFsWnhVcjc0b0NrTmdMc0dLU085TEduTjNWNVNJOGt4VTBVN21MT1ZvNUpuX3oyUnNTcXlGTFVacnpQel9wRGFCczdxYmx1T0tiR294Sy1DMFFod2FCQXBHeW50bURJa0U2TDZXcFBrQ0cwd0ZQV2xWVWc?oc=5"
           },
           {
-            "title": "Half Yearly Results, Half yearly Earnings for KEI Industries - The Economic Times",
-            "source": "The Economic Times",
-            "published": "Sun, 16 Aug 2026 10:44:15 GMT",
-            "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPeUV2MUJTUmo1MzNFMFBVRWF0ck53V3VMZWhSYkl2NzNEcjF0ZF9JNVAxNWRPNWRrYzkwbDR2ckZEc2plRllBTTI4dzlkQzdlOHpBSVRSWnhFTUZnYk1xWjRNZGtTdjhWbXB0b2FjNUUzeWlaWFFQUWtIRzgzd2w4R1B1OWNFSXZ0eFp4bWF2aW8?oc=5"
-          },
-          {
             "title": "There May Be Underlying Issues With The Quality Of KEI Industries' (NSE:KEI) Earnings - simplywall.st",
             "source": "simplywall.st",
             "published": "Tue, 12 May 2026 07:00:00 GMT",
             "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPSFRhRU1faFVYa1JudURneC12eGowbTlSS2FxTTVFVm4xcnFqRWRBWC1WdElvaUw0eHJWOVJvT1cyWmZtRTZOd3AzbXkxbi1MN2lEYWpNeVZlWkNoMHhkczNDb28xbTg5Y2gtbERCcmNtOUlraV94MXBDRC1qT05RRTFYV3J2S0ZSZlNWZXFJSThCRHVWTUdBaGx3ZmxvYllndXpDNGhBdmdGek5pbG42MkVWaW5aNFExSl9XTUpGb2FpeGlZdEI2dGFmTmM0OWJNRGhFemxHdUHSAd4BQVVfeXFMTWNtYWt0Sk95OUtkUkQ5MEtQV1VZVExpZGNFd0p1TzhmVWVlNWgtTDJjOTBuMm1iQU9mOGkzUW55RDlBbWprcmFoVHJqUWhmemtrYS15elc3eTdCcFBrZmg1S2lmVGVJdjdGdFRXamkyenY3OUwxWmktSUs4c2VKSEZZcmhKSnREMzNHclNKQnlfdFRIcUd5MTEzRFVYWVJ0ZVkwUFptdVhZcHduck1sNTJIYW1icEE4NmJYSVNxYW9ZNE5jeEdKZ3J2dDl0bUhSMm9MUVpRUFdPUUVuNHN3?oc=5"
           },
           {
-            "title": "KEI INDUSTRIES Stock/Share price , NSE/BSE Forecast News and Live Quotes - equitymaster.com",
-            "source": "equitymaster.com",
-            "published": "Fri, 21 Aug 2026 07:00:00 GMT",
-            "url": "https://news.google.com/rss/articles/CBMiuAJBVV95cUxNbWRtWFg5MUR1QUhnMzRDbm5hRlJ5WXFQb0xvTHBVM2UzZHRtRlAwN1ppVkV5YXZXenJIdV9abEsxbFlQYWkxNEhiU25xbGF4R3RyWEotYnoyLTZ0Wl8zTXAyd2M4ZkpuOWtxVENDNERQWlpjcWFWU2ZBVXl1WlZlaXZvSWVIeUl1UXBUeXNURUxVWjZSLUtyN0dwYy1FNTdFUFdhak5welcwaTM4V3Q4NXYwY3FxZVBHR2JZZjNidHpFaFBUVjN0WjQ0dDFWS1ZQa1J0ZGZRTkNDSzY0NVdsei1WVWJlaHg1N2xDUDA1NmQxaWh5cXZyVjI0Y3NabDNFSmtDNkNYNFlhYTZlN1ZjVTczX1JaT2YyWmNnYzA0cTNUYXZZV0RsQkR1SUFpeFhwUEI2WEtPYW8?oc=5"
+            "title": "KEI Forecast — Price Target — Prediction for 2027 - TradingView",
+            "source": "TradingView",
+            "published": "Thu, 25 Jun 2026 14:06:27 GMT",
+            "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9zdFlPUjU5cTB3Nmd0LUJxYkJ2a2ctclotQ2F5dEo0Y00zaWNaNnZQTGZGV0dZLTgzc1g4WmlvUnRmWG1hQ2VXQ3V3SloxLU9TZkVnWUxxSFdnVjBFOGl6ZVlsUUxCbml5TWtKWGd1dElZYjY4?oc=5"
           },
           {
             "title": "KEI Industries Share Price Today Rs 5437.8: Buy or Avoid in 2026 - Univest",
             "source": "Univest",
             "published": "Wed, 27 May 2026 07:00:00 GMT",
             "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBKNC1CalZrb0hnbFVSNnEwSUJqRTJWWEtMcWFuRVN0eEpwaWpyb3V4R045blRLUDMwb3JCOUtJNGNBOV8xTWJ2RXgzZmFjSnZRNFZJSTN4Y2UtNHY4NG1NV3hXYXB5VW5D?oc=5"
+          },
+          {
+            "title": "Polycab, KEI Industries, other cables & wires firms see strong Q1; can higher copper prices sustain growth? - Upstox",
+            "source": "Upstox",
+            "published": "Thu, 13 Aug 2026 07:00:00 GMT",
+            "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxObFc4Z3lsOUVhZktBY0JudGNmZF9BUzBwY0V6SnVvckFRSmNGX0g5OFk5bnRjSWpBdVZweWVVLWx5QzJEeEh4SHA4dmxOWEp5NWdSdjNLbkJGa25aYktCUmRSczhIVTlxSE9Xemxmc3FYNXJOTWxVM25hVFNBOUpMMlA0TTY1dGFBQVBqTlRmbmd2WXZybG9TcFpFeEJWcGVPdkZVVWpsTjhLZGw3NVprRjlBUUY3VDNCOE8zZ2E2NUxrdXQ0bTNHWUdwMGFKa0hSRXNibnpLUEdOVk1udFdWeU9OamNDS3VBTnh0a1g5N0stb2RmU3FB?oc=5"
           }
         ]
       },
@@ -931,7 +931,7 @@
         "operating_margin_pct": 11.53,
         "profit_margin_pct": 8.08,
         "promoter_holding_pct": 35.99,
-        "institutional_holding_pct": 44.16,
+        "institutional_holding_pct": 43.91,
         "dividend_yield_pct": 0.08,
         "current_ratio": null,
         "beta": 0.529,
@@ -1016,7 +1016,7 @@
         "bull_count": 2,
         "bear_count": 1
       },
-      "research_prompt": "I'm a long-term retail investor in Indian equities (NSE). My screener flagged KEI Industries Ltd. (KEI) because it gained at least 3% on each of 1 consecutive sessions. I want your independent read - please push back on my screener rather than agreeing with it.\n\n## What my screener measured\n\n- Streak: 2026-09-01 to 2026-09-01, -6.8% cumulative\n- Daily gains: 2026-09-01 -6.83%\n- Last close: Rs 5,348.00\n- Sector: Capital Goods\n- Median 20-day turnover: Rs 180.0 crore\n- Volume vs 20-day median: 2.08x\n- Distance from 52-week high: -8.9%\n- Return 1M / 3M / 1Y: 6.5% / 1.0% / 35.1%\n\n## Attribution my engine computed\n\n- Verdict: company_catalyst - Company-specific - results announcement disclosed to the exchange\n- Stock over the window: -6.8%\n- Sector median over the same window: -0.6%\n- Excess vs sector: -6.3 pp\n- Broad market median: -0.4%\n\n### NSE filings in the window\n\n- 2026-09-01 [catalyst] Reply to Clarification- Financial results - Results announcement\n  The Exchange had sought clarification from KEI Industries Limited for the quarter ended 30-Jun-2026 with respect to Regulation 33 of the SEBI (Listing Obligations and Disclosure Re\n- 2026-08-31 [neutral] Updates - Routine or administrative disclosure\n  KEI Industries Limited has informed the Exchange regarding 'Disclosure pursuant to Regulation 47 of SEBI (Listing Obligations and Disclosure Requirements) Regulation, 2015.\n- 2026-08-28 [catalyst] Clarification - Financial Results - Results announcement\n  The Exchange has sought clarification from KEI Industries Limited for the quarter ended 30-Jun-2026 with respect to Regulation 33 of the SEBI (Listing Obligations and Disclosure Re\n\n### Recent headlines (unverified, from Google News)\n\n- KEI Industries Share Price - Upstox\n- KEI Industries shares up 5% as Q1 profit jumps 40%; board approves ₹700cr capacity expansion - Moneycontrol.com\n- Half Yearly Results, Half yearly Earnings for KEI Industries - The Economic Times\n- There May Be Underlying Issues With The Quality Of KEI Industries' (NSE:KEI) Earnings - simplywall.st\n- KEI INDUSTRIES Stock/Share price , NSE/BSE Forecast News and Live Quotes - equitymaster.com\n- KEI Industries Share Price Today Rs 5437.8: Buy or Avoid in 2026 - Univest\n\n## Fundamentals\n\n- Market cap: Rs 51,127 crore\n- Trailing P/E: 51.19173\n- Forward P/E: 36.45068\n- Price/Book: 7.6709466\n- Debt/Equity: 3.796\n- Revenue growth (yoy): 23.0%\n- Earnings growth (yoy): 40.0%\n- Operating margin: 11.53%\n- Net margin: 8.08%\n- Promoter holding: 35.99%\n- Institutional holding: 44.16%\n- Dividend yield: 0.08%\n- Analyst count: 25\n- Mean target price: 5798.28\n\n### Sector medians (Capital Goods, 62 Nifty 500 peers)\n\n- Trailing P/E: 54.68\n- Price/Book: 7.89\n- Return on equity: 25.55%\n- Debt/Equity: 9.4\n- Revenue growth: 19.3%\n- Net margin: 11.22%\n\n### Data my engine could not get\n\n- Return on Equity unavailable\n\n## What I want from you\n\n1. **Why did it actually move?** My engine only sees exchange filings and price action. Check whether there is a real catalyst it missed - sector news, a peer's results, a policy change, an index inclusion, a block deal.\n2. **Is my engine's attribution wrong?** Say so directly if the evidence points elsewhere.\n3. **The one-year view.** Build a bull case and a bear case from the business, not from the chart. What has to be true for this to work, and what would break it? Be concrete about which numbers to watch.\n4. **What would you check that I have not?** Name the specific filings, segments or metrics.\n\nPlease flag anything above that looks stale or wrong, and tell me plainly if this looks like a speculative move rather than an investable one. I am not asking you to tell me whether to buy - I want the reasoning so I can decide."
+      "research_prompt": "I'm a long-term retail investor in Indian equities (NSE). My screener flagged KEI Industries Ltd. (KEI) because it gained at least 3% on each of 1 consecutive sessions. I want your independent read - please push back on my screener rather than agreeing with it.\n\n## What my screener measured\n\n- Streak: 2026-09-01 to 2026-09-01, -6.8% cumulative\n- Daily gains: 2026-09-01 -6.83%\n- Last close: Rs 5,348.00\n- Sector: Capital Goods\n- Median 20-day turnover: Rs 180.0 crore\n- Volume vs 20-day median: 2.08x\n- Distance from 52-week high: -8.9%\n- Return 1M / 3M / 1Y: 6.5% / 1.0% / 35.1%\n\n## Attribution my engine computed\n\n- Verdict: company_catalyst - Company-specific - results announcement disclosed to the exchange\n- Stock over the window: -6.8%\n- Sector median over the same window: -0.6%\n- Excess vs sector: -6.3 pp\n- Broad market median: -0.4%\n\n### NSE filings in the window\n\n- 2026-09-01 [catalyst] Reply to Clarification- Financial results - Results announcement\n  The Exchange had sought clarification from KEI Industries Limited for the quarter ended 30-Jun-2026 with respect to Regulation 33 of the SEBI (Listing Obligations and Disclosure Re\n- 2026-08-31 [neutral] Updates - Routine or administrative disclosure\n  KEI Industries Limited has informed the Exchange regarding 'Disclosure pursuant to Regulation 47 of SEBI (Listing Obligations and Disclosure Requirements) Regulation, 2015.\n- 2026-08-28 [catalyst] Clarification - Financial Results - Results announcement\n  The Exchange has sought clarification from KEI Industries Limited for the quarter ended 30-Jun-2026 with respect to Regulation 33 of the SEBI (Listing Obligations and Disclosure Re\n\n### Recent headlines (unverified, from Google News)\n\n- KEI Industries Share Price - Upstox\n- KEI Industries shares up 5% as Q1 profit jumps 40%; board approves ₹700cr capacity expansion - Moneycontrol.com\n- There May Be Underlying Issues With The Quality Of KEI Industries' (NSE:KEI) Earnings - simplywall.st\n- KEI Forecast — Price Target — Prediction for 2027 - TradingView\n- KEI Industries Share Price Today Rs 5437.8: Buy or Avoid in 2026 - Univest\n- Polycab, KEI Industries, other cables & wires firms see strong Q1; can higher copper prices sustain growth? - Upstox\n\n## Fundamentals\n\n- Market cap: Rs 51,127 crore\n- Trailing P/E: 51.19173\n- Forward P/E: 36.45068\n- Price/Book: 7.6709466\n- Debt/Equity: 3.796\n- Revenue growth (yoy): 23.0%\n- Earnings growth (yoy): 40.0%\n- Operating margin: 11.53%\n- Net margin: 8.08%\n- Promoter holding: 35.99%\n- Institutional holding: 43.91%\n- Dividend yield: 0.08%\n- Analyst count: 25\n- Mean target price: 5798.28\n\n### Sector medians (Capital Goods, 62 Nifty 500 peers)\n\n- Trailing P/E: 54.68\n- Price/Book: 7.89\n- Return on equity: 25.55%\n- Debt/Equity: 9.4\n- Revenue growth: 19.3%\n- Net margin: 11.22%\n\n### Data my engine could not get\n\n- Return on Equity unavailable\n\n## What I want from you\n\n1. **Why did it actually move?** My engine only sees exchange filings and price action. Check whether there is a real catalyst it missed - sector news, a peer's results, a policy change, an index inclusion, a block deal.\n2. **Is my engine's attribution wrong?** Say so directly if the evidence points elsewhere.\n3. **The one-year view.** Build a bull case and a bear case from the business, not from the chart. What has to be true for this to work, and what would break it? Be concrete about which numbers to watch.\n4. **What would you check that I have not?** Name the specific filings, segments or metrics.\n\nPlease flag anything above that looks stale or wrong, and tell me plainly if this looks like a speculative move rather than an investable one. I am not asking you to tell me whether to buy - I want the reasoning so I can decide."
     },
     {
       "symbol": "POLYCAB",
@@ -1050,7 +1050,7 @@
         "explanation": [
           "The stock fell -5.8% over the session 2026-09-01.",
           "Its sector (Capital Goods) moved -0.6% over the same window, with 41% of its 63 Nifty 500 members advancing on the last session.",
-          "The broad market (median of 498 Nifty 500 names) moved -0.4% over the window, with 39% advancing on the last session.",
+          "The broad market (median of 495 Nifty 500 names) moved -0.4% over the window, with 39% advancing on the last session.",
           "The stock lagged its sector by 5.3 percentage points, so the move is company-specific rather than sector-wide.",
           "NSE filing 2026-09-01 18:09 - Fundraising or allotment: ESOP/ESOS/ESPS.",
           "NSE filing 2026-09-01 17:56 - Investor communication: General Updates.",
@@ -1106,8 +1106,8 @@
             "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNZ1RobTVXdEt3Nl9OWUU3UEJGeDVSWXF3UEFNbTNEeDNGYVVvLVpUUlVQaTdQc0Uzd21ZbzdXa0JpclEzZGNwTnFUdUFwbXhGSGVWdjNCY0pZeFQzTkdGcFRTNGxFVUFhZ3RqSktFNzdnYTVWTXBYXy0xUFV3X2Jfc2dlM3k2SmtYWWRKNDF1ZjFwZ2dPZGhOM1dMVmpMREhYWWgxWk5NdUxRNEFtZnFYRF9RaDNFSTF5Vy1FMEUwbXNoMF9ldzBwNGhhR3prdFFiZGJkbFF1d01mR2lNenRWckF6RdIB6AFBVV95cUxOT25zQkh0bVQ4dGtyRTFac0hkUUJYVjlJVk02emtLNUNiOVY1SU5YLUUtMHhTWVNORVlaOGItcS1DTk1wdTF0VGhMenNfcV92NnA3SU5vMHFPbDhENFFBdGg5anpZUUk1bDlTZHBnMmlhalZ0LThvTjdSejg0emFXNnRpT3FSRzVIXzVpMHUya1hKdERIRmR3THZyZXMyaHdKNXRZaDhuY0t0LW1XdXZvd0FfSXVBYjFKMFQ5cUd1MzZwajhqcEJRcDZuY255YnQ2Qkg1dDV1RnNJNWhXRjk0UHpyYVRqVjY2?oc=5"
           },
           {
-            "title": "POLYCAB Forecast — Price Target — Prediction for 2027 - tradingview.com",
-            "source": "tradingview.com",
+            "title": "POLYCAB Forecast — Price Target — Prediction for 2027 - TradingView",
+            "source": "TradingView",
             "published": "Thu, 25 Jun 2026 16:59:02 GMT",
             "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBIa19jLXV1bDBieGFGVHBubHFoTWRaMm5EaWQ0UVdXajdYZzZjaERwbTVVWmdnUDhZQ00tRWNIQXppRTJvSmJKTjAyTzN3ME5XXzA0Y0daVkhfVlJQVUdSaENhcGp2bzUteW1uVXhTM2hoZVc2OGZQaVJ3?oc=5"
           },
@@ -1144,8 +1144,8 @@
         "operating_margin_pct": 12.72,
         "profit_margin_pct": 9.18,
         "promoter_holding_pct": 64.7,
-        "institutional_holding_pct": 16.31,
-        "dividend_yield_pct": 0.52,
+        "institutional_holding_pct": 16.32,
+        "dividend_yield_pct": 0.5,
         "current_ratio": 1.74,
         "beta": 0.636,
         "target_mean": 10090.4375,
@@ -1231,7 +1231,7 @@
         "bull_count": 3,
         "bear_count": 3
       },
-      "research_prompt": "I'm a long-term retail investor in Indian equities (NSE). My screener flagged Polycab India Ltd. (POLYCAB) because it gained at least 3% on each of 1 consecutive sessions. I want your independent read - please push back on my screener rather than agreeing with it.\n\n## What my screener measured\n\n- Streak: 2026-09-01 to 2026-09-01, -5.8% cumulative\n- Daily gains: 2026-09-01 -5.82%\n- Last close: Rs 8,895.50\n- Sector: Capital Goods\n- Median 20-day turnover: Rs 231.9 crore\n- Volume vs 20-day median: 2.57x\n- Distance from 52-week high: -11.8%\n- Return 1M / 3M / 1Y: -1.5% / -8.0% / 24.5%\n\n## Attribution my engine computed\n\n- Verdict: company_catalyst - Company-specific - fundraising or allotment disclosed to the exchange\n- Stock over the window: -5.8%\n- Sector median over the same window: -0.6%\n- Excess vs sector: -5.3 pp\n- Broad market median: -0.4%\n\n### NSE filings in the window\n\n- 2026-09-01 [catalyst] ESOP/ESOS/ESPS - Fundraising or allotment\n  Polycab India Limited has informed the Exchange regarding Allotment of 14970  Shares.\n- 2026-09-01 [catalyst] General Updates - Investor communication\n  Polycab India Limited has informed the Exchange about Analyst(s)/Investor(s) meet.\n- 2026-08-29 [catalyst] General Updates - Investor communication\n  Polycab India Limited has informed the Exchange about Analyst(s)/Investor(s) meet.\n\n### Recent headlines (unverified, from Google News)\n\n- POLYCAB Share Price Today - Polycab on NSE/BSE - scanx.trade\n- Polycab stock falls 4% today despite Q1 earnings beat; Jefferies, HSBC retain Buy calls - Moneycontrol.com\n- POLYCAB Forecast — Price Target — Prediction for 2027 - tradingview.com\n- Earnings Beat: Polycab India Limited Just Beat Analyst Forecasts, And Analysts Have Been Updating Their Models - simplywall.st\n- Polycab, KEI Industries, other cables & wires firms see strong Q1; can higher copper prices sustain growth? - Upstox\n- Polycab India Ltd Share Price Hit 52-Week High - HDFC Sky\n\n## Fundamentals\n\n- Market cap: Rs 133,997 crore\n- Trailing P/E: 46.85788\n- Forward P/E: 34.964405\n- Price/Book: 11.073228\n- Return on equity: 25.55%\n- Debt/Equity: 1.738\n- Revenue growth (yoy): 39.0%\n- Earnings growth (yoy): 32.5%\n- Operating margin: 12.72%\n- Net margin: 9.18%\n- Promoter holding: 64.7%\n- Institutional holding: 16.31%\n- Dividend yield: 0.52%\n- Analyst count: 32\n- Mean target price: 10090.4375\n\n### Sector medians (Capital Goods, 62 Nifty 500 peers)\n\n- Trailing P/E: 54.68\n- Price/Book: 7.75\n- Return on equity: 29.25%\n- Debt/Equity: 9.4\n- Revenue growth: 19.3%\n- Net margin: 11.22%\n\n## What I want from you\n\n1. **Why did it actually move?** My engine only sees exchange filings and price action. Check whether there is a real catalyst it missed - sector news, a peer's results, a policy change, an index inclusion, a block deal.\n2. **Is my engine's attribution wrong?** Say so directly if the evidence points elsewhere.\n3. **The one-year view.** Build a bull case and a bear case from the business, not from the chart. What has to be true for this to work, and what would break it? Be concrete about which numbers to watch.\n4. **What would you check that I have not?** Name the specific filings, segments or metrics.\n\nPlease flag anything above that looks stale or wrong, and tell me plainly if this looks like a speculative move rather than an investable one. I am not asking you to tell me whether to buy - I want the reasoning so I can decide."
+      "research_prompt": "I'm a long-term retail investor in Indian equities (NSE). My screener flagged Polycab India Ltd. (POLYCAB) because it gained at least 3% on each of 1 consecutive sessions. I want your independent read - please push back on my screener rather than agreeing with it.\n\n## What my screener measured\n\n- Streak: 2026-09-01 to 2026-09-01, -5.8% cumulative\n- Daily gains: 2026-09-01 -5.82%\n- Last close: Rs 8,895.50\n- Sector: Capital Goods\n- Median 20-day turnover: Rs 231.9 crore\n- Volume vs 20-day median: 2.57x\n- Distance from 52-week high: -11.8%\n- Return 1M / 3M / 1Y: -1.5% / -8.0% / 24.5%\n\n## Attribution my engine computed\n\n- Verdict: company_catalyst - Company-specific - fundraising or allotment disclosed to the exchange\n- Stock over the window: -5.8%\n- Sector median over the same window: -0.6%\n- Excess vs sector: -5.3 pp\n- Broad market median: -0.4%\n\n### NSE filings in the window\n\n- 2026-09-01 [catalyst] ESOP/ESOS/ESPS - Fundraising or allotment\n  Polycab India Limited has informed the Exchange regarding Allotment of 14970  Shares.\n- 2026-09-01 [catalyst] General Updates - Investor communication\n  Polycab India Limited has informed the Exchange about Analyst(s)/Investor(s) meet.\n- 2026-08-29 [catalyst] General Updates - Investor communication\n  Polycab India Limited has informed the Exchange about Analyst(s)/Investor(s) meet.\n\n### Recent headlines (unverified, from Google News)\n\n- POLYCAB Share Price Today - Polycab on NSE/BSE - scanx.trade\n- Polycab stock falls 4% today despite Q1 earnings beat; Jefferies, HSBC retain Buy calls - Moneycontrol.com\n- POLYCAB Forecast — Price Target — Prediction for 2027 - TradingView\n- Earnings Beat: Polycab India Limited Just Beat Analyst Forecasts, And Analysts Have Been Updating Their Models - simplywall.st\n- Polycab, KEI Industries, other cables & wires firms see strong Q1; can higher copper prices sustain growth? - Upstox\n- Polycab India Ltd Share Price Hit 52-Week High - HDFC Sky\n\n## Fundamentals\n\n- Market cap: Rs 133,997 crore\n- Trailing P/E: 46.85788\n- Forward P/E: 34.964405\n- Price/Book: 11.073228\n- Return on equity: 25.55%\n- Debt/Equity: 1.738\n- Revenue growth (yoy): 39.0%\n- Earnings growth (yoy): 32.5%\n- Operating margin: 12.72%\n- Net margin: 9.18%\n- Promoter holding: 64.7%\n- Institutional holding: 16.32%\n- Dividend yield: 0.5%\n- Analyst count: 32\n- Mean target price: 10090.4375\n\n### Sector medians (Capital Goods, 62 Nifty 500 peers)\n\n- Trailing P/E: 54.68\n- Price/Book: 7.75\n- Return on equity: 29.25%\n- Debt/Equity: 9.4\n- Revenue growth: 19.3%\n- Net margin: 11.22%\n\n## What I want from you\n\n1. **Why did it actually move?** My engine only sees exchange filings and price action. Check whether there is a real catalyst it missed - sector news, a peer's results, a policy change, an index inclusion, a block deal.\n2. **Is my engine's attribution wrong?** Say so directly if the evidence points elsewhere.\n3. **The one-year view.** Build a bull case and a bear case from the business, not from the chart. What has to be true for this to work, and what would break it? Be concrete about which numbers to watch.\n4. **What would you check that I have not?** Name the specific filings, segments or metrics.\n\nPlease flag anything above that looks stale or wrong, and tell me plainly if this looks like a speculative move rather than an investable one. I am not asking you to tell me whether to buy - I want the reasoning so I can decide."
     },
     {
       "symbol": "HFCL",
@@ -1264,17 +1264,17 @@
         "headline": "Company-specific, but nothing disclosed to explain it",
         "explanation": [
           "The stock fell -5.0% over the session 2026-09-01.",
-          "Its sector (Telecommunication) moved -1.4% over the same window, with 40% of its 10 Nifty 500 members advancing on the last session.",
-          "The broad market (median of 498 Nifty 500 names) moved -0.4% over the window, with 39% advancing on the last session.",
-          "The stock lagged its sector by 3.6 percentage points, yet filed no disclosure in the window that would account for it.",
+          "Its sector (Telecommunication) moved -0.9% over the same window, with 44% of its 9 Nifty 500 members advancing on the last session.",
+          "The broad market (median of 495 Nifty 500 names) moved -0.4% over the window, with 39% advancing on the last session.",
+          "The stock lagged its sector by 4.1 percentage points, yet filed no disclosure in the window that would account for it.",
           "An unexplained move away from the sector is worth more caution, not less - it can reflect speculation, a leaked development, or an operator-driven move.",
           "Volume was only 0.7x its 20-day median - a large price move on unremarkable volume is easier to reverse."
         ],
         "stock_streak_pct": -5.0,
-        "sector_streak_pct": -1.38,
+        "sector_streak_pct": -0.89,
         "market_streak_pct": -0.39,
-        "excess_vs_sector_pct": -3.62,
-        "sector_breadth_pct": 40.0,
+        "excess_vs_sector_pct": -4.11,
+        "sector_breadth_pct": 44.0,
         "volume_ratio": 0.7,
         "cautions": [],
         "filings": [
@@ -1296,8 +1296,8 @@
             "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOZDg0YzFVeFhYenZYc3JpOGgzdW1wUVR0RVFncFZZWW9pRUFtckNFRG51UXdJdi1KMUhCRGdYYTBwZ1piX3VLTmdaTW5aREFHN3pnRHFXYlZ6amhWa01vWnROQXFmV0pKa3drdmRHeGVhN1JqbExhVElBVjNIWTZvdjlzaUlZVEVxLWNoTTlPdWs0WVNxclJyRUdaMkFVQ1YxdzVXUGxXTk81ZlJld0xiWDdNaXJWSmcxT3lpMUdCTWw?oc=5"
           },
           {
-            "title": "HFCL Forecast — Price Target — Prediction for 2027 - tradingview.com",
-            "source": "tradingview.com",
+            "title": "HFCL Forecast — Price Target — Prediction for 2027 - TradingView",
+            "source": "TradingView",
             "published": "Thu, 25 Jun 2026 12:21:24 GMT",
             "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE91OGxFS2hQdWRSSG5ZbkNIT3B1LWF4aWVhdmxJX3c0alo4M1Q1X0Vlb013TEx3OTQxb2tTdHBEOGtLekh2NXR1bTZ2aWs1OUdoNko0RHRUblJEN2lxVTU5UU5tZ0dHMXlVNjAtU25VamRiWG1tYXc?oc=5"
           },
@@ -1428,12 +1428,12 @@
         "bull_count": 2,
         "bear_count": 2
       },
-      "research_prompt": "I'm a long-term retail investor in Indian equities (NSE). My screener flagged HFCL Ltd. (HFCL) because it gained at least 3% on each of 1 consecutive sessions. I want your independent read - please push back on my screener rather than agreeing with it.\n\n## What my screener measured\n\n- Streak: 2026-09-01 to 2026-09-01, -5.0% cumulative\n- Daily gains: 2026-09-01 -5.00%\n- Last close: Rs 236.64\n- Sector: Telecommunication\n- Median 20-day turnover: Rs 398.2 crore\n- Volume vs 20-day median: 0.7x\n- Distance from 52-week high: -5.9%\n- Return 1M / 3M / 1Y: 16.8% / 20.1% / 237.2%\n\n## Attribution my engine computed\n\n- Verdict: unexplained - Company-specific, but nothing disclosed to explain it\n- Stock over the window: -5.0%\n- Sector median over the same window: -1.4%\n- Excess vs sector: -3.6 pp\n- Broad market median: -0.4%\n\n### NSE filings in the window\n\n- 2026-09-01 [neutral] Bagging/Receiving of orders/contracts - Routine or administrative disclosure\n  HFCL Limited has informed the Exchange  Intimation for entering into a long term supply agreement with a customer for supply of Optical Fiber Cables (OFC), worth USD 244 million  a\n\n### Recent headlines (unverified, from Google News)\n\n- HFCL bags international order worth ₹2,329 crore; shares decline 4% - Upstox\n- HFCL Forecast — Price Target — Prediction for 2027 - tradingview.com\n- Is It Time To Consider Buying HFCL Limited (NSE:HFCL)? - simplywall.st\n- HFCL shares rebound 5% on Rs 523 crore order win. Still time to buy after 195% rally in 6 months? - The Economic Times\n- HFCL stock jumps 4% on Q1 turnaround; board okays ₹215-cr AI data centre - Business Standard\n- HFCL Share Price Today: 4.4% Rise, Price Action Analysis - Univest\n\n## Fundamentals\n\n- Market cap: Rs 36,212 crore\n- Trailing P/E: 61.625\n- Forward P/E: 45.507694\n- Price/Book: 7.1378155\n- Debt/Equity: 38.321\n- Revenue growth (yoy): 119.9%\n- Operating margin: 18.95%\n- Net margin: 9.55%\n- Promoter holding: 34.23%\n- Institutional holding: 18.46%\n- Dividend yield: 0.04%\n- Analyst count: 1\n- Mean target price: 150.0\n\n### Sector medians (Telecommunication, 9 Nifty 500 peers)\n\n- Trailing P/E: 40.35\n- Price/Book: 7.23\n- Return on equity: 18.91%\n- Debt/Equity: 85.65\n- Revenue growth: 10.5%\n- Net margin: 13.14%\n\n### Data my engine could not get\n\n- Return on Equity unavailable\n- Only 1 analysts cover this name, so the consensus target is thin and moves easily.\n\n## What I want from you\n\n1. **Why did it actually move?** My engine only sees exchange filings and price action. Check whether there is a real catalyst it missed - sector news, a peer's results, a policy change, an index inclusion, a block deal.\n2. **Is my engine's attribution wrong?** Say so directly if the evidence points elsewhere.\n3. **The one-year view.** Build a bull case and a bear case from the business, not from the chart. What has to be true for this to work, and what would break it? Be concrete about which numbers to watch.\n4. **What would you check that I have not?** Name the specific filings, segments or metrics.\n\nPlease flag anything above that looks stale or wrong, and tell me plainly if this looks like a speculative move rather than an investable one. I am not asking you to tell me whether to buy - I want the reasoning so I can decide."
+      "research_prompt": "I'm a long-term retail investor in Indian equities (NSE). My screener flagged HFCL Ltd. (HFCL) because it gained at least 3% on each of 1 consecutive sessions. I want your independent read - please push back on my screener rather than agreeing with it.\n\n## What my screener measured\n\n- Streak: 2026-09-01 to 2026-09-01, -5.0% cumulative\n- Daily gains: 2026-09-01 -5.00%\n- Last close: Rs 236.64\n- Sector: Telecommunication\n- Median 20-day turnover: Rs 398.2 crore\n- Volume vs 20-day median: 0.7x\n- Distance from 52-week high: -5.9%\n- Return 1M / 3M / 1Y: 16.8% / 20.1% / 237.2%\n\n## Attribution my engine computed\n\n- Verdict: unexplained - Company-specific, but nothing disclosed to explain it\n- Stock over the window: -5.0%\n- Sector median over the same window: -0.9%\n- Excess vs sector: -4.1 pp\n- Broad market median: -0.4%\n\n### NSE filings in the window\n\n- 2026-09-01 [neutral] Bagging/Receiving of orders/contracts - Routine or administrative disclosure\n  HFCL Limited has informed the Exchange  Intimation for entering into a long term supply agreement with a customer for supply of Optical Fiber Cables (OFC), worth USD 244 million  a\n\n### Recent headlines (unverified, from Google News)\n\n- HFCL bags international order worth ₹2,329 crore; shares decline 4% - Upstox\n- HFCL Forecast — Price Target — Prediction for 2027 - TradingView\n- Is It Time To Consider Buying HFCL Limited (NSE:HFCL)? - simplywall.st\n- HFCL shares rebound 5% on Rs 523 crore order win. Still time to buy after 195% rally in 6 months? - The Economic Times\n- HFCL stock jumps 4% on Q1 turnaround; board okays ₹215-cr AI data centre - Business Standard\n- HFCL Share Price Today: 4.4% Rise, Price Action Analysis - Univest\n\n## Fundamentals\n\n- Market cap: Rs 36,212 crore\n- Trailing P/E: 61.625\n- Forward P/E: 45.507694\n- Price/Book: 7.1378155\n- Debt/Equity: 38.321\n- Revenue growth (yoy): 119.9%\n- Operating margin: 18.95%\n- Net margin: 9.55%\n- Promoter holding: 34.23%\n- Institutional holding: 18.46%\n- Dividend yield: 0.04%\n- Analyst count: 1\n- Mean target price: 150.0\n\n### Sector medians (Telecommunication, 9 Nifty 500 peers)\n\n- Trailing P/E: 40.35\n- Price/Book: 7.23\n- Return on equity: 18.91%\n- Debt/Equity: 85.65\n- Revenue growth: 10.5%\n- Net margin: 13.14%\n\n### Data my engine could not get\n\n- Return on Equity unavailable\n- Only 1 analysts cover this name, so the consensus target is thin and moves easily.\n\n## What I want from you\n\n1. **Why did it actually move?** My engine only sees exchange filings and price action. Check whether there is a real catalyst it missed - sector news, a peer's results, a policy change, an index inclusion, a block deal.\n2. **Is my engine's attribution wrong?** Say so directly if the evidence points elsewhere.\n3. **The one-year view.** Build a bull case and a bear case from the business, not from the chart. What has to be true for this to work, and what would break it? Be concrete about which numbers to watch.\n4. **What would you check that I have not?** Name the specific filings, segments or metrics.\n\nPlease flag anything above that looks stale or wrong, and tell me plainly if this looks like a speculative move rather than an investable one. I am not asking you to tell me whether to buy - I want the reasoning so I can decide."
     }
   ],
   "stats": {
     "universe": 500,
-    "with_prices": 498,
+    "with_prices": 495,
     "hits": 0,
     "gainers": 3,
     "losers": 3,
