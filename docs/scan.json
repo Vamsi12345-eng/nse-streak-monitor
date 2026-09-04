@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-04T19:23:50+05:30",
+  "generated_at": "2026-09-04T22:47:46+05:30",
   "session": "2026-09-04",
   "config": {
     "daily_gain_pct": 3.0,
@@ -274,8 +274,8 @@
             "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQM0lpQ3lyQU9MSkRrRjN0a0V6SE1aV0dfR2M3YUZFcFZyeEJwT1VCTGlIOTRBTHRNZG9KRXc1akVLM0laSWMwcXVmUFF1V1k4QlkyT25WMGJfLWgtMm1xdTNpRjBHLXlTWHFjbDRGUjg1U1dLNS1qZUZNVXRJR2FwdjhBdWRNMkV1WUl5Wl9FMDNtU2VfM0J0LU9VQXI4a2habmUwdHVrd1hPNG8zNGo4ODBYb3Joa1loWW8yMU1sYmtKdmFuaV9EeWo5UjhHa0NOZTZpLdIB2gFBVV95cUxOcFJIUy0tQmRKZlgzR3FHZEQtRXl1T19KWUN0ZC1fUWN6bHpIeEVVQ252eXZDWGd5MEIyNmVXQU56QzVPMkdmR21vQjNlaVlncDZycXRGbkJZWEw3ZHZJLTFsTWcxaDc4OFdQck0tMnFxMy0tRE02ZHRoSEw5YzhiM1NMRUlDWlpGNFJac0RVbmJjbm1aY1U2cEE0WXd2eWk4NExPQU9qeGlvZGJTMTdlZkI2X1pObmVTTVE4dVlhSV9IOTJ3aGhIQm1ienRUMGRtUG5zVjE3OGhiZw?oc=5"
           },
           {
-            "title": "IFCI, NIACL stocks jump up to 14%; NSE IPO buzz lifts focus: Analysts share outlook - Business Today",
-            "source": "Business Today",
+            "title": "IFCI, NIACL stocks jump up to 14%; NSE IPO buzz lifts focus: Analysts share outlook - businesstoday.in",
+            "source": "businesstoday.in",
             "published": "Wed, 02 Sep 2026 09:38:56 GMT",
             "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQZ3R6ck5mQno1YUdlMHAyZ2E3bVFhOTViLUx5aUtVNUxYRlRuRkkxQVJNOUM4MFZpdDlLZHMwUWZocHZiM3VQZm9uWjdQaXROMzc2UUNxN05ycG9DaXI4aUxZdDg4RFI3TDZ4b01oaVdLUVktTmZqX2lXUHV6cmhwNXhSdTVocl9EZ2xKNDdZZ1FmcndoZWJ0cWdMaGNRcFlEakNuel9VcF9STVl5VmN5TEJFcklQa2RTSXdPX0VrMDg2TWZMckJaN0hrMFc0QzBzdFhqZGtCRGpRS1BHa1NYONIB5gFBVV95cUxQNVpQcmdURkVFemtYUEVId3VmOWZoVXk3b2JZbGhLMUptbDRHQU1lVGJhVVdncU9DeW82djJYcEQ0OWlPTmU1T1NHUHhJZ3ZnZzhKS1ZzbGpqMzFkYnU2Sk9JVzVpZE5EN0o5MV9kaUZlWHdoaFlKTDZlT1JDTmhsNGJvUEdLOVZ4Q2NwajV2ZWFVbm04YWNsak1SX0ZHWHlXZldTSHNfU2wxeG1xTlA5WmRKZ3dOUGcyUUluSHROWk9XdVdqUUt0OHB4WlhEcGhNallhSmxnWTg5QlBwNy1JcU5sbDJTZw?oc=5"
           },
@@ -314,7 +314,7 @@
       "benchmark": {
         "industry": "Financial Services",
         "peers": 100,
-        "trailing_pe": 22.8,
+        "trailing_pe": 23.08,
         "price_to_book": 2.77,
         "roe_pct": 13.77,
         "debt_to_equity": 165.8,
@@ -326,7 +326,7 @@
           {
             "name": "Trailing P/E",
             "value": "49.2",
-            "peer_value": "22.8",
+            "peer_value": "23.1",
             "stance": "bear",
             "note": "More expensive than the typical peer, so more of the growth is already priced in."
           },
@@ -371,7 +371,7 @@
           "Promoters hold 85%, so their interests stay tied to the share price."
         ],
         "bear_case": [
-          "Trailing P/E 49.2 vs sector 22.8. More expensive than the typical peer, so more of the growth is already priced in.",
+          "Trailing P/E 49.2 vs sector 23.1. More expensive than the typical peer, so more of the growth is already priced in.",
           "Revenue growth (yoy) 1.5% vs sector 21.0%. Growing more slowly than the sector.",
           "Net margin 1.5% vs sector 32.9%. Thinner margins than peers.",
           "3 analysts publish a mean target of 170, 26% below the current price.",
@@ -390,7 +390,7 @@
         "bull_count": 1,
         "bear_count": 3
       },
-      "research_prompt": "I'm a long-term retail investor in Indian equities (NSE). My screener flagged The New India Assurance Company Ltd. (NIACL) because it gained at least 3% on each of 1 consecutive sessions. I want your independent read - please push back on my screener rather than agreeing with it.\n\n## What my screener measured\n\n- Streak: 2026-09-04 to 2026-09-04, +17.7% cumulative\n- Daily gains: 2026-09-04 +17.70%\n- Last close: Rs 229.91\n- Sector: Financial Services\n- Median 20-day turnover: Rs 25.9 crore\n- Volume vs 20-day median: 59.68x\n- Distance from 52-week high: 0.0%\n- Return 1M / 3M / 1Y: 28.5% / 53.6% / 19.0%\n\n## Attribution my engine computed\n\n- Verdict: unexplained - Company-specific, but nothing disclosed to explain it\n- Stock over the window: +17.7%\n- Sector median over the same window: +0.2%\n- Excess vs sector: +17.5 pp\n- Broad market median: -0.1%\n\n### NSE filings in the window\n\n- 2026-09-01 [caution] Spurt in Volume - Exchange surveillance query on unusual price or volume\n  Significant increase in volume has been observed in The New India Assurance Company Limited. The Exchange, in order to ensure that investors have latest relevant information about \n- 2026-08-31 [caution] Spurt in Volume - Exchange surveillance query on unusual price or volume\n  Significant increase in volume has been observed in The New India Assurance Company Limited. The Exchange, in order to ensure that investors have latest relevant information about \n\n### Caution flags my engine raised\n\n- Exchange surveillance query on unusual price or volume (filed 2026-09-01)\n- Exchange surveillance query on unusual price or volume (filed 2026-08-31)\n\n### Recent headlines (unverified, from Google News)\n\n- NSE targets listing on Sep 25, reports CNBC-TV18; IFCI, NIACL shares rise up to 15% - Moneycontrol.com\n- NSE IPO Set for SEBI Approval Next Week; IFCI, NIACL Shares Soar - NiftyTrader\n- NSE IPO Speculation Lifts IFCI, NIACL; Profit Booking Cuts Gains - HDFC Sky\n- NSE IPO effect: NIACL, IFCI extend gains on buzz of issue launch this month - Moneycontrol.com\n- IFCI, NIACL stocks jump up to 14%; NSE IPO buzz lifts focus: Analysts share outlook - Business Today\n- NIACL Forecast — Price Target — Prediction for 2027 - TradingView\n\n## Fundamentals\n\n- Market cap: Rs 37,889 crore\n- Trailing P/E: 49.231262\n- Forward P/E: 11.887797\n- Price/Book: 0.983076\n- Revenue growth (yoy): 1.5%\n- Operating margin: -1.65%\n- Net margin: 1.49%\n- Promoter holding: 85.44%\n- Institutional holding: 10.81%\n- Dividend yield: 0.77%\n- Analyst count: 3\n- Mean target price: 170.33333\n\n### Sector medians (Financial Services, 100 Nifty 500 peers)\n\n- Trailing P/E: 22.8\n- Price/Book: 2.77\n- Return on equity: 13.77%\n- Debt/Equity: 165.8\n- Revenue growth: 21.0%\n- Net margin: 32.93%\n\n### Data my engine could not get\n\n- Return on Equity unavailable\n- Debt / Equity unavailable\n- Only 3 analysts cover this name, so the consensus target is thin and moves easily.\n\n## What I want from you\n\n1. **Why did it actually move?** My engine only sees exchange filings and price action. Check whether there is a real catalyst it missed - sector news, a peer's results, a policy change, an index inclusion, a block deal.\n2. **Is my engine's attribution wrong?** Say so directly if the evidence points elsewhere.\n3. **The one-year view.** Build a bull case and a bear case from the business, not from the chart. What has to be true for this to work, and what would break it? Be concrete about which numbers to watch.\n4. **What would you check that I have not?** Name the specific filings, segments or metrics.\n\nPlease flag anything above that looks stale or wrong, and tell me plainly if this looks like a speculative move rather than an investable one. I am not asking you to tell me whether to buy - I want the reasoning so I can decide."
+      "research_prompt": "I'm a long-term retail investor in Indian equities (NSE). My screener flagged The New India Assurance Company Ltd. (NIACL) because it gained at least 3% on each of 1 consecutive sessions. I want your independent read - please push back on my screener rather than agreeing with it.\n\n## What my screener measured\n\n- Streak: 2026-09-04 to 2026-09-04, +17.7% cumulative\n- Daily gains: 2026-09-04 +17.70%\n- Last close: Rs 229.91\n- Sector: Financial Services\n- Median 20-day turnover: Rs 25.9 crore\n- Volume vs 20-day median: 59.68x\n- Distance from 52-week high: 0.0%\n- Return 1M / 3M / 1Y: 28.5% / 53.6% / 19.0%\n\n## Attribution my engine computed\n\n- Verdict: unexplained - Company-specific, but nothing disclosed to explain it\n- Stock over the window: +17.7%\n- Sector median over the same window: +0.2%\n- Excess vs sector: +17.5 pp\n- Broad market median: -0.1%\n\n### NSE filings in the window\n\n- 2026-09-01 [caution] Spurt in Volume - Exchange surveillance query on unusual price or volume\n  Significant increase in volume has been observed in The New India Assurance Company Limited. The Exchange, in order to ensure that investors have latest relevant information about \n- 2026-08-31 [caution] Spurt in Volume - Exchange surveillance query on unusual price or volume\n  Significant increase in volume has been observed in The New India Assurance Company Limited. The Exchange, in order to ensure that investors have latest relevant information about \n\n### Caution flags my engine raised\n\n- Exchange surveillance query on unusual price or volume (filed 2026-09-01)\n- Exchange surveillance query on unusual price or volume (filed 2026-08-31)\n\n### Recent headlines (unverified, from Google News)\n\n- NSE targets listing on Sep 25, reports CNBC-TV18; IFCI, NIACL shares rise up to 15% - Moneycontrol.com\n- NSE IPO Set for SEBI Approval Next Week; IFCI, NIACL Shares Soar - NiftyTrader\n- NSE IPO Speculation Lifts IFCI, NIACL; Profit Booking Cuts Gains - HDFC Sky\n- NSE IPO effect: NIACL, IFCI extend gains on buzz of issue launch this month - Moneycontrol.com\n- IFCI, NIACL stocks jump up to 14%; NSE IPO buzz lifts focus: Analysts share outlook - businesstoday.in\n- NIACL Forecast — Price Target — Prediction for 2027 - TradingView\n\n## Fundamentals\n\n- Market cap: Rs 37,889 crore\n- Trailing P/E: 49.231262\n- Forward P/E: 11.887797\n- Price/Book: 0.983076\n- Revenue growth (yoy): 1.5%\n- Operating margin: -1.65%\n- Net margin: 1.49%\n- Promoter holding: 85.44%\n- Institutional holding: 10.81%\n- Dividend yield: 0.77%\n- Analyst count: 3\n- Mean target price: 170.33333\n\n### Sector medians (Financial Services, 100 Nifty 500 peers)\n\n- Trailing P/E: 23.08\n- Price/Book: 2.77\n- Return on equity: 13.77%\n- Debt/Equity: 165.8\n- Revenue growth: 21.0%\n- Net margin: 32.93%\n\n### Data my engine could not get\n\n- Return on Equity unavailable\n- Debt / Equity unavailable\n- Only 3 analysts cover this name, so the consensus target is thin and moves easily.\n\n## What I want from you\n\n1. **Why did it actually move?** My engine only sees exchange filings and price action. Check whether there is a real catalyst it missed - sector news, a peer's results, a policy change, an index inclusion, a block deal.\n2. **Is my engine's attribution wrong?** Say so directly if the evidence points elsewhere.\n3. **The one-year view.** Build a bull case and a bear case from the business, not from the chart. What has to be true for this to work, and what would break it? Be concrete about which numbers to watch.\n4. **What would you check that I have not?** Name the specific filings, segments or metrics.\n\nPlease flag anything above that looks stale or wrong, and tell me plainly if this looks like a speculative move rather than an investable one. I am not asking you to tell me whether to buy - I want the reasoning so I can decide."
     },
     {
       "symbol": "TEJASNET",
@@ -445,6 +445,18 @@
             "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNZHE3aHAwYVNLRWJiZUhZSlJLTU81d2V4MjYyLVNsNXN6Ql96WDZ2RktsTDczSUVrbDNzdzNSYW1uYjc3T3A4cnJEbGVJSmZ0NnFadzdVTmtfY1ExaXNLYmNIX0dnajBMVVE1N3k5MDRPekRGRnl5NzlQaC1HLXRkbGM5RlhaVTg?oc=5"
           },
           {
+            "title": "Tejas Networks Ltd. Share Price, Stock Price - NSE/BSE Live - NDTV Profit",
+            "source": "NDTV Profit",
+            "published": "Wed, 03 Jun 2026 05:24:50 GMT",
+            "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9YVlQ4NlVkbmNSQzFhZndZbWdWTE83b2J0elp4dk1jZlowU0w5TW5IZ0h5SUY5aENyWUtZXzd6a1dEc1o2MjRqX09ndFh4RS05cDFmdnNtX08wczljMmtkVDIzOVlLYU12NThjV1pDZVMxY2I5eDZ3WHYwUTBLME0?oc=5"
+          },
+          {
+            "title": "Tejas Networks Share Price Jump 13.80% To ₹496 In Early Trade, Extend Rally After 5G Massive MIMO Deal - HDFC Sky",
+            "source": "HDFC Sky",
+            "published": "Mon, 02 Mar 2026 08:00:00 GMT",
+            "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBpbFQ3c0JIa3BKWWZIZ2REaTVEV05nSEtZZUtPOUJRWEFsaGVYSGQ0NmxOai1WY09BamRRaEd4RGJjNFhydlYyanBoZ3dmX1RDZ0pJNzZETEdaeTdxdFVRcFpDTXV2cXlTWExxNkRyR1dNTWVJZ2FmRUZR?oc=5"
+          },
+          {
             "title": "Tejas Networks Ltd. Share Price Today - Tejas Networks Ltd. Stock Price Live NSE/BSE - CNBC TV18",
             "source": "CNBC TV18",
             "published": "Sat, 03 Jan 2026 16:44:41 GMT",
@@ -455,18 +467,6 @@
             "source": "Upstox",
             "published": "Tue, 03 Mar 2026 08:00:00 GMT",
             "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPdmNqWnVpZUhicWJCTkhHYWxXZk1iYTN2c3ppQ0FzU2FHcjdaTW5FZVA3cFlLMmp5QkQ2SlY2amNkM25DTGhpQVU5TTUzMGdPdEc0TkVydzlsWWh6d3hEZVlVMXNmbVp0NXVZZmR1UGd1TmRzNnB4cjRHWERCUHMwMkliY0FnLTZza004d210Z1YwbnVUUzUxX1VWWUhXTGRxT0o5Q0ZZaHc1UkZOaVk3NHBRbmdDTzVrVHpZZzZqbUNFWFlmRlJ2d3ljcTZwVG4t?oc=5"
-          },
-          {
-            "title": "Tejas Networks Signs Contract With NEC, Share Price Jump 8.35% - HDFC Sky",
-            "source": "HDFC Sky",
-            "published": "Thu, 26 Feb 2026 08:00:00 GMT",
-            "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE42U2NKWlVuaVRLTEh6NTJybDlPZkxYNko0eTMtZVJFR2g0VEQwbGlpeUh0Tm51dHdZYzNUMk14YTFwS0lzSW5yU1VmeGFhOU9fbnZyeVhFNXM2M2tiUnZKQVk2c29lNlVOa3dfdFBDbjA?oc=5"
-          },
-          {
-            "title": "Tejas Networks Stock Prediction 2026: Expert Analysis, Forecast Scenarios and Full Stock Review - Univest",
-            "source": "Univest",
-            "published": "Tue, 16 Jun 2026 07:00:00 GMT",
-            "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE53bFhXUk5zcU1mWVdNYUpZU3R4dWFKaVBCTEllV1BJUWN0bkM1YVhlZWwxNlRneFl4Q1NPODZQbnpyRzluSTVyMFBEbmEtYkJRMU1obDhYUW44R2FCczhWUk9VMFhUVVFMS1I1R3hn?oc=5"
           },
           {
             "title": "Tejas Networks Sees Rs. 22.53 Crore Block Trade on NSE at Rs. 523.45 Per Share - scanx.trade",
@@ -492,7 +492,7 @@
         "institutional_holding_pct": 60.32,
         "dividend_yield_pct": 0.42,
         "current_ratio": null,
-        "beta": -0.076,
+        "beta": -0.088,
         "target_mean": null,
         "target_low": null,
         "target_high": null,
@@ -577,7 +577,7 @@
         "bull_count": 2,
         "bear_count": 2
       },
-      "research_prompt": "I'm a long-term retail investor in Indian equities (NSE). My screener flagged Tejas Networks Ltd. (TEJASNET) because it gained at least 3% on each of 1 consecutive sessions. I want your independent read - please push back on my screener rather than agreeing with it.\n\n## What my screener measured\n\n- Streak: 2026-09-04 to 2026-09-04, +8.2% cumulative\n- Daily gains: 2026-09-04 +8.23%\n- Last close: Rs 614.15\n- Sector: Telecommunication\n- Median 20-day turnover: Rs 53.5 crore\n- Volume vs 20-day median: 27.25x\n- Distance from 52-week high: -2.9%\n- Return 1M / 3M / 1Y: 17.6% / 13.6% / 4.4%\n\n## Attribution my engine computed\n\n- Verdict: unexplained - Company-specific, but nothing disclosed to explain it\n- Stock over the window: +8.2%\n- Sector median over the same window: +1.0%\n- Excess vs sector: +7.2 pp\n- Broad market median: -0.1%\n\n- No NSE corporate filings in the window.\n\n### Recent headlines (unverified, from Google News)\n\n- Tejas Networks Ltd. Actuals & Estimates (NSE:TEJASNET) - TradingView\n- Tejas Networks Ltd. Share Price Today - Tejas Networks Ltd. Stock Price Live NSE/BSE - CNBC TV18\n- Tejas Networks shares skyrocket 53% in five sessions! Factors you need to know - Upstox\n- Tejas Networks Signs Contract With NEC, Share Price Jump 8.35% - HDFC Sky\n- Tejas Networks Stock Prediction 2026: Expert Analysis, Forecast Scenarios and Full Stock Review - Univest\n- Tejas Networks Sees Rs. 22.53 Crore Block Trade on NSE at Rs. 523.45 Per Share - scanx.trade\n\n## Fundamentals\n\n- Market cap: Rs 10,914 crore\n- Price/Book: 3.7244914\n- Debt/Equity: 142.52\n- Revenue growth (yoy): 99.1%\n- Operating margin: -48.42%\n- Net margin: -70.37%\n- Promoter holding: 1.95%\n- Institutional holding: 60.32%\n- Dividend yield: 0.42%\n\n### Sector medians (Telecommunication, 9 Nifty 500 peers)\n\n- Trailing P/E: 41.74\n- Price/Book: 7.09\n- Return on equity: 18.91%\n- Debt/Equity: 51.79\n- Revenue growth: 10.5%\n- Net margin: 13.14%\n\n### Data my engine could not get\n\n- Trailing P/E unavailable\n- Return on Equity unavailable\n\n## What I want from you\n\n1. **Why did it actually move?** My engine only sees exchange filings and price action. Check whether there is a real catalyst it missed - sector news, a peer's results, a policy change, an index inclusion, a block deal.\n2. **Is my engine's attribution wrong?** Say so directly if the evidence points elsewhere.\n3. **The one-year view.** Build a bull case and a bear case from the business, not from the chart. What has to be true for this to work, and what would break it? Be concrete about which numbers to watch.\n4. **What would you check that I have not?** Name the specific filings, segments or metrics.\n\nPlease flag anything above that looks stale or wrong, and tell me plainly if this looks like a speculative move rather than an investable one. I am not asking you to tell me whether to buy - I want the reasoning so I can decide."
+      "research_prompt": "I'm a long-term retail investor in Indian equities (NSE). My screener flagged Tejas Networks Ltd. (TEJASNET) because it gained at least 3% on each of 1 consecutive sessions. I want your independent read - please push back on my screener rather than agreeing with it.\n\n## What my screener measured\n\n- Streak: 2026-09-04 to 2026-09-04, +8.2% cumulative\n- Daily gains: 2026-09-04 +8.23%\n- Last close: Rs 614.15\n- Sector: Telecommunication\n- Median 20-day turnover: Rs 53.5 crore\n- Volume vs 20-day median: 27.25x\n- Distance from 52-week high: -2.9%\n- Return 1M / 3M / 1Y: 17.6% / 13.6% / 4.4%\n\n## Attribution my engine computed\n\n- Verdict: unexplained - Company-specific, but nothing disclosed to explain it\n- Stock over the window: +8.2%\n- Sector median over the same window: +1.0%\n- Excess vs sector: +7.2 pp\n- Broad market median: -0.1%\n\n- No NSE corporate filings in the window.\n\n### Recent headlines (unverified, from Google News)\n\n- Tejas Networks Ltd. Actuals & Estimates (NSE:TEJASNET) - TradingView\n- Tejas Networks Ltd. Share Price, Stock Price - NSE/BSE Live - NDTV Profit\n- Tejas Networks Share Price Jump 13.80% To ₹496 In Early Trade, Extend Rally After 5G Massive MIMO Deal - HDFC Sky\n- Tejas Networks Ltd. Share Price Today - Tejas Networks Ltd. Stock Price Live NSE/BSE - CNBC TV18\n- Tejas Networks shares skyrocket 53% in five sessions! Factors you need to know - Upstox\n- Tejas Networks Sees Rs. 22.53 Crore Block Trade on NSE at Rs. 523.45 Per Share - scanx.trade\n\n## Fundamentals\n\n- Market cap: Rs 10,914 crore\n- Price/Book: 3.7244914\n- Debt/Equity: 142.52\n- Revenue growth (yoy): 99.1%\n- Operating margin: -48.42%\n- Net margin: -70.37%\n- Promoter holding: 1.95%\n- Institutional holding: 60.32%\n- Dividend yield: 0.42%\n\n### Sector medians (Telecommunication, 9 Nifty 500 peers)\n\n- Trailing P/E: 41.74\n- Price/Book: 7.09\n- Return on equity: 18.91%\n- Debt/Equity: 51.79\n- Revenue growth: 10.5%\n- Net margin: 13.14%\n\n### Data my engine could not get\n\n- Trailing P/E unavailable\n- Return on Equity unavailable\n\n## What I want from you\n\n1. **Why did it actually move?** My engine only sees exchange filings and price action. Check whether there is a real catalyst it missed - sector news, a peer's results, a policy change, an index inclusion, a block deal.\n2. **Is my engine's attribution wrong?** Say so directly if the evidence points elsewhere.\n3. **The one-year view.** Build a bull case and a bear case from the business, not from the chart. What has to be true for this to work, and what would break it? Be concrete about which numbers to watch.\n4. **What would you check that I have not?** Name the specific filings, segments or metrics.\n\nPlease flag anything above that looks stale or wrong, and tell me plainly if this looks like a speculative move rather than an investable one. I am not asking you to tell me whether to buy - I want the reasoning so I can decide."
     },
     {
       "symbol": "WOCKPHARMA",
@@ -638,37 +638,37 @@
             "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNQ1BuVEpaV1BjaHBaQk0zT0Q2ZHE0ckx2N3RQc29ZSXRoM2I4b0VoRWVoOGl1aGVET05NNTBCbG5PVG9fZVFPUzhadW5zT0dDbFFmQ2doU3BvcjEyZW8yYVBRdnFrdzYwMF9jc2c1NmVNYVB1RzVWSU5HVVZ5WWFBdVZURF9iWnh5S3piY2gxZEQxUkFoUFBnZFdpXzJ3dzJMWHhQbkUwN3QwaTFhNkJmLVFoRnN4ZzRhakIwdktiS1V4NTlqM2lyeEwzOTkxSE95VGYtVnBxUzlqRmZtc3NGeXBldXFodU5z0gHuAUFVX3lxTE9iYUdBT1ZRZmZsUDZCMXVYMDZqdzlieVNOYlJGby1VU2Q2cGt6WDQ4SmRqc0FPV21UbDFsd3RUUU81em9MVUVWMWdsTW5sZVZEOXJ1cHBERnU1NEZ0dEdXVWlpRHBmNkhvSUhuYWoteGRZcWJUaWl3VnNjSV85bWxnU3FVSkJWTldoOFlaVk1YbXEtLW1wSlRqQ01TX294UG5LaGVNRU5RS1lSSGVzZHhJYnZwWXNrTS1rd3p2cUFtR1F0dER5dUxJcjl5ZjI2Rmo0SmE3eUR1MVNTbTlibFpvLXZ6dzRybGYwUjdDb2c?oc=5"
           },
           {
-            "title": "Wockhardt's (NSE:WOCKPHARMA) Strong Earnings Are Of Good Quality - simplywall.st",
-            "source": "simplywall.st",
-            "published": "Mon, 11 May 2026 07:00:00 GMT",
-            "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNMGRNclp3R0VkS3FvS1N1Vk5oTmNtVDVsZlMxVmh2b1ktZkxwTFR6dVQ1R2UtWDlFdy1VWGN2M25MSEMxeGNIUHFPeEFBWndPQThEQlNrLUlUQ3lsRXI5bnl5U2cxQ0t1aGJzaTE0UEgxZ0pOdks5aTJKenRrcThtUUQzdWZkdzJBWm4wdFIybGMtU0JqZjllUWlQM0U2UzhiSDZfSU9ycGdMRGpRQ0w2Q2JvN3BlMEo2YWFCTHAtbndEdE5kZUV1bFpzWXpORllXT08xYXRSN3E2ZFlIYWo3V0FBbmlZc0Nn0gHuAUFVX3lxTE8yM2pGWW1vejQybUF0a3dKNFJnMF92a1F1RmpCd0drcUJsT3JvQUR4aG9pOXpJQkdObHFlckhMVEZQemRjQS1ZV1BwWVVwU1JqdV80RUZNUUJSa25XcFpKREx1REI4TDE3d29NMVhOVXRkaUN3RjYyY0ZNOUFCU2hCN29BWHo4S0VsMWpFRjdoTmdJS2lHTk9ic0p4bVYyWXZkME53aUtwSjRBTFNPMy14ZDBaVkVMVUp0YnVIUEIyTmMtUFFwRENuM0RmeUxMZEtGQzRWWEJWb1d3eDM0TVZySUZBX19taEh5a2Z2WVE?oc=5"
-          },
-          {
             "title": "Wockhardt Ltd shares plunge over 8% amid profit booking pressure after a 50% rally - Upstox",
             "source": "Upstox",
             "published": "Tue, 02 Jun 2026 07:00:00 GMT",
             "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNSG5acFZxUTNSZ2NzbjVkVi1heWJEWGczdWRkRHBydWZzc0xLa3pFdDRXVngtUWgyZEhiS00zWEE4Z1BiNDZheEh3bVpKSG1qTEprNUZkd2xvVTl6TUVmeDRRTlBvalo5aVJta1F6dk1UUldvWjl6TFJnb2wtQ0cyVDZRTXJ0bGxhRkFfdXVLdExTTDZQQkVZbVVDb2dsQUlGVHROU0gzMjhCb1VqS2xLUkdESVFFNDhqWU1Fam1VdXJWLTBMT01xdkhrb3lWb0hLQ1VfUkR6V3dOci1NS3dPcGlRNA?oc=5"
           },
           {
-            "title": "Wockhardt Limited's (NSE:WOCKPHARMA) Price Is Out Of Tune With Revenues - simplywall.st",
-            "source": "simplywall.st",
-            "published": "Mon, 10 Nov 2025 08:00:00 GMT",
-            "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOanBPS0xhQTl4MHFEWDJDelFTRS1FZ2J1OTZMaC03b2FZeklxWTNubjlDZFpmcVo1UGZyOWszQlN3b1ppSWFadS16aGEwYTdTTE5VRk9tZFp2MmtfVGdtS3NMMkRkXzZUOWJKeVFFUFJCQUpWTkFqeUwyVXB4RVFTMUdMNGtJRi1Kc293R2lQdGdDOTZxN0Y5d1UwYXF2bmRPZ3NVdXNvcV9hM0lDRGhtQy1OYzI0NHRxVE5ZWC1OMnM3c3g3aUZkZ3l5NGQ3WnlmOFNFS0QwSzZ3TVZpUExVU0NVcDhLM0w10gHuAUFVX3lxTE1GNjN3S3E1TEJYX0RrWnlzVTdlTTlKUkRFVjNXdnNRZEt3X0lZTmZUdFZpZ0EtYkJNQWRTdHBxY2NmYUxkbVBuOEEyR2RiejhRVXhKQjN3aTFWMmxManVwYUIwUEJyNE9xX1EyTmdRZGRWQVNwcWNsMWpDblZfQUFJUVhudGM4MV81eU56SDd4dTA5cTRRQXFuc0kzNEF6aGhPbFV4a2IxTFh2Z2poQlVzWkZTYU52aE9hdWZLNmh5d253cE92TW81eDIySFFlMFJWdjBYY01MV3hDX1Y5UGlDeWREV0xhVVp5S3piTnc?oc=5"
+            "title": "Wockhardt Ltd spurts 1.84%, rises for third straight session - Business Standard",
+            "source": "Business Standard",
+            "published": "Wed, 29 Jul 2026 07:00:00 GMT",
+            "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNa2NSYTVOcnh3YjE2M1Jhdm03X00yMXVsVGpiUlppcDgxbzVEcjFEaURtN21HY0wtNktYQ0cwTjZGcGE3cHBrYkRYZkJzXzV6UkhILXAwWlZOTWlLaGNlanRpSV9zUE10dVJzVEJ4WFotRUcxN3FBV0xKRURTNzRTdVN5MHlxZ0tOSFpzci02ZmVsRnNNUTh5TFN5T2llMWNyYTZkb2M5OHhTX3BfRWMzTTg3ZXc4dk1YUmc2SnhBY184d0d3ZFpnVWE3aUQ5RDJZMm1KZngzd9IB3AFBVV95cUxPM2pFRHFfOC10VWNkem5mcTdFaHh2R09tc3BScGtoQktIOFZJd0tZMk55bzlwbmExMm9sZkstbW82dkJzQ0hhRXBOelZVc3d4UTJWQzRhdFhsWElWN0pWdTdjMWVGSGJkaFFKMXV5Z3lIaUNJSU1JS0lOWlk4S1hIcUNLVlAzM3VjanJLX0tzM1RIMHBXV3hOanJIdzdWQ1dWRmFYeGUyV2FmR1I1V0JKb1A2TklqVXNTd2VfZ1lIT3FFNDNHcU5abm94eUJ0U2phcEg5SVJvOTQ4VDl0?oc=5"
           },
           {
-            "title": "Wockhardt Ltd leads losers in 'A' group - Business Standard",
-            "source": "Business Standard",
-            "published": "Fri, 05 Jun 2026 07:00:00 GMT",
-            "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOcFE3QVV4VVJkaGZ5d3pUWDZSQ3VKSkNuZXNqNEhGYTlkVDlCQUo1Z0RCbk5aNnVHS0ExOS10WVNNSWJhVWF2cXpsbDB2OHdpeGkzVVMzVkdOVXY4a1NERG40QWtFQlNkM0NYa200ZzlHWXVGcFpYd3R1R3ZmUXZtYUdZekJCNDdNZzlDa0d2ZTJnQ21XQVdBdkdmQmY5SWpURDVmUDk2dm5Lem1OYVhQTTd3MG9CYjlWVGxV0gHAAUFVX3lxTE55WnFlX2VoTVJKX0U2ZVhLVDg1cUo4Zk9TdEJXS1hjQVRIRW5MSHlCYVRMaF91VGU3cW5xd2MxYTh3U3JzUUxicDUwNm9UUk9JR2tHLWZ4Q1B5OXB0ck84VE5fa1VPRWZXN1pxWHUzdldGQ0QxNjRIYkw4eXNYWWFORW0zTklYMzRKZFFNRVROdGR3Zy15NzZtRk50cmMzZDRGTWJvblRWaDNVa2RnUk5lOTJDNlJaeUFfbVh3aWROag?oc=5"
+            "title": "Wockhardt's (NSE:WOCKPHARMA) Strong Earnings Are Of Good Quality - simplywall.st",
+            "source": "simplywall.st",
+            "published": "Mon, 11 May 2026 07:00:00 GMT",
+            "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNMGRNclp3R0VkS3FvS1N1Vk5oTmNtVDVsZlMxVmh2b1ktZkxwTFR6dVQ1R2UtWDlFdy1VWGN2M25MSEMxeGNIUHFPeEFBWndPQThEQlNrLUlUQ3lsRXI5bnl5U2cxQ0t1aGJzaTE0UEgxZ0pOdks5aTJKenRrcThtUUQzdWZkdzJBWm4wdFIybGMtU0JqZjllUWlQM0U2UzhiSDZfSU9ycGdMRGpRQ0w2Q2JvN3BlMEo2YWFCTHAtbndEdE5kZUV1bFpzWXpORllXT08xYXRSN3E2ZFlIYWo3V0FBbmlZc0Nn0gHuAUFVX3lxTE8yM2pGWW1vejQybUF0a3dKNFJnMF92a1F1RmpCd0drcUJsT3JvQUR4aG9pOXpJQkdObHFlckhMVEZQemRjQS1ZV1BwWVVwU1JqdV80RUZNUUJSa25XcFpKREx1REI4TDE3d29NMVhOVXRkaUN3RjYyY0ZNOUFCU2hCN29BWHo4S0VsMWpFRjdoTmdJS2lHTk9ic0p4bVYyWXZkME53aUtwSjRBTFNPMy14ZDBaVkVMVUp0YnVIUEIyTmMtUFFwRENuM0RmeUxMZEtGQzRWWEJWb1d3eDM0TVZySUZBX19taEh5a2Z2WVE?oc=5"
+          },
+          {
+            "title": "Wockhardt shares soar over 17% to 52-week high as CDSCO grants authorisation for UTI antibiotic - Upstox",
+            "source": "Upstox",
+            "published": "Fri, 29 May 2026 07:00:00 GMT",
+            "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxONzA3cDgzRE1zUTYzOWF0MVdxSnBHaGltSzc3bzRySlFsb1U5WHM1Q3BvWGtYV3ZrZG1yZlVra3dvQm5yeGxVQTN0cDRmd0lxdkdleE93NXR6ZjdiVDI4dGlmN3NkRkNaME9WaFBEQTEyZE80d24tZGwtajRlRTdhUG1Xa3V4OFltTXJORHZVWnRqd0ViSkxDcWxVUUVEaUxCWVhQUnVQMUVRUWZNNzN0SGo0bUZXUnVENW1uRThZanlMeGdQZkRORjJaQXZWZTVuQjNXZ2llZEdHeDVfOE1ybmtNWmZ6T0Fr?oc=5"
           }
         ]
       },
       "fundamentals": {
         "symbol": "WOCKPHARMA",
         "market_cap_cr": 33940.0,
-        "trailing_pe": 83.01669,
+        "trailing_pe": 81.11456,
         "forward_pe": null,
-        "price_to_book": 6.963424,
+        "price_to_book": 6.860906,
         "roe_pct": null,
         "debt_to_equity": 42.284,
         "revenue_growth_pct": 25.9,
@@ -690,7 +690,7 @@
       "benchmark": {
         "industry": "Healthcare",
         "peers": 47,
-        "trailing_pe": 46.86,
+        "trailing_pe": 46.84,
         "price_to_book": 6.54,
         "roe_pct": 8.84,
         "debt_to_equity": 16.07,
@@ -701,14 +701,14 @@
         "factors": [
           {
             "name": "Trailing P/E",
-            "value": "83.0",
-            "peer_value": "46.9",
+            "value": "81.1",
+            "peer_value": "46.8",
             "stance": "bear",
             "note": "More expensive than the typical peer, so more of the growth is already priced in."
           },
           {
             "name": "Price / Book",
-            "value": "7.0",
+            "value": "6.9",
             "peer_value": "6.5",
             "stance": "neutral",
             "note": "In line with the sector."
@@ -747,7 +747,7 @@
           "Promoters hold 51%, so their interests stay tied to the share price."
         ],
         "bear_case": [
-          "Trailing P/E 83.0 vs sector 46.9. More expensive than the typical peer, so more of the growth is already priced in.",
+          "Trailing P/E 81.1 vs sector 46.8. More expensive than the typical peer, so more of the growth is already priced in.",
           "Debt / Equity 42.3 vs sector 16.1. More leveraged than peers, which amplifies any downturn.",
           "Net margin 11.2% vs sector 14.3%. Thinner margins than peers.",
           "Sitting within 3% of its 52-week high, so you are buying after the move, not before it."
@@ -763,7 +763,7 @@
         "bull_count": 1,
         "bear_count": 3
       },
-      "research_prompt": "I'm a long-term retail investor in Indian equities (NSE). My screener flagged Wockhardt Ltd. (WOCKPHARMA) because it gained at least 3% on each of 1 consecutive sessions. I want your independent read - please push back on my screener rather than agreeing with it.\n\n## What my screener measured\n\n- Streak: 2026-09-04 to 2026-09-04, +7.1% cumulative\n- Daily gains: 2026-09-04 +7.08%\n- Last close: Rs 2,088.70\n- Sector: Healthcare\n- Median 20-day turnover: Rs 106.1 crore\n- Volume vs 20-day median: 6.43x\n- Distance from 52-week high: -3.0%\n- Return 1M / 3M / 1Y: 5.8% / 10.7% / 41.2%\n\n## Attribution my engine computed\n\n- Verdict: unexplained - Company-specific, but nothing disclosed to explain it\n- Stock over the window: +7.1%\n- Sector median over the same window: -0.9%\n- Excess vs sector: +8.0 pp\n- Broad market median: -0.1%\n\n- No NSE corporate filings in the window.\n\n### Recent headlines (unverified, from Google News)\n\n- Wockhardt Share Price Today: 3.57% Rise, Stock Analysis - Univest\n- Investing in Wockhardt (NSE:WOCKPHARMA) three years ago would have delivered you a 611% gain - simplywall.st\n- Wockhardt's (NSE:WOCKPHARMA) Strong Earnings Are Of Good Quality - simplywall.st\n- Wockhardt Ltd shares plunge over 8% amid profit booking pressure after a 50% rally - Upstox\n- Wockhardt Limited's (NSE:WOCKPHARMA) Price Is Out Of Tune With Revenues - simplywall.st\n- Wockhardt Ltd leads losers in 'A' group - Business Standard\n\n## Fundamentals\n\n- Market cap: Rs 33,940 crore\n- Trailing P/E: 83.01669\n- Price/Book: 6.963424\n- Debt/Equity: 42.284\n- Revenue growth (yoy): 25.9%\n- Operating margin: 14.32%\n- Net margin: 11.2%\n- Promoter holding: 51.02%\n- Institutional holding: 13.82%\n\n### Sector medians (Healthcare, 47 Nifty 500 peers)\n\n- Trailing P/E: 46.86\n- Price/Book: 6.54\n- Return on equity: 8.84%\n- Debt/Equity: 16.07\n- Revenue growth: 19.6%\n- Net margin: 14.31%\n\n### Data my engine could not get\n\n- Return on Equity unavailable\n\n## What I want from you\n\n1. **Why did it actually move?** My engine only sees exchange filings and price action. Check whether there is a real catalyst it missed - sector news, a peer's results, a policy change, an index inclusion, a block deal.\n2. **Is my engine's attribution wrong?** Say so directly if the evidence points elsewhere.\n3. **The one-year view.** Build a bull case and a bear case from the business, not from the chart. What has to be true for this to work, and what would break it? Be concrete about which numbers to watch.\n4. **What would you check that I have not?** Name the specific filings, segments or metrics.\n\nPlease flag anything above that looks stale or wrong, and tell me plainly if this looks like a speculative move rather than an investable one. I am not asking you to tell me whether to buy - I want the reasoning so I can decide."
+      "research_prompt": "I'm a long-term retail investor in Indian equities (NSE). My screener flagged Wockhardt Ltd. (WOCKPHARMA) because it gained at least 3% on each of 1 consecutive sessions. I want your independent read - please push back on my screener rather than agreeing with it.\n\n## What my screener measured\n\n- Streak: 2026-09-04 to 2026-09-04, +7.1% cumulative\n- Daily gains: 2026-09-04 +7.08%\n- Last close: Rs 2,088.70\n- Sector: Healthcare\n- Median 20-day turnover: Rs 106.1 crore\n- Volume vs 20-day median: 6.43x\n- Distance from 52-week high: -3.0%\n- Return 1M / 3M / 1Y: 5.8% / 10.7% / 41.2%\n\n## Attribution my engine computed\n\n- Verdict: unexplained - Company-specific, but nothing disclosed to explain it\n- Stock over the window: +7.1%\n- Sector median over the same window: -0.9%\n- Excess vs sector: +8.0 pp\n- Broad market median: -0.1%\n\n- No NSE corporate filings in the window.\n\n### Recent headlines (unverified, from Google News)\n\n- Wockhardt Share Price Today: 3.57% Rise, Stock Analysis - Univest\n- Investing in Wockhardt (NSE:WOCKPHARMA) three years ago would have delivered you a 611% gain - simplywall.st\n- Wockhardt Ltd shares plunge over 8% amid profit booking pressure after a 50% rally - Upstox\n- Wockhardt Ltd spurts 1.84%, rises for third straight session - Business Standard\n- Wockhardt's (NSE:WOCKPHARMA) Strong Earnings Are Of Good Quality - simplywall.st\n- Wockhardt shares soar over 17% to 52-week high as CDSCO grants authorisation for UTI antibiotic - Upstox\n\n## Fundamentals\n\n- Market cap: Rs 33,940 crore\n- Trailing P/E: 81.11456\n- Price/Book: 6.860906\n- Debt/Equity: 42.284\n- Revenue growth (yoy): 25.9%\n- Operating margin: 14.32%\n- Net margin: 11.2%\n- Promoter holding: 51.02%\n- Institutional holding: 13.82%\n\n### Sector medians (Healthcare, 47 Nifty 500 peers)\n\n- Trailing P/E: 46.84\n- Price/Book: 6.54\n- Return on equity: 8.84%\n- Debt/Equity: 16.07\n- Revenue growth: 19.6%\n- Net margin: 14.31%\n\n### Data my engine could not get\n\n- Return on Equity unavailable\n\n## What I want from you\n\n1. **Why did it actually move?** My engine only sees exchange filings and price action. Check whether there is a real catalyst it missed - sector news, a peer's results, a policy change, an index inclusion, a block deal.\n2. **Is my engine's attribution wrong?** Say so directly if the evidence points elsewhere.\n3. **The one-year view.** Build a bull case and a bear case from the business, not from the chart. What has to be true for this to work, and what would break it? Be concrete about which numbers to watch.\n4. **What would you check that I have not?** Name the specific filings, segments or metrics.\n\nPlease flag anything above that looks stale or wrong, and tell me plainly if this looks like a speculative move rather than an investable one. I am not asking you to tell me whether to buy - I want the reasoning so I can decide."
     }
   ],
   "top_losers": [
@@ -857,23 +857,23 @@
             "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9zdFlPUjU5cTB3Nmd0LUJxYkJ2a2ctclotQ2F5dEo0Y00zaWNaNnZQTGZGV0dZLTgzc1g4WmlvUnRmWG1hQ2VXQ3V3SloxLU9TZkVnWUxxSFdnVjBFOGl6ZVlsUUxCbml5TWtKWGd1dElZYjY4?oc=5"
           },
           {
-            "title": "Kei Industries Latest News: KEI Industries Ltd Hits 52-Week High - Univest",
+            "title": "KEI Industries Share Price Today Rs 5437.8: Buy or Avoid in 2026 - Univest",
             "source": "Univest",
-            "published": "Tue, 23 Jun 2026 07:00:00 GMT",
-            "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOLTh5eElLN0ZNdFNKbU94M1lxdHB2VUVoX2VXSXNYOVBoQ2ItaEd3V3hqV2dWLWk4TG1ON3RxWEdSV1VrYTF3cFM3djFYMkV4TTB4S0M2RC1TaDZRcWNmbkx4S3N1X0JxRnpjTkpKZjg1VjFKU05OQkdOWUt3OVgtWlJmcDk?oc=5"
+            "published": "Wed, 27 May 2026 07:00:00 GMT",
+            "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBKNC1CalZrb0hnbFVSNnEwSUJqRTJWWEtMcWFuRVN0eEpwaWpyb3V4R045blRLUDMwb3JCOUtJNGNBOV8xTWJ2RXgzZmFjSnZRNFZJSTN4Y2UtNHY4NG1NV3hXYXB5VW5D?oc=5"
           },
           {
-            "title": "There May Be Underlying Issues With The Quality Of KEI Industries' (NSE:KEI) Earnings - simplywall.st",
-            "source": "simplywall.st",
-            "published": "Tue, 12 May 2026 07:00:00 GMT",
-            "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPSFRhRU1faFVYa1JudURneC12eGowbTlSS2FxTTVFVm4xcnFqRWRBWC1WdElvaUw0eHJWOVJvT1cyWmZtRTZOd3AzbXkxbi1MN2lEYWpNeVZlWkNoMHhkczNDb28xbTg5Y2gtbERCcmNtOUlraV94MXBDRC1qT05RRTFYV3J2S0ZSZlNWZXFJSThCRHVWTUdBaGx3ZmxvYllndXpDNGhBdmdGek5pbG42MkVWaW5aNFExSl9XTUpGb2FpeGlZdEI2dGFmTmM0OWJNRGhFemxHdUHSAd4BQVVfeXFMTWNtYWt0Sk95OUtkUkQ5MEtQV1VZVExpZGNFd0p1TzhmVWVlNWgtTDJjOTBuMm1iQU9mOGkzUW55RDlBbWprcmFoVHJqUWhmemtrYS15elc3eTdCcFBrZmg1S2lmVGVJdjdGdFRXamkyenY3OUwxWmktSUs4c2VKSEZZcmhKSnREMzNHclNKQnlfdFRIcUd5MTEzRFVYWVJ0ZVkwUFptdVhZcHduck1sNTJIYW1icEE4NmJYSVNxYW9ZNE5jeEdKZ3J2dDl0bUhSMm9MUVpRUFdPUUVuNHN3?oc=5"
+            "title": "KEI Industries shares up 5% as Q1 profit jumps 40%; board approves ₹700cr capacity expansion - Moneycontrol.com",
+            "source": "Moneycontrol.com",
+            "published": "Tue, 04 Aug 2026 07:00:00 GMT",
+            "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNeUFuY3B3dGNOS05KVnpvYlhycHA3cjVEVC1YZWM4VndmX2VLT1lmcWw2bXBGWXp0TnAyVFBac18zeVBCRTg3MUJ5bjBWMDJNcjk0RnI1MGRBZWR5ZzFCU1piVnR5R0Q1akNud3BTRndYTmdaVXBQSnp5bWtVWWZkM3FLdXZEblMyd0RyVmRDZ1NTR1M2UTAtLXAtSE1RdXg0RUF2aHVWZ0VRME5KRU1wSWhwUy1xbzVh0gG-AUFVX3lxTE44OVFESUNDS2I2cmdxZVppTGxwUDlYOWtpcFZXYjBsZ2JpVVBJSm9Yd3hkM25MdVMzYWZ6OWYxYTVXYUk5R2tuWlR6eGFsWnhVcjc0b0NrTmdMc0dLU085TEduTjNWNVNJOGt4VTBVN21MT1ZvNUpuX3oyUnNTcXlGTFVacnpQel9wRGFCczdxYmx1T0tiR294Sy1DMFFod2FCQXBHeW50bURJa0U2TDZXcFBrQ0cwd0ZQV2xWVWc?oc=5"
           }
         ]
       },
       "fundamentals": {
         "symbol": "KEI",
         "market_cap_cr": 46366.0,
-        "trailing_pe": 45.07016,
+        "trailing_pe": 46.45149,
         "forward_pe": 33.05643,
         "price_to_book": 6.9566364,
         "roe_pct": null,
@@ -908,7 +908,7 @@
         "factors": [
           {
             "name": "Trailing P/E",
-            "value": "45.1",
+            "value": "46.5",
             "peer_value": "54.6",
             "stance": "bull",
             "note": "Cheaper than the typical peer on trailing earnings."
@@ -950,7 +950,7 @@
           }
         ],
         "bull_case": [
-          "Trailing P/E 45.1 vs sector 54.6. Cheaper than the typical peer on trailing earnings.",
+          "Trailing P/E 46.5 vs sector 54.6. Cheaper than the typical peer on trailing earnings.",
           "Debt / Equity 3.8 vs sector 9.4. Carries less leverage than peers, so less earnings risk if rates rise.",
           "Revenue growth (yoy) 23.0% vs sector 19.3%. Growing the top line faster than the sector.",
           "Earnings grew 40% year on year, which is what has to keep happening for a re-rating to hold.",
@@ -969,7 +969,7 @@
         "bull_count": 3,
         "bear_count": 1
       },
-      "research_prompt": "I'm a long-term retail investor in Indian equities (NSE). My screener flagged KEI Industries Ltd. (KEI) because it gained at least 3% on each of 1 consecutive sessions. I want your independent read - please push back on my screener rather than agreeing with it.\n\n## What my screener measured\n\n- Streak: 2026-09-04 to 2026-09-04, -8.9% cumulative\n- Daily gains: 2026-09-04 -8.95%\n- Last close: Rs 4,850.00\n- Sector: Capital Goods\n- Median 20-day turnover: Rs 191.2 crore\n- Volume vs 20-day median: 7.53x\n- Distance from 52-week high: -17.4%\n- Return 1M / 3M / 1Y: -13.3% / -8.2% / 20.3%\n\n## Attribution my engine computed\n\n- Verdict: company_catalyst - Company-specific - results announcement disclosed to the exchange\n- Stock over the window: -8.9%\n- Sector median over the same window: -0.3%\n- Excess vs sector: -8.7 pp\n- Broad market median: -0.1%\n\n### NSE filings in the window\n\n- 2026-09-01 [catalyst] Reply to Clarification- Financial results - Results announcement\n  The Exchange had sought clarification from KEI Industries Limited for the quarter ended 30-Jun-2026 with respect to Regulation 33 of the SEBI (Listing Obligations and Disclosure Re\n- 2026-08-31 [neutral] Updates - Routine or administrative disclosure\n  KEI Industries Limited has informed the Exchange regarding 'Disclosure pursuant to Regulation 47 of SEBI (Listing Obligations and Disclosure Requirements) Regulation, 2015.\n\n### Recent headlines (unverified, from Google News)\n\n- Cable stocks crash up to 8% as UltraTech launches Ultravolt; Polycab, KEI, RR Kabel among top losers - Moneycontrol.com\n- KEI Industries Share Price - Upstox\n- Results: KEI Industries Limited Exceeded Expectations And The Consensus Has Updated Its Estimates - simplywall.st\n- KEI Forecast — Price Target — Prediction for 2027 - TradingView\n- Kei Industries Latest News: KEI Industries Ltd Hits 52-Week High - Univest\n- There May Be Underlying Issues With The Quality Of KEI Industries' (NSE:KEI) Earnings - simplywall.st\n\n## Fundamentals\n\n- Market cap: Rs 46,366 crore\n- Trailing P/E: 45.07016\n- Forward P/E: 33.05643\n- Price/Book: 6.9566364\n- Debt/Equity: 3.796\n- Revenue growth (yoy): 23.0%\n- Earnings growth (yoy): 40.0%\n- Operating margin: 11.53%\n- Net margin: 8.08%\n- Promoter holding: 35.99%\n- Institutional holding: 43.93%\n- Dividend yield: 0.08%\n- Analyst count: 25\n- Mean target price: 5798.28\n\n### Sector medians (Capital Goods, 62 Nifty 500 peers)\n\n- Trailing P/E: 54.57\n- Price/Book: 7.69\n- Return on equity: 25.55%\n- Debt/Equity: 9.4\n- Revenue growth: 19.3%\n- Net margin: 11.22%\n\n### Data my engine could not get\n\n- Return on Equity unavailable\n\n## What I want from you\n\n1. **Why did it actually move?** My engine only sees exchange filings and price action. Check whether there is a real catalyst it missed - sector news, a peer's results, a policy change, an index inclusion, a block deal.\n2. **Is my engine's attribution wrong?** Say so directly if the evidence points elsewhere.\n3. **The one-year view.** Build a bull case and a bear case from the business, not from the chart. What has to be true for this to work, and what would break it? Be concrete about which numbers to watch.\n4. **What would you check that I have not?** Name the specific filings, segments or metrics.\n\nPlease flag anything above that looks stale or wrong, and tell me plainly if this looks like a speculative move rather than an investable one. I am not asking you to tell me whether to buy - I want the reasoning so I can decide."
+      "research_prompt": "I'm a long-term retail investor in Indian equities (NSE). My screener flagged KEI Industries Ltd. (KEI) because it gained at least 3% on each of 1 consecutive sessions. I want your independent read - please push back on my screener rather than agreeing with it.\n\n## What my screener measured\n\n- Streak: 2026-09-04 to 2026-09-04, -8.9% cumulative\n- Daily gains: 2026-09-04 -8.95%\n- Last close: Rs 4,850.00\n- Sector: Capital Goods\n- Median 20-day turnover: Rs 191.2 crore\n- Volume vs 20-day median: 7.53x\n- Distance from 52-week high: -17.4%\n- Return 1M / 3M / 1Y: -13.3% / -8.2% / 20.3%\n\n## Attribution my engine computed\n\n- Verdict: company_catalyst - Company-specific - results announcement disclosed to the exchange\n- Stock over the window: -8.9%\n- Sector median over the same window: -0.3%\n- Excess vs sector: -8.7 pp\n- Broad market median: -0.1%\n\n### NSE filings in the window\n\n- 2026-09-01 [catalyst] Reply to Clarification- Financial results - Results announcement\n  The Exchange had sought clarification from KEI Industries Limited for the quarter ended 30-Jun-2026 with respect to Regulation 33 of the SEBI (Listing Obligations and Disclosure Re\n- 2026-08-31 [neutral] Updates - Routine or administrative disclosure\n  KEI Industries Limited has informed the Exchange regarding 'Disclosure pursuant to Regulation 47 of SEBI (Listing Obligations and Disclosure Requirements) Regulation, 2015.\n\n### Recent headlines (unverified, from Google News)\n\n- Cable stocks crash up to 8% as UltraTech launches Ultravolt; Polycab, KEI, RR Kabel among top losers - Moneycontrol.com\n- KEI Industries Share Price - Upstox\n- Results: KEI Industries Limited Exceeded Expectations And The Consensus Has Updated Its Estimates - simplywall.st\n- KEI Forecast — Price Target — Prediction for 2027 - TradingView\n- KEI Industries Share Price Today Rs 5437.8: Buy or Avoid in 2026 - Univest\n- KEI Industries shares up 5% as Q1 profit jumps 40%; board approves ₹700cr capacity expansion - Moneycontrol.com\n\n## Fundamentals\n\n- Market cap: Rs 46,366 crore\n- Trailing P/E: 46.45149\n- Forward P/E: 33.05643\n- Price/Book: 6.9566364\n- Debt/Equity: 3.796\n- Revenue growth (yoy): 23.0%\n- Earnings growth (yoy): 40.0%\n- Operating margin: 11.53%\n- Net margin: 8.08%\n- Promoter holding: 35.99%\n- Institutional holding: 43.93%\n- Dividend yield: 0.08%\n- Analyst count: 25\n- Mean target price: 5798.28\n\n### Sector medians (Capital Goods, 62 Nifty 500 peers)\n\n- Trailing P/E: 54.57\n- Price/Book: 7.69\n- Return on equity: 25.55%\n- Debt/Equity: 9.4\n- Revenue growth: 19.3%\n- Net margin: 11.22%\n\n### Data my engine could not get\n\n- Return on Equity unavailable\n\n## What I want from you\n\n1. **Why did it actually move?** My engine only sees exchange filings and price action. Check whether there is a real catalyst it missed - sector news, a peer's results, a policy change, an index inclusion, a block deal.\n2. **Is my engine's attribution wrong?** Say so directly if the evidence points elsewhere.\n3. **The one-year view.** Build a bull case and a bear case from the business, not from the chart. What has to be true for this to work, and what would break it? Be concrete about which numbers to watch.\n4. **What would you check that I have not?** Name the specific filings, segments or metrics.\n\nPlease flag anything above that looks stale or wrong, and tell me plainly if this looks like a speculative move rather than an investable one. I am not asking you to tell me whether to buy - I want the reasoning so I can decide."
     },
     {
       "symbol": "RRKABEL",
@@ -1030,12 +1030,6 @@
             "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1pbFVlRjh6MUJjOFhmY09pM1lKQjJneTlfSXZnTkhfQTZ4T1J0dFV0TER3Y1l4aEtmMVYxTy1HcFhoUHRvLVRvMGpoT2I5bXFw?oc=5"
           },
           {
-            "title": "R R Kabel shares rally 10% to hit 52-week high as analysts flag strong growth outlook - Upstox",
-            "source": "Upstox",
-            "published": "Tue, 28 Jul 2026 07:00:00 GMT",
-            "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOX2sxeVFoQzFXM1I1Z2FfZnJVaDJIQU5sT29pVGJHWjlGcVhTWk1kT19kWTZyS0xqNWNJeFpPMnJDNFhXSkgzREpURGdCUU1lWTRkTm1VTEJxeFJlSTA4ZmJDel83ejh2QUYyRlg1T25YbDlvWmV2R1l4RXRYTDNqd2xfcFlwRktSYU1lOEVhR3FJRkF5MzlLS2tMWURxNzlNZnBCV0hHTFhoV0VLS0NKSVlPV0tVSVBCYmYwRzNGOERVY2xoVGkxd21fMWpHU3pMYTBOSHFfLUhHWDg?oc=5"
-          },
-          {
             "title": "R R Kabel Ltd. Share Price Today - R R Kabel Ltd. Stock Price Live NSE/BSE - CNBC TV18",
             "source": "CNBC TV18",
             "published": "Sat, 03 Jan 2026 16:22:56 GMT",
@@ -1048,10 +1042,16 @@
             "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQM244QXFQcmZoMjJFUVRiMkFhbV9qSEV4dC16c1VjZEZQcVBBNEJPbTFLMjI5RnJ5VzdSczNvMGxyWTEza215c0Q0SjdEQUFpQXgxa2dsZnRMTW5SNUFzd1U5aXBhRXR6UXRzSi1tR0g4OUtIZ0FYZlV0WThDbDRldkZjQzdSUXhwNzhoeFEtdWdTZjVWb1BPd2s4MTZlcGxzNjVmQmN4MGFTVGpNZjR1NVI4SnBCMlFJeTJRYzlYR1NSd0U4LXdjY2Y1Z3hUOVJjelNaVWwyd9IB3AFBVV95cUxNM181QmQ5NjVEOXRtVXc4UDA4NGx3dDZUbENpTm1kMVlpVWZuRXg5b1ZacldCWHI5TWJqajNTdkU2akRRZm1PVVpvUUF6QnQxOHNESXF2RTRkSzBSTnhXVGM0YV9hMTY0UUptcVlxU0dMTmFNb2o5SWRVX09fUjV6WThna05YZ1U4VUh4dTBXNVJONFU0a3hfdUFmelE2UUh4VDRxUmRKLVFGQ2ZkSlZkX1NqYjlSNFpIU3p3RUQwNzZESVVld3JoLXVMc1FKa1BQaHhFdGZ2Y3Q1NGpL?oc=5"
           },
           {
-            "title": "RR Kabel share price jumps 7% to 52-week high; analysts predict sectoral tailwinds ahead - Upstox",
+            "title": "R R Kabel shares rally 10% to hit 52-week high as analysts flag strong growth outlook - Upstox",
             "source": "Upstox",
-            "published": "Thu, 18 Jun 2026 07:00:00 GMT",
-            "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPeF91Wmp4TjQxTkRnbmZIY2V2WVhJeUEtdGZfSXlHQ1FkQ052THl3bzY0UWVqRFUzNzdMS25IUDVFRl9nV1Jycm5IdFNXZW04cktuWmxoeUhNRGxMcHhaUHNyM0pYSExvSzJicFA1d0g5WUFleUtVUlNnZG02Q2R2LXE0NjRvWUFwM2lYVFhoU1V0QjJuYVpVRzAzX2NTdGFyMTZINGtydFdvWkxvNmpyLVg4NHo0Ri1xQm9waXdKWHpMV0l3Tm1XYTZ1eHZNMUN2ZGRYc2NWNmxiUTRrOVE?oc=5"
+            "published": "Tue, 28 Jul 2026 07:00:00 GMT",
+            "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOX2sxeVFoQzFXM1I1Z2FfZnJVaDJIQU5sT29pVGJHWjlGcVhTWk1kT19kWTZyS0xqNWNJeFpPMnJDNFhXSkgzREpURGdCUU1lWTRkTm1VTEJxeFJlSTA4ZmJDel83ejh2QUYyRlg1T25YbDlvWmV2R1l4RXRYTDNqd2xfcFlwRktSYU1lOEVhR3FJRkF5MzlLS2tMWURxNzlNZnBCV0hHTFhoV0VLS0NKSVlPV0tVSVBCYmYwRzNGOERVY2xoVGkxd21fMWpHU3pMYTBOSHFfLUhHWDg?oc=5"
+          },
+          {
+            "title": "RR Kabel Ltd. (RRKABEL) Share Price Rises 4.36% in Today's Trading - Univest",
+            "source": "Univest",
+            "published": "Wed, 05 Aug 2026 07:00:00 GMT",
+            "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5ZbVZpUlZLRDlOaFFuQWxVMDEwM21CSkRRQmhEaWNNMXhMMEFkd1NWenM0aU9ySndTZ1F2aDJlVjZyQ0VaZnY1dUl2ek5aQy1POFFhQnlNZ3d1WDFxZU5kc2xlS01kSGktNFk5XzVFbk0xXzg?oc=5"
           }
         ]
       },
@@ -1071,7 +1071,7 @@
         "institutional_holding_pct": 18.5,
         "dividend_yield_pct": 0.42,
         "current_ratio": null,
-        "beta": 1.38,
+        "beta": 1.367,
         "target_mean": 2867.0,
         "target_low": 1950.0,
         "target_high": 3400.0,
@@ -1157,7 +1157,7 @@
         "bull_count": 2,
         "bear_count": 3
       },
-      "research_prompt": "I'm a long-term retail investor in Indian equities (NSE). My screener flagged R R Kabel Ltd. (RRKABEL) because it gained at least 3% on each of 1 consecutive sessions. I want your independent read - please push back on my screener rather than agreeing with it.\n\n## What my screener measured\n\n- Streak: 2026-09-04 to 2026-09-04, -6.2% cumulative\n- Daily gains: 2026-09-04 -6.25%\n- Last close: Rs 2,454.10\n- Sector: Capital Goods\n- Median 20-day turnover: Rs 92.1 crore\n- Volume vs 20-day median: 8.09x\n- Distance from 52-week high: -16.2%\n- Return 1M / 3M / 1Y: -11.2% / 13.0% / 104.5%\n\n## Attribution my engine computed\n\n- Verdict: unexplained - Company-specific, but nothing disclosed to explain it\n- Stock over the window: -6.2%\n- Sector median over the same window: -0.3%\n- Excess vs sector: -6.0 pp\n- Broad market median: -0.1%\n\n- No NSE corporate filings in the window.\n\n### Recent headlines (unverified, from Google News)\n\n- Is It Time To Consider Buying R R Kabel Limited (NSE:RRKABEL)? - simplywall.st\n- RRKABEL Share Price Today - RR Kabel on NSE/BSE - scanx.trade\n- R R Kabel shares rally 10% to hit 52-week high as analysts flag strong growth outlook - Upstox\n- R R Kabel Ltd. Share Price Today - R R Kabel Ltd. Stock Price Live NSE/BSE - CNBC TV18\n- Here's Why We Think R R Kabel (NSE:RRKABEL) Might Deserve Your Attention Today - simplywall.st\n- RR Kabel share price jumps 7% to 52-week high; analysts predict sectoral tailwinds ahead - Upstox\n\n## Fundamentals\n\n- Market cap: Rs 27,757 crore\n- Trailing P/E: 45.734253\n- Forward P/E: 31.258698\n- Price/Book: 10.78204\n- Debt/Equity: 13.092\n- Revenue growth (yoy): 53.9%\n- Earnings growth (yoy): 128.5%\n- Operating margin: 8.0%\n- Net margin: 5.61%\n- Promoter holding: 69.99%\n- Institutional holding: 18.5%\n- Dividend yield: 0.42%\n- Analyst count: 14\n- Mean target price: 2867.0\n\n### Sector medians (Capital Goods, 62 Nifty 500 peers)\n\n- Trailing P/E: 54.57\n- Price/Book: 7.42\n- Return on equity: 25.55%\n- Debt/Equity: 8.13\n- Revenue growth: 19.3%\n- Net margin: 11.22%\n\n### Data my engine could not get\n\n- Return on Equity unavailable\n\n## What I want from you\n\n1. **Why did it actually move?** My engine only sees exchange filings and price action. Check whether there is a real catalyst it missed - sector news, a peer's results, a policy change, an index inclusion, a block deal.\n2. **Is my engine's attribution wrong?** Say so directly if the evidence points elsewhere.\n3. **The one-year view.** Build a bull case and a bear case from the business, not from the chart. What has to be true for this to work, and what would break it? Be concrete about which numbers to watch.\n4. **What would you check that I have not?** Name the specific filings, segments or metrics.\n\nPlease flag anything above that looks stale or wrong, and tell me plainly if this looks like a speculative move rather than an investable one. I am not asking you to tell me whether to buy - I want the reasoning so I can decide."
+      "research_prompt": "I'm a long-term retail investor in Indian equities (NSE). My screener flagged R R Kabel Ltd. (RRKABEL) because it gained at least 3% on each of 1 consecutive sessions. I want your independent read - please push back on my screener rather than agreeing with it.\n\n## What my screener measured\n\n- Streak: 2026-09-04 to 2026-09-04, -6.2% cumulative\n- Daily gains: 2026-09-04 -6.25%\n- Last close: Rs 2,454.10\n- Sector: Capital Goods\n- Median 20-day turnover: Rs 92.1 crore\n- Volume vs 20-day median: 8.09x\n- Distance from 52-week high: -16.2%\n- Return 1M / 3M / 1Y: -11.2% / 13.0% / 104.5%\n\n## Attribution my engine computed\n\n- Verdict: unexplained - Company-specific, but nothing disclosed to explain it\n- Stock over the window: -6.2%\n- Sector median over the same window: -0.3%\n- Excess vs sector: -6.0 pp\n- Broad market median: -0.1%\n\n- No NSE corporate filings in the window.\n\n### Recent headlines (unverified, from Google News)\n\n- Is It Time To Consider Buying R R Kabel Limited (NSE:RRKABEL)? - simplywall.st\n- RRKABEL Share Price Today - RR Kabel on NSE/BSE - scanx.trade\n- R R Kabel Ltd. Share Price Today - R R Kabel Ltd. Stock Price Live NSE/BSE - CNBC TV18\n- Here's Why We Think R R Kabel (NSE:RRKABEL) Might Deserve Your Attention Today - simplywall.st\n- R R Kabel shares rally 10% to hit 52-week high as analysts flag strong growth outlook - Upstox\n- RR Kabel Ltd. (RRKABEL) Share Price Rises 4.36% in Today's Trading - Univest\n\n## Fundamentals\n\n- Market cap: Rs 27,757 crore\n- Trailing P/E: 45.734253\n- Forward P/E: 31.258698\n- Price/Book: 10.78204\n- Debt/Equity: 13.092\n- Revenue growth (yoy): 53.9%\n- Earnings growth (yoy): 128.5%\n- Operating margin: 8.0%\n- Net margin: 5.61%\n- Promoter holding: 69.99%\n- Institutional holding: 18.5%\n- Dividend yield: 0.42%\n- Analyst count: 14\n- Mean target price: 2867.0\n\n### Sector medians (Capital Goods, 62 Nifty 500 peers)\n\n- Trailing P/E: 54.57\n- Price/Book: 7.42\n- Return on equity: 25.55%\n- Debt/Equity: 8.13\n- Revenue growth: 19.3%\n- Net margin: 11.22%\n\n### Data my engine could not get\n\n- Return on Equity unavailable\n\n## What I want from you\n\n1. **Why did it actually move?** My engine only sees exchange filings and price action. Check whether there is a real catalyst it missed - sector news, a peer's results, a policy change, an index inclusion, a block deal.\n2. **Is my engine's attribution wrong?** Say so directly if the evidence points elsewhere.\n3. **The one-year view.** Build a bull case and a bear case from the business, not from the chart. What has to be true for this to work, and what would break it? Be concrete about which numbers to watch.\n4. **What would you check that I have not?** Name the specific filings, segments or metrics.\n\nPlease flag anything above that looks stale or wrong, and tell me plainly if this looks like a speculative move rather than an investable one. I am not asking you to tell me whether to buy - I want the reasoning so I can decide."
     },
     {
       "symbol": "POLYCAB",
@@ -1242,6 +1242,12 @@
             "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxOOUthUUhuaGFneFZQQlpOSnFra3VyV29QWVE4cFQzckRpSjVTRFRlOW8wYUZzMnF5N1JzR19tQ1FrREIzd0xVNC12MDRwalJXak53UWJieTJhei1nNUtGRjNuLUVRVlVrRjJMU1h6SUc4MTlUckFFMGI2c29PSjd3TE1ETWswOElmaUc2ekJpbjZwTWxpTTRpZ3BBekNBVEtHV25LeVdSZzRzVDRPRUFWcXFjTXpYMExVX2NuTjA3ZVZBMVppZjNfR041SzNiMXhFcmRpNnFlMHUwejVYQld4a2lESk5OeWdLdGhEeGpyajFDVkHSAfgBQVVfeXFMT3VHU3NmM1d4VnBlbjI0RlU5bWxMLTlnWU5VeDRnNl9vblRJRWktUmtxenFFWTMzeXVVZ1U3VnBUZE5DcFdrRXc5NUdlN2Zhekx2YWs2NmhBdkU1d1o0WlFKbnVESnZYeUI0T2k5ZkpSX2oyNzhCekxHellCY0JLQjItb0R6WTB1MUN0dV96WHlCdGl4N3FFalctbG5XXzNUYzNIeUx5WVJiZFNjUzZuSUpkdWdLVXNLaktLdTVfcmpSZjRqT3REeGU5SUpQMkxRanV6OXdrcFVtd25wWXdSTGNkeUl1Tk9COURqUWJoRzVVa0VQZVZmZ24?oc=5"
           },
           {
+            "title": "Polycab India Ltd (POLYCAB) Share Price - businesstoday.in",
+            "source": "businesstoday.in",
+            "published": "Wed, 02 Sep 2026 07:00:00 GMT",
+            "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPMjFyMzRfeHN4SWE0TFo2dldIMEtGeEFaYVE2Vk1NbXptd0F1bFRkb2pvVmVKV2o5cUVqem43QTJlcVpjUnVncVo4RC12eDFYcWRGNlJCV2hORkhrOHI0M3hOc0xGb20tRF9aaENjTXRUbnQtTVVmajF2Y2xYS3lGbDNnWVppQUU?oc=5"
+          },
+          {
             "title": "POLYCAB Forecast — Price Target — Prediction for 2027 - TradingView",
             "source": "TradingView",
             "published": "Thu, 25 Jun 2026 16:59:02 GMT",
@@ -1260,16 +1266,10 @@
             "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOZTdCZTVEakpjNUdkM2JqdlhfS0VPTEloQUN6QXBEWGlJSnRlMVU3ZGhObW9wUmYxYkZ3Qmg3QWhDc3RKNW5CSXBydmJ1cXMyYmVWRUo4MkpzcXdFLXdtUnhJbUp4cFRtMFR0cVlTeWNMdnJzTktYMlkwSVFNSmNncmFlYVVUanB4UjBNemdXUTV1SDBCOU1QdGUtQk9LYmd3MlRidkdnb3kteFRqM29Eak5uUFVLcUdmWWVqNHp4RzZYeFZyeHpuRTV3cTNzVlBwYmtjT3VIMXBUZlJHbjA0eWtn0gHnAUFVX3lxTFBRWGZhU0NHMmd3Mjc2M29mbG5Ib0NFTlFWZVR2bDczT1pydS1JZFdic1Z4MTVqSklqdjlwWTNPOThsZ0JnTFBHaHNuRmJPcUthV05XT19wRGZTZ1p5alNTU1lfZmZVYmdvc2VaQVZsZWQ5NkpPVXg5LWltZEU3d3U2RUNZaXJ2YnZXVmpsb1dpQmo4eUJqTTdIdmFRLWhDVV9ma0ZnLU9Pc3RRc2lBRG5oLWpNZDV4NVVtS1NiOFNtQmZESzdsOXB6TXBuUmlVRVFVQmpsTlhISHVUeG1vby1ZOXRuYmFxbw?oc=5"
           },
           {
-            "title": "Polycab India extends fall, down 5% in two days post Q1 results - Business Standard",
-            "source": "Business Standard",
-            "published": "Fri, 17 Jul 2026 07:00:00 GMT",
-            "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNY1JLSUF2RExrTjIyVFBERVlCWGx2SlkzSkxTM25KaWVEbEVXVXdrbVBVaGJ0SDY2U0lfTU4yMnl5UGNqMy1NNUNMYkRDaXFwVG9qbmJoeTc2YlZOTE45cEpvc19Qa1dvVGNaX2duVzhuNHV6QlpraWQ4X1Z4TTdPX0lYX09jNEdSQm1JTzRnbm1GRnYyaGdMbnBVNmw3azJWWkhIY2tfV0xqbUFSVVJWSmx5U19USGRTV0kteWhmSWRZdGtIY2lZ0gHMAUFVX3lxTE80YlhoOWRQcl9HYnZPaTlsTHZnRGJ3eXFsdXdpeEh3QTBNbWhyYzJlcUVXdF9XUUE3Q2dUaGU3R3BjSFVsSWdxdUljVVpyUDBUTmF2RDN3YnVGN2RBd3NzVjZyVlg3UVE4WnZCRk5ONk00ZTJBWDNfWWt0UlhrZTVHUUpYbmRFRGo0SEFrazA4TDlWWHBWOUl6LThxX1NKNDZrVEtNd2ZkUU1qV1F1Wkx2U0FRMk9hdERPblBYdE5hRFZUNGlQdUVHWkRVQw?oc=5"
-          },
-          {
-            "title": "Polycab Q1 Results Today: Dividend News, Earnings Call Schedule And More - NDTV Profit",
-            "source": "NDTV Profit",
-            "published": "Thu, 16 Jul 2026 07:00:00 GMT",
-            "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxORXpwWWhjblIyckl6RnhBSm5WOHBwN0xoMkttQ3l2TUtXdVdwaHNSdl9HRlhGRGgxaGdaT2hXYy01SHQ2RG5JaTRWbUpTRVpRMVJoS2kyd2NJVms3UlB3bjRGVXdEN0RldWN4WGdsR3N3QzVoVTNkV2dCNEFDNVNtQ1N2aHlwc2FGel9oOUJELWppbUpOSWZHTm5pTi1NOHRFNm4wa1RVVmduUUIxTW14MHRDS0FhdHppbUHSAcIBQVVfeXFMTjNnN1REaGRvSF9FalhwbmY3R0dQUUxaWDZXVHJvS1VlNzJjQVF6QndTUzZUb3pmQ09MWlN4dWVnQjJSblI1UU1VaUxKWmxKaWJGM1AySzJRcEV3R0ZXT2hjVEJianNRZGJsSTJJR1FvYXZNYnFrdVJRWThKZWpCWmNMSVBoYWoxbUQtdV82MHExdGJkMlprX2RMUldxMTF4UjNod0NzOElYTTMwTE5kSE9sZGJJVHl5eDBvdlE4R2dUa1E?oc=5"
+            "title": "Polycab India Ltd Share Price Hit 52-Week High - HDFC Sky",
+            "source": "HDFC Sky",
+            "published": "Wed, 25 Feb 2026 08:00:00 GMT",
+            "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5tNHhVU2hsWHh4OXFHLUZrZmZ5SXRtTWJLbkhjX1NLcGE0MG11bDhnR2xwMFBOZkxmWnp1S29xNGJDR0Z4ZldmanB5dHJFUXo3Q0J0V0ozdGtwNktwSkxlVHM1MDhwVkVMWFh6UUhXY3A3S0JOS2xzNjBR?oc=5"
           }
         ]
       },
@@ -1373,7 +1373,7 @@
         "bull_count": 3,
         "bear_count": 3
       },
-      "research_prompt": "I'm a long-term retail investor in Indian equities (NSE). My screener flagged Polycab India Ltd. (POLYCAB) because it gained at least 3% on each of 1 consecutive sessions. I want your independent read - please push back on my screener rather than agreeing with it.\n\n## What my screener measured\n\n- Streak: 2026-09-04 to 2026-09-04, -5.8% cumulative\n- Daily gains: 2026-09-04 -5.76%\n- Last close: Rs 8,300.00\n- Sector: Capital Goods\n- Median 20-day turnover: Rs 259.8 crore\n- Volume vs 20-day median: 5.92x\n- Distance from 52-week high: -17.7%\n- Return 1M / 3M / 1Y: -10.9% / -13.3% / 15.4%\n\n## Attribution my engine computed\n\n- Verdict: company_catalyst - Company-specific - investor communication disclosed to the exchange\n- Stock over the window: -5.8%\n- Sector median over the same window: -0.3%\n- Excess vs sector: -5.5 pp\n- Broad market median: -0.1%\n\n### NSE filings in the window\n\n- 2026-09-03 [catalyst] General Updates - Investor communication\n  Polycab India Limited has informed the Exchange about Analyst(s)/Investor(s) meet.\n- 2026-09-01 [catalyst] ESOP/ESOS/ESPS - Fundraising or allotment\n  Polycab India Limited has informed the Exchange regarding Allotment of 14970  Shares.\n- 2026-09-01 [catalyst] General Updates - Investor communication\n  Polycab India Limited has informed the Exchange about Analyst(s)/Investor(s) meet.\n\n### Recent headlines (unverified, from Google News)\n\n- Cable stocks crash up to 8% as UltraTech launches Ultravolt; Polycab, KEI, RR Kabel among top losers - Moneycontrol.com\n- POLYCAB Forecast — Price Target — Prediction for 2027 - TradingView\n- Earnings Beat: Polycab India Limited Just Beat Analyst Forecasts, And Analysts Have Been Updating Their Models - simplywall.st\n- Polycab India shares fall 4% despite strong Q1 earnings, profit jumps 33% YoY - The Economic Times\n- Polycab India extends fall, down 5% in two days post Q1 results - Business Standard\n- Polycab Q1 Results Today: Dividend News, Earnings Call Schedule And More - NDTV Profit\n\n## Fundamentals\n\n- Market cap: Rs 125,027 crore\n- Trailing P/E: 43.831856\n- Forward P/E: 32.62375\n- Price/Book: 10.331942\n- Return on equity: 25.55%\n- Debt/Equity: 1.738\n- Revenue growth (yoy): 39.0%\n- Earnings growth (yoy): 32.5%\n- Operating margin: 12.72%\n- Net margin: 9.18%\n- Promoter holding: 64.69%\n- Institutional holding: 16.32%\n- Dividend yield: 0.53%\n- Analyst count: 32\n- Mean target price: 10090.4375\n\n### Sector medians (Capital Goods, 62 Nifty 500 peers)\n\n- Trailing P/E: 54.57\n- Price/Book: 7.42\n- Return on equity: 29.25%\n- Debt/Equity: 9.4\n- Revenue growth: 19.3%\n- Net margin: 11.22%\n\n## What I want from you\n\n1. **Why did it actually move?** My engine only sees exchange filings and price action. Check whether there is a real catalyst it missed - sector news, a peer's results, a policy change, an index inclusion, a block deal.\n2. **Is my engine's attribution wrong?** Say so directly if the evidence points elsewhere.\n3. **The one-year view.** Build a bull case and a bear case from the business, not from the chart. What has to be true for this to work, and what would break it? Be concrete about which numbers to watch.\n4. **What would you check that I have not?** Name the specific filings, segments or metrics.\n\nPlease flag anything above that looks stale or wrong, and tell me plainly if this looks like a speculative move rather than an investable one. I am not asking you to tell me whether to buy - I want the reasoning so I can decide."
+      "research_prompt": "I'm a long-term retail investor in Indian equities (NSE). My screener flagged Polycab India Ltd. (POLYCAB) because it gained at least 3% on each of 1 consecutive sessions. I want your independent read - please push back on my screener rather than agreeing with it.\n\n## What my screener measured\n\n- Streak: 2026-09-04 to 2026-09-04, -5.8% cumulative\n- Daily gains: 2026-09-04 -5.76%\n- Last close: Rs 8,300.00\n- Sector: Capital Goods\n- Median 20-day turnover: Rs 259.8 crore\n- Volume vs 20-day median: 5.92x\n- Distance from 52-week high: -17.7%\n- Return 1M / 3M / 1Y: -10.9% / -13.3% / 15.4%\n\n## Attribution my engine computed\n\n- Verdict: company_catalyst - Company-specific - investor communication disclosed to the exchange\n- Stock over the window: -5.8%\n- Sector median over the same window: -0.3%\n- Excess vs sector: -5.5 pp\n- Broad market median: -0.1%\n\n### NSE filings in the window\n\n- 2026-09-03 [catalyst] General Updates - Investor communication\n  Polycab India Limited has informed the Exchange about Analyst(s)/Investor(s) meet.\n- 2026-09-01 [catalyst] ESOP/ESOS/ESPS - Fundraising or allotment\n  Polycab India Limited has informed the Exchange regarding Allotment of 14970  Shares.\n- 2026-09-01 [catalyst] General Updates - Investor communication\n  Polycab India Limited has informed the Exchange about Analyst(s)/Investor(s) meet.\n\n### Recent headlines (unverified, from Google News)\n\n- Cable stocks crash up to 8% as UltraTech launches Ultravolt; Polycab, KEI, RR Kabel among top losers - Moneycontrol.com\n- Polycab India Ltd (POLYCAB) Share Price - businesstoday.in\n- POLYCAB Forecast — Price Target — Prediction for 2027 - TradingView\n- Earnings Beat: Polycab India Limited Just Beat Analyst Forecasts, And Analysts Have Been Updating Their Models - simplywall.st\n- Polycab India shares fall 4% despite strong Q1 earnings, profit jumps 33% YoY - The Economic Times\n- Polycab India Ltd Share Price Hit 52-Week High - HDFC Sky\n\n## Fundamentals\n\n- Market cap: Rs 125,027 crore\n- Trailing P/E: 43.831856\n- Forward P/E: 32.62375\n- Price/Book: 10.331942\n- Return on equity: 25.55%\n- Debt/Equity: 1.738\n- Revenue growth (yoy): 39.0%\n- Earnings growth (yoy): 32.5%\n- Operating margin: 12.72%\n- Net margin: 9.18%\n- Promoter holding: 64.69%\n- Institutional holding: 16.32%\n- Dividend yield: 0.53%\n- Analyst count: 32\n- Mean target price: 10090.4375\n\n### Sector medians (Capital Goods, 62 Nifty 500 peers)\n\n- Trailing P/E: 54.57\n- Price/Book: 7.42\n- Return on equity: 29.25%\n- Debt/Equity: 9.4\n- Revenue growth: 19.3%\n- Net margin: 11.22%\n\n## What I want from you\n\n1. **Why did it actually move?** My engine only sees exchange filings and price action. Check whether there is a real catalyst it missed - sector news, a peer's results, a policy change, an index inclusion, a block deal.\n2. **Is my engine's attribution wrong?** Say so directly if the evidence points elsewhere.\n3. **The one-year view.** Build a bull case and a bear case from the business, not from the chart. What has to be true for this to work, and what would break it? Be concrete about which numbers to watch.\n4. **What would you check that I have not?** Name the specific filings, segments or metrics.\n\nPlease flag anything above that looks stale or wrong, and tell me plainly if this looks like a speculative move rather than an investable one. I am not asking you to tell me whether to buy - I want the reasoning so I can decide."
     }
   ],
   "stats": {
