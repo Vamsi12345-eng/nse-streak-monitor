@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-24T00:06:08+05:30",
-  "session": "2026-09-22",
+  "generated_at": "2026-09-24T20:02:42+05:30",
+  "session": "2026-09-24",
   "config": {
     "daily_gain_pct": 3.0,
     "streak_days": 3,
@@ -12,316 +12,354 @@
     "max_lag_days": 5
   },
   "market": {
-    "median_day_pct": -0.39,
-    "median_streak_pct": 0.79,
-    "breadth_pct": 38.6,
+    "median_day_pct": -1.4,
+    "median_streak_pct": -1.07,
+    "breadth_pct": 14.2,
     "names": 500
   },
   "sectors": [
     {
-      "industry": "Media Entertainment & Publication",
-      "median_day_pct": 1.36,
-      "median_streak_pct": 4.63,
-      "breadth_pct": 80.0,
-      "members": 5,
-      "reliable": true
-    },
-    {
-      "industry": "Realty",
-      "median_day_pct": 1.26,
-      "median_streak_pct": 2.74,
-      "breadth_pct": 90.9,
-      "members": 11,
-      "reliable": true
-    },
-    {
-      "industry": "Telecommunication",
-      "median_day_pct": 0.77,
-      "median_streak_pct": -0.3,
-      "breadth_pct": 60.0,
-      "members": 10,
-      "reliable": true
-    },
-    {
-      "industry": "Metals & Mining",
-      "median_day_pct": 0.33,
-      "median_streak_pct": 1.6,
-      "breadth_pct": 61.1,
-      "members": 18,
-      "reliable": true
-    },
-    {
-      "industry": "Consumer Services",
-      "median_day_pct": 0.23,
-      "median_streak_pct": 2.73,
-      "breadth_pct": 55.2,
-      "members": 29,
-      "reliable": true
-    },
-    {
-      "industry": "Textiles",
-      "median_day_pct": 0.13,
-      "median_streak_pct": 2.32,
-      "breadth_pct": 60.0,
-      "members": 5,
-      "reliable": true
-    },
-    {
-      "industry": "Power",
-      "median_day_pct": -0.04,
-      "median_streak_pct": 0.79,
-      "breadth_pct": 47.1,
-      "members": 17,
-      "reliable": true
-    },
-    {
-      "industry": "Chemicals",
-      "median_day_pct": -0.05,
-      "median_streak_pct": 1.15,
-      "breadth_pct": 42.3,
-      "members": 26,
-      "reliable": true
-    },
-    {
-      "industry": "Services",
-      "median_day_pct": -0.09,
-      "median_streak_pct": 2.58,
-      "breadth_pct": 50.0,
-      "members": 14,
-      "reliable": true
-    },
-    {
-      "industry": "Automobile and Auto Components",
-      "median_day_pct": -0.13,
-      "median_streak_pct": 0.13,
-      "breadth_pct": 36.8,
-      "members": 38,
-      "reliable": true
-    },
-    {
-      "industry": "Financial Services",
-      "median_day_pct": -0.44,
-      "median_streak_pct": 0.11,
-      "breadth_pct": 32.7,
-      "members": 101,
-      "reliable": true
-    },
-    {
       "industry": "Diversified",
-      "median_day_pct": -0.5,
-      "median_streak_pct": -0.48,
+      "median_day_pct": -0.45,
+      "median_streak_pct": -0.39,
       "breadth_pct": 0.0,
       "members": 3,
       "reliable": false
     },
     {
-      "industry": "Capital Goods",
-      "median_day_pct": -0.54,
-      "median_streak_pct": 1.49,
-      "breadth_pct": 31.7,
-      "members": 63,
-      "reliable": true
-    },
-    {
-      "industry": "Oil Gas & Consumable Fuels",
-      "median_day_pct": -0.56,
-      "median_streak_pct": 0.41,
-      "breadth_pct": 41.2,
-      "members": 17,
-      "reliable": true
-    },
-    {
-      "industry": "Fast Moving Consumer Goods",
-      "median_day_pct": -0.62,
-      "median_streak_pct": -0.03,
-      "breadth_pct": 32.1,
-      "members": 28,
-      "reliable": true
-    },
-    {
       "industry": "Healthcare",
-      "median_day_pct": -0.64,
-      "median_streak_pct": 0.78,
-      "breadth_pct": 25.0,
+      "median_day_pct": -0.53,
+      "median_streak_pct": -0.75,
+      "breadth_pct": 33.3,
       "members": 48,
       "reliable": true
     },
     {
-      "industry": "Construction",
+      "industry": "Textiles",
       "median_day_pct": -0.65,
-      "median_streak_pct": 0.06,
-      "breadth_pct": 46.2,
-      "members": 13,
+      "median_streak_pct": 1.71,
+      "breadth_pct": 40.0,
+      "members": 5,
+      "reliable": true
+    },
+    {
+      "industry": "Chemicals",
+      "median_day_pct": -0.79,
+      "median_streak_pct": -0.56,
+      "breadth_pct": 19.2,
+      "members": 26,
+      "reliable": true
+    },
+    {
+      "industry": "Realty",
+      "median_day_pct": -1.01,
+      "median_streak_pct": 1.13,
+      "breadth_pct": 18.2,
+      "members": 11,
+      "reliable": true
+    },
+    {
+      "industry": "Fast Moving Consumer Goods",
+      "median_day_pct": -1.03,
+      "median_streak_pct": -0.06,
+      "breadth_pct": 10.7,
+      "members": 28,
       "reliable": true
     },
     {
       "industry": "Information Technology",
-      "median_day_pct": -0.75,
-      "median_streak_pct": -0.92,
-      "breadth_pct": 29.6,
+      "median_day_pct": -1.04,
+      "median_streak_pct": -2.07,
+      "breadth_pct": 18.5,
       "members": 27,
       "reliable": true
     },
     {
+      "industry": "Oil Gas & Consumable Fuels",
+      "median_day_pct": -1.15,
+      "median_streak_pct": -0.31,
+      "breadth_pct": 29.4,
+      "members": 17,
+      "reliable": true
+    },
+    {
+      "industry": "Capital Goods",
+      "median_day_pct": -1.28,
+      "median_streak_pct": -1.34,
+      "breadth_pct": 12.7,
+      "members": 63,
+      "reliable": true
+    },
+    {
       "industry": "Construction Materials",
-      "median_day_pct": -0.99,
-      "median_streak_pct": 1.09,
-      "breadth_pct": 27.3,
+      "median_day_pct": -1.31,
+      "median_streak_pct": -0.89,
+      "breadth_pct": 9.1,
       "members": 11,
       "reliable": true
     },
     {
       "industry": "Consumer Durables",
-      "median_day_pct": -1.0,
-      "median_streak_pct": -0.71,
-      "breadth_pct": 31.2,
+      "median_day_pct": -1.32,
+      "median_streak_pct": -1.24,
+      "breadth_pct": 18.8,
       "members": 16,
+      "reliable": true
+    },
+    {
+      "industry": "Power",
+      "median_day_pct": -1.44,
+      "median_streak_pct": -1.41,
+      "breadth_pct": 17.6,
+      "members": 17,
+      "reliable": true
+    },
+    {
+      "industry": "Automobile and Auto Components",
+      "median_day_pct": -1.45,
+      "median_streak_pct": -1.24,
+      "breadth_pct": 10.5,
+      "members": 38,
+      "reliable": true
+    },
+    {
+      "industry": "Services",
+      "median_day_pct": -1.49,
+      "median_streak_pct": -1.2,
+      "breadth_pct": 14.3,
+      "members": 14,
+      "reliable": true
+    },
+    {
+      "industry": "Consumer Services",
+      "median_day_pct": -1.49,
+      "median_streak_pct": -1.16,
+      "breadth_pct": 10.3,
+      "members": 29,
+      "reliable": true
+    },
+    {
+      "industry": "Media Entertainment & Publication",
+      "median_day_pct": -1.69,
+      "median_streak_pct": 0.63,
+      "breadth_pct": 40.0,
+      "members": 5,
+      "reliable": true
+    },
+    {
+      "industry": "Construction",
+      "median_day_pct": -1.93,
+      "median_streak_pct": -1.22,
+      "breadth_pct": 0.0,
+      "members": 13,
+      "reliable": true
+    },
+    {
+      "industry": "Financial Services",
+      "median_day_pct": -2.0,
+      "median_streak_pct": -1.57,
+      "breadth_pct": 6.9,
+      "members": 101,
+      "reliable": true
+    },
+    {
+      "industry": "Telecommunication",
+      "median_day_pct": -2.0,
+      "median_streak_pct": -1.02,
+      "breadth_pct": 0.0,
+      "members": 10,
+      "reliable": true
+    },
+    {
+      "industry": "Metals & Mining",
+      "median_day_pct": -2.03,
+      "median_streak_pct": 0.16,
+      "breadth_pct": 0.0,
+      "members": 18,
       "reliable": true
     }
   ],
   "hits": [],
   "top_gainers": [
     {
-      "symbol": "GABRIEL",
-      "name": "Gabriel India Ltd.",
-      "industry": "Automobile and Auto Components",
-      "isin": "INE524A01029",
-      "last_close": 1471.4,
-      "cumulative_pct": 14.04,
-      "start_date": "2026-09-22",
-      "end_date": "2026-09-22",
+      "symbol": "ABDL",
+      "name": "Allied Blenders and Distillers Ltd.",
+      "industry": "Fast Moving Consumer Goods",
+      "isin": "INE552Z01027",
+      "last_close": 712.15,
+      "cumulative_pct": 8.49,
+      "start_date": "2026-09-24",
+      "end_date": "2026-09-24",
       "is_current": true,
-      "median_turnover_cr": 29.9,
-      "volume_ratio": 35.23,
-      "pct_from_52w_high": -7.1,
+      "median_turnover_cr": 22.5,
+      "volume_ratio": 21.21,
+      "pct_from_52w_high": 0.0,
       "returns": {
-        "m1": 8.3,
-        "m3": 20.0,
-        "y1": 14.5
+        "m1": 16.0,
+        "m3": 8.0,
+        "y1": 34.2
       },
       "days": [
         {
-          "date": "2026-09-22",
-          "close": 1471.4000244140625,
-          "gain_pct": 14.04,
-          "volume": 7891064
+          "date": "2026-09-24",
+          "close": 712.1500244140625,
+          "gain_pct": 8.49,
+          "volume": 6588934
         }
       ],
       "attribution": {
         "verdict": "company_catalyst",
         "headline": "Company-specific - investor communication disclosed to the exchange",
         "explanation": [
-          "The stock gained +14.0% over the session 2026-09-22.",
-          "Its sector (Automobile and Auto Components) moved -0.1% over the same window, with 37% of its 38 Nifty 500 members advancing on the last session.",
-          "The broad market (median of 500 Nifty 500 names) moved -0.4% over the window, with 39% advancing on the last session.",
-          "The stock outpaced its sector by 14.2 percentage points, so the move is company-specific rather than sector-wide.",
-          "NSE filing 2026-09-21 18:02 - Investor communication: Analysts/Institutional Investor Meet/Con. Call Updates.",
-          "Volume ran 35.2x its 20-day median, so real institutional-scale money participated rather than thin-book drift."
+          "The stock gained +8.5% over the session 2026-09-24.",
+          "Its sector (Fast Moving Consumer Goods) moved -1.0% over the same window, with 11% of its 28 Nifty 500 members advancing on the last session.",
+          "The broad market (median of 500 Nifty 500 names) moved -1.4% over the window, with 14% advancing on the last session.",
+          "The stock outpaced its sector by 9.5 percentage points, so the move is company-specific rather than sector-wide.",
+          "NSE filing 2026-09-22 17:52 - Investor communication: Analysts/Institutional Investor Meet/Con. Call Updates.",
+          "Volume ran 21.2x its 20-day median, so real institutional-scale money participated rather than thin-book drift."
         ],
-        "stock_streak_pct": 14.04,
-        "sector_streak_pct": -0.13,
-        "market_streak_pct": -0.39,
-        "excess_vs_sector_pct": 14.17,
-        "sector_breadth_pct": 37.0,
-        "volume_ratio": 35.23,
-        "cautions": [],
+        "stock_streak_pct": 8.49,
+        "sector_streak_pct": -1.03,
+        "market_streak_pct": -1.4,
+        "excess_vs_sector_pct": 9.52,
+        "sector_breadth_pct": 11.0,
+        "volume_ratio": 21.21,
+        "cautions": [
+          "Thin liquidity - median daily turnover is only Rs 22 crore"
+        ],
         "filings": [
           {
-            "date": "2026-09-21",
-            "time": "18:02",
+            "date": "2026-09-24",
+            "time": "17:44",
+            "category": "General Updates",
+            "summary": "Disclosure under Regulation 7(2)(b) of the Securities and Exchange Board of India (Prohibitionof Insider Trading) Regulations, 2015 as amended (\"SEBI Insider Trading Regulations\") -Continual Disclosure.",
+            "pdf_url": "https://nsearchives.nseindia.com/corporate/ABDINDIA_24092026174313_SE_Intimation_-_Reg_7_2__sd.pdf",
+            "bucket": "neutral",
+            "label": "Routine or administrative disclosure"
+          },
+          {
+            "date": "2026-09-24",
+            "time": "17:44",
+            "category": "General Updates",
+            "summary": "Disclosure under Regulation 29(2) of the SEBI SAST Regulations",
+            "pdf_url": "https://nsearchives.nseindia.com/corporate/ABDINDIA_24092026174408_Reg_29_2__SAST.pdf",
+            "bucket": "neutral",
+            "label": "Routine or administrative disclosure"
+          },
+          {
+            "date": "2026-09-22",
+            "time": "17:52",
             "category": "Analysts/Institutional Investor Meet/Con. Call Updates",
-            "summary": "Gabriel India Limited has informed the Exchange about Non Deal Road show to be held on September 24, 2026",
-            "pdf_url": "https://nsearchives.nseindia.com/corporate/GABRIEL_21092026180231_SE_Intimation_signed.pdf",
+            "summary": "Intimation of Schedule of Conference under Regulation 30(6) of the Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015 ( SEBI Listing Regulations )",
+            "pdf_url": "https://nsearchives.nseindia.com/corporate/ABDINDIA_22092026175238_SE_Intimation-_Nuvama_Conference_sd.pdf",
             "bucket": "catalyst",
             "label": "Investor communication"
+          },
+          {
+            "date": "2026-09-22",
+            "time": "15:11",
+            "category": "General Updates",
+            "summary": "Proposed Sale of Equity Shares by a Promoter in Open Market to achieve Minimum Public Shareholding",
+            "pdf_url": "https://nsearchives.nseindia.com/corporate/ABDINDIA_22092026151055_SE_Intimation_-_Proposed_Sale_-_BKC_-_MPS_sd.pdf",
+            "bucket": "neutral",
+            "label": "Routine or administrative disclosure"
+          },
+          {
+            "date": "2026-09-21",
+            "time": "19:10",
+            "category": "General Updates",
+            "summary": "ESG Rating by Niche Ninety Nine Capability and Certifications (OPC) Private Limited",
+            "pdf_url": "https://nsearchives.nseindia.com/corporate/ABDINDIA_21092026191012_SE_Intimation-_ESG_-_sd.pdf",
+            "bucket": "neutral",
+            "label": "Routine or administrative disclosure"
           }
         ],
         "headlines": [
           {
-            "title": "₹1,493 - That's What Analysts Think Gabriel India Limited (NSE:GABRIEL) Is Worth After These Results - simplywall.st",
+            "title": "ABDL Forecast — Price Target — Prediction for 2027 - TradingView",
+            "source": "TradingView",
+            "published": "Fri, 26 Jun 2026 02:46:43 GMT",
+            "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1lNEN3NFBEcHBkQXFxQzVWaERVb3N5Z0Z2a2JtaDM5b01BdVdrWExtZTJwUEpYYzczcEdxU3BvMXk3VlBVbkxqV1Vyd3VBU0ZJZVF4WTduMlFiSEdFTi1rcnhDMWwwNERlcm1QVmpEWnhEMGpaQXc?oc=5"
+          },
+          {
+            "title": "Will Weakness in Allied Blenders and Distillers Limited's (NSE:ABDL) Stock Prove Temporary Given Strong Fundamentals? - simplywall.st",
             "source": "simplywall.st",
-            "published": "Fri, 24 Jul 2026 07:00:00 GMT",
-            "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQVVVNY2lrbV9ULUZBSW90d1NNS21mdmo4TVhnZjZnVWdRQXRyTEs4LVNxME5KOWFQaWt2VllSMUN3SHZtckZGWF9GWm40aENlRVNmNjJjUDlrSVJlTnRNalBOLVdxeHhtdjZySHp3cTIxeHFHR0pjaVJycGY1dTJkd0M4ajlUekNPLVZVNHhTRjhrM3RBQ0hJcl9pT1hYazVHNUowX1ZKV3JhZW5yZFRUSnE2N1ZlcnVpZHdMUW10Nm80Y0pMYktNX0c4WmMtOVFQU1o5VGs2TS1Pd9IB3wFBVV95cUxPZnJiZFkwdnhCTEZrZU9fNTBuNWdWX0ppemZ0OEd4d2FDanJSWnprQV93TV9SY053VWdkejBITFNGVHlPXzBDbTRxS1dSRFBFcDhfbmhiUlRQbllmTkdQZnViT3dYa1NxeWxzbWdkVFhEelE0TFpvejBvYjREWDJVYm5TeHR2YTI0QWJOU051MjRtQ1UyOHEwNGxZVXBKWnRfMjdQTUMxbWQtNFlEdWNCbmxLa3ZPSXFKR3Z2Z1AwOVdSc2tYRmpidXBYX3lZMVRXTHFPQ0dxb1BFRDBBenVB?oc=5"
+            "published": "Tue, 20 Jan 2026 08:00:00 GMT",
+            "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxOeThOVVZISkYweFI4dy11SE42SlcyQTQ1cWtTWDJFMWJNQXFCQndhb2JYN3RzelhfNGx4cTNIaDk3WjNwYzZLNkswR0IxeGdTN0FTbXdMdmRwMmdoY29oaVh1MnJWb1FYZVBKVTRneWE4Zk11aUN2TVFqRTZiWXNWOW43M1Fuc0pja3M3anpHU2h3cTR5eDd1SUlxRlBJSTRmXzB3b1dQbnlJaDFiYWVycDU3ajEyaFdBbUpzaWxoZU9vTkxUV2dIQUlVWkxCX3o1TVdyWTBHQ2JGeDFFR2lPTUNNN2hNaEt0TUF3R2lMSjNicmcyUWs0TGFR0gH_AUFVX3lxTE5SNnpPRzd0X3JIWHNpczhkclNQUlpqcERzUXkxZXU3b3JTejlwS1RqbUJCMV93ekItMWpwa3p3MGtad3N6NnJ3cWZ0d2szalFSUVUyOW1PQlJ0cVdmemRQSU5kbzZmZ3NrdnAxY1JYbHlDR05MUlpuVmxxdEhRYjNLbWJrYXVERFl4enllTy0waEF2MGlrZnF0QUFzWlktWk05M2d4cFpPMkZwUEdIbkhnUWt5dUR3MndPUVpJUHVWSlBORlFMRGFMczF3em80TGVacWNVMU1URmdNeWZzR21laGwxbWx4QnEyRFdMS1dyTXgycERuSXJnRkJmdjF1Zw?oc=5"
           },
           {
-            "title": "Gabriel India Ltd. Share Price, Stock Price - NSE/BSE Live - ndtvprofit.com",
-            "source": "ndtvprofit.com",
-            "published": "Thu, 04 Jun 2026 09:03:59 GMT",
-            "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBYY2NKS3ZYOUZKTlRyNzhZSWNwMWhtbUpEbHhqQm84dmduMXFSLXBXQWdKazN2Y0ZhNEdKenFzNHF0SWdhWGxVSDJ1NXVyR3RiZWVKRmo4RmU0eWdvQ1ZxaW1zUnNMZmlEVEoxOGtJek5nZGpvdlJlcVRzVU8?oc=5"
+            "title": "Allied Blenders and Distillers shares surge over 5% after its whisky brand earns global recognition - upstox.com",
+            "source": "upstox.com",
+            "published": "Wed, 10 Jun 2026 07:00:00 GMT",
+            "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNdzQteDJVU1pWYlhqQXFtOEo1dVQ0dkZSWW5ISFZuZFNlb2ZyRFFfc3lnbHRHby1weGxRLWE4WG5WSHBtemNjNFNkb2hmY1E1UFgwX1FtLWVkeWlwNlQ0ajhIcEdNLXdnQTR6TWVwMDctMzhJSWtiZ1M0Y3hraFFVQWlPcjVNYmY0ZVZ5VFNKYXp1UlRpcEQ5SURBdUE0TGdCU0V3ZDlyNXhTVHU1MTlwNnFpaGxjTVlBbkJIOUlEaTczb3diOVFNbnRRTnlJMncwd01pbDMyYXpmTXdIYWg3cFB3UFE5bWE3UFFOcHR3?oc=5"
           },
           {
-            "title": "Gabriel India Ltd. Share Price Today - Gabriel India Ltd. Stock Price Live NSE/BSE - CNBC TV18",
-            "source": "CNBC TV18",
-            "published": "Sat, 03 Jan 2026 20:25:30 GMT",
-            "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9PcFR1WVU3MDUxYlo1SjFKaW5EUEc1akdZcklVVG1GdW1HWkFOZkhRR012NXNydnFpWkdzbDh0cVB4OUxlQWpaaUZFMmY0RDctREpqdEVRc1FxY0NpcENhUFZRUmRDalZQakctMF9WMC1DVjViaVFoOVBZSm1VRjg?oc=5"
+            "title": "Allied Blenders and Distillers Share Price: Buy or Sell - Univest",
+            "source": "Univest",
+            "published": "Mon, 07 Sep 2026 07:00:00 GMT",
+            "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQaS1zOWRZM19aaTVmR2RIWXVTR1BySG93SHQ5bVVBVGtHbjFDeWZDTC10WXh6THN2OEVhYXpuX0trTW1hamx6elgzejVfV0Mwdzkwa256SkRxcXJXLVpxSkNGUzYwOExYcnFjdlhJNjNVbkRId2JKQldzYkRpcmx1NV90Z0dSNnJCV3hLcQ?oc=5"
           },
           {
-            "title": "Stocks to Watch Today: Maruti Suzuki, Aurobindo Pharma, Gabriel India, Cyient DLM, Mastek, Indian Hotels,... - Moneycontrol.com",
-            "source": "Moneycontrol.com",
-            "published": "Wed, 22 Jul 2026 07:00:00 GMT",
-            "url": "https://news.google.com/rss/articles/CBMirwJBVV95cUxOZHY1YzRGbi1MYVJaVjZzWW5ab2RreHdnQ01iRm42dS0zQ1FJUDNVcjFDdEFsMXJkS2UxLWdaWHBua1A0VTV2eFF4X016c0RIODN0X2FNYzhuaXlrdnJ2LS1lTW5PVG5IalhtejV5LVpYVUVNZEtVbUZKUmk0ejB3Q1NGZm9Fck5DbHdDX290UzBXcFdrakhuem5mNHUwUnE2M1lEd1JCUThWblZJS2g4TXF3RDhEaDNyejlBZWdnbV9DQUZ2U3ZkX1U0OFd5ZllCX2F3a0tKaTJBRkpUMlE5ODAtQ0JzMXlQQkVub2pqQXp2WWNFWjYtS1NLeFF6WkpkNUowY2drNkx6WTVXQkVvZGtSNXQxNW1oTHIzQXBZdENOaW9xSzhSOWZfUVF3c1nSAbQCQVVfeXFMTWtFUGpGNV9ZZVYzQjQzVWhYQWtQV1Y4cVNmQ21OLUxqbm5JYjBrRFJKOEt0OG1uS0dZaC1kYXo5SjdvamJUU1lJb0RiRFNUX2xMS2RneG1JUVR0N3JvOW9xSmMwV3BKbWpuWVNISkpYUjNWRHh6OW5sQWVPMzBFWEx1RUQ0RENtemtNVEptVTgxeDRMRTZ6M3Y3UXZfYy1ZZHp0OGh0aDN6M2R1dU5rbHBRNVhmNl96OGJGSFlxZ21UYUpwb1YtT2M5Nk5fcVZnWDF6ZENUVWlXWGR3d09udlRkckZGQm12SmdHdjV3dm5lNm5uNDZjVlh0cHlkWVY1M0pQMlpBczZVTk94U0tKUGo2R3dTN3dXVzRqNjZmVU1oSjJMUkdwbXIzM1BycGJWMDh2Nmw?oc=5"
-          },
-          {
-            "title": "Here's Why We Think Gabriel India (NSE:GABRIEL) Might Deserve Your Attention Today - simplywall.st",
-            "source": "simplywall.st",
-            "published": "Mon, 25 May 2026 07:00:00 GMT",
-            "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPWldWY0pQbW1uMFNuSUg3TnRTcXJrTzdZd1RRVk9GYkwzYkJRbEFKUEtzVXQ3c1ZpR0cwTm5XaE5yNnNUVXZnUklpcTV2RWlONEVjOXdsTG9qbS1qM2tKazFFRVdDaFg1SHdBOU55U1FSYW1XeUlRZXAtZnJGcENlVldqNkEzT1c2T0lvQzhrZ2F3WW54Uk5SMWxqVHB5OHUzU0JnNTRfVUlXcE1Jb296SkJjT3hTTkQwcFpnallzSGJhclFKWFZKZlRLMGxUa1g5MjFVbDg0czJpRnJY0gHiAUFVX3lxTFBtRlVRbUhNbDVuRVpVT1J3aEppckJWTTFoYjRMSUJzb3R3VTFzQkNQNEJ3dGNLODlpdXd3b0ZmQzJwQkFwdkZFRTU3MDBQRzhZVWVUY2xvdk5va1lpOTVja0lNXzZ1eVpnTnlQQUxwN2ZoM0UwUjFRblNrT0ktRWk1dHVFcFZjdzhRVXBxblJwMmx4TmVuOHVNRkQ5b3NiWjFHUVJDS0Roa3ZUbkhDN1h4Z3c2VkU1Y09IRS15UWhsR2JocDlwbHc4R2RYcllkY1B6clFSNGVtWnlnam9nTjNBcUE?oc=5"
-          },
-          {
-            "title": "Gabriel India up 8% as exchanges issue 'no objection' to restructuring plan - Business Standard",
+            "title": "Liquor stocks: Radico, Globus, ABDL, Tilaknagar, USL, UBL rally up to 7% - Business Standard",
             "source": "Business Standard",
-            "published": "Wed, 19 Nov 2025 08:00:00 GMT",
-            "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOM2Z6S0tuNks2WHp5TGNfbGlRaW1jQnludXFwMFFZY0E2bkV1WGxUNXlrbHJLTzRrY1AxTkh2MVpudWdVNkdmdG84cFdTQ09lbHZLSmM5UE93VGZuZ3JjN2hMTTJDTHdhN3dKZHB6Q2Fkb2t3MnNwOGxfQ05Zd01oMVUxcXQ0cnk5OEhlODhUczc3dWVaNWxTekdJTXMya3ZPYW5ZZndYOGdvdlFKYS1RUGtjTEpnT2lGMm5KNTNveFlMMUdPdGZqQVhEeUxHSnBUWDVFTC1oTVNmdzl1VlFqOdIB5gFBVV95cUxQNVhDaUlhU3JkcVJEMzZsbFctTkpuWWtQTFRrY1FPNlBIVDI0Q00wbkh3SVFqX041ZWw1XzBCNE95N1BQWW9abmxVN0ZyTXVPeFhDLUFpVXRyVjJHQ1pJMUxiallLTXhSRy1LZzhvTllXeGtSbm1RR1BxbHJDZTJ0QkZPUGxQc0xYZ0hvUGJOZXZhOWh0bGRQQUFmdGtma0VlUWctTmtPR0RxdEI4aFEyOWdPTVU3cTFoZmE5dFoyeVFFSXZSSVJPdkJRRjYyXzhxR244NU1sblRYTmMtTmN2YThGaVc1dw?oc=5"
+            "published": "Fri, 17 Apr 2026 07:00:00 GMT",
+            "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOM2VXemcybzRHd3lTN0JlWFByVjJJWEhfaVdxcGVKbzg2Q1BOcGRiVDJyci11cGhaOU5fQUdyQ2NRb0JGLXc1M21IU01IcUl6WWExQ193d1hYdkpPT090MTE5UWFnSjZnMFFFbDJEYWNoSUs5LXpROElXV2FOdTZCX2ZmcHE3SGZCVHM5VFZqMUlSVzZOQVFmeERnNnlmUWdNandzUUxBM05rQVdtTFRmbm5KeV9vTVJjeFpVOWtOVEtMZEVNVDRLbW1yWk3SAdIBQVVfeXFMUE1GUGp2S2xReWVIWDNXbmxXVVVxV21YMFlmVmRnenhIWUNneHFhb1NVWms3X1JUWWR5OGhkVEpkM0xjVXRHd1F5Ump2QW93VEhncDVWZDY1Z0kyVVF0Qlk5bXhrRGpqejRrZkdwelU1WWQtN1NYN3EyOHd3QzMxMWlYVWtYUFRyNENONUdxX00yZ3F6UWd2ckJnb3BDR3BqcWk2b0ZaYndjT1VhWUpQWDVwRDRFcVk0dTNGWFByTzFtdU5kTnZ3MmRvNFVCdThQdUd3?oc=5"
+          },
+          {
+            "title": "ABDL Share Price Today - Allied Blenders & Distillers Stock Analysis - equitypandit.com",
+            "source": "equitypandit.com",
+            "published": "Wed, 26 Nov 2025 14:51:55 GMT",
+            "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFB3cE5oWjRxUlp1OTVxUHpSTTJQT2RlOW5wcTRrcXg1N1BrQnJjblVpNEN0NTBVX3AtU21jUXpnSWluYjNqRHI0TC12N3V2ZG0zWl93Rl9QbFY?oc=5"
           }
         ]
       },
       "fundamentals": {
-        "symbol": "GABRIEL",
-        "market_cap_cr": 27367.0,
-        "trailing_pe": 70.838295,
-        "forward_pe": 35.84813,
-        "price_to_book": 15.01051,
+        "symbol": "ABDL",
+        "market_cap_cr": 19920.0,
+        "trailing_pe": 90.14557,
+        "forward_pe": 45.601913,
+        "price_to_book": 11.980586,
         "roe_pct": null,
-        "debt_to_equity": 10.642,
-        "revenue_growth_pct": 29.8,
-        "earnings_growth_pct": 40.6,
-        "operating_margin_pct": 6.44,
-        "profit_margin_pct": 5.24,
-        "promoter_holding_pct": 59.5,
-        "institutional_holding_pct": 15.32,
-        "dividend_yield_pct": 0.34,
+        "debt_to_equity": 68.251,
+        "revenue_growth_pct": 6.1,
+        "earnings_growth_pct": -12.9,
+        "operating_margin_pct": 9.47,
+        "profit_margin_pct": 5.55,
+        "promoter_holding_pct": 80.93,
+        "institutional_holding_pct": 4.38,
+        "dividend_yield_pct": 0.82,
         "current_ratio": null,
-        "beta": 0.711,
-        "target_mean": 1569.125,
-        "target_low": 1315.0,
-        "target_high": 1721.0,
-        "analyst_count": 8,
-        "current_price": 1428.1,
-        "business_summary": "Gabriel India Limited manufactures and sells of ride control products to the automotive industry in India, the Netherlands, and internationally. The company offers canister shock absorbers, telescopic front forks, inverted front forks, mono shox, floating piston shock absorbers, semi-active front forks, and semi-active shock absorbers; rear shock absorbers, strut assemblies, FSD suspension, semi-active suspension systems, and gas springs; axle dampers, cabin dampers, and seat dampers. It also provides double-acting hydraulic shock absorbers for conventional coaches, shock absorbers for EMU/MEMU coaches, dampers for diesel and electric locomotives, dampers for rajdhani and shatabdi coaches, and dampers for vande bharat coaches. In addition, the company offers macpherson struts, gas springs, brake pads, drive shafts, suspension parts, suspension and strut bush kits, OC springs, coolants, brake fluids, front fork components, oil seals, front fork oil, wheel rims, alloy wheels, spokes, cone sets, and trailing arms. Further, it provides e-bikes, solar dampers, and hydraulic and electronic products. The company also exports its products. The company was incorporated in 1961 and is based in Pune, India. Gabriel India Limited operates as a subsidiary of Asia Investments Private Limited."
+        "beta": 0.805,
+        "target_mean": 731.8333,
+        "target_low": 650.0,
+        "target_high": 822.0,
+        "analyst_count": 12,
+        "current_price": 712.15,
+        "business_summary": "Allied Blenders and Distillers Limited produces and sells alcoholic beverages in India and internationally. The company offers whisky, brandy, rum, vodka, and gin under the Arthaus, Officer's Choice, Sterling Reserve Blend 7, ICONiQ Winter, X&O Barrel, Srishti, Officer's Choice Blue, Sterling Reserve, Officer's Choice Star, Kyron, Jolly Roger, Class 21, and Zoya brand names. It also provides packaged drinking water under the Officer's Choice Blue, Sterling Reserve, and ICONiQ White brand names. Allied Blenders and Distillers Limited was founded in 1988 and is headquartered in Mumbai, India."
       },
       "benchmark": {
-        "industry": "Automobile and Auto Components",
-        "peers": 37,
-        "trailing_pe": 36.38,
-        "price_to_book": 6.15,
-        "roe_pct": 16.93,
-        "debt_to_equity": 27.46,
-        "revenue_growth_pct": 20.1,
-        "profit_margin_pct": 6.98
+        "industry": "Fast Moving Consumer Goods",
+        "peers": 27,
+        "trailing_pe": 42.93,
+        "price_to_book": 7.08,
+        "roe_pct": 16.85,
+        "debt_to_equity": 12.39,
+        "revenue_growth_pct": 11.9,
+        "profit_margin_pct": 11.3
       },
       "scorecard": {
         "factors": [
           {
             "name": "Trailing P/E",
-            "value": "70.8",
-            "peer_value": "36.4",
+            "value": "90.1",
+            "peer_value": "42.9",
             "stance": "bear",
             "note": "More expensive than the typical peer, so more of the growth is already priced in."
           },
           {
             "name": "Price / Book",
-            "value": "15.0",
-            "peer_value": "6.2",
+            "value": "12.0",
+            "peer_value": "7.1",
             "stance": "bear",
             "note": "Trades at a premium to peer book value."
           },
@@ -334,37 +372,38 @@
           },
           {
             "name": "Debt / Equity",
-            "value": "10.6",
-            "peer_value": "27.5",
-            "stance": "bull",
-            "note": "Carries less leverage than peers, so less earnings risk if rates rise."
+            "value": "68.3",
+            "peer_value": "12.4",
+            "stance": "bear",
+            "note": "More leveraged than peers, which amplifies any downturn."
           },
           {
             "name": "Revenue growth (yoy)",
-            "value": "29.8%",
-            "peer_value": "20.1%",
-            "stance": "bull",
-            "note": "Growing the top line faster than the sector."
+            "value": "6.1%",
+            "peer_value": "11.9%",
+            "stance": "bear",
+            "note": "Growing more slowly than the sector."
           },
           {
             "name": "Net margin",
-            "value": "5.2%",
-            "peer_value": "7.0%",
+            "value": "5.5%",
+            "peer_value": "11.3%",
             "stance": "bear",
             "note": "Thinner margins than peers."
           }
         ],
         "bull_case": [
-          "Debt / Equity 10.6 vs sector 27.5. Carries less leverage than peers, so less earnings risk if rates rise.",
-          "Revenue growth (yoy) 29.8% vs sector 20.1%. Growing the top line faster than the sector.",
-          "Earnings grew 41% year on year, which is what has to keep happening for a re-rating to hold.",
-          "Promoters hold 60%, so their interests stay tied to the share price.",
-          "8 analysts publish a mean target of 1569, 10% above the current price."
+          "Promoters hold 81%, so their interests stay tied to the share price.",
+          "12 analysts publish a mean target of 732, 3% above the current price."
         ],
         "bear_case": [
-          "Trailing P/E 70.8 vs sector 36.4. More expensive than the typical peer, so more of the growth is already priced in.",
-          "Price / Book 15.0 vs sector 6.2. Trades at a premium to peer book value.",
-          "Net margin 5.2% vs sector 7.0%. Thinner margins than peers."
+          "Trailing P/E 90.1 vs sector 42.9. More expensive than the typical peer, so more of the growth is already priced in.",
+          "Price / Book 12.0 vs sector 7.1. Trades at a premium to peer book value.",
+          "Debt / Equity 68.3 vs sector 12.4. More leveraged than peers, which amplifies any downturn.",
+          "Revenue growth (yoy) 6.1% vs sector 11.9%. Growing more slowly than the sector.",
+          "Net margin 5.5% vs sector 11.3%. Thinner margins than peers.",
+          "Earnings fell 13% year on year, so the price move is running ahead of profits.",
+          "Sitting within 0% of its 52-week high, so you are buying after the move, not before it."
         ],
         "invalidators": [
           "Two consecutive quarters of revenue or margin decline would remove the growth premise this rests on.",
@@ -374,290 +413,252 @@
         "data_gaps": [
           "Return on Equity unavailable"
         ],
-        "bull_count": 2,
-        "bear_count": 3
+        "bull_count": 0,
+        "bear_count": 5
       },
-      "research_prompt": "I'm a long-term retail investor in Indian equities (NSE). My screener flagged Gabriel India Ltd. (GABRIEL) because it gained at least 3% on each of 1 consecutive sessions. I want your independent read - please push back on my screener rather than agreeing with it.\n\n## What my screener measured\n\n- Streak: 2026-09-22 to 2026-09-22, +14.0% cumulative\n- Daily gains: 2026-09-22 +14.04%\n- Last close: Rs 1,471.40\n- Sector: Automobile and Auto Components\n- Median 20-day turnover: Rs 29.9 crore\n- Volume vs 20-day median: 35.23x\n- Distance from 52-week high: -7.1%\n- Return 1M / 3M / 1Y: 8.3% / 20.0% / 14.5%\n\n## Attribution my engine computed\n\n- Verdict: company_catalyst - Company-specific - investor communication disclosed to the exchange\n- Stock over the window: +14.0%\n- Sector median over the same window: -0.1%\n- Excess vs sector: +14.2 pp\n- Broad market median: -0.4%\n\n### NSE filings in the window\n\n- 2026-09-21 [catalyst] Analysts/Institutional Investor Meet/Con. Call Updates - Investor communication\n  Gabriel India Limited has informed the Exchange about Non Deal Road show to be held on September 24, 2026\n\n### Recent headlines (unverified, from Google News)\n\n- ₹1,493 - That's What Analysts Think Gabriel India Limited (NSE:GABRIEL) Is Worth After These Results - simplywall.st\n- Gabriel India Ltd. Share Price, Stock Price - NSE/BSE Live - ndtvprofit.com\n- Gabriel India Ltd. Share Price Today - Gabriel India Ltd. Stock Price Live NSE/BSE - CNBC TV18\n- Stocks to Watch Today: Maruti Suzuki, Aurobindo Pharma, Gabriel India, Cyient DLM, Mastek, Indian Hotels,... - Moneycontrol.com\n- Here's Why We Think Gabriel India (NSE:GABRIEL) Might Deserve Your Attention Today - simplywall.st\n- Gabriel India up 8% as exchanges issue 'no objection' to restructuring plan - Business Standard\n\n## Fundamentals\n\n- Market cap: Rs 27,367 crore\n- Trailing P/E: 70.838295\n- Forward P/E: 35.84813\n- Price/Book: 15.01051\n- Debt/Equity: 10.642\n- Revenue growth (yoy): 29.8%\n- Earnings growth (yoy): 40.6%\n- Operating margin: 6.44%\n- Net margin: 5.24%\n- Promoter holding: 59.5%\n- Institutional holding: 15.32%\n- Dividend yield: 0.34%\n- Analyst count: 8\n- Mean target price: 1569.125\n\n### Sector medians (Automobile and Auto Components, 37 Nifty 500 peers)\n\n- Trailing P/E: 36.38\n- Price/Book: 6.15\n- Return on equity: 16.93%\n- Debt/Equity: 27.46\n- Revenue growth: 20.1%\n- Net margin: 6.98%\n\n### Data my engine could not get\n\n- Return on Equity unavailable\n\n## What I want from you\n\n1. **Why did it actually move?** My engine only sees exchange filings and price action. Check whether there is a real catalyst it missed - sector news, a peer's results, a policy change, an index inclusion, a block deal.\n2. **Is my engine's attribution wrong?** Say so directly if the evidence points elsewhere.\n3. **The one-year view.** Build a bull case and a bear case from the business, not from the chart. What has to be true for this to work, and what would break it? Be concrete about which numbers to watch.\n4. **What would you check that I have not?** Name the specific filings, segments or metrics.\n\nPlease flag anything above that looks stale or wrong, and tell me plainly if this looks like a speculative move rather than an investable one. I am not asking you to tell me whether to buy - I want the reasoning so I can decide."
+      "research_prompt": "I'm a long-term retail investor in Indian equities (NSE). My screener flagged Allied Blenders and Distillers Ltd. (ABDL) because it gained at least 3% on each of 1 consecutive sessions. I want your independent read - please push back on my screener rather than agreeing with it.\n\n## What my screener measured\n\n- Streak: 2026-09-24 to 2026-09-24, +8.5% cumulative\n- Daily gains: 2026-09-24 +8.49%\n- Last close: Rs 712.15\n- Sector: Fast Moving Consumer Goods\n- Median 20-day turnover: Rs 22.5 crore\n- Volume vs 20-day median: 21.21x\n- Distance from 52-week high: 0.0%\n- Return 1M / 3M / 1Y: 16.0% / 8.0% / 34.2%\n\n## Attribution my engine computed\n\n- Verdict: company_catalyst - Company-specific - investor communication disclosed to the exchange\n- Stock over the window: +8.5%\n- Sector median over the same window: -1.0%\n- Excess vs sector: +9.5 pp\n- Broad market median: -1.4%\n\n### NSE filings in the window\n\n- 2026-09-24 [neutral] General Updates - Routine or administrative disclosure\n  Disclosure under Regulation 7(2)(b) of the Securities and Exchange Board of India (Prohibitionof Insider Trading) Regulations, 2015 as amended (\"SEBI Insider Trading Regulations\") \n- 2026-09-24 [neutral] General Updates - Routine or administrative disclosure\n  Disclosure under Regulation 29(2) of the SEBI SAST Regulations\n- 2026-09-22 [catalyst] Analysts/Institutional Investor Meet/Con. Call Updates - Investor communication\n  Intimation of Schedule of Conference under Regulation 30(6) of the Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015 ( SEBI\n- 2026-09-22 [neutral] General Updates - Routine or administrative disclosure\n  Proposed Sale of Equity Shares by a Promoter in Open Market to achieve Minimum Public Shareholding\n- 2026-09-21 [neutral] General Updates - Routine or administrative disclosure\n  ESG Rating by Niche Ninety Nine Capability and Certifications (OPC) Private Limited\n\n### Caution flags my engine raised\n\n- Thin liquidity - median daily turnover is only Rs 22 crore\n\n### Recent headlines (unverified, from Google News)\n\n- ABDL Forecast — Price Target — Prediction for 2027 - TradingView\n- Will Weakness in Allied Blenders and Distillers Limited's (NSE:ABDL) Stock Prove Temporary Given Strong Fundamentals? - simplywall.st\n- Allied Blenders and Distillers shares surge over 5% after its whisky brand earns global recognition - upstox.com\n- Allied Blenders and Distillers Share Price: Buy or Sell - Univest\n- Liquor stocks: Radico, Globus, ABDL, Tilaknagar, USL, UBL rally up to 7% - Business Standard\n- ABDL Share Price Today - Allied Blenders & Distillers Stock Analysis - equitypandit.com\n\n## Fundamentals\n\n- Market cap: Rs 19,920 crore\n- Trailing P/E: 90.14557\n- Forward P/E: 45.601913\n- Price/Book: 11.980586\n- Debt/Equity: 68.251\n- Revenue growth (yoy): 6.1%\n- Earnings growth (yoy): -12.9%\n- Operating margin: 9.47%\n- Net margin: 5.55%\n- Promoter holding: 80.93%\n- Institutional holding: 4.38%\n- Dividend yield: 0.82%\n- Analyst count: 12\n- Mean target price: 731.8333\n\n### Sector medians (Fast Moving Consumer Goods, 27 Nifty 500 peers)\n\n- Trailing P/E: 42.93\n- Price/Book: 7.08\n- Return on equity: 16.85%\n- Debt/Equity: 12.39\n- Revenue growth: 11.9%\n- Net margin: 11.3%\n\n### Data my engine could not get\n\n- Return on Equity unavailable\n\n## What I want from you\n\n1. **Why did it actually move?** My engine only sees exchange filings and price action. Check whether there is a real catalyst it missed - sector news, a peer's results, a policy change, an index inclusion, a block deal.\n2. **Is my engine's attribution wrong?** Say so directly if the evidence points elsewhere.\n3. **The one-year view.** Build a bull case and a bear case from the business, not from the chart. What has to be true for this to work, and what would break it? Be concrete about which numbers to watch.\n4. **What would you check that I have not?** Name the specific filings, segments or metrics.\n\nPlease flag anything above that looks stale or wrong, and tell me plainly if this looks like a speculative move rather than an investable one. I am not asking you to tell me whether to buy - I want the reasoning so I can decide."
     },
     {
-      "symbol": "MEESHO",
-      "name": "Meesho Ltd.",
-      "industry": "Consumer Services",
-      "isin": "INE0VDM01015",
-      "last_close": 240.19,
-      "cumulative_pct": 9.6,
-      "start_date": "2026-09-22",
-      "end_date": "2026-09-22",
+      "symbol": "ICICIGI",
+      "name": "ICICI Lombard General Insurance Company Ltd.",
+      "industry": "Financial Services",
+      "isin": "INE765G01017",
+      "last_close": 1577.0,
+      "cumulative_pct": 5.09,
+      "start_date": "2026-09-24",
+      "end_date": "2026-09-24",
       "is_current": true,
-      "median_turnover_cr": 348.7,
-      "volume_ratio": 6.65,
-      "pct_from_52w_high": 0.0,
+      "median_turnover_cr": 104.3,
+      "volume_ratio": 3.92,
+      "pct_from_52w_high": -22.5,
       "returns": {
-        "m1": 17.1,
-        "m3": 28.8,
-        "y1": null
+        "m1": -1.2,
+        "m3": -10.8,
+        "y1": -15.6
       },
       "days": [
         {
-          "date": "2026-09-22",
-          "close": 240.19000244140625,
-          "gain_pct": 9.6,
-          "volume": 108359244
+          "date": "2026-09-24",
+          "close": 1577.0,
+          "gain_pct": 5.09,
+          "volume": 2743524
         }
       ],
       "attribution": {
         "verdict": "company_catalyst",
-        "headline": "Company-specific - investor communication disclosed to the exchange",
+        "headline": "Company-specific - fundraising or allotment disclosed to the exchange",
         "explanation": [
-          "The stock gained +9.6% over the session 2026-09-22.",
-          "Its sector (Consumer Services) moved +0.2% over the same window, with 55% of its 29 Nifty 500 members advancing on the last session.",
-          "The broad market (median of 500 Nifty 500 names) moved -0.4% over the window, with 39% advancing on the last session.",
-          "The stock outpaced its sector by 9.4 percentage points, so the move is company-specific rather than sector-wide.",
-          "NSE filing 2026-09-23 16:37 - Investor communication: Analysts/Institutional Investor Meet/Con. Call Updates.",
-          "NSE filing 2026-09-21 22:56 - Fundraising or allotment: ESOP/ESOS/ESPS.",
-          "NSE filing 2026-09-18 22:42 - Investor communication: Analysts/Institutional Investor Meet/Con. Call Updates.",
-          "Volume ran 6.7x its 20-day median, so real institutional-scale money participated rather than thin-book drift."
+          "The stock gained +5.1% over the session 2026-09-24.",
+          "Its sector (Financial Services) moved -2.0% over the same window, with 7% of its 101 Nifty 500 members advancing on the last session.",
+          "The broad market (median of 500 Nifty 500 names) moved -1.4% over the window, with 14% advancing on the last session.",
+          "The stock outpaced its sector by 7.1 percentage points, so the move is company-specific rather than sector-wide.",
+          "NSE filing 2026-09-22 20:31 - Fundraising or allotment: ESOP/ESOS/ESPS.",
+          "Volume ran 3.9x its 20-day median, so real institutional-scale money participated rather than thin-book drift."
         ],
-        "stock_streak_pct": 9.6,
-        "sector_streak_pct": 0.23,
-        "market_streak_pct": -0.39,
-        "excess_vs_sector_pct": 9.37,
-        "sector_breadth_pct": 55.0,
-        "volume_ratio": 6.65,
+        "stock_streak_pct": 5.09,
+        "sector_streak_pct": -2.0,
+        "market_streak_pct": -1.4,
+        "excess_vs_sector_pct": 7.09,
+        "sector_breadth_pct": 7.0,
+        "volume_ratio": 3.92,
         "cautions": [],
         "filings": [
           {
-            "date": "2026-09-23",
-            "time": "16:37",
-            "category": "Analysts/Institutional Investor Meet/Con. Call Updates",
-            "summary": "Meesho Limited has informed the Exchange about Schedule of meet",
-            "pdf_url": "https://nsearchives.nseindia.com/corporate/MEESHO_23092026163737_MLinvestormeet.pdf",
-            "bucket": "catalyst",
-            "label": "Investor communication"
-          },
-          {
-            "date": "2026-09-21",
-            "time": "22:56",
+            "date": "2026-09-22",
+            "time": "20:31",
             "category": "ESOP/ESOS/ESPS",
-            "summary": "Meesho Limited has informed the Exchange regarding Allotment of 1071542  Shares.",
-            "pdf_url": "https://nsearchives.nseindia.com/corporate/MEESHO_21092026225556_MLIntimationAllotmentofESOPs21Sep2026.pdf",
+            "summary": "ICICI Lombard General Insurance Company Limited has informed the Exchange regarding Allotment of 6521  Shares.",
+            "pdf_url": "https://nsearchives.nseindia.com/corporate/ICICIGI_22092026202928_ESOSIntimationSeptIII.pdf",
             "bucket": "catalyst",
             "label": "Fundraising or allotment"
-          },
-          {
-            "date": "2026-09-18",
-            "time": "22:42",
-            "category": "Analysts/Institutional Investor Meet/Con. Call Updates",
-            "summary": "Meesho Limited has informed the Exchange about Schedule of meet",
-            "pdf_url": "https://nsearchives.nseindia.com/corporate/MEESHO_18092026224207_MLinvestormeet.pdf",
-            "bucket": "catalyst",
-            "label": "Investor communication"
-          },
-          {
-            "date": "2026-09-18",
-            "time": "22:40",
-            "category": "Shareholders meeting",
-            "summary": "Meesho Limited has submitted the Exchange a copy Srutinizers report of  Annual General Meeting held on September 18, 2026. Further, the company has informed the Exchange regarding voting results.",
-            "pdf_url": "https://nsearchives.nseindia.com/corporate/MEESHO_18092026223207_ML_Voting_Results_of_AGM.pdf",
-            "bucket": "neutral",
-            "label": "Routine or administrative disclosure"
-          },
-          {
-            "date": "2026-09-18",
-            "time": "16:21",
-            "category": "Shareholders meeting",
-            "summary": "Meesho Limited has informed the Exchange regarding Proceedings of Annual General Meeting held on September 18, 2026",
-            "pdf_url": "https://nsearchives.nseindia.com/corporate/MEESHO_18092026162142_ML_AGM_proceedingsFinal.pdf",
-            "bucket": "neutral",
-            "label": "Routine or administrative disclosure"
           }
         ],
         "headlines": [
           {
-            "title": "Meesho Nears All-Time High After UBS Hikes Target Price, Says Margins Improving Faster Than Expected - ndtvprofit.com",
-            "source": "ndtvprofit.com",
-            "published": "Tue, 22 Sep 2026 05:55:38 GMT",
-            "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPaXNFb1ZReERnQ05uTVpURE93a2laRnJqZ2E5aVJhVElyTV9BQkNHVDJqQmJIZUpRaEsweHc2Y2x1Y2JlbGpxOXpWZDdFTjVCNGhVSUw0SXZtT0RMMkpVSnhtZUQwUWxLS2tUTzJ6S1FBWm41RUFpQ3piOTJJenc2ZTk1VmtvRVdVU1VoUWVlSUo1ZC1OSWI1NjFQYjAwT0JFZF94dmFsTlg0OTZVOURUZ0pjNUw1NVRTaTAyMkV3Y3VZYTA5RDktNWoyVUo5OTMzZDhEN9IB3AFBVV95cUxNY2FfLUdCbHdZdkIyZFhPVXV5YjRlMmhqSGdhUTBfcXlsSUgxSVZJZ2dpV3U1VF9sREkxZ1RaU25fM2lZSS01bndpU3p4LTJrRlRpNDJBNHZnMFdxamdHZG9JS0U2ZGp0SkNmWk5LUjFxVzdNbGxScHJtNTJoQ1ptMU1WbkNBc2kycUR1SW02Si1WUUxXWXpUa2o4Y3FPSEp3ellTMDU0WFZiVDY3N1RheVMtZHR3VzRGeGlSZXowTzkzUDFYR3lMWUhKc0VhTGJmZ19KNFF2ZkdKR1A5?oc=5"
-          },
-          {
-            "title": "MEESHO Forecast — Price Target — Prediction for 2027 - TradingView",
+            "title": "ICICIGI Forecast — Price Target — Prediction for 2027 - TradingView",
             "source": "TradingView",
-            "published": "Thu, 25 Jun 2026 19:05:06 GMT",
-            "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE10emlDbG8xUjh1eTlSQllsT2s5eUd1NVlhdldmRnk1andRSFpYYjJ5LTZScUN3aEVTbzZaM3BSOFZmYWZQWFRyZXN0QVJaazRIUU5DWFJNT3N6RW5nbWpPeFdvM3dBVDdFNkoxLXpqXy11dXVoc3V5cw?oc=5"
+            "published": "Thu, 25 Jun 2026 12:08:40 GMT",
+            "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE0xUkVxaGlCTS10ZjktMk5xeDhoQ1phSENHTVF4cEdYZmszdVZsYVprRVZSd0VxQml1ODY4UGpDRG4tM1pOeEpzMmFnZDNUQ2ZPeDFkeVlnVmVlZ2ltenFBVVRiVkJlT1V5cF9VNkhUbWVuV1pRWHJ5MTJn?oc=5"
           },
           {
-            "title": "MEESHO LIMITED Share Price - Upstox",
-            "source": "Upstox",
-            "published": "Tue, 05 May 2026 11:36:51 GMT",
-            "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1naE1vQjdiUWJSS2xLZ2x6ZE41ZGd2T2UtTWFjTWFzZU5kQ2lBQ3gxOThkeUpJVXFOdWdHeTJnQ1JTUllPN2Qza1BnQ2xZXzhNVDhJUFd4RVh0Qm02UFJsMWtVWQ?oc=5"
+            "title": "Does ICICI Lombard General Insurance (NSE:ICICIGI) Deserve A Spot On Your Watchlist? - simplywall.st",
+            "source": "simplywall.st",
+            "published": "Fri, 22 May 2026 07:00:00 GMT",
+            "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPUENTNTlVSUp4Y2VodnVLUjZRbTRMTWpuemhyZjdLdDNHOHNhVkdyYTBZcEx1N0lsOTZkcW5sRUcwcGFfTHF0cTJWYldBOGU1QXpjSVJTcXdtRXpZbTZ1WEV6QWpHZno0NEE1eXlRTVRRYlBjRTc5c08tN1M5cTdwX0ItazFHRm1nQVduYk55QlJRMVV4Zkk0ZjdBR3pzTDFVSmY5TUZobTc0Mkc3dXZBTTFGdnJJa2xKSnFBc0NWZTZjb0xOM0ZtVE9FUTAzVEVtaVJWNFBRSHRpWUo1UXR0MnZBNXlKWG94OF8xY3NkS0hWQdIB9wFBVV95cUxQWFhRRVpFMkxwVnhlVnV6YWlnaExMZTVOTGhKY1pIT1hLVzFoWWVvbFlNRHNrTmZNYzNqTS1YdXJwaXZhc0V5Wm8zUlBrRllndGZaNEFfejF5QnFEQnJJSF9pTzRpSzJJRnZnZ2pVMk1zMWRIbjgzU21DZHNmQ1hSSERuV281WTdYb0ZPd25UX29ORDF5eWczVU1jRVh4aExCaEhYMzRJSEVkMTlVb2FSUmxMejRYOE5pVVNlYW9kMmdFZGhSWXpTdUNZUm40SHg5QUFyellxdFJ6R2VBbTljSWhDNTJHaVVhZHd0VUcxV1gwbkZEaVhB?oc=5"
           },
           {
-            "title": "Tech analyst flags Meesho, PolicyBazaar among 3 breakout stocks in midcaps - Business Standard",
-            "source": "Business Standard",
-            "published": "Fri, 28 Aug 2026 07:00:00 GMT",
-            "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPVzF4Z1daNUVuM2FzS3hOXzFuMjA4dFNQTVFFV0RLQWFiaTFUSDlmZ21yWk1TejZKalFxbjRld2lTS0F1S2FDeEZEdWxWOFJ2Xy0xdUNoTjI5RmNmZFFHcVB0SjlWR1V0M3hSZk9WSGtqM21wUUNoZ0tPUXJRemJWRXhLZHlBTF9WOXFPc1JsU0QyY3lYeG1rUVE0ZGQzZHB5MHRQZmdBeTdPaWl1ZGpkeUVTdVNDbU9MaWN3OTg3RWlMVFI0Ty1VVTBoQl9vSVNtWktZeXI5TXN6MWNpNWwtMTlR0gHnAUFVX3lxTE40NDQxQ29vb1hHdWJzWkZxU0tPMG50aTZ1UHIyTThCWVFJOVoyVG9JUi1Eckg4Y0o2NVZ5Tld6VXQ1UHBWZ1VnYkFzYlVHX1QzQW9PQm85UV9JcVYxdWlrZjdIZzUxQ3lTaU1nUGJmQjZwdWhoU0FCOXY5M0lQdlVtSGh0SGNDNWVOdzJ6X3JyWjdydUlFaEFfMzctUEJkZXBXNmtIME9DTGwwemFCUmU5akJMS2lmU3A1NzRNendtS0tVSmh3Q3RNSFBVR1Q0TVdjT0k1MHBqYnFESzR5S19Vd2ZlNF9lRQ?oc=5"
+            "title": "Market News: Share Market Today, NIFTY, BSE/NSE LIVE, Sensex Today, Latest Share Market News Live Updates - Livemint",
+            "source": "Livemint",
+            "published": "Tue, 22 Sep 2026 07:00:00 GMT",
+            "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFA2eURra0RNN0hZR0ZxYmMxV00ycGZkVS14M1JaTGFnc2lGeVdLS3NUaDQ0Q0pKSkpLbDcwMUhQN1lwcHJNbmc?oc=5"
           },
           {
-            "title": "Meesho IPO Allotment Status: Check Status on NSE, BSE & KFin - Groww",
-            "source": "Groww",
-            "published": "Tue, 09 Dec 2025 08:00:00 GMT",
-            "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5IdVBORVFFRi15bTlnU2tMcVUxUEFMYkwtWXRkbnhKeGhlZ1dIRkZYeXBNYlB4Y01KMmhuakZlczdLWDN0b0pQUEd2cUFmUVhsQ25PeEsxWjFfTktGNVE?oc=5"
+            "title": "ICICI Lombard shares tumble 15% as higher claims, expenses weigh on Q1 earnings - upstox.com",
+            "source": "upstox.com",
+            "published": "Thu, 16 Jul 2026 07:00:00 GMT",
+            "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOWGxUakF1T0g3Mk1kVmZFcTU0MEtwRWxGNjB4OXlBWm9XYzZyWHR4YUJTbGZIb1RoU3BXX0VOcTRsdXIzSDRlbkxsZEJfSHZUaHluU0pIWU5Namh0UTZCVzM4UVpMNlNEWEY2c0VROHpkQkxxUzAwc2djRGFNWERsYUpNUm9NVHhDcXg1a05TRDZrb291WXBSSWNYa0F6WWJoSDZqWjlNczc3YkYwelBhaHJ1SE1QUEs2UWJONmZUQkZOWWh1Z1ZqXy1WZjROaDhRekE?oc=5"
           },
           {
-            "title": "Meesho stock jumps over 8% today as Citi initiates coverage with Buy rating, sees value-commerce... - Moneycontrol.com",
-            "source": "Moneycontrol.com",
-            "published": "Tue, 23 Jun 2026 07:00:00 GMT",
-            "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQX21sbFljN1ZGc1pycEZoRDFhRi1YZDVwSThBZmdqeTkzUVRzT2lvREFydlR1R0F3SXBfV3lwYTRvWG4tdWRqNWJBTldZUW93LWxjV01zUnZmMHV3OG13SzI0MG5adGRQVC0tUkNLM3dXRk53aXVtLWVxOUFDMVRnQ3pZQ0F1U0dobExmZTdoM2RfeG5BZFJCWkszMkZvcjhmNVZPNzhiVGp4VTRmVnQ0VjdXOFZFbDU0T3JwUlZjSmFvTFdUOVJCYTl4ZDhFUmRFQ21kcEt5OVlYXzY2cVBmNEdtRmxjTW45LXhqNjV3NEpMbHBn0gH6AUFVX3lxTFBXbmFYWno2S3N5ckJBcWdRMExRWU5Oc2lma2xuOUlYYXFFRE03bGVsUTJlcWFuYktLMzRyeFQzVHZQTW9MOGVKSERVMHlTcGhrM1l4eEk2eGxfaUJQSUhnSVFMY3VIcldLR1VIdUVMcTNzOUtRNGpTVjQyd3E0WjlQa0c2eVBxb0FFczdxMkVOSVIwMVJDZWZJYTVQa3pmRUhTVm1kVFg2dFRBX0hkSjU4c1NrbFloeG44UGtUcFVTYjFweVNNa2QzTGtpNFJrS3dCQnhjbW50UlBQbXlrYkd0QWdIV1dfUVk4QUhYeDVLVVo3UE91bF9ZdXc?oc=5"
+            "title": "ICICI Lombard Q2 FY27: Date and Expectations - Univest",
+            "source": "Univest",
+            "published": "Thu, 10 Sep 2026 07:00:00 GMT",
+            "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQRUkyZGJYVHhhQVB0WG91RVRLbmhOM3JNZTI3LUJUZFRrM1RXNWxkTmRwdllzUmc4T29wMmY1ZXNsZ25nU1A2N09kblUxRlNhX05PZTZVQWZXUG9ZWjMzSnBVMUJubWFJUU9oWm44UXd6cGRFRklKR0lQWjhkZldEYjRFTFdpN00?oc=5"
+          },
+          {
+            "title": "ICICI Lombard General Insurance Company Ltd. Share Price Live Today - CNBC TV18",
+            "source": "CNBC TV18",
+            "published": "Sat, 03 Jan 2026 15:40:23 GMT",
+            "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNQWJqUVVseUJ6RFYxZ0pYM3FhQWxNNVFXV0ZVcUprbVZJUUZXdTYtN1lrbFNzOWRodDY4S2sydk1oMktWMDBFbDlqN05YSlZtaUdqeW96SzlRTndtVktNTmJpYXdRRGUtMkNmSVFXcXYzVTJpdDhiOHp1bC1sa2lzYkt1bUo5bFB1akZQN2dGS3dENkZBMVlZS2czRzFGVkd2?oc=5"
           }
         ]
       },
       "fundamentals": {
-        "symbol": "MEESHO",
-        "market_cap_cr": 109375.0,
-        "trailing_pe": null,
-        "forward_pe": 165.0444,
-        "price_to_book": 24.899399,
-        "roe_pct": null,
-        "debt_to_equity": 1.428,
-        "revenue_growth_pct": 48.3,
-        "earnings_growth_pct": null,
-        "operating_margin_pct": -6.58,
-        "profit_margin_pct": -8.68,
-        "promoter_holding_pct": 40.3,
-        "institutional_holding_pct": 42.47,
-        "dividend_yield_pct": null,
-        "current_ratio": null,
-        "beta": null,
-        "target_mean": 211.5294,
-        "target_low": 125.0,
-        "target_high": 265.0,
-        "analyst_count": 17,
-        "current_price": 236.37,
-        "business_summary": "Meesho Limited operates an e-commerce marketplace in India. It operates in two segments, Marketplace and New Initiatives. The company operates Meesho, an online platform that connects consumers, sellers, logistics partners, and content creators; displays ads; and provides logistics services comprising order management, order pickup, transportation, and delivery. It also provides digital financial and AI agentic services. The company was incorporated in 2015 and is based in Bengaluru, India. Meesho Limited operates as a subsidiary of Meesho Inc."
+        "symbol": "ICICIGI",
+        "market_cap_cr": 78789.0,
+        "trailing_pe": 32.63659,
+        "forward_pe": 22.78883,
+        "price_to_book": 4.6183896,
+        "roe_pct": 14.63,
+        "debt_to_equity": null,
+        "revenue_growth_pct": 10.9,
+        "earnings_growth_pct": -46.2,
+        "operating_margin_pct": 7.44,
+        "profit_margin_pct": 8.76,
+        "promoter_holding_pct": 2.5,
+        "institutional_holding_pct": 83.55,
+        "dividend_yield_pct": 0.93,
+        "current_ratio": 0.283,
+        "beta": 0.445,
+        "target_mean": 1919.7916,
+        "target_low": 1328.0,
+        "target_high": 2430.0,
+        "analyst_count": 24,
+        "current_price": 1577.0,
+        "business_summary": "ICICI Lombard General Insurance Company Limited provides various general insurance products and services in India. The company primarily offers fire, marine, cargo, engineering, aviation, public/product liability, employee group, workmen's compensation, cyber, personal accident, and travel insurance solutions. It also provides credit, crop, cattle, weather, mass health, and motor, as well as home insurance solutions. In addition, the company offers underwriting and claims, customer relationship, technology, operations, finance and accounts, human resources, , actuarial, marketing, business analytics, administration, and fraud control, as well as reinsurance solutions. It serves its customers comprising individuals, corporates, state and central governments, government-owned enterprises, and rural customers, as well as micro, small, and medium enterprises through agents, brokers, bancassurance, motor insurance service providers, and online platforms. The company was incorporated in 2000 and is based in Mumbai, India. ICICI Lombard General Insurance Company Limited operates as a subsidiary of ICICI Bank Limited."
       },
       "benchmark": {
-        "industry": "Consumer Services",
-        "peers": 28,
-        "trailing_pe": 53.83,
-        "price_to_book": 6.78,
-        "roe_pct": 23.15,
-        "debt_to_equity": 24.92,
-        "revenue_growth_pct": 16.4,
-        "profit_margin_pct": 7.68
+        "industry": "Financial Services",
+        "peers": 100,
+        "trailing_pe": 22.1,
+        "price_to_book": 2.55,
+        "roe_pct": 13.7,
+        "debt_to_equity": 163.89,
+        "revenue_growth_pct": 19.6,
+        "profit_margin_pct": 32.64
       },
       "scorecard": {
         "factors": [
           {
             "name": "Trailing P/E",
-            "value": "n/a",
-            "peer_value": "53.8",
-            "stance": "unknown",
-            "note": "Not reported by the data source."
+            "value": "32.6",
+            "peer_value": "22.1",
+            "stance": "bear",
+            "note": "More expensive than the typical peer, so more of the growth is already priced in."
           },
           {
             "name": "Price / Book",
-            "value": "24.9",
-            "peer_value": "6.8",
+            "value": "4.6",
+            "peer_value": "2.5",
             "stance": "bear",
             "note": "Trades at a premium to peer book value."
           },
           {
             "name": "Return on Equity",
+            "value": "14.6%",
+            "peer_value": "13.7%",
+            "stance": "neutral",
+            "note": "In line with the sector."
+          },
+          {
+            "name": "Debt / Equity",
             "value": "n/a",
-            "peer_value": "23.1%",
+            "peer_value": "163.9",
             "stance": "unknown",
             "note": "Not reported by the data source."
           },
           {
-            "name": "Debt / Equity",
-            "value": "1.4",
-            "peer_value": "24.9",
-            "stance": "bull",
-            "note": "Carries less leverage than peers, so less earnings risk if rates rise."
-          },
-          {
             "name": "Revenue growth (yoy)",
-            "value": "48.3%",
-            "peer_value": "16.4%",
-            "stance": "bull",
-            "note": "Growing the top line faster than the sector."
+            "value": "10.9%",
+            "peer_value": "19.6%",
+            "stance": "bear",
+            "note": "Growing more slowly than the sector."
           },
           {
             "name": "Net margin",
-            "value": "-8.7%",
-            "peer_value": "7.7%",
+            "value": "8.8%",
+            "peer_value": "32.6%",
             "stance": "bear",
             "note": "Thinner margins than peers."
           }
         ],
         "bull_case": [
-          "Debt / Equity 1.4 vs sector 24.9. Carries less leverage than peers, so less earnings risk if rates rise.",
-          "Revenue growth (yoy) 48.3% vs sector 16.4%. Growing the top line faster than the sector."
+          "24 analysts publish a mean target of 1920, 22% above the current price."
         ],
         "bear_case": [
-          "Price / Book 24.9 vs sector 6.8. Trades at a premium to peer book value.",
-          "Net margin -8.7% vs sector 7.7%. Thinner margins than peers.",
-          "17 analysts publish a mean target of 212, 10% below the current price.",
-          "Sitting within 0% of its 52-week high, so you are buying after the move, not before it."
+          "Trailing P/E 32.6 vs sector 22.1. More expensive than the typical peer, so more of the growth is already priced in.",
+          "Price / Book 4.6 vs sector 2.5. Trades at a premium to peer book value.",
+          "Revenue growth (yoy) 10.9% vs sector 19.6%. Growing more slowly than the sector.",
+          "Net margin 8.8% vs sector 32.6%. Thinner margins than peers.",
+          "Earnings fell 46% year on year, so the price move is running ahead of profits.",
+          "Promoter holding is only 2%, which offers little downside alignment and leaves control contestable."
         ],
         "invalidators": [
           "Two consecutive quarters of revenue or margin decline would remove the growth premise this rests on.",
           "A promoter pledge increase or a fresh exchange surveillance action would change the risk profile regardless of the fundamentals."
         ],
         "data_gaps": [
-          "Trailing P/E unavailable",
-          "Return on Equity unavailable"
+          "Debt / Equity unavailable"
         ],
-        "bull_count": 2,
-        "bear_count": 2
+        "bull_count": 0,
+        "bear_count": 4
       },
-      "research_prompt": "I'm a long-term retail investor in Indian equities (NSE). My screener flagged Meesho Ltd. (MEESHO) because it gained at least 3% on each of 1 consecutive sessions. I want your independent read - please push back on my screener rather than agreeing with it.\n\n## What my screener measured\n\n- Streak: 2026-09-22 to 2026-09-22, +9.6% cumulative\n- Daily gains: 2026-09-22 +9.60%\n- Last close: Rs 240.19\n- Sector: Consumer Services\n- Median 20-day turnover: Rs 348.7 crore\n- Volume vs 20-day median: 6.65x\n- Distance from 52-week high: 0.0%\n- Return 1M / 3M / 1Y: 17.1% / 28.8% / None%\n\n## Attribution my engine computed\n\n- Verdict: company_catalyst - Company-specific - investor communication disclosed to the exchange\n- Stock over the window: +9.6%\n- Sector median over the same window: +0.2%\n- Excess vs sector: +9.4 pp\n- Broad market median: -0.4%\n\n### NSE filings in the window\n\n- 2026-09-23 [catalyst] Analysts/Institutional Investor Meet/Con. Call Updates - Investor communication\n  Meesho Limited has informed the Exchange about Schedule of meet\n- 2026-09-21 [catalyst] ESOP/ESOS/ESPS - Fundraising or allotment\n  Meesho Limited has informed the Exchange regarding Allotment of 1071542  Shares.\n- 2026-09-18 [catalyst] Analysts/Institutional Investor Meet/Con. Call Updates - Investor communication\n  Meesho Limited has informed the Exchange about Schedule of meet\n- 2026-09-18 [neutral] Shareholders meeting - Routine or administrative disclosure\n  Meesho Limited has submitted the Exchange a copy Srutinizers report of  Annual General Meeting held on September 18, 2026. Further, the company has informed the Exchange regarding \n- 2026-09-18 [neutral] Shareholders meeting - Routine or administrative disclosure\n  Meesho Limited has informed the Exchange regarding Proceedings of Annual General Meeting held on September 18, 2026\n\n### Recent headlines (unverified, from Google News)\n\n- Meesho Nears All-Time High After UBS Hikes Target Price, Says Margins Improving Faster Than Expected - ndtvprofit.com\n- MEESHO Forecast — Price Target — Prediction for 2027 - TradingView\n- MEESHO LIMITED Share Price - Upstox\n- Tech analyst flags Meesho, PolicyBazaar among 3 breakout stocks in midcaps - Business Standard\n- Meesho IPO Allotment Status: Check Status on NSE, BSE & KFin - Groww\n- Meesho stock jumps over 8% today as Citi initiates coverage with Buy rating, sees value-commerce... - Moneycontrol.com\n\n## Fundamentals\n\n- Market cap: Rs 109,375 crore\n- Forward P/E: 165.0444\n- Price/Book: 24.899399\n- Debt/Equity: 1.428\n- Revenue growth (yoy): 48.3%\n- Operating margin: -6.58%\n- Net margin: -8.68%\n- Promoter holding: 40.3%\n- Institutional holding: 42.47%\n- Analyst count: 17\n- Mean target price: 211.5294\n\n### Sector medians (Consumer Services, 28 Nifty 500 peers)\n\n- Trailing P/E: 53.83\n- Price/Book: 6.78\n- Return on equity: 23.15%\n- Debt/Equity: 24.92\n- Revenue growth: 16.4%\n- Net margin: 7.68%\n\n### Data my engine could not get\n\n- Trailing P/E unavailable\n- Return on Equity unavailable\n\n## What I want from you\n\n1. **Why did it actually move?** My engine only sees exchange filings and price action. Check whether there is a real catalyst it missed - sector news, a peer's results, a policy change, an index inclusion, a block deal.\n2. **Is my engine's attribution wrong?** Say so directly if the evidence points elsewhere.\n3. **The one-year view.** Build a bull case and a bear case from the business, not from the chart. What has to be true for this to work, and what would break it? Be concrete about which numbers to watch.\n4. **What would you check that I have not?** Name the specific filings, segments or metrics.\n\nPlease flag anything above that looks stale or wrong, and tell me plainly if this looks like a speculative move rather than an investable one. I am not asking you to tell me whether to buy - I want the reasoning so I can decide."
+      "research_prompt": "I'm a long-term retail investor in Indian equities (NSE). My screener flagged ICICI Lombard General Insurance Company Ltd. (ICICIGI) because it gained at least 3% on each of 1 consecutive sessions. I want your independent read - please push back on my screener rather than agreeing with it.\n\n## What my screener measured\n\n- Streak: 2026-09-24 to 2026-09-24, +5.1% cumulative\n- Daily gains: 2026-09-24 +5.09%\n- Last close: Rs 1,577.00\n- Sector: Financial Services\n- Median 20-day turnover: Rs 104.3 crore\n- Volume vs 20-day median: 3.92x\n- Distance from 52-week high: -22.5%\n- Return 1M / 3M / 1Y: -1.2% / -10.8% / -15.6%\n\n## Attribution my engine computed\n\n- Verdict: company_catalyst - Company-specific - fundraising or allotment disclosed to the exchange\n- Stock over the window: +5.1%\n- Sector median over the same window: -2.0%\n- Excess vs sector: +7.1 pp\n- Broad market median: -1.4%\n\n### NSE filings in the window\n\n- 2026-09-22 [catalyst] ESOP/ESOS/ESPS - Fundraising or allotment\n  ICICI Lombard General Insurance Company Limited has informed the Exchange regarding Allotment of 6521  Shares.\n\n### Recent headlines (unverified, from Google News)\n\n- ICICIGI Forecast — Price Target — Prediction for 2027 - TradingView\n- Does ICICI Lombard General Insurance (NSE:ICICIGI) Deserve A Spot On Your Watchlist? - simplywall.st\n- Market News: Share Market Today, NIFTY, BSE/NSE LIVE, Sensex Today, Latest Share Market News Live Updates - Livemint\n- ICICI Lombard shares tumble 15% as higher claims, expenses weigh on Q1 earnings - upstox.com\n- ICICI Lombard Q2 FY27: Date and Expectations - Univest\n- ICICI Lombard General Insurance Company Ltd. Share Price Live Today - CNBC TV18\n\n## Fundamentals\n\n- Market cap: Rs 78,789 crore\n- Trailing P/E: 32.63659\n- Forward P/E: 22.78883\n- Price/Book: 4.6183896\n- Return on equity: 14.63%\n- Revenue growth (yoy): 10.9%\n- Earnings growth (yoy): -46.2%\n- Operating margin: 7.44%\n- Net margin: 8.76%\n- Promoter holding: 2.5%\n- Institutional holding: 83.55%\n- Dividend yield: 0.93%\n- Analyst count: 24\n- Mean target price: 1919.7916\n\n### Sector medians (Financial Services, 100 Nifty 500 peers)\n\n- Trailing P/E: 22.1\n- Price/Book: 2.55\n- Return on equity: 13.7%\n- Debt/Equity: 163.89\n- Revenue growth: 19.6%\n- Net margin: 32.64%\n\n### Data my engine could not get\n\n- Debt / Equity unavailable\n\n## What I want from you\n\n1. **Why did it actually move?** My engine only sees exchange filings and price action. Check whether there is a real catalyst it missed - sector news, a peer's results, a policy change, an index inclusion, a block deal.\n2. **Is my engine's attribution wrong?** Say so directly if the evidence points elsewhere.\n3. **The one-year view.** Build a bull case and a bear case from the business, not from the chart. What has to be true for this to work, and what would break it? Be concrete about which numbers to watch.\n4. **What would you check that I have not?** Name the specific filings, segments or metrics.\n\nPlease flag anything above that looks stale or wrong, and tell me plainly if this looks like a speculative move rather than an investable one. I am not asking you to tell me whether to buy - I want the reasoning so I can decide."
     },
     {
       "symbol": "SUNTV",
       "name": "Sun TV Network Ltd.",
       "industry": "Media Entertainment & Publication",
       "isin": "INE424H01027",
-      "last_close": 490.1,
-      "cumulative_pct": 7.11,
-      "start_date": "2026-09-22",
-      "end_date": "2026-09-22",
+      "last_close": 512.7,
+      "cumulative_pct": 4.59,
+      "start_date": "2026-09-24",
+      "end_date": "2026-09-24",
       "is_current": true,
-      "median_turnover_cr": 13.7,
-      "volume_ratio": 11.81,
-      "pct_from_52w_high": -24.1,
+      "median_turnover_cr": 15.4,
+      "volume_ratio": 10.76,
+      "pct_from_52w_high": -20.6,
       "returns": {
-        "m1": 4.6,
-        "m3": -3.6,
-        "y1": -8.5
+        "m1": 10.2,
+        "m3": 0.8,
+        "y1": -2.0
       },
       "days": [
         {
-          "date": "2026-09-22",
-          "close": 490.1000061035156,
-          "gain_pct": 7.11,
-          "volume": 3413835
+          "date": "2026-09-24",
+          "close": 512.7000122070312,
+          "gain_pct": 4.59,
+          "volume": 3364658
         }
       ],
       "attribution": {
         "verdict": "unexplained",
         "headline": "Company-specific, but nothing disclosed to explain it",
         "explanation": [
-          "The stock gained +7.1% over the session 2026-09-22.",
-          "Its sector (Media Entertainment & Publication) moved +1.4% over the same window, with 80% of its 5 Nifty 500 members advancing on the last session.",
-          "The broad market (median of 500 Nifty 500 names) moved -0.4% over the window, with 39% advancing on the last session.",
-          "The stock outpaced its sector by 5.8 percentage points, yet filed no disclosure in the window that would account for it.",
+          "The stock gained +4.6% over the session 2026-09-24.",
+          "Its sector (Media Entertainment & Publication) moved -1.7% over the same window, with 40% of its 5 Nifty 500 members advancing on the last session.",
+          "The broad market (median of 500 Nifty 500 names) moved -1.4% over the window, with 14% advancing on the last session.",
+          "The stock outpaced its sector by 6.3 percentage points, yet filed no disclosure in the window that would account for it.",
           "An unexplained move away from the sector is worth more caution, not less - it can reflect speculation, a leaked development, or an operator-driven move.",
-          "Volume ran 11.8x its 20-day median, so real institutional-scale money participated rather than thin-book drift."
+          "Volume ran 10.8x its 20-day median, so real institutional-scale money participated rather than thin-book drift."
         ],
-        "stock_streak_pct": 7.11,
-        "sector_streak_pct": 1.36,
-        "market_streak_pct": -0.39,
-        "excess_vs_sector_pct": 5.75,
-        "sector_breadth_pct": 80.0,
-        "volume_ratio": 11.81,
+        "stock_streak_pct": 4.59,
+        "sector_streak_pct": -1.69,
+        "market_streak_pct": -1.4,
+        "excess_vs_sector_pct": 6.28,
+        "sector_breadth_pct": 40.0,
+        "volume_ratio": 10.76,
         "cautions": [
-          "Thin liquidity - median daily turnover is only Rs 14 crore"
+          "Thin liquidity - median daily turnover is only Rs 15 crore"
         ],
         "filings": [
           {
@@ -666,15 +667,6 @@
             "category": "Shareholders meeting",
             "summary": "Sun TV Network Limited has submitted the Exchange a copy Srutinizers report of  Annual General Meeting held on September 18, 2026. Further, the company has informed the Exchange regarding voting results.",
             "pdf_url": "https://nsearchives.nseindia.com/corporate/SUNTV1_21092026181914_SunTVVotingresults2026.pdf",
-            "bucket": "neutral",
-            "label": "Routine or administrative disclosure"
-          },
-          {
-            "date": "2026-09-18",
-            "time": "16:48",
-            "category": "Shareholders meeting",
-            "summary": "Sun TV Network Limited has informed the Exchange regarding Proceedings of Annual General Meeting held on September 18, 2026",
-            "pdf_url": "https://nsearchives.nseindia.com/corporate/SUNTV1_18092026164636_ProceedingsAGMSunTV.pdf",
             "bucket": "neutral",
             "label": "Routine or administrative disclosure"
           }
@@ -711,8 +703,8 @@
             "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPN0oxMElqQnRqYW9yZ21iOXVPdXJjV25Yd1c0N2pHTXJaVFZLODZOS1RKYzgzVU9OZzl6bzQycVRycEhpMWRVMlZMMzZSVWZwNnJfeVNVcDNfRVkwZ01LM0J1QVl6cHJodUI3SFROOHdEZk5NM1VKTjhOX2xzZEhtdnRlVWgxOWRzbmRUVl9iUllRWlRtZVp1ci16OHJDeXp4bHR5OFA2cjZwMnFwZ2N1WDhn0gG3AUFVX3lxTE1wMGkwUnZQUExHTlRseGk3WVhKM21uSHRVNGM1dlowalhiUHh3RGtUVXNGUkwyZmVFSTFhekd2amlFRS04VUlGOVVQVjlranJuQ25nc25OeGVHbzUyTnUtbjRkSGpYNEw1U1Zsb0hScDRiR0MwemtBNFF1dFlkX2xYaVFwYUJaSzEtTlZlTTRsSjlVTjAtQnZFVXZtUFhZRlhrS0pmZ2xmU0d5b2dpR2tZN2F0SHFBaw?oc=5"
           },
           {
-            "title": "Sun TV Share Price Jumps 7% After Q1 Results, Dividend Announcement - ndtvprofit.com",
-            "source": "ndtvprofit.com",
+            "title": "Sun TV Share Price Jumps 7% After Q1 Results, Dividend Announcement - NDTV Profit",
+            "source": "NDTV Profit",
             "published": "Thu, 13 Aug 2026 07:00:00 GMT",
             "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOV0x1M3dOVjBtRzE2aE1ZN0JnVkN1Uk83RVEwRXVXSkRfMTVVSGNUdml4T1RRdy1JZURMR3B6bHVyWUE3TVFKZFRWX3A1M2xOaFF2RldYdEZVWjV2aHBOeHdoYXpENHQwWHBYV1RiUWFiQUFuQWQ1SkpOSHFnMTlGYk9mNzNDMU9OR3diS1p1cVpZM1RfeGNvZDM1bXY2al9PZm1IN2ZRcTE3bHRLQmfSAbYBQVVfeXFMUGNoY1NWMnRybUdFejNKejA1UDg5U0RRY3pxQ05tWmc5bTZhWkNocVdVSHE4RWJIQXJIb05kd0ZMSlN2OFFuZXhhTmY3R21xN2NSLUNySHpkc1FFTEc5T05YeUtJZ3JFbHNUQkFMMmkzWU1ZQ2Vhd1RlRmZTVWhJZDhqYTRmN2k1T21mMFIzZW01UngxdmVta0QyY0pnbDVsZEROUTc3NHNqeDVUV25iM1RWUC1iNmc?oc=5"
           }
@@ -720,10 +712,10 @@
       },
       "fundamentals": {
         "symbol": "SUNTV",
-        "market_cap_cr": 19318.0,
-        "trailing_pe": 11.780822,
-        "forward_pe": 11.015731,
-        "price_to_book": 1.5246993,
+        "market_cap_cr": 20205.0,
+        "trailing_pe": 12.321557,
+        "forward_pe": 11.521349,
+        "price_to_book": 1.5946825,
         "roe_pct": null,
         "debt_to_equity": 0.837,
         "revenue_growth_pct": 13.0,
@@ -739,14 +731,14 @@
         "target_low": 530.0,
         "target_high": 750.0,
         "analyst_count": 11,
-        "current_price": 490.2,
+        "current_price": 512.7,
         "business_summary": "Sun TV Network Limited, together with its subsidiaries, engages in producing and broadcasting satellite television and radio software programming in the regional languages. The company's flagship channel is Sun TV. It also operates various other satellite channels, such as Surya TV, Gemini TV, Udaya TV, SUN Bangla, Sun Neo, and Sun Marathi; 24 frequency modulation radio stations; SunRisers Hyderabad, an Indian Premier League franchise; Sun Risers Eastern Cape, a South Africa Premier League franchise; and SUNNXT, an OTT platform. In addition, the company offers daily newspapers and magazines. It provides entertainment in various genres of general entertainment, movies, music, news, kids, and lifestyle. It operates television channels in Tamil, Telugu, Kannada, Malayalam, Marathi, Hindi, and Bangla languages for viewers in India, Sri Lanka, Singapore, Malaysia, the United Kingdom, rest of Europe, the Middle East, the United States, Australia, South Africa, and Canada. The company was incorporated in 1985 and is based in Chennai, India."
       },
       "benchmark": {
         "industry": "Media Entertainment & Publication",
         "peers": 4,
-        "trailing_pe": 45.18,
-        "price_to_book": 3.8,
+        "trailing_pe": 43.73,
+        "price_to_book": 3.71,
         "roe_pct": null,
         "debt_to_equity": 48.08,
         "revenue_growth_pct": 17.1,
@@ -756,15 +748,15 @@
         "factors": [
           {
             "name": "Trailing P/E",
-            "value": "11.8",
-            "peer_value": "45.2",
+            "value": "12.3",
+            "peer_value": "43.7",
             "stance": "bull",
             "note": "Cheaper than the typical peer on trailing earnings."
           },
           {
             "name": "Price / Book",
-            "value": "1.5",
-            "peer_value": "3.8",
+            "value": "1.6",
+            "peer_value": "3.7",
             "stance": "bull",
             "note": "Trades at a lower multiple of book value than peers."
           },
@@ -798,13 +790,13 @@
           }
         ],
         "bull_case": [
-          "Trailing P/E 11.8 vs sector 45.2. Cheaper than the typical peer on trailing earnings.",
-          "Price / Book 1.5 vs sector 3.8. Trades at a lower multiple of book value than peers.",
+          "Trailing P/E 12.3 vs sector 43.7. Cheaper than the typical peer on trailing earnings.",
+          "Price / Book 1.6 vs sector 3.7. Trades at a lower multiple of book value than peers.",
           "Debt / Equity 0.8 vs sector 48.1. Carries less leverage than peers, so less earnings risk if rates rise.",
           "Net margin 34.0% vs sector 4.5%. Keeps more of every rupee of revenue than peers.",
           "Earnings grew 17% year on year, which is what has to keep happening for a re-rating to hold.",
           "Promoters hold 78%, so their interests stay tied to the share price.",
-          "11 analysts publish a mean target of 634, 29% above the current price."
+          "11 analysts publish a mean target of 634, 24% above the current price."
         ],
         "bear_case": [
           "Revenue growth (yoy) 13.0% vs sector 17.1%. Growing more slowly than the sector."
@@ -819,638 +811,199 @@
         "bull_count": 4,
         "bear_count": 1
       },
-      "research_prompt": "I'm a long-term retail investor in Indian equities (NSE). My screener flagged Sun TV Network Ltd. (SUNTV) because it gained at least 3% on each of 1 consecutive sessions. I want your independent read - please push back on my screener rather than agreeing with it.\n\n## What my screener measured\n\n- Streak: 2026-09-22 to 2026-09-22, +7.1% cumulative\n- Daily gains: 2026-09-22 +7.11%\n- Last close: Rs 490.10\n- Sector: Media Entertainment & Publication\n- Median 20-day turnover: Rs 13.7 crore\n- Volume vs 20-day median: 11.81x\n- Distance from 52-week high: -24.1%\n- Return 1M / 3M / 1Y: 4.6% / -3.6% / -8.5%\n\n## Attribution my engine computed\n\n- Verdict: unexplained - Company-specific, but nothing disclosed to explain it\n- Stock over the window: +7.1%\n- Sector median over the same window: +1.4%\n- Excess vs sector: +5.8 pp\n- Broad market median: -0.4%\n\n### NSE filings in the window\n\n- 2026-09-21 [neutral] Shareholders meeting - Routine or administrative disclosure\n  Sun TV Network Limited has submitted the Exchange a copy Srutinizers report of  Annual General Meeting held on September 18, 2026. Further, the company has informed the Exchange re\n- 2026-09-18 [neutral] Shareholders meeting - Routine or administrative disclosure\n  Sun TV Network Limited has informed the Exchange regarding Proceedings of Annual General Meeting held on September 18, 2026\n\n### Caution flags my engine raised\n\n- Thin liquidity - median daily turnover is only Rs 14 crore\n\n### Recent headlines (unverified, from Google News)\n\n- SUNTV Forecast — Price Target — Prediction for 2027 - TradingView\n- Sun TV Network Share Pros and Cons | SUNTV South India Media - Univest\n- Earnings Troubles May Signal Larger Issues for Sun TV Network (NSE:SUNTV) Shareholders - simplywall.st\n- Sun TV Network Ltd. Share Price Today - Sun TV Network Ltd. Stock Price Live NSE/BSE - CNBC TV18\n- Sun TV Network Ltd spurts 4.56% - Business Standard\n- Sun TV Share Price Jumps 7% After Q1 Results, Dividend Announcement - ndtvprofit.com\n\n## Fundamentals\n\n- Market cap: Rs 19,318 crore\n- Trailing P/E: 11.780822\n- Forward P/E: 11.015731\n- Price/Book: 1.5246993\n- Debt/Equity: 0.837\n- Revenue growth (yoy): 13.0%\n- Earnings growth (yoy): 17.0%\n- Operating margin: 43.87%\n- Net margin: 33.97%\n- Promoter holding: 78.47%\n- Institutional holding: 14.72%\n- Dividend yield: 4.08%\n- Analyst count: 11\n- Mean target price: 633.9091\n\n### Sector medians (Media Entertainment & Publication, 4 Nifty 500 peers)\n\n- Trailing P/E: 45.18\n- Price/Book: 3.8\n- Debt/Equity: 48.08\n- Revenue growth: 17.1%\n- Net margin: 4.51%\n\n### Data my engine could not get\n\n- Return on Equity unavailable\n\n## What I want from you\n\n1. **Why did it actually move?** My engine only sees exchange filings and price action. Check whether there is a real catalyst it missed - sector news, a peer's results, a policy change, an index inclusion, a block deal.\n2. **Is my engine's attribution wrong?** Say so directly if the evidence points elsewhere.\n3. **The one-year view.** Build a bull case and a bear case from the business, not from the chart. What has to be true for this to work, and what would break it? Be concrete about which numbers to watch.\n4. **What would you check that I have not?** Name the specific filings, segments or metrics.\n\nPlease flag anything above that looks stale or wrong, and tell me plainly if this looks like a speculative move rather than an investable one. I am not asking you to tell me whether to buy - I want the reasoning so I can decide."
+      "research_prompt": "I'm a long-term retail investor in Indian equities (NSE). My screener flagged Sun TV Network Ltd. (SUNTV) because it gained at least 3% on each of 1 consecutive sessions. I want your independent read - please push back on my screener rather than agreeing with it.\n\n## What my screener measured\n\n- Streak: 2026-09-24 to 2026-09-24, +4.6% cumulative\n- Daily gains: 2026-09-24 +4.59%\n- Last close: Rs 512.70\n- Sector: Media Entertainment & Publication\n- Median 20-day turnover: Rs 15.4 crore\n- Volume vs 20-day median: 10.76x\n- Distance from 52-week high: -20.6%\n- Return 1M / 3M / 1Y: 10.2% / 0.8% / -2.0%\n\n## Attribution my engine computed\n\n- Verdict: unexplained - Company-specific, but nothing disclosed to explain it\n- Stock over the window: +4.6%\n- Sector median over the same window: -1.7%\n- Excess vs sector: +6.3 pp\n- Broad market median: -1.4%\n\n### NSE filings in the window\n\n- 2026-09-21 [neutral] Shareholders meeting - Routine or administrative disclosure\n  Sun TV Network Limited has submitted the Exchange a copy Srutinizers report of  Annual General Meeting held on September 18, 2026. Further, the company has informed the Exchange re\n\n### Caution flags my engine raised\n\n- Thin liquidity - median daily turnover is only Rs 15 crore\n\n### Recent headlines (unverified, from Google News)\n\n- SUNTV Forecast — Price Target — Prediction for 2027 - TradingView\n- Sun TV Network Share Pros and Cons | SUNTV South India Media - Univest\n- Earnings Troubles May Signal Larger Issues for Sun TV Network (NSE:SUNTV) Shareholders - simplywall.st\n- Sun TV Network Ltd. Share Price Today - Sun TV Network Ltd. Stock Price Live NSE/BSE - CNBC TV18\n- Sun TV Network Ltd spurts 4.56% - Business Standard\n- Sun TV Share Price Jumps 7% After Q1 Results, Dividend Announcement - NDTV Profit\n\n## Fundamentals\n\n- Market cap: Rs 20,205 crore\n- Trailing P/E: 12.321557\n- Forward P/E: 11.521349\n- Price/Book: 1.5946825\n- Debt/Equity: 0.837\n- Revenue growth (yoy): 13.0%\n- Earnings growth (yoy): 17.0%\n- Operating margin: 43.87%\n- Net margin: 33.97%\n- Promoter holding: 78.47%\n- Institutional holding: 14.72%\n- Dividend yield: 4.08%\n- Analyst count: 11\n- Mean target price: 633.9091\n\n### Sector medians (Media Entertainment & Publication, 4 Nifty 500 peers)\n\n- Trailing P/E: 43.73\n- Price/Book: 3.71\n- Debt/Equity: 48.08\n- Revenue growth: 17.1%\n- Net margin: 4.51%\n\n### Data my engine could not get\n\n- Return on Equity unavailable\n\n## What I want from you\n\n1. **Why did it actually move?** My engine only sees exchange filings and price action. Check whether there is a real catalyst it missed - sector news, a peer's results, a policy change, an index inclusion, a block deal.\n2. **Is my engine's attribution wrong?** Say so directly if the evidence points elsewhere.\n3. **The one-year view.** Build a bull case and a bear case from the business, not from the chart. What has to be true for this to work, and what would break it? Be concrete about which numbers to watch.\n4. **What would you check that I have not?** Name the specific filings, segments or metrics.\n\nPlease flag anything above that looks stale or wrong, and tell me plainly if this looks like a speculative move rather than an investable one. I am not asking you to tell me whether to buy - I want the reasoning so I can decide."
     }
   ],
   "top_losers": [
     {
-      "symbol": "HEGAM",
-      "name": "HEG Advanced Materials Ltd.",
-      "industry": "Capital Goods",
-      "isin": "INE545A01024",
-      "last_close": 232.9,
-      "cumulative_pct": -6.28,
-      "start_date": "2026-09-22",
-      "end_date": "2026-09-22",
+      "symbol": "POLICYBZR",
+      "name": "PB Fintech Ltd.",
+      "industry": "Financial Services",
+      "isin": "INE417T01026",
+      "last_close": 1207.2,
+      "cumulative_pct": -36.0,
+      "start_date": "2026-09-24",
+      "end_date": "2026-09-24",
       "is_current": true,
-      "median_turnover_cr": 56.0,
-      "volume_ratio": 0.74,
-      "pct_from_52w_high": -68.5,
+      "median_turnover_cr": 178.5,
+      "volume_ratio": 28.14,
+      "pct_from_52w_high": -38.3,
       "returns": {
-        "m1": -67.8,
-        "m3": -55.0,
-        "y1": -54.9
+        "m1": -34.4,
+        "m3": -25.6,
+        "y1": -30.4
       },
       "days": [
         {
-          "date": "2026-09-22",
-          "close": 232.89999389648438,
-          "gain_pct": -6.28,
-          "volume": 1096045
+          "date": "2026-09-24",
+          "close": 1207.199951171875,
+          "gain_pct": -36.0,
+          "volume": 27217584
         }
       ],
       "attribution": {
         "verdict": "company_catalyst",
         "headline": "Company-specific - investor communication disclosed to the exchange",
         "explanation": [
-          "The stock fell -6.3% over the session 2026-09-22.",
-          "Its sector (Capital Goods) moved -0.5% over the same window, with 32% of its 63 Nifty 500 members advancing on the last session.",
-          "The broad market (median of 500 Nifty 500 names) moved -0.4% over the window, with 39% advancing on the last session.",
-          "The stock lagged its sector by 5.7 percentage points, so the move is company-specific rather than sector-wide.",
-          "NSE filing 2026-09-21 21:05 - Investor communication: Analysts/Institutional Investor Meet/Con. Call Updates.",
-          "Volume was only 0.7x its 20-day median - a large price move on unremarkable volume is easier to reverse."
+          "The stock fell -36.0% over the session 2026-09-24.",
+          "Its sector (Financial Services) moved -2.0% over the same window, with 7% of its 101 Nifty 500 members advancing on the last session.",
+          "The broad market (median of 500 Nifty 500 names) moved -1.4% over the window, with 14% advancing on the last session.",
+          "The stock lagged its sector by 34.0 percentage points, so the move is company-specific rather than sector-wide.",
+          "NSE filing 2026-09-24 09:33 - Investor communication: Analysts/Institutional Investor Meet/Con. Call Updates.",
+          "Volume ran 28.1x its 20-day median, so real institutional-scale money participated rather than thin-book drift."
         ],
-        "stock_streak_pct": -6.28,
-        "sector_streak_pct": -0.54,
-        "market_streak_pct": -0.39,
-        "excess_vs_sector_pct": -5.74,
-        "sector_breadth_pct": 32.0,
-        "volume_ratio": 0.74,
+        "stock_streak_pct": -36.0,
+        "sector_streak_pct": -2.0,
+        "market_streak_pct": -1.4,
+        "excess_vs_sector_pct": -34.0,
+        "sector_breadth_pct": 7.0,
+        "volume_ratio": 28.14,
         "cautions": [],
         "filings": [
           {
-            "date": "2026-09-21",
-            "time": "21:05",
+            "date": "2026-09-24",
+            "time": "09:33",
             "category": "Analysts/Institutional Investor Meet/Con. Call Updates",
-            "summary": "HEG Limited has informed the Exchange about Schedule of meet",
-            "pdf_url": "https://nsearchives.nseindia.com/corporate/HEGAM_21092026210502_STEXInvestorCallPhysical28092026.pdf",
+            "summary": "PB Fintech Limited has informed the Exchange about Schedule of analyst meet",
+            "pdf_url": "https://nsearchives.nseindia.com/corporate/POLICYBZR_24092026093202_InvestorConference24Sep2026PBFintech.pdf",
             "bucket": "catalyst",
             "label": "Investor communication"
-          },
-          {
-            "date": "2026-09-18",
-            "time": "18:37",
-            "category": "Bagging/Receiving of orders/contracts",
-            "summary": "HEG Limited has informed the Exchange about Receipt of orders by Replus Engitech Private Limited, a subsidiary of the Company (Revised Disclosure)",
-            "pdf_url": "https://nsearchives.nseindia.com/corporate/HEGAM_18092026183630_StEX_Order_REPlus_revised18092026.pdf",
-            "bucket": "neutral",
-            "label": "Routine or administrative disclosure"
-          },
-          {
-            "date": "2026-09-18",
-            "time": "17:14",
-            "category": "Bagging/Receiving of orders/contracts",
-            "summary": "HEG Limited has informed the Exchange about Receipt of orders by Replus Engitech Private Limited, a subsidiary of the Company",
-            "pdf_url": "https://nsearchives.nseindia.com/corporate/HEGAM_18092026171222_StEX_Order_REPlus.pdf",
-            "bucket": "neutral",
-            "label": "Routine or administrative disclosure"
           }
         ],
         "headlines": [
           {
-            "title": "HEG Advanced Materials Ltd. Share Price Live Today - CNBC TV18",
-            "source": "CNBC TV18",
-            "published": "Wed, 23 Sep 2026 10:24:00 GMT",
-            "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQcU5pMU5VNFNYdEhkSEZlalB6QXlqWjdGVzBtMjdDSkx6aDlRTks3bmkyVEkwajF2S3BjU19lLUp4aktoZmFUcE1RSFFXRzZobFdZbHZ0SjNpYXNfcGVNWHI3eWtjT0dqMGQ2Z21MR1pWQksxQ1pKOUJaRGdTMU1yOHd5djVDRHFYQ3c?oc=5"
+            "title": "PB Fintech shares crack 34% to hit 52-week low after Irdai consultation paper; more pain ahead? - Business Today",
+            "source": "Business Today",
+            "published": "Thu, 24 Sep 2026 09:37:52 GMT",
+            "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNa2ItVXNCUjJ3b1B2UXNOMFg4RG13TlhLZkdjdHo3eFZNbWVjcXphSVk2OFZkQ3ZLeG81cVJ5ZFREaVJvaTBfbDBBYnpYMlppTnBEazF4S0pITGNUWjdCS3g5T09FaWZ5RWRrQmhZYmlkRl9Jc1g0YkZyd0cxc0xrb1F4V3RTZmZOUzFUSmJManhacldCNzFUdTluWjMxeURlY085N1JURDhWeGk0c0hYTkZPNzd6WTlQV0xqOGFqSnY4Umg2ZWJxeXZzX3c4NkhpUGJ6MkhlZjc5WWx6ckxTb3JmWFLSAeoBQVVfeXFMUDVGTWlrb084VXNfbXYwWWpXNVFKNWxOOFRqN3dBd0dFUGJfTlBqVFl1MFJINXVuVlVyd05wcU91ZzVTTG1tTUpUUTJ3OUdUeDBnbmJVZGJPeThfQlVLeGhpbW9QQWNlczRDWUw4blJNZHhCNWFrVDRVNWRuQVhKdDlTS0lfc1VnOGs2Q29COHRJeXBINWpPQ1d3TlF4TWt5QU00dDRRVXRKM0V4Tm1ubFdwRHFMQlhydEh2MS1iYlRhdU8yQjdUOU9SbXR2SHhxTzg3aDN3SnhUeWxtcHZ0Z3FLNEF2cFdET0VR?oc=5"
           },
           {
-            "title": "HEGAM Stock Price and Chart — NSE:HEGAM - TradingView",
-            "source": "TradingView",
-            "published": "Tue, 22 Sep 2026 13:55:24 GMT",
-            "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1lUXVVTEFqQktpTnhMaGJkblVJVTJVVndVZlp4LTZiZHhONXRrclhvVnVWaS1EdDRnNDhBQTJMOHBQMzloNXBDV0p0bERjcHpaSUlpb0V0di1fZw?oc=5"
+            "title": "PB Fintech crashes 36%, Turtlemint 20% as IRDAI proposes new insurance distribution rules - upstox.com",
+            "source": "upstox.com",
+            "published": "Thu, 24 Sep 2026 03:47:57 GMT",
+            "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNeGIwUjh1Z3JQT3B6R0Ryd0hUWGlvN0szSHhDWEJaVXdfOTlTbVMtVy1vNEUtQTltYVFkR0gycmpmSjg4RFd0b0pSc3FYRHJPM25iN2ZEWHktbl9GQ1NSODJVaVloZHNRcEd2VVVKOVBfeU9fVU9ZdjltZEFBLUJBSy10T1VGSklpb2dqVl9IMW9hUTBVVzVjZjRRbThHWDA0eWRDZGM0c3lWbzhoazR5LTVVSHBuZU9YNl9MdGlOREt6Y3UxTFI2MEpVa2w5cDl5VHVtanlnYjh0QTVUcWg5MEdGLTdWVG1Sd1hOckxn?oc=5"
           },
           {
-            "title": "HEGAM Share Price Today - HEG Ltd. Stock Price Live NSE/BSE - Univest",
-            "source": "Univest",
-            "published": "Tue, 22 Sep 2026 11:30:00 GMT",
-            "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9fUmlaWFJseElTQ3ZlZVRsd0RZdnlaTWpfNVh0YkVLWXNEZnhmcGNhdVB1NndTY01PNG1mR1lZTW9KVGxBb29mR2N3UmdSYzRJQ0tJcmJiZkRuMlBaalZQT0pqZE9nS1ZQ?oc=5"
+            "title": "PB Fintech shares fall 23%; Bajaj Finance, L&T Finance also take hit; here's why - Business Today",
+            "source": "Business Today",
+            "published": "Thu, 24 Sep 2026 04:46:40 GMT",
+            "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQMElHdHpfV290YjlzdWtBMmVOOVhjQ2M2QVBWcUpXbzRLTnRtWVdxLUVyd0FaYU92WDA3ZnpYUzhFeXRXeFN0Q0V5bW80QzlITjUxVnhaRUFLcGNSdk1OZld0OU9RTVRab0ZFdHpUMUZ1dUxrM2RZQVZhamtTTm1neEsyeXM0NEVlNkpVOUhMTVNSS1FVdURtT2ZIQ0NYLUZkcnRWZm1PVDdZNFNjRGlycDdFOXN3aEFIdGd1R1Ywbno4Y0laLXpZd04tSWExM3VxMDFvVDFLR0dEd9IB3wFBVV95cUxPWmZMZFM5Tmt1OXZQdWRrTnRmQ25oZHYxaElMTDF6dV9yUndEdEpCcnhkaUo3SjJrZVQ3QWN4TXlGamVfTXZZWU1mZzB1bm1JWFJKNV9BblNsQ2JUdkxoMXpnWW53UnFZN29oeGgyWC1fME9ZdElzQk90MXlXV3dUWUo0anRPWHZ1YktYd29URHV1MHlKYkFKbjR0X0hqOWxCSWljSzZ0QUlNSnBqM2JwMmpqeTM1RnVObG1tdmFWU2FtZFlFYUZFbnM3QU5tVFFJOGZ2emtzTGMzUnZybDRJ?oc=5"
           },
           {
-            "title": "HEG Cash Flow, Financial Statements - The Economic Times",
-            "source": "The Economic Times",
-            "published": "Wed, 23 Sep 2026 06:48:35 GMT",
-            "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNbl9UOXJTWURVaEpTczBYZVdjNUl6LVYydFRUNW5ldWlTM1RZQVJpUW1uRlNvVGg0QTdmc0dBSzBVSXAtSnNLU3ZXN1U4VlQ3RGhVYTZMSllHWWZUV2JMLTZkS0FpbEZDMHd4UVNISmdPV0dWX3J2ZDVpY01pM3ZDd0tCSlRfaVVJejRj?oc=5"
-          },
-          {
-            "title": "HEG Advanced Materials arm bags ₹218 crore supply order from Indus Towers; check details - Upstox",
-            "source": "Upstox",
-            "published": "Fri, 18 Sep 2026 13:29:21 GMT",
-            "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOM0ZtaGtHQzZYOWZhQ3BqV2FuRnp5dEp5T08yVWxfa2dSRFNYVTAzSFVyMWtiSWJzZ3FFR1dweVlNWTNucDVWeHZIcnRWckdzN3gtV0ZaSkRaV2s5TTRTUEczZnNFQzZ4a0lXM1BfUnNkMDZNbmNzNmo5LVVGVlhCQ3JRZmZPb3FpTVBiTVR6UWp2RUExNzlOaUhjNnZvVHZCN3FHRExXaTVpbHNBdEJJTnlqd2JzWGh3X1pLbE9xV1g3V3JqV091X2lCbmtUUzRCVkd0bGxuMzFMNTFJdFE?oc=5"
-          },
-          {
-            "title": "HEG Advanced Materials Ltd Statistics – NSE:HEGAM - TradingView",
-            "source": "TradingView",
-            "published": "Tue, 22 Sep 2026 15:22:24 GMT",
-            "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQbENGMkxFR1dIRW1IeVNvX1pHUmFzNEh4QUtReFp2ZDdHbm12UzVzaFNpcjJlYnlZRHpHanE5azBtVkFCNVkxaEFZMU9VSDljUTlCUDE0b3pic3NzMzRyZUwwT3RDUUZ3VkQ1Y3N3SURmZXZCNWlSWHBhTWN2akhTTTZoU0NsQQ?oc=5"
-          }
-        ]
-      },
-      "fundamentals": {
-        "symbol": "HEGAM",
-        "market_cap_cr": 7826.0,
-        "trailing_pe": 12.703426,
-        "forward_pe": 7.763358,
-        "price_to_book": null,
-        "roe_pct": null,
-        "debt_to_equity": 16.73,
-        "revenue_growth_pct": 10.4,
-        "earnings_growth_pct": 16.8,
-        "operating_margin_pct": 14.83,
-        "profit_margin_pct": 13.61,
-        "promoter_holding_pct": 72.59,
-        "institutional_holding_pct": 6.79,
-        "dividend_yield_pct": 1.46,
-        "current_ratio": null,
-        "beta": 0.688,
-        "target_mean": 710.0,
-        "target_low": 630.0,
-        "target_high": 750.0,
-        "analyst_count": 3,
-        "current_price": 237.3,
-        "business_summary": "HEG Advanced Materials Limited engages in the research and development of advanced battery materials, battery solutions. It manufactures custom machined components. The company also operates thermal power plants and a hydroelectric power facility. The company was formerly known as HEG Limited and change its name to HEG Advanced Materials Limited in September 2026. HEG Advanced Materials Limited was incorporated in 1972 and is headquartered in Noida, India."
-      },
-      "benchmark": {
-        "industry": "Capital Goods",
-        "peers": 62,
-        "trailing_pe": 52.9,
-        "price_to_book": 7.97,
-        "roe_pct": 25.55,
-        "debt_to_equity": 8.76,
-        "revenue_growth_pct": 19.35,
-        "profit_margin_pct": 10.73
-      },
-      "scorecard": {
-        "factors": [
-          {
-            "name": "Trailing P/E",
-            "value": "12.7",
-            "peer_value": "52.9",
-            "stance": "bull",
-            "note": "Cheaper than the typical peer on trailing earnings."
-          },
-          {
-            "name": "Price / Book",
-            "value": "n/a",
-            "peer_value": "8.0",
-            "stance": "unknown",
-            "note": "Not reported by the data source."
-          },
-          {
-            "name": "Return on Equity",
-            "value": "n/a",
-            "peer_value": "25.6%",
-            "stance": "unknown",
-            "note": "Not reported by the data source."
-          },
-          {
-            "name": "Debt / Equity",
-            "value": "16.7",
-            "peer_value": "8.8",
-            "stance": "bear",
-            "note": "More leveraged than peers, which amplifies any downturn."
-          },
-          {
-            "name": "Revenue growth (yoy)",
-            "value": "10.4%",
-            "peer_value": "19.4%",
-            "stance": "bear",
-            "note": "Growing more slowly than the sector."
-          },
-          {
-            "name": "Net margin",
-            "value": "13.6%",
-            "peer_value": "10.7%",
-            "stance": "bull",
-            "note": "Keeps more of every rupee of revenue than peers."
-          }
-        ],
-        "bull_case": [
-          "Trailing P/E 12.7 vs sector 52.9. Cheaper than the typical peer on trailing earnings.",
-          "Net margin 13.6% vs sector 10.7%. Keeps more of every rupee of revenue than peers.",
-          "Earnings grew 17% year on year, which is what has to keep happening for a re-rating to hold.",
-          "Promoters hold 73%, so their interests stay tied to the share price.",
-          "3 analysts publish a mean target of 710, 199% above the current price.",
-          "Still 68% below its 52-week high, leaving recovery room if the business itself is intact."
-        ],
-        "bear_case": [
-          "Debt / Equity 16.7 vs sector 8.8. More leveraged than peers, which amplifies any downturn.",
-          "Revenue growth (yoy) 10.4% vs sector 19.4%. Growing more slowly than the sector."
-        ],
-        "invalidators": [
-          "Two consecutive quarters of revenue or margin decline would remove the growth premise this rests on.",
-          "A promoter pledge increase or a fresh exchange surveillance action would change the risk profile regardless of the fundamentals."
-        ],
-        "data_gaps": [
-          "Price / Book unavailable",
-          "Return on Equity unavailable",
-          "Only 3 analysts cover this name, so the consensus target is thin and moves easily."
-        ],
-        "bull_count": 2,
-        "bear_count": 2
-      },
-      "research_prompt": "I'm a long-term retail investor in Indian equities (NSE). My screener flagged HEG Advanced Materials Ltd. (HEGAM) because it gained at least 3% on each of 1 consecutive sessions. I want your independent read - please push back on my screener rather than agreeing with it.\n\n## What my screener measured\n\n- Streak: 2026-09-22 to 2026-09-22, -6.3% cumulative\n- Daily gains: 2026-09-22 -6.28%\n- Last close: Rs 232.90\n- Sector: Capital Goods\n- Median 20-day turnover: Rs 56.0 crore\n- Volume vs 20-day median: 0.74x\n- Distance from 52-week high: -68.5%\n- Return 1M / 3M / 1Y: -67.8% / -55.0% / -54.9%\n\n## Attribution my engine computed\n\n- Verdict: company_catalyst - Company-specific - investor communication disclosed to the exchange\n- Stock over the window: -6.3%\n- Sector median over the same window: -0.5%\n- Excess vs sector: -5.7 pp\n- Broad market median: -0.4%\n\n### NSE filings in the window\n\n- 2026-09-21 [catalyst] Analysts/Institutional Investor Meet/Con. Call Updates - Investor communication\n  HEG Limited has informed the Exchange about Schedule of meet\n- 2026-09-18 [neutral] Bagging/Receiving of orders/contracts - Routine or administrative disclosure\n  HEG Limited has informed the Exchange about Receipt of orders by Replus Engitech Private Limited, a subsidiary of the Company (Revised Disclosure)\n- 2026-09-18 [neutral] Bagging/Receiving of orders/contracts - Routine or administrative disclosure\n  HEG Limited has informed the Exchange about Receipt of orders by Replus Engitech Private Limited, a subsidiary of the Company\n\n### Recent headlines (unverified, from Google News)\n\n- HEG Advanced Materials Ltd. Share Price Live Today - CNBC TV18\n- HEGAM Stock Price and Chart — NSE:HEGAM - TradingView\n- HEGAM Share Price Today - HEG Ltd. Stock Price Live NSE/BSE - Univest\n- HEG Cash Flow, Financial Statements - The Economic Times\n- HEG Advanced Materials arm bags ₹218 crore supply order from Indus Towers; check details - Upstox\n- HEG Advanced Materials Ltd Statistics – NSE:HEGAM - TradingView\n\n## Fundamentals\n\n- Market cap: Rs 7,826 crore\n- Trailing P/E: 12.703426\n- Forward P/E: 7.763358\n- Debt/Equity: 16.73\n- Revenue growth (yoy): 10.4%\n- Earnings growth (yoy): 16.8%\n- Operating margin: 14.83%\n- Net margin: 13.61%\n- Promoter holding: 72.59%\n- Institutional holding: 6.79%\n- Dividend yield: 1.46%\n- Analyst count: 3\n- Mean target price: 710.0\n\n### Sector medians (Capital Goods, 62 Nifty 500 peers)\n\n- Trailing P/E: 52.9\n- Price/Book: 7.97\n- Return on equity: 25.55%\n- Debt/Equity: 8.76\n- Revenue growth: 19.35%\n- Net margin: 10.73%\n\n### Data my engine could not get\n\n- Price / Book unavailable\n- Return on Equity unavailable\n- Only 3 analysts cover this name, so the consensus target is thin and moves easily.\n\n## What I want from you\n\n1. **Why did it actually move?** My engine only sees exchange filings and price action. Check whether there is a real catalyst it missed - sector news, a peer's results, a policy change, an index inclusion, a block deal.\n2. **Is my engine's attribution wrong?** Say so directly if the evidence points elsewhere.\n3. **The one-year view.** Build a bull case and a bear case from the business, not from the chart. What has to be true for this to work, and what would break it? Be concrete about which numbers to watch.\n4. **What would you check that I have not?** Name the specific filings, segments or metrics.\n\nPlease flag anything above that looks stale or wrong, and tell me plainly if this looks like a speculative move rather than an investable one. I am not asking you to tell me whether to buy - I want the reasoning so I can decide."
-    },
-    {
-      "symbol": "ACUTAAS",
-      "name": "Acutaas Chemicals Ltd.",
-      "industry": "Healthcare",
-      "isin": "INE00FF01025",
-      "last_close": 3213.7,
-      "cumulative_pct": -6.19,
-      "start_date": "2026-09-22",
-      "end_date": "2026-09-22",
-      "is_current": true,
-      "median_turnover_cr": 80.2,
-      "volume_ratio": 2.0,
-      "pct_from_52w_high": -13.0,
-      "returns": {
-        "m1": 1.4,
-        "m3": -2.5,
-        "y1": 121.8
-      },
-      "days": [
-        {
-          "date": "2026-09-22",
-          "close": 3213.699951171875,
-          "gain_pct": -6.19,
-          "volume": 482993
-        }
-      ],
-      "attribution": {
-        "verdict": "company_catalyst",
-        "headline": "Company-specific - investor communication disclosed to the exchange",
-        "explanation": [
-          "The stock fell -6.2% over the session 2026-09-22.",
-          "Its sector (Healthcare) moved -0.6% over the same window, with 25% of its 48 Nifty 500 members advancing on the last session.",
-          "The broad market (median of 500 Nifty 500 names) moved -0.4% over the window, with 39% advancing on the last session.",
-          "The stock lagged its sector by 5.5 percentage points, so the move is company-specific rather than sector-wide.",
-          "NSE filing 2026-09-22 13:56 - Investor communication: Analysts/Institutional Investor Meet/Con. Call Updates."
-        ],
-        "stock_streak_pct": -6.19,
-        "sector_streak_pct": -0.64,
-        "market_streak_pct": -0.39,
-        "excess_vs_sector_pct": -5.55,
-        "sector_breadth_pct": 25.0,
-        "volume_ratio": 2.0,
-        "cautions": [],
-        "filings": [
-          {
-            "date": "2026-09-22",
-            "time": "13:56",
-            "category": "Analysts/Institutional Investor Meet/Con. Call Updates",
-            "summary": "Acutaas Chemicals Limited has informed the Exchange about Schedule of meet",
-            "pdf_url": "https://nsearchives.nseindia.com/corporate/AMIORG_22092026135629_ScheduleSWsigned.pdf",
-            "bucket": "catalyst",
-            "label": "Investor communication"
-          },
-          {
-            "date": "2026-09-22",
-            "time": "13:01",
-            "category": "Trading Window",
-            "summary": "Acutaas Chemicals Limited has informed the Exchange regarding the Trading Window closure pursuant to SEBI (Prohibition of Insider Trading) Regulations, 2015",
-            "pdf_url": "https://nsearchives.nseindia.com/corporate/AMIORG_22092026130111_ClosureofTWCswSigned.pdf",
-            "bucket": "neutral",
-            "label": "Routine or administrative disclosure"
-          }
-        ],
-        "headlines": [
-          {
-            "title": "Acutaas Chemicals drops 7% despite 70% jump in Q1 PAT; stock up 180% in 1yr - Business Standard",
-            "source": "Business Standard",
-            "published": "Fri, 24 Jul 2026 07:00:00 GMT",
-            "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPSFp3SkVWaW9VYmJGZWxUU1RXSFY4SFNwdHFELTg1X09PV0E0VzgtUWtEWXZXVWxfbnI3NHhpZjZ1eTNBdEJZeVdZblJ0bndZZnRkY3JEM1c1SVVaVEt5SGhRWmFmS0k3TVA2Mkkzakd5VHBRQm50MDUyYzN2YmdxT0pHcE1tNC1kN0tBWmZDQkw1ZGNFeHgtMmplSFZ3ZXAzd3Z2WEhfYjZtaW1LRmJlN0FoQVFOWlotdUdPWFBhV3VfSVVaMkZRRjlmaUtRTE5VVkF4etIB2gFBVV95cUxNNWtLd2pIYUg4aFVJcVdYcTJZVU40dmxrQmt0dk94ZkhWOWtBNm1kVnFiTTd6dmEzZndqQTVQUU5vZ0ZndWNocE16UVd4VmNqNGJBTHVsSGhEUEdZOFVxQ3RIcFh6WUhoWGdBZmRCc1BTWk1qZ2FQYVR1OE95a293c1NwT1J5WG84Mk5xX0hSa1g3ajd3R0RURmQwd3Jvc1h4ZjZBYW1CbEhJSE13U05aUjlDbGRMZlJCSkswTUpUV1BHQ1VpNmdFQ041bm5jMkJSRl91OC1xQndCQQ?oc=5"
-          },
-          {
-            "title": "We Ran A Stock Scan For Earnings Growth And Acutaas Chemicals (NSE:ACUTAAS) Passed With Ease - simplywall.st",
+            "title": "Why We're Not Concerned About PB Fintech Limited's (NSE:POLICYBZR) Share Price - simplywall.st",
             "source": "simplywall.st",
-            "published": "Fri, 21 Aug 2026 07:00:00 GMT",
-            "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPLXZqWVBHdUx2VFVyTGtxXzJ6LVdmdVYwQnEtRzlweGNLcjlCVDlwanJYbTJoVWtDOVFtc1Mtc292OHJvRzFmZktuNE1na0JlMld0YUVldmsyVGVzaXNNeVAydE1obE9oRmt5OXlkSGd0dklNRWZ0cnpsdElpZlFlZjdBOFlZQkktakRpUE1ZdkNFMUFjNTg2UnNkX0w2bndTMUtveUVPZnJYYVFQTFpvbm5CLUZoV2lMcmpSaUdrUm1CSDktY2hOOEJkZDdWcUtTOWlzMUlONHVPNi1rRWFtM29zc0Vmemw5cDRucmhQVdIB9AFBVV95cUxQbURIYm9EZ2pRMUxMR3drNnBMbnNFRG85S0IwcEJPcDFrTXdpY2prNTQzTjAxSjBXeWN6ZFBRS1VCdUcyREdzWDBZRFpGcTE0Vl9WRWw0UzBMQ2dCN0FrLW9FN2dFbDk2S3RIaXByYzQ3XzdyajJfdjlmR1RqZmQtWnl3dy0wV095SjJ0WDhyTzhhTkVRZ2tVby1LY2ozcHFHcTJQTXkyLWxfNFE3T2tDcXIyZjdBdHp0ZUdjOUQxSjgySU1PS0FGREp4V2lUeWJHc1dzdkk2WVVNbHlJR1pfVGlaYm9vQzNpN3BuOHRCcEdUcWg1?oc=5"
+            "published": "Wed, 21 Jan 2026 08:00:00 GMT",
+            "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOUFVZYlRHUERmR3hISFh6VEdNaTR5bVVtYWZlYllEWWxMVDBRcGxSSkR1S3JYczl1ZXJRRUs3UlpiNzVMZGFwOEx2cDJKaFYyTmViVFEyUlF4djJqdWhnNGhZV0dxUlF1eGxSY0dQWTdxUHllUkNkN3pvRzNlU1VOMjM5RUdjMzJUQWFDNnlyQmJ0UDBSUVEza3VNNFFHUndMaHlHZGRSblYzbF9NbFpaUy1XYnk4Rkw1OHdqUlQyMW40UFdkeV9VRl9LOC1FUWVDaTh5eUNn0gHbAUFVX3lxTE5YcUlXYnpWRDV4eGl2a3ZWZ0xDUXZKeUlqWmFXMExpTi1ac2tPZ1V5QmYxa3k4bVlscFlaQ0VrSzZaQzJDUWxnMEVxdHhwTXJmLVZzUzZKZlpnRnBoVXNQWlVKMVl3TlVtTzZzYVJtYW5CQldLSFV6Z2hfUmg3VGNCU1NUTTd3dE1VUXFDWGQ4WmlrZW5kcE5wSUtmVUhxcmJNMTFNX2pObXJZcEFYeDBwX0cyTUxTeG9xemhtb1dNQUJUSVpZOHFveTl1c0h3a05OTEk4ZFJLTTBlaw?oc=5"
           },
           {
-            "title": "Acutaas Chemicals - 11 stocks that recorded profit margins above 10% for 4 straight quarters; surge up to 120% - The Economic Times",
-            "source": "The Economic Times",
-            "published": "Thu, 10 Sep 2026 07:00:00 GMT",
-            "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxNcC1XRWRDeWV0UDdpQnYtd05nTkpEVmdKcEs5dXhyeWF3UGVSZnN0XzIzendrVDQ1MUV4U2lUVC1GZzZkSmlIazJaWVg1aXVmOGl0MkpwRm5CWnloMlo4MkRsVDJ6bHBLbU01YkxoeFl0UGtrSnNnV0d0Y2xhMVRyVUlxMHdTdUhXNnZlbTdBRFFkZWEzNXJMcWthR3RNWnpId19vdGxkdkdnQS1pRHlEOW85Y2JJdmxjMlp5Yjc1X19kcDVjazlDbWtSY1NwU0pETnhKcHBHMW1nSTMwQkVHMGR2MnpXYlVmZUtTZTNoa3NzX3U5MTIzZDhxVWVKdkJyUWF6eGpkUVc?oc=5"
+            "title": "POLICYBZR Forecast — Price Target — Prediction for 2027 - TradingView",
+            "source": "TradingView",
+            "published": "Thu, 25 Jun 2026 14:59:43 GMT",
+            "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5ybzk5VGJEdFE0Qll3VXhZMWQ5eE95LVRMTFZzNXVQZnJKRGJ4Z2FrQ3g2OV83SFpsbWZNY2g3NEpFdU95cXNLTlNIUGJsWUFqMDNHckt3ZEk0ZE1yZ1BSWkVPUTlSOEd2VEotbnN2Wnp3Njl3bnYxUzcxQjk?oc=5"
           },
           {
-            "title": "Acutaas Chemicals vs Nifty 50: Share Price Performance Compared - Univest",
-            "source": "Univest",
-            "published": "Mon, 07 Sep 2026 07:00:00 GMT",
-            "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPaEdJY0hIYkJTM1ZJZDI3Q2JrenlkdEoySWFtYVlPeER6aWVnQ1J4dnlSSjVWUnpHY1QzN0pTVWxYVXhSYmIyTzZyVThtQzVkaXEwN19EVy00bUh5Nk5RRlpGQ0ZHekRTUnR1N3dSdW9way1FYV9fV0RmX0V0djNfbmFydTk?oc=5"
-          },
-          {
-            "title": "Acutaas Chemicals: The One Stock Winning Bear Market With 'Battery Blood' - ndtvprofit.com",
-            "source": "ndtvprofit.com",
-            "published": "Wed, 01 Apr 2026 07:00:00 GMT",
-            "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPZWJMNDlUZEU2QUZCNE1ZSXd4ZWc5NlFRNmo4V25yY2tQOHhTcllmUnYtUnlMQUZabHdRWWRMZG8zYVdFOHA4bzRRcUdzMV9udmw5cnN4c1JKc3VieE5vT2ZZNGFSUzhwbmxQOEZuNkd3bFRjNmRHbm1tOGhlU19LWE9PNHlBS2E3dGc5OHRPX1RXY0RMRlI4eUJnV3RjU1JjLXRxN1N0SWI1SjBLYllzSEFFYl_SAbwBQVVfeXFMT0p0SkxjT2V1UC1vcWNqVm9taXZMeTZNOERkN1dQUDNGUWY0ZkJnMW80TndIU3hUZnI5aVRVOTdZTUhnZ282aVNBMzhiMUJOSVZtWS03RFRBZGk2al8tTUZQUDlCZVBmaHlGenlka1hXLVkwUmlpbXpjSXZNcDBUcTVzcUJSd0ZFNkctTjNrMmRycFdZUl9Ra0RQeGptRVNiMWhhWmk2NFNnQXA4bWtSSExGb1RjUjVEVXFVMWU?oc=5"
-          },
-          {
-            "title": "Ami Organics Share Price - Live NSE: ACUTAAS Stock Price & Chart - Upstox",
-            "source": "Upstox",
-            "published": "Sat, 22 Nov 2025 15:35:35 GMT",
-            "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9ETjJsSTkza2ZoZF82S0Rocy0tclBLVVJaTGJtM04tV0JObHp3aU9PdE5vRVZabENxY05LVkF2UzU5MUl0Z3ljNHRlLV9wbmJ4czVHSDZRbk9YbWpERDBmXzZ0ZXBsRUlGOWd5QllCdGMtZw?oc=5"
+            "title": "PB Fintech Ltd Share Price, Stock Price - NSE/BSE Live - NDTV Profit",
+            "source": "NDTV Profit",
+            "published": "Wed, 20 May 2026 15:28:22 GMT",
+            "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBDaTdtZnhwbXpvaWp4T2xiNlU5b19aWElkWk9NY3lFRk4tRnVROU0zaDM1Wm1fZlB4VTdYRjRaeU4zQUoyUWc3M3NpUF8xUVpHMHl6U3Itd3FoQ2xIVW13QThMR0dnVzFCa0NLR1dqQ1JVb09hZEJvM0hn?oc=5"
           }
         ]
       },
       "fundamentals": {
-        "symbol": "ACUTAAS",
-        "market_cap_cr": 26733.0,
-        "trailing_pe": 69.5908,
-        "forward_pe": 44.485756,
-        "price_to_book": 16.17036,
+        "symbol": "POLICYBZR",
+        "market_cap_cr": 55785.0,
+        "trailing_pe": 74.426636,
+        "forward_pe": 35.954765,
+        "price_to_book": 7.6301236,
         "roe_pct": null,
-        "debt_to_equity": 2.081,
-        "revenue_growth_pct": 59.1,
-        "earnings_growth_pct": 67.1,
-        "operating_margin_pct": 31.32,
-        "profit_margin_pct": 26.42,
-        "promoter_holding_pct": 38.31,
-        "institutional_holding_pct": 29.72,
-        "dividend_yield_pct": 0.08,
+        "debt_to_equity": 4.922,
+        "revenue_growth_pct": 40.1,
+        "earnings_growth_pct": 92.3,
+        "operating_margin_pct": 5.25,
+        "profit_margin_pct": 10.2,
+        "promoter_holding_pct": 24.43,
+        "institutional_holding_pct": 59.44,
+        "dividend_yield_pct": null,
         "current_ratio": null,
-        "beta": 0.024,
-        "target_mean": 3316.2222,
-        "target_low": 1783.0,
-        "target_high": 4001.0,
-        "analyst_count": 9,
-        "current_price": 3265.2,
-        "business_summary": "Acutaas Chemicals Limited engages in the research and development, manufacture, and sale of pharmaceutical intermediates in India and internationally. The company offers pharma intermediates for use in regulated and generic active pharmaceutical ingredients, as well as new chemical entities. It also provides specialty chemicals, including photoresist chemicals for semiconductor applications; electrolyte additives for lithium battery cells; and parabens, methyl salicylate, and other commodity chemicals for cosmetics, agrochemicals, and fine chemicals. The company was formerly known as Ami Organics Limited and changed its name to Acutaas Chemicals Limited in May 2025. Acutaas Chemicals Limited was founded in 2004 and is based in Surat, India."
+        "beta": 0.397,
+        "target_mean": 1968.48,
+        "target_low": 1390.0,
+        "target_high": 2500.0,
+        "analyst_count": 25,
+        "current_price": 1207.2,
+        "business_summary": "PB Fintech Limited operates an online marketplace for insurance and lending products in India and the United Arab Emirates. It operates through two segments, Insurance Services and Other Services. The company offers Policybazaar that enables consumers to compare, evaluate, and apply for insurance products, such as term, life, health, car, 2 wheeler, family health, travel, and home insurance products, as well as investment, guaranteed return, child savings, and retirement plans. It also provides Paisabazaar, which facilitates access to lending and personal credit products. In addition, the company offers online healthcare related services; insurance broking services; support services for motor vehicle claims and related assistance; account aggregation services; online marketing and sales consulting services; and information technology and related services. Further, the company engages in the operation of call center; online comparison, sale, and online, offline, and direct marketing of financial products; and payment aggregator, payment gateway services, payment facilitation activities by offline and a digital payment acceptance. PB Fintech Limited was incorporated in 2008 and is based in Gurugram, India."
       },
       "benchmark": {
-        "industry": "Healthcare",
-        "peers": 47,
-        "trailing_pe": 47.72,
-        "price_to_book": 6.64,
-        "roe_pct": 8.84,
-        "debt_to_equity": 18.61,
+        "industry": "Financial Services",
+        "peers": 100,
+        "trailing_pe": 22.1,
+        "price_to_book": 2.55,
+        "roe_pct": 13.7,
+        "debt_to_equity": 165.8,
         "revenue_growth_pct": 19.6,
-        "profit_margin_pct": 14.31
+        "profit_margin_pct": 32.64
       },
       "scorecard": {
         "factors": [
           {
             "name": "Trailing P/E",
-            "value": "69.6",
-            "peer_value": "47.7",
+            "value": "74.4",
+            "peer_value": "22.1",
             "stance": "bear",
             "note": "More expensive than the typical peer, so more of the growth is already priced in."
           },
           {
             "name": "Price / Book",
-            "value": "16.2",
-            "peer_value": "6.6",
+            "value": "7.6",
+            "peer_value": "2.5",
             "stance": "bear",
             "note": "Trades at a premium to peer book value."
           },
           {
             "name": "Return on Equity",
             "value": "n/a",
-            "peer_value": "8.8%",
+            "peer_value": "13.7%",
             "stance": "unknown",
             "note": "Not reported by the data source."
           },
           {
             "name": "Debt / Equity",
-            "value": "2.1",
-            "peer_value": "18.6",
+            "value": "4.9",
+            "peer_value": "165.8",
             "stance": "bull",
             "note": "Carries less leverage than peers, so less earnings risk if rates rise."
           },
           {
             "name": "Revenue growth (yoy)",
-            "value": "59.1%",
+            "value": "40.1%",
             "peer_value": "19.6%",
             "stance": "bull",
             "note": "Growing the top line faster than the sector."
           },
           {
             "name": "Net margin",
-            "value": "26.4%",
-            "peer_value": "14.3%",
-            "stance": "bull",
-            "note": "Keeps more of every rupee of revenue than peers."
-          }
-        ],
-        "bull_case": [
-          "Debt / Equity 2.1 vs sector 18.6. Carries less leverage than peers, so less earnings risk if rates rise.",
-          "Revenue growth (yoy) 59.1% vs sector 19.6%. Growing the top line faster than the sector.",
-          "Net margin 26.4% vs sector 14.3%. Keeps more of every rupee of revenue than peers.",
-          "Earnings grew 67% year on year, which is what has to keep happening for a re-rating to hold.",
-          "9 analysts publish a mean target of 3316, 2% above the current price."
-        ],
-        "bear_case": [
-          "Trailing P/E 69.6 vs sector 47.7. More expensive than the typical peer, so more of the growth is already priced in.",
-          "Price / Book 16.2 vs sector 6.6. Trades at a premium to peer book value."
-        ],
-        "invalidators": [
-          "Two consecutive quarters of revenue or margin decline would remove the growth premise this rests on.",
-          "The stock is already up 122% over a year; that pace normally needs earnings to catch up, or the multiple contracts.",
-          "A promoter pledge increase or a fresh exchange surveillance action would change the risk profile regardless of the fundamentals."
-        ],
-        "data_gaps": [
-          "Return on Equity unavailable"
-        ],
-        "bull_count": 3,
-        "bear_count": 2
-      },
-      "research_prompt": "I'm a long-term retail investor in Indian equities (NSE). My screener flagged Acutaas Chemicals Ltd. (ACUTAAS) because it gained at least 3% on each of 1 consecutive sessions. I want your independent read - please push back on my screener rather than agreeing with it.\n\n## What my screener measured\n\n- Streak: 2026-09-22 to 2026-09-22, -6.2% cumulative\n- Daily gains: 2026-09-22 -6.19%\n- Last close: Rs 3,213.70\n- Sector: Healthcare\n- Median 20-day turnover: Rs 80.2 crore\n- Volume vs 20-day median: 2.0x\n- Distance from 52-week high: -13.0%\n- Return 1M / 3M / 1Y: 1.4% / -2.5% / 121.8%\n\n## Attribution my engine computed\n\n- Verdict: company_catalyst - Company-specific - investor communication disclosed to the exchange\n- Stock over the window: -6.2%\n- Sector median over the same window: -0.6%\n- Excess vs sector: -5.5 pp\n- Broad market median: -0.4%\n\n### NSE filings in the window\n\n- 2026-09-22 [catalyst] Analysts/Institutional Investor Meet/Con. Call Updates - Investor communication\n  Acutaas Chemicals Limited has informed the Exchange about Schedule of meet\n- 2026-09-22 [neutral] Trading Window - Routine or administrative disclosure\n  Acutaas Chemicals Limited has informed the Exchange regarding the Trading Window closure pursuant to SEBI (Prohibition of Insider Trading) Regulations, 2015\n\n### Recent headlines (unverified, from Google News)\n\n- Acutaas Chemicals drops 7% despite 70% jump in Q1 PAT; stock up 180% in 1yr - Business Standard\n- We Ran A Stock Scan For Earnings Growth And Acutaas Chemicals (NSE:ACUTAAS) Passed With Ease - simplywall.st\n- Acutaas Chemicals - 11 stocks that recorded profit margins above 10% for 4 straight quarters; surge up to 120% - The Economic Times\n- Acutaas Chemicals vs Nifty 50: Share Price Performance Compared - Univest\n- Acutaas Chemicals: The One Stock Winning Bear Market With 'Battery Blood' - ndtvprofit.com\n- Ami Organics Share Price - Live NSE: ACUTAAS Stock Price & Chart - Upstox\n\n## Fundamentals\n\n- Market cap: Rs 26,733 crore\n- Trailing P/E: 69.5908\n- Forward P/E: 44.485756\n- Price/Book: 16.17036\n- Debt/Equity: 2.081\n- Revenue growth (yoy): 59.1%\n- Earnings growth (yoy): 67.1%\n- Operating margin: 31.32%\n- Net margin: 26.42%\n- Promoter holding: 38.31%\n- Institutional holding: 29.72%\n- Dividend yield: 0.08%\n- Analyst count: 9\n- Mean target price: 3316.2222\n\n### Sector medians (Healthcare, 47 Nifty 500 peers)\n\n- Trailing P/E: 47.72\n- Price/Book: 6.64\n- Return on equity: 8.84%\n- Debt/Equity: 18.61\n- Revenue growth: 19.6%\n- Net margin: 14.31%\n\n### Data my engine could not get\n\n- Return on Equity unavailable\n\n## What I want from you\n\n1. **Why did it actually move?** My engine only sees exchange filings and price action. Check whether there is a real catalyst it missed - sector news, a peer's results, a policy change, an index inclusion, a block deal.\n2. **Is my engine's attribution wrong?** Say so directly if the evidence points elsewhere.\n3. **The one-year view.** Build a bull case and a bear case from the business, not from the chart. What has to be true for this to work, and what would break it? Be concrete about which numbers to watch.\n4. **What would you check that I have not?** Name the specific filings, segments or metrics.\n\nPlease flag anything above that looks stale or wrong, and tell me plainly if this looks like a speculative move rather than an investable one. I am not asking you to tell me whether to buy - I want the reasoning so I can decide."
-    },
-    {
-      "symbol": "KAYNES",
-      "name": "Kaynes Technology India Ltd.",
-      "industry": "Capital Goods",
-      "isin": "INE918Z01012",
-      "last_close": 3455.0,
-      "cumulative_pct": -5.34,
-      "start_date": "2026-09-22",
-      "end_date": "2026-09-22",
-      "is_current": true,
-      "median_turnover_cr": 368.4,
-      "volume_ratio": 3.06,
-      "pct_from_52w_high": -54.5,
-      "returns": {
-        "m1": -10.0,
-        "m3": 5.8,
-        "y1": -52.3
-      },
-      "days": [
-        {
-          "date": "2026-09-22",
-          "close": 3455.0,
-          "gain_pct": -5.34,
-          "volume": 3022938
-        }
-      ],
-      "attribution": {
-        "verdict": "company_catalyst",
-        "headline": "Company-specific - investor communication disclosed to the exchange",
-        "explanation": [
-          "The stock fell -5.3% over the session 2026-09-22.",
-          "Its sector (Capital Goods) moved -0.5% over the same window, with 32% of its 63 Nifty 500 members advancing on the last session.",
-          "The broad market (median of 500 Nifty 500 names) moved -0.4% over the window, with 39% advancing on the last session.",
-          "The stock lagged its sector by 4.8 percentage points, so the move is company-specific rather than sector-wide.",
-          "NSE filing 2026-09-18 17:10 - Investor communication: Analysts/Institutional Investor Meet/Con. Call Updates.",
-          "Volume ran 3.1x its 20-day median, so real institutional-scale money participated rather than thin-book drift."
-        ],
-        "stock_streak_pct": -5.34,
-        "sector_streak_pct": -0.54,
-        "market_streak_pct": -0.39,
-        "excess_vs_sector_pct": -4.8,
-        "sector_breadth_pct": 32.0,
-        "volume_ratio": 3.06,
-        "cautions": [],
-        "filings": [
-          {
-            "date": "2026-09-23",
-            "time": "17:24",
-            "category": "Trading Window",
-            "summary": "Kaynes Technology India Limited has informed the Exchange regarding the Trading Window closure pursuant to SEBI (Prohibition of Insider Trading) Regulations, 2015",
-            "pdf_url": "https://nsearchives.nseindia.com/corporate/KAYNESTECH_23092026172406_TradingwindowQ227.pdf",
-            "bucket": "neutral",
-            "label": "Routine or administrative disclosure"
-          },
-          {
-            "date": "2026-09-21",
-            "time": "14:49",
-            "category": "Shareholders meeting",
-            "summary": "Kaynes Technology India Limited has submitted the Exchange a copy Srutinizers report of  Annual General Meeting held on September 17, 2026. Further, the company has informed the Exchange regarding voting results.",
-            "pdf_url": "https://nsearchives.nseindia.com/corporate/KAYNESTECH_21092026144848_ScrutinizersReport210926.pdf",
-            "bucket": "neutral",
-            "label": "Routine or administrative disclosure"
-          },
-          {
-            "date": "2026-09-18",
-            "time": "17:10",
-            "category": "Analysts/Institutional Investor Meet/Con. Call Updates",
-            "summary": "Kaynes Technology India Limited has informed the Exchange about Schedule of meet",
-            "pdf_url": "https://nsearchives.nseindia.com/corporate/KAYNESTECH_18092026171008_InvestormeetSanand.pdf",
-            "bucket": "catalyst",
-            "label": "Investor communication"
-          }
-        ],
-        "headlines": [
-          {
-            "title": "Kaynes Technology India Ltd. Share Price Today: Up 3.38% - Univest",
-            "source": "Univest",
-            "published": "Wed, 19 Aug 2026 07:00:00 GMT",
-            "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQMUZlYjNITmlUamNUdjJuWnlseGh5bklCSi02T0ZBb01VVW5tTDZ6djdHOGNZcktoaHotRXZjNkl0Rk8wLWNUZVJfSHVWZ2dLT0JrZk1Eb0NIdHo2Q0hCaDczek9Kd0RNVVlBNHJpMXI0enlPOHRYeUZVbF9TNU5VdGs4aTlOU1BGMlJfZw?oc=5"
-          },
-          {
-            "title": "Kaynes Tech shares fall up to 5% as Investec raises balance sheet concerns - Moneycontrol.com",
-            "source": "Moneycontrol.com",
-            "published": "Mon, 31 Aug 2026 07:00:00 GMT",
-            "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNRWJzOUxuQWRxYWlkWkxvaG5kMVhhYWprSDlZcHl3UE1ROGJNb2FXdmRpSk0tWm5RbmhteE9TbVo4TmQ1ejBad1RCcWVhOFlEbTVxZ1o4U0tJVEZtNFFUU2xxaWdBbVgxZXFrSndadXliS1BUVDRvUFVSRmVCWjNUV0F4RGdJTEs4SVFwQmFYN3g5eXJCV3dZWUZ4akVXZXdacHVxaU1lMjNlb3RWX2dHeHhiVGN0Y2hBbGNKUUQtTlRyMUowZlVtWTlQaDZ1WUQ2UEZpVNIB2gFBVV95cUxOSE5rSFUya3hFeDFLU2tiRmR1LU9yc1lvM2JQdFV1LUhYRXNDSTUxeHQwXzFfMk9fa2xZNWo3WlFETWZDd2xSYzZ2VzFSVl9zRWxDYlRMeXM4YlpzRUVVUWVkM2V0dFI1SzJHXzk1VDhXbTZOcUpkajNHSDV4S05XS3M3QUxxTXB0WDFhcl9ydWItVjBjXzdmNzc4UWFKUzI4UllOZGV0dU52cDNFZUJfSzBBUk84MVRuUEI0S21RVEpVLU5RT1NrYWRwUC1lekJJMF9YejB2ajluQQ?oc=5"
-          },
-          {
-            "title": "Concerns Surrounding Kaynes Technology India's (NSE:KAYNES) Performance - simplywall.st",
-            "source": "simplywall.st",
-            "published": "Wed, 20 May 2026 07:00:00 GMT",
-            "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQRXpjMlUzSHNJRzlBcVEtVTFmbndBYkU1OWFkVkhhM1JXR2dyY3FuLVdDS3NtOE10UUxjRjFyMndSQmJuX1N5TU9pazNTakJrNndPd2J5SnZrV3otVXMzbEhIU0FYUF9zUmIwbktlS2pMcE81djUzT2J2VzdDUnZfLXRJTjVaQkVKQ1BNcmw0MU5SUURSWk9BTU9BMWs2d05kSENEcXJMWGpteEdqbkxSUW5EbjliQlVNNFl3MUprMHRuZUxHMlRzYzAxcGM4S29RYVVYYmNCSDNTaTk00gHiAUFVX3lxTFBibVFaZ0VheTg4YkpiN041TXA3VWo3NkJSWVpsTVMtVHFHT0tWRktfVU1YSzlwbDhFU0Z4eXN1RDhfQU1pWEJiR2pJampJWk9Yd1ZqRnNoNHNzdFVpX2hReHFUWG0zU1Y1ZlRSWXRQOVRUeEZDN0VvaWE5Z1RSQTlKWHZ6a3ZNWWtBa0YtVk5BSERBWUYzZnFueU8xdEptYVBvc25heEJYaWNILTdDZE5OTGViTVROZ0EtSm5kREVET1FCcVNQckdXQlVwQWVKa01VQWNFLWFCb1cwRGVpTVZWT3c?oc=5"
-          },
-          {
-            "title": "KAYNES Forecast — Price Target — Prediction for 2027 - TradingView",
-            "source": "TradingView",
-            "published": "Thu, 25 Jun 2026 12:38:48 GMT",
-            "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1xMGx0WWNWQzk2bS1LUEtPTWctMU1XSTJ0SVNWdk01b3hkR21GMzR5QnREY3VRY0ZlNzBSaVFNOVh1ZjgzVm9BTnpiNzU2TGN3bjdVOUo2VzFBbks5MUltQjJZTFNCXzY1ZF9qa3NSVVBiVngwVlE0RQ?oc=5"
-          },
-          {
-            "title": "Kaynes Technology Shares Surge 13% as Company Plans Semiconductor Supply Chain Expansion Under ISM 2.0 - India Infoline",
-            "source": "India Infoline",
-            "published": "Wed, 29 Jul 2026 07:00:00 GMT",
-            "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNV2VZUF9Xa1B6czd2YkhxbUFWRGNpQnNzdTR1d0RNakF0YzQ4VkhiODhfYm9nbGFqRFB4RkRvdkdvYkNUbTNTc2psQ2RRSEVmWEJVc1Y5RXJDbGVJNmswTF9lSEU0VVFmWXVrVTJsazJPUnBVRXJzRzJiMFlMZVpYdzNrdWlOYkJaNC1DZlhXQmV4bmNjeFhyUUhUQ3FIc0dnSHZXa1Raby1yQjlDaDFfeXVVWGxSN1ZMMHNXNjZuREdZM2hoTm92dC00V1ZudGhNTWxqV3d4dWl6cjRkUGxN?oc=5"
-          },
-          {
-            "title": "Kaynes Technology Stock Extends Gain for Second Day, Jumps near 3%. Here's Why - ndtvprofit.com",
-            "source": "ndtvprofit.com",
-            "published": "Wed, 19 Aug 2026 07:00:00 GMT",
-            "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPdDZzVUZNNWF1YjBYc0xhM1ZFV1FXa0NyM001MGhUYkM4Z28xaVdUWHdJQURVdHNVYjJDM1FQbkxmcUFlNjhYakhMQWQzYWN1RklVU1lMeXgzaXpjVkFBdzZuY1ZobEp5LXo1UVVyNDkzSDk2Z1NQcDlWVzBpQzZxUzlXUmgxOGZUTmRxWktFR3pnZGJkTUg4RlBQS3BEeFNRbVV1YmpXNDNjNTExeHRWUU02TEpfTTBS0gHAAUFVX3lxTE53VHpRZkdDdjJqdG1oWjVqZVBEUEpQV2tJV2M2cHROVTkwMzlGSU9mWnlXT1FLZE9pSXlaVFZOYkpFWWNScGREaGp6QXVENi1aNTE4UnVIRS15alNtOVBXaTVCSzRodUdYVEZjdkpwQzRsUlF4V1BpWkMtOHBVZnN6bVpFbWY3WENGTE5KNXp4YWZ2X0tzOWZuVHRnaFUyNzR4bzVkX0loQ1VpLWpQNjhYVDcza0FXZTVpbS1xdEFqeg?oc=5"
-          }
-        ]
-      },
-      "fundamentals": {
-        "symbol": "KAYNES",
-        "market_cap_cr": 23246.0,
-        "trailing_pe": 67.63152,
-        "forward_pe": 38.47008,
-        "price_to_book": 4.987488,
-        "roe_pct": null,
-        "debt_to_equity": 19.168,
-        "revenue_growth_pct": 40.5,
-        "earnings_growth_pct": -0.4,
-        "operating_margin_pct": 11.69,
-        "profit_margin_pct": 8.87,
-        "promoter_holding_pct": 54.91,
-        "institutional_holding_pct": 15.74,
-        "dividend_yield_pct": null,
-        "current_ratio": null,
-        "beta": -0.16,
-        "target_mean": 3715.261,
-        "target_low": 2790.0,
-        "target_high": 5000.0,
-        "analyst_count": 23,
-        "current_price": 3458.0,
-        "business_summary": "Kaynes Technology India Limited designs, manufactures, and sells electronic modules and solutions in India and internationally. It provides conceptual design, process engineering, integrated manufacturing, and life cycle support for various industries including automotive, industrial, aerospace and defence, outer-space, medical, railways, internet of things, information technology, and other industries. Kaynes Technology India Limited was founded in 1988 and is based in Mysore, India."
-      },
-      "benchmark": {
-        "industry": "Capital Goods",
-        "peers": 62,
-        "trailing_pe": 49.57,
-        "price_to_book": 8.06,
-        "roe_pct": 25.55,
-        "debt_to_equity": 8.76,
-        "revenue_growth_pct": 19.25,
-        "profit_margin_pct": 11.04
-      },
-      "scorecard": {
-        "factors": [
-          {
-            "name": "Trailing P/E",
-            "value": "67.6",
-            "peer_value": "49.6",
-            "stance": "bear",
-            "note": "More expensive than the typical peer, so more of the growth is already priced in."
-          },
-          {
-            "name": "Price / Book",
-            "value": "5.0",
-            "peer_value": "8.1",
-            "stance": "bull",
-            "note": "Trades at a lower multiple of book value than peers."
-          },
-          {
-            "name": "Return on Equity",
-            "value": "n/a",
-            "peer_value": "25.6%",
-            "stance": "unknown",
-            "note": "Not reported by the data source."
-          },
-          {
-            "name": "Debt / Equity",
-            "value": "19.2",
-            "peer_value": "8.8",
-            "stance": "bear",
-            "note": "More leveraged than peers, which amplifies any downturn."
-          },
-          {
-            "name": "Revenue growth (yoy)",
-            "value": "40.5%",
-            "peer_value": "19.2%",
-            "stance": "bull",
-            "note": "Growing the top line faster than the sector."
-          },
-          {
-            "name": "Net margin",
-            "value": "8.9%",
-            "peer_value": "11.0%",
+            "value": "10.2%",
+            "peer_value": "32.6%",
             "stance": "bear",
             "note": "Thinner margins than peers."
           }
         ],
         "bull_case": [
-          "Price / Book 5.0 vs sector 8.1. Trades at a lower multiple of book value than peers.",
-          "Revenue growth (yoy) 40.5% vs sector 19.2%. Growing the top line faster than the sector.",
-          "Promoters hold 55%, so their interests stay tied to the share price.",
-          "23 analysts publish a mean target of 3715, 7% above the current price.",
-          "Still 54% below its 52-week high, leaving recovery room if the business itself is intact."
+          "Debt / Equity 4.9 vs sector 165.8. Carries less leverage than peers, so less earnings risk if rates rise.",
+          "Revenue growth (yoy) 40.1% vs sector 19.6%. Growing the top line faster than the sector.",
+          "Earnings grew 92% year on year, which is what has to keep happening for a re-rating to hold.",
+          "25 analysts publish a mean target of 1968, 63% above the current price.",
+          "Still 38% below its 52-week high, leaving recovery room if the business itself is intact."
         ],
         "bear_case": [
-          "Trailing P/E 67.6 vs sector 49.6. More expensive than the typical peer, so more of the growth is already priced in.",
-          "Debt / Equity 19.2 vs sector 8.8. More leveraged than peers, which amplifies any downturn.",
-          "Net margin 8.9% vs sector 11.0%. Thinner margins than peers.",
-          "Earnings fell 0% year on year, so the price move is running ahead of profits."
+          "Trailing P/E 74.4 vs sector 22.1. More expensive than the typical peer, so more of the growth is already priced in.",
+          "Price / Book 7.6 vs sector 2.5. Trades at a premium to peer book value.",
+          "Net margin 10.2% vs sector 32.6%. Thinner margins than peers.",
+          "Promoter holding is only 24%, which offers little downside alignment and leaves control contestable."
         ],
         "invalidators": [
           "Two consecutive quarters of revenue or margin decline would remove the growth premise this rests on.",
+          "Trading at a large premium to the sector - any earnings miss tends to be punished harder from a premium multiple.",
           "A promoter pledge increase or a fresh exchange surveillance action would change the risk profile regardless of the fundamentals."
         ],
         "data_gaps": [
@@ -1459,7 +1012,380 @@
         "bull_count": 2,
         "bear_count": 3
       },
-      "research_prompt": "I'm a long-term retail investor in Indian equities (NSE). My screener flagged Kaynes Technology India Ltd. (KAYNES) because it gained at least 3% on each of 1 consecutive sessions. I want your independent read - please push back on my screener rather than agreeing with it.\n\n## What my screener measured\n\n- Streak: 2026-09-22 to 2026-09-22, -5.3% cumulative\n- Daily gains: 2026-09-22 -5.34%\n- Last close: Rs 3,455.00\n- Sector: Capital Goods\n- Median 20-day turnover: Rs 368.4 crore\n- Volume vs 20-day median: 3.06x\n- Distance from 52-week high: -54.5%\n- Return 1M / 3M / 1Y: -10.0% / 5.8% / -52.3%\n\n## Attribution my engine computed\n\n- Verdict: company_catalyst - Company-specific - investor communication disclosed to the exchange\n- Stock over the window: -5.3%\n- Sector median over the same window: -0.5%\n- Excess vs sector: -4.8 pp\n- Broad market median: -0.4%\n\n### NSE filings in the window\n\n- 2026-09-23 [neutral] Trading Window - Routine or administrative disclosure\n  Kaynes Technology India Limited has informed the Exchange regarding the Trading Window closure pursuant to SEBI (Prohibition of Insider Trading) Regulations, 2015\n- 2026-09-21 [neutral] Shareholders meeting - Routine or administrative disclosure\n  Kaynes Technology India Limited has submitted the Exchange a copy Srutinizers report of  Annual General Meeting held on September 17, 2026. Further, the company has informed the Ex\n- 2026-09-18 [catalyst] Analysts/Institutional Investor Meet/Con. Call Updates - Investor communication\n  Kaynes Technology India Limited has informed the Exchange about Schedule of meet\n\n### Recent headlines (unverified, from Google News)\n\n- Kaynes Technology India Ltd. Share Price Today: Up 3.38% - Univest\n- Kaynes Tech shares fall up to 5% as Investec raises balance sheet concerns - Moneycontrol.com\n- Concerns Surrounding Kaynes Technology India's (NSE:KAYNES) Performance - simplywall.st\n- KAYNES Forecast — Price Target — Prediction for 2027 - TradingView\n- Kaynes Technology Shares Surge 13% as Company Plans Semiconductor Supply Chain Expansion Under ISM 2.0 - India Infoline\n- Kaynes Technology Stock Extends Gain for Second Day, Jumps near 3%. Here's Why - ndtvprofit.com\n\n## Fundamentals\n\n- Market cap: Rs 23,246 crore\n- Trailing P/E: 67.63152\n- Forward P/E: 38.47008\n- Price/Book: 4.987488\n- Debt/Equity: 19.168\n- Revenue growth (yoy): 40.5%\n- Earnings growth (yoy): -0.4%\n- Operating margin: 11.69%\n- Net margin: 8.87%\n- Promoter holding: 54.91%\n- Institutional holding: 15.74%\n- Analyst count: 23\n- Mean target price: 3715.261\n\n### Sector medians (Capital Goods, 62 Nifty 500 peers)\n\n- Trailing P/E: 49.57\n- Price/Book: 8.06\n- Return on equity: 25.55%\n- Debt/Equity: 8.76\n- Revenue growth: 19.25%\n- Net margin: 11.04%\n\n### Data my engine could not get\n\n- Return on Equity unavailable\n\n## What I want from you\n\n1. **Why did it actually move?** My engine only sees exchange filings and price action. Check whether there is a real catalyst it missed - sector news, a peer's results, a policy change, an index inclusion, a block deal.\n2. **Is my engine's attribution wrong?** Say so directly if the evidence points elsewhere.\n3. **The one-year view.** Build a bull case and a bear case from the business, not from the chart. What has to be true for this to work, and what would break it? Be concrete about which numbers to watch.\n4. **What would you check that I have not?** Name the specific filings, segments or metrics.\n\nPlease flag anything above that looks stale or wrong, and tell me plainly if this looks like a speculative move rather than an investable one. I am not asking you to tell me whether to buy - I want the reasoning so I can decide."
+      "research_prompt": "I'm a long-term retail investor in Indian equities (NSE). My screener flagged PB Fintech Ltd. (POLICYBZR) because it gained at least 3% on each of 1 consecutive sessions. I want your independent read - please push back on my screener rather than agreeing with it.\n\n## What my screener measured\n\n- Streak: 2026-09-24 to 2026-09-24, -36.0% cumulative\n- Daily gains: 2026-09-24 -36.00%\n- Last close: Rs 1,207.20\n- Sector: Financial Services\n- Median 20-day turnover: Rs 178.5 crore\n- Volume vs 20-day median: 28.14x\n- Distance from 52-week high: -38.3%\n- Return 1M / 3M / 1Y: -34.4% / -25.6% / -30.4%\n\n## Attribution my engine computed\n\n- Verdict: company_catalyst - Company-specific - investor communication disclosed to the exchange\n- Stock over the window: -36.0%\n- Sector median over the same window: -2.0%\n- Excess vs sector: -34.0 pp\n- Broad market median: -1.4%\n\n### NSE filings in the window\n\n- 2026-09-24 [catalyst] Analysts/Institutional Investor Meet/Con. Call Updates - Investor communication\n  PB Fintech Limited has informed the Exchange about Schedule of analyst meet\n\n### Recent headlines (unverified, from Google News)\n\n- PB Fintech shares crack 34% to hit 52-week low after Irdai consultation paper; more pain ahead? - Business Today\n- PB Fintech crashes 36%, Turtlemint 20% as IRDAI proposes new insurance distribution rules - upstox.com\n- PB Fintech shares fall 23%; Bajaj Finance, L&T Finance also take hit; here's why - Business Today\n- Why We're Not Concerned About PB Fintech Limited's (NSE:POLICYBZR) Share Price - simplywall.st\n- POLICYBZR Forecast — Price Target — Prediction for 2027 - TradingView\n- PB Fintech Ltd Share Price, Stock Price - NSE/BSE Live - NDTV Profit\n\n## Fundamentals\n\n- Market cap: Rs 55,785 crore\n- Trailing P/E: 74.426636\n- Forward P/E: 35.954765\n- Price/Book: 7.6301236\n- Debt/Equity: 4.922\n- Revenue growth (yoy): 40.1%\n- Earnings growth (yoy): 92.3%\n- Operating margin: 5.25%\n- Net margin: 10.2%\n- Promoter holding: 24.43%\n- Institutional holding: 59.44%\n- Analyst count: 25\n- Mean target price: 1968.48\n\n### Sector medians (Financial Services, 100 Nifty 500 peers)\n\n- Trailing P/E: 22.1\n- Price/Book: 2.55\n- Return on equity: 13.7%\n- Debt/Equity: 165.8\n- Revenue growth: 19.6%\n- Net margin: 32.64%\n\n### Data my engine could not get\n\n- Return on Equity unavailable\n\n## What I want from you\n\n1. **Why did it actually move?** My engine only sees exchange filings and price action. Check whether there is a real catalyst it missed - sector news, a peer's results, a policy change, an index inclusion, a block deal.\n2. **Is my engine's attribution wrong?** Say so directly if the evidence points elsewhere.\n3. **The one-year view.** Build a bull case and a bear case from the business, not from the chart. What has to be true for this to work, and what would break it? Be concrete about which numbers to watch.\n4. **What would you check that I have not?** Name the specific filings, segments or metrics.\n\nPlease flag anything above that looks stale or wrong, and tell me plainly if this looks like a speculative move rather than an investable one. I am not asking you to tell me whether to buy - I want the reasoning so I can decide."
+    },
+    {
+      "symbol": "MFSL",
+      "name": "Max Financial Services Ltd.",
+      "industry": "Financial Services",
+      "isin": "INE180A01020",
+      "last_close": 1410.0,
+      "cumulative_pct": -9.78,
+      "start_date": "2026-09-24",
+      "end_date": "2026-09-24",
+      "is_current": true,
+      "median_turnover_cr": 81.0,
+      "volume_ratio": 21.2,
+      "pct_from_52w_high": -24.6,
+      "returns": {
+        "m1": -11.9,
+        "m3": -12.0,
+        "y1": -9.9
+      },
+      "days": [
+        {
+          "date": "2026-09-24",
+          "close": 1410.0,
+          "gain_pct": -9.78,
+          "volume": 11421538
+        }
+      ],
+      "attribution": {
+        "verdict": "unexplained",
+        "headline": "Company-specific, but nothing disclosed to explain it",
+        "explanation": [
+          "The stock fell -9.8% over the session 2026-09-24.",
+          "Its sector (Financial Services) moved -2.0% over the same window, with 7% of its 101 Nifty 500 members advancing on the last session.",
+          "The broad market (median of 500 Nifty 500 names) moved -1.4% over the window, with 14% advancing on the last session.",
+          "The stock lagged its sector by 7.8 percentage points, yet filed no disclosure in the window that would account for it.",
+          "An unexplained move away from the sector is worth more caution, not less - it can reflect speculation, a leaked development, or an operator-driven move.",
+          "Volume ran 21.2x its 20-day median, so real institutional-scale money participated rather than thin-book drift."
+        ],
+        "stock_streak_pct": -9.78,
+        "sector_streak_pct": -2.0,
+        "market_streak_pct": -1.4,
+        "excess_vs_sector_pct": -7.78,
+        "sector_breadth_pct": 7.0,
+        "volume_ratio": 21.2,
+        "cautions": [],
+        "filings": [],
+        "headlines": [
+          {
+            "title": "Max Financial Services Ltd (NSE: MFSL) Declines 9.46% as Stock Draws Market Attention - Kalkine India",
+            "source": "Kalkine India",
+            "published": "Thu, 24 Sep 2026 06:20:00 GMT",
+            "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPam0zM2pvVGNyeXYzUHl3R1BwdXRHYlZnWllRbDdsamoySkxOeTNnQ0NGSHMzeFRhWkFHM1J6UzhPZExYQVFSVHRiS0NVbEI4Z19VbU1BV0ZFR3VkQldLX1RxY1UwY2loYV95VTJ2TFJMRTFGYmxhRVZFNlE0aG9qd0JBaXpZN2Z5QUFKTnVXdEo4cVN3M2phV3czTzJVQnFYVkFQeHAwdlhsRXJLMmtoZk5idEliM193b3JUc29nWQ?oc=5"
+          },
+          {
+            "title": "MFSL Forecast — Price Target — Prediction for 2027 - TradingView",
+            "source": "TradingView",
+            "published": "Thu, 25 Jun 2026 13:56:34 GMT",
+            "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBjcnJyQXV5dGRqR0hsUHUxVlNOdXI2WEUzZHBPbHRLMnZxNUR2dUZkWXRJNF9rR3ctZFhYdTJnTUZHaUJrZ3RKN0RCdXA3UnJJSV9LZ1B1Q0dDSnVNMlM2c1dIcGE4MmltSjJ0a1BTcTRkX1U4Z1E?oc=5"
+          },
+          {
+            "title": "Max Financial Share Price Today, Max Financial Stock Price Live NSE/BSE Updates - The Economic Times",
+            "source": "The Economic Times",
+            "published": "Thu, 06 Aug 2026 00:06:04 GMT",
+            "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNdm53bUFWN2k3Q2VtNWdtaExQU3dyTl9uYmJQbUhkUlFZVTlxTnNXTHFGMmFQVG5DeFdRbGJmZmpNb1hMYUhwYm5yd0VoOXVEWUhnc3M4d2ppaU5TdkVNSEhsc3RIYVBRaXFrZEJxYXZ1MmQzVEtQUXo3WlVXSHo5Q3gwWUk2V25sb3J0aTYyWVU4Y0ZkUTdpZ1FLd3VCSlZi?oc=5"
+          },
+          {
+            "title": "Institutional investors in Max Financial Services Limited (NSE:MFSL) lost 3.2% last week but have reaped the benefits of longer-term growth - simplywall.st",
+            "source": "simplywall.st",
+            "published": "Mon, 26 Jan 2026 08:00:00 GMT",
+            "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQUUVJVEx2VlVudEg3azVkNkt6TzdlM1JseFBId1A2cDRWTDByTmZwZ1dzdENidnljZzdJWEFoNDZCU0pVVTNpdFVrWGJMU1hxbEI2Y0s2UkhLbUNueklzNWhYSE5tVWw2T2RpZVJXNmExckx6elNuMTVEdUtYSjBScWRRcUtaOWlLd1BuRmxRMVRTMFhoNUVYcFZvSFVWTTlmREE0ZVA3c1dqdHZBX0REa2xoR3RUZUg1aVZ3NURuT2pLUG43bnh4STVmZ1lnSUdyLV9uX1ZQdWN6YzREMEtN0gHkAUFVX3lxTE14VGdfcDd3WVgtQVN4UThEaVN6Rlk1QXFTdF9sMzdzclByNXBKQzMxeUNBWlUya0ZJQVJJR3l4cDBtb09oQXlRVjZkclQyNjZwcWUtRy1zMmd1TW40OWZmakplSVBEZl9DVzRkUTRwYWZXcURPeGhMX2FRd0tyUFA2YTluWjlwcHZKOUxxT0UtNWVub1lVTDc1a1FpdUZfakxaSENLVXZTYkVkaWc5NWpQaEd6NmRzRVVjQ29nVWNteEZyUXBQeUJfU3Npd3NoNHBaa2RPQU5oNGYyRWtrOW5ndl96eg?oc=5"
+          },
+          {
+            "title": "Max Financial Services Ltd eases for fifth straight session - Business Standard",
+            "source": "Business Standard",
+            "published": "Fri, 17 Jul 2026 07:00:00 GMT",
+            "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPaDZjUzlsbnBPUzdWcFFCaXF2OVAwWER6c0VOR0VwQlFmOS1sbHB4MVc4b1pJdFQ5SGtmVnVDaTM2VmtPNkxERjVsZkJGUkhmekFRaVJ1M2dJUjFtdV9rX2hTaGcyeTFDWTBGTEJQN0Z4TEhURE93Wjl2YUxsZDM1RXc5dU9fV2ZiNWR2dlRRem5tdE1WQ0VrUGZxSXhwZktVNkFUa3NNS1RIZEoxZ2RzRS05c0ttUnN0ZFcyN3JDYmpUcnFOMGpyZ3Q2QVlkTGo2VzFBLWR6RkfSAd4BQVVfeXFMT0pGUG1xSGQwY3VyV0V6aVZWMEtpbDVUVkVwc3QxVGFJUU53T3lxOGdnTUtZd0hPd3pHRUEyczY2ZFc3RlZiUThLUll0R3N2OFM3LXlzeGNnSXBzakh2NVl1RjBvNFpVS3RHb0ZNMnotU1M1ejZLYUJjSG9uQ0JLYlJ2Um5lbzg2X1JSaEdqZ0VnUWRhTGVSdm1hejNPdDhkczhFY3hqTTkxVm8xSUkzazRfeHJJS3BqUWRBOEFBY3J4V0RVc0F5RTRzMUxOdjdxcGloZXFLWG1RSW5QTXJB?oc=5"
+          },
+          {
+            "title": "Max Financial Services Limited (NSE:MFSL) Explained: Business Model, Industry Context and Key Factors - Kalkine India",
+            "source": "Kalkine India",
+            "published": "Mon, 14 Sep 2026 15:23:00 GMT",
+            "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNU2RsaXBJbDUyZTJOM1FCV2lKMC16U2VSMkphaGpIYkdtV0NzaURxcVQ2STBtcHNBdXlqbnEzNXViV0FlZmRkcG1nV3RLUzJ2VXZMZ1kzdE5KUlpfdk5BTHFtSnN4RUtKR3VhT3FyeGxzUVNPQTdEWHFTNTFEcGVpYXhISFhwVmdKUEpCaVRQVFNybHBrVmtENjhFdHZiVF92OFJmZDRFQmg1MkhhbjVhSVFqOG4xSlExV0ktVEZQNEZwblV5MVZyMWZsbnVnMTItTW1SMm1OVQ?oc=5"
+          }
+        ]
+      },
+      "fundamentals": {
+        "symbol": "MFSL",
+        "market_cap_cr": 48405.0,
+        "trailing_pe": 450.47922,
+        "forward_pe": 125.95313,
+        "price_to_book": 9.164533,
+        "roe_pct": null,
+        "debt_to_equity": 36.453,
+        "revenue_growth_pct": 16.8,
+        "earnings_growth_pct": 37.3,
+        "operating_margin_pct": 1.19,
+        "profit_margin_pct": 0.22,
+        "promoter_holding_pct": 2.08,
+        "institutional_holding_pct": 80.98,
+        "dividend_yield_pct": null,
+        "current_ratio": null,
+        "beta": 0.707,
+        "target_mean": 2014.72,
+        "target_low": 1765.0,
+        "target_high": 2300.0,
+        "analyst_count": 25,
+        "current_price": 1410.0,
+        "business_summary": "Max Financial Services Limited, through its subsidiary, engages in life insurance business in India. It operates through Business Investments and Others, and Life Insurance segments. The company offers participating and nonparticipating and linked products covering life insurance and pension and health benefits, including riders for individual and group through individual agents, corporate agents, banks, brokers, and other channels. It is also involved in treasury investment activities; and provision of management advisory services. Max Financial Services Limited was incorporated in 1988 and is based in Noida, India."
+      },
+      "benchmark": {
+        "industry": "Financial Services",
+        "peers": 100,
+        "trailing_pe": 22.1,
+        "price_to_book": 2.55,
+        "roe_pct": 13.7,
+        "debt_to_equity": 165.8,
+        "revenue_growth_pct": 19.6,
+        "profit_margin_pct": 32.64
+      },
+      "scorecard": {
+        "factors": [
+          {
+            "name": "Trailing P/E",
+            "value": "450.5",
+            "peer_value": "22.1",
+            "stance": "bear",
+            "note": "More expensive than the typical peer, so more of the growth is already priced in."
+          },
+          {
+            "name": "Price / Book",
+            "value": "9.2",
+            "peer_value": "2.5",
+            "stance": "bear",
+            "note": "Trades at a premium to peer book value."
+          },
+          {
+            "name": "Return on Equity",
+            "value": "n/a",
+            "peer_value": "13.7%",
+            "stance": "unknown",
+            "note": "Not reported by the data source."
+          },
+          {
+            "name": "Debt / Equity",
+            "value": "36.5",
+            "peer_value": "165.8",
+            "stance": "bull",
+            "note": "Carries less leverage than peers, so less earnings risk if rates rise."
+          },
+          {
+            "name": "Revenue growth (yoy)",
+            "value": "16.8%",
+            "peer_value": "19.6%",
+            "stance": "bear",
+            "note": "Growing more slowly than the sector."
+          },
+          {
+            "name": "Net margin",
+            "value": "0.2%",
+            "peer_value": "32.6%",
+            "stance": "bear",
+            "note": "Thinner margins than peers."
+          }
+        ],
+        "bull_case": [
+          "Debt / Equity 36.5 vs sector 165.8. Carries less leverage than peers, so less earnings risk if rates rise.",
+          "Earnings grew 37% year on year, which is what has to keep happening for a re-rating to hold.",
+          "25 analysts publish a mean target of 2015, 43% above the current price."
+        ],
+        "bear_case": [
+          "Trailing P/E 450.5 vs sector 22.1. More expensive than the typical peer, so more of the growth is already priced in.",
+          "Price / Book 9.2 vs sector 2.5. Trades at a premium to peer book value.",
+          "Revenue growth (yoy) 16.8% vs sector 19.6%. Growing more slowly than the sector.",
+          "Net margin 0.2% vs sector 32.6%. Thinner margins than peers.",
+          "Promoter holding is only 2%, which offers little downside alignment and leaves control contestable."
+        ],
+        "invalidators": [
+          "Two consecutive quarters of revenue or margin decline would remove the growth premise this rests on.",
+          "Trading at a large premium to the sector - any earnings miss tends to be punished harder from a premium multiple.",
+          "A promoter pledge increase or a fresh exchange surveillance action would change the risk profile regardless of the fundamentals."
+        ],
+        "data_gaps": [
+          "Return on Equity unavailable"
+        ],
+        "bull_count": 1,
+        "bear_count": 4
+      },
+      "research_prompt": "I'm a long-term retail investor in Indian equities (NSE). My screener flagged Max Financial Services Ltd. (MFSL) because it gained at least 3% on each of 1 consecutive sessions. I want your independent read - please push back on my screener rather than agreeing with it.\n\n## What my screener measured\n\n- Streak: 2026-09-24 to 2026-09-24, -9.8% cumulative\n- Daily gains: 2026-09-24 -9.78%\n- Last close: Rs 1,410.00\n- Sector: Financial Services\n- Median 20-day turnover: Rs 81.0 crore\n- Volume vs 20-day median: 21.2x\n- Distance from 52-week high: -24.6%\n- Return 1M / 3M / 1Y: -11.9% / -12.0% / -9.9%\n\n## Attribution my engine computed\n\n- Verdict: unexplained - Company-specific, but nothing disclosed to explain it\n- Stock over the window: -9.8%\n- Sector median over the same window: -2.0%\n- Excess vs sector: -7.8 pp\n- Broad market median: -1.4%\n\n- No NSE corporate filings in the window.\n\n### Recent headlines (unverified, from Google News)\n\n- Max Financial Services Ltd (NSE: MFSL) Declines 9.46% as Stock Draws Market Attention - Kalkine India\n- MFSL Forecast — Price Target — Prediction for 2027 - TradingView\n- Max Financial Share Price Today, Max Financial Stock Price Live NSE/BSE Updates - The Economic Times\n- Institutional investors in Max Financial Services Limited (NSE:MFSL) lost 3.2% last week but have reaped the benefits of longer-term growth - simplywall.st\n- Max Financial Services Ltd eases for fifth straight session - Business Standard\n- Max Financial Services Limited (NSE:MFSL) Explained: Business Model, Industry Context and Key Factors - Kalkine India\n\n## Fundamentals\n\n- Market cap: Rs 48,405 crore\n- Trailing P/E: 450.47922\n- Forward P/E: 125.95313\n- Price/Book: 9.164533\n- Debt/Equity: 36.453\n- Revenue growth (yoy): 16.8%\n- Earnings growth (yoy): 37.3%\n- Operating margin: 1.19%\n- Net margin: 0.22%\n- Promoter holding: 2.08%\n- Institutional holding: 80.98%\n- Analyst count: 25\n- Mean target price: 2014.72\n\n### Sector medians (Financial Services, 100 Nifty 500 peers)\n\n- Trailing P/E: 22.1\n- Price/Book: 2.55\n- Return on equity: 13.7%\n- Debt/Equity: 165.8\n- Revenue growth: 19.6%\n- Net margin: 32.64%\n\n### Data my engine could not get\n\n- Return on Equity unavailable\n\n## What I want from you\n\n1. **Why did it actually move?** My engine only sees exchange filings and price action. Check whether there is a real catalyst it missed - sector news, a peer's results, a policy change, an index inclusion, a block deal.\n2. **Is my engine's attribution wrong?** Say so directly if the evidence points elsewhere.\n3. **The one-year view.** Build a bull case and a bear case from the business, not from the chart. What has to be true for this to work, and what would break it? Be concrete about which numbers to watch.\n4. **What would you check that I have not?** Name the specific filings, segments or metrics.\n\nPlease flag anything above that looks stale or wrong, and tell me plainly if this looks like a speculative move rather than an investable one. I am not asking you to tell me whether to buy - I want the reasoning so I can decide."
+    },
+    {
+      "symbol": "LTF",
+      "name": "L&T Finance Ltd.",
+      "industry": "Financial Services",
+      "isin": "INE498L01015",
+      "last_close": 282.0,
+      "cumulative_pct": -9.03,
+      "start_date": "2026-09-24",
+      "end_date": "2026-09-24",
+      "is_current": true,
+      "median_turnover_cr": 104.4,
+      "volume_ratio": 11.01,
+      "pct_from_52w_high": -16.0,
+      "returns": {
+        "m1": -12.5,
+        "m3": -5.7,
+        "y1": 16.7
+      },
+      "days": [
+        {
+          "date": "2026-09-24",
+          "close": 282.0,
+          "gain_pct": -9.03,
+          "volume": 36068873
+        }
+      ],
+      "attribution": {
+        "verdict": "unexplained",
+        "headline": "Company-specific, but nothing disclosed to explain it",
+        "explanation": [
+          "The stock fell -9.0% over the session 2026-09-24.",
+          "Its sector (Financial Services) moved -2.0% over the same window, with 7% of its 101 Nifty 500 members advancing on the last session.",
+          "The broad market (median of 500 Nifty 500 names) moved -1.4% over the window, with 14% advancing on the last session.",
+          "The stock lagged its sector by 7.0 percentage points, yet filed no disclosure in the window that would account for it.",
+          "An unexplained move away from the sector is worth more caution, not less - it can reflect speculation, a leaked development, or an operator-driven move.",
+          "Volume ran 11.0x its 20-day median, so real institutional-scale money participated rather than thin-book drift."
+        ],
+        "stock_streak_pct": -9.03,
+        "sector_streak_pct": -2.0,
+        "market_streak_pct": -1.4,
+        "excess_vs_sector_pct": -7.03,
+        "sector_breadth_pct": 7.0,
+        "volume_ratio": 11.01,
+        "cautions": [],
+        "filings": [],
+        "headlines": [
+          {
+            "title": "PB Fintech shares fall 23%; Bajaj Finance, L&T Finance also take hit; here's why - Business Today",
+            "source": "Business Today",
+            "published": "Thu, 24 Sep 2026 04:46:40 GMT",
+            "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQMElHdHpfV290YjlzdWtBMmVOOVhjQ2M2QVBWcUpXbzRLTnRtWVdxLUVyd0FaYU92WDA3ZnpYUzhFeXRXeFN0Q0V5bW80QzlITjUxVnhaRUFLcGNSdk1OZld0OU9RTVRab0ZFdHpUMUZ1dUxrM2RZQVZhamtTTm1neEsyeXM0NEVlNkpVOUhMTVNSS1FVdURtT2ZIQ0NYLUZkcnRWZm1PVDdZNFNjRGlycDdFOXN3aEFIdGd1R1Ywbno4Y0laLXpZd04tSWExM3VxMDFvVDFLR0dEd9IB3wFBVV95cUxPWmZMZFM5Tmt1OXZQdWRrTnRmQ25oZHYxaElMTDF6dV9yUndEdEpCcnhkaUo3SjJrZVQ3QWN4TXlGamVfTXZZWU1mZzB1bm1JWFJKNV9BblNsQ2JUdkxoMXpnWW53UnFZN29oeGgyWC1fME9ZdElzQk90MXlXV3dUWUo0anRPWHZ1YktYd29URHV1MHlKYkFKbjR0X0hqOWxCSWljSzZ0QUlNSnBqM2JwMmpqeTM1RnVObG1tdmFWU2FtZFlFYUZFbnM3QU5tVFFJOGZ2emtzTGMzUnZybDRJ?oc=5"
+          },
+          {
+            "title": "LTF Forecast — Price Target — Prediction for 2027 - TradingView",
+            "source": "TradingView",
+            "published": "Thu, 25 Jun 2026 13:21:58 GMT",
+            "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE8xMXhBeFhfT3ZRV0tDemZuYmVYcmJIRzNPaE9QbUp6c1NVX05hMEppb0xoRzR5QmQ2cUJpbHI1cjZlam9mRGFUTDJqOFJUZ0dGcC13UEY4RlpVdXgtbGo5NGVDR2Vfdkwzb2d5TTNJZmJyS2Y1?oc=5"
+          },
+          {
+            "title": "Should You Be Adding L&T Finance (NSE:LTF) To Your Watchlist Today? - simplywall.st",
+            "source": "simplywall.st",
+            "published": "Mon, 25 May 2026 07:00:00 GMT",
+            "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxObVFiY3ZKMG5wRzlocDdrckl3UkF3YkFoREttNklDUVFLU0w4OE9XbUlOQUlIczU2TjZLT2piSy1BcEdhMnBVa3pPUVlaVS1BVmoyVFZ6emlCYXRUYk1xaTFKMWlsY0l5cXZXeWdpdUZrdFpRVmpUWnZUT2JuaG1IeWxkUTdQUVV6cmt4NWVkdk5xdUtPYlEwR3J6LUNuNjdYaXdLRXA3dW9uc05DalFlWlU5Vnp4NkMyMl9kR2RqLVVFYVk0bEllQ3JtU21OYTRnSk56V251UDlSc3dNQktB0gHkAUFVX3lxTE5CWGNSYjc3ZEhiN3FnWFZDS0NxUVdsd2xleDVyT1VxckRGSU4wUUtoUm9ERzY2TmppLTZ1UTRYbm5TMFNxQlFyT2R5UzM3ZkYzV1RpZVotcVJUTXp3eVhaYTlpakk4dnNFUHNTTWFsQmVBUmFBaHZ5ZW9aY1I0Wm5mSWd6QmdJS1I4S3ZiMF9fQzBZbzFBcjhEejFuVkRLZmlyNFJoZ2Jtd0d1VkxKVGhjcG0yaEp6UzBqdzZsX08zSi1PdjdzWHdRX0NwVzM1REt5SFk1UjhWQnBUeURQUEZMRmUtUw?oc=5"
+          },
+          {
+            "title": "L&T Finance Ltd Share Price Today NSE/BSE Charts - Alice Blue",
+            "source": "Alice Blue",
+            "published": "Mon, 31 Aug 2026 11:44:36 GMT",
+            "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9sSkt2OER3cEUxbUxadmJBclFLTDlWME5xVzFLZzFIUmEteGR2Q1JvS3YxeTlHRF9oWmd4Y0t4ZDJ6Y2k5aFZlaXd0bDNnT2VDSzFfTTVPLXlSZ2xmZkp0QVdsQ2Z6VEV3elVPTmh3?oc=5"
+          },
+          {
+            "title": "L&T Finance Ltd. Share Price Today - L&T Finance Ltd. Stock Price Live NSE/BSE - CNBC TV18",
+            "source": "CNBC TV18",
+            "published": "Sat, 03 Jan 2026 16:33:39 GMT",
+            "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE4tWTQ0bV8tdklwVVRrM1paOE41ZWpLNkd1TlAxTWdZWFZ6SGM1QkNHODhHRmFxRk8tdWNtVUEzc2M3YUhTemJiM1lvQ2gwdFZnTGVjd1dLb0FlWTZXbTNSZDJKZks2bkZrMmJzYmpTX0twbjJDNGVUYVlR?oc=5"
+          },
+          {
+            "title": "L&T Finance Share Price - Live NSE: LTF Stock Price & Chart - upstox.com",
+            "source": "upstox.com",
+            "published": "Sun, 02 Nov 2025 03:58:15 GMT",
+            "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBJMTN1aWJlZXVsSHR2bHU0TFBtbUtWZFRjajlqMlVmQXpDODhwVV90cHM2OC1sNVNCTGVWLXNFaG05dXVlNzR4Zkc4Q1NfNHVvam5MRHVCT0trWnJCYkVoSXV4bHhIb3JSZUE?oc=5"
+          }
+        ]
+      },
+      "fundamentals": {
+        "symbol": "LTF",
+        "market_cap_cr": 70679.0,
+        "trailing_pe": 22.239748,
+        "forward_pe": 14.404327,
+        "price_to_book": 2.5159254,
+        "roe_pct": null,
+        "debt_to_equity": 393.442,
+        "revenue_growth_pct": 29.3,
+        "earnings_growth_pct": 28.2,
+        "operating_margin_pct": 45.95,
+        "profit_margin_pct": 33.08,
+        "promoter_holding_pct": 65.95,
+        "institutional_holding_pct": 19.12,
+        "dividend_yield_pct": 0.89,
+        "current_ratio": null,
+        "beta": 0.639,
+        "target_mean": 349.5238,
+        "target_low": 210.0,
+        "target_high": 400.0,
+        "analyst_count": 21,
+        "current_price": 282.0,
+        "business_summary": "L&T Finance Limited, a non-banking financial company, provides various financial products and services in India. It offers housing loans; personal loans for medical emergencies, home renovation, wedding, vacation, education, and debt consolidation; two-wheeler loans; business loans, such as SME, doctor, chartered accountant, and professional loans, as well as supply chain financing solutions; rural loans comprising vikaas loans, vishwas loans, pragati loans, RLAP balance transfer, and micro loans against property; farmer loans, including new tractor loans, agri-implement loans, kisan suvidha top up, kisan suvidha top up plus, refinance loan, and warehouse receipt finance services; gold loans, such as sukhad loan, sampati loan, saraswati loan, safalta loan, sugam loan, and shubh loan; and loans against property. The company was formerly known as L&T Finance Holdings Limited and changed its name to L&T Finance Limited in March 2024. The company was incorporated in 1994 and is headquartered in Mumbai, India. L&T Finance Limited operates as a subsidiary of Larsen & Toubro Limited."
+      },
+      "benchmark": {
+        "industry": "Financial Services",
+        "peers": 100,
+        "trailing_pe": 22.1,
+        "price_to_book": 2.59,
+        "roe_pct": 13.7,
+        "debt_to_equity": 161.98,
+        "revenue_growth_pct": 19.6,
+        "profit_margin_pct": 32.0
+      },
+      "scorecard": {
+        "factors": [
+          {
+            "name": "Trailing P/E",
+            "value": "22.2",
+            "peer_value": "22.1",
+            "stance": "neutral",
+            "note": "In line with the sector."
+          },
+          {
+            "name": "Price / Book",
+            "value": "2.5",
+            "peer_value": "2.6",
+            "stance": "neutral",
+            "note": "In line with the sector."
+          },
+          {
+            "name": "Return on Equity",
+            "value": "n/a",
+            "peer_value": "13.7%",
+            "stance": "unknown",
+            "note": "Not reported by the data source."
+          },
+          {
+            "name": "Debt / Equity",
+            "value": "393.4",
+            "peer_value": "162.0",
+            "stance": "bear",
+            "note": "More leveraged than peers, which amplifies any downturn."
+          },
+          {
+            "name": "Revenue growth (yoy)",
+            "value": "29.3%",
+            "peer_value": "19.6%",
+            "stance": "bull",
+            "note": "Growing the top line faster than the sector."
+          },
+          {
+            "name": "Net margin",
+            "value": "33.1%",
+            "peer_value": "32.0%",
+            "stance": "neutral",
+            "note": "In line with the sector."
+          }
+        ],
+        "bull_case": [
+          "Revenue growth (yoy) 29.3% vs sector 19.6%. Growing the top line faster than the sector.",
+          "Earnings grew 28% year on year, which is what has to keep happening for a re-rating to hold.",
+          "Promoters hold 66%, so their interests stay tied to the share price.",
+          "21 analysts publish a mean target of 350, 24% above the current price."
+        ],
+        "bear_case": [
+          "Debt / Equity 393.4 vs sector 162.0. More leveraged than peers, which amplifies any downturn."
+        ],
+        "invalidators": [
+          "Two consecutive quarters of revenue or margin decline would remove the growth premise this rests on.",
+          "Debt/equity of 393 means a rate rise or a refinancing squeeze hits earnings before it hits peers.",
+          "A promoter pledge increase or a fresh exchange surveillance action would change the risk profile regardless of the fundamentals."
+        ],
+        "data_gaps": [
+          "Return on Equity unavailable"
+        ],
+        "bull_count": 1,
+        "bear_count": 1
+      },
+      "research_prompt": "I'm a long-term retail investor in Indian equities (NSE). My screener flagged L&T Finance Ltd. (LTF) because it gained at least 3% on each of 1 consecutive sessions. I want your independent read - please push back on my screener rather than agreeing with it.\n\n## What my screener measured\n\n- Streak: 2026-09-24 to 2026-09-24, -9.0% cumulative\n- Daily gains: 2026-09-24 -9.03%\n- Last close: Rs 282.00\n- Sector: Financial Services\n- Median 20-day turnover: Rs 104.4 crore\n- Volume vs 20-day median: 11.01x\n- Distance from 52-week high: -16.0%\n- Return 1M / 3M / 1Y: -12.5% / -5.7% / 16.7%\n\n## Attribution my engine computed\n\n- Verdict: unexplained - Company-specific, but nothing disclosed to explain it\n- Stock over the window: -9.0%\n- Sector median over the same window: -2.0%\n- Excess vs sector: -7.0 pp\n- Broad market median: -1.4%\n\n- No NSE corporate filings in the window.\n\n### Recent headlines (unverified, from Google News)\n\n- PB Fintech shares fall 23%; Bajaj Finance, L&T Finance also take hit; here's why - Business Today\n- LTF Forecast — Price Target — Prediction for 2027 - TradingView\n- Should You Be Adding L&T Finance (NSE:LTF) To Your Watchlist Today? - simplywall.st\n- L&T Finance Ltd Share Price Today NSE/BSE Charts - Alice Blue\n- L&T Finance Ltd. Share Price Today - L&T Finance Ltd. Stock Price Live NSE/BSE - CNBC TV18\n- L&T Finance Share Price - Live NSE: LTF Stock Price & Chart - upstox.com\n\n## Fundamentals\n\n- Market cap: Rs 70,679 crore\n- Trailing P/E: 22.239748\n- Forward P/E: 14.404327\n- Price/Book: 2.5159254\n- Debt/Equity: 393.442\n- Revenue growth (yoy): 29.3%\n- Earnings growth (yoy): 28.2%\n- Operating margin: 45.95%\n- Net margin: 33.08%\n- Promoter holding: 65.95%\n- Institutional holding: 19.12%\n- Dividend yield: 0.89%\n- Analyst count: 21\n- Mean target price: 349.5238\n\n### Sector medians (Financial Services, 100 Nifty 500 peers)\n\n- Trailing P/E: 22.1\n- Price/Book: 2.59\n- Return on equity: 13.7%\n- Debt/Equity: 161.98\n- Revenue growth: 19.6%\n- Net margin: 32.0%\n\n### Data my engine could not get\n\n- Return on Equity unavailable\n\n## What I want from you\n\n1. **Why did it actually move?** My engine only sees exchange filings and price action. Check whether there is a real catalyst it missed - sector news, a peer's results, a policy change, an index inclusion, a block deal.\n2. **Is my engine's attribution wrong?** Say so directly if the evidence points elsewhere.\n3. **The one-year view.** Build a bull case and a bear case from the business, not from the chart. What has to be true for this to work, and what would break it? Be concrete about which numbers to watch.\n4. **What would you check that I have not?** Name the specific filings, segments or metrics.\n\nPlease flag anything above that looks stale or wrong, and tell me plainly if this looks like a speculative move rather than an investable one. I am not asking you to tell me whether to buy - I want the reasoning so I can decide."
     }
   ],
   "stats": {
