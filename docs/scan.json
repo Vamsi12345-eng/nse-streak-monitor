@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-09T22:13:49+05:30",
+  "generated_at": "2026-10-13T01:01:50+05:30",
   "session": "2026-10-09",
   "config": {
     "daily_gain_pct": 3.0,
@@ -14,8 +14,8 @@
   "market": {
     "median_day_pct": 0.66,
     "median_streak_pct": -2.34,
-    "breadth_pct": 70.6,
-    "names": 497
+    "breadth_pct": 70.5,
+    "names": 499
   },
   "sectors": [
     {
@@ -141,9 +141,9 @@
     {
       "industry": "Realty",
       "median_day_pct": 0.29,
-      "median_streak_pct": -3.73,
-      "breadth_pct": 54.5,
-      "members": 11,
+      "median_streak_pct": -3.57,
+      "breadth_pct": 53.8,
+      "members": 13,
       "reliable": true
     },
     {
@@ -204,18 +204,18 @@
           "date": "2026-10-09",
           "close": 1158.800048828125,
           "gain_pct": 6.83,
-          "volume": 4226164
+          "volume": 4226963
         }
       ],
       "attribution": {
-        "verdict": "unexplained",
-        "headline": "Company-specific, but nothing disclosed to explain it",
+        "verdict": "company_catalyst",
+        "headline": "Company-specific - investor communication disclosed to the exchange",
         "explanation": [
           "The stock gained +6.8% over the session 2026-10-09.",
           "Its sector (Information Technology) moved +2.9% over the same window, with 96% of its 25 Nifty 500 members advancing on the last session.",
-          "The broad market (median of 497 Nifty 500 names) moved +0.7% over the window, with 71% advancing on the last session.",
-          "The stock outpaced its sector by 3.9 percentage points, yet filed no disclosure in the window that would account for it.",
-          "An unexplained move away from the sector is worth more caution, not less - it can reflect speculation, a leaked development, or an operator-driven move.",
+          "The broad market (median of 499 Nifty 500 names) moved +0.7% over the window, with 71% advancing on the last session.",
+          "The stock outpaced its sector by 3.9 percentage points, so the move is company-specific rather than sector-wide.",
+          "NSE filing 2026-10-10 18:28 - Investor communication: Analysts/Institutional Investor Meet/Con. Call Updates.",
           "Volume ran 11.1x its 20-day median, so real institutional-scale money participated rather than thin-book drift."
         ],
         "stock_streak_pct": 6.83,
@@ -226,6 +226,24 @@
         "volume_ratio": 11.12,
         "cautions": [],
         "filings": [
+          {
+            "date": "2026-10-10",
+            "time": "19:17",
+            "category": "Shareholders meeting",
+            "summary": "Cyient Limited has submitted the Exchange a copy Srutinizers report of  Postal Ballot. Further, the company has informed the Exchange regarding voting results.",
+            "pdf_url": "https://nsearchives.nseindia.com/corporate/CYIENT_10102026191513_10102026PBResultSignedFinal.pdf",
+            "bucket": "neutral",
+            "label": "Routine or administrative disclosure"
+          },
+          {
+            "date": "2026-10-10",
+            "time": "18:28",
+            "category": "Analysts/Institutional Investor Meet/Con. Call Updates",
+            "summary": "Cyient Limited has informed the Exchange about Schedule of meet",
+            "pdf_url": "https://nsearchives.nseindia.com/corporate/CYIENT_10102026182810_10102026ConferencecallSigned.pdf",
+            "bucket": "catalyst",
+            "label": "Investor communication"
+          },
           {
             "date": "2026-10-06",
             "time": "18:26",
@@ -247,10 +265,16 @@
         ],
         "headlines": [
           {
-            "title": "Cyient (NSEI:CYIENT) - Stock Analysis - Simply Wall Street",
+            "title": "Cyient (NSEI:CYIENT) Stock Forecast & Analyst Predictions - Simply Wall Street",
             "source": "Simply Wall Street",
-            "published": "Tue, 06 Oct 2026 07:00:00 GMT",
-            "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE43LXhWbFMyZnJWVkpnZHdmSnB1N2Z2VDRueW9RVzF4U3VhaGZvVkozOE1zWmR6WW1nbXctUU9tSXdEdzEyQXl6cFpyNkhMai1pRzhCT0ZGT1NjU21GbW5uNzh4SU1lRVJHQW5KZXRoVjEyb1E?oc=5"
+            "published": "Fri, 09 Oct 2026 07:00:00 GMT",
+            "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1yR3ZjSHRWdDFUSWREMnE5VmsxTGhMVmhUalZoRmw1ODZnRjRuYnlyRW9uVXFGQldGTTd4X2pqeF9Oc0otY2dmYjBSZ0VoT3hjUmdYXy1tWFA1X0NFaThGZGxXcVFjbXR5dThtZFlsTEtabkdSb1VrMUxsal8?oc=5"
+          },
+          {
+            "title": "Cyient Ltd. Share Price Today - Cyient Ltd. Stock Price Live NSE/BSE - CNBC TV18",
+            "source": "CNBC TV18",
+            "published": "Fri, 09 Oct 2026 10:29:00 GMT",
+            "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBBRV8yTll2ekZ1czE2Q1lNUjktNm4yZTVQWEVYVjhGUFJwaWlWWFBrdEp1YVhXTFJDR1FsanlSbmtUQmgzdjMyQUJwMlBvS3R4M0o1Z0EzVGVfOVZHLTBlYmEyX3ZnUzZ4cDZXcU5JZ1hhWW5pQ3c?oc=5"
           },
           {
             "title": "Cyient Ltd. Share Price Up 5.04%: Price, Sector Analysis - Univest",
@@ -275,21 +299,15 @@
             "source": "Yahoo Finance",
             "published": "Wed, 22 Jul 2026 07:00:00 GMT",
             "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQcHJWTWtFRDlHUzlYY1NMaGU5c0lrZEk3eHY2NkVTVFA2X3U1am1NcFNVYU4tdWREODk4R3ZnX1lDTXpxcXpVVzNTR0JJdjhncExpZWRQZ3JNMzROMnZBc0VPYUY1Wi1ieU41S0g5dkM2eEx4RGhXUWttTGF1bFdROE1tRGVTRVlOenF5ckR5Zm1ZclU?oc=5"
-          },
-          {
-            "title": "Buzzing Stock: Bandhan Bank slides 10%, Cyient DLM jumps 11% after Q1 earnings - Moneycontrol.com",
-            "source": "Moneycontrol.com",
-            "published": "Wed, 22 Jul 2026 07:00:00 GMT",
-            "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOcjBpRUNRVmJHYmJBSWZpX0hydkkybERmVXc0RTFTdTk2VFQyd1cyWktiVlJyLU45T1Zfend0T051TmgyMlVkUFk3WHFpZFRvdHVUSEFwX1RHdERZdXpHTTY3cUZoejU0aUpXTGYza1ExbUpULW9VVzVDX3RZbTNGeXJtM2pta2Y1WDV6dDdmdGdwZWluUWxKaUhFc0ZKZG5uVkJTUG4xcDRBdGhISndqNUdRSTZ4b3I1SEo5NWNfQUIxT09WdHgzMmZWZVNsRXo2TDBTc9IB2gFBVV95cUxPZEM5SENFdjFreWNjQ0FSVG4xTV9MSVd6VUt6Um5IaExIbVJUeGhQeDZyMEZFZ1NxQXpVUFY1RzA3T21pWmdRcEFPQlFyMjFvTTVKcGlDdHR2VzI4eUNIYm9SSzZFbGhzTEJqcDM4Mlh5Zm1DcHNXTjNEcUoxR0R3cUhuWFQwNnNoeG9WWTVOY3ZrTlhrQjllWGNqdTFQZmlMal9IcTdfXzlTeklVdUFCT1lQX1pUWnJnaE45N3FyWWVOOE9KUVZaSGpEOG1HU282dFVSMmJ1enNDUQ?oc=5"
           }
         ]
       },
       "fundamentals": {
         "symbol": "CYIENT",
-        "market_cap_cr": 12063.0,
-        "trailing_pe": 34.042305,
-        "forward_pe": 15.975568,
-        "price_to_book": 2.2530897,
+        "market_cap_cr": 12011.0,
+        "trailing_pe": 33.895416,
+        "forward_pe": 15.906636,
+        "price_to_book": 2.2433681,
         "roe_pct": null,
         "debt_to_equity": 7.528,
         "revenue_growth_pct": 21.3,
@@ -298,21 +316,21 @@
         "profit_margin_pct": 4.96,
         "promoter_holding_pct": 25.33,
         "institutional_holding_pct": 52.2,
-        "dividend_yield_pct": 2.95,
+        "dividend_yield_pct": 2.76,
         "current_ratio": null,
         "beta": 0.696,
-        "target_mean": 1070.5714,
+        "target_mean": 1086.0476,
         "target_low": 820.0,
         "target_high": 1450.0,
         "analyst_count": 21,
-        "current_price": 1158.8,
+        "current_price": 1153.8,
         "business_summary": "Cyient Limited provides geospatial, engineering design, manufacturing, networks and operations, data transformation, and analytic services in North America, Europe, Middle East, and the Asia Pacific. The company operates through three segments: Digital, Engineering & Technology; Design Led Manufacturing; and Others. The company offers digital thread; electrification and energy storage; autonomous systems; digital twin; product to platform engineering; data platforms and GenAI; Industry 4.0; industry AI advisor platform; Coddy, a legacy application migration; CYARC, a regulatory compliance watch for medical devices; CYFAST, for equipment testing and validation; CYIOPS, a power outage planning and scheduling platform; CYPRED forecast and prediction engine; CYTEXT that transforms PDFs and documents into searchable text; SmartHub, a field inspection and data capture; and CYXTRACT which extract, search, and analyze documents. It also provides manufacturing operations management solutions, including industrial automation, data engineering, operations management, asset operations, and manufacturing intelligence; FACTORYDTECT, Monitoring and predictive solutions; FACTORYPRO; DIGITAL DATA FOUNDATION data platform; ENERGYCARE, a platform to monitor, analyze, and balance energy usage; and ASSET TWIN that monito asset health and upcoming failure mode. In addition, the company offers Vismon, a suite of solutions that simplifies network management; and CyPlaNet which streamlines fiber optic networks. It serves aerospace and defense, rail transportation, automotive and mobility, mining, energy, utilities and spatial intelligence, communications, healthcare and life science, and semiconductor industries. Cyient Limited and Vodafone entered into an agreement and launched an AI-powered global network configuration management solution supported by data-driven, intelligent configuration analytics. Cyient Limited was incorporated in 1991 and is headquartered in Hyderabad, India."
       },
       "benchmark": {
         "industry": "Information Technology",
         "peers": 24,
-        "trailing_pe": 25.44,
-        "price_to_book": 4.91,
+        "trailing_pe": 25.33,
+        "price_to_book": 4.93,
         "roe_pct": 24.07,
         "debt_to_equity": 9.69,
         "revenue_growth_pct": 17.95,
@@ -322,14 +340,14 @@
         "factors": [
           {
             "name": "Trailing P/E",
-            "value": "34.0",
-            "peer_value": "25.4",
+            "value": "33.9",
+            "peer_value": "25.3",
             "stance": "bear",
             "note": "More expensive than the typical peer, so more of the growth is already priced in."
           },
           {
             "name": "Price / Book",
-            "value": "2.3",
+            "value": "2.2",
             "peer_value": "4.9",
             "stance": "bull",
             "note": "Trades at a lower multiple of book value than peers."
@@ -364,16 +382,16 @@
           }
         ],
         "bull_case": [
-          "Price / Book 2.3 vs sector 4.9. Trades at a lower multiple of book value than peers.",
+          "Price / Book 2.2 vs sector 4.9. Trades at a lower multiple of book value than peers.",
           "Debt / Equity 7.5 vs sector 9.7. Carries less leverage than peers, so less earnings risk if rates rise.",
           "Revenue growth (yoy) 21.3% vs sector 17.9%. Growing the top line faster than the sector."
         ],
         "bear_case": [
-          "Trailing P/E 34.0 vs sector 25.4. More expensive than the typical peer, so more of the growth is already priced in.",
+          "Trailing P/E 33.9 vs sector 25.3. More expensive than the typical peer, so more of the growth is already priced in.",
           "Net margin 5.0% vs sector 11.8%. Thinner margins than peers.",
           "Earnings fell 32% year on year, so the price move is running ahead of profits.",
           "Promoter holding is only 25%, which offers little downside alignment and leaves control contestable.",
-          "21 analysts publish a mean target of 1071, 8% below the current price.",
+          "21 analysts publish a mean target of 1086, 6% below the current price.",
           "Sitting within 4% of its 52-week high, so you are buying after the move, not before it."
         ],
         "invalidators": [
@@ -386,7 +404,7 @@
         "bull_count": 3,
         "bear_count": 2
       },
-      "research_prompt": "I'm a long-term retail investor in Indian equities (NSE). My screener flagged Cyient Ltd. (CYIENT) because it gained at least 3% on each of 1 consecutive sessions. I want your independent read - please push back on my screener rather than agreeing with it.\n\n## What my screener measured\n\n- Streak: 2026-10-09 to 2026-10-09, +6.8% cumulative\n- Daily gains: 2026-10-09 +6.83%\n- Last close: Rs 1,158.80\n- Sector: Information Technology\n- Median 20-day turnover: Rs 48.5 crore\n- Volume vs 20-day median: 11.12x\n- Distance from 52-week high: -4.1%\n- Return 1M / 3M / 1Y: 6.7% / 37.8% / None%\n\n## Attribution my engine computed\n\n- Verdict: unexplained - Company-specific, but nothing disclosed to explain it\n- Stock over the window: +6.8%\n- Sector median over the same window: +2.9%\n- Excess vs sector: +3.9 pp\n- Broad market median: +0.7%\n\n### NSE filings in the window\n\n- 2026-10-06 [neutral] Updates - Routine or administrative disclosure\n  Cyient Limited has informed the Exchange regarding 'Update'.\n- 2026-10-06 [neutral] Press Release - Routine or administrative disclosure\n  Cyient Limited has informed the Exchange regarding a press release dated October 06, 2026, titled \"Cyient Establishes Intelligent Engineering Solutions toAccelerate Technology-led \n\n### Recent headlines (unverified, from Google News)\n\n- Cyient (NSEI:CYIENT) - Stock Analysis - Simply Wall Street\n- Cyient Ltd. Share Price Up 5.04%: Price, Sector Analysis - Univest\n- Cyient shares soar 8% as CCI approves acquisition of California-based Tao Digital Solutions - Upstox\n- CYIENT Forecast — Price Target — Prediction for 2027 - TradingView\n- Cyient Ltd (NSE:CYIENT) Q1 2027 Earnings Report Preview: What To Look For - Yahoo Finance\n- Buzzing Stock: Bandhan Bank slides 10%, Cyient DLM jumps 11% after Q1 earnings - Moneycontrol.com\n\n## Fundamentals\n\n- Market cap: Rs 12,063 crore\n- Trailing P/E: 34.042305\n- Forward P/E: 15.975568\n- Price/Book: 2.2530897\n- Debt/Equity: 7.528\n- Revenue growth (yoy): 21.3%\n- Earnings growth (yoy): -32.4%\n- Operating margin: 9.01%\n- Net margin: 4.96%\n- Promoter holding: 25.33%\n- Institutional holding: 52.2%\n- Dividend yield: 2.95%\n- Analyst count: 21\n- Mean target price: 1070.5714\n\n### Sector medians (Information Technology, 24 Nifty 500 peers)\n\n- Trailing P/E: 25.44\n- Price/Book: 4.91\n- Return on equity: 24.07%\n- Debt/Equity: 9.69\n- Revenue growth: 17.95%\n- Net margin: 11.77%\n\n### Data my engine could not get\n\n- Return on Equity unavailable\n\n## What I want from you\n\n1. **Why did it actually move?** My engine only sees exchange filings and price action. Check whether there is a real catalyst it missed - sector news, a peer's results, a policy change, an index inclusion, a block deal.\n2. **Is my engine's attribution wrong?** Say so directly if the evidence points elsewhere.\n3. **The one-year view.** Build a bull case and a bear case from the business, not from the chart. What has to be true for this to work, and what would break it? Be concrete about which numbers to watch.\n4. **What would you check that I have not?** Name the specific filings, segments or metrics.\n\nPlease flag anything above that looks stale or wrong, and tell me plainly if this looks like a speculative move rather than an investable one. I am not asking you to tell me whether to buy - I want the reasoning so I can decide."
+      "research_prompt": "I'm a long-term retail investor in Indian equities (NSE). My screener flagged Cyient Ltd. (CYIENT) because it gained at least 3% on each of 1 consecutive sessions. I want your independent read - please push back on my screener rather than agreeing with it.\n\n## What my screener measured\n\n- Streak: 2026-10-09 to 2026-10-09, +6.8% cumulative\n- Daily gains: 2026-10-09 +6.83%\n- Last close: Rs 1,158.80\n- Sector: Information Technology\n- Median 20-day turnover: Rs 48.5 crore\n- Volume vs 20-day median: 11.12x\n- Distance from 52-week high: -4.1%\n- Return 1M / 3M / 1Y: 6.7% / 37.8% / None%\n\n## Attribution my engine computed\n\n- Verdict: company_catalyst - Company-specific - investor communication disclosed to the exchange\n- Stock over the window: +6.8%\n- Sector median over the same window: +2.9%\n- Excess vs sector: +3.9 pp\n- Broad market median: +0.7%\n\n### NSE filings in the window\n\n- 2026-10-10 [neutral] Shareholders meeting - Routine or administrative disclosure\n  Cyient Limited has submitted the Exchange a copy Srutinizers report of  Postal Ballot. Further, the company has informed the Exchange regarding voting results.\n- 2026-10-10 [catalyst] Analysts/Institutional Investor Meet/Con. Call Updates - Investor communication\n  Cyient Limited has informed the Exchange about Schedule of meet\n- 2026-10-06 [neutral] Updates - Routine or administrative disclosure\n  Cyient Limited has informed the Exchange regarding 'Update'.\n- 2026-10-06 [neutral] Press Release - Routine or administrative disclosure\n  Cyient Limited has informed the Exchange regarding a press release dated October 06, 2026, titled \"Cyient Establishes Intelligent Engineering Solutions toAccelerate Technology-led \n\n### Recent headlines (unverified, from Google News)\n\n- Cyient (NSEI:CYIENT) Stock Forecast & Analyst Predictions - Simply Wall Street\n- Cyient Ltd. Share Price Today - Cyient Ltd. Stock Price Live NSE/BSE - CNBC TV18\n- Cyient Ltd. Share Price Up 5.04%: Price, Sector Analysis - Univest\n- Cyient shares soar 8% as CCI approves acquisition of California-based Tao Digital Solutions - Upstox\n- CYIENT Forecast — Price Target — Prediction for 2027 - TradingView\n- Cyient Ltd (NSE:CYIENT) Q1 2027 Earnings Report Preview: What To Look For - Yahoo Finance\n\n## Fundamentals\n\n- Market cap: Rs 12,011 crore\n- Trailing P/E: 33.895416\n- Forward P/E: 15.906636\n- Price/Book: 2.2433681\n- Debt/Equity: 7.528\n- Revenue growth (yoy): 21.3%\n- Earnings growth (yoy): -32.4%\n- Operating margin: 9.01%\n- Net margin: 4.96%\n- Promoter holding: 25.33%\n- Institutional holding: 52.2%\n- Dividend yield: 2.76%\n- Analyst count: 21\n- Mean target price: 1086.0476\n\n### Sector medians (Information Technology, 24 Nifty 500 peers)\n\n- Trailing P/E: 25.33\n- Price/Book: 4.93\n- Return on equity: 24.07%\n- Debt/Equity: 9.69\n- Revenue growth: 17.95%\n- Net margin: 11.77%\n\n### Data my engine could not get\n\n- Return on Equity unavailable\n\n## What I want from you\n\n1. **Why did it actually move?** My engine only sees exchange filings and price action. Check whether there is a real catalyst it missed - sector news, a peer's results, a policy change, an index inclusion, a block deal.\n2. **Is my engine's attribution wrong?** Say so directly if the evidence points elsewhere.\n3. **The one-year view.** Build a bull case and a bear case from the business, not from the chart. What has to be true for this to work, and what would break it? Be concrete about which numbers to watch.\n4. **What would you check that I have not?** Name the specific filings, segments or metrics.\n\nPlease flag anything above that looks stale or wrong, and tell me plainly if this looks like a speculative move rather than an investable one. I am not asking you to tell me whether to buy - I want the reasoning so I can decide."
     },
     {
       "symbol": "INOXWIND",
@@ -411,7 +429,7 @@
           "date": "2026-10-09",
           "close": 66.6500015258789,
           "gain_pct": 6.76,
-          "volume": 37424012
+          "volume": 37432425
         }
       ],
       "attribution": {
@@ -420,7 +438,7 @@
         "explanation": [
           "The stock gained +6.8% over the session 2026-10-09.",
           "Its sector (Capital Goods) moved +0.1% over the same window, with 58% of its 69 Nifty 500 members advancing on the last session.",
-          "The broad market (median of 497 Nifty 500 names) moved +0.7% over the window, with 71% advancing on the last session.",
+          "The broad market (median of 499 Nifty 500 names) moved +0.7% over the window, with 71% advancing on the last session.",
           "The stock outpaced its sector by 6.6 percentage points, yet filed no disclosure in the window that would account for it.",
           "An unexplained move away from the sector is worth more caution, not less - it can reflect speculation, a leaked development, or an operator-driven move.",
           "Volume ran 3.8x its 20-day median, so real institutional-scale money participated rather than thin-book drift."
@@ -453,16 +471,16 @@
             "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFAtZDhOanVKMElPRUpHa19yczdUSVlGMjFlcG1HM0RBMGVFVzJOYlludVVFLXdpN2NxNzZyT1BLRGcwUTA1SldMUjRzZjl2a2o2RlB2UG1rMjg1TWRDMUJ6NzVkRmhaWXp2OG9yTFBoQXY1NE95NzZvSmp3?oc=5"
           },
           {
-            "title": "Inox Wind Limited (NSE:INOXWIND) Analysts Just Slashed This Year's Estimates - Simply Wall Street",
-            "source": "Simply Wall Street",
-            "published": "Thu, 13 Aug 2026 07:00:00 GMT",
-            "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQMnhPSzVlcDNlc1JsVk81eDFrTzlMdEhybTBNX0RMaWNjaGNxeXBiZV9ReUVQNy0tZ2c3c0Z2bk1pUmpuWEtQX01ZbWxzcUFpaWIyQTJfRXg4ZnVqQ0tiME9YbXpvWVRRZnk0SVRGazNFM2tUcC1IZ3VScktRbHl4cUpfMWlxM09hUGRVSTlXUTRaeFByckJMbnBfNTNEV29KLVEteE04bDMyTlRXMk5BUkhjb1ZpYkZnZU03SHBVN3prWTU2dkdWM2owU1paZ3VLV0RZUFpfV3XSAd4BQVVfeXFMUEFGb29QMmhwNWtzTVJkZmxxOUc0d3RHNXJYQVoyV09WUzN0bmJWZU9xOGF4eW9nS21JTURpMVVZb3d5YU5kaUJUQ1FfRTdpUWotWUFlRkx3YjZuYUVYMldyamxUa2dkN0ZLbnRaUG9zdC1keG1oMmd5bTY1QllQTWtPd1JJWEFVNk9YT2ppcUk1Wk9qVXNGbzB4U2JBVW9heHJRZTBkLW9iNXpRS25BZzVkTWJUdGtrQ1BqVFM4dmpuQS1IeFVtNWVsYVBEN2Z0TzkwaW5tbFlsam9aXzNR?oc=5"
-          },
-          {
             "title": "Inox Wind Ltd. Share Price Today - Inox Wind Ltd. Stock Price Live NSE/BSE - CNBC TV18",
             "source": "CNBC TV18",
             "published": "Sat, 03 Jan 2026 09:39:05 GMT",
             "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5udlpJanM2cjh0dV93ZkFjTFREYzNtN0NabEZzOU8yUjZQczduMDM0RmZGOUlPX2dnOXlFTGVIQ3lOSWVST2pmRHM3cG9WVUh2SHpHd1VLN1JhcWM4MDY1NUM0blRmWmhSN0QwalhVNXBzUldOczNV?oc=5"
+          },
+          {
+            "title": "Inox Wind Limited (NSE:INOXWIND) Analysts Just Slashed This Year's Estimates - Simply Wall Street",
+            "source": "Simply Wall Street",
+            "published": "Thu, 13 Aug 2026 07:00:00 GMT",
+            "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQMnhPSzVlcDNlc1JsVk81eDFrTzlMdEhybTBNX0RMaWNjaGNxeXBiZV9ReUVQNy0tZ2c3c0Z2bk1pUmpuWEtQX01ZbWxzcUFpaWIyQTJfRXg4ZnVqQ0tiME9YbXpvWVRRZnk0SVRGazNFM2tUcC1IZ3VScktRbHl4cUpfMWlxM09hUGRVSTlXUTRaeFByckJMbnBfNTNEV29KLVEteE04bDMyTlRXMk5BUkhjb1ZpYkZnZU03SHBVN3prWTU2dkdWM2owU1paZ3VLV0RZUFpfV3XSAd4BQVVfeXFMUEFGb29QMmhwNWtzTVJkZmxxOUc0d3RHNXJYQVoyV09WUzN0bmJWZU9xOGF4eW9nS21JTURpMVVZb3d5YU5kaUJUQ1FfRTdpUWotWUFlRkx3YjZuYUVYMldyamxUa2dkN0ZLbnRaUG9zdC1keG1oMmd5bTY1QllQTWtPd1JJWEFVNk9YT2ppcUk1Wk9qVXNGbzB4U2JBVW9heHJRZTBkLW9iNXpRS25BZzVkTWJUdGtrQ1BqVFM4dmpuQS1IeFVtNWVsYVBEN2Z0TzkwaW5tbFlsam9aXzNR?oc=5"
           },
           {
             "title": "Inox Wind Ltd. Actuals & Estimates (NSE:INOXWIND) - TradingView",
@@ -474,10 +492,10 @@
       },
       "fundamentals": {
         "symbol": "INOXWIND",
-        "market_cap_cr": 11519.0,
-        "trailing_pe": 27.655602,
-        "forward_pe": 13.885416,
-        "price_to_book": 1.562207,
+        "market_cap_cr": 11609.0,
+        "trailing_pe": 27.871368,
+        "forward_pe": 13.993749,
+        "price_to_book": 1.5743952,
         "roe_pct": null,
         "debt_to_equity": 20.631,
         "revenue_growth_pct": -1.5,
@@ -493,14 +511,14 @@
         "target_low": 88.0,
         "target_high": 138.0,
         "analyst_count": 6,
-        "current_price": 66.65,
+        "current_price": 67.17,
         "business_summary": "Inox Wind Limited engages in the manufacture and sale of wind turbine generators and components for independent power producers, utilities, public sector undertakings, businesses, and private investors in India. It provides rotor, generator, braking system, gear box, and towers. The company also offers infrastructure services, such as wind resource assessment and site screening, land acquisition and infra development, development and construction of power evacuation infrastructure, commissioning and stabilization; and operations and maintenance services; and value-added services, as well as involved in the environment, health, and safety initiatives. Inox Wind Limited was incorporated in 2009 and is based in Noida, India."
       },
       "benchmark": {
         "industry": "Capital Goods",
         "peers": 68,
-        "trailing_pe": 50.37,
-        "price_to_book": 7.65,
+        "trailing_pe": 50.67,
+        "price_to_book": 8.0,
         "roe_pct": 22.34,
         "debt_to_equity": 8.76,
         "revenue_growth_pct": 19.35,
@@ -510,15 +528,15 @@
         "factors": [
           {
             "name": "Trailing P/E",
-            "value": "27.7",
-            "peer_value": "50.4",
+            "value": "27.9",
+            "peer_value": "50.7",
             "stance": "bull",
             "note": "Cheaper than the typical peer on trailing earnings."
           },
           {
             "name": "Price / Book",
             "value": "1.6",
-            "peer_value": "7.7",
+            "peer_value": "8.0",
             "stance": "bull",
             "note": "Trades at a lower multiple of book value than peers."
           },
@@ -552,9 +570,9 @@
           }
         ],
         "bull_case": [
-          "Trailing P/E 27.7 vs sector 50.4. Cheaper than the typical peer on trailing earnings.",
-          "Price / Book 1.6 vs sector 7.7. Trades at a lower multiple of book value than peers.",
-          "6 analysts publish a mean target of 112, 68% above the current price.",
+          "Trailing P/E 27.9 vs sector 50.7. Cheaper than the typical peer on trailing earnings.",
+          "Price / Book 1.6 vs sector 8.0. Trades at a lower multiple of book value than peers.",
+          "6 analysts publish a mean target of 112, 66% above the current price.",
           "Still 58% below its 52-week high, leaving recovery room if the business itself is intact."
         ],
         "bear_case": [
@@ -573,7 +591,7 @@
         "bull_count": 2,
         "bear_count": 3
       },
-      "research_prompt": "I'm a long-term retail investor in Indian equities (NSE). My screener flagged Inox Wind Ltd. (INOXWIND) because it gained at least 3% on each of 1 consecutive sessions. I want your independent read - please push back on my screener rather than agreeing with it.\n\n## What my screener measured\n\n- Streak: 2026-10-09 to 2026-10-09, +6.8% cumulative\n- Daily gains: 2026-10-09 +6.76%\n- Last close: Rs 66.65\n- Sector: Capital Goods\n- Median 20-day turnover: Rs 69.6 crore\n- Volume vs 20-day median: 3.79x\n- Distance from 52-week high: -57.6%\n- Return 1M / 3M / 1Y: -12.0% / -19.3% / None%\n\n## Attribution my engine computed\n\n- Verdict: unexplained - Company-specific, but nothing disclosed to explain it\n- Stock over the window: +6.8%\n- Sector median over the same window: +0.1%\n- Excess vs sector: +6.6 pp\n- Broad market median: +0.7%\n\n- No NSE corporate filings in the window.\n\n### Recent headlines (unverified, from Google News)\n\n- Inox Wind (NSEI:INOXWIND) Stock Forecast & Analyst Predictions - Simply Wall Street\n- INOXWIND Forecast — Price Target — Prediction for 2027 - TradingView\n- Inox Wind Share Price Rise: Volume, Sector and Peer View - Univest\n- Inox Wind Limited (NSE:INOXWIND) Analysts Just Slashed This Year's Estimates - Simply Wall Street\n- Inox Wind Ltd. Share Price Today - Inox Wind Ltd. Stock Price Live NSE/BSE - CNBC TV18\n- Inox Wind Ltd. Actuals & Estimates (NSE:INOXWIND) - TradingView\n\n## Fundamentals\n\n- Market cap: Rs 11,519 crore\n- Trailing P/E: 27.655602\n- Forward P/E: 13.885416\n- Price/Book: 1.562207\n- Debt/Equity: 20.631\n- Revenue growth (yoy): -1.5%\n- Earnings growth (yoy): -38.3%\n- Operating margin: 11.53%\n- Net margin: 7.83%\n- Promoter holding: 47.23%\n- Institutional holding: 21.13%\n- Dividend yield: 0.0%\n- Analyst count: 6\n- Mean target price: 111.66667\n\n### Sector medians (Capital Goods, 68 Nifty 500 peers)\n\n- Trailing P/E: 50.37\n- Price/Book: 7.65\n- Return on equity: 22.34%\n- Debt/Equity: 8.76\n- Revenue growth: 19.35%\n- Net margin: 11.41%\n\n### Data my engine could not get\n\n- Return on Equity unavailable\n\n## What I want from you\n\n1. **Why did it actually move?** My engine only sees exchange filings and price action. Check whether there is a real catalyst it missed - sector news, a peer's results, a policy change, an index inclusion, a block deal.\n2. **Is my engine's attribution wrong?** Say so directly if the evidence points elsewhere.\n3. **The one-year view.** Build a bull case and a bear case from the business, not from the chart. What has to be true for this to work, and what would break it? Be concrete about which numbers to watch.\n4. **What would you check that I have not?** Name the specific filings, segments or metrics.\n\nPlease flag anything above that looks stale or wrong, and tell me plainly if this looks like a speculative move rather than an investable one. I am not asking you to tell me whether to buy - I want the reasoning so I can decide."
+      "research_prompt": "I'm a long-term retail investor in Indian equities (NSE). My screener flagged Inox Wind Ltd. (INOXWIND) because it gained at least 3% on each of 1 consecutive sessions. I want your independent read - please push back on my screener rather than agreeing with it.\n\n## What my screener measured\n\n- Streak: 2026-10-09 to 2026-10-09, +6.8% cumulative\n- Daily gains: 2026-10-09 +6.76%\n- Last close: Rs 66.65\n- Sector: Capital Goods\n- Median 20-day turnover: Rs 69.6 crore\n- Volume vs 20-day median: 3.79x\n- Distance from 52-week high: -57.6%\n- Return 1M / 3M / 1Y: -12.0% / -19.3% / None%\n\n## Attribution my engine computed\n\n- Verdict: unexplained - Company-specific, but nothing disclosed to explain it\n- Stock over the window: +6.8%\n- Sector median over the same window: +0.1%\n- Excess vs sector: +6.6 pp\n- Broad market median: +0.7%\n\n- No NSE corporate filings in the window.\n\n### Recent headlines (unverified, from Google News)\n\n- Inox Wind (NSEI:INOXWIND) Stock Forecast & Analyst Predictions - Simply Wall Street\n- INOXWIND Forecast — Price Target — Prediction for 2027 - TradingView\n- Inox Wind Share Price Rise: Volume, Sector and Peer View - Univest\n- Inox Wind Ltd. Share Price Today - Inox Wind Ltd. Stock Price Live NSE/BSE - CNBC TV18\n- Inox Wind Limited (NSE:INOXWIND) Analysts Just Slashed This Year's Estimates - Simply Wall Street\n- Inox Wind Ltd. Actuals & Estimates (NSE:INOXWIND) - TradingView\n\n## Fundamentals\n\n- Market cap: Rs 11,609 crore\n- Trailing P/E: 27.871368\n- Forward P/E: 13.993749\n- Price/Book: 1.5743952\n- Debt/Equity: 20.631\n- Revenue growth (yoy): -1.5%\n- Earnings growth (yoy): -38.3%\n- Operating margin: 11.53%\n- Net margin: 7.83%\n- Promoter holding: 47.23%\n- Institutional holding: 21.13%\n- Dividend yield: 0.0%\n- Analyst count: 6\n- Mean target price: 111.66667\n\n### Sector medians (Capital Goods, 68 Nifty 500 peers)\n\n- Trailing P/E: 50.67\n- Price/Book: 8.0\n- Return on equity: 22.34%\n- Debt/Equity: 8.76\n- Revenue growth: 19.35%\n- Net margin: 11.41%\n\n### Data my engine could not get\n\n- Return on Equity unavailable\n\n## What I want from you\n\n1. **Why did it actually move?** My engine only sees exchange filings and price action. Check whether there is a real catalyst it missed - sector news, a peer's results, a policy change, an index inclusion, a block deal.\n2. **Is my engine's attribution wrong?** Say so directly if the evidence points elsewhere.\n3. **The one-year view.** Build a bull case and a bear case from the business, not from the chart. What has to be true for this to work, and what would break it? Be concrete about which numbers to watch.\n4. **What would you check that I have not?** Name the specific filings, segments or metrics.\n\nPlease flag anything above that looks stale or wrong, and tell me plainly if this looks like a speculative move rather than an investable one. I am not asking you to tell me whether to buy - I want the reasoning so I can decide."
     },
     {
       "symbol": "KEC",
@@ -598,7 +616,7 @@
           "date": "2026-10-09",
           "close": 369.8500061035156,
           "gain_pct": 5.79,
-          "volume": 16496548
+          "volume": 16496749
         }
       ],
       "attribution": {
@@ -607,7 +625,7 @@
         "explanation": [
           "The stock gained +5.8% over the session 2026-10-09.",
           "Its sector (Construction) moved +1.3% over the same window, with 69% of its 13 Nifty 500 members advancing on the last session.",
-          "The broad market (median of 497 Nifty 500 names) moved +0.7% over the window, with 71% advancing on the last session.",
+          "The broad market (median of 499 Nifty 500 names) moved +0.7% over the window, with 71% advancing on the last session.",
           "The stock outpaced its sector by 4.5 percentage points, yet filed no disclosure in the window that would account for it.",
           "An unexplained move away from the sector is worth more caution, not less - it can reflect speculation, a leaked development, or an operator-driven move.",
           "Volume ran 19.4x its 20-day median, so real institutional-scale money participated rather than thin-book drift."
@@ -620,6 +638,15 @@
         "volume_ratio": 19.36,
         "cautions": [],
         "filings": [
+          {
+            "date": "2026-10-10",
+            "time": "14:50",
+            "category": "Bagging/Receiving of orders/contracts",
+            "summary": "KEC Secures New T&D Orders of Rs. 1,014 crores in India",
+            "pdf_url": "https://nsearchives.nseindia.com/corporate/KEC_10102026144951_PressRelease.pdf",
+            "bucket": "neutral",
+            "label": "Routine or administrative disclosure"
+          },
           {
             "date": "2026-10-09",
             "time": "17:39",
@@ -650,16 +677,16 @@
         ],
         "headlines": [
           {
-            "title": "KEC International (NSEI:KEC) Stock Forecast & Analyst Predictions - Simply Wall Street",
-            "source": "Simply Wall Street",
-            "published": "Tue, 06 Oct 2026 07:00:00 GMT",
-            "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPek1HeVdFbVlodFlmdUo5eEI1Q2V6TlktSXh4OW1CUlVrSS13MDlBa09iTXF3QXdCLVp5MEtZU2FNd0lpdFVEWTdGZEotQ1hQNzJ5TFZydTctYXJydzR5NUIyNDVtb1VHR2J3bElUcEFUMlJNaEdIaEF4bDFXamJrdERkbXJCMEYtOUVLLXNn?oc=5"
+            "title": "KEC International Share Price - Upstox",
+            "source": "Upstox",
+            "published": "Sat, 10 Oct 2026 04:46:19 GMT",
+            "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1vbmNDb0NfNF9sS3didDNFMllTb0ktQVRZUDVmUG1paG5oeXJKOXlOdHFMOHlBbmtrS01RdFdaZF9zMlNSNjVIdmRGTVN2Rnh1ckhlbjhUMGdhc2d2SjFQVmh3REVTdw?oc=5"
           },
           {
-            "title": "KEC Share Price Today - KEC International on NSE/BSE - scanx.trade",
-            "source": "scanx.trade",
-            "published": "Thu, 08 Oct 2026 13:42:11 GMT",
-            "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE8zczUwdkZyaVIxMFJiZ0Z5Vjl0cHYwMEtidHlHNHVvclI5cE80Y0wwQnZ2b1dwTlhobThvMzJjN0VJVnZ4TmtjRFN1QkMzNWE2UGVha2ZwVlBQazdsakE?oc=5"
+            "title": "KEC International Ltd. Share Price Today - KEC International Ltd. Stock Price Live NSE/BSE - CNBC TV18",
+            "source": "CNBC TV18",
+            "published": "Fri, 09 Oct 2026 10:28:00 GMT",
+            "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOLVk0Z1F5QkZYWi1vWUdZc3k1TXZaY0M2ZUFtSGxUWHh3d3Mzd0hjTU5sdUFqcnpSZXpWWDdTX014WTRSM1RnTzF3QTZZTV92a0FTXzBXeXljZ19JQ25OdG5rZFpSQV9TUVhSUnRCSnFvR1BQQjRwTTgtTG95RVpvVVpJT2Jwdw?oc=5"
           },
           {
             "title": "KEC Forecast — Price Target — Prediction for 2027 - TradingView",
@@ -668,16 +695,16 @@
             "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE0zbkxVVkp4cGxuVHIzZXlzOGxWZWNCZnE2ZTZvdVFIUWFsTmJsUG1CSl91Wk9vdFdZTGRnVHlONGZFdFMtQUdGWDJaYmVnUnllakNJWkVsNXBZNXBjSndINnZZQWpvVkNjQWRGNGN1MUhjWUVz?oc=5"
           },
           {
+            "title": "KEC International Limited Just Missed EPS By 13%: Here's What Analysts Think Will Happen Next - Simply Wall Street",
+            "source": "Simply Wall Street",
+            "published": "Thu, 13 Aug 2026 07:00:00 GMT",
+            "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQUmR5cmtwVmtvTThxZUg4ZWpWS05YcEdjR21UZ0xBUjVNTjUwbG5LZmR6b2VsSWJyeE5LV1VURU9WVEMxcVZfT2RSLWl4RjdGbFFRV3RKbDdwcERaM1loODlCZVpGQjhHQ01RV29PUlRnZGlVVzBKTm9HWDlDcGtfZjRLSy1IVk1ESlZKMGtabl9TdjVKc3V3Q29uc0pfQmtEZVBwUHQyRWFhTW5JSHpqZVNfcTI4d0h3Y3JzNlFZb0ZyUG92Ny14ZGFTWGdLLTItTjRGTUtFSnY3NVYt0gHiAUFVX3lxTE9sanAtdXMwWlJQMTRLZlg1WkRoVnY3SG9rTHJWWk1kNW1DZ1NZdzJCamNOM3hmblpEdElvdW02a3Z6MUlPVWVDU2FxRFdrOTdGUktwc1M1aWVnaW9EOThXWHBIalJQaV8wVmdjUW9lQ1FXVXZOdUFvNk1CYTdtbVhOMVdQcEh1dXZzMmpIbzZDYjRVN0dfaEZzMHVfelY3Rl81OXNEemF3aHVjRUd1a3VmUEt4WnprVWJ1REhtSy1MSXNEMG40QnFNQUQ0SzBHMlhPSlJXWkpzSlNPVWhDVU85UVE?oc=5"
+          },
+          {
             "title": "KEC International Share Price: Buy or Sell - Univest",
             "source": "Univest",
             "published": "Thu, 03 Sep 2026 07:00:00 GMT",
             "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9RYWVXVmdrMGRpQkJhWXV6QUI3aTVlQ2FiZVRJYjRYQ0tCaTVYMzROSWRwblhzLWstdG1EYThuTmFiMHZ6cEFDQ3BnbWNsbzZ0Z3VPYnVnX2VWbmJpaDBqRWJYeUEtaThZV3B5R0g0ODg0Vm9pb3V0NHh4dw?oc=5"
-          },
-          {
-            "title": "KEC International shares climb 5% on bagging new orders worth ₹1,180 crore across businesses - Upstox",
-            "source": "Upstox",
-            "published": "Tue, 14 Jul 2026 07:00:00 GMT",
-            "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNdGh0NWN3MGYzbTltQk43OVJQUndITGczZWVKOHNualhHbEFVQ1lYbGNSV3YyWEhOaFd4bEI1S3FYWXNGWk5yOThvamZDeGthcmVPUHY1SVA2SzJzOWdrZmpqalpSdlphWmI2TUVSc254eFhNS1BIQjU3WlVraUM1TDJDTHY1UUxLN0ozTDlqX2dJMUtrNWx6amdEaXNFVHRrenh3X2VYTHh6b2NQQTREVHRBZEZNc1lPRWRFRDFodnJ4REMwSTZtZDZta19ycVBGNjdudmhmbWJjTDM0MXc1NVRwZw?oc=5"
           },
           {
             "title": "KEC International share price in focus after Q1 profit drops 42% - Moneycontrol.com",
@@ -689,10 +716,10 @@
       },
       "fundamentals": {
         "symbol": "KEC",
-        "market_cap_cr": 9845.0,
-        "trailing_pe": 17.78125,
-        "forward_pe": 10.189155,
-        "price_to_book": 1.5983629,
+        "market_cap_cr": 9648.0,
+        "trailing_pe": 17.425482,
+        "forward_pe": 10.079057,
+        "price_to_book": 1.5663828,
         "roe_pct": null,
         "debt_to_equity": 87.306,
         "revenue_growth_pct": 0.0,
@@ -701,21 +728,21 @@
         "profit_margin_pct": 2.35,
         "promoter_holding_pct": 4.55,
         "institutional_holding_pct": 73.37,
-        "dividend_yield_pct": 1.57,
+        "dividend_yield_pct": 1.49,
         "current_ratio": null,
         "beta": 0.082,
-        "target_mean": 541.4,
+        "target_mean": 535.72,
         "target_low": 397.0,
         "target_high": 648.0,
         "analyst_count": 25,
-        "current_price": 369.85,
+        "current_price": 362.45,
         "business_summary": "KEC International Limited engages in the engineering, procurement, and construction (EPC) business. It designs, manufactures, supplies, and erects transmission lines on turnkey basis; executes gas insulated transmission lines; undertakes EPC projects of high voltage electrical switching and distribution substations, as well as transmission lines in oil field areas; and turnkey solutions for railway contracts. The company also provides civil engineering solutions for transportation; urban infrastructure; industrial; residential and defense; commercial, public space, and datacenters; water; and international projects. In addition, it is involved in the provision of solar EPC services for large solar PV projects and PV solutions for industrial and commercial consumers; and design and engineering, project execution and management, bid management, and project feasibility analysis for large-scale solar photovoltaic power plants, as well as roof-top solar PV projects. Further, the company undertakes the construction of oil and gas / slurry pipelines and composite mechanical, civil, electrical, and instrumentation work in hydrocarbon facilities. The company manufactures and exports power cables, including EHV, HT and LV, telecom and optical fiber cables, control and instrumentation cables, and railway cables and conductors; special-purpose cables, such as cathodic protection, concentric, flat submersible, electric vehicle charging, hybrid, and green cables; and provides turnkey cabling solutions. KEC International Limited was founded in 1945 and is headquartered in Mumbai, India. KEC International Limited is a subsidiary of RPG Enterprises Limited."
       },
       "benchmark": {
         "industry": "Construction",
         "peers": 12,
-        "trailing_pe": 24.34,
-        "price_to_book": 3.31,
+        "trailing_pe": 24.36,
+        "price_to_book": 3.34,
         "roe_pct": null,
         "debt_to_equity": 47.45,
         "revenue_growth_pct": 7.55,
@@ -725,8 +752,8 @@
         "factors": [
           {
             "name": "Trailing P/E",
-            "value": "17.8",
-            "peer_value": "24.3",
+            "value": "17.4",
+            "peer_value": "24.4",
             "stance": "bull",
             "note": "Cheaper than the typical peer on trailing earnings."
           },
@@ -767,9 +794,9 @@
           }
         ],
         "bull_case": [
-          "Trailing P/E 17.8 vs sector 24.3. Cheaper than the typical peer on trailing earnings.",
+          "Trailing P/E 17.4 vs sector 24.4. Cheaper than the typical peer on trailing earnings.",
           "Price / Book 1.6 vs sector 3.3. Trades at a lower multiple of book value than peers.",
-          "25 analysts publish a mean target of 541, 46% above the current price.",
+          "25 analysts publish a mean target of 536, 48% above the current price.",
           "Still 56% below its 52-week high, leaving recovery room if the business itself is intact."
         ],
         "bear_case": [
@@ -789,7 +816,7 @@
         "bull_count": 2,
         "bear_count": 3
       },
-      "research_prompt": "I'm a long-term retail investor in Indian equities (NSE). My screener flagged Kec International Ltd. (KEC) because it gained at least 3% on each of 1 consecutive sessions. I want your independent read - please push back on my screener rather than agreeing with it.\n\n## What my screener measured\n\n- Streak: 2026-10-09 to 2026-10-09, +5.8% cumulative\n- Daily gains: 2026-10-09 +5.79%\n- Last close: Rs 369.85\n- Sector: Construction\n- Median 20-day turnover: Rs 33.8 crore\n- Volume vs 20-day median: 19.36x\n- Distance from 52-week high: -56.4%\n- Return 1M / 3M / 1Y: -8.8% / -25.9% / None%\n\n## Attribution my engine computed\n\n- Verdict: unexplained - Company-specific, but nothing disclosed to explain it\n- Stock over the window: +5.8%\n- Sector median over the same window: +1.3%\n- Excess vs sector: +4.5 pp\n- Broad market median: +0.7%\n\n### NSE filings in the window\n\n- 2026-10-09 [neutral] Copy of Newspaper Publication - Routine or administrative disclosure\n  Pursuant to Regulation 30 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015, read with SEBI Circular dated January 30, 2026, please find enclosed copi\n- 2026-10-08 [neutral] Bagging/Receiving of orders/contracts - Routine or administrative disclosure\n  KEC International wins New Orders of Rs. 1,030 crores\n- 2026-10-07 [neutral] Certificate under SEBI (Depositories and Participants) Regulations, 2018 - Routine or administrative disclosure\n  We are enclosing herewith certificate dated October 07, 2026, issued by MUFG Intime India Private Limited, Registrar and Transfer Agents of the Company, confirming compliance under\n\n### Recent headlines (unverified, from Google News)\n\n- KEC International (NSEI:KEC) Stock Forecast & Analyst Predictions - Simply Wall Street\n- KEC Share Price Today - KEC International on NSE/BSE - scanx.trade\n- KEC Forecast — Price Target — Prediction for 2027 - TradingView\n- KEC International Share Price: Buy or Sell - Univest\n- KEC International shares climb 5% on bagging new orders worth ₹1,180 crore across businesses - Upstox\n- KEC International share price in focus after Q1 profit drops 42% - Moneycontrol.com\n\n## Fundamentals\n\n- Market cap: Rs 9,845 crore\n- Trailing P/E: 17.78125\n- Forward P/E: 10.189155\n- Price/Book: 1.5983629\n- Debt/Equity: 87.306\n- Revenue growth (yoy): 0.0%\n- Earnings growth (yoy): -41.7%\n- Operating margin: 4.78%\n- Net margin: 2.35%\n- Promoter holding: 4.55%\n- Institutional holding: 73.37%\n- Dividend yield: 1.57%\n- Analyst count: 25\n- Mean target price: 541.4\n\n### Sector medians (Construction, 12 Nifty 500 peers)\n\n- Trailing P/E: 24.34\n- Price/Book: 3.31\n- Debt/Equity: 47.45\n- Revenue growth: 7.55%\n- Net margin: 5.68%\n\n### Data my engine could not get\n\n- Return on Equity unavailable\n\n## What I want from you\n\n1. **Why did it actually move?** My engine only sees exchange filings and price action. Check whether there is a real catalyst it missed - sector news, a peer's results, a policy change, an index inclusion, a block deal.\n2. **Is my engine's attribution wrong?** Say so directly if the evidence points elsewhere.\n3. **The one-year view.** Build a bull case and a bear case from the business, not from the chart. What has to be true for this to work, and what would break it? Be concrete about which numbers to watch.\n4. **What would you check that I have not?** Name the specific filings, segments or metrics.\n\nPlease flag anything above that looks stale or wrong, and tell me plainly if this looks like a speculative move rather than an investable one. I am not asking you to tell me whether to buy - I want the reasoning so I can decide."
+      "research_prompt": "I'm a long-term retail investor in Indian equities (NSE). My screener flagged Kec International Ltd. (KEC) because it gained at least 3% on each of 1 consecutive sessions. I want your independent read - please push back on my screener rather than agreeing with it.\n\n## What my screener measured\n\n- Streak: 2026-10-09 to 2026-10-09, +5.8% cumulative\n- Daily gains: 2026-10-09 +5.79%\n- Last close: Rs 369.85\n- Sector: Construction\n- Median 20-day turnover: Rs 33.8 crore\n- Volume vs 20-day median: 19.36x\n- Distance from 52-week high: -56.4%\n- Return 1M / 3M / 1Y: -8.8% / -25.9% / None%\n\n## Attribution my engine computed\n\n- Verdict: unexplained - Company-specific, but nothing disclosed to explain it\n- Stock over the window: +5.8%\n- Sector median over the same window: +1.3%\n- Excess vs sector: +4.5 pp\n- Broad market median: +0.7%\n\n### NSE filings in the window\n\n- 2026-10-10 [neutral] Bagging/Receiving of orders/contracts - Routine or administrative disclosure\n  KEC Secures New T&D Orders of Rs. 1,014 crores in India\n- 2026-10-09 [neutral] Copy of Newspaper Publication - Routine or administrative disclosure\n  Pursuant to Regulation 30 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015, read with SEBI Circular dated January 30, 2026, please find enclosed copi\n- 2026-10-08 [neutral] Bagging/Receiving of orders/contracts - Routine or administrative disclosure\n  KEC International wins New Orders of Rs. 1,030 crores\n- 2026-10-07 [neutral] Certificate under SEBI (Depositories and Participants) Regulations, 2018 - Routine or administrative disclosure\n  We are enclosing herewith certificate dated October 07, 2026, issued by MUFG Intime India Private Limited, Registrar and Transfer Agents of the Company, confirming compliance under\n\n### Recent headlines (unverified, from Google News)\n\n- KEC International Share Price - Upstox\n- KEC International Ltd. Share Price Today - KEC International Ltd. Stock Price Live NSE/BSE - CNBC TV18\n- KEC Forecast — Price Target — Prediction for 2027 - TradingView\n- KEC International Limited Just Missed EPS By 13%: Here's What Analysts Think Will Happen Next - Simply Wall Street\n- KEC International Share Price: Buy or Sell - Univest\n- KEC International share price in focus after Q1 profit drops 42% - Moneycontrol.com\n\n## Fundamentals\n\n- Market cap: Rs 9,648 crore\n- Trailing P/E: 17.425482\n- Forward P/E: 10.079057\n- Price/Book: 1.5663828\n- Debt/Equity: 87.306\n- Revenue growth (yoy): 0.0%\n- Earnings growth (yoy): -41.7%\n- Operating margin: 4.78%\n- Net margin: 2.35%\n- Promoter holding: 4.55%\n- Institutional holding: 73.37%\n- Dividend yield: 1.49%\n- Analyst count: 25\n- Mean target price: 535.72\n\n### Sector medians (Construction, 12 Nifty 500 peers)\n\n- Trailing P/E: 24.36\n- Price/Book: 3.34\n- Debt/Equity: 47.45\n- Revenue growth: 7.55%\n- Net margin: 5.68%\n\n### Data my engine could not get\n\n- Return on Equity unavailable\n\n## What I want from you\n\n1. **Why did it actually move?** My engine only sees exchange filings and price action. Check whether there is a real catalyst it missed - sector news, a peer's results, a policy change, an index inclusion, a block deal.\n2. **Is my engine's attribution wrong?** Say so directly if the evidence points elsewhere.\n3. **The one-year view.** Build a bull case and a bear case from the business, not from the chart. What has to be true for this to work, and what would break it? Be concrete about which numbers to watch.\n4. **What would you check that I have not?** Name the specific filings, segments or metrics.\n\nPlease flag anything above that looks stale or wrong, and tell me plainly if this looks like a speculative move rather than an investable one. I am not asking you to tell me whether to buy - I want the reasoning so I can decide."
     }
   ],
   "top_losers": [
@@ -804,7 +831,7 @@
       "end_date": "2026-10-09",
       "is_current": true,
       "median_turnover_cr": 78.8,
-      "volume_ratio": 3.5,
+      "volume_ratio": 3.51,
       "pct_from_52w_high": -8.6,
       "returns": {
         "m1": -8.6,
@@ -816,20 +843,20 @@
           "date": "2026-10-09",
           "close": 2038.699951171875,
           "gain_pct": -4.68,
-          "volume": 1088270
+          "volume": 1089771
         }
       ],
       "attribution": {
         "verdict": "company_catalyst",
-        "headline": "Company-specific - investor communication disclosed to the exchange",
+        "headline": "Company-specific - results announcement disclosed to the exchange",
         "explanation": [
           "The stock fell -4.7% over the session 2026-10-09.",
           "Its sector (Financial Services) moved +0.9% over the same window, with 80% of its 98 Nifty 500 members advancing on the last session.",
-          "The broad market (median of 497 Nifty 500 names) moved +0.7% over the window, with 71% advancing on the last session.",
+          "The broad market (median of 499 Nifty 500 names) moved +0.7% over the window, with 71% advancing on the last session.",
           "The stock lagged its sector by 5.6 percentage points, so the move is company-specific rather than sector-wide.",
+          "NSE filing 2026-10-10 12:09 - Results announcement: Copy of Newspaper Publication.",
           "NSE filing 2026-10-09 18:37 - Investor communication: Investor Presentation.",
           "NSE filing 2026-10-09 18:04 - Shareholder return action: Dividend.",
-          "NSE filing 2026-10-09 17:49 - Results announcement: Outcome of Board Meeting.",
           "Volume ran 3.5x its 20-day median, so real institutional-scale money participated rather than thin-book drift."
         ],
         "stock_streak_pct": -4.68,
@@ -837,9 +864,18 @@
         "market_streak_pct": 0.66,
         "excess_vs_sector_pct": -5.6,
         "sector_breadth_pct": 80.0,
-        "volume_ratio": 3.5,
+        "volume_ratio": 3.51,
         "cautions": [],
         "filings": [
+          {
+            "date": "2026-10-10",
+            "time": "12:09",
+            "category": "Copy of Newspaper Publication",
+            "summary": "Anand Rathi Wealth Limited has informed the Exchange about Copy of Newspaper Publication of Un-audited Consolidated Financial Result for the Second Quarter and Half Year ended 30th September, 2026",
+            "pdf_url": "https://nsearchives.nseindia.com/corporate/ANANDRATHI_10102026120909_NewspaperPubSd.pdf",
+            "bucket": "catalyst",
+            "label": "Results announcement"
+          },
           {
             "date": "2026-10-09",
             "time": "18:37",
@@ -927,12 +963,6 @@
             "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1TXzRMem50LVotQVNKY3dYQm5uc1JEMnM1VWlnb0pMNXRSTFA5RVNrUElMQVVYYjVWd1dDRHFXUXVTN1M2OTJjSUlnNFVrWmxYVm1oX2VfTW1kQkhyQXFJ?oc=5"
           },
           {
-            "title": "Anand Rathi Wealth Share Price Target 2026 and Share Price Today - Univest",
-            "source": "Univest",
-            "published": "Mon, 05 Oct 2026 07:00:00 GMT",
-            "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBZdVRBeFE5aTJ2aW1LSEF3elc2SVBSdEhZbUZ4ejZwYkdpUWZTSzJWOXB0cGNIcjFkLVNCQkVGdURQWFpybmRnWFlWenlZM1VMbUJvREM1bERaTHJlbEcyc0JfcUhLOGh2cjdsUWZmT2NiTXhyOHc?oc=5"
-          },
-          {
             "title": "Anand Rathi Wealth Ltd. Futures Price: Live NSE/BSE Futures Chart & Updates - HDFC Sky",
             "source": "HDFC Sky",
             "published": "Thu, 01 Oct 2026 01:55:22 GMT",
@@ -949,97 +979,104 @@
             "source": "CNBC TV18",
             "published": "Sat, 03 Jan 2026 15:57:40 GMT",
             "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNUUtEbTlPUlBWRkhtY3lEeEVGdm9rMjRrUWljYVd1LXdfcnBXNVp3SDBNN09YNFhyelRTbk5DdzlicjktaUJ4d19GR1ZGNzUxeVhXbVhVOFBUNFFybTNOYWRtODlPd05xbENBY1FSSEVteTRTbkw3N0ZyS0dNY2YxWGVxeWo?oc=5"
+          },
+          {
+            "title": "Anand Rathi Share and Stock Brokers Share Price Target 2026: Rs 2,150 Analyst Forecast - Univest",
+            "source": "Univest",
+            "published": "Wed, 17 Jun 2026 07:00:00 GMT",
+            "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNd3NCeGF0RU0xZUloN1JUR1VxbVQ1a3QzQ3h2UE95bDlBRmVnUlp3RmJlOWljcmJuSzNoc1VweWd5dXo0UVgzdTFwbWFxOV9jQ1NQNWdkY2s1YTVXT09MQmdMc3RydFpLLUVlVUpTa2ZtZXNWdlBCcmtjTXM0QVJnbmRBeXBJZmR5Um1reA?oc=5"
           }
         ]
       },
       "fundamentals": {
         "symbol": "ANANDRATHI",
-        "market_cap_cr": 33851.0,
-        "trailing_pe": 73.229164,
-        "forward_pe": 61.397373,
-        "price_to_book": 33.91333,
-        "roe_pct": null,
-        "debt_to_equity": 8.25,
-        "revenue_growth_pct": 52.1,
-        "earnings_growth_pct": 71.0,
-        "operating_margin_pct": 48.53,
-        "profit_margin_pct": 33.19,
+        "market_cap_cr": 34653.0,
+        "trailing_pe": 74.96408,
+        "forward_pe": 62.85198,
+        "price_to_book": 26.889133,
+        "roe_pct": 42.99,
+        "debt_to_equity": 5.337,
+        "revenue_growth_pct": 16.1,
+        "earnings_growth_pct": -11.9,
+        "operating_margin_pct": 33.69,
+        "profit_margin_pct": 31.35,
         "promoter_holding_pct": 27.03,
         "institutional_holding_pct": 31.24,
-        "dividend_yield_pct": 0.33,
-        "current_ratio": null,
-        "beta": 0.345,
+        "dividend_yield_pct": 0.34,
+        "current_ratio": 4.956,
+        "beta": null,
         "target_mean": 1580.0,
         "target_low": 1530.0,
         "target_high": 1630.0,
         "analyst_count": 2,
-        "current_price": 2038.7,
+        "current_price": 2087.0,
         "business_summary": "Anand Rathi Wealth Limited engages in the distribution and sale of financial products in India. The company offers wealth solutions. It also operates Omni Financial Advisor, a technology platform for mutual fund distributors and independent financial advisors, which include client reporting, business dashboard, client engagement, online mutual fund transactions, and goal planning products. In addition, the company is involved in business brokerage activities. It serves high net-worth individuals and ultra-high net-worth individuals. The company was formerly known as Anand Rathi Wealth Services Limited and changed its name to Anand Rathi Wealth Limited in January 2021. Anand Rathi Wealth Limited was founded in 1994 and is headquartered in Mumbai, India."
       },
       "benchmark": {
         "industry": "Financial Services",
         "peers": 97,
-        "trailing_pe": 20.52,
-        "price_to_book": 2.37,
+        "trailing_pe": 20.68,
+        "price_to_book": 2.35,
         "roe_pct": 13.7,
         "debt_to_equity": 204.87,
-        "revenue_growth_pct": 19.6,
+        "revenue_growth_pct": 19.3,
         "profit_margin_pct": 32.2
       },
       "scorecard": {
         "factors": [
           {
             "name": "Trailing P/E",
-            "value": "73.2",
-            "peer_value": "20.5",
+            "value": "75.0",
+            "peer_value": "20.7",
             "stance": "bear",
             "note": "More expensive than the typical peer, so more of the growth is already priced in."
           },
           {
             "name": "Price / Book",
-            "value": "33.9",
+            "value": "26.9",
             "peer_value": "2.4",
             "stance": "bear",
             "note": "Trades at a premium to peer book value."
           },
           {
             "name": "Return on Equity",
-            "value": "n/a",
+            "value": "43.0%",
             "peer_value": "13.7%",
-            "stance": "unknown",
-            "note": "Not reported by the data source."
+            "stance": "bull",
+            "note": "Converts shareholder capital into profit better than peers."
           },
           {
             "name": "Debt / Equity",
-            "value": "8.2",
+            "value": "5.3",
             "peer_value": "204.9",
             "stance": "bull",
             "note": "Carries less leverage than peers, so less earnings risk if rates rise."
           },
           {
             "name": "Revenue growth (yoy)",
-            "value": "52.1%",
-            "peer_value": "19.6%",
-            "stance": "bull",
-            "note": "Growing the top line faster than the sector."
+            "value": "16.1%",
+            "peer_value": "19.3%",
+            "stance": "bear",
+            "note": "Growing more slowly than the sector."
           },
           {
             "name": "Net margin",
-            "value": "33.2%",
+            "value": "31.4%",
             "peer_value": "32.2%",
             "stance": "neutral",
             "note": "In line with the sector."
           }
         ],
         "bull_case": [
-          "Debt / Equity 8.2 vs sector 204.9. Carries less leverage than peers, so less earnings risk if rates rise.",
-          "Revenue growth (yoy) 52.1% vs sector 19.6%. Growing the top line faster than the sector.",
-          "Earnings grew 71% year on year, which is what has to keep happening for a re-rating to hold."
+          "Return on Equity 43.0% vs sector 13.7%. Converts shareholder capital into profit better than peers.",
+          "Debt / Equity 5.3 vs sector 204.9. Carries less leverage than peers, so less earnings risk if rates rise."
         ],
         "bear_case": [
-          "Trailing P/E 73.2 vs sector 20.5. More expensive than the typical peer, so more of the growth is already priced in.",
-          "Price / Book 33.9 vs sector 2.4. Trades at a premium to peer book value.",
-          "2 analysts publish a mean target of 1580, 22% below the current price."
+          "Trailing P/E 75.0 vs sector 20.7. More expensive than the typical peer, so more of the growth is already priced in.",
+          "Price / Book 26.9 vs sector 2.4. Trades at a premium to peer book value.",
+          "Revenue growth (yoy) 16.1% vs sector 19.3%. Growing more slowly than the sector.",
+          "Earnings fell 12% year on year, so the price move is running ahead of profits.",
+          "2 analysts publish a mean target of 1580, 24% below the current price."
         ],
         "invalidators": [
           "Two consecutive quarters of revenue or margin decline would remove the growth premise this rests on.",
@@ -1047,13 +1084,12 @@
           "A promoter pledge increase or a fresh exchange surveillance action would change the risk profile regardless of the fundamentals."
         ],
         "data_gaps": [
-          "Return on Equity unavailable",
           "Only 2 analysts cover this name, so the consensus target is thin and moves easily."
         ],
         "bull_count": 2,
-        "bear_count": 2
+        "bear_count": 3
       },
-      "research_prompt": "I'm a long-term retail investor in Indian equities (NSE). My screener flagged Anand Rathi Wealth Ltd. (ANANDRATHI) because it gained at least 3% on each of 1 consecutive sessions. I want your independent read - please push back on my screener rather than agreeing with it.\n\n## What my screener measured\n\n- Streak: 2026-10-09 to 2026-10-09, -4.7% cumulative\n- Daily gains: 2026-10-09 -4.68%\n- Last close: Rs 2,038.70\n- Sector: Financial Services\n- Median 20-day turnover: Rs 78.8 crore\n- Volume vs 20-day median: 3.5x\n- Distance from 52-week high: -8.6%\n- Return 1M / 3M / 1Y: -8.6% / -5.0% / None%\n\n## Attribution my engine computed\n\n- Verdict: company_catalyst - Company-specific - investor communication disclosed to the exchange\n- Stock over the window: -4.7%\n- Sector median over the same window: +0.9%\n- Excess vs sector: -5.6 pp\n- Broad market median: +0.7%\n\n### NSE filings in the window\n\n- 2026-10-09 [catalyst] Investor Presentation - Investor communication\n  Anand Rathi Wealth Limited has informed the Exchange about Investor Presentation\n- 2026-10-09 [catalyst] Dividend - Shareholder return action\n  Anand Rathi Wealth Limited has informed the Exchange that Board of Directors at its meeting held on October 09, 2026, declared Interim Dividend of Rs. 4 per equity share (80% of fa\n- 2026-10-09 [neutral] Press Release - Routine or administrative disclosure\n  Anand Rathi Wealth Limited has informed the Exchange regarding a press release dated October 09, 2026, titled \"Press Release dated 09th October, 2026\".\n- 2026-10-09 [catalyst] Outcome of Board Meeting - Results announcement\n  Anand Rathi Wealth Limited has submitted to the Exchange, Board has approved/taken on record the following matters:1.Unaudited financial results (standalone and consolidated) for t\n- 2026-10-08 [neutral] Revised Record date - Routine or administrative disclosure\n  Anand Rathi Wealth Limited had intimated in continuation with earlier Intimation Letter No. 60/2026-27 dated 07th October, 2026, we hereby informs about the revision in Record Date\n- 2026-10-07 [catalyst] Record Date - Shareholder return action\n  Anand Rathi Wealth Limited has informed the Exchange that Record date for the purpose of Interim Dividend is 14-Oct-2026.\n- 2026-10-05 [neutral] Certificate under SEBI (Depositories and Participants) Regulations, 2018 - Routine or administrative disclosure\n  Anand Rathi Wealth Limited has informed the Exchange about Certificate under SEBI (Depositories and Participants) Regulations, 2018 for the quarter ended 30th September, 2026\n- 2026-10-05 [catalyst] Analysts/Institutional Investor Meet/Con. Call Updates - Results announcement\n  Anand Rathi Wealth Limited has informed the Exchange about Schedule of meet of Q2 & H1 FY27 Earnings Conference Call for Investors and Analysts under the SEBI (Listing Obligations \n\n### Recent headlines (unverified, from Google News)\n\n- Anand Rathi Wealth Limited (NSE: ANANDRATHI) Shares Fall 4% Ahead of Q2 FY27 Results and Dividend Decision - Kalkine India\n- ANANDRATHI Share Price Today - Anand Rathi Wealth on NSE/BSE - scanx.trade\n- Anand Rathi Wealth Share Price Target 2026 and Share Price Today - Univest\n- Anand Rathi Wealth Ltd. Futures Price: Live NSE/BSE Futures Chart & Updates - HDFC Sky\n- Be Sure To Check Out Anand Rathi Wealth Limited (NSE:ANANDRATHI) Before It Goes Ex-Dividend - Simply Wall Street\n- Anand Rathi Wealth Ltd. Share Price Today - Anand Rathi Wealth Ltd. Stock Price Live NSE/BSE - CNBC TV18\n\n## Fundamentals\n\n- Market cap: Rs 33,851 crore\n- Trailing P/E: 73.229164\n- Forward P/E: 61.397373\n- Price/Book: 33.91333\n- Debt/Equity: 8.25\n- Revenue growth (yoy): 52.1%\n- Earnings growth (yoy): 71.0%\n- Operating margin: 48.53%\n- Net margin: 33.19%\n- Promoter holding: 27.03%\n- Institutional holding: 31.24%\n- Dividend yield: 0.33%\n- Analyst count: 2\n- Mean target price: 1580.0\n\n### Sector medians (Financial Services, 97 Nifty 500 peers)\n\n- Trailing P/E: 20.52\n- Price/Book: 2.37\n- Return on equity: 13.7%\n- Debt/Equity: 204.87\n- Revenue growth: 19.6%\n- Net margin: 32.2%\n\n### Data my engine could not get\n\n- Return on Equity unavailable\n- Only 2 analysts cover this name, so the consensus target is thin and moves easily.\n\n## What I want from you\n\n1. **Why did it actually move?** My engine only sees exchange filings and price action. Check whether there is a real catalyst it missed - sector news, a peer's results, a policy change, an index inclusion, a block deal.\n2. **Is my engine's attribution wrong?** Say so directly if the evidence points elsewhere.\n3. **The one-year view.** Build a bull case and a bear case from the business, not from the chart. What has to be true for this to work, and what would break it? Be concrete about which numbers to watch.\n4. **What would you check that I have not?** Name the specific filings, segments or metrics.\n\nPlease flag anything above that looks stale or wrong, and tell me plainly if this looks like a speculative move rather than an investable one. I am not asking you to tell me whether to buy - I want the reasoning so I can decide."
+      "research_prompt": "I'm a long-term retail investor in Indian equities (NSE). My screener flagged Anand Rathi Wealth Ltd. (ANANDRATHI) because it gained at least 3% on each of 1 consecutive sessions. I want your independent read - please push back on my screener rather than agreeing with it.\n\n## What my screener measured\n\n- Streak: 2026-10-09 to 2026-10-09, -4.7% cumulative\n- Daily gains: 2026-10-09 -4.68%\n- Last close: Rs 2,038.70\n- Sector: Financial Services\n- Median 20-day turnover: Rs 78.8 crore\n- Volume vs 20-day median: 3.51x\n- Distance from 52-week high: -8.6%\n- Return 1M / 3M / 1Y: -8.6% / -5.0% / None%\n\n## Attribution my engine computed\n\n- Verdict: company_catalyst - Company-specific - results announcement disclosed to the exchange\n- Stock over the window: -4.7%\n- Sector median over the same window: +0.9%\n- Excess vs sector: -5.6 pp\n- Broad market median: +0.7%\n\n### NSE filings in the window\n\n- 2026-10-10 [catalyst] Copy of Newspaper Publication - Results announcement\n  Anand Rathi Wealth Limited has informed the Exchange about Copy of Newspaper Publication of Un-audited Consolidated Financial Result for the Second Quarter and Half Year ended 30th\n- 2026-10-09 [catalyst] Investor Presentation - Investor communication\n  Anand Rathi Wealth Limited has informed the Exchange about Investor Presentation\n- 2026-10-09 [catalyst] Dividend - Shareholder return action\n  Anand Rathi Wealth Limited has informed the Exchange that Board of Directors at its meeting held on October 09, 2026, declared Interim Dividend of Rs. 4 per equity share (80% of fa\n- 2026-10-09 [neutral] Press Release - Routine or administrative disclosure\n  Anand Rathi Wealth Limited has informed the Exchange regarding a press release dated October 09, 2026, titled \"Press Release dated 09th October, 2026\".\n- 2026-10-09 [catalyst] Outcome of Board Meeting - Results announcement\n  Anand Rathi Wealth Limited has submitted to the Exchange, Board has approved/taken on record the following matters:1.Unaudited financial results (standalone and consolidated) for t\n- 2026-10-08 [neutral] Revised Record date - Routine or administrative disclosure\n  Anand Rathi Wealth Limited had intimated in continuation with earlier Intimation Letter No. 60/2026-27 dated 07th October, 2026, we hereby informs about the revision in Record Date\n- 2026-10-07 [catalyst] Record Date - Shareholder return action\n  Anand Rathi Wealth Limited has informed the Exchange that Record date for the purpose of Interim Dividend is 14-Oct-2026.\n- 2026-10-05 [neutral] Certificate under SEBI (Depositories and Participants) Regulations, 2018 - Routine or administrative disclosure\n  Anand Rathi Wealth Limited has informed the Exchange about Certificate under SEBI (Depositories and Participants) Regulations, 2018 for the quarter ended 30th September, 2026\n- 2026-10-05 [catalyst] Analysts/Institutional Investor Meet/Con. Call Updates - Results announcement\n  Anand Rathi Wealth Limited has informed the Exchange about Schedule of meet of Q2 & H1 FY27 Earnings Conference Call for Investors and Analysts under the SEBI (Listing Obligations \n\n### Recent headlines (unverified, from Google News)\n\n- Anand Rathi Wealth Limited (NSE: ANANDRATHI) Shares Fall 4% Ahead of Q2 FY27 Results and Dividend Decision - Kalkine India\n- ANANDRATHI Share Price Today - Anand Rathi Wealth on NSE/BSE - scanx.trade\n- Anand Rathi Wealth Ltd. Futures Price: Live NSE/BSE Futures Chart & Updates - HDFC Sky\n- Be Sure To Check Out Anand Rathi Wealth Limited (NSE:ANANDRATHI) Before It Goes Ex-Dividend - Simply Wall Street\n- Anand Rathi Wealth Ltd. Share Price Today - Anand Rathi Wealth Ltd. Stock Price Live NSE/BSE - CNBC TV18\n- Anand Rathi Share and Stock Brokers Share Price Target 2026: Rs 2,150 Analyst Forecast - Univest\n\n## Fundamentals\n\n- Market cap: Rs 34,653 crore\n- Trailing P/E: 74.96408\n- Forward P/E: 62.85198\n- Price/Book: 26.889133\n- Return on equity: 42.99%\n- Debt/Equity: 5.337\n- Revenue growth (yoy): 16.1%\n- Earnings growth (yoy): -11.9%\n- Operating margin: 33.69%\n- Net margin: 31.35%\n- Promoter holding: 27.03%\n- Institutional holding: 31.24%\n- Dividend yield: 0.34%\n- Analyst count: 2\n- Mean target price: 1580.0\n\n### Sector medians (Financial Services, 97 Nifty 500 peers)\n\n- Trailing P/E: 20.68\n- Price/Book: 2.35\n- Return on equity: 13.7%\n- Debt/Equity: 204.87\n- Revenue growth: 19.3%\n- Net margin: 32.2%\n\n### Data my engine could not get\n\n- Only 2 analysts cover this name, so the consensus target is thin and moves easily.\n\n## What I want from you\n\n1. **Why did it actually move?** My engine only sees exchange filings and price action. Check whether there is a real catalyst it missed - sector news, a peer's results, a policy change, an index inclusion, a block deal.\n2. **Is my engine's attribution wrong?** Say so directly if the evidence points elsewhere.\n3. **The one-year view.** Build a bull case and a bear case from the business, not from the chart. What has to be true for this to work, and what would break it? Be concrete about which numbers to watch.\n4. **What would you check that I have not?** Name the specific filings, segments or metrics.\n\nPlease flag anything above that looks stale or wrong, and tell me plainly if this looks like a speculative move rather than an investable one. I am not asking you to tell me whether to buy - I want the reasoning so I can decide."
     },
     {
       "symbol": "CANHLIFE",
@@ -1083,15 +1119,15 @@
       ],
       "attribution": {
         "verdict": "company_catalyst",
-        "headline": "Company-specific - results announcement disclosed to the exchange",
+        "headline": "Company-specific - investor communication disclosed to the exchange",
         "explanation": [
           "The stock fell -4.4% over the session 2026-10-09.",
           "Its sector (Financial Services) moved +0.9% over the same window, with 80% of its 98 Nifty 500 members advancing on the last session.",
-          "The broad market (median of 497 Nifty 500 names) moved +0.7% over the window, with 71% advancing on the last session.",
+          "The broad market (median of 499 Nifty 500 names) moved +0.7% over the window, with 71% advancing on the last session.",
           "The stock lagged its sector by 5.3 percentage points, so the move is company-specific rather than sector-wide.",
+          "NSE filing 2026-10-09 22:48 - Investor communication: Analysts/Institutional Investor Meet/Con. Call Updates.",
           "NSE filing 2026-10-09 17:03 - Results announcement: Analysts/Institutional Investor Meet/Con. Call Updates.",
-          "NSE filing 2026-10-09 16:41 - Fundraising or allotment: Outcome of Board Meeting.",
-          "NSE filing 2026-10-09 16:37 - Results announcement: Outcome of Board Meeting."
+          "NSE filing 2026-10-09 16:41 - Fundraising or allotment: Outcome of Board Meeting."
         ],
         "stock_streak_pct": -4.36,
         "sector_streak_pct": 0.92,
@@ -1103,6 +1139,15 @@
           "Thin liquidity - median daily turnover is only Rs 9 crore"
         ],
         "filings": [
+          {
+            "date": "2026-10-09",
+            "time": "22:48",
+            "category": "Analysts/Institutional Investor Meet/Con. Call Updates",
+            "summary": "Canara HSBC Life Insurance Company Limited has informed the Exchange about Link of Recording",
+            "pdf_url": "https://nsearchives.nseindia.com/corporate/CANARAHSBCLIFE_09102026224833_Audio_recording_October_2026.pdf",
+            "bucket": "catalyst",
+            "label": "Investor communication"
+          },
           {
             "date": "2026-10-09",
             "time": "17:13",
@@ -1153,8 +1198,26 @@
           {
             "title": "CANARA HSBC LIFE INS CO L Share Price - Live NSE: CANHLIFE Stock Price & Chart - Upstox",
             "source": "Upstox",
-            "published": "Tue, 05 May 2026 11:36:09 GMT",
+            "published": "Sat, 10 Oct 2026 06:43:30 GMT",
             "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9ZNlE1WmtTMUE3eFN2OGx4SW9jVGx0OXczankxOURUZUROZE02OWhNdkV6S2x1OEZub3JkUERYMGxGQjAyQTBlNzVyMGd0VUZHOXZkNW5ucGJqUzFXZ1ZOb1JxRTFTSEJaZjYtUl9pclQzQQ?oc=5"
+          },
+          {
+            "title": "CANHLIFE Share Price Today - Canara HSBC Life Insurance Company on NSE/BSE - scanx.trade",
+            "source": "scanx.trade",
+            "published": "Thu, 08 Oct 2026 17:34:33 GMT",
+            "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1rUG9rcmd6WklRX3JKNmZiZnRBdnlSMUpMcXFlWWNiV1FudXJIeF92QVdpZjBnU09pa0VpVFJWVkFlNDJaRWZFRDc3dFBhRFNRUFZTUHVfXzQ5NVdJWmhOWUZFN1R0cjRMMEI0VDRGT012N2Vn?oc=5"
+          },
+          {
+            "title": "Canara HSBC Life Insurance Company Ltd. Share Price Live Today - CNBC TV18",
+            "source": "CNBC TV18",
+            "published": "Fri, 09 Oct 2026 10:01:00 GMT",
+            "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOem1ob2NLSWw0eTc5cE43d2otQ1F0Z3dPbzN6cU1zOWM3cUI2ekRqc3RibFNDRFhadk9WOWNtVEF6NHM2V0hwTXFrc21sN2w4QTAyRXRnQWxuMmFaeWMxTm5BRGpCeF9lbHJ4NURHVHRfRkR2SjNuY19JRndrLWpvcFdyTXRFR2daM3FOWENDbWhfOGJYWi1xQ0JIbjRrdw?oc=5"
+          },
+          {
+            "title": "CANHLIFE Share Price Falls 5.04%: Price Action & Valuation - Univest",
+            "source": "Univest",
+            "published": "Fri, 09 Oct 2026 09:54:00 GMT",
+            "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNa3FMRmJpUzZUelJOLUo5N3loTDFSRnJjTHdYaHdjMDlPYkFjNlVhMldISVpTTThQenVuVUlxcklfWElfbjZrM1ZVNXNzWU5fb3RJV2hLNmVEa0NGWDk2WG1ZdnpZTklneVhRak5pSHoyeV9NSHFIbHFCQUdHTEg5SmFmRko3WHAyV1E?oc=5"
           },
           {
             "title": "Volumes spurt at Canara HSBC Life Insurance Company Ltd counter - Business Standard",
@@ -1163,84 +1226,66 @@
             "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPRjN5TkxkaHlld3BKbkJnYUh6Qy1mM0ZNR3VWUjJLLTJaYXczeGpWN0M5N3JBYWhUZmJvOUhwMEN1VXItazNfWW44Z1AwMzZjN0tvTEdLMTZOLU9sbTNXVUtiWDUxbGRIVXdLc0VtNEZDLXYyYjRDSlpYaWR1dS1fMm5aYXc0RThicURoN3VKX1ZvTmdJQ2pRODBJbnRvNkhtR2V2ZnZXWDU5MC0wRWtadzRDc3ViRktUdzVUTTZPN2NTX3psNmRoajl3RUJxT0ROR2xyTWcxaXVWV1lDU0HSAeMBQVVfeXFMT3JUekhyM3AtMVp5TFRZWnowMmRmeUVVZ1hiWW1NWkctV2txN1hvVmFWMEEycmpiYllBVzVBTjZOYXJlLXF3TTJLX0V1N3psSTJmUnZTVFVDVnFHcnRUSFZLbkozTjZoWi01VjJDQ2dodzA5cFFKUVc1TC14N1poZFJNSTY3T2tIZzc5YUxwbHA3dzRoT0N6SW1TR0J0aGVsRVNXQ1N1ZDcybVdkZjRXM2lETGlvU2dlNlZSdGU2RzBmb3VOMlBHcmgzYkR1YVd2anZkZXNCQ1BqTXZEUmtacWpoQ0k?oc=5"
           },
           {
-            "title": "Canara HSBC Life Insurance Share Price: Buy or Sell - Univest",
-            "source": "Univest",
-            "published": "Fri, 11 Sep 2026 07:00:00 GMT",
-            "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNaFgycENfUHhXMURsV3poQ0w1NndkRkdVLWNkUm5JSDZyOWdGcWlQZUhvVDhCMm9QNUozalYwd3AyRDRUM1BQOUJtaXRrd0RncUp4bTRSVkxncE01NzByeGxHR085QzZNODF4dTNwbXR2WTZPc0FZYzVFN3Q2TWNwc243eGpiSEloQXhEbzlvN2d0QQ?oc=5"
-          },
-          {
             "title": "CANHLIFE Stock Price and Chart — NSE:CANHLIFE - TradingView",
             "source": "TradingView",
             "published": "Fri, 17 Oct 2025 05:00:28 GMT",
             "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBpeGVjeGMybnpqQm95dXYxX0Q4RzJRb0RJUUFCM200d0V2aVdPLVhRQzlNS0s0eTRlNmMwQllubmRDTzRkdDUzY0ozeDhEZHdUc1hNbm9icFprY19BTEE?oc=5"
-          },
-          {
-            "title": "Canara HSBC Life Insurance Company Ltd Share Price Today – Live NSE/BSE - INDmoney",
-            "source": "INDmoney",
-            "published": "Fri, 17 Oct 2025 07:00:00 GMT",
-            "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOUFU1T2dmS2pJUFlQMV93aGJCSTlOVXFkTTVNSENtRm5MSDZ3Y3ZoLWQ0WVp4cWpoYUNjOGR2MDZiOG9wY09ZRFJ4WDRXMXJ1c1BTYzlEX0lnbVE3cmg1ZEw1MjdjSGVuVm9vNzVZQ0RRYXIxbUhGZEtJWm1sODUtanFock52dWF0MWc?oc=5"
-          },
-          {
-            "title": "CANHLIFE Share Price Today - Canara HSBC Life Insurance Company on NSE/BSE - scanx.trade",
-            "source": "scanx.trade",
-            "published": "Thu, 30 Oct 2025 07:07:51 GMT",
-            "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1rUG9rcmd6WklRX3JKNmZiZnRBdnlSMUpMcXFlWWNiV1FudXJIeF92QVdpZjBnU09pa0VpVFJWVkFlNDJaRWZFRDc3dFBhRFNRUFZTUHVfXzQ5NVdJWmhOWUZFN1R0cjRMMEI0VDRGT012N2Vn?oc=5"
           }
         ]
       },
       "fundamentals": {
         "symbol": "CANHLIFE",
-        "market_cap_cr": 13191.0,
-        "trailing_pe": 100.15827,
-        "forward_pe": 73.27369,
-        "price_to_book": 8.096069,
-        "roe_pct": 8.28,
-        "debt_to_equity": 15.304,
-        "revenue_growth_pct": 18.3,
-        "earnings_growth_pct": 20.2,
-        "operating_margin_pct": 0.85,
+        "market_cap_cr": 12934.0,
+        "trailing_pe": 96.8156,
+        "forward_pe": 71.84737,
+        "price_to_book": 7.938474,
+        "roe_pct": 8.4,
+        "debt_to_equity": 15.256,
+        "revenue_growth_pct": 10.5,
+        "earnings_growth_pct": 4.8,
+        "operating_margin_pct": 1.89,
         "profit_margin_pct": 1.07,
         "promoter_holding_pct": 75.33,
         "institutional_holding_pct": 20.32,
-        "dividend_yield_pct": 0.27,
-        "current_ratio": 2.911,
+        "dividend_yield_pct": 0.29,
+        "current_ratio": 1.137,
         "beta": null,
         "target_mean": 192.0,
         "target_low": 166.0,
         "target_high": 235.0,
         "analyst_count": 8,
-        "current_price": 139.22,
+        "current_price": 136.51,
         "business_summary": "Canara HSBC Life Insurance Company Limited provides life and other insurance products for individuals, companies, businesses, and organizations in India. It offers term, life, child, group, health, whole life, disability, and accident insurances; and ULIP, pension, savings, retirement, financial, and investment plans. The company sells its policies through bancassurance, agency channels, brokers and other corporate agents, and direct sales, as well as through digital channels, such as website, and mobile app. Canara HSBC Life Insurance Company Limited was formerly known as Canara HSBC Oriental Bank of Commerce Life Insurance Company Limited. The company was incorporated in 2007 and is headquartered in Gurugram, India."
       },
       "benchmark": {
         "industry": "Financial Services",
         "peers": 97,
-        "trailing_pe": 20.52,
-        "price_to_book": 2.37,
-        "roe_pct": 13.77,
+        "trailing_pe": 20.68,
+        "price_to_book": 2.35,
+        "roe_pct": 13.84,
         "debt_to_equity": 204.87,
-        "revenue_growth_pct": 19.6,
-        "profit_margin_pct": 33.08
+        "revenue_growth_pct": 19.3,
+        "profit_margin_pct": 32.2
       },
       "scorecard": {
         "factors": [
           {
             "name": "Trailing P/E",
-            "value": "100.2",
-            "peer_value": "20.5",
+            "value": "96.8",
+            "peer_value": "20.7",
             "stance": "bear",
             "note": "More expensive than the typical peer, so more of the growth is already priced in."
           },
           {
             "name": "Price / Book",
-            "value": "8.1",
+            "value": "7.9",
             "peer_value": "2.4",
             "stance": "bear",
             "note": "Trades at a premium to peer book value."
           },
           {
             "name": "Return on Equity",
-            "value": "8.3%",
+            "value": "8.4%",
             "peer_value": "13.8%",
             "stance": "bear",
             "note": "Earns less on shareholder capital than peers do."
@@ -1254,30 +1299,30 @@
           },
           {
             "name": "Revenue growth (yoy)",
-            "value": "18.3%",
-            "peer_value": "19.6%",
-            "stance": "neutral",
-            "note": "In line with the sector."
+            "value": "10.5%",
+            "peer_value": "19.3%",
+            "stance": "bear",
+            "note": "Growing more slowly than the sector."
           },
           {
             "name": "Net margin",
             "value": "1.1%",
-            "peer_value": "33.1%",
+            "peer_value": "32.2%",
             "stance": "bear",
             "note": "Thinner margins than peers."
           }
         ],
         "bull_case": [
           "Debt / Equity 15.3 vs sector 204.9. Carries less leverage than peers, so less earnings risk if rates rise.",
-          "Earnings grew 20% year on year, which is what has to keep happening for a re-rating to hold.",
           "Promoters hold 75%, so their interests stay tied to the share price.",
-          "8 analysts publish a mean target of 192, 38% above the current price."
+          "8 analysts publish a mean target of 192, 41% above the current price."
         ],
         "bear_case": [
-          "Trailing P/E 100.2 vs sector 20.5. More expensive than the typical peer, so more of the growth is already priced in.",
-          "Price / Book 8.1 vs sector 2.4. Trades at a premium to peer book value.",
-          "Return on Equity 8.3% vs sector 13.8%. Earns less on shareholder capital than peers do.",
-          "Net margin 1.1% vs sector 33.1%. Thinner margins than peers."
+          "Trailing P/E 96.8 vs sector 20.7. More expensive than the typical peer, so more of the growth is already priced in.",
+          "Price / Book 7.9 vs sector 2.4. Trades at a premium to peer book value.",
+          "Return on Equity 8.4% vs sector 13.8%. Earns less on shareholder capital than peers do.",
+          "Revenue growth (yoy) 10.5% vs sector 19.3%. Growing more slowly than the sector.",
+          "Net margin 1.1% vs sector 32.2%. Thinner margins than peers."
         ],
         "invalidators": [
           "Two consecutive quarters of revenue or margin decline would remove the growth premise this rests on.",
@@ -1286,9 +1331,9 @@
         ],
         "data_gaps": [],
         "bull_count": 1,
-        "bear_count": 4
+        "bear_count": 5
       },
-      "research_prompt": "I'm a long-term retail investor in Indian equities (NSE). My screener flagged Canara HSBC Life Insurance Company Ltd. (CANHLIFE) because it gained at least 3% on each of 1 consecutive sessions. I want your independent read - please push back on my screener rather than agreeing with it.\n\n## What my screener measured\n\n- Streak: 2026-10-09 to 2026-10-09, -4.4% cumulative\n- Daily gains: 2026-10-09 -4.36%\n- Last close: Rs 139.22\n- Sector: Financial Services\n- Median 20-day turnover: Rs 9.1 crore\n- Volume vs 20-day median: 1.35x\n- Distance from 52-week high: -11.5%\n- Return 1M / 3M / 1Y: -9.7% / -3.1% / None%\n\n## Attribution my engine computed\n\n- Verdict: company_catalyst - Company-specific - results announcement disclosed to the exchange\n- Stock over the window: -4.4%\n- Sector median over the same window: +0.9%\n- Excess vs sector: -5.3 pp\n- Broad market median: +0.7%\n\n### NSE filings in the window\n\n- 2026-10-09 [neutral] Press Release - Routine or administrative disclosure\n  Canara HSBC Life Insurance Company Limited has informed the Exchange regarding a press release dated October 09, 2026, titled \"Performance for the half-year ended 30th   September \n- 2026-10-09 [catalyst] Analysts/Institutional Investor Meet/Con. Call Updates - Results announcement\n  Canara HSBC Life Insurance Company Limited has informed the Exchange about Presentation on the Unaudited Financial Results for the quarter andhalf-year ended 30th September 2026\n- 2026-10-09 [catalyst] Outcome of Board Meeting - Fundraising or allotment\n  Canara HSBC Life Insurance Company Limited has informed the Exchange regarding Outcome of Board Meeting held on October 09, 2026 for raising of funds by issue of Non-Convertible De\n- 2026-10-09 [catalyst] Outcome of Board Meeting - Results announcement\n  Outcome of Board Meeting of the Company held on 9th October 2026 for approval of Unaudited Financial Results for the quarter and half-year ended 30th September 2026\n- 2026-10-06 [catalyst] Analysts/Institutional Investor Meet/Con. Call Updates - Investor communication\n  Canara HSBC Life- Insurance Company Limited has informed the Exchange about Schedule of meet\n\n### Caution flags my engine raised\n\n- Thin liquidity - median daily turnover is only Rs 9 crore\n\n### Recent headlines (unverified, from Google News)\n\n- CANARA HSBC LIFE INS CO L Share Price - Live NSE: CANHLIFE Stock Price & Chart - Upstox\n- Volumes spurt at Canara HSBC Life Insurance Company Ltd counter - Business Standard\n- Canara HSBC Life Insurance Share Price: Buy or Sell - Univest\n- CANHLIFE Stock Price and Chart — NSE:CANHLIFE - TradingView\n- Canara HSBC Life Insurance Company Ltd Share Price Today – Live NSE/BSE - INDmoney\n- CANHLIFE Share Price Today - Canara HSBC Life Insurance Company on NSE/BSE - scanx.trade\n\n## Fundamentals\n\n- Market cap: Rs 13,191 crore\n- Trailing P/E: 100.15827\n- Forward P/E: 73.27369\n- Price/Book: 8.096069\n- Return on equity: 8.28%\n- Debt/Equity: 15.304\n- Revenue growth (yoy): 18.3%\n- Earnings growth (yoy): 20.2%\n- Operating margin: 0.85%\n- Net margin: 1.07%\n- Promoter holding: 75.33%\n- Institutional holding: 20.32%\n- Dividend yield: 0.27%\n- Analyst count: 8\n- Mean target price: 192.0\n\n### Sector medians (Financial Services, 97 Nifty 500 peers)\n\n- Trailing P/E: 20.52\n- Price/Book: 2.37\n- Return on equity: 13.77%\n- Debt/Equity: 204.87\n- Revenue growth: 19.6%\n- Net margin: 33.08%\n\n## What I want from you\n\n1. **Why did it actually move?** My engine only sees exchange filings and price action. Check whether there is a real catalyst it missed - sector news, a peer's results, a policy change, an index inclusion, a block deal.\n2. **Is my engine's attribution wrong?** Say so directly if the evidence points elsewhere.\n3. **The one-year view.** Build a bull case and a bear case from the business, not from the chart. What has to be true for this to work, and what would break it? Be concrete about which numbers to watch.\n4. **What would you check that I have not?** Name the specific filings, segments or metrics.\n\nPlease flag anything above that looks stale or wrong, and tell me plainly if this looks like a speculative move rather than an investable one. I am not asking you to tell me whether to buy - I want the reasoning so I can decide."
+      "research_prompt": "I'm a long-term retail investor in Indian equities (NSE). My screener flagged Canara HSBC Life Insurance Company Ltd. (CANHLIFE) because it gained at least 3% on each of 1 consecutive sessions. I want your independent read - please push back on my screener rather than agreeing with it.\n\n## What my screener measured\n\n- Streak: 2026-10-09 to 2026-10-09, -4.4% cumulative\n- Daily gains: 2026-10-09 -4.36%\n- Last close: Rs 139.22\n- Sector: Financial Services\n- Median 20-day turnover: Rs 9.1 crore\n- Volume vs 20-day median: 1.35x\n- Distance from 52-week high: -11.5%\n- Return 1M / 3M / 1Y: -9.7% / -3.1% / None%\n\n## Attribution my engine computed\n\n- Verdict: company_catalyst - Company-specific - investor communication disclosed to the exchange\n- Stock over the window: -4.4%\n- Sector median over the same window: +0.9%\n- Excess vs sector: -5.3 pp\n- Broad market median: +0.7%\n\n### NSE filings in the window\n\n- 2026-10-09 [catalyst] Analysts/Institutional Investor Meet/Con. Call Updates - Investor communication\n  Canara HSBC Life Insurance Company Limited has informed the Exchange about Link of Recording\n- 2026-10-09 [neutral] Press Release - Routine or administrative disclosure\n  Canara HSBC Life Insurance Company Limited has informed the Exchange regarding a press release dated October 09, 2026, titled \"Performance for the half-year ended 30th   September \n- 2026-10-09 [catalyst] Analysts/Institutional Investor Meet/Con. Call Updates - Results announcement\n  Canara HSBC Life Insurance Company Limited has informed the Exchange about Presentation on the Unaudited Financial Results for the quarter andhalf-year ended 30th September 2026\n- 2026-10-09 [catalyst] Outcome of Board Meeting - Fundraising or allotment\n  Canara HSBC Life Insurance Company Limited has informed the Exchange regarding Outcome of Board Meeting held on October 09, 2026 for raising of funds by issue of Non-Convertible De\n- 2026-10-09 [catalyst] Outcome of Board Meeting - Results announcement\n  Outcome of Board Meeting of the Company held on 9th October 2026 for approval of Unaudited Financial Results for the quarter and half-year ended 30th September 2026\n- 2026-10-06 [catalyst] Analysts/Institutional Investor Meet/Con. Call Updates - Investor communication\n  Canara HSBC Life- Insurance Company Limited has informed the Exchange about Schedule of meet\n\n### Caution flags my engine raised\n\n- Thin liquidity - median daily turnover is only Rs 9 crore\n\n### Recent headlines (unverified, from Google News)\n\n- CANARA HSBC LIFE INS CO L Share Price - Live NSE: CANHLIFE Stock Price & Chart - Upstox\n- CANHLIFE Share Price Today - Canara HSBC Life Insurance Company on NSE/BSE - scanx.trade\n- Canara HSBC Life Insurance Company Ltd. Share Price Live Today - CNBC TV18\n- CANHLIFE Share Price Falls 5.04%: Price Action & Valuation - Univest\n- Volumes spurt at Canara HSBC Life Insurance Company Ltd counter - Business Standard\n- CANHLIFE Stock Price and Chart — NSE:CANHLIFE - TradingView\n\n## Fundamentals\n\n- Market cap: Rs 12,934 crore\n- Trailing P/E: 96.8156\n- Forward P/E: 71.84737\n- Price/Book: 7.938474\n- Return on equity: 8.4%\n- Debt/Equity: 15.256\n- Revenue growth (yoy): 10.5%\n- Earnings growth (yoy): 4.8%\n- Operating margin: 1.89%\n- Net margin: 1.07%\n- Promoter holding: 75.33%\n- Institutional holding: 20.32%\n- Dividend yield: 0.29%\n- Analyst count: 8\n- Mean target price: 192.0\n\n### Sector medians (Financial Services, 97 Nifty 500 peers)\n\n- Trailing P/E: 20.68\n- Price/Book: 2.35\n- Return on equity: 13.84%\n- Debt/Equity: 204.87\n- Revenue growth: 19.3%\n- Net margin: 32.2%\n\n## What I want from you\n\n1. **Why did it actually move?** My engine only sees exchange filings and price action. Check whether there is a real catalyst it missed - sector news, a peer's results, a policy change, an index inclusion, a block deal.\n2. **Is my engine's attribution wrong?** Say so directly if the evidence points elsewhere.\n3. **The one-year view.** Build a bull case and a bear case from the business, not from the chart. What has to be true for this to work, and what would break it? Be concrete about which numbers to watch.\n4. **What would you check that I have not?** Name the specific filings, segments or metrics.\n\nPlease flag anything above that looks stale or wrong, and tell me plainly if this looks like a speculative move rather than an investable one. I am not asking you to tell me whether to buy - I want the reasoning so I can decide."
     },
     {
       "symbol": "PFOCUS",
@@ -1313,7 +1358,7 @@
           "date": "2026-10-09",
           "close": 261.1000061035156,
           "gain_pct": -3.99,
-          "volume": 4395838
+          "volume": 4397059
         }
       ],
       "attribution": {
@@ -1322,7 +1367,7 @@
         "explanation": [
           "The stock fell -4.0% over the session 2026-10-09.",
           "No reliable sector benchmark: Media Entertainment & Publication has too few Nifty 500 members to produce a trustworthy median.",
-          "The broad market (median of 497 Nifty 500 names) moved +0.7% over the window, with 71% advancing on the last session.",
+          "The broad market (median of 499 Nifty 500 names) moved +0.7% over the window, with 71% advancing on the last session.",
           "An unexplained move away from the sector is worth more caution, not less - it can reflect speculation, a leaked development, or an operator-driven move.",
           "Volume was only 1.1x its 20-day median - a large price move on unremarkable volume is easier to reverse."
         ],
@@ -1355,49 +1400,49 @@
         ],
         "headlines": [
           {
+            "title": "Prime Focus (PFOCUS) Share/Stock Price Live, NSE - TechGraph",
+            "source": "TechGraph",
+            "published": "Fri, 09 Oct 2026 07:00:00 GMT",
+            "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE93eHpSTmt3a3Z4NE1HQ29KWDF6ZnFzMDRwQzlSQlBRV2VjVXhuQW0yamFHdVNvYjJlR1hzaWplVElaUmVYUzBBU3AtTG1xTk1jeUdTRnpSczVSNEJITEV3?oc=5"
+          },
+          {
+            "title": "Prime Focus Ltd Share Price Today,, PFOCUS Share Price NSE, BSE - Business Today",
+            "source": "Business Today",
+            "published": "Fri, 09 Oct 2026 10:29:00 GMT",
+            "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOTnJxZWNndUt3ZGJHNlhvb092b2hZbl9nZHR5a2x0VUY4SVBOZ2FCZXQ0aE5iUE1Ha1N4c3p3NGhtRTRfd2YwUHBTNjJDdmpJWmNXNHNfTzlMM2xDNDdLaXpuZ0xMY3loRG1ZZWppMkl0cDBTZGJ5elc5eUpBZXVYcmVLaw?oc=5"
+          },
+          {
             "title": "Prime Focus (NSE:PFOCUS) Posted Healthy Earnings But There Are Some Other Factors To Be Aware Of - Simply Wall Street",
             "source": "Simply Wall Street",
             "published": "Fri, 05 Jun 2026 07:00:00 GMT",
             "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPbUt3YnRva2Z4SzhJdV9qNHlrYlU3NlZBSHU0UzhGYzQxNHZQWWxIbXdFUkdxVUpHb1FNMk5QeFhKNlB5LXh6eDM2MllBY2JmY0tuYUNxSWQtOEozcE5Bd1RMY1JnSGQyU2V2VGpJNFIxX2RlZGc4M1ZoalNEc3ZsSzJfaWtPeUJ4NHNrRDgxUlNJQ0xGRU1nbmRka0VubzBkR0VNUTFUMVl2ZGtuekxGVWJYcVJWUGY2SF9ETDFHTEI3OXk3NXNNd0N4ckLSAdIBQVVfeXFMTThtRllubVFVRUV6VkV6NDE5YWpLQXg2YTZ3QkZLZzJQLXdWclBOM3dtOURfZzNHM3hGSzhPQTZxYVJxSUJ1QUpxSm1CZjFjNmVYOWt0NTB4akFnanNLTklyWEMtSEdsYUV4Z3FSbXdUV09RSnJNc2RxX0s3TGFCOWk1Y3lxUnRTSnpyeEFFQ3EzMHFvbVp6MDdxdTJndzE4ZlVJZmhzV0FBdXV2cDhRQWNXX3N4MXg1TXVjTU9JUnc2YXhQT25HTVExVEVzcUxDWFFn?oc=5"
           },
           {
-            "title": "Prime Focus Ltd (NSE: PFOCUS) Falls 5.78% as Stock Draws Market Attention - Kalkine India",
-            "source": "Kalkine India",
-            "published": "Wed, 23 Sep 2026 07:00:00 GMT",
-            "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQSmpnRmpQUWl2aTlMZzJQWWdkbGhYTEJYZXBJLTBEcU9iTEx3RnFvejBBNmtNSnR3ck1XeXY5TDJZU1BHdEVrOUJJVDJEOWV3QU5XbV91MWljQlNaZmlDcUFJMmQ0bUNMRzFYNVUtMVhObU8yU0ZjY3VkVUlPdEVJaHItelYyUVJLMm5fUXdKOHZJWllLSFhHT29hTEdVWnhXTGlrOFJiTHRhd3k0TGFQeUNaZ2thVmc?oc=5"
+            "title": "PFOCUS Share Price Today - Prime Focus Stock Analysis - Equitypandit",
+            "source": "Equitypandit",
+            "published": "Fri, 06 Feb 2026 04:05:19 GMT",
+            "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE0zMWYxVWgzVzRIWnkxRHlvZmNJekdQT2w1N2JwYlRkUmVIT2JINnZFY2puYkVSQWNxdHA0YUlYWDB6YTFXaFRQNFNYeEJWZjB6aXRldEhzd0RxdVE?oc=5"
+          },
+          {
+            "title": "Prime Focus Limited (PFOCUS.NS) Slips 1.71% to ₹269.6, Remains Above Key Support - Inside Day Breakout - https://www.siam.in/",
+            "source": "https://www.siam.in/",
+            "published": "Fri, 14 Aug 2026 07:00:00 GMT",
+            "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOQjFmV0phai11MkFkTDhyZVBIRW9ZZXpCelQ2ZEtrSGtFYWZLdUtyWm01YndZVnN1VHdjTjFKcVp5OWlBa2JmNjFRd0ZZTGZ3dUZaM2xrdE9ncVRsY2J4aUkwanh3TGl3dkh6STlQa0JBdWNrbk1BRWhnLWd2WUxrUkZTVUZWcmM3OVp2YUtwdFc1QWlBNFhsdzVIWlhBbUtJNmRpQmZHWlh1S252ZWtPMjcwNzhZQQ?oc=5"
           },
           {
             "title": "Prime Focus Ltd Share Price Today NSE/BSE Charts - Alice Blue",
             "source": "Alice Blue",
             "published": "Tue, 25 Aug 2026 18:03:11 GMT",
             "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE4yQnlBQ1dCRU5VZkFMMzNubDZUak55Q0lCUndxOUJUc2otZWxKekhxMHBOMWtYSXpxd3psYU1NRHhCWm9aRlU1aW4tdVBhcUU4Qm40Nzc2UWJmWlpYajNxZ0FZSF9mdzBnQXg3RmNn?oc=5"
-          },
-          {
-            "title": "Prime Focus Ltd. Share Price Today - Prime Focus Ltd. Stock Price Live NSE/BSE - CNBC TV18",
-            "source": "CNBC TV18",
-            "published": "Sat, 03 Jan 2026 22:13:54 GMT",
-            "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE80dXJNS21HWlQ0LWxidGdpTlBNazhGZ1FUYWhMUm1TdEI4M0JZc004bGhCY3dGM3NrcmpBa3o4eEp0aFlnX01iXzNjcmdRLWx3V2pjZDRBWkRUdnRMbEF0ZXBuNlk0amhnWjlFRk11Vmp5VmRrSi1MaW1Ed28?oc=5"
-          },
-          {
-            "title": "Prime Focus Q2 FY27: Date and Outlook - Univest",
-            "source": "Univest",
-            "published": "Fri, 11 Sep 2026 07:00:00 GMT",
-            "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPSDUyTG1xQVNDOU9lWUI2dVlZQjh3ZFZzNmJMVlNLOVhoMFVXWE03NENWN2FHcnZrZ1JFb1c0S1FGZkNISmxYVEpQZ1otc1JNYnRBZnNVY3JnUzQ5WENVQ1daSEZYV3BPTUc0XzFnTF8zUzV2VG5iUmNGV2Ezb3pDeW9EclQ?oc=5"
-          },
-          {
-            "title": "Prime Focus Ltd soars 7.06%, rises for third straight session - Business Standard",
-            "source": "Business Standard",
-            "published": "Tue, 24 Mar 2026 07:00:00 GMT",
-            "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQZzVhY0phTFJBMDRMV0VLTVd0U09mNGRZc2RnWWpOS20zOEJwQlBHUWVvQWFNYVhVclhrM2lyTnpxS2NlNWdqV0NYZDRVVFVKcm9wZ3h5U2swdXVPdk5xT3RjVG1fYVEwVTNvU3pjcGxyVGd0RHkzbV85c2FNdndxLWozOGFiOHJlYk1QZ2dxSDJLNmVBSEVOd2hCNGd6Y21OSEUySHgtdUp4ZWFTeWhUWFRHMzYxQS1Ya3RvdXVuUjlEeS1xbmJPTlFBMWh6WXBIbmF4anJOUEXSAd4BQVVfeXFMUDJCa3YtNWdSR3ZTaFRmSnlmQWpxX3JGSldhNUk3dkFwWWtBZEN4UTVYZEZoMlVGX2VwcWN6X3lQcWgyVmhzY0VxVURyZ3dMWGUyNmVzeHdGS3BuT2FkU1RlbDhodGY1NWhnbTZ5U1BjN3RMd2tRZGhLdEdTbmZPWUNhVUxfYWJuYWN1Y015R1JkN0dfTkEyT2tzbmhwN2FUYkpQU245cHRKa0NKUlRKejlzQXllaDF1MTVNNHBYQ2Zwc1h0MGI5VmRMOTJqb2l4LUkzYmZ6dW5reHVweDh3?oc=5"
           }
         ]
       },
       "fundamentals": {
         "symbol": "PFOCUS",
-        "market_cap_cr": 20334.0,
-        "trailing_pe": 146.6854,
-        "forward_pe": 26.917526,
-        "price_to_book": 9.712819,
+        "market_cap_cr": 21958.0,
+        "trailing_pe": 158.39888,
+        "forward_pe": 29.067013,
+        "price_to_book": 10.488431,
         "roe_pct": null,
         "debt_to_equity": 224.567,
         "revenue_growth_pct": 23.8,
@@ -1413,14 +1458,14 @@
         "target_low": 375.0,
         "target_high": 375.0,
         "analyst_count": 1,
-        "current_price": 261.1,
+        "current_price": 281.95,
         "business_summary": "Prime Focus Limited, together with its subsidiaries, provides integrated media services in India, the United Kingdom, the United States, Canada, Australia, and internationally. The company engages in the motion picture, video, and television programme post-production activities; and business support activities. It also offers creative services, including visual effects, advertising, stereo 2D to 3D conversion, and feature and TV animation; equipment rental services; and post-production services, such as digital intermediate/color grading, audio, and picture post services in the media and entertainment industry. In addition, the company is involved in film investment activities; and provision of digital asset management, music production, content restoration, technology and software, technical, and visual special effects services; as well as operates a training institute. Further, it engages in leasing and renting of real estate properties and allied services. The company offers its services to Hollywood studios, Over-The-Top providers, broadcasters, advertisers, and production houses. The company was incorporated in 1997 and is based in Mumbai, India."
       },
       "benchmark": {
         "industry": "Media Entertainment & Publication",
         "peers": 3,
-        "trailing_pe": 33.0,
-        "price_to_book": 1.77,
+        "trailing_pe": 34.9,
+        "price_to_book": 1.87,
         "roe_pct": null,
         "debt_to_equity": 2.26,
         "revenue_growth_pct": 10.4,
@@ -1430,14 +1475,14 @@
         "factors": [
           {
             "name": "Trailing P/E",
-            "value": "146.7",
+            "value": "158.4",
             "peer_value": "n/a",
             "stance": "neutral",
             "note": "No trustworthy peer median to compare against."
           },
           {
             "name": "Price / Book",
-            "value": "9.7",
+            "value": "10.5",
             "peer_value": "n/a",
             "stance": "neutral",
             "note": "No trustworthy peer median to compare against."
@@ -1473,7 +1518,7 @@
         ],
         "bull_case": [
           "Promoters hold 86%, so their interests stay tied to the share price.",
-          "1 analysts publish a mean target of 375, 44% above the current price."
+          "1 analysts publish a mean target of 375, 33% above the current price."
         ],
         "bear_case": [],
         "invalidators": [
@@ -1489,7 +1534,7 @@
         "bull_count": 0,
         "bear_count": 0
       },
-      "research_prompt": "I'm a long-term retail investor in Indian equities (NSE). My screener flagged Prime Focus Ltd. (PFOCUS) because it gained at least 3% on each of 1 consecutive sessions. I want your independent read - please push back on my screener rather than agreeing with it.\n\n## What my screener measured\n\n- Streak: 2026-10-09 to 2026-10-09, -4.0% cumulative\n- Daily gains: 2026-10-09 -3.99%\n- Last close: Rs 261.10\n- Sector: Media Entertainment & Publication\n- Median 20-day turnover: Rs 120.1 crore\n- Volume vs 20-day median: 1.07x\n- Distance from 52-week high: -27.0%\n- Return 1M / 3M / 1Y: -16.6% / 1.7% / None%\n\n## Attribution my engine computed\n\n- Verdict: unexplained - Company-specific, but nothing disclosed to explain it\n- Stock over the window: -4.0%\n- Broad market median: +0.7%\n\n### NSE filings in the window\n\n- 2026-10-07 [neutral] News Verification - Routine or administrative disclosure\n  The Exchange has sought clarification from Prime Focus Limited with respect to recent news item captioned Prime Focus shares tank 8% after Income Tax raids at Mumbai offices: Exclu\n- 2026-10-07 [neutral] News Verification - Routine or administrative disclosure\n  The Exchange has sought clarification from Prime Focus Limited with respect to recent news item captioned Prime Focus shares tank 8% after Income Tax raids at Mumbai offices: Exclu\n\n### Recent headlines (unverified, from Google News)\n\n- Prime Focus (NSE:PFOCUS) Posted Healthy Earnings But There Are Some Other Factors To Be Aware Of - Simply Wall Street\n- Prime Focus Ltd (NSE: PFOCUS) Falls 5.78% as Stock Draws Market Attention - Kalkine India\n- Prime Focus Ltd Share Price Today NSE/BSE Charts - Alice Blue\n- Prime Focus Ltd. Share Price Today - Prime Focus Ltd. Stock Price Live NSE/BSE - CNBC TV18\n- Prime Focus Q2 FY27: Date and Outlook - Univest\n- Prime Focus Ltd soars 7.06%, rises for third straight session - Business Standard\n\n## Fundamentals\n\n- Market cap: Rs 20,334 crore\n- Trailing P/E: 146.6854\n- Forward P/E: 26.917526\n- Price/Book: 9.712819\n- Debt/Equity: 224.567\n- Revenue growth (yoy): 23.8%\n- Operating margin: 9.66%\n- Net margin: 2.35%\n- Promoter holding: 85.56%\n- Institutional holding: 0.52%\n- Dividend yield: 0.0%\n- Analyst count: 1\n- Mean target price: 375.0\n\n### Data my engine could not get\n\n- Only 3 Media Entertainment & Publication peers had usable fundamentals, so peer medians below are indicative rather than reliable.\n- Return on Equity unavailable\n- Only 1 analysts cover this name, so the consensus target is thin and moves easily.\n\n## What I want from you\n\n1. **Why did it actually move?** My engine only sees exchange filings and price action. Check whether there is a real catalyst it missed - sector news, a peer's results, a policy change, an index inclusion, a block deal.\n2. **Is my engine's attribution wrong?** Say so directly if the evidence points elsewhere.\n3. **The one-year view.** Build a bull case and a bear case from the business, not from the chart. What has to be true for this to work, and what would break it? Be concrete about which numbers to watch.\n4. **What would you check that I have not?** Name the specific filings, segments or metrics.\n\nPlease flag anything above that looks stale or wrong, and tell me plainly if this looks like a speculative move rather than an investable one. I am not asking you to tell me whether to buy - I want the reasoning so I can decide."
+      "research_prompt": "I'm a long-term retail investor in Indian equities (NSE). My screener flagged Prime Focus Ltd. (PFOCUS) because it gained at least 3% on each of 1 consecutive sessions. I want your independent read - please push back on my screener rather than agreeing with it.\n\n## What my screener measured\n\n- Streak: 2026-10-09 to 2026-10-09, -4.0% cumulative\n- Daily gains: 2026-10-09 -3.99%\n- Last close: Rs 261.10\n- Sector: Media Entertainment & Publication\n- Median 20-day turnover: Rs 120.1 crore\n- Volume vs 20-day median: 1.07x\n- Distance from 52-week high: -27.0%\n- Return 1M / 3M / 1Y: -16.6% / 1.7% / None%\n\n## Attribution my engine computed\n\n- Verdict: unexplained - Company-specific, but nothing disclosed to explain it\n- Stock over the window: -4.0%\n- Broad market median: +0.7%\n\n### NSE filings in the window\n\n- 2026-10-07 [neutral] News Verification - Routine or administrative disclosure\n  The Exchange has sought clarification from Prime Focus Limited with respect to recent news item captioned Prime Focus shares tank 8% after Income Tax raids at Mumbai offices: Exclu\n- 2026-10-07 [neutral] News Verification - Routine or administrative disclosure\n  The Exchange has sought clarification from Prime Focus Limited with respect to recent news item captioned Prime Focus shares tank 8% after Income Tax raids at Mumbai offices: Exclu\n\n### Recent headlines (unverified, from Google News)\n\n- Prime Focus (PFOCUS) Share/Stock Price Live, NSE - TechGraph\n- Prime Focus Ltd Share Price Today,, PFOCUS Share Price NSE, BSE - Business Today\n- Prime Focus (NSE:PFOCUS) Posted Healthy Earnings But There Are Some Other Factors To Be Aware Of - Simply Wall Street\n- PFOCUS Share Price Today - Prime Focus Stock Analysis - Equitypandit\n- Prime Focus Limited (PFOCUS.NS) Slips 1.71% to ₹269.6, Remains Above Key Support - Inside Day Breakout - https://www.siam.in/\n- Prime Focus Ltd Share Price Today NSE/BSE Charts - Alice Blue\n\n## Fundamentals\n\n- Market cap: Rs 21,958 crore\n- Trailing P/E: 158.39888\n- Forward P/E: 29.067013\n- Price/Book: 10.488431\n- Debt/Equity: 224.567\n- Revenue growth (yoy): 23.8%\n- Operating margin: 9.66%\n- Net margin: 2.35%\n- Promoter holding: 85.56%\n- Institutional holding: 0.52%\n- Dividend yield: 0.0%\n- Analyst count: 1\n- Mean target price: 375.0\n\n### Data my engine could not get\n\n- Only 3 Media Entertainment & Publication peers had usable fundamentals, so peer medians below are indicative rather than reliable.\n- Return on Equity unavailable\n- Only 1 analysts cover this name, so the consensus target is thin and moves easily.\n\n## What I want from you\n\n1. **Why did it actually move?** My engine only sees exchange filings and price action. Check whether there is a real catalyst it missed - sector news, a peer's results, a policy change, an index inclusion, a block deal.\n2. **Is my engine's attribution wrong?** Say so directly if the evidence points elsewhere.\n3. **The one-year view.** Build a bull case and a bear case from the business, not from the chart. What has to be true for this to work, and what would break it? Be concrete about which numbers to watch.\n4. **What would you check that I have not?** Name the specific filings, segments or metrics.\n\nPlease flag anything above that looks stale or wrong, and tell me plainly if this looks like a speculative move rather than an investable one. I am not asking you to tell me whether to buy - I want the reasoning so I can decide."
     }
   ],
   "stats": {
