@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-19T22:13:35+05:30",
+  "generated_at": "2026-10-20T20:05:23+05:30",
   "session": "2026-10-19",
   "config": {
     "daily_gain_pct": 3.0,
@@ -12,10 +12,10 @@
     "max_lag_days": 5
   },
   "market": {
-    "median_day_pct": -1.31,
-    "median_streak_pct": -1.59,
-    "breadth_pct": 17.7,
-    "names": 497
+    "median_day_pct": -1.29,
+    "median_streak_pct": -1.58,
+    "breadth_pct": 17.8,
+    "names": 499
   },
   "sectors": [
     {
@@ -51,6 +51,14 @@
       "reliable": true
     },
     {
+      "industry": "Realty",
+      "median_day_pct": -1.04,
+      "median_streak_pct": -0.17,
+      "breadth_pct": 7.7,
+      "members": 13,
+      "reliable": true
+    },
+    {
       "industry": "Textiles",
       "median_day_pct": -1.04,
       "median_streak_pct": -2.35,
@@ -64,14 +72,6 @@
       "median_streak_pct": -1.64,
       "breadth_pct": 6.2,
       "members": 16,
-      "reliable": true
-    },
-    {
-      "industry": "Realty",
-      "median_day_pct": -1.14,
-      "median_streak_pct": -0.17,
-      "breadth_pct": 0.0,
-      "members": 11,
       "reliable": true
     },
     {
@@ -204,7 +204,7 @@
           "date": "2026-10-19",
           "close": 180.6999969482422,
           "gain_pct": 5.25,
-          "volume": 45873934
+          "volume": 45883930
         }
       ],
       "attribution": {
@@ -213,7 +213,7 @@
         "explanation": [
           "The stock gained +5.2% over the session 2026-10-19.",
           "Its sector (Financial Services) moved -1.3% over the same window, with 21% of its 98 Nifty 500 members advancing on the last session.",
-          "The broad market (median of 497 Nifty 500 names) moved -1.3% over the window, with 18% advancing on the last session.",
+          "The broad market (median of 499 Nifty 500 names) moved -1.3% over the window, with 18% advancing on the last session.",
           "The stock outpaced its sector by 6.5 percentage points, so the move is company-specific rather than sector-wide.",
           "NSE filing 2026-10-19 17:50 - Investor communication: Analysts/Institutional Investor Meet/Con. Call Updates.",
           "NSE filing 2026-10-19 12:29 - Investor communication: Investor Presentation.",
@@ -222,7 +222,7 @@
         ],
         "stock_streak_pct": 5.25,
         "sector_streak_pct": -1.27,
-        "market_streak_pct": -1.31,
+        "market_streak_pct": -1.29,
         "excess_vs_sector_pct": 6.52,
         "sector_breadth_pct": 21.0,
         "volume_ratio": 5.79,
@@ -316,23 +316,23 @@
       "fundamentals": {
         "symbol": "UNIONBANK",
         "market_cap_cr": 137939.0,
-        "trailing_pe": 6.680222,
-        "forward_pe": 6.6280427,
-        "price_to_book": 0.9886742,
-        "roe_pct": 15.8,
+        "trailing_pe": 6.2699513,
+        "forward_pe": 6.559412,
+        "price_to_book": 0.96673405,
+        "roe_pct": 16.29,
         "debt_to_equity": null,
-        "revenue_growth_pct": 16.4,
-        "earnings_growth_pct": 27.4,
-        "operating_margin_pct": 48.8,
-        "profit_margin_pct": 40.46,
+        "revenue_growth_pct": 15.6,
+        "earnings_growth_pct": 29.3,
+        "operating_margin_pct": 49.15,
+        "profit_margin_pct": 41.46,
         "promoter_holding_pct": 74.76,
-        "institutional_holding_pct": 15.03,
-        "dividend_yield_pct": 2.91,
+        "institutional_holding_pct": 15.04,
+        "dividend_yield_pct": 2.77,
         "current_ratio": null,
         "beta": 0.92,
-        "target_mean": 197.64706,
-        "target_low": 165.0,
-        "target_high": 225.0,
+        "target_mean": 199.41176,
+        "target_low": 168.0,
+        "target_high": 235.0,
         "analyst_count": 17,
         "current_price": 180.7,
         "business_summary": "Union Bank of India provides banking products and services in India. It operates in four segments: Treasury Operations, Retail Banking Operations, Corporate and Wholesale Banking, and Other Banking Operations. The company provides its products and services to individuals, commercial enterprises, large corporates, public bodies, and institutional customers. Union Bank of India was incorporated in 1919 and is headquartered in Mumbai, India."
@@ -342,16 +342,16 @@
         "peers": 97,
         "trailing_pe": 20.9,
         "price_to_book": 2.43,
-        "roe_pct": 13.66,
+        "roe_pct": 13.7,
         "debt_to_equity": 205.66,
-        "revenue_growth_pct": 18.5,
+        "revenue_growth_pct": 19.2,
         "profit_margin_pct": 31.79
       },
       "scorecard": {
         "factors": [
           {
             "name": "Trailing P/E",
-            "value": "6.7",
+            "value": "6.3",
             "peer_value": "20.9",
             "stance": "bull",
             "note": "Cheaper than the typical peer on trailing earnings."
@@ -365,7 +365,7 @@
           },
           {
             "name": "Return on Equity",
-            "value": "15.8%",
+            "value": "16.3%",
             "peer_value": "13.7%",
             "stance": "bull",
             "note": "Converts shareholder capital into profit better than peers."
@@ -379,30 +379,30 @@
           },
           {
             "name": "Revenue growth (yoy)",
-            "value": "16.4%",
-            "peer_value": "18.5%",
+            "value": "15.6%",
+            "peer_value": "19.2%",
             "stance": "bear",
             "note": "Growing more slowly than the sector."
           },
           {
             "name": "Net margin",
-            "value": "40.5%",
+            "value": "41.5%",
             "peer_value": "31.8%",
             "stance": "bull",
             "note": "Keeps more of every rupee of revenue than peers."
           }
         ],
         "bull_case": [
-          "Trailing P/E 6.7 vs sector 20.9. Cheaper than the typical peer on trailing earnings.",
+          "Trailing P/E 6.3 vs sector 20.9. Cheaper than the typical peer on trailing earnings.",
           "Price / Book 1.0 vs sector 2.4. Trades at a lower multiple of book value than peers.",
-          "Return on Equity 15.8% vs sector 13.7%. Converts shareholder capital into profit better than peers.",
-          "Net margin 40.5% vs sector 31.8%. Keeps more of every rupee of revenue than peers.",
-          "Earnings grew 27% year on year, which is what has to keep happening for a re-rating to hold.",
+          "Return on Equity 16.3% vs sector 13.7%. Converts shareholder capital into profit better than peers.",
+          "Net margin 41.5% vs sector 31.8%. Keeps more of every rupee of revenue than peers.",
+          "Earnings grew 29% year on year, which is what has to keep happening for a re-rating to hold.",
           "Promoters hold 75%, so their interests stay tied to the share price.",
-          "17 analysts publish a mean target of 198, 9% above the current price."
+          "17 analysts publish a mean target of 199, 10% above the current price."
         ],
         "bear_case": [
-          "Revenue growth (yoy) 16.4% vs sector 18.5%. Growing more slowly than the sector."
+          "Revenue growth (yoy) 15.6% vs sector 19.2%. Growing more slowly than the sector."
         ],
         "invalidators": [
           "Two consecutive quarters of revenue or margin decline would remove the growth premise this rests on.",
@@ -414,7 +414,7 @@
         "bull_count": 4,
         "bear_count": 1
       },
-      "research_prompt": "I'm a long-term retail investor in Indian equities (NSE). My screener flagged Union Bank of India (UNIONBANK) because it gained at least 3% on each of 1 consecutive sessions. I want your independent read - please push back on my screener rather than agreeing with it.\n\n## What my screener measured\n\n- Streak: 2026-10-19 to 2026-10-19, +5.2% cumulative\n- Daily gains: 2026-10-19 +5.25%\n- Last close: Rs 180.70\n- Sector: Financial Services\n- Median 20-day turnover: Rs 140.1 crore\n- Volume vs 20-day median: 5.79x\n- Distance from 52-week high: -8.0%\n- Return 1M / 3M / 1Y: 1.5% / 2.7% / None%\n\n## Attribution my engine computed\n\n- Verdict: company_catalyst - Company-specific - investor communication disclosed to the exchange\n- Stock over the window: +5.2%\n- Sector median over the same window: -1.3%\n- Excess vs sector: +6.5 pp\n- Broad market median: -1.3%\n\n### NSE filings in the window\n\n- 2026-10-19 [catalyst] Analysts/Institutional Investor Meet/Con. Call Updates - Investor communication\n  Union Bank of India has informed the Exchange about Link of Recording\n- 2026-10-19 [catalyst] Investor Presentation - Investor communication\n  Union Bank of India has informed the Exchange about Investor Presentation\n- 2026-10-19 [catalyst] Press Release - Results announcement\n  Union Bank of India has informed the Exchange regarding a press release dated October 19, 2026, titled \"Press Release on the Financial Results of the Bank for the Quarter ended on \n- 2026-10-19 [neutral] General Updates - Routine or administrative disclosure\n  Union Bank of India has informed the Exchange about General Updates\n- 2026-10-19 [catalyst] Outcome of Board Meeting - Results announcement\n  Union Bank of India has submitted to the Exchange, the financial results for the period ended September 30, 2026.\n\n### Recent headlines (unverified, from Google News)\n\n- UNIONBANK Forecast — Price Target — Prediction for 2027 - TradingView\n- Should You Be Adding Union Bank of India (NSE:UNIONBANK) To Your Watchlist Today? - Simply Wall Street\n- Union Bank of India Share Price Today NSE/BSE Charts - Alice Blue\n- Union Bank of India shares fall 6% after Q4 results. Reasons explained - India Infoline\n- Union Bank of India Shares Fall 2.04% in Afternoon Trade - Moneycontrol.com\n- Union Bank stock plunges 7% post Q1 business update; details here - Business Standard\n\n## Fundamentals\n\n- Market cap: Rs 137,939 crore\n- Trailing P/E: 6.680222\n- Forward P/E: 6.6280427\n- Price/Book: 0.9886742\n- Return on equity: 15.8%\n- Revenue growth (yoy): 16.4%\n- Earnings growth (yoy): 27.4%\n- Operating margin: 48.8%\n- Net margin: 40.46%\n- Promoter holding: 74.76%\n- Institutional holding: 15.03%\n- Dividend yield: 2.91%\n- Analyst count: 17\n- Mean target price: 197.64706\n\n### Sector medians (Financial Services, 97 Nifty 500 peers)\n\n- Trailing P/E: 20.9\n- Price/Book: 2.43\n- Return on equity: 13.66%\n- Debt/Equity: 205.66\n- Revenue growth: 18.5%\n- Net margin: 31.79%\n\n### Data my engine could not get\n\n- Debt / Equity unavailable\n\n## What I want from you\n\n1. **Why did it actually move?** My engine only sees exchange filings and price action. Check whether there is a real catalyst it missed - sector news, a peer's results, a policy change, an index inclusion, a block deal.\n2. **Is my engine's attribution wrong?** Say so directly if the evidence points elsewhere.\n3. **The one-year view.** Build a bull case and a bear case from the business, not from the chart. What has to be true for this to work, and what would break it? Be concrete about which numbers to watch.\n4. **What would you check that I have not?** Name the specific filings, segments or metrics.\n\nPlease flag anything above that looks stale or wrong, and tell me plainly if this looks like a speculative move rather than an investable one. I am not asking you to tell me whether to buy - I want the reasoning so I can decide."
+      "research_prompt": "I'm a long-term retail investor in Indian equities (NSE). My screener flagged Union Bank of India (UNIONBANK) because it gained at least 3% on each of 1 consecutive sessions. I want your independent read - please push back on my screener rather than agreeing with it.\n\n## What my screener measured\n\n- Streak: 2026-10-19 to 2026-10-19, +5.2% cumulative\n- Daily gains: 2026-10-19 +5.25%\n- Last close: Rs 180.70\n- Sector: Financial Services\n- Median 20-day turnover: Rs 140.1 crore\n- Volume vs 20-day median: 5.79x\n- Distance from 52-week high: -8.0%\n- Return 1M / 3M / 1Y: 1.5% / 2.7% / None%\n\n## Attribution my engine computed\n\n- Verdict: company_catalyst - Company-specific - investor communication disclosed to the exchange\n- Stock over the window: +5.2%\n- Sector median over the same window: -1.3%\n- Excess vs sector: +6.5 pp\n- Broad market median: -1.3%\n\n### NSE filings in the window\n\n- 2026-10-19 [catalyst] Analysts/Institutional Investor Meet/Con. Call Updates - Investor communication\n  Union Bank of India has informed the Exchange about Link of Recording\n- 2026-10-19 [catalyst] Investor Presentation - Investor communication\n  Union Bank of India has informed the Exchange about Investor Presentation\n- 2026-10-19 [catalyst] Press Release - Results announcement\n  Union Bank of India has informed the Exchange regarding a press release dated October 19, 2026, titled \"Press Release on the Financial Results of the Bank for the Quarter ended on \n- 2026-10-19 [neutral] General Updates - Routine or administrative disclosure\n  Union Bank of India has informed the Exchange about General Updates\n- 2026-10-19 [catalyst] Outcome of Board Meeting - Results announcement\n  Union Bank of India has submitted to the Exchange, the financial results for the period ended September 30, 2026.\n\n### Recent headlines (unverified, from Google News)\n\n- UNIONBANK Forecast — Price Target — Prediction for 2027 - TradingView\n- Should You Be Adding Union Bank of India (NSE:UNIONBANK) To Your Watchlist Today? - Simply Wall Street\n- Union Bank of India Share Price Today NSE/BSE Charts - Alice Blue\n- Union Bank of India shares fall 6% after Q4 results. Reasons explained - India Infoline\n- Union Bank of India Shares Fall 2.04% in Afternoon Trade - Moneycontrol.com\n- Union Bank stock plunges 7% post Q1 business update; details here - Business Standard\n\n## Fundamentals\n\n- Market cap: Rs 137,939 crore\n- Trailing P/E: 6.2699513\n- Forward P/E: 6.559412\n- Price/Book: 0.96673405\n- Return on equity: 16.29%\n- Revenue growth (yoy): 15.6%\n- Earnings growth (yoy): 29.3%\n- Operating margin: 49.15%\n- Net margin: 41.46%\n- Promoter holding: 74.76%\n- Institutional holding: 15.04%\n- Dividend yield: 2.77%\n- Analyst count: 17\n- Mean target price: 199.41176\n\n### Sector medians (Financial Services, 97 Nifty 500 peers)\n\n- Trailing P/E: 20.9\n- Price/Book: 2.43\n- Return on equity: 13.7%\n- Debt/Equity: 205.66\n- Revenue growth: 19.2%\n- Net margin: 31.79%\n\n### Data my engine could not get\n\n- Debt / Equity unavailable\n\n## What I want from you\n\n1. **Why did it actually move?** My engine only sees exchange filings and price action. Check whether there is a real catalyst it missed - sector news, a peer's results, a policy change, an index inclusion, a block deal.\n2. **Is my engine's attribution wrong?** Say so directly if the evidence points elsewhere.\n3. **The one-year view.** Build a bull case and a bear case from the business, not from the chart. What has to be true for this to work, and what would break it? Be concrete about which numbers to watch.\n4. **What would you check that I have not?** Name the specific filings, segments or metrics.\n\nPlease flag anything above that looks stale or wrong, and tell me plainly if this looks like a speculative move rather than an investable one. I am not asking you to tell me whether to buy - I want the reasoning so I can decide."
     },
     {
       "symbol": "HFCL",
@@ -439,29 +439,38 @@
           "date": "2026-10-19",
           "close": 268.80999755859375,
           "gain_pct": 5.0,
-          "volume": 15112730
+          "volume": 15114857
         }
       ],
       "attribution": {
         "verdict": "company_catalyst",
-        "headline": "Company-specific - investor communication disclosed to the exchange",
+        "headline": "Company-specific - results announcement disclosed to the exchange",
         "explanation": [
           "The stock gained +5.0% over the session 2026-10-19.",
           "Its sector (Telecommunication) moved -1.6% over the same window, with 27% of its 11 Nifty 500 members advancing on the last session.",
-          "The broad market (median of 497 Nifty 500 names) moved -1.3% over the window, with 18% advancing on the last session.",
+          "The broad market (median of 499 Nifty 500 names) moved -1.3% over the window, with 18% advancing on the last session.",
           "The stock outpaced its sector by 6.6 percentage points, so the move is company-specific rather than sector-wide.",
+          "NSE filing 2026-10-20 14:31 - Results announcement: Copy of Newspaper Publication.",
           "NSE filing 2026-10-19 19:52 - Investor communication: Analysts/Institutional Investor Meet/Con. Call Updates.",
-          "NSE filing 2026-10-19 18:51 - Fundraising or allotment: Monitoring Agency Report.",
-          "NSE filing 2026-10-19 14:21 - Investor communication: Investor Presentation."
+          "NSE filing 2026-10-19 18:51 - Fundraising or allotment: Monitoring Agency Report."
         ],
         "stock_streak_pct": 5.0,
         "sector_streak_pct": -1.56,
-        "market_streak_pct": -1.31,
+        "market_streak_pct": -1.29,
         "excess_vs_sector_pct": 6.56,
         "sector_breadth_pct": 27.0,
         "volume_ratio": 2.44,
         "cautions": [],
         "filings": [
+          {
+            "date": "2026-10-20",
+            "time": "14:31",
+            "category": "Copy of Newspaper Publication",
+            "summary": "HFCL Limited has informed the Exchange about Copy of Publication of Un-audited Financial Results for the 2nd Quarter and half year ended September 30, 2026, of the Financial Year 2026-27, in Newspapers",
+            "pdf_url": "https://nsearchives.nseindia.com/corporate/AHMED_20102026143102_HFCL_STX_Newspaper_20102026.pdf",
+            "bucket": "catalyst",
+            "label": "Results announcement"
+          },
           {
             "date": "2026-10-19",
             "time": "19:52",
@@ -519,6 +528,12 @@
         ],
         "headlines": [
           {
+            "title": "HFCL Share Price - Upstox",
+            "source": "Upstox",
+            "published": "Mon, 19 Oct 2026 21:39:17 GMT",
+            "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9EelYzcTZFMzBFeDFpX25XMjczRHd3SW90bEdtbG5WNWNJMVVpMTdsR3p4UHRUYk91R19ZOUFaQXVpME5obG9mVGdVZWs4bHczS2wwNl9tcFhDSllXSjczOA?oc=5"
+          },
+          {
             "title": "HFCL (NSEI:HFCL) - Stock Analysis - Simply Wall Street",
             "source": "Simply Wall Street",
             "published": "Fri, 16 Oct 2026 07:00:00 GMT",
@@ -537,45 +552,39 @@
             "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE91OGxFS2hQdWRSSG5ZbkNIT3B1LWF4aWVhdmxJX3c0alo4M1Q1X0Vlb013TEx3OTQxb2tTdHBEOGtLekh2NXR1bTZ2aWs1OUdoNko0RHRUblJEN2lxVTU5UU5tZ0dHMXlVNjAtU25VamRiWG1tYXc?oc=5"
           },
           {
-            "title": "Multibagger stock: HFCL shares hit 5% upper circuit for 3rd straight day - Business Standard",
-            "source": "Business Standard",
-            "published": "Thu, 01 Oct 2026 07:00:00 GMT",
-            "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNV2VWeDVRaGJ5blk3N2p5djVtZ3hFSXZ6S3JsRmphYTdhX2NScDI2ajBpQ3dhazB4OVRJd2JoRVh4VjAxLTd6ZFpSUW9Wa1gwUFlNLUlJVk5rdW9wRFlhalFFNkFoM0hFU29GV1FoeWNvMllCMEhweVBQWTZVR3IzNXNrakJfRVFvMWtWX29kRFY1VmI2MjBDUnJXT0xBM2N3TEV1MlF1aDVTMFZ3cVhuOWxla0h3SVVFNkpJS3dzU1pReGZiTkdUWXhXVUtSWC1fQ0Zj0gHYAUFVX3lxTE5kcV9RU2VUb0VydVMxSTZiZjdzYUYzVGJudXpFY09uTDRZYU9zbENRV0FDU1I3WE9vS2Z6eWlwcGJNS3ozVGNPRVFUQ2dlM0o1bkQwal9QbmVXZ1VWSm1wejdZSU4xTkpGeHVEd3o4MkFxbGs4QjBhcHNOSVlTcVJfei1pd3hqRkctZjV4Z1dWQ0ZNQllEblZqMEttaGNaRDQxaUdOSllCSmRqQzVlV3otMkdwWTN6amItbnlReENuRWtwazZyaG1zbUlTNkNXVEVaRE44Y2RjQQ?oc=5"
-          },
-          {
             "title": "HFCL Share Price Today: 4.4% Rise, Price Action Analysis - Univest",
             "source": "Univest",
             "published": "Tue, 18 Aug 2026 07:00:00 GMT",
             "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5LZTQ0eHAxTmVUdVdkRjhvYUVFbmF1X3hEQmdjTzBHckNtOVJmaERFby1lUFNLTWt1Q2tsVjAzVDAwZW9kTnNaME1KRjd4NVk5Q01XR1EtLVRBM05RNmRfWHZIOFQ0Rm5yVjE0RnFIaHZOQUk?oc=5"
           },
           {
-            "title": "HFCL shares rally 15% in 3 sessions; analysts flag Rs 260 resistance, consolidation risk - Moneycontrol.com",
-            "source": "Moneycontrol.com",
+            "title": "Multibagger stock: HFCL shares hit 5% upper circuit for 3rd straight day - Business Standard",
+            "source": "Business Standard",
             "published": "Thu, 01 Oct 2026 07:00:00 GMT",
-            "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQZVVkMEpVcDZ5b25IbE9ieTQySWhZT3ZLbTNfNlh3bHJDMkdsUFZ4YXJEMGd5ZzZHQkdSMWp0UmtkczFOWjkxVDROM05tbXZ6dzhkMEZjaGU0VUE0SnVSWGw3YmpSVGFIQzhLWWdodXFCSFo5OTZjT3p1ZzZ5U2c2NFJIZjdUbzFONU91SHRXcUZLX1FNS0syTEtIT1g0NTBXc2lwQ1RvdzcwMVlMTGtHbmYwbXY0YjNBdU1yMVFTNXJvdkVEcXU3ZVp1M1RBaGpqWTFucWlyd3BiUEppaEJvX19aZ9IB6AFBVV95cUxOSktyNS1qbEZucGo0dWFsendCMFV4T0g1MU1kV21zUy1FQTlCR3Z5c3dRVTVWYWxqMjMyT1NFLXlQR0hZOWdtd2otaEJaTEgybkU3SU56S3p3Z2ppOFdPaXZyc0JzQVRLaG5RemJnWmoyUmRKa1hqZjZvV1hmWS1MQzNoSUR1M19xMHVOT3NzZUxrV01qY2VEbDZXTEpoVGtkQTJsVzYtZHNKM0lDd1o2X2djSTFPVF91NXhLc1V6NUExQi01a2tmQnVoOXhxY3dtZ2pvX256YmcxWUVwa1RUZkZpbGVRY2Zi?oc=5"
+            "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNV2VWeDVRaGJ5blk3N2p5djVtZ3hFSXZ6S3JsRmphYTdhX2NScDI2ajBpQ3dhazB4OVRJd2JoRVh4VjAxLTd6ZFpSUW9Wa1gwUFlNLUlJVk5rdW9wRFlhalFFNkFoM0hFU29GV1FoeWNvMllCMEhweVBQWTZVR3IzNXNrakJfRVFvMWtWX29kRFY1VmI2MjBDUnJXT0xBM2N3TEV1MlF1aDVTMFZ3cVhuOWxla0h3SVVFNkpJS3dzU1pReGZiTkdUWXhXVUtSWC1fQ0Zj0gHYAUFVX3lxTE5kcV9RU2VUb0VydVMxSTZiZjdzYUYzVGJudXpFY09uTDRZYU9zbENRV0FDU1I3WE9vS2Z6eWlwcGJNS3ozVGNPRVFUQ2dlM0o1bkQwal9QbmVXZ1VWSm1wejdZSU4xTkpGeHVEd3o4MkFxbGs4QjBhcHNOSVlTcVJfei1pd3hqRkctZjV4Z1dWQ0ZNQllEblZqMEttaGNaRDQxaUdOSllCSmRqQzVlV3otMkdwWTN6amItbnlReENuRWtwazZyaG1zbUlTNkNXVEVaRE44Y2RjQQ?oc=5"
           }
         ]
       },
       "fundamentals": {
         "symbol": "HFCL",
         "market_cap_cr": 41135.0,
-        "trailing_pe": 70.0026,
-        "forward_pe": 33.60125,
-        "price_to_book": 8.108165,
-        "roe_pct": null,
-        "debt_to_equity": 38.321,
-        "revenue_growth_pct": 119.9,
-        "earnings_growth_pct": null,
-        "operating_margin_pct": 18.95,
-        "profit_margin_pct": 9.55,
+        "trailing_pe": 46.91274,
+        "forward_pe": 32.386745,
+        "price_to_book": 7.2864037,
+        "roe_pct": 18.66,
+        "debt_to_equity": 33.675,
+        "revenue_growth_pct": 143.6,
+        "earnings_growth_pct": 402.1,
+        "operating_margin_pct": 22.69,
+        "profit_margin_pct": 11.58,
         "promoter_holding_pct": 34.23,
-        "institutional_holding_pct": 20.12,
-        "dividend_yield_pct": 0.08,
-        "current_ratio": null,
+        "institutional_holding_pct": 20.13,
+        "dividend_yield_pct": 0.07,
+        "current_ratio": 2.096,
         "beta": 0.99,
-        "target_mean": 265.0,
+        "target_mean": 280.0,
         "target_low": 150.0,
-        "target_high": 380.0,
+        "target_high": 410.0,
         "analyst_count": 2,
         "current_price": 268.81,
         "business_summary": "HFCL Limited manufactures and sells telecom products in India and internationally. The company offers optical fiber cables, such as underground, aerial, microduct, FTTH, and micromodule cables; access solutions, including Wi-Fi access points, network switches, unlicensed band radios, IO canvas unified network management platform, and accessories; IP/MPLS routers; 5G product portfolio comprising access routers/cell site routers and pre-aggregation and aggregation routers; fiber optic cable and copper cable assemblies, high-density cabinets, fiber splice joint closures, ethernet cabling products, and active optical components; and defence solutions, including electro optics, electronic fuzes, ground surveillance radar, high-capacity radio relay, and software defined radios. It also provides network solutions for public telecommunications, defence and railway communications, and system integration services. The company was formerly known as Himachal Futuristic Communications Limited and changed its name to HFCL Limited in October 2019. HFCL Limited was incorporated in 1987 and is based in New Delhi, India."
@@ -594,71 +603,68 @@
         "factors": [
           {
             "name": "Trailing P/E",
-            "value": "70.0",
+            "value": "46.9",
             "peer_value": "44.5",
-            "stance": "bear",
-            "note": "More expensive than the typical peer, so more of the growth is already priced in."
+            "stance": "neutral",
+            "note": "In line with the sector."
           },
           {
             "name": "Price / Book",
-            "value": "8.1",
+            "value": "7.3",
             "peer_value": "9.3",
             "stance": "bull",
             "note": "Trades at a lower multiple of book value than peers."
           },
           {
             "name": "Return on Equity",
-            "value": "n/a",
+            "value": "18.7%",
             "peer_value": "18.9%",
-            "stance": "unknown",
-            "note": "Not reported by the data source."
+            "stance": "neutral",
+            "note": "In line with the sector."
           },
           {
             "name": "Debt / Equity",
-            "value": "38.3",
+            "value": "33.7",
             "peer_value": "85.6",
             "stance": "bull",
             "note": "Carries less leverage than peers, so less earnings risk if rates rise."
           },
           {
             "name": "Revenue growth (yoy)",
-            "value": "119.9%",
+            "value": "143.6%",
             "peer_value": "10.2%",
             "stance": "bull",
             "note": "Growing the top line faster than the sector."
           },
           {
             "name": "Net margin",
-            "value": "9.6%",
+            "value": "11.6%",
             "peer_value": "10.6%",
-            "stance": "bear",
-            "note": "Thinner margins than peers."
+            "stance": "neutral",
+            "note": "In line with the sector."
           }
         ],
         "bull_case": [
-          "Price / Book 8.1 vs sector 9.3. Trades at a lower multiple of book value than peers.",
-          "Debt / Equity 38.3 vs sector 85.6. Carries less leverage than peers, so less earnings risk if rates rise.",
-          "Revenue growth (yoy) 119.9% vs sector 10.2%. Growing the top line faster than the sector."
+          "Price / Book 7.3 vs sector 9.3. Trades at a lower multiple of book value than peers.",
+          "Debt / Equity 33.7 vs sector 85.6. Carries less leverage than peers, so less earnings risk if rates rise.",
+          "Revenue growth (yoy) 143.6% vs sector 10.2%. Growing the top line faster than the sector.",
+          "Earnings grew 402% year on year, which is what has to keep happening for a re-rating to hold.",
+          "2 analysts publish a mean target of 280, 4% above the current price."
         ],
         "bear_case": [
-          "Trailing P/E 70.0 vs sector 44.5. More expensive than the typical peer, so more of the growth is already priced in.",
-          "Net margin 9.6% vs sector 10.6%. Thinner margins than peers.",
-          "2 analysts publish a mean target of 265, 1% below the current price.",
           "Sitting within 1% of its 52-week high, so you are buying after the move, not before it."
         ],
         "invalidators": [
           "Two consecutive quarters of revenue or margin decline would remove the growth premise this rests on.",
-          "Trading at a large premium to the sector - any earnings miss tends to be punished harder from a premium multiple.",
           "A promoter pledge increase or a fresh exchange surveillance action would change the risk profile regardless of the fundamentals."
         ],
         "data_gaps": [
-          "Return on Equity unavailable",
           "Only 2 analysts cover this name, so the consensus target is thin and moves easily."
         ],
         "bull_count": 3,
-        "bear_count": 2
+        "bear_count": 0
       },
-      "research_prompt": "I'm a long-term retail investor in Indian equities (NSE). My screener flagged HFCL Ltd. (HFCL) because it gained at least 3% on each of 1 consecutive sessions. I want your independent read - please push back on my screener rather than agreeing with it.\n\n## What my screener measured\n\n- Streak: 2026-10-19 to 2026-10-19, +5.0% cumulative\n- Daily gains: 2026-10-19 +5.00%\n- Last close: Rs 268.81\n- Sector: Telecommunication\n- Median 20-day turnover: Rs 145.3 crore\n- Volume vs 20-day median: 2.44x\n- Distance from 52-week high: -1.1%\n- Return 1M / 3M / 1Y: 28.5% / 29.3% / None%\n\n## Attribution my engine computed\n\n- Verdict: company_catalyst - Company-specific - investor communication disclosed to the exchange\n- Stock over the window: +5.0%\n- Sector median over the same window: -1.6%\n- Excess vs sector: +6.6 pp\n- Broad market median: -1.3%\n\n### NSE filings in the window\n\n- 2026-10-19 [catalyst] Analysts/Institutional Investor Meet/Con. Call Updates - Investor communication\n  HFCL Limited has informed the Exchange about Link of Recording:https://files.hfcl.com/audio/IC_AudioRecoring_19102026.mp3\n- 2026-10-19 [catalyst] Monitoring Agency Report - Fundraising or allotment\n  Monitoring Agency Reports on the utilisation of proceeds raised through Qualified Institutions Placements and Preferential Issue of Warrants for the Quarter ended September 30, 202\n- 2026-10-19 [catalyst] Investor Presentation - Investor communication\n  HFCL Limited has informed the Exchange about Investor Presentation\n- 2026-10-19 [catalyst] Press Release - Results announcement\n  HFCL Limited has informed the Exchange regarding a press release dated October 19, 2026, titled \"Press Release on Un-audited Financial Results of the Company for the 2nd Quarter an\n- 2026-10-19 [catalyst] Outcome of Board Meeting - Results announcement\n  HFCL Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.\n- 2026-10-17 [neutral] General Updates - Routine or administrative disclosure\n  HFCL Limited has informed the Exchange about Intimation of ESG rating by ESG Risk Assessments and Insights Limited\n\n### Recent headlines (unverified, from Google News)\n\n- HFCL (NSEI:HFCL) - Stock Analysis - Simply Wall Street\n- HFCL Ltd. Share Price Today - HFCL Ltd. Stock Price Live NSE/BSE - CNBC TV18\n- HFCL Forecast — Price Target — Prediction for 2027 - TradingView\n- Multibagger stock: HFCL shares hit 5% upper circuit for 3rd straight day - Business Standard\n- HFCL Share Price Today: 4.4% Rise, Price Action Analysis - Univest\n- HFCL shares rally 15% in 3 sessions; analysts flag Rs 260 resistance, consolidation risk - Moneycontrol.com\n\n## Fundamentals\n\n- Market cap: Rs 41,135 crore\n- Trailing P/E: 70.0026\n- Forward P/E: 33.60125\n- Price/Book: 8.108165\n- Debt/Equity: 38.321\n- Revenue growth (yoy): 119.9%\n- Operating margin: 18.95%\n- Net margin: 9.55%\n- Promoter holding: 34.23%\n- Institutional holding: 20.12%\n- Dividend yield: 0.08%\n- Analyst count: 2\n- Mean target price: 265.0\n\n### Sector medians (Telecommunication, 10 Nifty 500 peers)\n\n- Trailing P/E: 44.45\n- Price/Book: 9.31\n- Return on equity: 18.91%\n- Debt/Equity: 85.64\n- Revenue growth: 10.25%\n- Net margin: 10.62%\n\n### Data my engine could not get\n\n- Return on Equity unavailable\n- Only 2 analysts cover this name, so the consensus target is thin and moves easily.\n\n## What I want from you\n\n1. **Why did it actually move?** My engine only sees exchange filings and price action. Check whether there is a real catalyst it missed - sector news, a peer's results, a policy change, an index inclusion, a block deal.\n2. **Is my engine's attribution wrong?** Say so directly if the evidence points elsewhere.\n3. **The one-year view.** Build a bull case and a bear case from the business, not from the chart. What has to be true for this to work, and what would break it? Be concrete about which numbers to watch.\n4. **What would you check that I have not?** Name the specific filings, segments or metrics.\n\nPlease flag anything above that looks stale or wrong, and tell me plainly if this looks like a speculative move rather than an investable one. I am not asking you to tell me whether to buy - I want the reasoning so I can decide."
+      "research_prompt": "I'm a long-term retail investor in Indian equities (NSE). My screener flagged HFCL Ltd. (HFCL) because it gained at least 3% on each of 1 consecutive sessions. I want your independent read - please push back on my screener rather than agreeing with it.\n\n## What my screener measured\n\n- Streak: 2026-10-19 to 2026-10-19, +5.0% cumulative\n- Daily gains: 2026-10-19 +5.00%\n- Last close: Rs 268.81\n- Sector: Telecommunication\n- Median 20-day turnover: Rs 145.3 crore\n- Volume vs 20-day median: 2.44x\n- Distance from 52-week high: -1.1%\n- Return 1M / 3M / 1Y: 28.5% / 29.3% / None%\n\n## Attribution my engine computed\n\n- Verdict: company_catalyst - Company-specific - results announcement disclosed to the exchange\n- Stock over the window: +5.0%\n- Sector median over the same window: -1.6%\n- Excess vs sector: +6.6 pp\n- Broad market median: -1.3%\n\n### NSE filings in the window\n\n- 2026-10-20 [catalyst] Copy of Newspaper Publication - Results announcement\n  HFCL Limited has informed the Exchange about Copy of Publication of Un-audited Financial Results for the 2nd Quarter and half year ended September 30, 2026, of the Financial Year 2\n- 2026-10-19 [catalyst] Analysts/Institutional Investor Meet/Con. Call Updates - Investor communication\n  HFCL Limited has informed the Exchange about Link of Recording:https://files.hfcl.com/audio/IC_AudioRecoring_19102026.mp3\n- 2026-10-19 [catalyst] Monitoring Agency Report - Fundraising or allotment\n  Monitoring Agency Reports on the utilisation of proceeds raised through Qualified Institutions Placements and Preferential Issue of Warrants for the Quarter ended September 30, 202\n- 2026-10-19 [catalyst] Investor Presentation - Investor communication\n  HFCL Limited has informed the Exchange about Investor Presentation\n- 2026-10-19 [catalyst] Press Release - Results announcement\n  HFCL Limited has informed the Exchange regarding a press release dated October 19, 2026, titled \"Press Release on Un-audited Financial Results of the Company for the 2nd Quarter an\n- 2026-10-19 [catalyst] Outcome of Board Meeting - Results announcement\n  HFCL Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.\n- 2026-10-17 [neutral] General Updates - Routine or administrative disclosure\n  HFCL Limited has informed the Exchange about Intimation of ESG rating by ESG Risk Assessments and Insights Limited\n\n### Recent headlines (unverified, from Google News)\n\n- HFCL Share Price - Upstox\n- HFCL (NSEI:HFCL) - Stock Analysis - Simply Wall Street\n- HFCL Ltd. Share Price Today - HFCL Ltd. Stock Price Live NSE/BSE - CNBC TV18\n- HFCL Forecast — Price Target — Prediction for 2027 - TradingView\n- HFCL Share Price Today: 4.4% Rise, Price Action Analysis - Univest\n- Multibagger stock: HFCL shares hit 5% upper circuit for 3rd straight day - Business Standard\n\n## Fundamentals\n\n- Market cap: Rs 41,135 crore\n- Trailing P/E: 46.91274\n- Forward P/E: 32.386745\n- Price/Book: 7.2864037\n- Return on equity: 18.66%\n- Debt/Equity: 33.675\n- Revenue growth (yoy): 143.6%\n- Earnings growth (yoy): 402.1%\n- Operating margin: 22.69%\n- Net margin: 11.58%\n- Promoter holding: 34.23%\n- Institutional holding: 20.13%\n- Dividend yield: 0.07%\n- Analyst count: 2\n- Mean target price: 280.0\n\n### Sector medians (Telecommunication, 10 Nifty 500 peers)\n\n- Trailing P/E: 44.45\n- Price/Book: 9.31\n- Return on equity: 18.91%\n- Debt/Equity: 85.64\n- Revenue growth: 10.25%\n- Net margin: 10.62%\n\n### Data my engine could not get\n\n- Only 2 analysts cover this name, so the consensus target is thin and moves easily.\n\n## What I want from you\n\n1. **Why did it actually move?** My engine only sees exchange filings and price action. Check whether there is a real catalyst it missed - sector news, a peer's results, a policy change, an index inclusion, a block deal.\n2. **Is my engine's attribution wrong?** Say so directly if the evidence points elsewhere.\n3. **The one-year view.** Build a bull case and a bear case from the business, not from the chart. What has to be true for this to work, and what would break it? Be concrete about which numbers to watch.\n4. **What would you check that I have not?** Name the specific filings, segments or metrics.\n\nPlease flag anything above that looks stale or wrong, and tell me plainly if this looks like a speculative move rather than an investable one. I am not asking you to tell me whether to buy - I want the reasoning so I can decide."
     },
     {
       "symbol": "PNB",
@@ -683,7 +689,7 @@
           "date": "2026-10-19",
           "close": 121.9000015258789,
           "gain_pct": 4.82,
-          "volume": 78107320
+          "volume": 78115490
         }
       ],
       "attribution": {
@@ -692,7 +698,7 @@
         "explanation": [
           "The stock gained +4.8% over the session 2026-10-19.",
           "Its sector (Financial Services) moved -1.3% over the same window, with 21% of its 98 Nifty 500 members advancing on the last session.",
-          "The broad market (median of 497 Nifty 500 names) moved -1.3% over the window, with 18% advancing on the last session.",
+          "The broad market (median of 499 Nifty 500 names) moved -1.3% over the window, with 18% advancing on the last session.",
           "The stock outpaced its sector by 6.1 percentage points, so the move is company-specific rather than sector-wide.",
           "NSE filing 2026-10-16 22:25 - Investor communication: Analysts/Institutional Investor Meet/Con. Call Updates.",
           "NSE filing 2026-10-16 16:27 - Investor communication: Investor Presentation.",
@@ -701,7 +707,7 @@
         ],
         "stock_streak_pct": 4.82,
         "sector_streak_pct": -1.27,
-        "market_streak_pct": -1.31,
+        "market_streak_pct": -1.29,
         "excess_vs_sector_pct": 6.09,
         "sector_breadth_pct": 21.0,
         "volume_ratio": 6.12,
@@ -755,16 +761,16 @@
         ],
         "headlines": [
           {
-            "title": "PNB shares jump 8% after Q2 results beat estimates; Jefferies, Motilal Oswal, others raise target prices - The Economic Times",
-            "source": "The Economic Times",
-            "published": "Mon, 19 Oct 2026 05:35:53 GMT",
-            "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxQbTd1bWFZZzVYazVsR1p5bU5LcGVpVkNxQVZLVDVpQUhxUEJySGRFdWJWOHNJSVdMc01TVEZtbEw3U3Bod3E2eVU0MV9fZnhlNGI3N012cktreWdCeVFsSF81ZkFDVXFMekRxVnF0ejh5OHZQMGkxVDRnNGZEdE1PY3k3OWhGLV9NeHV5TVN0ZEJZVEIxeXMwZ0RMQ0tud1hLUHZvZjNGT08zc1hlUmNCaDZSS21ncVFGZlFyM1lhODdHUGZ2bHc2YzJxdW14YWttRlZxTWhFc3pGUHNkc3pXT05GVmNGcDRCaWpjSDJIV1JJc0syeW9haUUySE90amlmdmFhedIBigJBVV95cUxQTnVWSDJzdlU0bmNDdzdvSkRqMTNJbi13OHZGZUlvZ0Z5clpjOUJtOFlTTi0wTDgyX0hvODdOOURNamh0RFR0S2dNQVdFbnN3amtZdFhJY2p0MGhuSWNWS01mZmNGN3pINzlwRmtadWxLa3UwUW96elFtVXRoeHZ4MXhmbFAzbmVrU25ld0RSMHNTUXBpVWhDU2twNW5pRkNQR2h5VUhLc1hZSTkxYjNqeTJuN1lzYlE5RGY1Q0s0SHJoUTE2N0dNclFfLWdyLUVfMkRTRVJCWVUwNHA5X2JaNXNEZ0FzN0JJcXFXMndHNTNlb3Fvd2NJd1NISS1XOVVoNndSZGVUM0ZKQQ?oc=5"
-          },
-          {
             "title": "PNB Housing Share Price Today, PNB Housing Stock Price Live NSE/BSE Updates - The Economic Times",
             "source": "The Economic Times",
             "published": "Thu, 15 Oct 2026 21:56:00 GMT",
             "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNVnhPMGlSc3M4YmZ5SUFCaVhVQVFGaF9GM1VsQnBxWlJqUnljYkxJX3JSWHRqSE9sTEtoZTIxZ0ZHaG1Ga0VqYmhpU19nSzJRdUF3S1d5dm1ySTJUNHFqd3FmTkp6dDRKQVZUWnYtUXZaNWpkODRxYmh1ZUd5c3hXeFZRU0Z6S1o4TXYxR1dLWQ?oc=5"
+          },
+          {
+            "title": "PNB shares jump 8% after Q2 results beat estimates; Jefferies, Motilal Oswal, others raise target prices - The Economic Times",
+            "source": "The Economic Times",
+            "published": "Mon, 19 Oct 2026 05:35:53 GMT",
+            "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxQbTd1bWFZZzVYazVsR1p5bU5LcGVpVkNxQVZLVDVpQUhxUEJySGRFdWJWOHNJSVdMc01TVEZtbEw3U3Bod3E2eVU0MV9fZnhlNGI3N012cktreWdCeVFsSF81ZkFDVXFMekRxVnF0ejh5OHZQMGkxVDRnNGZEdE1PY3k3OWhGLV9NeHV5TVN0ZEJZVEIxeXMwZ0RMQ0tud1hLUHZvZjNGT08zc1hlUmNCaDZSS21ncVFGZlFyM1lhODdHUGZ2bHc2YzJxdW14YWttRlZxTWhFc3pGUHNkc3pXT05GVmNGcDRCaWpjSDJIV1JJc0syeW9haUUySE90amlmdmFhedIBigJBVV95cUxQTnVWSDJzdlU0bmNDdzdvSkRqMTNJbi13OHZGZUlvZ0Z5clpjOUJtOFlTTi0wTDgyX0hvODdOOURNamh0RFR0S2dNQVdFbnN3amtZdFhJY2p0MGhuSWNWS01mZmNGN3pINzlwRmtadWxLa3UwUW96elFtVXRoeHZ4MXhmbFAzbmVrU25ld0RSMHNTUXBpVWhDU2twNW5pRkNQR2h5VUhLc1hZSTkxYjNqeTJuN1lzYlE5RGY1Q0s0SHJoUTE2N0dNclFfLWdyLUVfMkRTRVJCWVUwNHA5X2JaNXNEZ0FzN0JJcXFXMndHNTNlb3Fvd2NJd1NISS1XOVVoNndSZGVUM0ZKQQ?oc=5"
           },
           {
             "title": "PNBHOUSING Share Price Today - PNB Housing Finance on NSE/BSE - scanx.trade",
@@ -773,22 +779,22 @@
             "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE4wQXBGbVNWVlF4QXVwd1VyOENETWROSXBBZ3Q3NFliVTRfenBHUzgzdTRrTEdPTzdodnNFbkNxdHJVNTRpNWVaenVVTFhhdTh0TVlMRV9OVXYzLUd6Vm1yQQ?oc=5"
           },
           {
-            "title": "PNB Forecast — Price Target — Prediction for 2027 - TradingView",
-            "source": "TradingView",
-            "published": "Thu, 25 Jun 2026 13:33:23 GMT",
-            "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE15TVgxeVUwWGttNmh1RU1raFRMVjBFM3VPTUd4czFMUmMwdU43Y2dSYXZBbTcwOUU5Z0twTU5XWDFndzZjT01fcjgxWkZTVXNIN3J2R2NteFhCNnhIUDN6Qmt3clpWRGNSc0dvaUxBclBpelVQ?oc=5"
-          },
-          {
             "title": "PNB shares jump up to 5% as Q1 net profit surges over three-fold, brokerages see up to 28% upside - Moneycontrol.com",
             "source": "Moneycontrol.com",
             "published": "Mon, 20 Jul 2026 07:00:00 GMT",
             "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQRUVpUE00V3JFY2ZOTEVmaWZXNlczRE5MODAwcm91cTN6QzlVdmhxNzNhcDFWSXEyRV9fZGRGcFk5Wmd2WHYxQ1N3TnQ2U2IwWmQ2VGxYdFFDSEtaMDFhNlVHdXBydGpYZXlJZThHYnZFbFpzMUFtUjlMaG9pdXJlZ0hEQm45U21mNGNoVjFQZExnSjNfOWQ1YkgzcXdEb0RuZFNWbU1qXzBGY00zRVMwV3hGY1gwcl9MMllIMWJzWFd6Q0Ziell5WG91VVpVc05rMlU4VHAxRmpzUnRkQ0NWaTdpdDZKT2c4SjhQVFRHVE7SAfYBQVVfeXFMTzJfRlBEclVRaE5odGVXa055YU5MbVp5c3dHU3pCX2h2UWpwY0Iwc29EaURBMXl3VUtlQjJjdnlaTElRUXE1VVdRN1hUa3FiX3N0TkVGT29TbzRhUTBsQk9aVVlCYi1NQ1E2Nk1NZDBIVzZMazQyNHVpVUhHcUhIVi0tMVdYbks5ZjZGYUJpM2pIcWJIRmpNV3VKblVRbmpUT0ZQam90Q09HcGZvX0lVOTVYc2pac1VFMXlRU08wZzF1alFSSkdwUm9ibGxTbDVHMDlYTW9BcXYtMTExRDlTT0NhTDg5U2s4eV8wRWR4elFOT21tUnlB?oc=5"
           },
           {
-            "title": "Punjab National Bank Share Price Today NSE/BSE Charts - Alice Blue",
-            "source": "Alice Blue",
-            "published": "Wed, 26 Aug 2026 16:50:04 GMT",
-            "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5FZ1N0TkNRd3BGY0xLclJ1T0ZLb29uYjh2QUxiNDBlUkx5M3hEeEkxNHRIN2R0bFRtMjd5b1FNQ1ZQSk5fVlJBY0tPeWhFcnR5TUpXNzNqZWdQZjB6TURXUm9uekhoS2tFVFNhOUdxWjBfZzkz?oc=5"
+            "title": "PNB Forecast — Price Target — Prediction for 2027 - TradingView",
+            "source": "TradingView",
+            "published": "Thu, 25 Jun 2026 13:33:23 GMT",
+            "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE15TVgxeVUwWGttNmh1RU1raFRMVjBFM3VPTUd4czFMUmMwdU43Y2dSYXZBbTcwOUU5Z0twTU5XWDFndzZjT01fcjgxWkZTVXNIN3J2R2NteFhCNnhIUDN6Qmt3clpWRGNSc0dvaUxBclBpelVQ?oc=5"
+          },
+          {
+            "title": "PNB Housing Finance (NSEI:PNBHOUSING) Stock Forecast & Analyst Predictions - Simply Wall Street",
+            "source": "Simply Wall Street",
+            "published": "Sun, 11 Oct 2026 07:00:00 GMT",
+            "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQandiUDJGaXFzU05lVnVKdGViUHZWSERGY2JfSE5aS3VwbnJmU2o4Q3diTDhsbUNiMC03WTVGTTRrNXhPUV84aXFuWVRjY2NTbkpUUm1RNmNSbUxmQVp3dEM3N192WXQ0RzVGdU9EZ05YenNQZnVlSTZyeG9aV0RITXltMUJ4M0xTUVR3RVhON2c5U2E3ZHUzWDdSTU9RS1FhbU9XZkl3?oc=5"
           }
         ]
       },
@@ -796,7 +802,7 @@
         "symbol": "PNB",
         "market_cap_cr": 140099.0,
         "trailing_pe": 6.141058,
-        "forward_pe": 6.582813,
+        "forward_pe": 6.582365,
         "price_to_book": 0.8706459,
         "roe_pct": 15.06,
         "debt_to_equity": null,
@@ -805,8 +811,8 @@
         "operating_margin_pct": 49.1,
         "profit_margin_pct": 38.78,
         "promoter_holding_pct": 70.08,
-        "institutional_holding_pct": 18.78,
-        "dividend_yield_pct": 2.58,
+        "institutional_holding_pct": 18.79,
+        "dividend_yield_pct": 2.46,
         "current_ratio": null,
         "beta": 0.531,
         "target_mean": 129.94444,
@@ -821,9 +827,9 @@
         "peers": 97,
         "trailing_pe": 20.9,
         "price_to_book": 2.43,
-        "roe_pct": 13.66,
+        "roe_pct": 13.7,
         "debt_to_equity": 205.66,
-        "revenue_growth_pct": 18.5,
+        "revenue_growth_pct": 19.2,
         "profit_margin_pct": 31.79
       },
       "scorecard": {
@@ -846,8 +852,8 @@
             "name": "Return on Equity",
             "value": "15.1%",
             "peer_value": "13.7%",
-            "stance": "bull",
-            "note": "Converts shareholder capital into profit better than peers."
+            "stance": "neutral",
+            "note": "In line with the sector."
           },
           {
             "name": "Debt / Equity",
@@ -859,7 +865,7 @@
           {
             "name": "Revenue growth (yoy)",
             "value": "7.4%",
-            "peer_value": "18.5%",
+            "peer_value": "19.2%",
             "stance": "bear",
             "note": "Growing more slowly than the sector."
           },
@@ -874,13 +880,12 @@
         "bull_case": [
           "Trailing P/E 6.1 vs sector 20.9. Cheaper than the typical peer on trailing earnings.",
           "Price / Book 0.9 vs sector 2.4. Trades at a lower multiple of book value than peers.",
-          "Return on Equity 15.1% vs sector 13.7%. Converts shareholder capital into profit better than peers.",
           "Net margin 38.8% vs sector 31.8%. Keeps more of every rupee of revenue than peers.",
           "Promoters hold 70%, so their interests stay tied to the share price.",
           "18 analysts publish a mean target of 130, 7% above the current price."
         ],
         "bear_case": [
-          "Revenue growth (yoy) 7.4% vs sector 18.5%. Growing more slowly than the sector."
+          "Revenue growth (yoy) 7.4% vs sector 19.2%. Growing more slowly than the sector."
         ],
         "invalidators": [
           "Two consecutive quarters of revenue or margin decline would remove the growth premise this rests on.",
@@ -889,10 +894,10 @@
         "data_gaps": [
           "Debt / Equity unavailable"
         ],
-        "bull_count": 4,
+        "bull_count": 3,
         "bear_count": 1
       },
-      "research_prompt": "I'm a long-term retail investor in Indian equities (NSE). My screener flagged Punjab National Bank (PNB) because it gained at least 3% on each of 1 consecutive sessions. I want your independent read - please push back on my screener rather than agreeing with it.\n\n## What my screener measured\n\n- Streak: 2026-10-19 to 2026-10-19, +4.8% cumulative\n- Daily gains: 2026-10-19 +4.82%\n- Last close: Rs 121.90\n- Sector: Financial Services\n- Median 20-day turnover: Rs 150.0 crore\n- Volume vs 20-day median: 6.12x\n- Distance from 52-week high: -5.2%\n- Return 1M / 3M / 1Y: 4.7% / 9.1% / None%\n\n## Attribution my engine computed\n\n- Verdict: company_catalyst - Company-specific - investor communication disclosed to the exchange\n- Stock over the window: +4.8%\n- Sector median over the same window: -1.3%\n- Excess vs sector: +6.1 pp\n- Broad market median: -1.3%\n\n### NSE filings in the window\n\n- 2026-10-17 [neutral] General Updates - Routine or administrative disclosure\n  Punjab National Bank has informed the Exchange about General Updates\n- 2026-10-16 [catalyst] Analysts/Institutional Investor Meet/Con. Call Updates - Investor communication\n  Punjab National Bank has informed the Exchange about Link of Recording\n- 2026-10-16 [neutral] Press Release - Routine or administrative disclosure\n  Punjab National Bank has informed the Exchange regarding a press release dated October 16, 2026, titled \"Press Release\".\n- 2026-10-16 [catalyst] Investor Presentation - Investor communication\n  Punjab National Bank has informed the Exchange about Investor Presentation\n- 2026-10-16 [catalyst] Outcome of Board Meeting - Results announcement\n  Punjab National Bank has submitted to the Exchange, the financial results for the period ended September 30, 2026.\n\n### Recent headlines (unverified, from Google News)\n\n- PNB shares jump 8% after Q2 results beat estimates; Jefferies, Motilal Oswal, others raise target prices - The Economic Times\n- PNB Housing Share Price Today, PNB Housing Stock Price Live NSE/BSE Updates - The Economic Times\n- PNBHOUSING Share Price Today - PNB Housing Finance on NSE/BSE - scanx.trade\n- PNB Forecast — Price Target — Prediction for 2027 - TradingView\n- PNB shares jump up to 5% as Q1 net profit surges over three-fold, brokerages see up to 28% upside - Moneycontrol.com\n- Punjab National Bank Share Price Today NSE/BSE Charts - Alice Blue\n\n## Fundamentals\n\n- Market cap: Rs 140,099 crore\n- Trailing P/E: 6.141058\n- Forward P/E: 6.582813\n- Price/Book: 0.8706459\n- Return on equity: 15.06%\n- Revenue growth (yoy): 7.4%\n- Earnings growth (yoy): 15.0%\n- Operating margin: 49.1%\n- Net margin: 38.78%\n- Promoter holding: 70.08%\n- Institutional holding: 18.78%\n- Dividend yield: 2.58%\n- Analyst count: 18\n- Mean target price: 129.94444\n\n### Sector medians (Financial Services, 97 Nifty 500 peers)\n\n- Trailing P/E: 20.9\n- Price/Book: 2.43\n- Return on equity: 13.66%\n- Debt/Equity: 205.66\n- Revenue growth: 18.5%\n- Net margin: 31.79%\n\n### Data my engine could not get\n\n- Debt / Equity unavailable\n\n## What I want from you\n\n1. **Why did it actually move?** My engine only sees exchange filings and price action. Check whether there is a real catalyst it missed - sector news, a peer's results, a policy change, an index inclusion, a block deal.\n2. **Is my engine's attribution wrong?** Say so directly if the evidence points elsewhere.\n3. **The one-year view.** Build a bull case and a bear case from the business, not from the chart. What has to be true for this to work, and what would break it? Be concrete about which numbers to watch.\n4. **What would you check that I have not?** Name the specific filings, segments or metrics.\n\nPlease flag anything above that looks stale or wrong, and tell me plainly if this looks like a speculative move rather than an investable one. I am not asking you to tell me whether to buy - I want the reasoning so I can decide."
+      "research_prompt": "I'm a long-term retail investor in Indian equities (NSE). My screener flagged Punjab National Bank (PNB) because it gained at least 3% on each of 1 consecutive sessions. I want your independent read - please push back on my screener rather than agreeing with it.\n\n## What my screener measured\n\n- Streak: 2026-10-19 to 2026-10-19, +4.8% cumulative\n- Daily gains: 2026-10-19 +4.82%\n- Last close: Rs 121.90\n- Sector: Financial Services\n- Median 20-day turnover: Rs 150.0 crore\n- Volume vs 20-day median: 6.12x\n- Distance from 52-week high: -5.2%\n- Return 1M / 3M / 1Y: 4.7% / 9.1% / None%\n\n## Attribution my engine computed\n\n- Verdict: company_catalyst - Company-specific - investor communication disclosed to the exchange\n- Stock over the window: +4.8%\n- Sector median over the same window: -1.3%\n- Excess vs sector: +6.1 pp\n- Broad market median: -1.3%\n\n### NSE filings in the window\n\n- 2026-10-17 [neutral] General Updates - Routine or administrative disclosure\n  Punjab National Bank has informed the Exchange about General Updates\n- 2026-10-16 [catalyst] Analysts/Institutional Investor Meet/Con. Call Updates - Investor communication\n  Punjab National Bank has informed the Exchange about Link of Recording\n- 2026-10-16 [neutral] Press Release - Routine or administrative disclosure\n  Punjab National Bank has informed the Exchange regarding a press release dated October 16, 2026, titled \"Press Release\".\n- 2026-10-16 [catalyst] Investor Presentation - Investor communication\n  Punjab National Bank has informed the Exchange about Investor Presentation\n- 2026-10-16 [catalyst] Outcome of Board Meeting - Results announcement\n  Punjab National Bank has submitted to the Exchange, the financial results for the period ended September 30, 2026.\n\n### Recent headlines (unverified, from Google News)\n\n- PNB Housing Share Price Today, PNB Housing Stock Price Live NSE/BSE Updates - The Economic Times\n- PNB shares jump 8% after Q2 results beat estimates; Jefferies, Motilal Oswal, others raise target prices - The Economic Times\n- PNBHOUSING Share Price Today - PNB Housing Finance on NSE/BSE - scanx.trade\n- PNB shares jump up to 5% as Q1 net profit surges over three-fold, brokerages see up to 28% upside - Moneycontrol.com\n- PNB Forecast — Price Target — Prediction for 2027 - TradingView\n- PNB Housing Finance (NSEI:PNBHOUSING) Stock Forecast & Analyst Predictions - Simply Wall Street\n\n## Fundamentals\n\n- Market cap: Rs 140,099 crore\n- Trailing P/E: 6.141058\n- Forward P/E: 6.582365\n- Price/Book: 0.8706459\n- Return on equity: 15.06%\n- Revenue growth (yoy): 7.4%\n- Earnings growth (yoy): 15.0%\n- Operating margin: 49.1%\n- Net margin: 38.78%\n- Promoter holding: 70.08%\n- Institutional holding: 18.79%\n- Dividend yield: 2.46%\n- Analyst count: 18\n- Mean target price: 129.94444\n\n### Sector medians (Financial Services, 97 Nifty 500 peers)\n\n- Trailing P/E: 20.9\n- Price/Book: 2.43\n- Return on equity: 13.7%\n- Debt/Equity: 205.66\n- Revenue growth: 19.2%\n- Net margin: 31.79%\n\n### Data my engine could not get\n\n- Debt / Equity unavailable\n\n## What I want from you\n\n1. **Why did it actually move?** My engine only sees exchange filings and price action. Check whether there is a real catalyst it missed - sector news, a peer's results, a policy change, an index inclusion, a block deal.\n2. **Is my engine's attribution wrong?** Say so directly if the evidence points elsewhere.\n3. **The one-year view.** Build a bull case and a bear case from the business, not from the chart. What has to be true for this to work, and what would break it? Be concrete about which numbers to watch.\n4. **What would you check that I have not?** Name the specific filings, segments or metrics.\n\nPlease flag anything above that looks stale or wrong, and tell me plainly if this looks like a speculative move rather than an investable one. I am not asking you to tell me whether to buy - I want the reasoning so I can decide."
     }
   ],
   "top_losers": [
@@ -919,7 +924,7 @@
           "date": "2026-10-19",
           "close": 142.47999572753906,
           "gain_pct": -9.89,
-          "volume": 22133158
+          "volume": 22133536
         }
       ],
       "attribution": {
@@ -928,7 +933,7 @@
         "explanation": [
           "The stock fell -9.9% over the session 2026-10-19.",
           "Its sector (Consumer Services) moved -1.9% over the same window, with 13% of its 23 Nifty 500 members advancing on the last session.",
-          "The broad market (median of 497 Nifty 500 names) moved -1.3% over the window, with 18% advancing on the last session.",
+          "The broad market (median of 499 Nifty 500 names) moved -1.3% over the window, with 18% advancing on the last session.",
           "The stock lagged its sector by 8.0 percentage points, so the move is company-specific rather than sector-wide.",
           "NSE filing 2026-10-17 19:30 - Results announcement: Analysts/Institutional Investor Meet/Con. Call Updates.",
           "NSE filing 2026-10-17 12:07 - Results announcement: Copy of Newspaper Publication.",
@@ -937,7 +942,7 @@
         ],
         "stock_streak_pct": -9.89,
         "sector_streak_pct": -1.93,
-        "market_streak_pct": -1.31,
+        "market_streak_pct": -1.29,
         "excess_vs_sector_pct": -7.96,
         "sector_breadth_pct": 13.0,
         "volume_ratio": 5.6,
@@ -1036,10 +1041,10 @@
         ],
         "headlines": [
           {
-            "title": "Urban (NSEI:URBANCO) Stock Forecast & Analyst Predictions - Simply Wall Street",
-            "source": "Simply Wall Street",
-            "published": "Wed, 14 Oct 2026 07:00:00 GMT",
-            "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOVUYtUW9vcFBpVWFtVVRiR29MU012TXI4OWdxX2tjZUZPZW5CTFQ5aFRycHdva0wwT2p5U1NZZzZjeXhHd0dlSmR0WEVNSUx2T18xRGZvTDdEUVFybENOanFqQllJRjBDczlhX1FqYlZUUi15R1hXS2taNXZOOWR3UGx5Vm8xLWxW?oc=5"
+            "title": "Urban Company Ltd. Share Price Today - Urban Company Ltd. Stock Price Live NSE/BSE - CNBC TV18",
+            "source": "CNBC TV18",
+            "published": "Fri, 16 Oct 2026 10:00:00 GMT",
+            "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQTTd3blpZMTZHRlJobC1NT0RyamVBWTVUZGpUSWgxYy0tN3hwUHhiY0lweUtZRHItTTRCamoyV2dSRXVuLU14R0hIM1Q4Y0xlRUJ0RXFnYjdGaS1reG9Ld2U5ZFlVdUhMMDRRM1ZCa0Rhekx2NUFYREt0bDF0Yklnd1R3?oc=5"
           },
           {
             "title": "Urban Company (URBANCO) Share/Stock Price Live, NSE - TechGraph",
@@ -1054,16 +1059,16 @@
             "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9sU3pQYmxLV2NEZEl2TURoOHcwbTRuSDI0ZzhnQlI2UFMtdmQ3V0laa3lCVTlSa282aDNGLV9uU0dfSVFOMEVMTzY0OWNTZGx3M1NVZ0dFZEUyenRXTEI5OWdWMmJLWjBkem1yTzB2REdwdUJYVUJIelhB?oc=5"
           },
           {
+            "title": "Urban Company Limited (NSE:URBANCO) First-Quarter Results Just Came Out: Here's What Analysts Are Forecasting For This Year - Simply Wall Street",
+            "source": "Simply Wall Street",
+            "published": "Wed, 05 Aug 2026 07:00:00 GMT",
+            "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOckEtbU1Hd0F2ZWFnT2tHd3d5YmhrZ0JGTXRhQ2ZfeC12dGUwNjRxb2gtYWwwdF85c1ZpRGNWeUZRNVk2Sm10T19SV3JvcFY2RDZlTTJLaGtKYWRuS2JjV01HNnFKbW5FSkV6QTBwVDRwR1pLWlRRTGd5a1p3aEtDUUM1UE9TTnBrN3dFLTZSU0J4QS0takFTT3hUQkN6NlhIQ2tKdEhIOUlaUUtNMlBLLWhpS0tZc3lKQW9vX3czdDRaYW4yeGMwaUxpaXZSOG9pMUNCam9B0gHbAUFVX3lxTE81ZWJocVNRSkZQVjhHMElsc3FiQ1lISXZNN3VXNjhZdFc5Znk3SGpyekNDWjN4Y3ZZSFBxWVZNM0ZqNmVrdG10bGhyUVh0bjZObXFlTndNRmNoVnREMFlyMkUtSkx3ZWNxTDQtZFZrLWRVc0JPLVlxLV85NFM4WU1aWjhHX3V3eFl1b1A3YmpZcW9IaXJHSHRteHJmR1cwNEtESnJKRllRLXJCOGlHeGhUWE5POHpCOVFzdmdDbHBicXBlbnZiVHZsSHJBcUF6NWMxUm43MVdNT2VlNA?oc=5"
+          },
+          {
             "title": "Urban Company Ltd Share Price Today NSE/BSE Charts - Alice Blue",
             "source": "Alice Blue",
             "published": "Mon, 24 Aug 2026 13:08:13 GMT",
             "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1ZSmNXMlVvdno4YlZ6c2NFSjJ3OUhYZnNTSG9XYjNmNzQ5YVBHZDA2SzZ6RWR1OVM2TGk2N3F2Z0YtV2pSWjNIbUFjTG9VRHEybnB4aVlwTlJUWjFzNzdmZkRKLVlwenJJbHRsejdJUVc?oc=5"
-          },
-          {
-            "title": "Urban Company IPO allotment not yet finalised: Applicants await status check online on MUFG Intime India, NSE, BSE; step-by-step guide - Upstox",
-            "source": "Upstox",
-            "published": "Fri, 03 Jul 2026 07:00:00 GMT",
-            "url": "https://news.google.com/rss/articles/CBMilAJBVV95cUxPZEdWcGptbXJIMEltdzQtZjhoLWI3UFY1NEJfMUliX0FyUllpUkIyN1hyYXpfTkYtRFBKeGNJM1pzamlDNXpRUDhRWW1MaUNBMjhLUlIwNzVObnd6dUZXZjZlXzJmeFJUcUEzQnZrMUY2TGM2eUNVTTJoY3ZsQ3lIQkRJdGZIV2I2N3A4M19NOVRPWUk2dFJWZUYzdnJHdkh2VU12Q2p5V1N6VFphQ2w0V1pLdF93MFE4VkZSeXluUlFnTks2VE9Vd1YzaVY1amF3MU1RRVNCVWlfQXpUUTF0eDN4TnVmUno2WHZ4MmJiWlBQc1VqZ0E2NzlHTXFEeGdiUHhTV2dWVUNkcFA0XzY5ZVFBQkU?oc=5"
           },
           {
             "title": "Volumes jump at Urban Company Ltd counter - Business Standard",
@@ -1077,7 +1082,7 @@
         "symbol": "URBANCO",
         "market_cap_cr": 21127.0,
         "trailing_pe": null,
-        "forward_pe": -135.0086,
+        "forward_pe": -60.411533,
         "price_to_book": 10.943164,
         "roe_pct": -21.53,
         "debt_to_equity": 7.15,
@@ -1090,9 +1095,9 @@
         "dividend_yield_pct": 0.0,
         "current_ratio": 3.65,
         "beta": null,
-        "target_mean": 151.77779,
+        "target_mean": 157.88889,
         "target_low": 96.0,
-        "target_high": 190.0,
+        "target_high": 200.0,
         "analyst_count": 9,
         "current_price": 142.48,
         "business_summary": "Urban Company Limited operates an online services marketplace that provides various home and beauty services and solutions in India, the Kingdom of Saudi Arabia, Singapore, and the United Arab Emirates. It operates through four segments: India consumer services; Native; International; and InstaHelp. The company offers home services, which includes cleaning and pest control; appliance servicing and repair; electrical, plumbing, and carpentry; and painting and wall decor. It also provides beauty services, such as women's skincare and hair grooming; men's grooming; and spa and massage therapies for men and women. In addition, the company sells water purifiers and electronic door locks under the Native brand name. Further, it provides training and certification, such as new service professional training, new product launch training, customized re-training, and upskill training, as well as products, consumables, and tools. The company provides an e-commerce platform through its online portal www.urbancompany.com and its UC mobile application. The company was formerly known as UrbanClap Technologies India Limited and changed its name to Urban Company Limited in April 2025. The company was incorporated in 2014 and is headquartered in Gurugram, India."
@@ -1155,7 +1160,7 @@
         "bull_case": [
           "Debt / Equity 7.2 vs sector 17.7. Carries less leverage than peers, so less earnings risk if rates rise.",
           "Revenue growth (yoy) 41.4% vs sector 17.8%. Growing the top line faster than the sector.",
-          "9 analysts publish a mean target of 152, 6% above the current price."
+          "9 analysts publish a mean target of 158, 11% above the current price."
         ],
         "bear_case": [
           "Price / Book 10.9 vs sector 8.3. Trades at a premium to peer book value.",
@@ -1172,7 +1177,7 @@
         "bull_count": 2,
         "bear_count": 3
       },
-      "research_prompt": "I'm a long-term retail investor in Indian equities (NSE). My screener flagged Urban Company Ltd. (URBANCO) because it gained at least 3% on each of 1 consecutive sessions. I want your independent read - please push back on my screener rather than agreeing with it.\n\n## What my screener measured\n\n- Streak: 2026-10-19 to 2026-10-19, -9.9% cumulative\n- Daily gains: 2026-10-19 -9.89%\n- Last close: Rs 142.48\n- Sector: Consumer Services\n- Median 20-day turnover: Rs 66.3 crore\n- Volume vs 20-day median: 5.6x\n- Distance from 52-week high: -21.3%\n- Return 1M / 3M / 1Y: -12.5% / 6.6% / None%\n\n## Attribution my engine computed\n\n- Verdict: company_catalyst - Company-specific - results announcement disclosed to the exchange\n- Stock over the window: -9.9%\n- Sector median over the same window: -1.9%\n- Excess vs sector: -8.0 pp\n- Broad market median: -1.3%\n\n### NSE filings in the window\n\n- 2026-10-17 [catalyst] Analysts/Institutional Investor Meet/Con. Call Updates - Results announcement\n  Urban Company Limited has informed the Exchange about Transcript of the earnings call, conducted on October 16, 2026, in relation to the financial results of the Company for the qu\n- 2026-10-17 [neutral] Copy of Newspaper Publication - Routine or administrative disclosure\n  Urban Company Limited has informed the Exchange about Copy of Newspaper Publication for Confirmation of Dispatch of Postal Ballot Notice\n- 2026-10-17 [catalyst] Copy of Newspaper Publication - Results announcement\n  Urban Company Limited has informed the Exchange about Copy of Newspaper Publication for the unaudited standalone and consolidated financial results of theCompany for the quarter an\n- 2026-10-16 [catalyst] Analysts/Institutional Investor Meet/Con. Call Updates - Results announcement\n  Urban Company Limited has informed the Exchange about Audio recording of the Earnings Call in relation to the financial results of the Company for the quarter and half year ended S\n- 2026-10-16 [neutral] Shareholders meeting - Routine or administrative disclosure\n  Urban Company Limited has informed the Exchange regarding Notice of Postal Ballot dated October 16, 2026\n- 2026-10-16 [neutral] Monitoring Agency Report - Routine or administrative disclosure\n  Monitoring Agency Report for the quarter ended September 30, 2026\n- 2026-10-16 [catalyst] Outcome of Board Meeting - Results announcement\n  Urban Company Limited has informed the Exchange regarding Outcome of Board Meeting held on October 16, 2026 - Approval for Financial Results (Standalone and Consolidated) of the Co\n- 2026-10-16 [catalyst] Press Release - Results announcement\n  Urban Company Limited has informed the Exchange regarding a Media release dated October 16, 2026, titled \"Media release on the financial results (standalone and consolidated) of th\n- 2026-10-16 [neutral] General Updates - Routine or administrative disclosure\n  Urban Company Limited has informed the Exchange about Shareholders  Letter & Report dated October 16, 2026\n- 2026-10-16 [catalyst] Outcome of Board Meeting - Results announcement\n  Urban Company Limited has submitted to the Exchange, Approval for Financial Results (Standalone and Consolidated) of the Company for the Quarter and half year ended September 30, 2\n\n### Recent headlines (unverified, from Google News)\n\n- Urban (NSEI:URBANCO) Stock Forecast & Analyst Predictions - Simply Wall Street\n- Urban Company (URBANCO) Share/Stock Price Live, NSE - TechGraph\n- URBANCO Forecast — Price Target — Prediction for 2027 - TradingView\n- Urban Company Ltd Share Price Today NSE/BSE Charts - Alice Blue\n- Urban Company IPO allotment not yet finalised: Applicants await status check online on MUFG Intime India, NSE, BSE; step-by-step guide - Upstox\n- Volumes jump at Urban Company Ltd counter - Business Standard\n\n## Fundamentals\n\n- Market cap: Rs 21,127 crore\n- Forward P/E: -135.0086\n- Price/Book: 10.943164\n- Return on equity: -21.53%\n- Debt/Equity: 7.15\n- Revenue growth (yoy): 41.4%\n- Operating margin: -38.17%\n- Net margin: -24.35%\n- Promoter holding: 32.58%\n- Institutional holding: 51.96%\n- Dividend yield: 0.0%\n- Analyst count: 9\n- Mean target price: 151.77779\n\n### Sector medians (Consumer Services, 22 Nifty 500 peers)\n\n- Trailing P/E: 58.0\n- Price/Book: 8.27\n- Return on equity: 17.93%\n- Debt/Equity: 17.66\n- Revenue growth: 17.8%\n- Net margin: 7.68%\n\n### Data my engine could not get\n\n- Trailing P/E unavailable\n\n## What I want from you\n\n1. **Why did it actually move?** My engine only sees exchange filings and price action. Check whether there is a real catalyst it missed - sector news, a peer's results, a policy change, an index inclusion, a block deal.\n2. **Is my engine's attribution wrong?** Say so directly if the evidence points elsewhere.\n3. **The one-year view.** Build a bull case and a bear case from the business, not from the chart. What has to be true for this to work, and what would break it? Be concrete about which numbers to watch.\n4. **What would you check that I have not?** Name the specific filings, segments or metrics.\n\nPlease flag anything above that looks stale or wrong, and tell me plainly if this looks like a speculative move rather than an investable one. I am not asking you to tell me whether to buy - I want the reasoning so I can decide."
+      "research_prompt": "I'm a long-term retail investor in Indian equities (NSE). My screener flagged Urban Company Ltd. (URBANCO) because it gained at least 3% on each of 1 consecutive sessions. I want your independent read - please push back on my screener rather than agreeing with it.\n\n## What my screener measured\n\n- Streak: 2026-10-19 to 2026-10-19, -9.9% cumulative\n- Daily gains: 2026-10-19 -9.89%\n- Last close: Rs 142.48\n- Sector: Consumer Services\n- Median 20-day turnover: Rs 66.3 crore\n- Volume vs 20-day median: 5.6x\n- Distance from 52-week high: -21.3%\n- Return 1M / 3M / 1Y: -12.5% / 6.6% / None%\n\n## Attribution my engine computed\n\n- Verdict: company_catalyst - Company-specific - results announcement disclosed to the exchange\n- Stock over the window: -9.9%\n- Sector median over the same window: -1.9%\n- Excess vs sector: -8.0 pp\n- Broad market median: -1.3%\n\n### NSE filings in the window\n\n- 2026-10-17 [catalyst] Analysts/Institutional Investor Meet/Con. Call Updates - Results announcement\n  Urban Company Limited has informed the Exchange about Transcript of the earnings call, conducted on October 16, 2026, in relation to the financial results of the Company for the qu\n- 2026-10-17 [neutral] Copy of Newspaper Publication - Routine or administrative disclosure\n  Urban Company Limited has informed the Exchange about Copy of Newspaper Publication for Confirmation of Dispatch of Postal Ballot Notice\n- 2026-10-17 [catalyst] Copy of Newspaper Publication - Results announcement\n  Urban Company Limited has informed the Exchange about Copy of Newspaper Publication for the unaudited standalone and consolidated financial results of theCompany for the quarter an\n- 2026-10-16 [catalyst] Analysts/Institutional Investor Meet/Con. Call Updates - Results announcement\n  Urban Company Limited has informed the Exchange about Audio recording of the Earnings Call in relation to the financial results of the Company for the quarter and half year ended S\n- 2026-10-16 [neutral] Shareholders meeting - Routine or administrative disclosure\n  Urban Company Limited has informed the Exchange regarding Notice of Postal Ballot dated October 16, 2026\n- 2026-10-16 [neutral] Monitoring Agency Report - Routine or administrative disclosure\n  Monitoring Agency Report for the quarter ended September 30, 2026\n- 2026-10-16 [catalyst] Outcome of Board Meeting - Results announcement\n  Urban Company Limited has informed the Exchange regarding Outcome of Board Meeting held on October 16, 2026 - Approval for Financial Results (Standalone and Consolidated) of the Co\n- 2026-10-16 [catalyst] Press Release - Results announcement\n  Urban Company Limited has informed the Exchange regarding a Media release dated October 16, 2026, titled \"Media release on the financial results (standalone and consolidated) of th\n- 2026-10-16 [neutral] General Updates - Routine or administrative disclosure\n  Urban Company Limited has informed the Exchange about Shareholders  Letter & Report dated October 16, 2026\n- 2026-10-16 [catalyst] Outcome of Board Meeting - Results announcement\n  Urban Company Limited has submitted to the Exchange, Approval for Financial Results (Standalone and Consolidated) of the Company for the Quarter and half year ended September 30, 2\n\n### Recent headlines (unverified, from Google News)\n\n- Urban Company Ltd. Share Price Today - Urban Company Ltd. Stock Price Live NSE/BSE - CNBC TV18\n- Urban Company (URBANCO) Share/Stock Price Live, NSE - TechGraph\n- URBANCO Forecast — Price Target — Prediction for 2027 - TradingView\n- Urban Company Limited (NSE:URBANCO) First-Quarter Results Just Came Out: Here's What Analysts Are Forecasting For This Year - Simply Wall Street\n- Urban Company Ltd Share Price Today NSE/BSE Charts - Alice Blue\n- Volumes jump at Urban Company Ltd counter - Business Standard\n\n## Fundamentals\n\n- Market cap: Rs 21,127 crore\n- Forward P/E: -60.411533\n- Price/Book: 10.943164\n- Return on equity: -21.53%\n- Debt/Equity: 7.15\n- Revenue growth (yoy): 41.4%\n- Operating margin: -38.17%\n- Net margin: -24.35%\n- Promoter holding: 32.58%\n- Institutional holding: 51.96%\n- Dividend yield: 0.0%\n- Analyst count: 9\n- Mean target price: 157.88889\n\n### Sector medians (Consumer Services, 22 Nifty 500 peers)\n\n- Trailing P/E: 58.0\n- Price/Book: 8.27\n- Return on equity: 17.93%\n- Debt/Equity: 17.66\n- Revenue growth: 17.8%\n- Net margin: 7.68%\n\n### Data my engine could not get\n\n- Trailing P/E unavailable\n\n## What I want from you\n\n1. **Why did it actually move?** My engine only sees exchange filings and price action. Check whether there is a real catalyst it missed - sector news, a peer's results, a policy change, an index inclusion, a block deal.\n2. **Is my engine's attribution wrong?** Say so directly if the evidence points elsewhere.\n3. **The one-year view.** Build a bull case and a bear case from the business, not from the chart. What has to be true for this to work, and what would break it? Be concrete about which numbers to watch.\n4. **What would you check that I have not?** Name the specific filings, segments or metrics.\n\nPlease flag anything above that looks stale or wrong, and tell me plainly if this looks like a speculative move rather than an investable one. I am not asking you to tell me whether to buy - I want the reasoning so I can decide."
     },
     {
       "symbol": "HSCL",
@@ -1197,7 +1202,7 @@
           "date": "2026-10-19",
           "close": 605.8499755859375,
           "gain_pct": -8.3,
-          "volume": 5754539
+          "volume": 5755200
         }
       ],
       "attribution": {
@@ -1206,7 +1211,7 @@
         "explanation": [
           "The stock fell -8.3% over the session 2026-10-19.",
           "Its sector (Chemicals) moved -1.7% over the same window, with 12% of its 26 Nifty 500 members advancing on the last session.",
-          "The broad market (median of 497 Nifty 500 names) moved -1.3% over the window, with 18% advancing on the last session.",
+          "The broad market (median of 499 Nifty 500 names) moved -1.3% over the window, with 18% advancing on the last session.",
           "The stock lagged its sector by 6.6 percentage points, so the move is company-specific rather than sector-wide.",
           "NSE filing 2026-10-17 19:05 - Investor communication: Investor Presentation.",
           "NSE filing 2026-10-16 19:58 - Investor communication: Analysts/Institutional Investor Meet/Con. Call Updates.",
@@ -1215,7 +1220,7 @@
         ],
         "stock_streak_pct": -8.3,
         "sector_streak_pct": -1.73,
-        "market_streak_pct": -1.31,
+        "market_streak_pct": -1.29,
         "excess_vs_sector_pct": -6.57,
         "sector_breadth_pct": 12.0,
         "volume_ratio": 4.12,
@@ -1293,22 +1298,10 @@
             "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPZzd2c3ZXdU5vaFJXaVdwNUFhTmpta3Bsb1E3ZTVrQkJWcUtFdUFJSkV2WVZvS3h4NjNMSnE0UUNQcEsyMk1nS2pqUGNqNDJPZVhzSXZSc1ZWc0VwNkRHSHhZZUUyYnBEZ2xWWXZ5YXBCNGlrZmtVQ3VTdUVnQUo3QllINzgxTjlLZVNjVXNn?oc=5"
           },
           {
-            "title": "Himadri Speciality Chemicals Share Price - Live NSE: HSCL Stock Price & Chart - Upstox",
-            "source": "Upstox",
-            "published": "Fri, 16 Oct 2026 07:00:00 GMT",
-            "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1Jakgwek5jakZlbng3YUFYQWtqUEFOQ2dZeGpPT3oxc3NvX0tIWHdTMHpYaUFEOWR5elFxeXZhaU1JVHZ2LWhwamlYanZZNUdYR1RMSmZKcWlZcTV2eWc1SDdWUmN1V2dweEIxa0V4by1CQQ?oc=5"
-          },
-          {
             "title": "Himadri Speciality Chemical Ltd. (HSCL) Share Price Falls 7.32% Today - Univest",
             "source": "Univest",
             "published": "Wed, 19 Aug 2026 07:00:00 GMT",
             "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPakh5SEpBWFpod3RtSlN4NDRGYzlOR3pFYXU0SEt6NzFCMTY4SklnVFNYMWZqeEFtcVNvTG5XNDdTa2ZUY19jTkVWNjNybDB4YXNkaUZSRWl5NDJhdTJxdURxSjdqNkh6ZUJmaTN3eV8xU1VualJkUWNVNkd0Y3ZnNlJrZ0ItOThrS1paWHdlZ0tLZw?oc=5"
-          },
-          {
-            "title": "Himadri Speciality Chemical Ltd Share Price Today NSE/BSE Charts - Alice Blue",
-            "source": "Alice Blue",
-            "published": "Fri, 04 Sep 2026 20:03:55 GMT",
-            "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNLWFaMkRTSXB4Q0tyX1NLTVdHcnhDTFVqLTVqWW9WWGgwdXBJNzZ5SHNrZ0ZxV2ZzUzV2NmhkTGV4VWVIeHBaRmVIcVB5TFVaN1E1dWVTb1BMbHBZN1ZBVVRzeTNKRlMyanc2N1dNVUktMlRiTWlXUmRTYWg1U1lTTVB0VQ?oc=5"
           },
           {
             "title": "HSCL Forecast — Price Target — Prediction for 2027 - TradingView",
@@ -1321,6 +1314,18 @@
             "source": "Kalkine India",
             "published": "Tue, 19 May 2026 07:00:00 GMT",
             "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPRTFFak5DMFBCTHdSUDF3U19YMTVSN2N2bjh6QkFyZlVURUozSG9UV2lUa2hvUEFQTlAzRTcwbExKVzljZWN2d1lSanBMZkJDVWU5a0lPX25QWk01ZUNIQkNXU1hiSTFmbjZqYlFpc281dk1pMElVZFBndTlEbGhnMFVTTnNpcHdlM0pCclZKYzE5aGVTS3BzUnJpbm1RS2FUQ0piYVpxRU11WFpaWksyVU1VS28wdw?oc=5"
+          },
+          {
+            "title": "Himadri Speciality Chemical Ltd. (HSCL) Share Price Falls 3.13% Today - Univest",
+            "source": "Univest",
+            "published": "Fri, 21 Aug 2026 07:00:00 GMT",
+            "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQdFFmSk5RWWpISlBOSDE2bU9jVWhGaWVIZG1YcGpGMTNrWDV4bEZQTUpEQUp0LUhKZ3Z5czJjOGJJbzNTb1dXNi02ZDNBWmprRjNaZVFkZXgxNk84SnNZRVlubEtEQklrbnRVb1JmclBuTEJxQWNaYzZfbzhtWE1TblB6OS1BaThma2xHcWRyWG1SQQ?oc=5"
+          },
+          {
+            "title": "Stocks to buy: Piramal Pharma, HSCL among 3 top bets by Choice Broking - Business Standard",
+            "source": "Business Standard",
+            "published": "Mon, 06 Jul 2026 07:00:00 GMT",
+            "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPT1UxVjRHbEdYa3ZTTFl0TXhjTGVlZDdqWW9RYnJneHN5dnpWYldOeVBUWkVWaGtXazk5Si1PUjhlSjlHaGxHdFh6YTlob3lvQlNGckxsUkR3RzJadUhOQzRyQnh2V1ltWGNLUUhVaUVXRklYUE9OQmlFWC1jYUM4TmlPYWJ1OWpxVm9OVWZpYzlvTG9FdkdCR1J5N0tVb0ZhV0g4LXhLR2pIaXFfZkpkdkd3VlVxSWxKdUFlOUQ3TkIwZ0o5Y25oTVFHZzlEM2Nv0gHWAUFVX3lxTE8zNmEyY1J1Y2tkeWs3c0pGb1V2cFgzSlFFMW1hOWFEVW4yM1Z2US1Rd0tHR2VXZWF2RHY0cmNCQkYzdF8tcXl5WE45RlRmWHFCQUZBbjRJUzNVOC1WMWNsakc0YTZ6NzV1YXFEcTFyNXVTdzdZNWQ3WnMyVzNKdGM5NUl5WDFpY2hkcjZuTGpUWGgwOHptX3FZbXJHWE1SOVZyR2pVMzNwSzBieFJvM2tKaDFHNlFEZ19Mai1XVmItWXcza0QyNzBmRi1QTFJ5aWlFUDZhaUE?oc=5"
           }
         ]
       },
@@ -1338,7 +1343,7 @@
         "profit_margin_pct": 15.28,
         "promoter_holding_pct": 57.43,
         "institutional_holding_pct": 5.93,
-        "dividend_yield_pct": 0.12,
+        "dividend_yield_pct": 0.13,
         "current_ratio": 2.073,
         "beta": 0.251,
         "target_mean": 720.0,
@@ -1424,7 +1429,7 @@
         "bull_count": 3,
         "bear_count": 1
       },
-      "research_prompt": "I'm a long-term retail investor in Indian equities (NSE). My screener flagged Himadri Speciality Chemical Ltd. (HSCL) because it gained at least 3% on each of 1 consecutive sessions. I want your independent read - please push back on my screener rather than agreeing with it.\n\n## What my screener measured\n\n- Streak: 2026-10-19 to 2026-10-19, -8.3% cumulative\n- Daily gains: 2026-10-19 -8.30%\n- Last close: Rs 605.85\n- Sector: Chemicals\n- Median 20-day turnover: Rs 93.5 crore\n- Volume vs 20-day median: 4.12x\n- Distance from 52-week high: -24.4%\n- Return 1M / 3M / 1Y: -7.3% / -21.3% / None%\n\n## Attribution my engine computed\n\n- Verdict: company_catalyst - Company-specific - investor communication disclosed to the exchange\n- Stock over the window: -8.3%\n- Sector median over the same window: -1.7%\n- Excess vs sector: -6.6 pp\n- Broad market median: -1.3%\n\n### NSE filings in the window\n\n- 2026-10-17 [neutral] Copy of Newspaper Publication - Routine or administrative disclosure\n  Himadri Speciality Chemical Limited has informed the Exchange about Copy of Newspaper Publication\n- 2026-10-17 [neutral] Press Release - Routine or administrative disclosure\n  Himadri Speciality Chemical Limited has informed the Exchange regarding a press release dated October 17, 2026, titled \"Investor Release: 17th October 2026, Kolkata\".\n- 2026-10-17 [catalyst] Investor Presentation - Investor communication\n  Himadri Speciality Chemical Limited has informed the Exchange about Investor Presentation\n- 2026-10-16 [catalyst] Analysts/Institutional Investor Meet/Con. Call Updates - Investor communication\n  Himadri Speciality Chemical Limited has informed the Exchange about Schedule of meet\n- 2026-10-16 [neutral] Monitoring Agency Report - Routine or administrative disclosure\n  Monitoring Agency Report for the quarter ended 30 September 2026\n- 2026-10-16 [neutral] General Updates - Routine or administrative disclosure\n  Himadri Speciality Chemical Limited has informed the Exchange about Outcome of Board Meeting held on 16 October 2026\n- 2026-10-16 [catalyst] Outcome of Board Meeting - Results announcement\n  Himadri Speciality Chemical Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.\n\n### Recent headlines (unverified, from Google News)\n\n- Himadri Speciality Chemical (NSEI:HSCL) - Stock Analysis - Simply Wall Street\n- Himadri Speciality Chemicals Share Price - Live NSE: HSCL Stock Price & Chart - Upstox\n- Himadri Speciality Chemical Ltd. (HSCL) Share Price Falls 7.32% Today - Univest\n- Himadri Speciality Chemical Ltd Share Price Today NSE/BSE Charts - Alice Blue\n- HSCL Forecast — Price Target — Prediction for 2027 - TradingView\n- Himadri Share Price Today: Himadri Speciality Chemical (NSE:HSCL) Gains 2.00% - Kalkine India\n\n## Fundamentals\n\n- Market cap: Rs 30,570 crore\n- Trailing P/E: 35.701237\n- Forward P/E: 29.268114\n- Price/Book: 5.9532466\n- Return on equity: 18.51%\n- Debt/Equity: 22.36\n- Revenue growth (yoy): 57.9%\n- Earnings growth (yoy): 29.6%\n- Operating margin: 16.64%\n- Net margin: 15.28%\n- Promoter holding: 57.43%\n- Institutional holding: 5.93%\n- Dividend yield: 0.12%\n- Analyst count: 1\n- Mean target price: 720.0\n\n### Sector medians (Chemicals, 25 Nifty 500 peers)\n\n- Trailing P/E: 33.79\n- Price/Book: 3.79\n- Debt/Equity: 27.9\n- Revenue growth: 21.6%\n- Net margin: 9.58%\n\n### Data my engine could not get\n\n- Only 1 analysts cover this name, so the consensus target is thin and moves easily.\n\n## What I want from you\n\n1. **Why did it actually move?** My engine only sees exchange filings and price action. Check whether there is a real catalyst it missed - sector news, a peer's results, a policy change, an index inclusion, a block deal.\n2. **Is my engine's attribution wrong?** Say so directly if the evidence points elsewhere.\n3. **The one-year view.** Build a bull case and a bear case from the business, not from the chart. What has to be true for this to work, and what would break it? Be concrete about which numbers to watch.\n4. **What would you check that I have not?** Name the specific filings, segments or metrics.\n\nPlease flag anything above that looks stale or wrong, and tell me plainly if this looks like a speculative move rather than an investable one. I am not asking you to tell me whether to buy - I want the reasoning so I can decide."
+      "research_prompt": "I'm a long-term retail investor in Indian equities (NSE). My screener flagged Himadri Speciality Chemical Ltd. (HSCL) because it gained at least 3% on each of 1 consecutive sessions. I want your independent read - please push back on my screener rather than agreeing with it.\n\n## What my screener measured\n\n- Streak: 2026-10-19 to 2026-10-19, -8.3% cumulative\n- Daily gains: 2026-10-19 -8.30%\n- Last close: Rs 605.85\n- Sector: Chemicals\n- Median 20-day turnover: Rs 93.5 crore\n- Volume vs 20-day median: 4.12x\n- Distance from 52-week high: -24.4%\n- Return 1M / 3M / 1Y: -7.3% / -21.3% / None%\n\n## Attribution my engine computed\n\n- Verdict: company_catalyst - Company-specific - investor communication disclosed to the exchange\n- Stock over the window: -8.3%\n- Sector median over the same window: -1.7%\n- Excess vs sector: -6.6 pp\n- Broad market median: -1.3%\n\n### NSE filings in the window\n\n- 2026-10-17 [neutral] Copy of Newspaper Publication - Routine or administrative disclosure\n  Himadri Speciality Chemical Limited has informed the Exchange about Copy of Newspaper Publication\n- 2026-10-17 [neutral] Press Release - Routine or administrative disclosure\n  Himadri Speciality Chemical Limited has informed the Exchange regarding a press release dated October 17, 2026, titled \"Investor Release: 17th October 2026, Kolkata\".\n- 2026-10-17 [catalyst] Investor Presentation - Investor communication\n  Himadri Speciality Chemical Limited has informed the Exchange about Investor Presentation\n- 2026-10-16 [catalyst] Analysts/Institutional Investor Meet/Con. Call Updates - Investor communication\n  Himadri Speciality Chemical Limited has informed the Exchange about Schedule of meet\n- 2026-10-16 [neutral] Monitoring Agency Report - Routine or administrative disclosure\n  Monitoring Agency Report for the quarter ended 30 September 2026\n- 2026-10-16 [neutral] General Updates - Routine or administrative disclosure\n  Himadri Speciality Chemical Limited has informed the Exchange about Outcome of Board Meeting held on 16 October 2026\n- 2026-10-16 [catalyst] Outcome of Board Meeting - Results announcement\n  Himadri Speciality Chemical Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.\n\n### Recent headlines (unverified, from Google News)\n\n- Himadri Speciality Chemical (NSEI:HSCL) - Stock Analysis - Simply Wall Street\n- Himadri Speciality Chemical Ltd. (HSCL) Share Price Falls 7.32% Today - Univest\n- HSCL Forecast — Price Target — Prediction for 2027 - TradingView\n- Himadri Share Price Today: Himadri Speciality Chemical (NSE:HSCL) Gains 2.00% - Kalkine India\n- Himadri Speciality Chemical Ltd. (HSCL) Share Price Falls 3.13% Today - Univest\n- Stocks to buy: Piramal Pharma, HSCL among 3 top bets by Choice Broking - Business Standard\n\n## Fundamentals\n\n- Market cap: Rs 30,570 crore\n- Trailing P/E: 35.701237\n- Forward P/E: 29.268114\n- Price/Book: 5.9532466\n- Return on equity: 18.51%\n- Debt/Equity: 22.36\n- Revenue growth (yoy): 57.9%\n- Earnings growth (yoy): 29.6%\n- Operating margin: 16.64%\n- Net margin: 15.28%\n- Promoter holding: 57.43%\n- Institutional holding: 5.93%\n- Dividend yield: 0.13%\n- Analyst count: 1\n- Mean target price: 720.0\n\n### Sector medians (Chemicals, 25 Nifty 500 peers)\n\n- Trailing P/E: 33.79\n- Price/Book: 3.79\n- Debt/Equity: 27.9\n- Revenue growth: 21.6%\n- Net margin: 9.58%\n\n### Data my engine could not get\n\n- Only 1 analysts cover this name, so the consensus target is thin and moves easily.\n\n## What I want from you\n\n1. **Why did it actually move?** My engine only sees exchange filings and price action. Check whether there is a real catalyst it missed - sector news, a peer's results, a policy change, an index inclusion, a block deal.\n2. **Is my engine's attribution wrong?** Say so directly if the evidence points elsewhere.\n3. **The one-year view.** Build a bull case and a bear case from the business, not from the chart. What has to be true for this to work, and what would break it? Be concrete about which numbers to watch.\n4. **What would you check that I have not?** Name the specific filings, segments or metrics.\n\nPlease flag anything above that looks stale or wrong, and tell me plainly if this looks like a speculative move rather than an investable one. I am not asking you to tell me whether to buy - I want the reasoning so I can decide."
     },
     {
       "symbol": "DEEPAKFERT",
@@ -1449,7 +1454,7 @@
           "date": "2026-10-19",
           "close": 1255.699951171875,
           "gain_pct": -6.58,
-          "volume": 1210769
+          "volume": 1210959
         }
       ],
       "attribution": {
@@ -1458,14 +1463,14 @@
         "explanation": [
           "The stock fell -6.6% over the session 2026-10-19.",
           "Its sector (Chemicals) moved -1.7% over the same window, with 12% of its 26 Nifty 500 members advancing on the last session.",
-          "The broad market (median of 497 Nifty 500 names) moved -1.3% over the window, with 18% advancing on the last session.",
+          "The broad market (median of 499 Nifty 500 names) moved -1.3% over the window, with 18% advancing on the last session.",
           "The stock lagged its sector by 4.8 percentage points, so the move is company-specific rather than sector-wide.",
           "NSE filing 2026-10-15 19:05 - Credit rating action: Credit Rating.",
           "Volume ran 5.5x its 20-day median, so real institutional-scale money participated rather than thin-book drift."
         ],
         "stock_streak_pct": -6.58,
         "sector_streak_pct": -1.73,
-        "market_streak_pct": -1.31,
+        "market_streak_pct": -1.29,
         "excess_vs_sector_pct": -4.85,
         "sector_breadth_pct": 12.0,
         "volume_ratio": 5.53,
@@ -1501,10 +1506,10 @@
             "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOenNPdUxlcUhtQmR4LXdObXUxaXA4N3UwUzNfNzBiMnM1TWF5U2JSZTBmWHM5d2ZxRVJfYVNPaTVudHlKZG1tZUpjWmdxWEI5SHBOZWdjSzh6SUZHSjRfQ25JaXBIT3J4WFk3S3AzME1oY2ZncS0xdGxHTEhRQVB6MmM2SUFVVUtFM21YeGtxQ01fdw?oc=5"
           },
           {
-            "title": "Deepak Fertilisers And Petrochemicals Corporation Limited's (NSE:DEEPAKFERT) Stock Has Been Sliding But Fundamentals Look Strong: Is The Market Wrong? - Simply Wall Street",
+            "title": "Is Deepak Fertilisers And Petrochemicals (NSE:DEEPAKFERT) A Risky Investment? - Simply Wall Street",
             "source": "Simply Wall Street",
-            "published": "Fri, 07 Nov 2025 08:00:00 GMT",
-            "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxNbDJPcGt1V0hFRmM0NXZyR0FvZFQzaUtJQV84S0U2dElPakF3OGZlNVpZUmtCajdaTlVPWmhtUHBjaG9iZHFTLXotUVZEdktCNzRXWGxVMjJrbGtyRDAtb0dTNVBnTG9Pa3pQVm9JcWt1cmQ1MHBIeHlDRi16WUUwYUJVbW53cml6NVVMdTRaUmhuX29LelpPbHNjb0ZDS3VrbEJyUnFhc19nOVpNaVdxOFFlRURuNVFWbGx1eS1oWkpsN0lQa0Q2U2NMUHpvMmhwNVYwQUtLNlJTMkpqSW5JZ2lzYnZVemlIYXpnWm5tUDFJY1Q0dU1jdzY1Q081UdIBgwJBVV95cUxQLURROTFOdXVzb2ZfbldFOFo1SVhFNHVlRFg1V2NmMVpWM0VSbEhpeHV2RTZ0T1lzcUZINkd6MmdrQnNBVkZtUy1FOVJObExRR0pwWVZtb285THhEelc5eEpoQWdWM1dFQ1pRSWV5ajhfOTNmZ0NKMFhZWXlTZUpyN3huWHNKb0RDeHpLUDlBQzJKQW5sN1ptX0FscEpmZ2x5X0VVWXl5djNDUHZNX0Y2MkEyWV9ScV9wSC1rY2l0T2I0NUNCZE5JekNSWl9KSkloZWM2ZnRuWVRkeVdHR09OOGF1NVgtelgzb0dJQlRQNmM1aEd3RWwtbTFLTlZSRTI0UVBV?oc=5"
+            "published": "Sat, 10 Jan 2026 08:00:00 GMT",
+            "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxNaE16Q2RGOHZxMHFrc3hFVW1BUnBZenl5UVkzZFB4UHdXOFN5ZUVEeUZQR00wajhlUWtxRllZZWtnenRWMTZwNjVtRFV2akx6X3ItanhhSTZOdGI4dXNETVpLWXZwcGgyWHJWOHViVkVCMjNTOE95UHlfc0pVNFZ2TDZhNmNRcEM1bjRMdFI3UjVLcndfWDMyVGZueDlKakpnWExnN0NkNUJyYlRxeXBHNkFhRHhScTVybExWcmtBaEpVVzJFajk1X011VFc4QmViTFFzbHR0STZVOUsydWFYTlU2RXk3VWtsdmJPU1hOa0NnVEloSk90RmFtUlByUdIBgwJBVV95cUxQSDdjcjEzRWNMNm9fdHdCT0VIeEJURnFzeFNjeEtRLVJzU0dtbWhnT2JkaXhBdEhDSFQtbXE5Q1IwQWU4OGsxMDhXNjQwaTFEM19oRVhYMEM4a0pKRTVGUTRsRGl5eURWYWRDU29lMUZEUXdsVkNFa2ZIV3NmX2EwV2ZFNDZ5YW90WE5XaGg5RW00QmF0dUZlekNkR20zZ0g3emdrREFid0Nud0xBdUxKcVRVMTFreTU4Ymk1aXJIRnNNeUhsUjhtUERMcTRYX2ZYTlhIZ3UyYXdMaHhaVU9lcE9LVWtoaUFIeldwblNYQVB4Y1ZyeVplTkJZOHE5aEItQ0Nj?oc=5"
           },
           {
             "title": "Deepak Fertilizers & Petr Share Price - Live NSE: DEEPAKFERT Stock Price & Chart - Upstox",
@@ -1534,7 +1539,7 @@
         "profit_margin_pct": 8.13,
         "promoter_holding_pct": 47.09,
         "institutional_holding_pct": 18.98,
-        "dividend_yield_pct": 0.74,
+        "dividend_yield_pct": 0.8,
         "current_ratio": null,
         "beta": 0.046,
         "target_mean": 1896.6666,
@@ -1620,7 +1625,7 @@
         "bull_count": 2,
         "bear_count": 2
       },
-      "research_prompt": "I'm a long-term retail investor in Indian equities (NSE). My screener flagged Deepak Fertilisers & Petrochemicals Corp. Ltd. (DEEPAKFERT) because it gained at least 3% on each of 1 consecutive sessions. I want your independent read - please push back on my screener rather than agreeing with it.\n\n## What my screener measured\n\n- Streak: 2026-10-19 to 2026-10-19, -6.6% cumulative\n- Daily gains: 2026-10-19 -6.58%\n- Last close: Rs 1,255.70\n- Sector: Chemicals\n- Median 20-day turnover: Rs 30.5 crore\n- Volume vs 20-day median: 5.53x\n- Distance from 52-week high: -24.0%\n- Return 1M / 3M / 1Y: -5.2% / -21.2% / None%\n\n## Attribution my engine computed\n\n- Verdict: company_catalyst - Company-specific - credit rating action disclosed to the exchange\n- Stock over the window: -6.6%\n- Sector median over the same window: -1.7%\n- Excess vs sector: -4.8 pp\n- Broad market median: -1.3%\n\n### NSE filings in the window\n\n- 2026-10-15 [catalyst] Credit Rating - Credit rating action\n  Deepak Fertilizers And Petrochemicals Corporation Limited has informed the Exchange about Credit Rating\n\n### Recent headlines (unverified, from Google News)\n\n- DEEPAKFERT Forecast — Price Target — Prediction for 2027 - TradingView\n- Deepak Fertilisers And Petrochemicals (NSEI:DEEPAKFERT) Stock Forecast & Analyst Predictions - Simply Wall Street\n- Deepak Fertilisers & Petrochemicals Corp Ltd Share Price Today NSE/BSE Charts - Alice Blue\n- Deepak Fertilisers And Petrochemicals Corporation Limited's (NSE:DEEPAKFERT) Stock Has Been Sliding But Fundamentals Look Strong: Is The Market Wrong? - Simply Wall Street\n- Deepak Fertilizers & Petr Share Price - Live NSE: DEEPAKFERT Stock Price & Chart - Upstox\n- Deepak Fertilisers & Petrochemicals Corporation Ltd. Share Price Live Today - CNBC TV18\n\n## Fundamentals\n\n- Market cap: Rs 15,868 crore\n- Trailing P/E: 16.106977\n- Forward P/E: 10.059012\n- Price/Book: 2.316341\n- Debt/Equity: 75.969\n- Revenue growth (yoy): 22.5%\n- Earnings growth (yoy): 101.6%\n- Operating margin: 22.73%\n- Net margin: 8.13%\n- Promoter holding: 47.09%\n- Institutional holding: 18.98%\n- Dividend yield: 0.74%\n- Analyst count: 3\n- Mean target price: 1896.6666\n\n### Sector medians (Chemicals, 25 Nifty 500 peers)\n\n- Trailing P/E: 34.68\n- Price/Book: 4.15\n- Return on equity: 18.51%\n- Debt/Equity: 25.33\n- Revenue growth: 21.6%\n- Net margin: 11.63%\n\n### Data my engine could not get\n\n- Return on Equity unavailable\n- Only 3 analysts cover this name, so the consensus target is thin and moves easily.\n\n## What I want from you\n\n1. **Why did it actually move?** My engine only sees exchange filings and price action. Check whether there is a real catalyst it missed - sector news, a peer's results, a policy change, an index inclusion, a block deal.\n2. **Is my engine's attribution wrong?** Say so directly if the evidence points elsewhere.\n3. **The one-year view.** Build a bull case and a bear case from the business, not from the chart. What has to be true for this to work, and what would break it? Be concrete about which numbers to watch.\n4. **What would you check that I have not?** Name the specific filings, segments or metrics.\n\nPlease flag anything above that looks stale or wrong, and tell me plainly if this looks like a speculative move rather than an investable one. I am not asking you to tell me whether to buy - I want the reasoning so I can decide."
+      "research_prompt": "I'm a long-term retail investor in Indian equities (NSE). My screener flagged Deepak Fertilisers & Petrochemicals Corp. Ltd. (DEEPAKFERT) because it gained at least 3% on each of 1 consecutive sessions. I want your independent read - please push back on my screener rather than agreeing with it.\n\n## What my screener measured\n\n- Streak: 2026-10-19 to 2026-10-19, -6.6% cumulative\n- Daily gains: 2026-10-19 -6.58%\n- Last close: Rs 1,255.70\n- Sector: Chemicals\n- Median 20-day turnover: Rs 30.5 crore\n- Volume vs 20-day median: 5.53x\n- Distance from 52-week high: -24.0%\n- Return 1M / 3M / 1Y: -5.2% / -21.2% / None%\n\n## Attribution my engine computed\n\n- Verdict: company_catalyst - Company-specific - credit rating action disclosed to the exchange\n- Stock over the window: -6.6%\n- Sector median over the same window: -1.7%\n- Excess vs sector: -4.8 pp\n- Broad market median: -1.3%\n\n### NSE filings in the window\n\n- 2026-10-15 [catalyst] Credit Rating - Credit rating action\n  Deepak Fertilizers And Petrochemicals Corporation Limited has informed the Exchange about Credit Rating\n\n### Recent headlines (unverified, from Google News)\n\n- DEEPAKFERT Forecast — Price Target — Prediction for 2027 - TradingView\n- Deepak Fertilisers And Petrochemicals (NSEI:DEEPAKFERT) Stock Forecast & Analyst Predictions - Simply Wall Street\n- Deepak Fertilisers & Petrochemicals Corp Ltd Share Price Today NSE/BSE Charts - Alice Blue\n- Is Deepak Fertilisers And Petrochemicals (NSE:DEEPAKFERT) A Risky Investment? - Simply Wall Street\n- Deepak Fertilizers & Petr Share Price - Live NSE: DEEPAKFERT Stock Price & Chart - Upstox\n- Deepak Fertilisers & Petrochemicals Corporation Ltd. Share Price Live Today - CNBC TV18\n\n## Fundamentals\n\n- Market cap: Rs 15,868 crore\n- Trailing P/E: 16.106977\n- Forward P/E: 10.059012\n- Price/Book: 2.316341\n- Debt/Equity: 75.969\n- Revenue growth (yoy): 22.5%\n- Earnings growth (yoy): 101.6%\n- Operating margin: 22.73%\n- Net margin: 8.13%\n- Promoter holding: 47.09%\n- Institutional holding: 18.98%\n- Dividend yield: 0.8%\n- Analyst count: 3\n- Mean target price: 1896.6666\n\n### Sector medians (Chemicals, 25 Nifty 500 peers)\n\n- Trailing P/E: 34.68\n- Price/Book: 4.15\n- Return on equity: 18.51%\n- Debt/Equity: 25.33\n- Revenue growth: 21.6%\n- Net margin: 11.63%\n\n### Data my engine could not get\n\n- Return on Equity unavailable\n- Only 3 analysts cover this name, so the consensus target is thin and moves easily.\n\n## What I want from you\n\n1. **Why did it actually move?** My engine only sees exchange filings and price action. Check whether there is a real catalyst it missed - sector news, a peer's results, a policy change, an index inclusion, a block deal.\n2. **Is my engine's attribution wrong?** Say so directly if the evidence points elsewhere.\n3. **The one-year view.** Build a bull case and a bear case from the business, not from the chart. What has to be true for this to work, and what would break it? Be concrete about which numbers to watch.\n4. **What would you check that I have not?** Name the specific filings, segments or metrics.\n\nPlease flag anything above that looks stale or wrong, and tell me plainly if this looks like a speculative move rather than an investable one. I am not asking you to tell me whether to buy - I want the reasoning so I can decide."
     }
   ],
   "stats": {
