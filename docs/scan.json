@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-10T01:48:43+05:30",
+  "generated_at": "2026-11-10T22:53:13+05:30",
   "session": "2026-11-09",
   "config": {
     "daily_gain_pct": 3.0,
@@ -14,8 +14,8 @@
   "market": {
     "median_day_pct": 0.66,
     "median_streak_pct": 2.13,
-    "breadth_pct": 63.8,
-    "names": 497
+    "breadth_pct": 63.7,
+    "names": 499
   },
   "sectors": [
     {
@@ -117,9 +117,9 @@
     {
       "industry": "Realty",
       "median_day_pct": 0.28,
-      "median_streak_pct": 3.25,
-      "breadth_pct": 54.5,
-      "members": 11,
+      "median_streak_pct": 2.66,
+      "breadth_pct": 53.8,
+      "members": 13,
       "reliable": true
     },
     {
@@ -215,18 +215,19 @@
           "date": "2026-11-09",
           "close": 611.0,
           "gain_pct": 3.43,
-          "volume": 13926450
+          "volume": 13929833
         }
       ],
       "attribution": {
-        "verdict": "unexplained",
-        "headline": "Company-specific, but nothing disclosed to explain it",
+        "verdict": "company_catalyst",
+        "headline": "Company-specific - investor communication disclosed to the exchange",
         "explanation": [
           "The stock gained +15.5% over the 3 sessions 2026-11-05 to 2026-11-09.",
           "Its sector (Consumer Durables) moved +3.0% over the same window, with 69% of its 16 Nifty 500 members advancing on the last session.",
-          "The broad market (median of 497 Nifty 500 names) moved +2.1% over the window, with 64% advancing on the last session.",
-          "The stock outpaced its sector by 12.5 percentage points, yet filed no disclosure in the window that would account for it.",
-          "An unexplained move away from the sector is worth more caution, not less - it can reflect speculation, a leaked development, or an operator-driven move.",
+          "The broad market (median of 499 Nifty 500 names) moved +2.1% over the window, with 64% advancing on the last session.",
+          "The stock outpaced its sector by 12.5 percentage points, so the move is company-specific rather than sector-wide.",
+          "NSE filing 2026-11-10 22:38 - Investor communication: Investor Presentation.",
+          "NSE filing 2026-11-10 17:08 - Results announcement: Outcome of Board Meeting.",
           "Volume ran 3.5x its 20-day median, so real institutional-scale money participated rather than thin-book drift."
         ],
         "stock_streak_pct": 15.49,
@@ -236,19 +237,41 @@
         "sector_breadth_pct": 69.0,
         "volume_ratio": 3.55,
         "cautions": [],
-        "filings": [],
+        "filings": [
+          {
+            "date": "2026-11-10",
+            "time": "22:38",
+            "category": "Investor Presentation",
+            "summary": "Kalyan Jewellers India Limited has informed the Exchange about Investor Presentation",
+            "pdf_url": "https://nsearchives.nseindia.com/corporate/KALYANKJIL_10112026223818_IP_signed.pdf",
+            "bucket": "catalyst",
+            "label": "Investor communication"
+          },
+          {
+            "date": "2026-11-10",
+            "time": "17:37",
+            "category": "Press Release",
+            "summary": "Kalyan Jewellers India Limited has informed the Exchange regarding a press release dated November 10, 2026, titled \"Press Release\".",
+            "pdf_url": "https://nsearchives.nseindia.com/corporate/KALYANKJIL_10112026173732_PR.pdf",
+            "bucket": "neutral",
+            "label": "Routine or administrative disclosure"
+          },
+          {
+            "date": "2026-11-10",
+            "time": "17:08",
+            "category": "Outcome of Board Meeting",
+            "summary": "Kalyan Jewellers India Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
+            "pdf_url": "https://nsearchives.nseindia.com/corporate/KALYANKJIL_10112026170450_Results_q2_Signed.pdf",
+            "bucket": "catalyst",
+            "label": "Results announcement"
+          }
+        ],
         "headlines": [
           {
             "title": "Kalyan Jewellers Share Price - Live NSE: KALYANKJIL Stock Price & Chart - Upstox",
             "source": "Upstox",
-            "published": "Sun, 08 Nov 2026 22:40:24 GMT",
+            "published": "Mon, 09 Nov 2026 06:15:34 GMT",
             "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBQa2xZSTJZNVZFNDk5SXA0SkFHZE5YSEYtRmpseFJLZHpxQnBydHdLVTNZanZLU3drTUI1QXpyV0pGelhRVlJFdHdMLUhwdDAtZmt1bk83UXcxWEF4ZkttbHUtZGRlLXNucDdPQ3Fka2g?oc=5"
-          },
-          {
-            "title": "KALYANKJIL Stock Price and Chart — NSE:KALYANKJIL - TradingView",
-            "source": "TradingView",
-            "published": "Thu, 22 Oct 2026 07:00:00 GMT",
-            "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBDVkRpUFlZQ2tfcmotUGdHUFgtLXpleVpQNkpsNzVfS0NROTlqRGdhQWZhS3RiVU1RandNeFdmWVpjT29uSTY1dF9vYmRQdkxrWXFNNTNObXpDLV82OEV5UA?oc=5"
           },
           {
             "title": "Kalyan Jewellers India (NSEI:KALYANKJIL) Stock Forecast & Analyst Predictions - Simply Wall St",
@@ -257,22 +280,28 @@
             "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNdVRtRHBIWE5zU1JPeUpYcnlKNk5mVDZteGU1VjQ3MnpzSHRRT1RLd1EtWnBiT29sUnFhNkNsQVJoVVJJM29NQmRob2tyZjZNejl2Z1JLYllUaUEtNUNPNWUyamRJNUw3QWYwbHJ2M2p2U0dlbmItZVBoRE1RTlJJM1BhUUI0cGx6MTRtaFZVRlFPN29vNUFkNkFvTDFMM0VGWTRj?oc=5"
           },
           {
-            "title": "Kalyan Jewellers India Ltd. Share Price Today - Kalyan Jewellers India Ltd. Stock Price Live NSE/BSE - CNBC TV18",
-            "source": "CNBC TV18",
-            "published": "Sat, 03 Jan 2026 16:40:29 GMT",
-            "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPSGJsazhLV0gtekhoaXJoMjlfYnFCVkhrU3dXZjZRSzdCQTdKd2lkY3Y0YXVGdFBxYnR0eVpqSjRjcW85RXVkNFdvaHBLLWgwdVoyYVNRLVU2aDItaXNrSnVlN3dpaDJlUEVQZ2NUWGpmcWExejNOOXQyYmtmM3o1MEQ5OU81Q0FGYnhxRA?oc=5"
-          },
-          {
             "title": "KALYANKJIL Forecast — Price Target — Prediction for 2027 - TradingView",
             "source": "TradingView",
             "published": "Fri, 26 Jun 2026 02:47:33 GMT",
             "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFAyNXZNQ3EtTTFFSEhic294TmdTV2NuUW5iZkpOcEFNdGpMY3ZPQ3c0U3VpSkU4VkdpcjNBYTEtSGlSeE91bGZmRWp0a0d2YTJBaTBFS0VBYm1CWGhDX0lZb1JhelRfYnZyWW9GZDlfRVdjMEtwdkdZZmFGSERSUQ?oc=5"
           },
           {
+            "title": "Kalyan Jewellers India Ltd. Share Price Today - Kalyan Jewellers India Ltd. Stock Price Live NSE/BSE - CNBC TV18",
+            "source": "CNBC TV18",
+            "published": "Sat, 03 Jan 2026 16:40:29 GMT",
+            "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPSGJsazhLV0gtekhoaXJoMjlfYnFCVkhrU3dXZjZRSzdCQTdKd2lkY3Y0YXVGdFBxYnR0eVpqSjRjcW85RXVkNFdvaHBLLWgwdVoyYVNRLVU2aDItaXNrSnVlN3dpaDJlUEVQZ2NUWGpmcWExejNOOXQyYmtmM3o1MEQ5OU81Q0FGYnhxRA?oc=5"
+          },
+          {
             "title": "Kalyan Jewellers India Ltd Share Price Today NSE/BSE Charts - Alice Blue",
             "source": "Alice Blue",
             "published": "Mon, 31 Aug 2026 18:06:41 GMT",
             "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9kamJndHZZVjQyVzY5VFFqYTdCV2JTU210VEkyb2hHS2FadVJIV1lTSW9qMy1BNFJoUm1wRHlJUXlhbUJXMzNBY01uNGhyVDRFTjdaTlltSURCcjdNVnBSckVxN1k4d184LV9qU3gycExFWnM1UWYxMnZ1eTk?oc=5"
+          },
+          {
+            "title": "Here's Why Kalyan Jewellers India (NSE:KALYANKJIL) Has Caught The Eye Of Investors - Simply Wall St",
+            "source": "Simply Wall St",
+            "published": "Tue, 26 May 2026 07:00:00 GMT",
+            "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNTjJWU0NOVzVSSW1OY1Brc2Npc2I3blk2TEliX0J3MEF5emI3eGtvRlBpLTY2Zk1nVUxDcHZVVEtvRGNfN01UQ01DNTRsckZTc0dDNHFFNXFuY1IySnZUOVd1VjZiaVNZaGtiaHF2TTBqWlAzMVpwaHlpSC1maHJTak40WDgwZW9oaUNDSjFfaUZpTGpnV3NWcS1GSU5LUV8wQXJ3RFFOcVJPdG5JRmVKWUFva001R2kxZEllRWpGa0NCTWNJSzExdXlSVEhQcmhTV2pwczZVS3NJUmEzcU5zOUJlMXBYVDJiR1hmeDdrdFQ0d9IB9wFBVV95cUxQWmQ5SExCSTFxT0NPdzFfMVlueU05cVd0REw0TTV5MFZPOW5qSXVmamE5RFp2UEtvRmM5b2NYVWZ6d0JWOHM5UDhjM0s2R2lubzFmWVRSUzlJUHVac21HNndRVHMyeEswUWFwWlF4NkljQ21XeERRMlk3MmZRal9WSHN0NzVmOXFRSnRtUmVFNVFCM3YyNGpjMDcxVlY5a1UxeWt6UEdzVF9aWUgzbno5ZEZ5RmtDOGNyUE1IcXpzOFpYSjNTUDhYWE9sR2lDNGNJWXJ5anltVHQwXzlSODM1NXZLeGxJbE5vMmdqdTlTNUpQd0xKUURn?oc=5"
           }
         ]
       },
@@ -289,8 +318,8 @@
         "operating_margin_pct": 4.89,
         "profit_margin_pct": 3.67,
         "promoter_holding_pct": 62.86,
-        "institutional_holding_pct": 23.09,
-        "dividend_yield_pct": 0.42,
+        "institutional_holding_pct": 23.02,
+        "dividend_yield_pct": 0.41,
         "current_ratio": null,
         "beta": -0.171,
         "target_mean": 768.2,
@@ -303,7 +332,7 @@
       "benchmark": {
         "industry": "Consumer Durables",
         "peers": 15,
-        "trailing_pe": 52.37,
+        "trailing_pe": 52.18,
         "price_to_book": 7.45,
         "roe_pct": 18.18,
         "debt_to_equity": 20.51,
@@ -315,7 +344,7 @@
           {
             "name": "Trailing P/E",
             "value": "44.1",
-            "peer_value": "52.4",
+            "peer_value": "52.2",
             "stance": "bull",
             "note": "Cheaper than the typical peer on trailing earnings."
           },
@@ -356,7 +385,7 @@
           }
         ],
         "bull_case": [
-          "Trailing P/E 44.1 vs sector 52.4. Cheaper than the typical peer on trailing earnings.",
+          "Trailing P/E 44.1 vs sector 52.2. Cheaper than the typical peer on trailing earnings.",
           "Revenue growth (yoy) 45.7% vs sector 16.9%. Growing the top line faster than the sector.",
           "Earnings grew 32% year on year, which is what has to keep happening for a re-rating to hold.",
           "Promoters hold 63%, so their interests stay tied to the share price.",
@@ -377,7 +406,7 @@
         "bull_count": 2,
         "bear_count": 2
       },
-      "research_prompt": "I'm a long-term retail investor in Indian equities (NSE). My screener flagged Kalyan Jewellers India Ltd. (KALYANKJIL) because it gained at least 3% on each of 3 consecutive sessions. I want your independent read - please push back on my screener rather than agreeing with it.\n\n## What my screener measured\n\n- Streak: 2026-11-05 to 2026-11-09, +15.5% cumulative\n- Daily gains: 2026-11-05 +5.85%, 2026-11-06 +5.49%, 2026-11-09 +3.43%\n- Last close: Rs 611.00\n- Sector: Consumer Durables\n- Median 20-day turnover: Rs 217.5 crore\n- Volume vs 20-day median: 3.55x\n- Distance from 52-week high: -3.3%\n- Return 1M / 3M / 1Y: 10.4% / 1.2% / None%\n\n## Attribution my engine computed\n\n- Verdict: unexplained - Company-specific, but nothing disclosed to explain it\n- Stock over the window: +15.5%\n- Sector median over the same window: +3.0%\n- Excess vs sector: +12.5 pp\n- Broad market median: +2.1%\n\n- No NSE corporate filings in the window.\n\n### Recent headlines (unverified, from Google News)\n\n- Kalyan Jewellers Share Price - Live NSE: KALYANKJIL Stock Price & Chart - Upstox\n- KALYANKJIL Stock Price and Chart — NSE:KALYANKJIL - TradingView\n- Kalyan Jewellers India (NSEI:KALYANKJIL) Stock Forecast & Analyst Predictions - Simply Wall St\n- Kalyan Jewellers India Ltd. Share Price Today - Kalyan Jewellers India Ltd. Stock Price Live NSE/BSE - CNBC TV18\n- KALYANKJIL Forecast — Price Target — Prediction for 2027 - TradingView\n- Kalyan Jewellers India Ltd Share Price Today NSE/BSE Charts - Alice Blue\n\n## Fundamentals\n\n- Market cap: Rs 63,101 crore\n- Trailing P/E: 44.05191\n- Forward P/E: 31.451672\n- Price/Book: 9.990026\n- Debt/Equity: 96.966\n- Revenue growth (yoy): 45.7%\n- Earnings growth (yoy): 31.6%\n- Operating margin: 4.89%\n- Net margin: 3.67%\n- Promoter holding: 62.86%\n- Institutional holding: 23.09%\n- Dividend yield: 0.42%\n- Analyst count: 10\n- Mean target price: 768.2\n\n### Sector medians (Consumer Durables, 15 Nifty 500 peers)\n\n- Trailing P/E: 52.37\n- Price/Book: 7.45\n- Return on equity: 18.18%\n- Debt/Equity: 20.51\n- Revenue growth: 16.9%\n- Net margin: 4.01%\n\n### Data my engine could not get\n\n- Return on Equity unavailable\n\n## What I want from you\n\n1. **Why did it actually move?** My engine only sees exchange filings and price action. Check whether there is a real catalyst it missed - sector news, a peer's results, a policy change, an index inclusion, a block deal.\n2. **Is my engine's attribution wrong?** Say so directly if the evidence points elsewhere.\n3. **The one-year view.** Build a bull case and a bear case from the business, not from the chart. What has to be true for this to work, and what would break it? Be concrete about which numbers to watch.\n4. **What would you check that I have not?** Name the specific filings, segments or metrics.\n\nPlease flag anything above that looks stale or wrong, and tell me plainly if this looks like a speculative move rather than an investable one. I am not asking you to tell me whether to buy - I want the reasoning so I can decide."
+      "research_prompt": "I'm a long-term retail investor in Indian equities (NSE). My screener flagged Kalyan Jewellers India Ltd. (KALYANKJIL) because it gained at least 3% on each of 3 consecutive sessions. I want your independent read - please push back on my screener rather than agreeing with it.\n\n## What my screener measured\n\n- Streak: 2026-11-05 to 2026-11-09, +15.5% cumulative\n- Daily gains: 2026-11-05 +5.85%, 2026-11-06 +5.49%, 2026-11-09 +3.43%\n- Last close: Rs 611.00\n- Sector: Consumer Durables\n- Median 20-day turnover: Rs 217.5 crore\n- Volume vs 20-day median: 3.55x\n- Distance from 52-week high: -3.3%\n- Return 1M / 3M / 1Y: 10.4% / 1.2% / None%\n\n## Attribution my engine computed\n\n- Verdict: company_catalyst - Company-specific - investor communication disclosed to the exchange\n- Stock over the window: +15.5%\n- Sector median over the same window: +3.0%\n- Excess vs sector: +12.5 pp\n- Broad market median: +2.1%\n\n### NSE filings in the window\n\n- 2026-11-10 [catalyst] Investor Presentation - Investor communication\n  Kalyan Jewellers India Limited has informed the Exchange about Investor Presentation\n- 2026-11-10 [neutral] Press Release - Routine or administrative disclosure\n  Kalyan Jewellers India Limited has informed the Exchange regarding a press release dated November 10, 2026, titled \"Press Release\".\n- 2026-11-10 [catalyst] Outcome of Board Meeting - Results announcement\n  Kalyan Jewellers India Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.\n\n### Recent headlines (unverified, from Google News)\n\n- Kalyan Jewellers Share Price - Live NSE: KALYANKJIL Stock Price & Chart - Upstox\n- Kalyan Jewellers India (NSEI:KALYANKJIL) Stock Forecast & Analyst Predictions - Simply Wall St\n- KALYANKJIL Forecast — Price Target — Prediction for 2027 - TradingView\n- Kalyan Jewellers India Ltd. Share Price Today - Kalyan Jewellers India Ltd. Stock Price Live NSE/BSE - CNBC TV18\n- Kalyan Jewellers India Ltd Share Price Today NSE/BSE Charts - Alice Blue\n- Here's Why Kalyan Jewellers India (NSE:KALYANKJIL) Has Caught The Eye Of Investors - Simply Wall St\n\n## Fundamentals\n\n- Market cap: Rs 63,101 crore\n- Trailing P/E: 44.05191\n- Forward P/E: 31.451672\n- Price/Book: 9.990026\n- Debt/Equity: 96.966\n- Revenue growth (yoy): 45.7%\n- Earnings growth (yoy): 31.6%\n- Operating margin: 4.89%\n- Net margin: 3.67%\n- Promoter holding: 62.86%\n- Institutional holding: 23.02%\n- Dividend yield: 0.41%\n- Analyst count: 10\n- Mean target price: 768.2\n\n### Sector medians (Consumer Durables, 15 Nifty 500 peers)\n\n- Trailing P/E: 52.18\n- Price/Book: 7.45\n- Return on equity: 18.18%\n- Debt/Equity: 20.51\n- Revenue growth: 16.9%\n- Net margin: 4.01%\n\n### Data my engine could not get\n\n- Return on Equity unavailable\n\n## What I want from you\n\n1. **Why did it actually move?** My engine only sees exchange filings and price action. Check whether there is a real catalyst it missed - sector news, a peer's results, a policy change, an index inclusion, a block deal.\n2. **Is my engine's attribution wrong?** Say so directly if the evidence points elsewhere.\n3. **The one-year view.** Build a bull case and a bear case from the business, not from the chart. What has to be true for this to work, and what would break it? Be concrete about which numbers to watch.\n4. **What would you check that I have not?** Name the specific filings, segments or metrics.\n\nPlease flag anything above that looks stale or wrong, and tell me plainly if this looks like a speculative move rather than an investable one. I am not asking you to tell me whether to buy - I want the reasoning so I can decide."
     }
   ],
   "top_gainers": [
@@ -404,7 +433,7 @@
           "date": "2026-11-09",
           "close": 1232.4000244140625,
           "gain_pct": 12.96,
-          "volume": 6827234
+          "volume": 6829626
         }
       ],
       "attribution": {
@@ -413,7 +442,7 @@
         "explanation": [
           "The stock gained +13.0% over the session 2026-11-09.",
           "Its sector (Capital Goods) moved +1.3% over the same window, with 77% of its 69 Nifty 500 members advancing on the last session.",
-          "The broad market (median of 497 Nifty 500 names) moved +0.7% over the window, with 64% advancing on the last session.",
+          "The broad market (median of 499 Nifty 500 names) moved +0.7% over the window, with 64% advancing on the last session.",
           "The stock outpaced its sector by 11.7 percentage points, so the move is company-specific rather than sector-wide.",
           "NSE filing 2026-11-07 13:50 - Results announcement: Outcome of Board Meeting.",
           "NSE filing 2026-11-06 11:01 - Investor communication: Analysts/Institutional Investor Meet/Con. Call Updates.",
@@ -618,7 +647,7 @@
           "date": "2026-11-09",
           "close": 11565.5,
           "gain_pct": 12.06,
-          "volume": 2585451
+          "volume": 2586198
         }
       ],
       "attribution": {
@@ -627,7 +656,7 @@
         "explanation": [
           "The stock gained +12.1% over the session 2026-11-09.",
           "Its sector (Healthcare) moved +2.1% over the same window, with 84% of its 44 Nifty 500 members advancing on the last session.",
-          "The broad market (median of 497 Nifty 500 names) moved +0.7% over the window, with 64% advancing on the last session.",
+          "The broad market (median of 499 Nifty 500 names) moved +0.7% over the window, with 64% advancing on the last session.",
           "The stock outpaced its sector by 9.9 percentage points, so the move is company-specific rather than sector-wide.",
           "NSE filing 2026-11-07 11:56 - Results announcement: Outcome of Board Meeting.",
           "Volume ran 3.9x its 20-day median, so real institutional-scale money participated rather than thin-book drift."
@@ -661,10 +690,22 @@
         ],
         "headlines": [
           {
+            "title": "Divis Laboratories Share Price - Live NSE: DIVISLAB Stock Price & Chart - Upstox",
+            "source": "Upstox",
+            "published": "Mon, 09 Nov 2026 12:45:46 GMT",
+            "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE4xZ0Zxem94U0owZ3BVakFqa2pfNl9wTU9iY2JvM19RblREM3hTRFJoUEZjZzU2SnpsenJQLS1rUGlzWnpCUXdfbVhfUGVxVVdPWDJaQjRiSzR2VVQwbnlwMXR0SWozR0Q0ZXMyR0NUQQ?oc=5"
+          },
+          {
             "title": "Divi's Laboratories (DIVISLAB) Share Price Today (NSE), Market News - TechGraph",
             "source": "TechGraph",
             "published": "Fri, 11 Sep 2026 03:46:01 GMT",
             "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE11ZXMtVG5fcjRValBSLW1CTU1ySFVwNjM5d21vWHVUdlNlaklyT3g0dFoxVmIybDZGTjRwZ09Sc3lZaHktYlkwcjA5U2ZNRHFmenZLcTVPLTdoYV85TkdKOUh3?oc=5"
+          },
+          {
+            "title": "Divi's Laboratories (NSEI:DIVISLAB) - Stock Analysis - Simply Wall St",
+            "source": "Simply Wall St",
+            "published": "Sat, 07 Nov 2026 08:00:00 GMT",
+            "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOOTY1UEI4MG9VVGh2dGZaRjVTc3l2Mk9HUHdKOUJpa041RnF4c3EtY1ZXV3hiNmw3M0lzRWMzUV9CWGpYMkxLeDZCZ1Zrc0pXN25tbjlCdFNUWlVjeGNrcjNrbk01Y3FXOGZVU20xOTUyRjc5Q0F6dFprcXp6OEhVcUR2OHNJOFdGNVFiNGtuNGJJRWRLdEhvMFJn?oc=5"
           },
           {
             "title": "DIVISLAB Forecast — Price Target — Prediction for 2027 - TradingView",
@@ -673,36 +714,24 @@
             "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE03bVBCNGltT3JYWXNKcTJ0cm8zWXNiQ1lfS2ZtblRwZkwzN2tTaTlNRmM1MklLMlJUd0tyUEZ4bDZfMjAxbkJTMDgzcmxSa3R3TlVPYTN3VC16bVA2Sk5WY1AyMVFtU3hPYXlZUi1TX3RQZ3hCel9ZdVQxSQ?oc=5"
           },
           {
-            "title": "Divi's Laboratories (NSEI:DIVISLAB) Stock Forecast & Analyst Predictions - Simply Wall St",
-            "source": "Simply Wall St",
-            "published": "Tue, 03 Nov 2026 08:00:00 GMT",
-            "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPSkJ2NE9zT2FLY3JwdlNoQWJCNXpfMXB4QU5YbE9pWEtNaE9RUlJsbThWRzUtVHNiQkNtcEVpakQ3eUJUc3lncWFFNkZyUVRqY3kxeThPVzNzRXJxT1RmczBlaXZIbW9uYU15ZUF3WHJ5QllHQXBtTGpxX2VEV1k0VjRFYm13UFQxRWF6MGxUUFBCeG1XRVNLVFZNWmlPdElzSDlv?oc=5"
-          },
-          {
             "title": "Divi's Laboratories Ltd. Share Price Today - Divi's Laboratories Ltd. Stock Price Live NSE/BSE - CNBC TV18",
             "source": "CNBC TV18",
             "published": "Sat, 03 Jan 2026 07:58:21 GMT",
             "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNQkNuUGZBSWZMNVRWZVQ4b2NuSEJ3Z240dnpnc253ZUhxa0wtSVlMbk1aUE11dDFqbVZ1bWhhRHdIYVFRX0l5MTF1bENLYldESE96cEVzbEYxZGN2cXdtN1JOQTNfVTFmYkFPVEdfSTBLMlIwWFNTeEQxaVRaOVQyQ09Tem1Gdw?oc=5"
           },
           {
-            "title": "Three Days Left Until Divi's Laboratories Limited (NSE:DIVISLAB) Trades Ex-Dividend - Simply Wall St",
-            "source": "Simply Wall St",
-            "published": "Mon, 20 Jul 2026 07:00:00 GMT",
-            "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOTjFpU3FiaDJFcFNHSE9sNFdQNU90dHJhODd5UVZSeFN2YUpidjFKV09ENkJXZjRwbFVoWlBYVDJpOUE3b0pOX0hsTmdZSjAxYXVHZVgyVXFhUVF3dWdpeENHalIzZmJCWXFrWXpHdk1Md056dkFGMW1DU3JqRm1kbG9VQjg1dWdTTG9lTjR3NXl1blhidXVJMXRPandyLTdkbG5SWE5aZEZtalVnSVVsMDNZZ3NVLWZoNTZlQzNVVlY5bzJOZDhRVTdBTmh6a1pJMUF5UlNoM01wOUNtRFBRalQyTFBFRFcyOE5lOG9VYjAtZ9IB9wFBVV95cUxNSTY3eFdwbHZSZDk2cnd3X1M1bW45enF6QzJlWG1kc0t0eFJWNG1kOGF6QW91VVBpcE5SUWRoU0xRcjVybVZENUR5VlpncXN3TEYzMkJTZ1ZtWWV3ZzBJNkNVYUFSZG0yUGkwS0tCVXN1aEY4dk9rTHNjazVtbmFOYUVIOHB6Y2dCTWJ4ekNnaXpZM3dkRmVPdVgtWmc1azF3R2g4RXVUWUZEQlVXX0xncURmd0FPOUlpWi16NWxQOHQ4S3hXNjFhVmRCdEpIOXJIOHVOTDdTd052SUVqektwY3cxVzhVR2VoR2tfeXNsMVo4LWVWUTBZ?oc=5"
-          },
-          {
-            "title": "Divis Laboratories Share Price - Live NSE: DIVISLAB Stock Price & Chart - Upstox",
-            "source": "Upstox",
-            "published": "Mon, 09 May 2022 10:22:12 GMT",
-            "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE4xZ0Zxem94U0owZ3BVakFqa2pfNl9wTU9iY2JvM19RblREM3hTRFJoUEZjZzU2SnpsenJQLS1rUGlzWnpCUXdfbVhfUGVxVVdPWDJaQjRiSzR2VVQwbnlwMXR0SWozR0Q0ZXMyR0NUQQ?oc=5"
+            "title": "Divi's Laboratories (DIVISLAB) Share Price Today (BSE), Market News - TechGraph",
+            "source": "TechGraph",
+            "published": "Fri, 11 Sep 2026 03:45:57 GMT",
+            "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9QRFFXOTJ4aVRDWUxlT2ZndlJTTnNEeVN1ZXpoWnhrZU5wVFdrRUJ6cElkOTRGVkVxMnU3LUFEQnpSUmxlbzhGU2hhTElpOURIMnN5YnlEd1lwbnZCLTJ4Wmd3?oc=5"
           }
         ]
       },
       "fundamentals": {
         "symbol": "DIVISLAB",
         "market_cap_cr": 307028.0,
-        "trailing_pe": 98.129135,
-        "forward_pe": 68.86984,
+        "trailing_pe": 91.26095,
+        "forward_pe": 67.71969,
         "price_to_book": 17.045187,
         "roe_pct": 20.13,
         "debt_to_equity": 0.033,
@@ -711,12 +740,12 @@
         "operating_margin_pct": 38.74,
         "profit_margin_pct": 27.59,
         "promoter_holding_pct": 52.0,
-        "institutional_holding_pct": 29.44,
-        "dividend_yield_pct": 0.27,
+        "institutional_holding_pct": 29.46,
+        "dividend_yield_pct": 0.26,
         "current_ratio": 4.595,
         "beta": 0.179,
-        "target_mean": 9694.607,
-        "target_low": 6500.0,
+        "target_mean": 9842.786,
+        "target_low": 7305.0,
         "target_high": 15100.0,
         "analyst_count": 28,
         "current_price": 11565.5,
@@ -727,16 +756,16 @@
         "peers": 43,
         "trailing_pe": 51.46,
         "price_to_book": 6.42,
-        "roe_pct": 14.53,
-        "debt_to_equity": 18.57,
-        "revenue_growth_pct": 20.3,
+        "roe_pct": 14.95,
+        "debt_to_equity": 21.9,
+        "revenue_growth_pct": 20.8,
         "profit_margin_pct": 14.31
       },
       "scorecard": {
         "factors": [
           {
             "name": "Trailing P/E",
-            "value": "98.1",
+            "value": "91.3",
             "peer_value": "51.5",
             "stance": "bear",
             "note": "More expensive than the typical peer, so more of the growth is already priced in."
@@ -751,21 +780,21 @@
           {
             "name": "Return on Equity",
             "value": "20.1%",
-            "peer_value": "14.5%",
+            "peer_value": "14.9%",
             "stance": "bull",
             "note": "Converts shareholder capital into profit better than peers."
           },
           {
             "name": "Debt / Equity",
             "value": "0.0",
-            "peer_value": "18.6",
+            "peer_value": "21.9",
             "stance": "bull",
             "note": "Carries less leverage than peers, so less earnings risk if rates rise."
           },
           {
             "name": "Revenue growth (yoy)",
             "value": "35.4%",
-            "peer_value": "20.3%",
+            "peer_value": "20.8%",
             "stance": "bull",
             "note": "Growing the top line faster than the sector."
           },
@@ -778,17 +807,17 @@
           }
         ],
         "bull_case": [
-          "Return on Equity 20.1% vs sector 14.5%. Converts shareholder capital into profit better than peers.",
-          "Debt / Equity 0.0 vs sector 18.6. Carries less leverage than peers, so less earnings risk if rates rise.",
-          "Revenue growth (yoy) 35.4% vs sector 20.3%. Growing the top line faster than the sector.",
+          "Return on Equity 20.1% vs sector 14.9%. Converts shareholder capital into profit better than peers.",
+          "Debt / Equity 0.0 vs sector 21.9. Carries less leverage than peers, so less earnings risk if rates rise.",
+          "Revenue growth (yoy) 35.4% vs sector 20.8%. Growing the top line faster than the sector.",
           "Net margin 27.6% vs sector 14.3%. Keeps more of every rupee of revenue than peers.",
           "Earnings grew 64% year on year, which is what has to keep happening for a re-rating to hold.",
           "Promoters hold 52%, so their interests stay tied to the share price."
         ],
         "bear_case": [
-          "Trailing P/E 98.1 vs sector 51.5. More expensive than the typical peer, so more of the growth is already priced in.",
+          "Trailing P/E 91.3 vs sector 51.5. More expensive than the typical peer, so more of the growth is already priced in.",
           "Price / Book 17.0 vs sector 6.4. Trades at a premium to peer book value.",
-          "28 analysts publish a mean target of 9695, 16% below the current price.",
+          "28 analysts publish a mean target of 9843, 15% below the current price.",
           "Sitting within 0% of its 52-week high, so you are buying after the move, not before it."
         ],
         "invalidators": [
@@ -800,7 +829,7 @@
         "bull_count": 4,
         "bear_count": 2
       },
-      "research_prompt": "I'm a long-term retail investor in Indian equities (NSE). My screener flagged Divi's Laboratories Ltd. (DIVISLAB) because it gained at least 3% on each of 1 consecutive sessions. I want your independent read - please push back on my screener rather than agreeing with it.\n\n## What my screener measured\n\n- Streak: 2026-11-09 to 2026-11-09, +12.1% cumulative\n- Daily gains: 2026-11-09 +12.06%\n- Last close: Rs 11,565.50\n- Sector: Healthcare\n- Median 20-day turnover: Rs 670.9 crore\n- Volume vs 20-day median: 3.89x\n- Distance from 52-week high: 0.0%\n- Return 1M / 3M / 1Y: 23.5% / 39.8% / None%\n\n## Attribution my engine computed\n\n- Verdict: company_catalyst - Company-specific - results announcement disclosed to the exchange\n- Stock over the window: +12.1%\n- Sector median over the same window: +2.1%\n- Excess vs sector: +9.9 pp\n- Broad market median: +0.7%\n\n### NSE filings in the window\n\n- 2026-11-09 [neutral] Copy of Newspaper Publication - Routine or administrative disclosure\n  Divi's Laboratories Limited has informed the Exchange about Copy of Newspaper Publication\n- 2026-11-07 [catalyst] Outcome of Board Meeting - Results announcement\n  Divi's Laboratories Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.\n\n### Recent headlines (unverified, from Google News)\n\n- Divi's Laboratories (DIVISLAB) Share Price Today (NSE), Market News - TechGraph\n- DIVISLAB Forecast — Price Target — Prediction for 2027 - TradingView\n- Divi's Laboratories (NSEI:DIVISLAB) Stock Forecast & Analyst Predictions - Simply Wall St\n- Divi's Laboratories Ltd. Share Price Today - Divi's Laboratories Ltd. Stock Price Live NSE/BSE - CNBC TV18\n- Three Days Left Until Divi's Laboratories Limited (NSE:DIVISLAB) Trades Ex-Dividend - Simply Wall St\n- Divis Laboratories Share Price - Live NSE: DIVISLAB Stock Price & Chart - Upstox\n\n## Fundamentals\n\n- Market cap: Rs 307,028 crore\n- Trailing P/E: 98.129135\n- Forward P/E: 68.86984\n- Price/Book: 17.045187\n- Return on equity: 20.13%\n- Debt/Equity: 0.033\n- Revenue growth (yoy): 35.4%\n- Earnings growth (yoy): 63.6%\n- Operating margin: 38.74%\n- Net margin: 27.59%\n- Promoter holding: 52.0%\n- Institutional holding: 29.44%\n- Dividend yield: 0.27%\n- Analyst count: 28\n- Mean target price: 9694.607\n\n### Sector medians (Healthcare, 43 Nifty 500 peers)\n\n- Trailing P/E: 51.46\n- Price/Book: 6.42\n- Return on equity: 14.53%\n- Debt/Equity: 18.57\n- Revenue growth: 20.3%\n- Net margin: 14.31%\n\n## What I want from you\n\n1. **Why did it actually move?** My engine only sees exchange filings and price action. Check whether there is a real catalyst it missed - sector news, a peer's results, a policy change, an index inclusion, a block deal.\n2. **Is my engine's attribution wrong?** Say so directly if the evidence points elsewhere.\n3. **The one-year view.** Build a bull case and a bear case from the business, not from the chart. What has to be true for this to work, and what would break it? Be concrete about which numbers to watch.\n4. **What would you check that I have not?** Name the specific filings, segments or metrics.\n\nPlease flag anything above that looks stale or wrong, and tell me plainly if this looks like a speculative move rather than an investable one. I am not asking you to tell me whether to buy - I want the reasoning so I can decide."
+      "research_prompt": "I'm a long-term retail investor in Indian equities (NSE). My screener flagged Divi's Laboratories Ltd. (DIVISLAB) because it gained at least 3% on each of 1 consecutive sessions. I want your independent read - please push back on my screener rather than agreeing with it.\n\n## What my screener measured\n\n- Streak: 2026-11-09 to 2026-11-09, +12.1% cumulative\n- Daily gains: 2026-11-09 +12.06%\n- Last close: Rs 11,565.50\n- Sector: Healthcare\n- Median 20-day turnover: Rs 670.9 crore\n- Volume vs 20-day median: 3.89x\n- Distance from 52-week high: 0.0%\n- Return 1M / 3M / 1Y: 23.5% / 39.8% / None%\n\n## Attribution my engine computed\n\n- Verdict: company_catalyst - Company-specific - results announcement disclosed to the exchange\n- Stock over the window: +12.1%\n- Sector median over the same window: +2.1%\n- Excess vs sector: +9.9 pp\n- Broad market median: +0.7%\n\n### NSE filings in the window\n\n- 2026-11-09 [neutral] Copy of Newspaper Publication - Routine or administrative disclosure\n  Divi's Laboratories Limited has informed the Exchange about Copy of Newspaper Publication\n- 2026-11-07 [catalyst] Outcome of Board Meeting - Results announcement\n  Divi's Laboratories Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.\n\n### Recent headlines (unverified, from Google News)\n\n- Divis Laboratories Share Price - Live NSE: DIVISLAB Stock Price & Chart - Upstox\n- Divi's Laboratories (DIVISLAB) Share Price Today (NSE), Market News - TechGraph\n- Divi's Laboratories (NSEI:DIVISLAB) - Stock Analysis - Simply Wall St\n- DIVISLAB Forecast — Price Target — Prediction for 2027 - TradingView\n- Divi's Laboratories Ltd. Share Price Today - Divi's Laboratories Ltd. Stock Price Live NSE/BSE - CNBC TV18\n- Divi's Laboratories (DIVISLAB) Share Price Today (BSE), Market News - TechGraph\n\n## Fundamentals\n\n- Market cap: Rs 307,028 crore\n- Trailing P/E: 91.26095\n- Forward P/E: 67.71969\n- Price/Book: 17.045187\n- Return on equity: 20.13%\n- Debt/Equity: 0.033\n- Revenue growth (yoy): 35.4%\n- Earnings growth (yoy): 63.6%\n- Operating margin: 38.74%\n- Net margin: 27.59%\n- Promoter holding: 52.0%\n- Institutional holding: 29.46%\n- Dividend yield: 0.26%\n- Analyst count: 28\n- Mean target price: 9842.786\n\n### Sector medians (Healthcare, 43 Nifty 500 peers)\n\n- Trailing P/E: 51.46\n- Price/Book: 6.42\n- Return on equity: 14.95%\n- Debt/Equity: 21.9\n- Revenue growth: 20.8%\n- Net margin: 14.31%\n\n## What I want from you\n\n1. **Why did it actually move?** My engine only sees exchange filings and price action. Check whether there is a real catalyst it missed - sector news, a peer's results, a policy change, an index inclusion, a block deal.\n2. **Is my engine's attribution wrong?** Say so directly if the evidence points elsewhere.\n3. **The one-year view.** Build a bull case and a bear case from the business, not from the chart. What has to be true for this to work, and what would break it? Be concrete about which numbers to watch.\n4. **What would you check that I have not?** Name the specific filings, segments or metrics.\n\nPlease flag anything above that looks stale or wrong, and tell me plainly if this looks like a speculative move rather than an investable one. I am not asking you to tell me whether to buy - I want the reasoning so I can decide."
     },
     {
       "symbol": "ZEEL",
@@ -825,7 +854,7 @@
           "date": "2026-11-09",
           "close": 69.7699966430664,
           "gain_pct": 9.07,
-          "volume": 44826138
+          "volume": 44827492
         }
       ],
       "attribution": {
@@ -834,7 +863,8 @@
         "explanation": [
           "The stock gained +9.1% over the session 2026-11-09.",
           "No reliable sector benchmark: Media Entertainment & Publication has too few Nifty 500 members to produce a trustworthy median.",
-          "The broad market (median of 497 Nifty 500 names) moved +0.7% over the window, with 64% advancing on the last session.",
+          "The broad market (median of 499 Nifty 500 names) moved +0.7% over the window, with 64% advancing on the last session.",
+          "NSE filing 2026-11-10 15:11 - Investor communication: Analysts/Institutional Investor Meet/Con. Call Updates.",
           "NSE filing 2026-11-05 16:07 - Investor communication: Analysts/Institutional Investor Meet/Con. Call Updates.",
           "Volume ran 3.4x its 20-day median, so real institutional-scale money participated rather than thin-book drift."
         ],
@@ -846,6 +876,15 @@
         "volume_ratio": 3.42,
         "cautions": [],
         "filings": [
+          {
+            "date": "2026-11-10",
+            "time": "15:11",
+            "category": "Analysts/Institutional Investor Meet/Con. Call Updates",
+            "summary": "Zee Entertainment Enterprises Limited has informed the Exchange about Intimation of investors' conference",
+            "pdf_url": "https://nsearchives.nseindia.com/corporate/ZEEL_10112026150253_SEIntimationInvestorconferenceNov26signed.pdf",
+            "bucket": "catalyst",
+            "label": "Investor communication"
+          },
           {
             "date": "2026-11-05",
             "time": "16:07",
@@ -860,13 +899,13 @@
           {
             "title": "Zee Entertainment Enterprises Share Price - Live NSE: ZEEL Stock Price & Chart - Upstox",
             "source": "Upstox",
-            "published": "Sun, 08 Nov 2026 22:52:09 GMT",
+            "published": "Tue, 10 Nov 2026 10:42:56 GMT",
             "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1pWXR1VUhPSktKb3VUX0l6cWUxTFMzbnlKMjA4aVJTUlpRRjBSRFlnOTdTN1VjaHVROHJ1c2EyTEhrQURJSzBieGlfM2lSTnZDN3E3V290eGVsYXc5M21jQkhsY3ktOWt3VXdNUjdUMXpqQQ?oc=5"
           },
           {
             "title": "Zee Entertainment Enterprises (NSEI:ZEEL) - Stock Analysis - Simply Wall St",
             "source": "Simply Wall St",
-            "published": "Sat, 07 Nov 2026 08:00:00 GMT",
+            "published": "Sun, 08 Nov 2026 08:00:00 GMT",
             "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOZWFvbTBhZXZ2ZzlWNjZkWW56cTR1U2ZscXNENjZveXdpeDBCakxNVkZETFFKWnRHNmlZVG1OQ1lYdzBQRV82V2RLYWN5QzNCSldNSU5YRU1mTGk3RWl0cVdNZWlENmR4R3o3b1ZNOWs5dGZKZzk2QXNWcjBXMkNrZGJHRVBmLUU2U2FR?oc=5"
           },
           {
@@ -898,7 +937,7 @@
       "fundamentals": {
         "symbol": "ZEEL",
         "market_cap_cr": 6702.0,
-        "trailing_pe": 40.801167,
+        "trailing_pe": 38.12568,
         "forward_pe": 9.975522,
         "price_to_book": 0.5376725,
         "roe_pct": 1.43,
@@ -908,8 +947,8 @@
         "operating_margin_pct": 1.26,
         "profit_margin_pct": 2.1,
         "promoter_holding_pct": 5.04,
-        "institutional_holding_pct": 17.86,
-        "dividend_yield_pct": 2.92,
+        "institutional_holding_pct": 18.4,
+        "dividend_yield_pct": 2.87,
         "current_ratio": 5.888,
         "beta": 0.72,
         "target_mean": 81.81818,
@@ -922,7 +961,7 @@
       "benchmark": {
         "industry": "Media Entertainment & Publication",
         "peers": 3,
-        "trailing_pe": 37.08,
+        "trailing_pe": 36.36,
         "price_to_book": 2.11,
         "roe_pct": 8.96,
         "debt_to_equity": 85.37,
@@ -933,7 +972,7 @@
         "factors": [
           {
             "name": "Trailing P/E",
-            "value": "40.8",
+            "value": "38.1",
             "peer_value": "n/a",
             "stance": "neutral",
             "note": "No trustworthy peer median to compare against."
@@ -992,7 +1031,7 @@
         "bull_count": 0,
         "bear_count": 0
       },
-      "research_prompt": "I'm a long-term retail investor in Indian equities (NSE). My screener flagged Zee Entertainment Enterprises Ltd. (ZEEL) because it gained at least 3% on each of 1 consecutive sessions. I want your independent read - please push back on my screener rather than agreeing with it.\n\n## What my screener measured\n\n- Streak: 2026-11-09 to 2026-11-09, +9.1% cumulative\n- Daily gains: 2026-11-09 +9.07%\n- Last close: Rs 69.77\n- Sector: Media Entertainment & Publication\n- Median 20-day turnover: Rs 89.1 crore\n- Volume vs 20-day median: 3.42x\n- Distance from 52-week high: -38.3%\n- Return 1M / 3M / 1Y: 2.0% / -24.2% / None%\n\n## Attribution my engine computed\n\n- Verdict: company_catalyst - Company-specific - investor communication disclosed to the exchange\n- Stock over the window: +9.1%\n- Broad market median: +0.7%\n\n### NSE filings in the window\n\n- 2026-11-05 [catalyst] Analysts/Institutional Investor Meet/Con. Call Updates - Investor communication\n  Zee Entertainment Enterprises Limited has informed the Exchange about Transcript\n\n### Recent headlines (unverified, from Google News)\n\n- Zee Entertainment Enterprises Share Price - Live NSE: ZEEL Stock Price & Chart - Upstox\n- Zee Entertainment Enterprises (NSEI:ZEEL) - Stock Analysis - Simply Wall St\n- Zee Entertainment Enterprises Ltd (NSE:ZEEL) Q2 2027 Earnings Report Preview: What To Expect - Yahoo Finance\n- ZEEL tanks 15% as Chandra's insolvency resolution plan faces fresh hurdle - Business Standard\n- Zee Share Price Crash 11% After SEBI Action; Company Says Fundraising Plan Remains Unaffected - India Infoline\n- ZEEL Forecast — Price Target — Prediction for 2027 - TradingView\n\n## Fundamentals\n\n- Market cap: Rs 6,702 crore\n- Trailing P/E: 40.801167\n- Forward P/E: 9.975522\n- Price/Book: 0.5376725\n- Return on equity: 1.43%\n- Debt/Equity: 0.523\n- Revenue growth (yoy): 13.0%\n- Earnings growth (yoy): -36.7%\n- Operating margin: 1.26%\n- Net margin: 2.1%\n- Promoter holding: 5.04%\n- Institutional holding: 17.86%\n- Dividend yield: 2.92%\n- Analyst count: 11\n- Mean target price: 81.81818\n\n### Data my engine could not get\n\n- Only 3 Media Entertainment & Publication peers had usable fundamentals, so peer medians below are indicative rather than reliable.\n\n## What I want from you\n\n1. **Why did it actually move?** My engine only sees exchange filings and price action. Check whether there is a real catalyst it missed - sector news, a peer's results, a policy change, an index inclusion, a block deal.\n2. **Is my engine's attribution wrong?** Say so directly if the evidence points elsewhere.\n3. **The one-year view.** Build a bull case and a bear case from the business, not from the chart. What has to be true for this to work, and what would break it? Be concrete about which numbers to watch.\n4. **What would you check that I have not?** Name the specific filings, segments or metrics.\n\nPlease flag anything above that looks stale or wrong, and tell me plainly if this looks like a speculative move rather than an investable one. I am not asking you to tell me whether to buy - I want the reasoning so I can decide."
+      "research_prompt": "I'm a long-term retail investor in Indian equities (NSE). My screener flagged Zee Entertainment Enterprises Ltd. (ZEEL) because it gained at least 3% on each of 1 consecutive sessions. I want your independent read - please push back on my screener rather than agreeing with it.\n\n## What my screener measured\n\n- Streak: 2026-11-09 to 2026-11-09, +9.1% cumulative\n- Daily gains: 2026-11-09 +9.07%\n- Last close: Rs 69.77\n- Sector: Media Entertainment & Publication\n- Median 20-day turnover: Rs 89.1 crore\n- Volume vs 20-day median: 3.42x\n- Distance from 52-week high: -38.3%\n- Return 1M / 3M / 1Y: 2.0% / -24.2% / None%\n\n## Attribution my engine computed\n\n- Verdict: company_catalyst - Company-specific - investor communication disclosed to the exchange\n- Stock over the window: +9.1%\n- Broad market median: +0.7%\n\n### NSE filings in the window\n\n- 2026-11-10 [catalyst] Analysts/Institutional Investor Meet/Con. Call Updates - Investor communication\n  Zee Entertainment Enterprises Limited has informed the Exchange about Intimation of investors' conference\n- 2026-11-05 [catalyst] Analysts/Institutional Investor Meet/Con. Call Updates - Investor communication\n  Zee Entertainment Enterprises Limited has informed the Exchange about Transcript\n\n### Recent headlines (unverified, from Google News)\n\n- Zee Entertainment Enterprises Share Price - Live NSE: ZEEL Stock Price & Chart - Upstox\n- Zee Entertainment Enterprises (NSEI:ZEEL) - Stock Analysis - Simply Wall St\n- Zee Entertainment Enterprises Ltd (NSE:ZEEL) Q2 2027 Earnings Report Preview: What To Expect - Yahoo Finance\n- ZEEL tanks 15% as Chandra's insolvency resolution plan faces fresh hurdle - Business Standard\n- Zee Share Price Crash 11% After SEBI Action; Company Says Fundraising Plan Remains Unaffected - India Infoline\n- ZEEL Forecast — Price Target — Prediction for 2027 - TradingView\n\n## Fundamentals\n\n- Market cap: Rs 6,702 crore\n- Trailing P/E: 38.12568\n- Forward P/E: 9.975522\n- Price/Book: 0.5376725\n- Return on equity: 1.43%\n- Debt/Equity: 0.523\n- Revenue growth (yoy): 13.0%\n- Earnings growth (yoy): -36.7%\n- Operating margin: 1.26%\n- Net margin: 2.1%\n- Promoter holding: 5.04%\n- Institutional holding: 18.4%\n- Dividend yield: 2.87%\n- Analyst count: 11\n- Mean target price: 81.81818\n\n### Data my engine could not get\n\n- Only 3 Media Entertainment & Publication peers had usable fundamentals, so peer medians below are indicative rather than reliable.\n\n## What I want from you\n\n1. **Why did it actually move?** My engine only sees exchange filings and price action. Check whether there is a real catalyst it missed - sector news, a peer's results, a policy change, an index inclusion, a block deal.\n2. **Is my engine's attribution wrong?** Say so directly if the evidence points elsewhere.\n3. **The one-year view.** Build a bull case and a bear case from the business, not from the chart. What has to be true for this to work, and what would break it? Be concrete about which numbers to watch.\n4. **What would you check that I have not?** Name the specific filings, segments or metrics.\n\nPlease flag anything above that looks stale or wrong, and tell me plainly if this looks like a speculative move rather than an investable one. I am not asking you to tell me whether to buy - I want the reasoning so I can decide."
     }
   ],
   "top_losers": [
@@ -1019,7 +1058,7 @@
           "date": "2026-11-09",
           "close": 670.9500122070312,
           "gain_pct": -6.8,
-          "volume": 2400401
+          "volume": 2401096
         }
       ],
       "attribution": {
@@ -1028,7 +1067,7 @@
         "explanation": [
           "The stock fell -6.8% over the session 2026-11-09.",
           "Its sector (Telecommunication) moved -0.5% over the same window, with 27% of its 11 Nifty 500 members advancing on the last session.",
-          "The broad market (median of 497 Nifty 500 names) moved +0.7% over the window, with 64% advancing on the last session.",
+          "The broad market (median of 499 Nifty 500 names) moved +0.7% over the window, with 64% advancing on the last session.",
           "The stock lagged its sector by 6.3 percentage points, so the move is company-specific rather than sector-wide.",
           "NSE filing 2026-11-05 18:16 - Investor communication: Analysts/Institutional Investor Meet/Con. Call Updates."
         ],
@@ -1054,7 +1093,7 @@
           {
             "title": "Sterlite Technologies Share Price - Live NSE: STLTECH Stock Price & Chart - Upstox",
             "source": "Upstox",
-            "published": "Sat, 07 Nov 2026 03:39:29 GMT",
+            "published": "Sat, 07 Nov 2026 20:50:22 GMT",
             "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFB5cC12NHhpNWJLcDBKUk84WEpmaG80cTlwczdFWDFwQnpNVUFjZU5Qa2lTckIwNlYycU1GVDdnM1BEQ1FyeTlfcGlrOTlKTHlCWmNMN3ptWURpYWNGb0x2T3lkamxVaWdULWFabzhvdlRXUQ?oc=5"
           },
           {
@@ -1121,7 +1160,7 @@
         "roe_pct": 18.74,
         "debt_to_equity": 70.68,
         "revenue_growth_pct": 10.25,
-        "profit_margin_pct": 12.36
+        "profit_margin_pct": 12.57
       },
       "scorecard": {
         "factors": [
@@ -1163,7 +1202,7 @@
           {
             "name": "Net margin",
             "value": "10.6%",
-            "peer_value": "12.4%",
+            "peer_value": "12.6%",
             "stance": "bear",
             "note": "Thinner margins than peers."
           }
@@ -1180,7 +1219,7 @@
         "bear_case": [
           "Trailing P/E 48.8 vs sector 36.0. More expensive than the typical peer, so more of the growth is already priced in.",
           "Price / Book 7.6 vs sector 6.8. Trades at a premium to peer book value.",
-          "Net margin 10.6% vs sector 12.4%. Thinner margins than peers."
+          "Net margin 10.6% vs sector 12.6%. Thinner margins than peers."
         ],
         "invalidators": [
           "Two consecutive quarters of revenue or margin decline would remove the growth premise this rests on.",
@@ -1192,7 +1231,7 @@
         "bull_count": 3,
         "bear_count": 3
       },
-      "research_prompt": "I'm a long-term retail investor in Indian equities (NSE). My screener flagged Sterlite Technologies Ltd. (STLTECH) because it gained at least 3% on each of 1 consecutive sessions. I want your independent read - please push back on my screener rather than agreeing with it.\n\n## What my screener measured\n\n- Streak: 2026-11-09 to 2026-11-09, -6.8% cumulative\n- Daily gains: 2026-11-09 -6.80%\n- Last close: Rs 670.95\n- Sector: Telecommunication\n- Median 20-day turnover: Rs 160.5 crore\n- Volume vs 20-day median: 1.35x\n- Distance from 52-week high: -34.0%\n- Return 1M / 3M / 1Y: -33.7% / 5.0% / None%\n\n## Attribution my engine computed\n\n- Verdict: company_catalyst - Company-specific - investor communication disclosed to the exchange\n- Stock over the window: -6.8%\n- Sector median over the same window: -0.5%\n- Excess vs sector: -6.3 pp\n- Broad market median: +0.7%\n\n### NSE filings in the window\n\n- 2026-11-05 [catalyst] Analysts/Institutional Investor Meet/Con. Call Updates - Investor communication\n  Sterlite Technologies Limited has informed the Exchange about Schedule of meet\n\n### Recent headlines (unverified, from Google News)\n\n- Sterlite Technologies Share Price - Live NSE: STLTECH Stock Price & Chart - Upstox\n- Sterlite Technologies (NSEI:STLTECH) Stock Forecast & Analyst Predictions - Simply Wall St\n- STLTECH Forecast — Price Target — Prediction for 2027 - TradingView\n- Sterlite Technologies Ltd. Share Price Today - Sterlite Technologies Ltd. Stock Price Live NSE/BSE - CNBC TV18\n- Sterlite Technologies Ltd Slips 4.99% - Business Standard\n- Sterlite Technologies Ltd Share Price Today NSE/BSE Charts - Alice Blue\n\n## Fundamentals\n\n- Market cap: Rs 34,501 crore\n- Trailing P/E: 48.796364\n- Forward P/E: 18.735052\n- Price/Book: 7.592079\n- Return on equity: 22.92%\n- Debt/Equity: 21.77\n- Revenue growth (yoy): 144.6%\n- Earnings growth (yoy): 11600.0%\n- Operating margin: 27.8%\n- Net margin: 10.59%\n- Promoter holding: 50.83%\n- Institutional holding: 20.86%\n- Dividend yield: 0.0%\n- Analyst count: 3\n- Mean target price: 1473.3334\n\n### Sector medians (Telecommunication, 10 Nifty 500 peers)\n\n- Trailing P/E: 36.03\n- Price/Book: 6.79\n- Return on equity: 18.74%\n- Debt/Equity: 70.68\n- Revenue growth: 10.25%\n- Net margin: 12.36%\n\n### Data my engine could not get\n\n- Only 3 analysts cover this name, so the consensus target is thin and moves easily.\n\n## What I want from you\n\n1. **Why did it actually move?** My engine only sees exchange filings and price action. Check whether there is a real catalyst it missed - sector news, a peer's results, a policy change, an index inclusion, a block deal.\n2. **Is my engine's attribution wrong?** Say so directly if the evidence points elsewhere.\n3. **The one-year view.** Build a bull case and a bear case from the business, not from the chart. What has to be true for this to work, and what would break it? Be concrete about which numbers to watch.\n4. **What would you check that I have not?** Name the specific filings, segments or metrics.\n\nPlease flag anything above that looks stale or wrong, and tell me plainly if this looks like a speculative move rather than an investable one. I am not asking you to tell me whether to buy - I want the reasoning so I can decide."
+      "research_prompt": "I'm a long-term retail investor in Indian equities (NSE). My screener flagged Sterlite Technologies Ltd. (STLTECH) because it gained at least 3% on each of 1 consecutive sessions. I want your independent read - please push back on my screener rather than agreeing with it.\n\n## What my screener measured\n\n- Streak: 2026-11-09 to 2026-11-09, -6.8% cumulative\n- Daily gains: 2026-11-09 -6.80%\n- Last close: Rs 670.95\n- Sector: Telecommunication\n- Median 20-day turnover: Rs 160.5 crore\n- Volume vs 20-day median: 1.35x\n- Distance from 52-week high: -34.0%\n- Return 1M / 3M / 1Y: -33.7% / 5.0% / None%\n\n## Attribution my engine computed\n\n- Verdict: company_catalyst - Company-specific - investor communication disclosed to the exchange\n- Stock over the window: -6.8%\n- Sector median over the same window: -0.5%\n- Excess vs sector: -6.3 pp\n- Broad market median: +0.7%\n\n### NSE filings in the window\n\n- 2026-11-05 [catalyst] Analysts/Institutional Investor Meet/Con. Call Updates - Investor communication\n  Sterlite Technologies Limited has informed the Exchange about Schedule of meet\n\n### Recent headlines (unverified, from Google News)\n\n- Sterlite Technologies Share Price - Live NSE: STLTECH Stock Price & Chart - Upstox\n- Sterlite Technologies (NSEI:STLTECH) Stock Forecast & Analyst Predictions - Simply Wall St\n- STLTECH Forecast — Price Target — Prediction for 2027 - TradingView\n- Sterlite Technologies Ltd. Share Price Today - Sterlite Technologies Ltd. Stock Price Live NSE/BSE - CNBC TV18\n- Sterlite Technologies Ltd Slips 4.99% - Business Standard\n- Sterlite Technologies Ltd Share Price Today NSE/BSE Charts - Alice Blue\n\n## Fundamentals\n\n- Market cap: Rs 34,501 crore\n- Trailing P/E: 48.796364\n- Forward P/E: 18.735052\n- Price/Book: 7.592079\n- Return on equity: 22.92%\n- Debt/Equity: 21.77\n- Revenue growth (yoy): 144.6%\n- Earnings growth (yoy): 11600.0%\n- Operating margin: 27.8%\n- Net margin: 10.59%\n- Promoter holding: 50.83%\n- Institutional holding: 20.86%\n- Dividend yield: 0.0%\n- Analyst count: 3\n- Mean target price: 1473.3334\n\n### Sector medians (Telecommunication, 10 Nifty 500 peers)\n\n- Trailing P/E: 36.03\n- Price/Book: 6.79\n- Return on equity: 18.74%\n- Debt/Equity: 70.68\n- Revenue growth: 10.25%\n- Net margin: 12.57%\n\n### Data my engine could not get\n\n- Only 3 analysts cover this name, so the consensus target is thin and moves easily.\n\n## What I want from you\n\n1. **Why did it actually move?** My engine only sees exchange filings and price action. Check whether there is a real catalyst it missed - sector news, a peer's results, a policy change, an index inclusion, a block deal.\n2. **Is my engine's attribution wrong?** Say so directly if the evidence points elsewhere.\n3. **The one-year view.** Build a bull case and a bear case from the business, not from the chart. What has to be true for this to work, and what would break it? Be concrete about which numbers to watch.\n4. **What would you check that I have not?** Name the specific filings, segments or metrics.\n\nPlease flag anything above that looks stale or wrong, and tell me plainly if this looks like a speculative move rather than an investable one. I am not asking you to tell me whether to buy - I want the reasoning so I can decide."
     },
     {
       "symbol": "JUBLFOOD",
@@ -1205,7 +1244,7 @@
       "end_date": "2026-11-09",
       "is_current": true,
       "median_turnover_cr": 58.9,
-      "volume_ratio": 4.52,
+      "volume_ratio": 4.53,
       "pct_from_52w_high": -30.2,
       "returns": {
         "m1": 0.2,
@@ -1217,7 +1256,7 @@
           "date": "2026-11-09",
           "close": 428.5,
           "gain_pct": -6.28,
-          "volume": 6487614
+          "volume": 6488839
         }
       ],
       "attribution": {
@@ -1226,7 +1265,7 @@
         "explanation": [
           "The stock fell -6.3% over the session 2026-11-09.",
           "Its sector (Consumer Services) moved +0.1% over the same window, with 52% of its 23 Nifty 500 members advancing on the last session.",
-          "The broad market (median of 497 Nifty 500 names) moved +0.7% over the window, with 64% advancing on the last session.",
+          "The broad market (median of 499 Nifty 500 names) moved +0.7% over the window, with 64% advancing on the last session.",
           "The stock lagged its sector by 6.4 percentage points, so the move is company-specific rather than sector-wide.",
           "NSE filing 2026-11-06 18:27 - Investor communication: Analysts/Institutional Investor Meet/Con. Call Updates.",
           "NSE filing 2026-11-06 15:26 - Results announcement: General Updates.",
@@ -1238,7 +1277,7 @@
         "market_streak_pct": 0.66,
         "excess_vs_sector_pct": -6.36,
         "sector_breadth_pct": 52.0,
-        "volume_ratio": 4.52,
+        "volume_ratio": 4.53,
         "cautions": [
           "Senior management or auditor departure (filed 2026-11-06)",
           "Senior management or auditor departure (filed 2026-11-06)"
@@ -1319,12 +1358,6 @@
         ],
         "headlines": [
           {
-            "title": "Jubilant FoodWorks (NSEI:JUBLFOOD) - Stock Analysis - Simply Wall St",
-            "source": "Simply Wall St",
-            "published": "Fri, 06 Nov 2026 08:00:00 GMT",
-            "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNNEszMGtXbl9yV1ZxU2w0eHc0eFU3RVpJbGZPODRQd0J4ZUVLUFZDd0p2RThwd3h3Y29UTEZ6cWtGR2xiTXlRbC0zTHhaT1pMdk5uM1VjOVBMOVZ6UEkyeF84MEVHcVphYTM2R3E0Ui1wbC0wOFJzcFNma1IwMWRENzN3QW9sOEdYQjdnZ3loeXpsdw?oc=5"
-          },
-          {
             "title": "Earnings To Watch: Jubilant Foodworks Ltd (NSE:JUBLFOOD) Q1 2027 -- GF Value Sees 105% Upside - Yahoo Finance",
             "source": "Yahoo Finance",
             "published": "Wed, 12 Aug 2026 07:00:00 GMT",
@@ -1341,6 +1374,12 @@
             "source": "CNBC TV18",
             "published": "Sat, 03 Jan 2026 09:55:34 GMT",
             "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNY0IwOHdnLW9KZDNmUzB5SGN4SXdvSWcxM0E1alRBR0RNeVB4N0tTcTBnS1huRXl1dGNMamtqU2lfWERiOVlHU0kxckRqdDZOVjFIMUh3TV9QRXcxLTBRRjJxRHFkUjhzTHVpTUtIX2twUEI5LUtkazJYR3h1ZEJTT1EtSUFTZw?oc=5"
+          },
+          {
+            "title": "Jubilant FoodWorks Limited (NSE:JUBLFOOD) Looks Like A Good Stock, And It's Going Ex-Dividend Soon - Simply Wall St",
+            "source": "Simply Wall St",
+            "published": "Tue, 14 Jul 2026 07:00:00 GMT",
+            "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPc2hpMEFZVGdJeFIwWHc3cy04UEQ3XzNOLTJaVlNOZVktQ2FoLVpVVXl3S182Um5zcjVpMTNRV2ZEWjB6X3JrYVRKbm1Db0pMWTFjT1RmdzdFR1lTUUNZeFZJOU9rRjIweW1DeS1Cc3g2Rnd0WVNjWmpPTlVaQTBQOEg1dEdGMkxlUC0zN3M5eUFwQWp0ek9yeTVIZGRmZU1zVzBiRFUyQlBaZXNtM3N2QjZyaXRSUGUxTkdqazdRcmZwYk95YXNneTJoa2FhT3FtRmk5SjBDRE8ta25HU1RKTkVDYXpiaUs2UUHSAe8BQVVfeXFMT0VtajBXVDJCeWlpUFk0M3VjeEExRTFOMXZkaTZ4OE1uYmxoblc3MGphNXhsM19yYmNNLW5BcFZad004TUpZM3JPdmoxcVNqOWY4MmFYcVN2NThZdjk1Mk5pWXRXVnhkREpZVGdMVDhKTXQxVDJ4VDhrWHVPX3NsTmZOOF82dmFrSWJScDJGVGtqSW9WeVNtNmdieFVsUnMyZTZtcHJaOHdpZjBJZ1Q3UDQyajFvdDhYZU9iZHlLZEhsNXk2WmFxbFN0RUpwaEtyUEhmUWFPNWd5QkUtYV9nX01CUGdpSkIxd0d2Nk1uclU?oc=5"
           },
           {
             "title": "Jubilant Foodworks Ltd Share Price Today NSE/BSE Charts - Alice Blue",
@@ -1360,8 +1399,8 @@
         "symbol": "JUBLFOOD",
         "market_cap_cr": 28181.0,
         "trailing_pe": 75.840706,
-        "forward_pe": 47.077045,
-        "price_to_book": 12.294847,
+        "forward_pe": 47.825207,
+        "price_to_book": 11.334479,
         "roe_pct": 15.94,
         "debt_to_equity": 187.771,
         "revenue_growth_pct": 11.4,
@@ -1369,11 +1408,11 @@
         "operating_margin_pct": 9.65,
         "profit_margin_pct": 3.52,
         "promoter_holding_pct": 40.7,
-        "institutional_holding_pct": 45.74,
-        "dividend_yield_pct": 0.27,
+        "institutional_holding_pct": 45.8,
+        "dividend_yield_pct": 0.28,
         "current_ratio": 0.513,
         "beta": 0.216,
-        "target_mean": 553.3571,
+        "target_mean": 550.1429,
         "target_low": 430.0,
         "target_high": 680.0,
         "analyst_count": 28,
@@ -1383,7 +1422,7 @@
       "benchmark": {
         "industry": "Consumer Services",
         "peers": 22,
-        "trailing_pe": 57.49,
+        "trailing_pe": 57.41,
         "price_to_book": 8.28,
         "roe_pct": 10.02,
         "debt_to_equity": 17.38,
@@ -1395,13 +1434,13 @@
           {
             "name": "Trailing P/E",
             "value": "75.8",
-            "peer_value": "57.5",
+            "peer_value": "57.4",
             "stance": "bear",
             "note": "More expensive than the typical peer, so more of the growth is already priced in."
           },
           {
             "name": "Price / Book",
-            "value": "12.3",
+            "value": "11.3",
             "peer_value": "8.3",
             "stance": "bear",
             "note": "Trades at a premium to peer book value."
@@ -1437,12 +1476,12 @@
         ],
         "bull_case": [
           "Return on Equity 15.9% vs sector 10.0%. Converts shareholder capital into profit better than peers.",
-          "28 analysts publish a mean target of 553, 29% above the current price.",
+          "28 analysts publish a mean target of 550, 28% above the current price.",
           "Still 30% below its 52-week high, leaving recovery room if the business itself is intact."
         ],
         "bear_case": [
-          "Trailing P/E 75.8 vs sector 57.5. More expensive than the typical peer, so more of the growth is already priced in.",
-          "Price / Book 12.3 vs sector 8.3. Trades at a premium to peer book value.",
+          "Trailing P/E 75.8 vs sector 57.4. More expensive than the typical peer, so more of the growth is already priced in.",
+          "Price / Book 11.3 vs sector 8.3. Trades at a premium to peer book value.",
           "Debt / Equity 187.8 vs sector 17.4. More leveraged than peers, which amplifies any downturn.",
           "Revenue growth (yoy) 11.4% vs sector 19.8%. Growing more slowly than the sector.",
           "Net margin 3.5% vs sector 7.8%. Thinner margins than peers.",
@@ -1457,7 +1496,7 @@
         "bull_count": 1,
         "bear_count": 5
       },
-      "research_prompt": "I'm a long-term retail investor in Indian equities (NSE). My screener flagged Jubilant Foodworks Ltd. (JUBLFOOD) because it gained at least 3% on each of 1 consecutive sessions. I want your independent read - please push back on my screener rather than agreeing with it.\n\n## What my screener measured\n\n- Streak: 2026-11-09 to 2026-11-09, -6.3% cumulative\n- Daily gains: 2026-11-09 -6.28%\n- Last close: Rs 428.50\n- Sector: Consumer Services\n- Median 20-day turnover: Rs 58.9 crore\n- Volume vs 20-day median: 4.52x\n- Distance from 52-week high: -30.2%\n- Return 1M / 3M / 1Y: 0.2% / -11.9% / None%\n\n## Attribution my engine computed\n\n- Verdict: company_catalyst - Company-specific - investor communication disclosed to the exchange\n- Stock over the window: -6.3%\n- Sector median over the same window: +0.1%\n- Excess vs sector: -6.4 pp\n- Broad market median: +0.7%\n\n### NSE filings in the window\n\n- 2026-11-07 [neutral] Copy of Newspaper Publication - Routine or administrative disclosure\n  Jubilant Foodworks Limited has informed the Exchange about Copy of Newspaper Publication\n- 2026-11-06 [catalyst] Analysts/Institutional Investor Meet/Con. Call Updates - Investor communication\n  Jubilant FoodWorks Limited has informed the Exchange about Audio recording of Conference Call\n- 2026-11-06 [caution] Resignation of Director/KMP/SMP - Senior management or auditor departure\n  Jubilant Foodworks Limited has informed the Exchange about Resignation of Director/KMP/SMP\n- 2026-11-06 [caution] Resignation - Senior management or auditor departure\n  Jubilant Foodworks Limited has informed the Exchange regarding an update on the change in date of resignation of the Company Secretary\n- 2026-11-06 [catalyst] General Updates - Results announcement\n  Jubilant Foodworks Limited has informed the Exchange about Letter to Shareholders on Financial Results\n- 2026-11-06 [neutral] Change in Auditors - Routine or administrative disclosure\n  Jubilant Foodworks Limited has informed the Exchange regarding Change in Auditors of the company.\n- 2026-11-06 [catalyst] Outcome of Board Meeting - Results announcement\n  Jubilant Foodworks Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.\n- 2026-11-05 [neutral] Copy of Newspaper Publication - Routine or administrative disclosure\n  Jubilant FoodWorks Limited has informed the Exchange about Submission of Copies of Newspaper Publication\n\n### Caution flags my engine raised\n\n- Senior management or auditor departure (filed 2026-11-06)\n- Senior management or auditor departure (filed 2026-11-06)\n\n### Recent headlines (unverified, from Google News)\n\n- Jubilant FoodWorks (NSEI:JUBLFOOD) - Stock Analysis - Simply Wall St\n- Earnings To Watch: Jubilant Foodworks Ltd (NSE:JUBLFOOD) Q1 2027 -- GF Value Sees 105% Upside - Yahoo Finance\n- JUBLFOOD Forecast — Price Target — Prediction for 2027 - TradingView\n- Jubilant Foodworks Ltd. Share Price Today - Jubilant Foodworks Ltd. Stock Price Live NSE/BSE - CNBC TV18\n- Jubilant Foodworks Ltd Share Price Today NSE/BSE Charts - Alice Blue\n- Jubilant Food Share Price Today, Jubilant Food Stock Price Live NSE/BSE Updates - The Economic Times\n\n## Fundamentals\n\n- Market cap: Rs 28,181 crore\n- Trailing P/E: 75.840706\n- Forward P/E: 47.077045\n- Price/Book: 12.294847\n- Return on equity: 15.94%\n- Debt/Equity: 187.771\n- Revenue growth (yoy): 11.4%\n- Earnings growth (yoy): -44.5%\n- Operating margin: 9.65%\n- Net margin: 3.52%\n- Promoter holding: 40.7%\n- Institutional holding: 45.74%\n- Dividend yield: 0.27%\n- Analyst count: 28\n- Mean target price: 553.3571\n\n### Sector medians (Consumer Services, 22 Nifty 500 peers)\n\n- Trailing P/E: 57.49\n- Price/Book: 8.28\n- Return on equity: 10.02%\n- Debt/Equity: 17.38\n- Revenue growth: 19.8%\n- Net margin: 7.79%\n\n## What I want from you\n\n1. **Why did it actually move?** My engine only sees exchange filings and price action. Check whether there is a real catalyst it missed - sector news, a peer's results, a policy change, an index inclusion, a block deal.\n2. **Is my engine's attribution wrong?** Say so directly if the evidence points elsewhere.\n3. **The one-year view.** Build a bull case and a bear case from the business, not from the chart. What has to be true for this to work, and what would break it? Be concrete about which numbers to watch.\n4. **What would you check that I have not?** Name the specific filings, segments or metrics.\n\nPlease flag anything above that looks stale or wrong, and tell me plainly if this looks like a speculative move rather than an investable one. I am not asking you to tell me whether to buy - I want the reasoning so I can decide."
+      "research_prompt": "I'm a long-term retail investor in Indian equities (NSE). My screener flagged Jubilant Foodworks Ltd. (JUBLFOOD) because it gained at least 3% on each of 1 consecutive sessions. I want your independent read - please push back on my screener rather than agreeing with it.\n\n## What my screener measured\n\n- Streak: 2026-11-09 to 2026-11-09, -6.3% cumulative\n- Daily gains: 2026-11-09 -6.28%\n- Last close: Rs 428.50\n- Sector: Consumer Services\n- Median 20-day turnover: Rs 58.9 crore\n- Volume vs 20-day median: 4.53x\n- Distance from 52-week high: -30.2%\n- Return 1M / 3M / 1Y: 0.2% / -11.9% / None%\n\n## Attribution my engine computed\n\n- Verdict: company_catalyst - Company-specific - investor communication disclosed to the exchange\n- Stock over the window: -6.3%\n- Sector median over the same window: +0.1%\n- Excess vs sector: -6.4 pp\n- Broad market median: +0.7%\n\n### NSE filings in the window\n\n- 2026-11-07 [neutral] Copy of Newspaper Publication - Routine or administrative disclosure\n  Jubilant Foodworks Limited has informed the Exchange about Copy of Newspaper Publication\n- 2026-11-06 [catalyst] Analysts/Institutional Investor Meet/Con. Call Updates - Investor communication\n  Jubilant FoodWorks Limited has informed the Exchange about Audio recording of Conference Call\n- 2026-11-06 [caution] Resignation of Director/KMP/SMP - Senior management or auditor departure\n  Jubilant Foodworks Limited has informed the Exchange about Resignation of Director/KMP/SMP\n- 2026-11-06 [caution] Resignation - Senior management or auditor departure\n  Jubilant Foodworks Limited has informed the Exchange regarding an update on the change in date of resignation of the Company Secretary\n- 2026-11-06 [catalyst] General Updates - Results announcement\n  Jubilant Foodworks Limited has informed the Exchange about Letter to Shareholders on Financial Results\n- 2026-11-06 [neutral] Change in Auditors - Routine or administrative disclosure\n  Jubilant Foodworks Limited has informed the Exchange regarding Change in Auditors of the company.\n- 2026-11-06 [catalyst] Outcome of Board Meeting - Results announcement\n  Jubilant Foodworks Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.\n- 2026-11-05 [neutral] Copy of Newspaper Publication - Routine or administrative disclosure\n  Jubilant FoodWorks Limited has informed the Exchange about Submission of Copies of Newspaper Publication\n\n### Caution flags my engine raised\n\n- Senior management or auditor departure (filed 2026-11-06)\n- Senior management or auditor departure (filed 2026-11-06)\n\n### Recent headlines (unverified, from Google News)\n\n- Earnings To Watch: Jubilant Foodworks Ltd (NSE:JUBLFOOD) Q1 2027 -- GF Value Sees 105% Upside - Yahoo Finance\n- JUBLFOOD Forecast — Price Target — Prediction for 2027 - TradingView\n- Jubilant Foodworks Ltd. Share Price Today - Jubilant Foodworks Ltd. Stock Price Live NSE/BSE - CNBC TV18\n- Jubilant FoodWorks Limited (NSE:JUBLFOOD) Looks Like A Good Stock, And It's Going Ex-Dividend Soon - Simply Wall St\n- Jubilant Foodworks Ltd Share Price Today NSE/BSE Charts - Alice Blue\n- Jubilant Food Share Price Today, Jubilant Food Stock Price Live NSE/BSE Updates - The Economic Times\n\n## Fundamentals\n\n- Market cap: Rs 28,181 crore\n- Trailing P/E: 75.840706\n- Forward P/E: 47.825207\n- Price/Book: 11.334479\n- Return on equity: 15.94%\n- Debt/Equity: 187.771\n- Revenue growth (yoy): 11.4%\n- Earnings growth (yoy): -44.5%\n- Operating margin: 9.65%\n- Net margin: 3.52%\n- Promoter holding: 40.7%\n- Institutional holding: 45.8%\n- Dividend yield: 0.28%\n- Analyst count: 28\n- Mean target price: 550.1429\n\n### Sector medians (Consumer Services, 22 Nifty 500 peers)\n\n- Trailing P/E: 57.41\n- Price/Book: 8.28\n- Return on equity: 10.02%\n- Debt/Equity: 17.38\n- Revenue growth: 19.8%\n- Net margin: 7.79%\n\n## What I want from you\n\n1. **Why did it actually move?** My engine only sees exchange filings and price action. Check whether there is a real catalyst it missed - sector news, a peer's results, a policy change, an index inclusion, a block deal.\n2. **Is my engine's attribution wrong?** Say so directly if the evidence points elsewhere.\n3. **The one-year view.** Build a bull case and a bear case from the business, not from the chart. What has to be true for this to work, and what would break it? Be concrete about which numbers to watch.\n4. **What would you check that I have not?** Name the specific filings, segments or metrics.\n\nPlease flag anything above that looks stale or wrong, and tell me plainly if this looks like a speculative move rather than an investable one. I am not asking you to tell me whether to buy - I want the reasoning so I can decide."
     },
     {
       "symbol": "CONCORDBIO",
@@ -1482,7 +1521,7 @@
           "date": "2026-11-09",
           "close": 596.7999877929688,
           "gain_pct": -5.66,
-          "volume": 413601
+          "volume": 413912
         }
       ],
       "attribution": {
@@ -1491,7 +1530,7 @@
         "explanation": [
           "The stock fell -5.7% over the session 2026-11-09.",
           "Its sector (Healthcare) moved +2.1% over the same window, with 84% of its 44 Nifty 500 members advancing on the last session.",
-          "The broad market (median of 497 Nifty 500 names) moved +0.7% over the window, with 64% advancing on the last session.",
+          "The broad market (median of 499 Nifty 500 names) moved +0.7% over the window, with 64% advancing on the last session.",
           "The stock lagged its sector by 7.8 percentage points, so the move is company-specific rather than sector-wide.",
           "NSE filing 2026-11-05 18:10 - Shareholder return action: General Updates."
         ],
@@ -1568,7 +1607,7 @@
         "profit_margin_pct": 24.13,
         "promoter_holding_pct": 72.48,
         "institutional_holding_pct": 14.77,
-        "dividend_yield_pct": 0.62,
+        "dividend_yield_pct": 0.63,
         "current_ratio": 6.399,
         "beta": 0.441,
         "target_mean": 760.5,
@@ -1583,9 +1622,9 @@
         "peers": 43,
         "trailing_pe": 51.96,
         "price_to_book": 6.72,
-        "roe_pct": 14.98,
-        "debt_to_equity": 18.57,
-        "revenue_growth_pct": 20.3,
+        "roe_pct": 15.21,
+        "debt_to_equity": 21.9,
+        "revenue_growth_pct": 20.8,
         "profit_margin_pct": 14.31
       },
       "scorecard": {
@@ -1607,21 +1646,21 @@
           {
             "name": "Return on Equity",
             "value": "14.3%",
-            "peer_value": "15.0%",
+            "peer_value": "15.2%",
             "stance": "neutral",
             "note": "In line with the sector."
           },
           {
             "name": "Debt / Equity",
             "value": "0.1",
-            "peer_value": "18.6",
+            "peer_value": "21.9",
             "stance": "bull",
             "note": "Carries less leverage than peers, so less earnings risk if rates rise."
           },
           {
             "name": "Revenue growth (yoy)",
             "value": "25.1%",
-            "peer_value": "20.3%",
+            "peer_value": "20.8%",
             "stance": "bull",
             "note": "Growing the top line faster than the sector."
           },
@@ -1635,8 +1674,8 @@
         ],
         "bull_case": [
           "Trailing P/E 44.7 vs sector 52.0. Cheaper than the typical peer on trailing earnings.",
-          "Debt / Equity 0.1 vs sector 18.6. Carries less leverage than peers, so less earnings risk if rates rise.",
-          "Revenue growth (yoy) 25.1% vs sector 20.3%. Growing the top line faster than the sector.",
+          "Debt / Equity 0.1 vs sector 21.9. Carries less leverage than peers, so less earnings risk if rates rise.",
+          "Revenue growth (yoy) 25.1% vs sector 20.8%. Growing the top line faster than the sector.",
           "Net margin 24.1% vs sector 14.3%. Keeps more of every rupee of revenue than peers.",
           "Promoters hold 72%, so their interests stay tied to the share price.",
           "5 analysts publish a mean target of 760, 27% above the current price."
@@ -1650,7 +1689,7 @@
         "bull_count": 4,
         "bear_count": 0
       },
-      "research_prompt": "I'm a long-term retail investor in Indian equities (NSE). My screener flagged Concord Biotech Ltd. (CONCORDBIO) because it gained at least 3% on each of 1 consecutive sessions. I want your independent read - please push back on my screener rather than agreeing with it.\n\n## What my screener measured\n\n- Streak: 2026-11-09 to 2026-11-09, -5.7% cumulative\n- Daily gains: 2026-11-09 -5.66%\n- Last close: Rs 596.80\n- Sector: Healthcare\n- Median 20-day turnover: Rs 14.7 crore\n- Volume vs 20-day median: 1.78x\n- Distance from 52-week high: -24.8%\n- Return 1M / 3M / 1Y: -10.3% / -12.6% / None%\n\n## Attribution my engine computed\n\n- Verdict: company_catalyst - Company-specific - shareholder return action disclosed to the exchange\n- Stock over the window: -5.7%\n- Sector median over the same window: +2.1%\n- Excess vs sector: -7.8 pp\n- Broad market median: +0.7%\n\n### NSE filings in the window\n\n- 2026-11-05 [catalyst] General Updates - Shareholder return action\n  Intimation of allotment of Bonus equity shares\n\n### Caution flags my engine raised\n\n- Thin liquidity - median daily turnover is only Rs 15 crore\n\n### Recent headlines (unverified, from Google News)\n\n- Concord Biotech (NSEI:CONCORDBIO) Stock Forecast & Analyst Predictions - Simply Wall St\n- Concord Biotech Ltd. Share Price Today - Concord Biotech Ltd. Stock Price Live NSE/BSE - CNBC TV18\n- Concord Biotech Ltd. Share Price Rises on Strong Session - Univest\n- CONCORDBIO Stock Price and Chart — NSE:CONCORDBIO - TradingView\n- Is It Worth Considering Concord Biotech Limited (NSE:CONCORDBIO) For Its Upcoming Dividend? - Simply Wall St\n- Concord Biotech Ltd Share Price Today | Concord Biotech Live NSE/BSE - Value Research\n\n## Fundamentals\n\n- Market cap: Rs 12,487 crore\n- Trailing P/E: 44.704117\n- Forward P/E: 28.866323\n- Price/Book: 6.1093707\n- Return on equity: 14.33%\n- Debt/Equity: 0.084\n- Revenue growth (yoy): 25.1%\n- Earnings growth (yoy): 10.3%\n- Operating margin: 27.83%\n- Net margin: 24.13%\n- Promoter holding: 72.48%\n- Institutional holding: 14.77%\n- Dividend yield: 0.62%\n- Analyst count: 5\n- Mean target price: 760.5\n\n### Sector medians (Healthcare, 43 Nifty 500 peers)\n\n- Trailing P/E: 51.96\n- Price/Book: 6.72\n- Return on equity: 14.98%\n- Debt/Equity: 18.57\n- Revenue growth: 20.3%\n- Net margin: 14.31%\n\n## What I want from you\n\n1. **Why did it actually move?** My engine only sees exchange filings and price action. Check whether there is a real catalyst it missed - sector news, a peer's results, a policy change, an index inclusion, a block deal.\n2. **Is my engine's attribution wrong?** Say so directly if the evidence points elsewhere.\n3. **The one-year view.** Build a bull case and a bear case from the business, not from the chart. What has to be true for this to work, and what would break it? Be concrete about which numbers to watch.\n4. **What would you check that I have not?** Name the specific filings, segments or metrics.\n\nPlease flag anything above that looks stale or wrong, and tell me plainly if this looks like a speculative move rather than an investable one. I am not asking you to tell me whether to buy - I want the reasoning so I can decide."
+      "research_prompt": "I'm a long-term retail investor in Indian equities (NSE). My screener flagged Concord Biotech Ltd. (CONCORDBIO) because it gained at least 3% on each of 1 consecutive sessions. I want your independent read - please push back on my screener rather than agreeing with it.\n\n## What my screener measured\n\n- Streak: 2026-11-09 to 2026-11-09, -5.7% cumulative\n- Daily gains: 2026-11-09 -5.66%\n- Last close: Rs 596.80\n- Sector: Healthcare\n- Median 20-day turnover: Rs 14.7 crore\n- Volume vs 20-day median: 1.78x\n- Distance from 52-week high: -24.8%\n- Return 1M / 3M / 1Y: -10.3% / -12.6% / None%\n\n## Attribution my engine computed\n\n- Verdict: company_catalyst - Company-specific - shareholder return action disclosed to the exchange\n- Stock over the window: -5.7%\n- Sector median over the same window: +2.1%\n- Excess vs sector: -7.8 pp\n- Broad market median: +0.7%\n\n### NSE filings in the window\n\n- 2026-11-05 [catalyst] General Updates - Shareholder return action\n  Intimation of allotment of Bonus equity shares\n\n### Caution flags my engine raised\n\n- Thin liquidity - median daily turnover is only Rs 15 crore\n\n### Recent headlines (unverified, from Google News)\n\n- Concord Biotech (NSEI:CONCORDBIO) Stock Forecast & Analyst Predictions - Simply Wall St\n- Concord Biotech Ltd. Share Price Today - Concord Biotech Ltd. Stock Price Live NSE/BSE - CNBC TV18\n- Concord Biotech Ltd. Share Price Rises on Strong Session - Univest\n- CONCORDBIO Stock Price and Chart — NSE:CONCORDBIO - TradingView\n- Is It Worth Considering Concord Biotech Limited (NSE:CONCORDBIO) For Its Upcoming Dividend? - Simply Wall St\n- Concord Biotech Ltd Share Price Today | Concord Biotech Live NSE/BSE - Value Research\n\n## Fundamentals\n\n- Market cap: Rs 12,487 crore\n- Trailing P/E: 44.704117\n- Forward P/E: 28.866323\n- Price/Book: 6.1093707\n- Return on equity: 14.33%\n- Debt/Equity: 0.084\n- Revenue growth (yoy): 25.1%\n- Earnings growth (yoy): 10.3%\n- Operating margin: 27.83%\n- Net margin: 24.13%\n- Promoter holding: 72.48%\n- Institutional holding: 14.77%\n- Dividend yield: 0.63%\n- Analyst count: 5\n- Mean target price: 760.5\n\n### Sector medians (Healthcare, 43 Nifty 500 peers)\n\n- Trailing P/E: 51.96\n- Price/Book: 6.72\n- Return on equity: 15.21%\n- Debt/Equity: 21.9\n- Revenue growth: 20.8%\n- Net margin: 14.31%\n\n## What I want from you\n\n1. **Why did it actually move?** My engine only sees exchange filings and price action. Check whether there is a real catalyst it missed - sector news, a peer's results, a policy change, an index inclusion, a block deal.\n2. **Is my engine's attribution wrong?** Say so directly if the evidence points elsewhere.\n3. **The one-year view.** Build a bull case and a bear case from the business, not from the chart. What has to be true for this to work, and what would break it? Be concrete about which numbers to watch.\n4. **What would you check that I have not?** Name the specific filings, segments or metrics.\n\nPlease flag anything above that looks stale or wrong, and tell me plainly if this looks like a speculative move rather than an investable one. I am not asking you to tell me whether to buy - I want the reasoning so I can decide."
     }
   ],
   "stats": {
@@ -1661,7 +1700,5 @@
     "losers": 3,
     "enriched": 1
   },
-  "new_alerts": [
-    "KALYANKJIL@2026-11-09"
-  ]
+  "new_alerts": []
 }
