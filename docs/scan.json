@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-20T23:40:59+05:30",
+  "generated_at": "2026-11-24T03:20:06+05:30",
   "session": "2026-11-20",
   "config": {
     "daily_gain_pct": 3.0,
@@ -13,19 +13,11 @@
   },
   "market": {
     "median_day_pct": -0.01,
-    "median_streak_pct": 0.18,
+    "median_streak_pct": 0.19,
     "breadth_pct": 49.9,
-    "names": 497
+    "names": 499
   },
   "sectors": [
-    {
-      "industry": "Realty",
-      "median_day_pct": 1.51,
-      "median_streak_pct": 1.3,
-      "breadth_pct": 72.7,
-      "members": 11,
-      "reliable": true
-    },
     {
       "industry": "Construction Materials",
       "median_day_pct": 1.43,
@@ -40,6 +32,14 @@
       "median_streak_pct": 0.66,
       "breadth_pct": 76.0,
       "members": 25,
+      "reliable": true
+    },
+    {
+      "industry": "Realty",
+      "median_day_pct": 1.33,
+      "median_streak_pct": 1.28,
+      "breadth_pct": 69.2,
+      "members": 13,
       "reliable": true
     },
     {
@@ -204,7 +204,7 @@
           "date": "2026-11-20",
           "close": 1003.0,
           "gain_pct": 8.59,
-          "volume": 19128829
+          "volume": 19129803
         }
       ],
       "attribution": {
@@ -213,7 +213,7 @@
         "explanation": [
           "The stock gained +8.6% over the session 2026-11-20.",
           "Its sector (Financial Services) moved +0.4% over the same window, with 63% of its 98 Nifty 500 members advancing on the last session.",
-          "The broad market (median of 497 Nifty 500 names) moved -0.0% over the window, with 50% advancing on the last session.",
+          "The broad market (median of 499 Nifty 500 names) moved -0.0% over the window, with 50% advancing on the last session.",
           "The stock outpaced its sector by 8.2 percentage points, so the move is company-specific rather than sector-wide.",
           "NSE filing 2026-11-20 18:41 - Investor communication: Analysts/Institutional Investor Meet/Con. Call Updates.",
           "NSE filing 2026-11-19 18:07 - Investor communication: Analysts/Institutional Investor Meet/Con. Call Updates.",
@@ -314,7 +314,7 @@
           {
             "title": "IndusInd Bank Share Price - Live NSE: INDUSINDBK Stock Price & Chart - Upstox",
             "source": "Upstox",
-            "published": "Wed, 18 Nov 2026 16:51:00 GMT",
+            "published": "Fri, 20 Nov 2026 08:00:00 GMT",
             "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5tWVVkR3VNZVlTUnVsRUhCNENPSXVWTElhYXJ6OTVRMDZEWWVYUW95Z2R1YmlMN0NlWkNYQjhIalV1elBPbjd3OTVsXzhWRDU1b014VmxKTWFTal9YX05iNUxzY29CbkJYOG1kSQ?oc=5"
           },
           {
@@ -351,10 +351,10 @@
       },
       "fundamentals": {
         "symbol": "INDUSINDBK",
-        "market_cap_cr": 78148.0,
-        "trailing_pe": 26.085825,
-        "forward_pe": 12.253494,
-        "price_to_book": 1.1504167,
+        "market_cap_cr": 75032.0,
+        "trailing_pe": 25.045513,
+        "forward_pe": 11.76482,
+        "price_to_book": 1.1045377,
         "roe_pct": 4.51,
         "debt_to_equity": null,
         "revenue_growth_pct": 63.1,
@@ -363,22 +363,22 @@
         "profit_margin_pct": 15.68,
         "promoter_holding_pct": 16.34,
         "institutional_holding_pct": 57.16,
-        "dividend_yield_pct": 0.16,
+        "dividend_yield_pct": 0.15,
         "current_ratio": null,
         "beta": 0.499,
         "target_mean": 964.0541,
         "target_low": 760.0,
         "target_high": 1200.0,
         "analyst_count": 37,
-        "current_price": 1003.0,
+        "current_price": 963.0,
         "business_summary": "IndusInd Bank Limited provides various banking products and financial services to individuals, corporations, government entities, and public sector undertakings in India. It operates in four segments: Treasury, Corporate/Wholesale Banking, Retail Banking, and Other Banking Operations. The company offers savings, salary, current, and uniformed personnel accounts; fixed, recurring, auto sweep, senior citizen fixed, and term deposits; vehicle, used and new car, two wheeler, home, gold, agri, personal, medical equipment, term, business, and MSME loans; loans against property and securities; loans on credit card; and working capital, supply chain, and trade finance. It also provides debit, credit, prepaid, forex, duo, corporate, and business cards; life, health, and general insurance; foreign exchange services, including inward and outward remittances, and online forex portals; digital and WhatsApp banking; and national pension system, sovereign gold bonds, and government securities. In addition, the company offers mutual funds; bill payment; money transfer; NRI services; merchant solutions comprising POS terminal, payment gateway, digital rupee, and soundbox; transaction banking services, including trade finance, cash management, and tax payment; supply chain finance solutions, including supplier/vendor finance, channel finance, and receivable finance/factoring solutions; investment banking services consisting of debt syndication, debt and private equity fund-raising advisory, and M&A advisory; and inclusive banking. IndusInd Bank Limited was incorporated in 1994 and is headquartered in Mumbai, India."
       },
       "benchmark": {
         "industry": "Financial Services",
         "peers": 97,
-        "trailing_pe": 19.96,
-        "price_to_book": 2.33,
-        "roe_pct": 14.37,
+        "trailing_pe": 19.47,
+        "price_to_book": 2.29,
+        "roe_pct": 14.31,
         "debt_to_equity": 172.27,
         "revenue_growth_pct": 17.6,
         "profit_margin_pct": 34.32
@@ -387,14 +387,14 @@
         "factors": [
           {
             "name": "Trailing P/E",
-            "value": "26.1",
-            "peer_value": "20.0",
+            "value": "25.0",
+            "peer_value": "19.5",
             "stance": "bear",
             "note": "More expensive than the typical peer, so more of the growth is already priced in."
           },
           {
             "name": "Price / Book",
-            "value": "1.2",
+            "value": "1.1",
             "peer_value": "2.3",
             "stance": "bull",
             "note": "Trades at a lower multiple of book value than peers."
@@ -402,7 +402,7 @@
           {
             "name": "Return on Equity",
             "value": "4.5%",
-            "peer_value": "14.4%",
+            "peer_value": "14.3%",
             "stance": "bear",
             "note": "Earns less on shareholder capital than peers do."
           },
@@ -429,15 +429,15 @@
           }
         ],
         "bull_case": [
-          "Price / Book 1.2 vs sector 2.3. Trades at a lower multiple of book value than peers.",
-          "Revenue growth (yoy) 63.1% vs sector 17.6%. Growing the top line faster than the sector."
+          "Price / Book 1.1 vs sector 2.3. Trades at a lower multiple of book value than peers.",
+          "Revenue growth (yoy) 63.1% vs sector 17.6%. Growing the top line faster than the sector.",
+          "37 analysts publish a mean target of 964, 0% above the current price."
         ],
         "bear_case": [
-          "Trailing P/E 26.1 vs sector 20.0. More expensive than the typical peer, so more of the growth is already priced in.",
-          "Return on Equity 4.5% vs sector 14.4%. Earns less on shareholder capital than peers do.",
+          "Trailing P/E 25.0 vs sector 19.5. More expensive than the typical peer, so more of the growth is already priced in.",
+          "Return on Equity 4.5% vs sector 14.3%. Earns less on shareholder capital than peers do.",
           "Net margin 15.7% vs sector 34.3%. Thinner margins than peers.",
-          "Promoter holding is only 16%, which offers little downside alignment and leaves control contestable.",
-          "37 analysts publish a mean target of 964, 4% below the current price."
+          "Promoter holding is only 16%, which offers little downside alignment and leaves control contestable."
         ],
         "invalidators": [
           "Two consecutive quarters of revenue or margin decline would remove the growth premise this rests on.",
@@ -449,7 +449,7 @@
         "bull_count": 2,
         "bear_count": 3
       },
-      "research_prompt": "I'm a long-term retail investor in Indian equities (NSE). My screener flagged IndusInd Bank Ltd. (INDUSINDBK) because it gained at least 3% on each of 1 consecutive sessions. I want your independent read - please push back on my screener rather than agreeing with it.\n\n## What my screener measured\n\n- Streak: 2026-11-20 to 2026-11-20, +8.6% cumulative\n- Daily gains: 2026-11-20 +8.59%\n- Last close: Rs 1,003.00\n- Sector: Financial Services\n- Median 20-day turnover: Rs 216.1 crore\n- Volume vs 20-day median: 8.22x\n- Distance from 52-week high: -6.2%\n- Return 1M / 3M / 1Y: 18.1% / -1.3% / None%\n\n## Attribution my engine computed\n\n- Verdict: company_catalyst - Company-specific - investor communication disclosed to the exchange\n- Stock over the window: +8.6%\n- Sector median over the same window: +0.4%\n- Excess vs sector: +8.2 pp\n- Broad market median: -0.0%\n\n### NSE filings in the window\n\n- 2026-11-20 [neutral] General Updates - Routine or administrative disclosure\n  Indusind Bank Limited has informed the Exchange about General Updates\n- 2026-11-20 [catalyst] Analysts/Institutional Investor Meet/Con. Call Updates - Investor communication\n  IndusInd Bank Limited has informed the Exchange about Schedule of analysts/institutional investors meet\n- 2026-11-20 [neutral] General Updates - Routine or administrative disclosure\n  IndusInd Bank Limited has informed the Exchange about Grant of Stock Options under the Employee Stock Option Scheme of the Bank (ESOP Scheme)\n- 2026-11-19 [catalyst] Analysts/Institutional Investor Meet/Con. Call Updates - Investor communication\n  IndusInd Bank Limited has informed the Exchange about Outcome of Analysts/institutional investors meet\n- 2026-11-19 [catalyst] Analysts/Institutional Investor Meet/Con. Call Updates - Investor communication\n  IndusInd Bank Limited has informed the Exchange about Outcome of Analysts/institutional investors meet\n- 2026-11-17 [neutral] Copy of Newspaper Publication - Routine or administrative disclosure\n  IndusInd Bank Limited has informed the Exchange about Copy of Newspaper Publication\n- 2026-11-17 [neutral] Press Release - Routine or administrative disclosure\n  IndusInd Bank Limited has informed the Exchange regarding a press release dated November 17, 2026, titled \"Mastercard Move and IndusInd Bank collaborate to enhance outbound cross-b\n- 2026-11-16 [catalyst] Analysts/Institutional Investor Meet/Con. Call Updates - Investor communication\n  IndusInd Bank Limited has informed the Exchange about the outcome of Analyst/Investor Meeting.\n- 2026-11-16 [neutral] Shareholders meeting - Routine or administrative disclosure\n  Indusind Bank Limited has informed the Exchange regarding Notice of Postal Ballot\n\n### Recent headlines (unverified, from Google News)\n\n- IndusInd Bank Share Price - Live NSE: INDUSINDBK Stock Price & Chart - Upstox\n- IndusInd Bank (INDUSINDBK) Share Price Today (NSE), Market News - TechGraph\n- IndusInd Bank (NSEI:INDUSINDBK) Stock Forecast & Analyst Predictions - Simply Wall St\n- INDUSINDBK Forecast — Price Target — Prediction for 2027 - TradingView\n- IndusInd Bank Ltd. Share Price Today - IndusInd Bank Ltd. Stock Price Live NSE/BSE - CNBC TV18\n- IndusInd Bank Ltd Share Price Today NSE/BSE Charts - Alice Blue\n\n## Fundamentals\n\n- Market cap: Rs 78,148 crore\n- Trailing P/E: 26.085825\n- Forward P/E: 12.253494\n- Price/Book: 1.1504167\n- Return on equity: 4.51%\n- Revenue growth (yoy): 63.1%\n- Operating margin: 19.37%\n- Net margin: 15.68%\n- Promoter holding: 16.34%\n- Institutional holding: 57.16%\n- Dividend yield: 0.16%\n- Analyst count: 37\n- Mean target price: 964.0541\n\n### Sector medians (Financial Services, 97 Nifty 500 peers)\n\n- Trailing P/E: 19.96\n- Price/Book: 2.33\n- Return on equity: 14.37%\n- Debt/Equity: 172.27\n- Revenue growth: 17.6%\n- Net margin: 34.32%\n\n### Data my engine could not get\n\n- Debt / Equity unavailable\n\n## What I want from you\n\n1. **Why did it actually move?** My engine only sees exchange filings and price action. Check whether there is a real catalyst it missed - sector news, a peer's results, a policy change, an index inclusion, a block deal.\n2. **Is my engine's attribution wrong?** Say so directly if the evidence points elsewhere.\n3. **The one-year view.** Build a bull case and a bear case from the business, not from the chart. What has to be true for this to work, and what would break it? Be concrete about which numbers to watch.\n4. **What would you check that I have not?** Name the specific filings, segments or metrics.\n\nPlease flag anything above that looks stale or wrong, and tell me plainly if this looks like a speculative move rather than an investable one. I am not asking you to tell me whether to buy - I want the reasoning so I can decide."
+      "research_prompt": "I'm a long-term retail investor in Indian equities (NSE). My screener flagged IndusInd Bank Ltd. (INDUSINDBK) because it gained at least 3% on each of 1 consecutive sessions. I want your independent read - please push back on my screener rather than agreeing with it.\n\n## What my screener measured\n\n- Streak: 2026-11-20 to 2026-11-20, +8.6% cumulative\n- Daily gains: 2026-11-20 +8.59%\n- Last close: Rs 1,003.00\n- Sector: Financial Services\n- Median 20-day turnover: Rs 216.1 crore\n- Volume vs 20-day median: 8.22x\n- Distance from 52-week high: -6.2%\n- Return 1M / 3M / 1Y: 18.1% / -1.3% / None%\n\n## Attribution my engine computed\n\n- Verdict: company_catalyst - Company-specific - investor communication disclosed to the exchange\n- Stock over the window: +8.6%\n- Sector median over the same window: +0.4%\n- Excess vs sector: +8.2 pp\n- Broad market median: -0.0%\n\n### NSE filings in the window\n\n- 2026-11-20 [neutral] General Updates - Routine or administrative disclosure\n  Indusind Bank Limited has informed the Exchange about General Updates\n- 2026-11-20 [catalyst] Analysts/Institutional Investor Meet/Con. Call Updates - Investor communication\n  IndusInd Bank Limited has informed the Exchange about Schedule of analysts/institutional investors meet\n- 2026-11-20 [neutral] General Updates - Routine or administrative disclosure\n  IndusInd Bank Limited has informed the Exchange about Grant of Stock Options under the Employee Stock Option Scheme of the Bank (ESOP Scheme)\n- 2026-11-19 [catalyst] Analysts/Institutional Investor Meet/Con. Call Updates - Investor communication\n  IndusInd Bank Limited has informed the Exchange about Outcome of Analysts/institutional investors meet\n- 2026-11-19 [catalyst] Analysts/Institutional Investor Meet/Con. Call Updates - Investor communication\n  IndusInd Bank Limited has informed the Exchange about Outcome of Analysts/institutional investors meet\n- 2026-11-17 [neutral] Copy of Newspaper Publication - Routine or administrative disclosure\n  IndusInd Bank Limited has informed the Exchange about Copy of Newspaper Publication\n- 2026-11-17 [neutral] Press Release - Routine or administrative disclosure\n  IndusInd Bank Limited has informed the Exchange regarding a press release dated November 17, 2026, titled \"Mastercard Move and IndusInd Bank collaborate to enhance outbound cross-b\n- 2026-11-16 [catalyst] Analysts/Institutional Investor Meet/Con. Call Updates - Investor communication\n  IndusInd Bank Limited has informed the Exchange about the outcome of Analyst/Investor Meeting.\n- 2026-11-16 [neutral] Shareholders meeting - Routine or administrative disclosure\n  Indusind Bank Limited has informed the Exchange regarding Notice of Postal Ballot\n\n### Recent headlines (unverified, from Google News)\n\n- IndusInd Bank Share Price - Live NSE: INDUSINDBK Stock Price & Chart - Upstox\n- IndusInd Bank (INDUSINDBK) Share Price Today (NSE), Market News - TechGraph\n- IndusInd Bank (NSEI:INDUSINDBK) Stock Forecast & Analyst Predictions - Simply Wall St\n- INDUSINDBK Forecast — Price Target — Prediction for 2027 - TradingView\n- IndusInd Bank Ltd. Share Price Today - IndusInd Bank Ltd. Stock Price Live NSE/BSE - CNBC TV18\n- IndusInd Bank Ltd Share Price Today NSE/BSE Charts - Alice Blue\n\n## Fundamentals\n\n- Market cap: Rs 75,032 crore\n- Trailing P/E: 25.045513\n- Forward P/E: 11.76482\n- Price/Book: 1.1045377\n- Return on equity: 4.51%\n- Revenue growth (yoy): 63.1%\n- Operating margin: 19.37%\n- Net margin: 15.68%\n- Promoter holding: 16.34%\n- Institutional holding: 57.16%\n- Dividend yield: 0.15%\n- Analyst count: 37\n- Mean target price: 964.0541\n\n### Sector medians (Financial Services, 97 Nifty 500 peers)\n\n- Trailing P/E: 19.47\n- Price/Book: 2.29\n- Return on equity: 14.31%\n- Debt/Equity: 172.27\n- Revenue growth: 17.6%\n- Net margin: 34.32%\n\n### Data my engine could not get\n\n- Debt / Equity unavailable\n\n## What I want from you\n\n1. **Why did it actually move?** My engine only sees exchange filings and price action. Check whether there is a real catalyst it missed - sector news, a peer's results, a policy change, an index inclusion, a block deal.\n2. **Is my engine's attribution wrong?** Say so directly if the evidence points elsewhere.\n3. **The one-year view.** Build a bull case and a bear case from the business, not from the chart. What has to be true for this to work, and what would break it? Be concrete about which numbers to watch.\n4. **What would you check that I have not?** Name the specific filings, segments or metrics.\n\nPlease flag anything above that looks stale or wrong, and tell me plainly if this looks like a speculative move rather than an investable one. I am not asking you to tell me whether to buy - I want the reasoning so I can decide."
     },
     {
       "symbol": "EIHOTEL",
@@ -474,7 +474,7 @@
           "date": "2026-11-20",
           "close": 334.1499938964844,
           "gain_pct": 7.79,
-          "volume": 5105584
+          "volume": 5105769
         }
       ],
       "attribution": {
@@ -483,7 +483,7 @@
         "explanation": [
           "The stock gained +7.8% over the session 2026-11-20.",
           "Its sector (Consumer Services) moved +0.3% over the same window, with 52% of its 23 Nifty 500 members advancing on the last session.",
-          "The broad market (median of 497 Nifty 500 names) moved -0.0% over the window, with 50% advancing on the last session.",
+          "The broad market (median of 499 Nifty 500 names) moved -0.0% over the window, with 50% advancing on the last session.",
           "The stock outpaced its sector by 7.5 percentage points, so the move is company-specific rather than sector-wide.",
           "NSE filing 2026-11-20 13:30 - Investor communication: Analysts/Institutional Investor Meet/Con. Call Updates.",
           "NSE filing 2026-11-16 18:51 - Investor communication: Analysts/Institutional Investor Meet/Con. Call Updates.",
@@ -530,9 +530,15 @@
         ],
         "headlines": [
           {
+            "title": "EIH Ltd. Share Price Today - EIH Ltd. Stock Price Live NSE/BSE - CNBC TV18",
+            "source": "CNBC TV18",
+            "published": "Fri, 20 Nov 2026 10:00:00 GMT",
+            "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5yUTNHRy1qVXVqcW1fRHRuSDZCd1FaT1Q3dkFSdEJtdUJRc1hsbVJfWXR4aE9MVnFHdFAzYjBNQzdzMnV0czFIVFJUaHR4RXZ6ZzZaaEY2aHk1TDdDVVJoU3FrNUJ4ZU9xWDJuVjM4cDU?oc=5"
+          },
+          {
             "title": "EIH Limited Share Price - Live NSE: EIHOTEL Stock Price & Chart - Upstox",
             "source": "Upstox",
-            "published": "Wed, 18 Nov 2026 07:38:41 GMT",
+            "published": "Fri, 20 Nov 2026 08:00:00 GMT",
             "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBqaWhDWGNZVzlsbzNtcXJabHF5eExlSUxTdTJ2ZDhYbnBtMk5ZdklJWkZrMGN5SGZ5VjNWN2pMUlBHWjlSdnZjaWlGQm1YaWNQWjJMeFgtNWlid0o2NVYw?oc=5"
           },
           {
@@ -542,37 +548,31 @@
             "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5HU1NfZW1WNXdQQ2diOFlpQmY4alBMTy0xcXJmNFhFbVctNWllYTRrT21QRXo0TDEwOF9LYWFzUGo4Y0JFNHdUc1l5cWJDcGNFU01zNklSY1hZNENGNFNJMGVKRlNfQVE2S0JTYUcyYl9kdw?oc=5"
           },
           {
-            "title": "EIH (NSEI:EIHOTEL) - Stock Analysis - Simply Wall St",
-            "source": "Simply Wall St",
-            "published": "Mon, 16 Nov 2026 08:00:00 GMT",
-            "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFAwZjhwd19nTHlWajBYd1A5R1hWMzVhcm1fTmFudnJmbXZSYkJGR3JDYmtQbWREX0poZ00wN1M2emRUTVhPb0YyekRTUWNoMG81SUpaS09sNkFUSmg1SDYwcFFoMHFTM0FzbndnQU5hTmIwbmNLc1IyeUp6eGc?oc=5"
-          },
-          {
             "title": "EIH Ltd Share Price Today NSE/BSE Charts - Alice Blue",
             "source": "Alice Blue",
             "published": "Tue, 25 Aug 2026 21:36:24 GMT",
             "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1NaDJjR0VNVFo4RjFLMjJzb1M5Y1RMdVBXNEVtN2RqaFBKWm5meW5uMGpXSmdiMXBRU1FFa3U4UGMwSWx1MHNuWm5kRjRobkozaXhkbFdjZ0N6Rk11NDZLRW9CYw?oc=5"
           },
           {
-            "title": "EIH Ltd. Share Price Today - EIH Ltd. Stock Price Live NSE/BSE - CNBC TV18",
-            "source": "CNBC TV18",
-            "published": "Sat, 03 Jan 2026 06:42:28 GMT",
-            "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5yUTNHRy1qVXVqcW1fRHRuSDZCd1FaT1Q3dkFSdEJtdUJRc1hsbVJfWXR4aE9MVnFHdFAzYjBNQzdzMnV0czFIVFJUaHR4RXZ6ZzZaaEY2aHk1TDdDVVJoU3FrNUJ4ZU9xWDJuVjM4cDU?oc=5"
-          },
-          {
             "title": "Is Now The Time To Put EIH (NSE:EIHOTEL) On Your Watchlist? - Simply Wall St",
             "source": "Simply Wall St",
             "published": "Mon, 09 Nov 2026 08:00:00 GMT",
             "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPdnhVMEh1MHRYYWRzSWxycDlZdFF2azFta1JXd0EwVk5RcW00cG1mdExMRlhRZmN5V0FTTk9hRjktOHRhR0ZUczdPZzdPZTVUMkduZ1N5MmhCLVdPSG5aMVJLQ3A3dmpQRnpVSDZaSU5zWE45VWVsbUdub05ZTUJWZjFDT093N3RGYmVLaFR4cXBuejV1QU5KbERiRkNjMTJEOVRhU201bU5xTlk5WHUwTFljdkY1MnZYX1NGd3Jab2hldTBzOUpBWFJ1TFBnaGsx0gHWAUFVX3lxTE93YUV1eWxLdVBlTTVGa3I0MGJkQ0hfd0U4Zi0xZ0Z3T3ZPWnRGMGJvYXg2ZmlTdDJ0dFpJWUN5bGJWclNZQ05GZ2ViYlJXNGFja2Z1RzNhNVRISEZzWmhUeld1TklKSXR2VHVFcmM4ZDR1RTliMlhmclROVXFQUUdGNGd1VVFZM3FKam5TcDNQNm1LLVAtQ3ZMOHM0bExXS1g4NGFIY3VHWi1hc3JWcWwydlFMQkNZeF8xemdhbWhHbU83UUdBMzFpZFdpVHlRelRYSzAweVE?oc=5"
+          },
+          {
+            "title": "EIH Ltd. Share Price Today | EIH Live NSE/BSE - Value Research",
+            "source": "Value Research",
+            "published": "Fri, 25 Mar 2022 08:48:44 GMT",
+            "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9kX0Vqb0d6VWZGdklIT1VhSjBCMU1yWVdwMVpkaGRkSjdycFBoZUFpTHJpcm8tYzZrU29keFdIdU9JWFZ1SG5hdXd6Z0JGZVhFQmdvckNUWnpYbm5ZNWhPNUd6R0pET09z?oc=5"
           }
         ]
       },
       "fundamentals": {
         "symbol": "EIHOTEL",
-        "market_cap_cr": 20897.0,
-        "trailing_pe": 28.46252,
-        "forward_pe": 21.095327,
-        "price_to_book": 3.8487232,
+        "market_cap_cr": 20850.0,
+        "trailing_pe": 28.398638,
+        "forward_pe": 21.04798,
+        "price_to_book": 3.8400848,
         "roe_pct": 14.72,
         "debt_to_equity": 5.276,
         "revenue_growth_pct": 16.1,
@@ -581,21 +581,21 @@
         "profit_margin_pct": 23.15,
         "promoter_holding_pct": 70.75,
         "institutional_holding_pct": 15.32,
-        "dividend_yield_pct": 0.48,
+        "dividend_yield_pct": 0.45,
         "current_ratio": 2.713,
         "beta": -0.234,
-        "target_mean": 373.0,
-        "target_low": 350.0,
+        "target_mean": 380.5,
+        "target_low": 365.0,
         "target_high": 396.0,
         "analyst_count": 2,
-        "current_price": 334.15,
+        "current_price": 333.4,
         "business_summary": "EIH Limited, together with its subsidiaries, owns and manages hotels and cruisers under the Oberoi, Trident, and Maidens brand names in India and internationally. It is involved in flight catering, airport restaurants, project management and corporate, resorts, and air charters activities. The company also rents investment properties. EIH Limited was incorporated in 1949 and is based in Delhi, India."
       },
       "benchmark": {
         "industry": "Consumer Services",
         "peers": 22,
-        "trailing_pe": 58.73,
-        "price_to_book": 8.69,
+        "trailing_pe": 58.34,
+        "price_to_book": 8.68,
         "roe_pct": 11.07,
         "debt_to_equity": 19.83,
         "revenue_growth_pct": 19.5,
@@ -605,8 +605,8 @@
         "factors": [
           {
             "name": "Trailing P/E",
-            "value": "28.5",
-            "peer_value": "58.7",
+            "value": "28.4",
+            "peer_value": "58.3",
             "stance": "bull",
             "note": "Cheaper than the typical peer on trailing earnings."
           },
@@ -647,14 +647,14 @@
           }
         ],
         "bull_case": [
-          "Trailing P/E 28.5 vs sector 58.7. Cheaper than the typical peer on trailing earnings.",
+          "Trailing P/E 28.4 vs sector 58.3. Cheaper than the typical peer on trailing earnings.",
           "Price / Book 3.8 vs sector 8.7. Trades at a lower multiple of book value than peers.",
           "Return on Equity 14.7% vs sector 11.1%. Converts shareholder capital into profit better than peers.",
           "Debt / Equity 5.3 vs sector 19.8. Carries less leverage than peers, so less earnings risk if rates rise.",
           "Net margin 23.1% vs sector 7.0%. Keeps more of every rupee of revenue than peers.",
           "Earnings grew 20% year on year, which is what has to keep happening for a re-rating to hold.",
           "Promoters hold 71%, so their interests stay tied to the share price.",
-          "2 analysts publish a mean target of 373, 12% above the current price."
+          "2 analysts publish a mean target of 380, 14% above the current price."
         ],
         "bear_case": [
           "Revenue growth (yoy) 16.1% vs sector 19.5%. Growing more slowly than the sector."
@@ -669,7 +669,7 @@
         "bull_count": 5,
         "bear_count": 1
       },
-      "research_prompt": "I'm a long-term retail investor in Indian equities (NSE). My screener flagged EIH Ltd. (EIHOTEL) because it gained at least 3% on each of 1 consecutive sessions. I want your independent read - please push back on my screener rather than agreeing with it.\n\n## What my screener measured\n\n- Streak: 2026-11-20 to 2026-11-20, +7.8% cumulative\n- Daily gains: 2026-11-20 +7.79%\n- Last close: Rs 334.15\n- Sector: Consumer Services\n- Median 20-day turnover: Rs 5.7 crore\n- Volume vs 20-day median: 26.16x\n- Distance from 52-week high: -12.0%\n- Return 1M / 3M / 1Y: 13.7% / 12.3% / None%\n\n## Attribution my engine computed\n\n- Verdict: company_catalyst - Company-specific - investor communication disclosed to the exchange\n- Stock over the window: +7.8%\n- Sector median over the same window: +0.3%\n- Excess vs sector: +7.5 pp\n- Broad market median: -0.0%\n\n### NSE filings in the window\n\n- 2026-11-20 [catalyst] Analysts/Institutional Investor Meet/Con. Call Updates - Investor communication\n  EIH Limited has informed the Exchange about Transcript\n- 2026-11-16 [catalyst] Analysts/Institutional Investor Meet/Con. Call Updates - Investor communication\n  EIH Limited has informed the Exchange about Link of Recording\n- 2026-11-16 [catalyst] Investor Presentation - Investor communication\n  EIH Limited has informed the Exchange about Investor Presentation\n\n### Caution flags my engine raised\n\n- Thin liquidity - median daily turnover is only Rs 6 crore\n\n### Recent headlines (unverified, from Google News)\n\n- EIH Limited Share Price - Live NSE: EIHOTEL Stock Price & Chart - Upstox\n- EIH Ltd. (EIHOTEL) Share Price Rises 5.21% as Stock Gains Today - Univest\n- EIH (NSEI:EIHOTEL) - Stock Analysis - Simply Wall St\n- EIH Ltd Share Price Today NSE/BSE Charts - Alice Blue\n- EIH Ltd. Share Price Today - EIH Ltd. Stock Price Live NSE/BSE - CNBC TV18\n- Is Now The Time To Put EIH (NSE:EIHOTEL) On Your Watchlist? - Simply Wall St\n\n## Fundamentals\n\n- Market cap: Rs 20,897 crore\n- Trailing P/E: 28.46252\n- Forward P/E: 21.095327\n- Price/Book: 3.8487232\n- Return on equity: 14.72%\n- Debt/Equity: 5.276\n- Revenue growth (yoy): 16.1%\n- Earnings growth (yoy): 19.8%\n- Operating margin: 31.06%\n- Net margin: 23.15%\n- Promoter holding: 70.75%\n- Institutional holding: 15.32%\n- Dividend yield: 0.48%\n- Analyst count: 2\n- Mean target price: 373.0\n\n### Sector medians (Consumer Services, 22 Nifty 500 peers)\n\n- Trailing P/E: 58.73\n- Price/Book: 8.69\n- Return on equity: 11.07%\n- Debt/Equity: 19.83\n- Revenue growth: 19.5%\n- Net margin: 6.98%\n\n### Data my engine could not get\n\n- Only 2 analysts cover this name, so the consensus target is thin and moves easily.\n\n## What I want from you\n\n1. **Why did it actually move?** My engine only sees exchange filings and price action. Check whether there is a real catalyst it missed - sector news, a peer's results, a policy change, an index inclusion, a block deal.\n2. **Is my engine's attribution wrong?** Say so directly if the evidence points elsewhere.\n3. **The one-year view.** Build a bull case and a bear case from the business, not from the chart. What has to be true for this to work, and what would break it? Be concrete about which numbers to watch.\n4. **What would you check that I have not?** Name the specific filings, segments or metrics.\n\nPlease flag anything above that looks stale or wrong, and tell me plainly if this looks like a speculative move rather than an investable one. I am not asking you to tell me whether to buy - I want the reasoning so I can decide."
+      "research_prompt": "I'm a long-term retail investor in Indian equities (NSE). My screener flagged EIH Ltd. (EIHOTEL) because it gained at least 3% on each of 1 consecutive sessions. I want your independent read - please push back on my screener rather than agreeing with it.\n\n## What my screener measured\n\n- Streak: 2026-11-20 to 2026-11-20, +7.8% cumulative\n- Daily gains: 2026-11-20 +7.79%\n- Last close: Rs 334.15\n- Sector: Consumer Services\n- Median 20-day turnover: Rs 5.7 crore\n- Volume vs 20-day median: 26.16x\n- Distance from 52-week high: -12.0%\n- Return 1M / 3M / 1Y: 13.7% / 12.3% / None%\n\n## Attribution my engine computed\n\n- Verdict: company_catalyst - Company-specific - investor communication disclosed to the exchange\n- Stock over the window: +7.8%\n- Sector median over the same window: +0.3%\n- Excess vs sector: +7.5 pp\n- Broad market median: -0.0%\n\n### NSE filings in the window\n\n- 2026-11-20 [catalyst] Analysts/Institutional Investor Meet/Con. Call Updates - Investor communication\n  EIH Limited has informed the Exchange about Transcript\n- 2026-11-16 [catalyst] Analysts/Institutional Investor Meet/Con. Call Updates - Investor communication\n  EIH Limited has informed the Exchange about Link of Recording\n- 2026-11-16 [catalyst] Investor Presentation - Investor communication\n  EIH Limited has informed the Exchange about Investor Presentation\n\n### Caution flags my engine raised\n\n- Thin liquidity - median daily turnover is only Rs 6 crore\n\n### Recent headlines (unverified, from Google News)\n\n- EIH Ltd. Share Price Today - EIH Ltd. Stock Price Live NSE/BSE - CNBC TV18\n- EIH Limited Share Price - Live NSE: EIHOTEL Stock Price & Chart - Upstox\n- EIH Ltd. (EIHOTEL) Share Price Rises 5.21% as Stock Gains Today - Univest\n- EIH Ltd Share Price Today NSE/BSE Charts - Alice Blue\n- Is Now The Time To Put EIH (NSE:EIHOTEL) On Your Watchlist? - Simply Wall St\n- EIH Ltd. Share Price Today | EIH Live NSE/BSE - Value Research\n\n## Fundamentals\n\n- Market cap: Rs 20,850 crore\n- Trailing P/E: 28.398638\n- Forward P/E: 21.04798\n- Price/Book: 3.8400848\n- Return on equity: 14.72%\n- Debt/Equity: 5.276\n- Revenue growth (yoy): 16.1%\n- Earnings growth (yoy): 19.8%\n- Operating margin: 31.06%\n- Net margin: 23.15%\n- Promoter holding: 70.75%\n- Institutional holding: 15.32%\n- Dividend yield: 0.45%\n- Analyst count: 2\n- Mean target price: 380.5\n\n### Sector medians (Consumer Services, 22 Nifty 500 peers)\n\n- Trailing P/E: 58.34\n- Price/Book: 8.68\n- Return on equity: 11.07%\n- Debt/Equity: 19.83\n- Revenue growth: 19.5%\n- Net margin: 6.98%\n\n### Data my engine could not get\n\n- Only 2 analysts cover this name, so the consensus target is thin and moves easily.\n\n## What I want from you\n\n1. **Why did it actually move?** My engine only sees exchange filings and price action. Check whether there is a real catalyst it missed - sector news, a peer's results, a policy change, an index inclusion, a block deal.\n2. **Is my engine's attribution wrong?** Say so directly if the evidence points elsewhere.\n3. **The one-year view.** Build a bull case and a bear case from the business, not from the chart. What has to be true for this to work, and what would break it? Be concrete about which numbers to watch.\n4. **What would you check that I have not?** Name the specific filings, segments or metrics.\n\nPlease flag anything above that looks stale or wrong, and tell me plainly if this looks like a speculative move rather than an investable one. I am not asking you to tell me whether to buy - I want the reasoning so I can decide."
     },
     {
       "symbol": "NAVA",
@@ -694,7 +694,7 @@
           "date": "2026-11-20",
           "close": 563.9500122070312,
           "gain_pct": 6.3,
-          "volume": 1690910
+          "volume": 1691047
         }
       ],
       "attribution": {
@@ -703,7 +703,7 @@
         "explanation": [
           "The stock gained +6.3% over the session 2026-11-20.",
           "Its sector (Power) moved -0.3% over the same window, with 42% of its 19 Nifty 500 members advancing on the last session.",
-          "The broad market (median of 497 Nifty 500 names) moved -0.0% over the window, with 50% advancing on the last session.",
+          "The broad market (median of 499 Nifty 500 names) moved -0.0% over the window, with 50% advancing on the last session.",
           "The stock outpaced its sector by 6.6 percentage points, so the move is company-specific rather than sector-wide.",
           "NSE filing 2026-11-18 15:20 - Investor communication: Analysts/Institutional Investor Meet/Con. Call Updates.",
           "Volume ran 8.5x its 20-day median, so real institutional-scale money participated rather than thin-book drift."
@@ -729,6 +729,12 @@
           }
         ],
         "headlines": [
+          {
+            "title": "Nava Limited Share Price - Upstox",
+            "source": "Upstox",
+            "published": "Fri, 20 Nov 2026 08:00:00 GMT",
+            "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1fSUhpeFRDWUFkNnZub29CLVl1ZV9QSERvM09aWW8zeEtDRU9rTmItQjJBekZtdWo1VGN5TWJUckRtWEg5OHN3MVgwck5DWndNY05ha09sNzJMczNQcV9Hdw?oc=5"
+          },
           {
             "title": "Volume buzzers: VST Industries, MMTC, Nava, SCI, SPML zoom up to 20% - Business Standard",
             "source": "Business Standard",
@@ -758,21 +764,15 @@
             "source": "Alice Blue",
             "published": "Sun, 30 Aug 2026 15:51:43 GMT",
             "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE0xRTdYNkZKbEZ0Y3pyMjFEVkE4ZDAzQWNHVzZyMFNZTUd6bnlEV1U3bmstenIyV2Q2YzVuZlhoRzJVbUlFWkxTM0dxNWFuZTFVZ2IzZmRNRURtaGtVYV9GRXIyTlg?oc=5"
-          },
-          {
-            "title": "Nava Ltd. Share Price Today | Nava Live NSE/BSE - Value Research",
-            "source": "Value Research",
-            "published": "Wed, 23 Nov 2022 12:04:00 GMT",
-            "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE8xZzBRVWNOcHU4SUlOcXdqaDRHSDVxTnlmZkhHdl9rZ1BNY2VxNEx3cXJlNEtMc0dUb1R3N2JXakZob1dabEZHek0wZXp2ZEc2ZUNMRjM2eTZJQ2FpWnpJNnowSzVnYW1sZ0E?oc=5"
           }
         ]
       },
       "fundamentals": {
         "symbol": "NAVA",
-        "market_cap_cr": 15979.0,
-        "trailing_pe": 16.679976,
+        "market_cap_cr": 15588.0,
+        "trailing_pe": 16.511105,
         "forward_pe": null,
-        "price_to_book": 1.8249629,
+        "price_to_book": 1.6785352,
         "roe_pct": 11.19,
         "debt_to_equity": 26.219,
         "revenue_growth_pct": 29.9,
@@ -781,21 +781,21 @@
         "profit_margin_pct": 20.48,
         "promoter_holding_pct": 52.34,
         "institutional_holding_pct": 5.64,
-        "dividend_yield_pct": 1.6,
+        "dividend_yield_pct": 1.51,
         "current_ratio": 8.717,
         "beta": 0.498,
         "target_mean": null,
         "target_low": null,
         "target_high": null,
         "analyst_count": null,
-        "current_price": 563.95,
+        "current_price": 550.15,
         "business_summary": "Nava Limited, together with its subsidiaries, engages in ferroalloy manufacturing, energy, mining, agribusiness, and operation and maintenance services in India, Zambia, the United States, Hong Kong, Japan, the United Arab Emirates, and internationally. It operates through Ferro Alloys, Energy, Mining, and Other segments. The company operates 150 MW and 114 MW coal power plants in Paloncha, Telangana; 150 MW coal power plant in Dhenkanal, Odisha; 20 MW coal/bagasse power plant in Dharmavaram, Andhra Pradesh; and 300 MW power plant in Zambia. It also engages in the production of various alloy metals, including ferro chrome and silicon, and silico manganese; generation of power from thermal sources and related ancillary services; mining and selling of coal; distribution of pharmaceutical products; operation of avocado and sugar cane plantations; and provision of operation and maintenance services for power plants. The company was formerly known as Nava Bharat Ventures Limited and changed its name to Nava Limited in July 2022. Nava Limited was incorporated in 1972 and is headquartered in Hyderabad, India."
       },
       "benchmark": {
         "industry": "Power",
         "peers": 18,
-        "trailing_pe": 24.77,
-        "price_to_book": 2.45,
+        "trailing_pe": 24.22,
+        "price_to_book": 2.41,
         "roe_pct": 10.56,
         "debt_to_equity": 157.77,
         "revenue_growth_pct": 29.75,
@@ -805,15 +805,15 @@
         "factors": [
           {
             "name": "Trailing P/E",
-            "value": "16.7",
-            "peer_value": "24.8",
+            "value": "16.5",
+            "peer_value": "24.2",
             "stance": "bull",
             "note": "Cheaper than the typical peer on trailing earnings."
           },
           {
             "name": "Price / Book",
-            "value": "1.8",
-            "peer_value": "2.5",
+            "value": "1.7",
+            "peer_value": "2.4",
             "stance": "bull",
             "note": "Trades at a lower multiple of book value than peers."
           },
@@ -847,8 +847,8 @@
           }
         ],
         "bull_case": [
-          "Trailing P/E 16.7 vs sector 24.8. Cheaper than the typical peer on trailing earnings.",
-          "Price / Book 1.8 vs sector 2.5. Trades at a lower multiple of book value than peers.",
+          "Trailing P/E 16.5 vs sector 24.2. Cheaper than the typical peer on trailing earnings.",
+          "Price / Book 1.7 vs sector 2.4. Trades at a lower multiple of book value than peers.",
           "Debt / Equity 26.2 vs sector 157.8. Carries less leverage than peers, so less earnings risk if rates rise.",
           "Net margin 20.5% vs sector 12.1%. Keeps more of every rupee of revenue than peers.",
           "Earnings grew 144% year on year, which is what has to keep happening for a re-rating to hold.",
@@ -863,7 +863,7 @@
         "bull_count": 4,
         "bear_count": 0
       },
-      "research_prompt": "I'm a long-term retail investor in Indian equities (NSE). My screener flagged Nava Ltd. (NAVA) because it gained at least 3% on each of 1 consecutive sessions. I want your independent read - please push back on my screener rather than agreeing with it.\n\n## What my screener measured\n\n- Streak: 2026-11-20 to 2026-11-20, +6.3% cumulative\n- Daily gains: 2026-11-20 +6.30%\n- Last close: Rs 563.95\n- Sector: Power\n- Median 20-day turnover: Rs 10.0 crore\n- Volume vs 20-day median: 8.51x\n- Distance from 52-week high: -22.1%\n- Return 1M / 3M / 1Y: 8.0% / 2.7% / None%\n\n## Attribution my engine computed\n\n- Verdict: company_catalyst - Company-specific - investor communication disclosed to the exchange\n- Stock over the window: +6.3%\n- Sector median over the same window: -0.3%\n- Excess vs sector: +6.6 pp\n- Broad market median: -0.0%\n\n### NSE filings in the window\n\n- 2026-11-18 [catalyst] Analysts/Institutional Investor Meet/Con. Call Updates - Investor communication\n  NAVA LIMITED has informed the Exchange about Transcript\n\n### Caution flags my engine raised\n\n- Thin liquidity - median daily turnover is only Rs 10 crore\n\n### Recent headlines (unverified, from Google News)\n\n- Volume buzzers: VST Industries, MMTC, Nava, SCI, SPML zoom up to 20% - Business Standard\n- NAVA Ltd. Share Price Today - NAVA Ltd. Stock Price Live NSE/BSE - CNBC TV18\n- Declining Stock and Decent Financials: Is The Market Wrong About Nava Limited (NSE:NAVA)? - Simply Wall St\n- Nava Limited Share Price: Buy, Hold or Sell - Univest\n- Nava Ltd Share Price Today NSE/BSE Charts - Alice Blue\n- Nava Ltd. Share Price Today | Nava Live NSE/BSE - Value Research\n\n## Fundamentals\n\n- Market cap: Rs 15,979 crore\n- Trailing P/E: 16.679976\n- Price/Book: 1.8249629\n- Return on equity: 11.19%\n- Debt/Equity: 26.219\n- Revenue growth (yoy): 29.9%\n- Earnings growth (yoy): 143.8%\n- Operating margin: 30.72%\n- Net margin: 20.48%\n- Promoter holding: 52.34%\n- Institutional holding: 5.64%\n- Dividend yield: 1.6%\n\n### Sector medians (Power, 18 Nifty 500 peers)\n\n- Trailing P/E: 24.77\n- Price/Book: 2.45\n- Return on equity: 10.56%\n- Debt/Equity: 157.77\n- Revenue growth: 29.75%\n- Net margin: 12.05%\n\n## What I want from you\n\n1. **Why did it actually move?** My engine only sees exchange filings and price action. Check whether there is a real catalyst it missed - sector news, a peer's results, a policy change, an index inclusion, a block deal.\n2. **Is my engine's attribution wrong?** Say so directly if the evidence points elsewhere.\n3. **The one-year view.** Build a bull case and a bear case from the business, not from the chart. What has to be true for this to work, and what would break it? Be concrete about which numbers to watch.\n4. **What would you check that I have not?** Name the specific filings, segments or metrics.\n\nPlease flag anything above that looks stale or wrong, and tell me plainly if this looks like a speculative move rather than an investable one. I am not asking you to tell me whether to buy - I want the reasoning so I can decide."
+      "research_prompt": "I'm a long-term retail investor in Indian equities (NSE). My screener flagged Nava Ltd. (NAVA) because it gained at least 3% on each of 1 consecutive sessions. I want your independent read - please push back on my screener rather than agreeing with it.\n\n## What my screener measured\n\n- Streak: 2026-11-20 to 2026-11-20, +6.3% cumulative\n- Daily gains: 2026-11-20 +6.30%\n- Last close: Rs 563.95\n- Sector: Power\n- Median 20-day turnover: Rs 10.0 crore\n- Volume vs 20-day median: 8.51x\n- Distance from 52-week high: -22.1%\n- Return 1M / 3M / 1Y: 8.0% / 2.7% / None%\n\n## Attribution my engine computed\n\n- Verdict: company_catalyst - Company-specific - investor communication disclosed to the exchange\n- Stock over the window: +6.3%\n- Sector median over the same window: -0.3%\n- Excess vs sector: +6.6 pp\n- Broad market median: -0.0%\n\n### NSE filings in the window\n\n- 2026-11-18 [catalyst] Analysts/Institutional Investor Meet/Con. Call Updates - Investor communication\n  NAVA LIMITED has informed the Exchange about Transcript\n\n### Caution flags my engine raised\n\n- Thin liquidity - median daily turnover is only Rs 10 crore\n\n### Recent headlines (unverified, from Google News)\n\n- Nava Limited Share Price - Upstox\n- Volume buzzers: VST Industries, MMTC, Nava, SCI, SPML zoom up to 20% - Business Standard\n- NAVA Ltd. Share Price Today - NAVA Ltd. Stock Price Live NSE/BSE - CNBC TV18\n- Declining Stock and Decent Financials: Is The Market Wrong About Nava Limited (NSE:NAVA)? - Simply Wall St\n- Nava Limited Share Price: Buy, Hold or Sell - Univest\n- Nava Ltd Share Price Today NSE/BSE Charts - Alice Blue\n\n## Fundamentals\n\n- Market cap: Rs 15,588 crore\n- Trailing P/E: 16.511105\n- Price/Book: 1.6785352\n- Return on equity: 11.19%\n- Debt/Equity: 26.219\n- Revenue growth (yoy): 29.9%\n- Earnings growth (yoy): 143.8%\n- Operating margin: 30.72%\n- Net margin: 20.48%\n- Promoter holding: 52.34%\n- Institutional holding: 5.64%\n- Dividend yield: 1.51%\n\n### Sector medians (Power, 18 Nifty 500 peers)\n\n- Trailing P/E: 24.22\n- Price/Book: 2.41\n- Return on equity: 10.56%\n- Debt/Equity: 157.77\n- Revenue growth: 29.75%\n- Net margin: 12.05%\n\n## What I want from you\n\n1. **Why did it actually move?** My engine only sees exchange filings and price action. Check whether there is a real catalyst it missed - sector news, a peer's results, a policy change, an index inclusion, a block deal.\n2. **Is my engine's attribution wrong?** Say so directly if the evidence points elsewhere.\n3. **The one-year view.** Build a bull case and a bear case from the business, not from the chart. What has to be true for this to work, and what would break it? Be concrete about which numbers to watch.\n4. **What would you check that I have not?** Name the specific filings, segments or metrics.\n\nPlease flag anything above that looks stale or wrong, and tell me plainly if this looks like a speculative move rather than an investable one. I am not asking you to tell me whether to buy - I want the reasoning so I can decide."
     }
   ],
   "top_losers": [
@@ -890,7 +890,7 @@
           "date": "2026-11-20",
           "close": 5614.5,
           "gain_pct": -5.7,
-          "volume": 320496
+          "volume": 320576
         }
       ],
       "attribution": {
@@ -899,7 +899,7 @@
         "explanation": [
           "The stock fell -5.7% over the session 2026-11-20.",
           "Its sector (Capital Goods) moved -0.7% over the same window, with 30% of its 69 Nifty 500 members advancing on the last session.",
-          "The broad market (median of 497 Nifty 500 names) moved -0.0% over the window, with 50% advancing on the last session.",
+          "The broad market (median of 499 Nifty 500 names) moved -0.0% over the window, with 50% advancing on the last session.",
           "The stock lagged its sector by 5.0 percentage points, yet filed no disclosure in the window that would account for it.",
           "An unexplained move away from the sector is worth more caution, not less - it can reflect speculation, a leaked development, or an operator-driven move."
         ],
@@ -915,14 +915,8 @@
           {
             "title": "MTAR Technologies (NSEI:MTARTECH) Stock Forecast & Analyst Predictions - Simply Wall St",
             "source": "Simply Wall St",
-            "published": "Tue, 03 Nov 2026 08:00:00 GMT",
+            "published": "Mon, 02 Nov 2026 08:00:00 GMT",
             "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNcXRLTXRpYnppVERFNUstQVZuZ25GYjd5Uld6UjJ3Ul9WU1NCaW00SWhZMXRiUlY2dy11TldCVm1meEN5MVZZREVyVXNCVGxKbjhCQ1pyS0kzNjZneFVCVEZ4VFVlc2FiaUVGUjJKUW84bjBuWWMtak5QWlgwM1IwNnB6OC1zNGJrdXVsMEE2M25DUGl4?oc=5"
-          },
-          {
-            "title": "MTAR Technologies Ltd. Share Price Today - MTAR Technologies Ltd. Stock Price Live NSE/BSE - CNBC TV18",
-            "source": "CNBC TV18",
-            "published": "Sat, 03 Jan 2026 15:38:46 GMT",
-            "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOejEtb1BYSFNjV3F4cjRaUW80Z25Db2hSNm9Rb2htaW5aSWpwcUE5SDloZVBqUnloQXZ0NFFtdGZ3UWV1T1dLSGUwTGNzdElpeUhOREt0ODR2MjQ2OWZJVHE1X3JJMlMtQ3lnZDVtcDlRZzZZbXNtaUR3T0N4eExiWHdZdks?oc=5"
           },
           {
             "title": "MTARTECH Forecast — Price Target — Prediction for 2027 - TradingView",
@@ -931,31 +925,37 @@
             "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1HUEE0X2FXQUN0NnNkOGxTSUJodjhXeGZiVVd0aEY3QTAtNHk2ZmxIbDRnbFJSYVdyRlFNN29sejdDM0R6ZzZNYi1PZy1fd2p4UmtjaGMwMktxVGR2UWszbzNXQnc2aUNzVXFncVE4MWVOMF9ZRVpHZVlFcw?oc=5"
           },
           {
+            "title": "MTAR Technologies Ltd. Share Price Today - MTAR Technologies Ltd. Stock Price Live NSE/BSE - CNBC TV18",
+            "source": "CNBC TV18",
+            "published": "Sat, 03 Jan 2026 15:38:46 GMT",
+            "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOejEtb1BYSFNjV3F4cjRaUW80Z25Db2hSNm9Rb2htaW5aSWpwcUE5SDloZVBqUnloQXZ0NFFtdGZ3UWV1T1dLSGUwTGNzdElpeUhOREt0ODR2MjQ2OWZJVHE1X3JJMlMtQ3lnZDVtcDlRZzZZbXNtaUR3T0N4eExiWHdZdks?oc=5"
+          },
+          {
             "title": "MTAR Technologies Ltd Share Price Today NSE/BSE Charts - Alice Blue",
             "source": "Alice Blue",
             "published": "Sat, 29 Aug 2026 17:02:21 GMT",
             "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1hOTg4MHdZS254QVZrdk03Ujk0ekpnZDlQa0lSempJT2dvekkydFd3Vy0xTG9SQVpuazViR2wtcktxVDN3RkpWeVk4X3labkI5M3M3VTd6STRfdkVhWms5N1BFVTItT1B3cXJCaGtvN3Mtc1ZkdGc?oc=5"
           },
           {
-            "title": "MTAR Technologies Ltd. Share Price Today | MTAR Technologies Live NSE/BSE - Value Research",
-            "source": "Value Research",
-            "published": "Wed, 23 Mar 2022 18:28:04 GMT",
-            "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5sNkxtUFVqazRodGhRRFZMejhiX2pMbWZlbUtOcEVlSHZ2U0ZvMTY2VUtFalJJMHhxeUNycldzU2kyUW9ONGM0QkNjMGhsODhsbTZUVFB2b3VtSWtNTXZqUm9IbUVVbGIxTnNFSk9KX295blFfb2xzN0ZNU0s?oc=5"
-          },
-          {
             "title": "MTARTECH Share Price Today - MTAR Technologies on NSE/BSE - scanx.trade",
             "source": "scanx.trade",
             "published": "Sat, 21 Dec 2024 16:09:23 GMT",
             "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE0xQUt2eWpDR1R1N0RFRkNLUmYzNDd3M3k4bWJBdnJkeW0xcEVvYXNqa2ZYdHd4ME5GVF92WkZCaXM3MlJUNnRzc2V4OTBnNjJfQ1hyenZTcmVLUDVaZ3c?oc=5"
+          },
+          {
+            "title": "MTAR Technologies Ltd. Share Price Today | MTAR Technologies Live NSE/BSE - Value Research",
+            "source": "Value Research",
+            "published": "Wed, 23 Mar 2022 18:28:04 GMT",
+            "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5sNkxtUFVqazRodGhRRFZMejhiX2pMbWZlbUtOcEVlSHZ2U0ZvMTY2VUtFalJJMHhxeUNycldzU2kyUW9ONGM0QkNjMGhsODhsbTZUVFB2b3VtSWtNTXZqUm9IbUVVbGIxTnNFSk9KX295blFfb2xzN0ZNU0s?oc=5"
           }
         ]
       },
       "fundamentals": {
         "symbol": "MTARTECH",
-        "market_cap_cr": 17270.0,
-        "trailing_pe": 91.3521,
-        "forward_pe": 35.733833,
-        "price_to_book": 18.51864,
+        "market_cap_cr": 17407.0,
+        "trailing_pe": 92.07615,
+        "forward_pe": 36.01706,
+        "price_to_book": 18.665419,
         "roe_pct": 22.55,
         "debt_to_equity": 64.616,
         "revenue_growth_pct": 200.0,
@@ -971,14 +971,14 @@
         "target_low": 8000.0,
         "target_high": 10240.0,
         "analyst_count": 5,
-        "current_price": 5614.5,
+        "current_price": 5659.0,
         "business_summary": "MTAR Technologies Limited manufactures and sells high precision, heavy equipment, components, and machines in India and internationally. The company offers space solutions comprising liquid propulsion engines; cryogenic engines, including turbo pumps, booster pumps, gas generators, and injector heads; and electro-pneumatic modules. It also provides mechanical subsystems and systems integration for the defence and aerospace sectors; concaves, body slips, anchors, quick-change systems, packers, mandrels, pumps, jar components, and whipstock assemblies; and fuel machining heads, drive mechanisms, bridge and column assemblies, coolant channel assemblies, and others. In addition, the company manufactures and fabricates critical assemblies; and ball and roller screws for use in various applications, such as defence, nuclear power reactors, aerospace, medical equipment, missiles, and CNC machines. Further, it specializes in the design and fabrication of complex systems and sub-systems, including fuelling machine heads, bridge and column assemblies, fuel transfer systems, coolant channel assemblies, drive mechanisms, fuel locator assemblies, and sealing and shielding doors for civil nuclear reactors. It offers liquid propulsion engines, cryogenic engine sub-systems, electro-pneumatic modules, satellite valves, grid fin structures for space launch vehicles, actuation systems, gear boxes, aerostructures, valves, ball screws, and roller screws. MTAR Technologies Limited was founded in 1969 and is based in Hyderabad, India."
       },
       "benchmark": {
         "industry": "Capital Goods",
         "peers": 68,
-        "trailing_pe": 45.42,
-        "price_to_book": 6.75,
+        "trailing_pe": 43.5,
+        "price_to_book": 6.71,
         "roe_pct": 15.6,
         "debt_to_equity": 10.73,
         "revenue_growth_pct": 22.15,
@@ -988,15 +988,15 @@
         "factors": [
           {
             "name": "Trailing P/E",
-            "value": "91.4",
-            "peer_value": "45.4",
+            "value": "92.1",
+            "peer_value": "43.5",
             "stance": "bear",
             "note": "More expensive than the typical peer, so more of the growth is already priced in."
           },
           {
             "name": "Price / Book",
-            "value": "18.5",
-            "peer_value": "6.8",
+            "value": "18.7",
+            "peer_value": "6.7",
             "stance": "bear",
             "note": "Trades at a premium to peer book value."
           },
@@ -1034,12 +1034,12 @@
           "Revenue growth (yoy) 200.0% vs sector 22.1%. Growing the top line faster than the sector.",
           "Net margin 14.0% vs sector 10.7%. Keeps more of every rupee of revenue than peers.",
           "Earnings grew 1309% year on year, which is what has to keep happening for a re-rating to hold.",
-          "5 analysts publish a mean target of 9111, 62% above the current price.",
+          "5 analysts publish a mean target of 9111, 61% above the current price.",
           "Still 33% below its 52-week high, leaving recovery room if the business itself is intact."
         ],
         "bear_case": [
-          "Trailing P/E 91.4 vs sector 45.4. More expensive than the typical peer, so more of the growth is already priced in.",
-          "Price / Book 18.5 vs sector 6.8. Trades at a premium to peer book value.",
+          "Trailing P/E 92.1 vs sector 43.5. More expensive than the typical peer, so more of the growth is already priced in.",
+          "Price / Book 18.7 vs sector 6.7. Trades at a premium to peer book value.",
           "Debt / Equity 64.6 vs sector 10.7. More leveraged than peers, which amplifies any downturn."
         ],
         "invalidators": [
@@ -1051,7 +1051,7 @@
         "bull_count": 3,
         "bear_count": 3
       },
-      "research_prompt": "I'm a long-term retail investor in Indian equities (NSE). My screener flagged MTAR Technologies Ltd. (MTARTECH) because it gained at least 3% on each of 1 consecutive sessions. I want your independent read - please push back on my screener rather than agreeing with it.\n\n## What my screener measured\n\n- Streak: 2026-11-20 to 2026-11-20, -5.7% cumulative\n- Daily gains: 2026-11-20 -5.70%\n- Last close: Rs 5,614.50\n- Sector: Capital Goods\n- Median 20-day turnover: Rs 151.5 crore\n- Volume vs 20-day median: 1.55x\n- Distance from 52-week high: -33.0%\n- Return 1M / 3M / 1Y: -19.0% / -18.8% / None%\n\n## Attribution my engine computed\n\n- Verdict: unexplained - Company-specific, but nothing disclosed to explain it\n- Stock over the window: -5.7%\n- Sector median over the same window: -0.7%\n- Excess vs sector: -5.0 pp\n- Broad market median: -0.0%\n\n- No NSE corporate filings in the window.\n\n### Recent headlines (unverified, from Google News)\n\n- MTAR Technologies (NSEI:MTARTECH) Stock Forecast & Analyst Predictions - Simply Wall St\n- MTAR Technologies Ltd. Share Price Today - MTAR Technologies Ltd. Stock Price Live NSE/BSE - CNBC TV18\n- MTARTECH Forecast — Price Target — Prediction for 2027 - TradingView\n- MTAR Technologies Ltd Share Price Today NSE/BSE Charts - Alice Blue\n- MTAR Technologies Ltd. Share Price Today | MTAR Technologies Live NSE/BSE - Value Research\n- MTARTECH Share Price Today - MTAR Technologies on NSE/BSE - scanx.trade\n\n## Fundamentals\n\n- Market cap: Rs 17,270 crore\n- Trailing P/E: 91.3521\n- Forward P/E: 35.733833\n- Price/Book: 18.51864\n- Return on equity: 22.55%\n- Debt/Equity: 64.616\n- Revenue growth (yoy): 200.0%\n- Earnings growth (yoy): 1309.4%\n- Operating margin: 20.08%\n- Net margin: 13.99%\n- Promoter holding: 29.2%\n- Institutional holding: 37.05%\n- Dividend yield: 0.0%\n- Analyst count: 5\n- Mean target price: 9110.6\n\n### Sector medians (Capital Goods, 68 Nifty 500 peers)\n\n- Trailing P/E: 45.42\n- Price/Book: 6.75\n- Return on equity: 15.6%\n- Debt/Equity: 10.73\n- Revenue growth: 22.15%\n- Net margin: 10.66%\n\n## What I want from you\n\n1. **Why did it actually move?** My engine only sees exchange filings and price action. Check whether there is a real catalyst it missed - sector news, a peer's results, a policy change, an index inclusion, a block deal.\n2. **Is my engine's attribution wrong?** Say so directly if the evidence points elsewhere.\n3. **The one-year view.** Build a bull case and a bear case from the business, not from the chart. What has to be true for this to work, and what would break it? Be concrete about which numbers to watch.\n4. **What would you check that I have not?** Name the specific filings, segments or metrics.\n\nPlease flag anything above that looks stale or wrong, and tell me plainly if this looks like a speculative move rather than an investable one. I am not asking you to tell me whether to buy - I want the reasoning so I can decide."
+      "research_prompt": "I'm a long-term retail investor in Indian equities (NSE). My screener flagged MTAR Technologies Ltd. (MTARTECH) because it gained at least 3% on each of 1 consecutive sessions. I want your independent read - please push back on my screener rather than agreeing with it.\n\n## What my screener measured\n\n- Streak: 2026-11-20 to 2026-11-20, -5.7% cumulative\n- Daily gains: 2026-11-20 -5.70%\n- Last close: Rs 5,614.50\n- Sector: Capital Goods\n- Median 20-day turnover: Rs 151.5 crore\n- Volume vs 20-day median: 1.55x\n- Distance from 52-week high: -33.0%\n- Return 1M / 3M / 1Y: -19.0% / -18.8% / None%\n\n## Attribution my engine computed\n\n- Verdict: unexplained - Company-specific, but nothing disclosed to explain it\n- Stock over the window: -5.7%\n- Sector median over the same window: -0.7%\n- Excess vs sector: -5.0 pp\n- Broad market median: -0.0%\n\n- No NSE corporate filings in the window.\n\n### Recent headlines (unverified, from Google News)\n\n- MTAR Technologies (NSEI:MTARTECH) Stock Forecast & Analyst Predictions - Simply Wall St\n- MTARTECH Forecast — Price Target — Prediction for 2027 - TradingView\n- MTAR Technologies Ltd. Share Price Today - MTAR Technologies Ltd. Stock Price Live NSE/BSE - CNBC TV18\n- MTAR Technologies Ltd Share Price Today NSE/BSE Charts - Alice Blue\n- MTARTECH Share Price Today - MTAR Technologies on NSE/BSE - scanx.trade\n- MTAR Technologies Ltd. Share Price Today | MTAR Technologies Live NSE/BSE - Value Research\n\n## Fundamentals\n\n- Market cap: Rs 17,407 crore\n- Trailing P/E: 92.07615\n- Forward P/E: 36.01706\n- Price/Book: 18.665419\n- Return on equity: 22.55%\n- Debt/Equity: 64.616\n- Revenue growth (yoy): 200.0%\n- Earnings growth (yoy): 1309.4%\n- Operating margin: 20.08%\n- Net margin: 13.99%\n- Promoter holding: 29.2%\n- Institutional holding: 37.05%\n- Dividend yield: 0.0%\n- Analyst count: 5\n- Mean target price: 9110.6\n\n### Sector medians (Capital Goods, 68 Nifty 500 peers)\n\n- Trailing P/E: 43.5\n- Price/Book: 6.71\n- Return on equity: 15.6%\n- Debt/Equity: 10.73\n- Revenue growth: 22.15%\n- Net margin: 10.66%\n\n## What I want from you\n\n1. **Why did it actually move?** My engine only sees exchange filings and price action. Check whether there is a real catalyst it missed - sector news, a peer's results, a policy change, an index inclusion, a block deal.\n2. **Is my engine's attribution wrong?** Say so directly if the evidence points elsewhere.\n3. **The one-year view.** Build a bull case and a bear case from the business, not from the chart. What has to be true for this to work, and what would break it? Be concrete about which numbers to watch.\n4. **What would you check that I have not?** Name the specific filings, segments or metrics.\n\nPlease flag anything above that looks stale or wrong, and tell me plainly if this looks like a speculative move rather than an investable one. I am not asking you to tell me whether to buy - I want the reasoning so I can decide."
     },
     {
       "symbol": "PFOCUS",
@@ -1063,7 +1063,7 @@
       "start_date": "2026-11-20",
       "end_date": "2026-11-20",
       "is_current": true,
-      "median_turnover_cr": 119.0,
+      "median_turnover_cr": 119.1,
       "volume_ratio": 1.27,
       "pct_from_52w_high": -29.3,
       "returns": {
@@ -1076,7 +1076,7 @@
           "date": "2026-11-20",
           "close": 252.6999969482422,
           "gain_pct": -5.41,
-          "volume": 4936599
+          "volume": 4938322
         }
       ],
       "attribution": {
@@ -1085,7 +1085,7 @@
         "explanation": [
           "The stock fell -5.4% over the session 2026-11-20.",
           "No reliable sector benchmark: Media Entertainment & Publication has too few Nifty 500 members to produce a trustworthy median.",
-          "The broad market (median of 497 Nifty 500 names) moved -0.0% over the window, with 50% advancing on the last session.",
+          "The broad market (median of 499 Nifty 500 names) moved -0.0% over the window, with 50% advancing on the last session.",
           "An unexplained move away from the sector is worth more caution, not less - it can reflect speculation, a leaked development, or an operator-driven move."
         ],
         "stock_streak_pct": -5.41,
@@ -1108,10 +1108,10 @@
         ],
         "headlines": [
           {
-            "title": "PFOCUS Share Price Today - Prime Focus on NSE/BSE - scanx.trade",
-            "source": "scanx.trade",
-            "published": "Tue, 17 Nov 2026 00:11:10 GMT",
-            "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1uWGVfTkQ4MVlvU0tMZms3dEdRQjBqS3RfYTAzTmVpcTJsWVI3SFNIXzlFY2U0UnkxTS1FRFQzOHpNaktEcDFVYzFuaUhQS2U3ekdoQW9R?oc=5"
+            "title": "PFOCUS.NS (PFOCUS) Share Price Today (NSE), Market News - TechGraph",
+            "source": "TechGraph",
+            "published": "Sat, 10 Oct 2026 20:00:19 GMT",
+            "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE93eHpSTmt3a3Z4NE1HQ29KWDF6ZnFzMDRwQzlSQlBRV2VjVXhuQW0yamFHdVNvYjJlR1hzaWplVElaUmVYUzBBU3AtTG1xTk1jeUdTRnpSczVSNEJITEV3?oc=5"
           },
           {
             "title": "Prime Focus Ltd gains for fifth session - Business Standard",
@@ -1147,10 +1147,10 @@
       },
       "fundamentals": {
         "symbol": "PFOCUS",
-        "market_cap_cr": 19680.0,
-        "trailing_pe": 109.86957,
-        "forward_pe": 26.051546,
-        "price_to_book": 8.920503,
+        "market_cap_cr": 18430.0,
+        "trailing_pe": 102.891304,
+        "forward_pe": 24.396908,
+        "price_to_book": 8.353926,
         "roe_pct": 8.47,
         "debt_to_equity": 230.543,
         "revenue_growth_pct": 34.7,
@@ -1166,14 +1166,14 @@
         "target_low": 375.0,
         "target_high": 375.0,
         "analyst_count": 1,
-        "current_price": 252.7,
+        "current_price": 236.65,
         "business_summary": "Prime Focus Limited, together with its subsidiaries, provides integrated media services in India, the United Kingdom, the United States, Canada, Australia, and internationally. The company engages in the motion picture, video, and television programme post-production activities; and business support activities. It also offers creative services, including visual effects, advertising, stereo 2D to 3D conversion, and feature and TV animation; equipment rental services; and post-production services, such as digital intermediate/color grading, audio, and picture post services in the media and entertainment industry. In addition, the company is involved in film investment activities; and provision of digital asset management, music production, content restoration, technology and software, technical, and visual special effects services; as well as operates a training institute. Further, it engages in leasing and renting of real estate properties and allied services. The company offers its services to Hollywood studios, Over-The-Top providers, broadcasters, advertisers, and production houses. The company was incorporated in 1997 and is based in Mumbai, India."
       },
       "benchmark": {
         "industry": "Media Entertainment & Publication",
         "peers": 3,
-        "trailing_pe": 37.79,
-        "price_to_book": 2.03,
+        "trailing_pe": 38.88,
+        "price_to_book": 1.99,
         "roe_pct": 6.0,
         "debt_to_equity": 0.8,
         "revenue_growth_pct": 13.0,
@@ -1183,14 +1183,14 @@
         "factors": [
           {
             "name": "Trailing P/E",
-            "value": "109.9",
+            "value": "102.9",
             "peer_value": "n/a",
             "stance": "neutral",
             "note": "No trustworthy peer median to compare against."
           },
           {
             "name": "Price / Book",
-            "value": "8.9",
+            "value": "8.4",
             "peer_value": "n/a",
             "stance": "neutral",
             "note": "No trustworthy peer median to compare against."
@@ -1227,7 +1227,7 @@
         "bull_case": [
           "Earnings grew 550% year on year, which is what has to keep happening for a re-rating to hold.",
           "Promoters hold 86%, so their interests stay tied to the share price.",
-          "1 analysts publish a mean target of 375, 48% above the current price."
+          "1 analysts publish a mean target of 375, 58% above the current price."
         ],
         "bear_case": [],
         "invalidators": [
@@ -1242,7 +1242,7 @@
         "bull_count": 0,
         "bear_count": 0
       },
-      "research_prompt": "I'm a long-term retail investor in Indian equities (NSE). My screener flagged Prime Focus Ltd. (PFOCUS) because it gained at least 3% on each of 1 consecutive sessions. I want your independent read - please push back on my screener rather than agreeing with it.\n\n## What my screener measured\n\n- Streak: 2026-11-20 to 2026-11-20, -5.4% cumulative\n- Daily gains: 2026-11-20 -5.41%\n- Last close: Rs 252.70\n- Sector: Media Entertainment & Publication\n- Median 20-day turnover: Rs 119.0 crore\n- Volume vs 20-day median: 1.27x\n- Distance from 52-week high: -29.3%\n- Return 1M / 3M / 1Y: -8.3% / -9.5% / None%\n\n## Attribution my engine computed\n\n- Verdict: unexplained - Company-specific, but nothing disclosed to explain it\n- Stock over the window: -5.4%\n- Broad market median: -0.0%\n\n### NSE filings in the window\n\n- 2026-11-17 [neutral] Press Release - Routine or administrative disclosure\n  Prime Focus Limited has informed the Exchange regarding a press release dated November 17, 2026, titled \"Prime Focus Company DNEG Announces Technology Partnership With Meta To Deli\n\n### Recent headlines (unverified, from Google News)\n\n- PFOCUS Share Price Today - Prime Focus on NSE/BSE - scanx.trade\n- Prime Focus Ltd gains for fifth session - Business Standard\n- Prime Focus (NSE:PFOCUS) Posted Healthy Earnings But There Are Some Other Factors To Be Aware Of - Simply Wall St\n- Prime Focus Ltd (NSE: PFOCUS) Falls 5.78% as Stock Draws Market Attention - Kalkine India\n- Prime Focus Ltd Share Price Today NSE/BSE Charts - Alice Blue\n- Prime Focus Ltd. Share Price Today - Prime Focus Ltd. Stock Price Live NSE/BSE - CNBC TV18\n\n## Fundamentals\n\n- Market cap: Rs 19,680 crore\n- Trailing P/E: 109.86957\n- Forward P/E: 26.051546\n- Price/Book: 8.920503\n- Return on equity: 8.47%\n- Debt/Equity: 230.543\n- Revenue growth (yoy): 34.7%\n- Earnings growth (yoy): 550.0%\n- Operating margin: 15.39%\n- Net margin: 3.03%\n- Promoter holding: 85.56%\n- Institutional holding: 0.59%\n- Dividend yield: 0.0%\n- Analyst count: 1\n- Mean target price: 375.0\n\n### Data my engine could not get\n\n- Only 3 Media Entertainment & Publication peers had usable fundamentals, so peer medians below are indicative rather than reliable.\n- Only 1 analysts cover this name, so the consensus target is thin and moves easily.\n\n## What I want from you\n\n1. **Why did it actually move?** My engine only sees exchange filings and price action. Check whether there is a real catalyst it missed - sector news, a peer's results, a policy change, an index inclusion, a block deal.\n2. **Is my engine's attribution wrong?** Say so directly if the evidence points elsewhere.\n3. **The one-year view.** Build a bull case and a bear case from the business, not from the chart. What has to be true for this to work, and what would break it? Be concrete about which numbers to watch.\n4. **What would you check that I have not?** Name the specific filings, segments or metrics.\n\nPlease flag anything above that looks stale or wrong, and tell me plainly if this looks like a speculative move rather than an investable one. I am not asking you to tell me whether to buy - I want the reasoning so I can decide."
+      "research_prompt": "I'm a long-term retail investor in Indian equities (NSE). My screener flagged Prime Focus Ltd. (PFOCUS) because it gained at least 3% on each of 1 consecutive sessions. I want your independent read - please push back on my screener rather than agreeing with it.\n\n## What my screener measured\n\n- Streak: 2026-11-20 to 2026-11-20, -5.4% cumulative\n- Daily gains: 2026-11-20 -5.41%\n- Last close: Rs 252.70\n- Sector: Media Entertainment & Publication\n- Median 20-day turnover: Rs 119.1 crore\n- Volume vs 20-day median: 1.27x\n- Distance from 52-week high: -29.3%\n- Return 1M / 3M / 1Y: -8.3% / -9.5% / None%\n\n## Attribution my engine computed\n\n- Verdict: unexplained - Company-specific, but nothing disclosed to explain it\n- Stock over the window: -5.4%\n- Broad market median: -0.0%\n\n### NSE filings in the window\n\n- 2026-11-17 [neutral] Press Release - Routine or administrative disclosure\n  Prime Focus Limited has informed the Exchange regarding a press release dated November 17, 2026, titled \"Prime Focus Company DNEG Announces Technology Partnership With Meta To Deli\n\n### Recent headlines (unverified, from Google News)\n\n- PFOCUS.NS (PFOCUS) Share Price Today (NSE), Market News - TechGraph\n- Prime Focus Ltd gains for fifth session - Business Standard\n- Prime Focus (NSE:PFOCUS) Posted Healthy Earnings But There Are Some Other Factors To Be Aware Of - Simply Wall St\n- Prime Focus Ltd (NSE: PFOCUS) Falls 5.78% as Stock Draws Market Attention - Kalkine India\n- Prime Focus Ltd Share Price Today NSE/BSE Charts - Alice Blue\n- Prime Focus Ltd. Share Price Today - Prime Focus Ltd. Stock Price Live NSE/BSE - CNBC TV18\n\n## Fundamentals\n\n- Market cap: Rs 18,430 crore\n- Trailing P/E: 102.891304\n- Forward P/E: 24.396908\n- Price/Book: 8.353926\n- Return on equity: 8.47%\n- Debt/Equity: 230.543\n- Revenue growth (yoy): 34.7%\n- Earnings growth (yoy): 550.0%\n- Operating margin: 15.39%\n- Net margin: 3.03%\n- Promoter holding: 85.56%\n- Institutional holding: 0.59%\n- Dividend yield: 0.0%\n- Analyst count: 1\n- Mean target price: 375.0\n\n### Data my engine could not get\n\n- Only 3 Media Entertainment & Publication peers had usable fundamentals, so peer medians below are indicative rather than reliable.\n- Only 1 analysts cover this name, so the consensus target is thin and moves easily.\n\n## What I want from you\n\n1. **Why did it actually move?** My engine only sees exchange filings and price action. Check whether there is a real catalyst it missed - sector news, a peer's results, a policy change, an index inclusion, a block deal.\n2. **Is my engine's attribution wrong?** Say so directly if the evidence points elsewhere.\n3. **The one-year view.** Build a bull case and a bear case from the business, not from the chart. What has to be true for this to work, and what would break it? Be concrete about which numbers to watch.\n4. **What would you check that I have not?** Name the specific filings, segments or metrics.\n\nPlease flag anything above that looks stale or wrong, and tell me plainly if this looks like a speculative move rather than an investable one. I am not asking you to tell me whether to buy - I want the reasoning so I can decide."
     },
     {
       "symbol": "IIFL",
@@ -1267,7 +1267,7 @@
           "date": "2026-11-20",
           "close": 611.9500122070312,
           "gain_pct": -5.04,
-          "volume": 13150389
+          "volume": 13152881
         }
       ],
       "attribution": {
@@ -1276,7 +1276,7 @@
         "explanation": [
           "The stock fell -5.0% over the session 2026-11-20.",
           "Its sector (Financial Services) moved +0.4% over the same window, with 63% of its 98 Nifty 500 members advancing on the last session.",
-          "The broad market (median of 497 Nifty 500 names) moved -0.0% over the window, with 50% advancing on the last session.",
+          "The broad market (median of 499 Nifty 500 names) moved -0.0% over the window, with 50% advancing on the last session.",
           "The stock lagged its sector by 5.4 percentage points, so the move is company-specific rather than sector-wide.",
           "NSE filing 2026-11-19 12:54 - Credit rating action: Credit Rating.",
           "Volume ran 5.1x its 20-day median, so real institutional-scale money participated rather than thin-book drift."
@@ -1301,10 +1301,10 @@
         ],
         "headlines": [
           {
-            "title": "IIFL Finance Share Price - Upstox",
-            "source": "Upstox",
-            "published": "Thu, 19 Nov 2026 07:43:44 GMT",
-            "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5jclRsSU55S2E0Q0wzU2ItcXdoMl9BSXJrTkk1bjMxRWhDbW5FUXhBNVA1a3dfT1lsckVyZ1AwLWk5X2RURVdJM3RnUnpXVGdEaFhFQVRyRHMwVjVHSDF2RXpyZFpwakhiVzlR?oc=5"
+            "title": "IIFL Capital Block Deal: 4.4 Crore Shares Change Hands for ₹1,505 Crore as Promoters Likely Sell Stake - Kotak Neo",
+            "source": "Kotak Neo",
+            "published": "Thu, 19 Nov 2026 06:06:12 GMT",
+            "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOMEF2bGVBY2pDQ2VKN3FKVnljWkNmeFJCb3BXeVFra2hiMGd6d0hWQmhSUVhFd3Q1QWtySkxkU3ZOc2IxQWtsRzVwcExMdE1nNk1LTWZqc0tFUFc4SFVxTFFnMzZYS1o4VV9ndkdGZzBha1hsMUMwWWVOZ1JHTzA5Ykl6ZmY3WkhkUTlwaUlHeHlILTdkYTJDdklvVW5XdTRSUi1mMHNCMDlrSEM0TXdRUWJLV0U2SElVcEZ0dTRmMzdyRlNSdWpBNDdsYVhzQ2FuaWRJVDJ6bGJnTVhMdXFJ?oc=5"
           },
           {
             "title": "IIFL Finance (NSEI:IIFL) Stock Forecast & Analyst Predictions - Simply Wall St",
@@ -1313,37 +1313,37 @@
             "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQbmpuM21fMWpHMGthb3F6VE43Y01wZ1dVX1JFNHhCc3dLcDcyc1lET1oyUlVLZmhiQlowRjVyVVFhSWNUaHVIeUVIMy11OGZlRzN6dEtsZmtWNGNXWXFBbjhOaDhSdTlIMkhTMnRzRENxTUxPWmEtYzZCUUdUMTI1M3dEa09DUDJfOTVPNVJ5VVNYSTZJ?oc=5"
           },
           {
-            "title": "IIFL Finance Ltd Share Price Today NSE/BSE Charts - Alice Blue",
-            "source": "Alice Blue",
-            "published": "Tue, 25 Aug 2026 19:52:45 GMT",
-            "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE05Q3hNeFgzUERvYUhxWmVEc014elRVTXM4a212TlhlbFlQekt5VTBVeHVjU2lodmM0T0RqcHZ1UHRQQWNaYkZ3UER1MkpReC11aG52bHdKZmNFQXNHVlR4N0lLUDRHalNmbGg4cFdzaw?oc=5"
+            "title": "JPM maintains Overweight on IIFL Finance with ₹750 target - scanx.trade",
+            "source": "scanx.trade",
+            "published": "Mon, 24 Aug 2026 19:43:58 GMT",
+            "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOejNyYUNWQzBONmFQQVJ0NjdZLVh4NGtWbUkyZFNmZ2dhbUJVVVJlcElha0lyY2k0eGpjSzRKczIyaWl3VXNYQVN5Q2x6eXZzOWNDazZwODNUV1djT2pGSEVDWDdORHE3SEJZcG9XVk1hMzFmaEotOE1BenJpQkdJZDdiOFVEVWtkSzRHOENUQXE0ZlFlcDJhNlJ6bUpmMUVWWEtYdzFOR2FCZWNONDRpczNR?oc=5"
           },
           {
-            "title": "IIFL Capital Services Ltd Share Price Today NSE/BSE Charts - Alice Blue",
-            "source": "Alice Blue",
-            "published": "Mon, 31 Aug 2026 22:14:26 GMT",
-            "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE4yTi11QllzYVRmblFfNHFra0F6VTdpZkU4a0RpY244amNGekdYSVNuQXkxYW5WcWxmdVdaT0lHTG8tLURTMml6VC1HY3Z5ZDRoSFNpZGc0WTJDdmZOdFhnZzFfRXNfWXRKSDBITXJkRTNXYk15LXhiXzEtMA?oc=5"
+            "title": "IIFL Finance shares decline over 7% after home finance arm receives ₹963 crore income tax demand notice; here's why - Upstox",
+            "source": "Upstox",
+            "published": "Mon, 24 Aug 2026 07:00:00 GMT",
+            "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxQWFhpZDZqaVZTMXFRaUxsUVo5a0JLSHNDYTB1X2VQRzhJa0pndEFnSVZ1WXFmc3IxN1BYajU4NFo3OFFxOW5mOVdkdjVYMG1nejZXSGNMbVc5VjlVczFxMXhLT042WV9VUE1iSDEtWEFfR2NFX1VmWmx5WnJRMkFvZmFDRmtYVW9scnZkdGtDQ1RGcFJhYmljWWVxUmpuUjFuSVFFeEJTNVNybEJRZ0FTVGtFME1NUU1kdi1oUHd4bTRxSENnVlhuVlpjTkdXY1JZakNJY011WjRHRXFSWXhxck9iTWotN0NWN0N6YVQwRmFoM044WFg0Q0g2V0xEMjVu?oc=5"
           },
           {
-            "title": "IIFL Capital Services Ltd Share Price Today | IIFL Capital Services Live NSE/BSE - Value Research",
-            "source": "Value Research",
-            "published": "Mon, 06 Jan 2025 16:06:16 GMT",
-            "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNYklUSXgtcHRFSGNLcC1JZE81YWtwY3VJbVNfODF4WERIUG9lOVdQbFlaeDV6SUNLX3p6UlpteGl2S055Z0xyRDJoTUtRcHlTUnFfVFJBSE5DblVDQzhUUk5UUjlCN0RjXzc3T0V0UUNuSHZab3ZnUGdJLVA2V2Zya2VR?oc=5"
+            "title": "IIFL Finance jumps 6% on healthy Q4; Motilal Oswal eyes up to 34% upside - Business Standard",
+            "source": "Business Standard",
+            "published": "Thu, 30 Apr 2026 07:00:00 GMT",
+            "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxObVVrdUYyZ1RQRGdWWmFXb0E1QWlldWZkNllETTlNd3lHY1VNN2NOR18xVDdJQURoYVRYZHgwUEEtYkZZTmlzN1I2T25ZRjdjYkl0eDBSQ3ZnY29RRWkyZm5NTkk5ajBnU1dBbWx2ZXVYVjB1RTJQVUtSdERUeGoxaHZ0S0pwQ2FzRTBlMWcycnZ1MWMweFk0QjdPMWd4TlFSd2xyeWFwLVNFazEwNHdhUm1QbGE4T2c3T19pelpxVUZ6Z1M5RmZQd3ZMQUFVMUYwTEHSAdcBQVVfeXFMTU83TTlLOC1sdnZRczBRQnJYa3pkVXF1RGM1Y2ZRTG5JZldURDFILVVZTzJmdTlFdmEzcjdvT3lDMThIeUx5U0p1NGpubWFOMmZ5WGx5Qjl1SGJVczBzYnQ1aDR0QlY4cTByLUxZclVtQ3Y0Y2dQX3VrTEVKOE9GUzRWQUZQeHNoSHVaTl9TZzdhcUVLT0xGY3FjTWoydVBiQThxRnoxaWFRME1RVkpaTWFvd2w2Uzk5Y2RER0VPc0hwUVNwZEdPckQtaThpLUlmQk1pOG9OdTg?oc=5"
           },
           {
-            "title": "IIFL Finance Share Price Today - IIFL Finance Ltd. Stock Price Live NSE/BSE - HDFC Sky",
-            "source": "HDFC Sky",
-            "published": "Thu, 02 Oct 2025 02:12:30 GMT",
-            "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9QcEhJTmwwTWFqbk1LVDdfaVpQeUotUlM4VmNxMVVBY05UNXk4MnM5Qk9KQlZ0TzFxYmF5bXdILVVabGJHQ0F2QkV4ekFVLVBKbl85THhR?oc=5"
+            "title": "Fairfax Buys 51% in IIFL Capital for ₹2,000 Crore - NiftyTrader",
+            "source": "NiftyTrader",
+            "published": "Fri, 08 May 2026 07:00:00 GMT",
+            "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE4yQnAta0k3T3ktR2tVZm4zNEJ4VlFhTE9XWEJBR2RIV1Y5MkRCVjlyNFB0QWlJN0Y5dlBkQmNPNWljT28xS1lpNHNteVlfaVBnVmo4MHZyV09qdWhBTHpiQ0ZQTUk3b2JZVWs3SkFGalBRakZFZm5v?oc=5"
           }
         ]
       },
       "fundamentals": {
         "symbol": "IIFL",
-        "market_cap_cr": 26131.0,
-        "trailing_pe": 10.507383,
-        "forward_pe": 7.9780903,
-        "price_to_book": 1.6883941,
+        "market_cap_cr": 26261.0,
+        "trailing_pe": 10.559752,
+        "forward_pe": 8.017854,
+        "price_to_book": 1.6968092,
         "roe_pct": 16.6,
         "debt_to_equity": 490.049,
         "revenue_growth_pct": 44.3,
@@ -1352,22 +1352,22 @@
         "profit_margin_pct": 26.11,
         "promoter_holding_pct": 46.86,
         "institutional_holding_pct": 22.18,
-        "dividend_yield_pct": 0.62,
+        "dividend_yield_pct": 0.65,
         "current_ratio": 141.045,
         "beta": 0.351,
         "target_mean": 790.0,
         "target_low": 650.0,
         "target_high": 880.0,
         "analyst_count": 6,
-        "current_price": 611.95,
+        "current_price": 615.0,
         "business_summary": "IIFL Finance Limited, a non-banking financial company, provides financial services in India and internationally. The company offers mortgage and gold loans; business loans, including business loans for manufacturers, women, and e-commerce; loans to micro, small, and medium enterprises; loans against securities; and digital finance loans, as well as supply chain finance. It also provides construction and real estate financing; capital market financing; and lending, broking, and wealth management services. The company was formerly known as IIFL Holdings Limited and changed its name to IIFL Finance Limited in May 2019. IIFL Finance Limited was incorporated in 1995 and is headquartered in Mumbai, India."
       },
       "benchmark": {
         "industry": "Financial Services",
         "peers": 97,
-        "trailing_pe": 20.14,
-        "price_to_book": 2.33,
-        "roe_pct": 14.29,
+        "trailing_pe": 20.1,
+        "price_to_book": 2.29,
+        "roe_pct": 14.28,
         "debt_to_equity": 169.82,
         "revenue_growth_pct": 17.6,
         "profit_margin_pct": 34.32
@@ -1376,7 +1376,7 @@
         "factors": [
           {
             "name": "Trailing P/E",
-            "value": "10.5",
+            "value": "10.6",
             "peer_value": "20.1",
             "stance": "bull",
             "note": "Cheaper than the typical peer on trailing earnings."
@@ -1418,12 +1418,12 @@
           }
         ],
         "bull_case": [
-          "Trailing P/E 10.5 vs sector 20.1. Cheaper than the typical peer on trailing earnings.",
+          "Trailing P/E 10.6 vs sector 20.1. Cheaper than the typical peer on trailing earnings.",
           "Price / Book 1.7 vs sector 2.3. Trades at a lower multiple of book value than peers.",
           "Return on Equity 16.6% vs sector 14.3%. Converts shareholder capital into profit better than peers.",
           "Revenue growth (yoy) 44.3% vs sector 17.6%. Growing the top line faster than the sector.",
           "Earnings grew 103% year on year, which is what has to keep happening for a re-rating to hold.",
-          "6 analysts publish a mean target of 790, 29% above the current price."
+          "6 analysts publish a mean target of 790, 28% above the current price."
         ],
         "bear_case": [
           "Debt / Equity 490.0 vs sector 169.8. More leveraged than peers, which amplifies any downturn.",
@@ -1438,7 +1438,7 @@
         "bull_count": 4,
         "bear_count": 2
       },
-      "research_prompt": "I'm a long-term retail investor in Indian equities (NSE). My screener flagged IIFL Finance Ltd. (IIFL) because it gained at least 3% on each of 1 consecutive sessions. I want your independent read - please push back on my screener rather than agreeing with it.\n\n## What my screener measured\n\n- Streak: 2026-11-20 to 2026-11-20, -5.0% cumulative\n- Daily gains: 2026-11-20 -5.04%\n- Last close: Rs 611.95\n- Sector: Financial Services\n- Median 20-day turnover: Rs 175.5 crore\n- Volume vs 20-day median: 5.1x\n- Distance from 52-week high: -12.1%\n- Return 1M / 3M / 1Y: 4.7% / -3.0% / None%\n\n## Attribution my engine computed\n\n- Verdict: company_catalyst - Company-specific - credit rating action disclosed to the exchange\n- Stock over the window: -5.0%\n- Sector median over the same window: +0.4%\n- Excess vs sector: -5.4 pp\n- Broad market median: -0.0%\n\n### NSE filings in the window\n\n- 2026-11-19 [catalyst] Credit Rating - Credit rating action\n  IIFL Finance Limited has informed the Exchange about Credit Rating\n\n### Recent headlines (unverified, from Google News)\n\n- IIFL Finance Share Price - Upstox\n- IIFL Finance (NSEI:IIFL) Stock Forecast & Analyst Predictions - Simply Wall St\n- IIFL Finance Ltd Share Price Today NSE/BSE Charts - Alice Blue\n- IIFL Capital Services Ltd Share Price Today NSE/BSE Charts - Alice Blue\n- IIFL Capital Services Ltd Share Price Today | IIFL Capital Services Live NSE/BSE - Value Research\n- IIFL Finance Share Price Today - IIFL Finance Ltd. Stock Price Live NSE/BSE - HDFC Sky\n\n## Fundamentals\n\n- Market cap: Rs 26,131 crore\n- Trailing P/E: 10.507383\n- Forward P/E: 7.9780903\n- Price/Book: 1.6883941\n- Return on equity: 16.6%\n- Debt/Equity: 490.049\n- Revenue growth (yoy): 44.3%\n- Earnings growth (yoy): 103.4%\n- Operating margin: 36.62%\n- Net margin: 26.11%\n- Promoter holding: 46.86%\n- Institutional holding: 22.18%\n- Dividend yield: 0.62%\n- Analyst count: 6\n- Mean target price: 790.0\n\n### Sector medians (Financial Services, 97 Nifty 500 peers)\n\n- Trailing P/E: 20.14\n- Price/Book: 2.33\n- Return on equity: 14.29%\n- Debt/Equity: 169.82\n- Revenue growth: 17.6%\n- Net margin: 34.32%\n\n## What I want from you\n\n1. **Why did it actually move?** My engine only sees exchange filings and price action. Check whether there is a real catalyst it missed - sector news, a peer's results, a policy change, an index inclusion, a block deal.\n2. **Is my engine's attribution wrong?** Say so directly if the evidence points elsewhere.\n3. **The one-year view.** Build a bull case and a bear case from the business, not from the chart. What has to be true for this to work, and what would break it? Be concrete about which numbers to watch.\n4. **What would you check that I have not?** Name the specific filings, segments or metrics.\n\nPlease flag anything above that looks stale or wrong, and tell me plainly if this looks like a speculative move rather than an investable one. I am not asking you to tell me whether to buy - I want the reasoning so I can decide."
+      "research_prompt": "I'm a long-term retail investor in Indian equities (NSE). My screener flagged IIFL Finance Ltd. (IIFL) because it gained at least 3% on each of 1 consecutive sessions. I want your independent read - please push back on my screener rather than agreeing with it.\n\n## What my screener measured\n\n- Streak: 2026-11-20 to 2026-11-20, -5.0% cumulative\n- Daily gains: 2026-11-20 -5.04%\n- Last close: Rs 611.95\n- Sector: Financial Services\n- Median 20-day turnover: Rs 175.5 crore\n- Volume vs 20-day median: 5.1x\n- Distance from 52-week high: -12.1%\n- Return 1M / 3M / 1Y: 4.7% / -3.0% / None%\n\n## Attribution my engine computed\n\n- Verdict: company_catalyst - Company-specific - credit rating action disclosed to the exchange\n- Stock over the window: -5.0%\n- Sector median over the same window: +0.4%\n- Excess vs sector: -5.4 pp\n- Broad market median: -0.0%\n\n### NSE filings in the window\n\n- 2026-11-19 [catalyst] Credit Rating - Credit rating action\n  IIFL Finance Limited has informed the Exchange about Credit Rating\n\n### Recent headlines (unverified, from Google News)\n\n- IIFL Capital Block Deal: 4.4 Crore Shares Change Hands for ₹1,505 Crore as Promoters Likely Sell Stake - Kotak Neo\n- IIFL Finance (NSEI:IIFL) Stock Forecast & Analyst Predictions - Simply Wall St\n- JPM maintains Overweight on IIFL Finance with ₹750 target - scanx.trade\n- IIFL Finance shares decline over 7% after home finance arm receives ₹963 crore income tax demand notice; here's why - Upstox\n- IIFL Finance jumps 6% on healthy Q4; Motilal Oswal eyes up to 34% upside - Business Standard\n- Fairfax Buys 51% in IIFL Capital for ₹2,000 Crore - NiftyTrader\n\n## Fundamentals\n\n- Market cap: Rs 26,261 crore\n- Trailing P/E: 10.559752\n- Forward P/E: 8.017854\n- Price/Book: 1.6968092\n- Return on equity: 16.6%\n- Debt/Equity: 490.049\n- Revenue growth (yoy): 44.3%\n- Earnings growth (yoy): 103.4%\n- Operating margin: 36.62%\n- Net margin: 26.11%\n- Promoter holding: 46.86%\n- Institutional holding: 22.18%\n- Dividend yield: 0.65%\n- Analyst count: 6\n- Mean target price: 790.0\n\n### Sector medians (Financial Services, 97 Nifty 500 peers)\n\n- Trailing P/E: 20.1\n- Price/Book: 2.29\n- Return on equity: 14.28%\n- Debt/Equity: 169.82\n- Revenue growth: 17.6%\n- Net margin: 34.32%\n\n## What I want from you\n\n1. **Why did it actually move?** My engine only sees exchange filings and price action. Check whether there is a real catalyst it missed - sector news, a peer's results, a policy change, an index inclusion, a block deal.\n2. **Is my engine's attribution wrong?** Say so directly if the evidence points elsewhere.\n3. **The one-year view.** Build a bull case and a bear case from the business, not from the chart. What has to be true for this to work, and what would break it? Be concrete about which numbers to watch.\n4. **What would you check that I have not?** Name the specific filings, segments or metrics.\n\nPlease flag anything above that looks stale or wrong, and tell me plainly if this looks like a speculative move rather than an investable one. I am not asking you to tell me whether to buy - I want the reasoning so I can decide."
     }
   ],
   "stats": {
